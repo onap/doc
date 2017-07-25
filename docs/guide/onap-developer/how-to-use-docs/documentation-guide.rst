@@ -54,9 +54,11 @@ The documentation toolchain will look in these directories and be triggered by e
 containing these directories.
 when generating documents.
 
+.. index:: master, document
+
 Document Structure and Contribution
 -----------------------------------
-A top level structure is proposed for organizing and storing all documents.
+A top level master_document structure is proposed for organizing and storing all documents.
 Four areas as shown below with some additional detail under each area.
 This structure may change some as we get the full requirements and gain experience with the first reelase of ONAP.
 Where multiple sections with similar content are expected, templates can be created and stored 
@@ -70,16 +72,21 @@ consistency across projects.
 ::
 
         docs/
-        ├── onap-developer
-        │   ├── architecture
-        │   ├── develop
-        │   ├── test
-        │   └── tutorial
         ├── release
-        │   ├── configure
-        │   ├── install
         │   ├── overview
+        │   ├── architecture
+        │   ├── use-cases
+        │   ├── tutorials
         │   └── release-notes
+        ├── onap-developer
+        │   ├── design
+        │   ├── develop
+        │   ├── document
+        │   └── test
+        ├── administrator
+        │   ├── configure
+        │   ├── deploy
+        │   └── operate
         ├── service-designer
         │   ├── deploy
         │   ├── design

@@ -1,11 +1,12 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 
-Documentation Guide
-===================
+.. _service_designer_guide:
+
+Service Designer Guide
+======================
 
 .. toctree::
    :maxdepth: 2
 
-   documentation-guide
-   include-documentation
-   addendum
+More to be added
+----------------

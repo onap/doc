@@ -4,18 +4,29 @@
 Release
 =======
 
-Summary
-=======
-
 Overview of use cases, installation, release notes, etc.
 
 
+Architecture
+------------
+
+
+Use Cases
+---------
+
+
+Tutorials
+---------
 
 
 
-Contents:
+Release Notes
+-------------
+
+
+Component Specific Notes
+++++++++++++++++++++++++
 
 .. toctree::
    :maxdepth: 1
 
-   release-notes/index.rst

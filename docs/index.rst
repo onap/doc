@@ -1,15 +1,20 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 
-Welcome to ONAP documentation!
-================================
+.. _master_index:
 
-Contents:
+ONAP Documentation
+==================
 
 .. toctree::
    :maxdepth: 1
 
    release/index
-   how-to-use-docs/index
+   guide/onap-developer/index
+   guide/service-designer/index
+   guide/platform-administrator/index
+   guide/vnf-provider/index
+
+
 
 Indices and tables
 ==================
@@ -17,4 +22,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
