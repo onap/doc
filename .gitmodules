@@ -1,3 +1,5 @@
 [submodule "docs/submodules/vnfrqts/guidelines"]
 	path = docs/submodules/vnfrqts/guidelines
 	url = ../vnfrqts/guidelines
+	branch = .
+	ignore = dirty
