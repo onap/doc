@@ -3,3 +3,6 @@
 	url = ../vnfrqts/guidelines
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/vnfrqts/requirements"]
+	path = docs/submodules/vnfrqts/requirements
+	url = http://gerrit.onap.org/r/vnfrqts/requirements

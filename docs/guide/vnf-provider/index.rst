@@ -9,3 +9,4 @@ VNF Provider Guide
    :maxdepth: 2
 
    ../../submodules/vnfrqts/guidelines/docs/index.rst
+   ../../submodules/vnfrqts/requirements/docs/index.rst
