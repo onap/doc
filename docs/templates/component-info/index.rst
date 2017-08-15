@@ -1,8 +1,8 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 
-XXXX Component Information
-==========================
+Component Information Template
+==============================
 High level architecture, design, and packaging information for release planning and delivery.
 
 .. toctree::
