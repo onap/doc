@@ -14,21 +14,25 @@ In your project repository
 --------------------------
 
 Add your documentation to your repository in the folder structure and
-using templates as described above. The documentation templates 
-are available in `doc/docs/templates/`, you should
-copy the relevant templates to your <repo>/docs/ directory in your repository.
-For instance if you want to document release-notes, then your steps shall be
+using templates as described above. 
+When using a template, copy the directory in `doc/docs/templates/`,
+to your <repo>/docs/ directory in your repository.
+For instance if you want to document component-info, then your steps shall be
 as follows:
 
 .. code-block:: bash
 
    git clone ssh://<your_id>@gerrit.onap.org:29418/doc
-   cp -p doc/docs/templates/release-notes <your_repo>/docs/release-notes/
+   cp -p doc/docs/templates/component-info <your_repo>/docs/component-info/
 
 
-You should then add the relevant information to the template that will
-explain the documentation. When you are done writing, you can commit
+You should then add the relevant information to the template.
+When you are done writing, you can commit
 the documentation to the your project repository.
+The sequence below shows basic git/gerrit steps, 
+see `Developer Best Practices`_ for complete current information.
+
+.. _Developer Best Practices: https://wiki.onap.org/x/BZZk
 
 .. code-block:: bash
 
@@ -40,17 +44,17 @@ In the ONAP doc Repository
 --------------------------
 
 To import project documents from project repositories, we use git submodules.
-Each ONAP project providing documentation, other than the doc project, is loaded under  `doc/docs/submodules/` 
-when needed for validating or publishing documentation.   To describe the relationship between content files
-we use the `Sphinx toctree directive`.
+Each ONAP project providing documentation, other than the doc project, is loaded under
+ `doc/docs/submodules/` when needed for validating or publishing documentation.
+To describe the relationship between content files we use the `Sphinx toctree directive`.
 
 The following diagram illustrates:
   - all ONAP gerrit project repositories,
-  - the doc project repository including a main index.rst,
-  - other master document directories and/or RST files that may be created to organize sections and documents,
-  - the submodules directory where other repositories and directories/files may be referenced,
-  - the templates directory with one example, a release-notes template, and
-  - another project repository `appc` that provides documentation source by copying and filling in an instance of the release-notes template.
+  - the doc project repository including a master document index.rst,
+  - other document directories and/or RST files that organize sections and documents doc repository,
+  - the submodules directory where other project repositories and directories/files may be referenced,
+  - the templates directory with one example, a component-info template that may referenced in release orhigh level design documents, and
+  - another project repository example,  `appc` that provides documentation source by copying and filling in an instance of the component-info template.
 
 
 .. graphviz::
@@ -61,7 +65,7 @@ The following diagram illustrates:
    node [fontname = "helvetica"];
    // Align gerrit repos and docs directories
    {rank=same doc aaf aai appc repoelipse vnfsdk vvp}
-   {rank=same releasenotestemplate localappcdocs }
+   {rank=same componentinfotemplate localappcdocs }
 
    //Show submodule linkage to docs directory
    submodules -> localappcdocs [style=dotted];
@@ -72,15 +76,15 @@ The following diagram illustrates:
    gerrit -> aaf;
    gerrit -> aai;
    gerrit -> appc;
-   gerrit -> repoelipse;                                   repoelipse [label=". . . ."];
+   gerrit -> repoelipse;                                      repoelipse [label=". . . ."];
    gerrit -> vnfsdk;
    gerrit -> vvp;
 
-   //Show example of local appc instance release notes
-   appc -> localappcdocs;                               localappcdocs [label="docs"];
-   localappcdocs -> releasenotesinstance; releasenotesinstance        [label="release-notes"];
-   releasenotesinstance -> relnoteindexinstance; relnoteindexinstance [label="index.rst", shape=box];
-   releasenotesinstance -> relnoteotherinstance; relnoteotherinstance [label="... other sections", shape=box];
+   //Show example of local appc instance of component info
+   appc -> localappcdocs;                                  localappcdocs [label="docs"];
+   localappcdocs -> componentinfoinstance;         componentinfoinstance [label="component-info"];
+   componentinfoinstance -> compinfoindexinstance; compinfoindexinstance [label="index.rst", shape=box];
+   componentinfoinstance -> compinofotherinstance; compinofotherinstance [label="... other sections", shape=box];
 
    //Show detail structure of a portion of doc/docs _images _static _templates multiple master documents omitted
    doc  -> docs;
@@ -91,14 +95,15 @@ The following diagram illustrates:
    docs -> indexdirelipse;                             indexdirelipse [label="...other\ndocuments"];
    docs -> submodules
 
-   //Example Release notes document
+   //Example Release document, section release notes, and reference to an instance of component-info
    release -> releasenotes;                              releasenotes [label="release-notes"];
    releasenotes -> lowerlevelindex;                   lowerlevelindex [label="index.rst", shape=box];
+   lowerlevelindex -> componentinfoinstance;
 
-   //Example release-notes template
-   rsttemplates -> releasenotestemplate;         releasenotestemplate [label="release-notes"];
-   releasenotestemplate -> relnoteindex;                 relnoteindex [label="index.rst", shape=box];
-   releasenotestemplate -> relnoteother;                 relnoteother [label="... other sections", shape=box];
+   //Example component-info template
+   rsttemplates -> componentinfotemplate;       componentinfotemplate [label="component-info"];
+   componentinfotemplate -> compinfotmpindex;        compinfotmpindex [label="index.rst", shape=box];
+   componentinfotemplate -> compinfotmpother;        compinfotmpother [label="... other sections", shape=box];
    }
 
 In the toctree
@@ -106,7 +111,7 @@ In the toctree
 
 To include your project specific documentation in the composite documentation,
 first identify where your project documentation should be included.
-Say your project provides release-notes and should be referenced in the `doc/docs/release/release-notes/index.rst toctree`, then:
+Say your project provides component-info and should be referenced in the `doc/docs/release/release-info/index.rst toctree`, then:
 
 .. code-block:: bash
 
@@ -123,10 +128,11 @@ it, example:
    .. toctree::
       :maxdepth: 1
 
-      ../../submodules/<your_repo>/docs/release-notes/index
+      ../../submodules/<your_repo>/docs/component-info/index
 
 When finished, you can request a commit to the doc project repository.
-Be sure to add the project leader of the docs project as a reviewr of the change you just pushed in gerrit.
+Be sure to add the PTL of the docs project as a reviewer of the change you just
+pushed in gerrit.
 
 .. code-block:: bash
    
