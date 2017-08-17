@@ -7,5 +7,6 @@ Documentation
    :maxdepth: 3
 
    documentation-guide
+   style-guide
    include-documentation
    addendum
