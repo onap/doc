@@ -5,4 +5,6 @@
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/requirements"]
 	path = docs/submodules/vnfrqts/requirements
-	url = http://gerrit.onap.org/r/vnfrqts/requirements
+	url = ../vnfrqts/requirements
+	branch = .
+	ignore = dirty
