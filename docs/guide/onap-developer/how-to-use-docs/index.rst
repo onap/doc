@@ -1,10 +1,11 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a 
+   Creative Commons Attribution 4.0 International License.
 
-Documentation
-=============
+Creating Documentation
+======================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    documentation-guide
    style-guide
