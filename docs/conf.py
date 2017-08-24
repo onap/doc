@@ -36,7 +36,8 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.viewcode',
-    'sphinxcontrib.blockdiag'
+    'sphinxcontrib.blockdiag',
+    'sphinxcontrib.seqdiag'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -84,7 +85,7 @@ language = None
 # directories to ignore when looking for source files.
 exclude_patterns = [
 	'_build',
-	'submodules/vnfrqts'
+	'submodules/vnfrqts/requirements'
 	]
 
 # The reST default role (used for this markup: `text`) to use for all

@@ -63,3 +63,28 @@ Consumed APIs
 Logging & Diagnostic Information
 --------------------------------
 Description of how to interact with and diagnose problems with the components in the run-time packaging.
+
+
+Installation
+------------
+Steps to Install
+
+
+Configuration
+-------------
+Where are they provided?
+What are parameters and values?
+
+
+Administration
+--------------
+
+How to run and manage the component.
+
+
+Human Interfaces
+----------------
+Basic info on the interface type, ports/protocols provided over, etc.
+
+
+
