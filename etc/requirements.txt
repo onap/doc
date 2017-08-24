@@ -6,4 +6,5 @@ setuptools
 six
 sphinxcontrib-httpdomain
 sphinxcontrib-blockdiag
+sphinxcontrib-seqdiag
 sphinx_bootstrap_theme>=0.4.11

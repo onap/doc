@@ -1,60 +1,116 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 
-.. _include-documentation:
 
-============================
-Including your Documentation
-============================
+Setting Up
+==========
+Some initial steps are required to connect a project with
+the master document structure and enable automated publishing of
+changes as summarized in the following diagram and described detail 
+below.
 
-.. contents::
-   :depth: 3
-   :local:
+.. seqdiag::
 
-In your project repository
---------------------------
+   seqdiag {
+     RD [label = "Read The Docs",                color =lightgreen ];
+     DA [label = "Doc Project\nAuthor/Committer",   color=lightblue];
+     DR [label = "Doc Gerrit Repo" ,                     color=pink];
+     PR [label = "Other Project\nGerrit Repo",          color=pink ];
+     PA [label = "Other Project\nAuthor/Committer", color=lightblue];
+     
+     === One time setup doc project only ===
+     RD  ->   DA [label = "Account Setup" ]; 
+     DA  ->   DR [label = "Create initial\nrepository content"];
+     DA  <<-- DR [label = "Merged" ];
+     RD  <--  DA [label = "Connect gerrit.onap.org" ];
+     === For each project & repository containing document source ===
+     DA  ->   PR [label = "Other Project Contribution to Setup\ndocs directory, index, other initial content" ];
+     PR  <--  PA [label = "Review/Merge Change" ];
+     DA  <--  PR [label = "Change Merged" ];     
+     DA  ->   DR [label = "Add Other Project Repo as\nGit submodule in doc project" ];
+     DA  <--  DR [label = "Change Merged" ];
+     }
+     
+     
 
-Add your documentation to your repository in the folder structure and
-using templates as described above. 
-When using a template, copy the directory in `doc/docs/templates/`,
-to your <repo>/docs/ directory in your repository.
-For instance if you want to document component-info, then your steps shall be
-as follows:
+Setup doc project
+-----------------
+These steps are performed only once for the doc project and include:
 
+(1) creating in the doc repository an initial:
+	- sphinx master document index
+	- directory structure aligned with the document structure
+	- set of test performed in jenkins verify jobs
+	- configuration for sphinx plugins and redendering of content
+  
+(2) establishing an account at readthedocs connected with gerrit.onap.org
+
+
+Setup other project(s)
+----------------------
+These steps are performed for each new project repo (referred to in the
+next three code blocks as $newreponame) the master document
+in doc repository references and include:
+
+(1) clone, modify, and commit to the other project an initial: docs top
+level directory; index.rst; any other intial content.   
+
+.. code-block:: bash
+
+   git clone ssh://<your_id>@gerrit.onap.org:29418/$newreponame
+   cd $newreponame
+   mkdir docs
+   echo ".. This work is licensed under a Creative Commons Attribution 4.0 International License.
+
+   $newreponame
+   ============
+
+   .. toctree::
+      :maxdepth: 1
+      
+   " >  docs/index.rst
+   
+   git add .
+   git commit -m "Add RST docs directory and index" -s
+   git commit --amend
+   # modify the commit message to comply with ONAP best practices
+   git review
+   
+When the above commit is reviewed and merged complete step 2 before any
+new changes are merged into $newreponame.
+	
+(2) clone, modify, and commit to the doc project: a directory under doc/docs/submodules with the same path/name as the other project and initialized as a git submodule.
+	
 .. code-block:: bash
 
    git clone ssh://<your_id>@gerrit.onap.org:29418/doc
-   cp -p doc/docs/templates/component-info <your_repo>/docs/component-info/
-
-
-You should then add the relevant information to the template.
-When you are done writing, you can commit
-the documentation to the your project repository.
-The sequence below shows basic git/gerrit steps, 
-see `Developer Best Practices`_ for complete current information.
-
-.. _Developer Best Practices: https://wiki.onap.org/x/BZZk
-
-.. code-block:: bash
-
+   # For top level repositories use the following
+   mkdir doc/docs/submodules/$reponame
+   # For lower level repositories you may need to make a directory for each node in path
+   
+   echo "../submodules/$newreponame/index.rst" >> docs/release/index.rst
+   cd doc/docs/submodules/$reponame
+   
+   git submodule git https://gerrit.onap.org/r/$reponame
+   git submodule init $reponame/
+   git submodule update $reponame/
+   
+   
    git add .
-   git commit --signoff --all
+   git commit -m "Add $newreponame as asubmodule" -s
+   git commit --amend
+   # modify the commit message to comply with ONAP best practices
    git review
+   
 
-In the ONAP doc Repository
---------------------------
 
-To import project documents from project repositories, we use git submodules.
-Each ONAP project providing documentation, other than the doc project, is loaded under
-`doc/docs/submodules/` when needed for validating or publishing documentation.
-To describe the relationship between content files we use the `Sphinx toctree directive`.
+The diagram below illustrates what is accomplished in the setup steps
+above from the perspective of a file structure created for local test,
+jenkins verify job, and/or merge/publish documentation including:
 
-The following diagram illustrates:
   - all ONAP gerrit project repositories,
-  - the doc project repository including a master document index.rst,
-  - other document directories and/or RST files that organize sections and documents doc repository,
-  - the submodules directory where other project repositories and directories/files may be referenced,
-  - the templates directory with one example, a component-info template that may referenced in release orhigh level design documents, and
-  - another project repository example,  `appc` that provides documentation source by copying and filling in an instance of the component-info template.
+  - the doc project repository including a master document index.rst, templates, configuration
+  - the submodules directory where other project repositories and directories/files may be referenced
+  - newreponame project repository being added and integrated.
 
 
 .. graphviz::
@@ -64,81 +120,54 @@ The following diagram illustrates:
    size="8,12";
    node [fontname = "helvetica"];
    // Align gerrit repos and docs directories
-   {rank=same doc aaf aai appc repoelipse vnfsdk vvp}
-   {rank=same componentinfotemplate localappcdocs }
+   {rank=same doc aaf aai newreponame repoelipse vnfsdk vvp}
+   {rank=same confpy release templates masterindex submodules otherdocdocumentelipse}
 
-   //Show submodule linkage to docs directory
-   submodules -> localappcdocs [style=dotted];
 
    //Illustrate Gerrit Repos and provide URL/Link for complete repo list
    gerrit [label="gerrit.onap.org/r", href="https://gerrit.onap.org/r/#/admin/projects/" ];
    gerrit -> doc;
    gerrit -> aaf;
    gerrit -> aai;
-   gerrit -> appc;
-   gerrit -> repoelipse;                                      repoelipse [label=". . . ."];
+   gerrit -> newreponame; 
+   gerrit -> repoelipse;
+             repoelipse [label=". . . ."];
    gerrit -> vnfsdk;
    gerrit -> vvp;
 
-   //Show example of local appc instance of component info
-   appc -> localappcdocs;                                  localappcdocs [label="docs"];
-   localappcdocs -> componentinfoinstance;         componentinfoinstance [label="component-info"];
-   componentinfoinstance -> compinfoindexinstance; compinfoindexinstance [label="index.rst", shape=box];
-   componentinfoinstance -> compinofotherinstance; compinofotherinstance [label="... other sections", shape=box];
+   //Show example of local newreponame instance of component info
+   newreponame -> newreponamedocsdir;
+   newreponamesm -> newreponamedocsdir;  
+                    newreponamedocsdir [label="docs"];
+   newreponamedocsdir -> newrepodocsdirindex; 
+                         newrepodocsdirindex [label="index.rst", shape=box];
 
-   //Show detail structure of a portion of doc/docs _images _static _templates multiple master documents omitted
+   //Show detail structure of a portion of doc/docs 
    doc  -> docs;
-   docs -> confpy;                                             confpy [label="conf.py",shape=box];
-   docs -> toplevelindex;                               toplevelindex [label="index.rst", shape=box];
+   docs -> confpy;                   
+           confpy [label="conf.py",shape=box];
+   docs -> masterindex; 
+           masterindex [label="Master index.rst", shape=box];
    docs -> release;
-   docs -> rsttemplates;                                 rsttemplates [label="templates"];
-   docs -> indexdirelipse;                             indexdirelipse [label="...other\ndocuments"];
+   docs -> templates;                                
+   docs -> otherdocdocumentelipse;  
+           otherdocdocumentelipse [label="...other\ndocuments"];
    docs -> submodules
+   
+   masterindex -> releasedocumentindex [style=dashed, label="sphinx\ntoctree\nreference"];
+   
+   //Show submodule linkage to docs directory
+   submodules -> newreponamesm [style=dotted,label="git\nsubmodule\nreference"];  
+                 newreponamesm [label="newreponame"];
 
-   //Example Release document, section release notes, and reference to an instance of component-info
-   release -> releasenotes;                              releasenotes [label="release-notes"];
-   releasenotes -> lowerlevelindex;                   lowerlevelindex [label="index.rst", shape=box];
-   lowerlevelindex -> componentinfoinstance;
-
-   //Example component-info template
-   rsttemplates -> componentinfotemplate;       componentinfotemplate [label="component-info"];
-   componentinfotemplate -> compinfotmpindex;        compinfotmpindex [label="index.rst", shape=box];
-   componentinfotemplate -> compinfotmpother;        compinfotmpother [label="... other sections", shape=box];
+   //Example Release document index that references component info provided in other project repo
+   release -> releasedocumentindex;   
+              releasedocumentindex [label="index.rst", shape=box];
+   releasedocumentindex -> newrepodocsdirindex [style=dashed, label="sphinx\ntoctree\nreference"];
+ 
    }
 
-In the toctree
-++++++++++++++
-
-To include your project specific documentation in the composite documentation,
-first identify where your project documentation should be included.
-Say your project provides component-info and should be referenced in the `doc/docs/release/release-info/index.rst toctree`, then:
-
-.. code-block:: bash
-
-   git clone ssh://<your_id>@gerrit.onap.org:29418/doc
-   vim doc/docs/release/release-notes/index.rst
-
-This opens the text editor. Identify where you want to add your release notes.
-If your release notes are to be added to the toctree, simply include the path to
-it, example:
-
-
-.. code-block:: bash
-
-   .. toctree::
-      :maxdepth: 1
-
-      ../../submodules/<your_repo>/docs/component-info/index
-
-When finished, you can request a commit to the doc project repository.
-Be sure to add the PTL of the docs project as a reviewer of the change you just
-pushed in gerrit.
-
-.. code-block:: bash
-   
-   git add .
-   git commit --signoff --all
-   git review
+THE FOLLOWING SECTION NEEDS TO BE CONSOLIDATED / UPDATED
 
 
 As a Hyperlink
@@ -302,3 +331,5 @@ Clone the doc repository and add your submodule using the commands below and whe
   git submodule update $reponame/
   git add .
   git review
+
+
