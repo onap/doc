@@ -40,6 +40,9 @@ extensions = [
     'sphinxcontrib.seqdiag'
 ]
 
+# Font path for seqdiag
+seqdiag_fontpath= '/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf'
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -84,8 +87,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = [
-	'_build',
-	'submodules/vnfrqts'
+	'_build'
 	]
 
 # The reST default role (used for this markup: `text`) to use for all

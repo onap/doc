@@ -23,10 +23,14 @@ Tutorials
 Release Notes
 -------------
 
-
-Component Specific Notes
-++++++++++++++++++++++++
+Projects Providing Documentation
+--------------------------------
 
 .. toctree::
    :maxdepth: 1
+
+   repolist.rst
+
+
+
 

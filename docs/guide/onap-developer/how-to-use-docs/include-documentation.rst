@@ -3,12 +3,14 @@
 
 Setting Up
 ==========
-Some initial steps are required to connect a project with
+Some initial set up is required to connect a project with
 the master document structure and enable automated publishing of
-changes as summarized in the following diagram and described detail 
+changes as summarized in the following diagram and description below 
 below.
 
 .. seqdiag::
+   :height: 700
+   :width: 1000
 
    seqdiag {
      RD [label = "Read The Docs",                color =lightgreen ];
@@ -18,16 +20,16 @@ below.
      PA [label = "Other Project\nAuthor/Committer", color=lightblue];
      
      === One time setup doc project only ===
-     RD  ->   DA [label = "Account Setup" ]; 
-     DA  ->   DR [label = "Create initial\nrepository content"];
-     DA  <<-- DR [label = "Merged" ];
+     RD  ->   DA [label = "Acquire Account" ]; 
+     DA  ->   DR [label = "Create initial\n doc repository content"];
+     DA  <<-- DR [label = "Merge" ];
      RD  <--  DA [label = "Connect gerrit.onap.org" ];
-     === For each project & repository containing document source ===
-     DA  ->   PR [label = "Other Project Contribution to Setup\ndocs directory, index, other initial content" ];
-     PR  <--  PA [label = "Review/Merge Change" ];
-     DA  <--  PR [label = "Change Merged" ];     
-     DA  ->   DR [label = "Add Other Project Repo as\nGit submodule in doc project" ];
-     DA  <--  DR [label = "Change Merged" ];
+     === For each new project repository containing document source ===
+     DA  ->   PR [label = "Create in new project repo\ntop level directory and index.rst" ];
+     PR  <--  PA [label = "Review/Approve" ];
+     DA  <--  PR [label = "Merge" ];     
+     DA  ->   DR [label = "Add new project repo as\ngit submodule" ];
+     DA  <--  DR [label = "Merge" ];
      }
      
      
@@ -38,32 +40,32 @@ These steps are performed only once for the doc project and include:
 
 (1) creating in the doc repository an initial:
 	- sphinx master document index
-	- directory structure aligned with the document structure
-	- set of test performed in jenkins verify jobs
-	- configuration for sphinx plugins and redendering of content
+	- a directory structure aligned with the document structure
+	- tests performed in jenkins verify jobs
+	- sphinx configuration
   
-(2) establishing an account at readthedocs connected with gerrit.onap.org
+(2) establishing an account at readthedocs connected with the doc
+doc project repo in gerrit.onap.org.
 
 
-Setup other project(s)
-----------------------
+Setup new project repositories(s)
+---------------------------------
 These steps are performed for each new project repo (referred to in the
-next three code blocks as $newreponame) the master document
-in doc repository references and include:
+next two code blocks as $reponame):
 
 (1) clone, modify, and commit to the other project an initial: docs top
 level directory; index.rst; any other intial content.   
 
 .. code-block:: bash
 
-   git clone ssh://<your_id>@gerrit.onap.org:29418/$newreponame
-   cd $newreponame
+   reponame=test
+   git clone ssh://<your_id>@gerrit.onap.org:29418/$reponame
+   cd $reponame
    mkdir docs
    echo ".. This work is licensed under a Creative Commons Attribution 4.0 International License.
 
-   $newreponame
-   ============
-
+   TODO Add files to toctree and delete this header
+   ------------------------------------------------
    .. toctree::
       :maxdepth: 1
       
@@ -76,7 +78,7 @@ level directory; index.rst; any other intial content.
    git review
    
 When the above commit is reviewed and merged complete step 2 before any
-new changes are merged into $newreponame.
+new changes are merged into $reponame.
 	
 (2) clone, modify, and commit to the doc project: a directory under doc/docs/submodules with the same path/name as the other project and initialized as a git submodule.
 	
@@ -87,8 +89,7 @@ new changes are merged into $newreponame.
    mkdir doc/docs/submodules/$reponame
    # For lower level repositories you may need to make a directory for each node in path
    
-   echo "../submodules/$newreponame/index.rst" >> docs/release/index.rst
-   cd doc/docs/submodules/$reponame
+   echo "   $reponame <../submodules/$reponame/docs/index>" >> docs/release/repolist.rst
    
    git submodule git https://gerrit.onap.org/r/$reponame
    git submodule init $reponame/
@@ -96,7 +97,7 @@ new changes are merged into $newreponame.
    
    
    git add .
-   git commit -m "Add $newreponame as asubmodule" -s
+   git commit -m "Add $reponame as a submodule" -s
    git commit --amend
    # modify the commit message to comply with ONAP best practices
    git review
@@ -104,13 +105,12 @@ new changes are merged into $newreponame.
 
 
 The diagram below illustrates what is accomplished in the setup steps
-above from the perspective of a file structure created for local test,
-jenkins verify job, and/or merge/publish documentation including:
+above from the perspective of a file structure created for a local test,
+a jenkins verify job, and/or publish release documentation including:
 
   - all ONAP gerrit project repositories,
-  - the doc project repository including a master document index.rst, templates, configuration
+  - the doc project repository master document index.rst, templates, configuration
   - the submodules directory where other project repositories and directories/files may be referenced
-  - newreponame project repository being added and integrated.
 
 
 .. graphviz::
@@ -120,7 +120,7 @@ jenkins verify job, and/or merge/publish documentation including:
    size="8,12";
    node [fontname = "helvetica"];
    // Align gerrit repos and docs directories
-   {rank=same doc aaf aai newreponame repoelipse vnfsdk vvp}
+   {rank=same doc aaf aai reponame repoelipse vnfsdk vvp}
    {rank=same confpy release templates masterindex submodules otherdocdocumentelipse}
 
 
@@ -129,17 +129,17 @@ jenkins verify job, and/or merge/publish documentation including:
    gerrit -> doc;
    gerrit -> aaf;
    gerrit -> aai;
-   gerrit -> newreponame; 
+   gerrit -> reponame; 
    gerrit -> repoelipse;
              repoelipse [label=". . . ."];
    gerrit -> vnfsdk;
    gerrit -> vvp;
 
-   //Show example of local newreponame instance of component info
-   newreponame -> newreponamedocsdir;
-   newreponamesm -> newreponamedocsdir;  
-                    newreponamedocsdir [label="docs"];
-   newreponamedocsdir -> newrepodocsdirindex; 
+   //Show example of local reponame instance of component info
+   reponame -> reponamedocsdir;
+   reponamesm -> reponamedocsdir;  
+                    reponamedocsdir [label="docs"];
+   reponamedocsdir -> newrepodocsdirindex; 
                          newrepodocsdirindex [label="index.rst", shape=box];
 
    //Show detail structure of a portion of doc/docs 
@@ -157,8 +157,8 @@ jenkins verify job, and/or merge/publish documentation including:
    masterindex -> releasedocumentindex [style=dashed, label="sphinx\ntoctree\nreference"];
    
    //Show submodule linkage to docs directory
-   submodules -> newreponamesm [style=dotted,label="git\nsubmodule\nreference"];  
-                 newreponamesm [label="newreponame"];
+   submodules -> reponamesm [style=dotted,label="git\nsubmodule\nreference"];  
+                 reponamesm [label="reponame"];
 
    //Example Release document index that references component info provided in other project repo
    release -> releasedocumentindex;   
@@ -167,12 +167,13 @@ jenkins verify job, and/or merge/publish documentation including:
  
    }
 
-THE FOLLOWING SECTION NEEDS TO BE CONSOLIDATED / UPDATED
+Creating Restructured Text
+==========================
 
+TODO Add simple example and references here
 
-As a Hyperlink
-++++++++++++++
-
+Links and References
+====================
 It's pretty common to want to reference another location in the
 ONAP documentation and it's pretty easy to do with
 reStructuredText. This is a quick primer, more information is in the
@@ -215,9 +216,11 @@ Because the labels have to be unique, it usually makes sense to prefix
 the labels with the project name to help share the label space, e.g.,
 ``sfc-user-guide`` instead of just ``user-guide``.
 
+Testing
+=======
 
-'doc8' Validation
------------------
+One RST File
+------------
 It is recommended that all rst content is validated by `doc8 <https://pypi.python.org/pypi/doc8>`_ standards.
 To validate your rst files using doc8, install doc8.
 
@@ -232,46 +235,9 @@ doc8 can now be used to check the rst files. Execute as,
    doc8 --ignore D000,D001 <file>
 
 
-Testing: Build Documentation Locally
-------------------------------------
 
-Composite DOC documentation
-+++++++++++++++++++++++++++++++++
-To build the whole documentation under doc/, follow these steps:
-
-Install virtual environment.
-
-.. code-block:: bash
-
-   sudo pip install virtualenv
-   cd /local/repo/path/to/project
-
-Download the DOC repository.
-
-.. code-block:: bash
-
-   git clone http://gerrit.onap.org/r/doc
-
-Change directory to docs & install requirements.
-
-.. code-block:: bash
-
-   cd doc
-   sudo pip install -r etc/requirements.txt
-
-Update submodules, build documentation using tox & then open using any browser.
-
-.. code-block:: bash
-
-   cd doc
-   git submodule update --init
-   tox -edocs
-   firefox docs/_build/html/index.html
-
-.. note:: Make sure to run `tox -edocs` and not just `tox`.
-
-Individual project documentation
-++++++++++++++++++++++++++++++++
+One Project
+-----------
 To test how the documentation renders in HTML, follow these steps:
 
 Install virtual environment.
@@ -318,18 +284,40 @@ specified output folder directory.
 .. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
 
 
-Adding your project repository as a submodule
----------------------------------------------
+All Documentation
+-----------------
+To build the whole documentation under doc/, follow these steps:
 
-Clone the doc repository and add your submodule using the commands below and where $reponame is your repository name.
+Install virtual environment.
 
 .. code-block:: bash
 
-  cd docs/submodules/
-  git submodule git https://gerrit.onap.org/r/$reponame
-  git submodule init $reponame/
-  git submodule update $reponame/
-  git add .
-  git review
+   sudo pip install virtualenv
+   cd /local/repo/path/to/project
+
+Download the DOC repository.
+
+.. code-block:: bash
+
+   git clone http://gerrit.onap.org/r/doc
+
+Change directory to docs & install requirements.
+
+.. code-block:: bash
+
+   cd doc
+   sudo pip install -r etc/requirements.txt
+
+Update submodules, build documentation using tox & then open using any browser.
+
+.. code-block:: bash
+
+   cd doc
+   git submodule update --init
+   tox -edocs
+   firefox docs/_build/html/index.html
+
+.. note:: Make sure to run `tox -edocs` and not just `tox`.
+
 
 
