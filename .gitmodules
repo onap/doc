@@ -8,3 +8,6 @@
 	url = ../vnfrqts/requirements
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/appc/appc"]
+	path = docs/submodules/appc/appc
+	url = https://gerrit.onap.org/r/appc
