@@ -8,8 +8,8 @@
 	url = ../vnfrqts/requirements
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/appc/appc"]
-	path = docs/submodules/appc/appc
+[submodule "docs/submodules/appc"]
+	path = docs/submodules/appc
 	url = ../appc
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
