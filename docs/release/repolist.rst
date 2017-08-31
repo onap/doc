@@ -5,6 +5,6 @@
    :maxdepth: 1
    :titlesonly:
    
-   appc <../submodules/appc/appc/docs/index>
-   vnfrqts/guidelines <../submodules/vnfrqts/guidelines/docs/index>
-   vnfrqts/requirements <../submodules/vnfrqts/requirements/docs/index>
+   appc <../submodules/appc.git/docs/index>
+   vnfrqts/guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
+   vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>

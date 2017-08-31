@@ -24,10 +24,12 @@ below.
      DA  ->   DR [label = "Create initial\n doc repository content"];
      DA  <<-- DR [label = "Merge" ];
      RD  <--  DA [label = "Connect gerrit.onap.org" ];
-     === For each new project repository containing document source ===
-     DA  ->   DR [label = "Add new project repo as\ngit submodule" ];
-     DA  <--  DR [label = "Merge" ];     
-     PA  ->   PR [label = "Create in new project repo\ntop level directory and index.rst" ];
+     === For each project repository containing document source ===
+     PA  ->   DR [label = "Add project repo as\ngit submodule" ];
+     DR  ->   DA [label = "Review & Plan to\nIntegrate Content with\nTocTree Structure" ];
+     DR  <--  DA [label = "Vote +2/Merge" ];
+     PA  <--  DR [label = "Merge Notification" ];     
+     PA  ->   PR [label = "Create in project repo\ntop level directory and index.rst" ];
      PR  ->   DA [label = "Add as Reviewer" ];
      PR  <--  DA [label = "Approve and Integrate" ];
      PA  <--  PR [label = "Merge" ];
@@ -49,12 +51,12 @@ These steps are performed only once for the doc project and include:
 doc project repo in gerrit.onap.org.
 
 
-Setup new project repositories(s)
----------------------------------
-These steps are performed for each new project repo (referred to in the
+Setup project repositories(s)
+-----------------------------
+These steps are performed for each project repo (referred to in the
 next two code blocks as $reponame):
 
-(1) clone, modify, and commit to the doc project: a directory under doc/docs/submodules with the same path/name as the new project initialized as a git submodule.
+(1) clone, modify, and commit to the doc project: a directory under doc/docs/submodules using the same path/name as the gerrit project with .git appended and initialized as a git submodule.
 	
 .. code-block:: bash
 
@@ -63,11 +65,11 @@ next two code blocks as $reponame):
    git clone ssh://<your_id>@gerrit.onap.org:29418/doc
    cd doc
    mkdir -p `dirname docs/submodules/$reponame`
-   git submodule add https://gerrit.onap.org/r/$reponame docs/submodules/$reponame
-   git submodule init docs/submodules/$reponame
-   git submodule update docs/submodules/$reponame
+   git submodule add https://gerrit.onap.org/r/$reponame docs/submodules/$reponame.git
+   git submodule init docs/submodules/$reponame.git
+   git submodule update docs/submodules/$reponame.git
 
-   echo "   $reponame <../submodules/$reponame/docs/index>" >> docs/release/repolist.rst
+   echo "   $reponame <../submodules/$reponame.git/docs/index>" >> docs/release/repolist.rst
    
    git add .
    git commit -m "Add $reponame as a submodule" -s
@@ -77,7 +79,7 @@ next two code blocks as $reponame):
    
 
 
-(2) clone, modify, and commit to the new project an initial: docs top
+(2) clone, modify, and commit to the project an initial: docs top
 level directory; index.rst; any other intial content.   
 
 .. code-block:: bash
@@ -137,8 +139,8 @@ a jenkins verify job, and/or published release documentation including:
    reponame -> reponamedocsdir;
    reponamesm -> reponamedocsdir;  
                     reponamedocsdir [label="docs"];
-   reponamedocsdir -> newrepodocsdirindex; 
-                         newrepodocsdirindex [label="index.rst", shape=box];
+   reponamedocsdir -> repnamedocsdirindex; 
+                         repnamedocsdirindex [label="index.rst", shape=box];
 
    //Show detail structure of a portion of doc/docs 
    doc  -> docs;
@@ -156,7 +158,7 @@ a jenkins verify job, and/or published release documentation including:
    
    //Show submodule linkage to docs directory
    submodules -> reponamesm [style=dotted,label="git\nsubmodule\nreference"];  
-                 reponamesm [label="reponame"];
+                 reponamesm [label="reponame.git"];
 
    //Example Release document index that references component info provided in other project repo
    release -> releasedocumentindex;   
@@ -164,7 +166,7 @@ a jenkins verify job, and/or published release documentation including:
    releasedocumentindex -> releaserepolist [style=dashed, label="sphinx\ntoctree\nreference"];
 			   releaserepolist  [label="repolist.rst", shape=box];
    release -> releaserepolist;
-   releaserepolist -> newrepodocsdirindex [style=dashed, label="sphinx\ntoctree\nreference"];
+   releaserepolist -> repnamedocsdirindex [style=dashed, label="sphinx\ntoctree\nreference"];
  
    }
 

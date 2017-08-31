@@ -1,15 +1,24 @@
 [submodule "docs/submodules/vnfrqts/guidelines"]
-	path = docs/submodules/vnfrqts/guidelines
+	path = docs/submodules/vnfrqts/guidelines.git
 	url = ../vnfrqts/guidelines
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/requirements"]
-	path = docs/submodules/vnfrqts/requirements
+	path = docs/submodules/vnfrqts/requirements.git
 	url = ../vnfrqts/requirements
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/appc"]
 	path = docs/submodules/appc
-	url = ../appc
+	url = https://gerrit.onap.org/r/appc
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/appc.git"]
+	path = docs/submodules/appc.git
+	url = https://gerrit.onap.org/r/appc
+[submodule "docs/submodules/vnfrqts/guidelines.git"]
+	path = docs/submodules/vnfrqts/guidelines.git
+	url = https://gerrit.onap.org/r/vnfrqts/guidelines
+[submodule "docs/submodules/vnfrqts/requirements.git"]
+	path = docs/submodules/vnfrqts/requirements.git
+	url = https://gerrit.onap.org/r/vnfrqts/requirements
