@@ -25,11 +25,12 @@ below.
      DA  <<-- DR [label = "Merge" ];
      RD  <--  DA [label = "Connect gerrit.onap.org" ];
      === For each new project repository containing document source ===
-     DA  ->   PR [label = "Create in new project repo\ntop level directory and index.rst" ];
-     PR  <--  PA [label = "Review/Approve" ];
-     DA  <--  PR [label = "Merge" ];     
      DA  ->   DR [label = "Add new project repo as\ngit submodule" ];
-     DA  <--  DR [label = "Merge" ];
+     DA  <--  DR [label = "Merge" ];     
+     PA  ->   PR [label = "Create in new project repo\ntop level directory and index.rst" ];
+     PR  ->   DA [label = "Add as Reviewer" ];
+     PR  <--  DA [label = "Approve and Integrate" ];
+     PA  <--  PR [label = "Merge" ];
      }
      
      
@@ -53,12 +54,34 @@ Setup new project repositories(s)
 These steps are performed for each new project repo (referred to in the
 next two code blocks as $reponame):
 
-(1) clone, modify, and commit to the other project an initial: docs top
+(1) clone, modify, and commit to the doc project: a directory under doc/docs/submodules with the same path/name as the new project initialized as a git submodule.
+	
+.. code-block:: bash
+
+   reponame=<your_repo_name>
+
+   git clone ssh://<your_id>@gerrit.onap.org:29418/doc
+   cd doc
+   mkdir -p `dirname docs/submodules/$reponame`
+   git submodule add https://gerrit.onap.org/r/$reponame docs/submodules/$reponame
+   git submodule init docs/submodules/$reponame
+   git submodule update docs/submodules/$reponame
+
+   echo "   $reponame <../submodules/$reponame/docs/index>" >> docs/release/repolist.rst
+   
+   git add .
+   git commit -m "Add $reponame as a submodule" -s
+   git commit --amend
+   # modify the commit message to comply with ONAP best practices
+   git review
+   
+
+
+(2) clone, modify, and commit to the new project an initial: docs top
 level directory; index.rst; any other intial content.   
 
 .. code-block:: bash
 
-   reponame=test
    git clone ssh://<your_id>@gerrit.onap.org:29418/$reponame
    cd $reponame
    mkdir docs
@@ -77,36 +100,10 @@ level directory; index.rst; any other intial content.
    # modify the commit message to comply with ONAP best practices
    git review
    
-When the above commit is reviewed and merged complete step 2 before any
-new changes are merged into $reponame.
-	
-(2) clone, modify, and commit to the doc project: a directory under doc/docs/submodules with the same path/name as the other project and initialized as a git submodule.
-	
-.. code-block:: bash
-
-   git clone ssh://<your_id>@gerrit.onap.org:29418/doc
-   # For top level repositories use the following
-   mkdir doc/docs/submodules/$reponame
-   # For lower level repositories you may need to make a directory for each node in path
-   
-   echo "   $reponame <../submodules/$reponame/docs/index>" >> docs/release/repolist.rst
-   
-   git submodule git https://gerrit.onap.org/r/$reponame
-   git submodule init $reponame/
-   git submodule update $reponame/
-   
-   
-   git add .
-   git commit -m "Add $reponame as a submodule" -s
-   git commit --amend
-   # modify the commit message to comply with ONAP best practices
-   git review
-   
-
 
 The diagram below illustrates what is accomplished in the setup steps
 above from the perspective of a file structure created for a local test,
-a jenkins verify job, and/or publish release documentation including:
+a jenkins verify job, and/or published release documentation including:
 
   - all ONAP gerrit project repositories,
   - the doc project repository master document index.rst, templates, configuration
@@ -122,10 +119,11 @@ a jenkins verify job, and/or publish release documentation including:
    // Align gerrit repos and docs directories
    {rank=same doc aaf aai reponame repoelipse vnfsdk vvp}
    {rank=same confpy release templates masterindex submodules otherdocdocumentelipse}
-
+   {rank=same releasedocumentindex releaserepolist}
 
    //Illustrate Gerrit Repos and provide URL/Link for complete repo list
    gerrit [label="gerrit.onap.org/r", href="https://gerrit.onap.org/r/#/admin/projects/" ];
+   doc [href="https://gerrit.onap.org/r/gitweb?p=doc.git;a=tree"];
    gerrit -> doc;
    gerrit -> aaf;
    gerrit -> aai;
@@ -147,7 +145,7 @@ a jenkins verify job, and/or publish release documentation including:
    docs -> confpy;                   
            confpy [label="conf.py",shape=box];
    docs -> masterindex; 
-           masterindex [label="Master index.rst", shape=box];
+           masterindex [label="Master\nindex.rst", shape=box];
    docs -> release;
    docs -> templates;                                
    docs -> otherdocdocumentelipse;  
@@ -163,7 +161,10 @@ a jenkins verify job, and/or publish release documentation including:
    //Example Release document index that references component info provided in other project repo
    release -> releasedocumentindex;   
               releasedocumentindex [label="index.rst", shape=box];
-   releasedocumentindex -> newrepodocsdirindex [style=dashed, label="sphinx\ntoctree\nreference"];
+   releasedocumentindex -> releaserepolist [style=dashed, label="sphinx\ntoctree\nreference"];
+			   releaserepolist  [label="repolist.rst", shape=box];
+   release -> releaserepolist;
+   releaserepolist -> newrepodocsdirindex [style=dashed, label="sphinx\ntoctree\nreference"];
  
    }
 
