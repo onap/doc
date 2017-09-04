@@ -13,3 +13,8 @@
 	url = ../appc
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/cli"]
+	path = docs/submodules/cli
+	url = ../cli
+        branch = .
+        ignore = dirty
