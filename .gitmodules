@@ -13,3 +13,6 @@
 	url = ../appc
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/cli"]
+	path = docs/submodules/cli
+	url = https://gerrit.onap.org/r/cli
