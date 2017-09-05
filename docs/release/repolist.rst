@@ -9,3 +9,4 @@
    vnfrqts/guidelines <../submodules/vnfrqts/guidelines/docs/index>
    vnfrqts/requirements <../submodules/vnfrqts/requirements/docs/index>
    cli <../submodules/cli/docs/index>
+   clamp <../submodules/clamp/docs/index>

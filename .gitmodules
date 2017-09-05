@@ -18,3 +18,6 @@
 	url = ../cli
         branch = .
         ignore = dirty
+[submodule "docs/submodules/clamp"]
+	path = docs/submodules/clamp
+	url = https://gerrit.onap.org/r/clamp
