@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_2b905e42",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-09-06T17:29:27Z",
+      "side": 1,
+      "message": "Move to the external references above change-id and add Issue-ID: as describe here https://wiki.onap.org/display/DW/Commit+Messages",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 13
+      },
+      "revId": "3121fa29c39f8289799c26c5598730ae4f53450f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_cbb552ce",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-09-06T17:29:27Z",
+      "side": 1,
+      "message": "limit line length and follow any other recommend practices described here https://wiki.onap.org/display/DW/Commit+Messages",
+      "range": {
+        "startLine": 11,
+        "startChar": 74,
+        "endLine": 11,
+        "endChar": 76
+      },
+      "revId": "3121fa29c39f8289799c26c5598730ae4f53450f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
