@@ -24,10 +24,12 @@ below.
      DA  ->   DR [label = "Create initial\n doc repository content"];
      DA  <<-- DR [label = "Merge" ];
      RD  <--  DA [label = "Connect gerrit.onap.org" ];
-     === For each new project repository containing document source ===
-     DA  ->   DR [label = "Add new project repo as\ngit submodule" ];
-     DA  <--  DR [label = "Merge" ];     
-     PA  ->   PR [label = "Create in new project repo\ntop level directory and index.rst" ];
+     === For each project repository containing document source ===
+     PA  ->   DR [label = "Add project repo as\ngit submodule" ];
+     DR  ->   DA [label = "Review & Plan to\nIntegrate Content with\nTocTree Structure" ];
+     DR  <--  DA [label = "Vote +2/Merge" ];
+     PA  <--  DR [label = "Merge Notification" ];     
+     PA  ->   PR [label = "Create in project repo\ntop level directory and index.rst" ];
      PR  ->   DA [label = "Add as Reviewer" ];
      PR  <--  DA [label = "Approve and Integrate" ];
      PA  <--  PR [label = "Merge" ];
@@ -49,40 +51,46 @@ These steps are performed only once for the doc project and include:
 doc project repo in gerrit.onap.org.
 
 
-Setup new project repositories(s)
----------------------------------
-These steps are performed for each new project repo (referred to in the
-next two code blocks as $reponame):
+Setup project repositories(s)
+-----------------------------
+These steps are performed for each project repository that provides documentation. 
 
-(1) clone, modify, and commit to the doc project: a directory under doc/docs/submodules with the same path/name as the new project initialized as a git submodule.
+First let's set two variables that will be used in the following examples.
+Set reponame to the project repository you are setting up just as it appears in the
+**Project Name** column of the Gerrit projects page.
+Set lfid to your Linux Foundation identity that you use to login to gerrit or for git
+clone requests over ssh.
+
+.. code-block:: bash
+
+   reponame=
+   lfid=
+
+The next step is to add a directory in the doc project where your project will be included as a 
+submodule and at least one reference from the doc project to the documentation index in your repository.
 	
 .. code-block:: bash
 
-   reponame=<your_repo_name>
-
-   git clone ssh://<your_id>@gerrit.onap.org:29418/doc
+   git clone ssh://$lfid@gerrit.onap.org:29418/doc
    cd doc
    mkdir -p `dirname docs/submodules/$reponame`
-   git submodule add https://gerrit.onap.org/r/$reponame docs/submodules/$reponame
-   git submodule init docs/submodules/$reponame
-   git submodule update docs/submodules/$reponame
+   git submodule add https://gerrit.onap.org/r/$reponame docs/submodules/$reponame.git
+   git submodule init docs/submodules/$reponame.git
+   git submodule update docs/submodules/$reponame.git
 
-   echo "   $reponame <../submodules/$reponame/docs/index>" >> docs/release/repolist.rst
+   echo "   $reponame <../submodules/$reponame.git/docs/index>" >> docs/release/repolist.rst
    
    git add .
-   git commit -m "Add $reponame as a submodule" -s
-   git commit --amend
-   # modify the commit message to comply with ONAP best practices
+   git commit -s
    git review
    
 
 
-(2) clone, modify, and commit to the new project an initial: docs top
-level directory; index.rst; any other intial content.   
+The last step is to create a docs directory in your repository with an index.rst file.
 
 .. code-block:: bash
 
-   git clone ssh://<your_id>@gerrit.onap.org:29418/$reponame
+   git clone ssh://$lfid@gerrit.onap.org:29418/$reponame
    cd $reponame
    mkdir docs
    echo ".. This work is licensed under a Creative Commons Attribution 4.0 International License.
@@ -95,9 +103,7 @@ level directory; index.rst; any other intial content.
    " >  docs/index.rst
    
    git add .
-   git commit -m "Add RST docs directory and index" -s
-   git commit --amend
-   # modify the commit message to comply with ONAP best practices
+   git commit -s
    git review
    
 
@@ -137,8 +143,8 @@ a jenkins verify job, and/or published release documentation including:
    reponame -> reponamedocsdir;
    reponamesm -> reponamedocsdir;  
                     reponamedocsdir [label="docs"];
-   reponamedocsdir -> newrepodocsdirindex; 
-                         newrepodocsdirindex [label="index.rst", shape=box];
+   reponamedocsdir -> repnamedocsdirindex; 
+                         repnamedocsdirindex [label="index.rst", shape=box];
 
    //Show detail structure of a portion of doc/docs 
    doc  -> docs;
@@ -156,7 +162,7 @@ a jenkins verify job, and/or published release documentation including:
    
    //Show submodule linkage to docs directory
    submodules -> reponamesm [style=dotted,label="git\nsubmodule\nreference"];  
-                 reponamesm [label="reponame"];
+                 reponamesm [label="reponame.git"];
 
    //Example Release document index that references component info provided in other project repo
    release -> releasedocumentindex;   
@@ -164,7 +170,7 @@ a jenkins verify job, and/or published release documentation including:
    releasedocumentindex -> releaserepolist [style=dashed, label="sphinx\ntoctree\nreference"];
 			   releaserepolist  [label="repolist.rst", shape=box];
    release -> releaserepolist;
-   releaserepolist -> newrepodocsdirindex [style=dashed, label="sphinx\ntoctree\nreference"];
+   releaserepolist -> repnamedocsdirindex [style=dashed, label="sphinx\ntoctree\nreference"];
  
    }
 
