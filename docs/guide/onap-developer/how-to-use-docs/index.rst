@@ -10,4 +10,5 @@ Creating Documentation
    documentation-guide
    style-guide
    include-documentation
+   converting-formats 
    addendum
