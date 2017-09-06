@@ -8,5 +8,5 @@ VNF Provider Guide
 .. toctree::
    :maxdepth: 2
 
-   ../../submodules/vnfrqts/guidelines/docs/index.rst
-   ../../submodules/vnfrqts/requirements/docs/index.rst
+   ../../submodules/vnfrqts/guidelines.git/docs/index.rst
+   ../../submodules/vnfrqts/requirements.git/docs/index.rst
