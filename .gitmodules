@@ -1,25 +1,25 @@
 [submodule "docs/submodules/vnfrqts/guidelines"]
-	path = docs/submodules/vnfrqts/guidelines
+	path = docs/submodules/vnfrqts/guidelines.git
 	url = ../vnfrqts/guidelines
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/requirements"]
-	path = docs/submodules/vnfrqts/requirements
+	path = docs/submodules/vnfrqts/requirements.git
 	url = ../vnfrqts/requirements
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/appc"]
-	path = docs/submodules/appc
+	path = docs/submodules/appc.git
 	url = ../appc
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/cli"]
-	path = docs/submodules/cli
+	path = docs/submodules/cli.git
 	url = ../cli
         branch = .
         ignore = dirty
 [submodule "docs/submodules/clamp"]
-	path = docs/submodules/clamp
+	path = docs/submodules/clamp.git
 	url = ../clamp
         branch = .
         ignore = dirty
