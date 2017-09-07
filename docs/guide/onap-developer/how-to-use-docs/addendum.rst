@@ -59,6 +59,51 @@ You can add html content that only appears in html output by using the
     .. only:: html
         This line will be shown only in html version.
 
+.. index:: single: indices
+
+Creating Indices
+----------------
+
+Building an index for your Sphinx project is relatively simple. First, tell Sphinx that
+you want it to build an index by adding something like this after your TOC tree:
+
+.. code-block:: rst
+
+    Indices and Search
+    ==================
+    
+    * :ref:`genindex`
+    * :ref:`search`
+
+**Hint:**
+Note that search was included here. It works out of the box with any Sphinx project, so you
+don't need to do anything except include a reference to it in your :code:`index.rst` file.
+
+Now, to generate a index entry in your RST, do one of the following:
+
+.. code-block:: rst
+
+   Some content that requires an :index:`index`. 
+
+or
+
+.. code-block:: rst
+
+    .. index::
+        single: myterm
+    
+    Some header containing myterm
+    =============================
+
+In the second case, Sphinx will create a link in the index to the paragraph that follows
+the index entry declaration.
+
+When your project is built, Sphinx will generate an index page populated with the entries
+you created in the source RST.
+
+These are simple cases with simple options. For more information about indexing with Sphinx,
+please see the `official Sphinx documentation <http://www.sphinx-doc.org/en/stable/markup/misc.html#directive-index>`_.
+
 Jenkins Jobs
 ------------
 
