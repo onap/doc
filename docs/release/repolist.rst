@@ -10,3 +10,4 @@
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
    cli <../submodules/cli.git/docs/index>
    clamp <../submodules/clamp.git/docs/index>
+   appc/deployment <../submodules/appc/deployment.git/docs/index>

@@ -23,3 +23,8 @@
 	url = ../clamp
         branch = .
         ignore = dirty
+[submodule "docs/submodules/appc/deployment.git"]
+	path = docs/submodules/appc/deployment.git
+	url = ../appc/deployment
+        branch = .
+        ignore = dirty
