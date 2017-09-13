@@ -6,13 +6,11 @@ ONAP Documentation
 ==================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   release/index
-   guide/onap-developer/index
-   guide/service-designer/index
-   guide/platform-administrator/index
-   guide/vnf-provider/index
+   releases/index
+   guides/onap-developer/index
+   guides/onap-user/index
 
 
 
