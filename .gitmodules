@@ -28,3 +28,6 @@
 	url = ../appc/deployment
         branch = .
         ignore = dirty
+[submodule "docs/submodules/aai/search-data-service.git"]
+	path = docs/submodules/aai/search-data-service.git
+	url = https://gerrit.onap.org/r/aai/search-data-service
