@@ -8,7 +8,7 @@ ONAP Documentation
 .. toctree::
    :maxdepth: 2
 
-   releases/index
+   release/index
    guides/onap-developer/index
    guides/onap-user/index
 
