@@ -33,3 +33,8 @@
 	url = ../aai/search-data-service
         branch = .
         ignore = dirty
+[submodule "docs/submodules/optf/has.git"]
+	path = docs/submodules/optf/has.git
+	url = ../optf/has
+        branch = .
+        ignore = dirty

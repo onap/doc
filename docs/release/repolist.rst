@@ -18,3 +18,4 @@ Documentation organized by the project delivering them.
    vnfrqts/guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
    aai/search-data-service <../submodules/aai/search-data-service.git/docs/index>
+   optf/has <../submodules/optf/has.git/docs/index>
