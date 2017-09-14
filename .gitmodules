@@ -28,3 +28,6 @@
 	url = ../appc/deployment
         branch = .
         ignore = dirty
+[submodule "docs/submodules/optf/has.git"]
+	path = docs/submodules/optf/has.git
+	url = https://gerrit.onap.org/r/optf/has

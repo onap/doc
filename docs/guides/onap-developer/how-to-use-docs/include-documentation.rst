@@ -84,7 +84,7 @@ The following sequence will do this over ssh.
    git submodule init docs/submodules/$reponame.git
    git submodule update docs/submodules/$reponame.git
 
-   echo "   $reponame <../submodules/$reponame.git/docs/index>" >> docs/release/repolist.rst
+   echo "   $reponame <../submodules/$reponame.git/docs/index>" >> docs/releases/repolist.rst
    
    git add .
    git commit -s
