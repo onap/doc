@@ -17,3 +17,4 @@ Documentation organized by the project delivering them.
    cli <../submodules/cli.git/docs/index>
    vnfrqts/guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
+   optf/has <../submodules/optf/has.git/docs/index>
