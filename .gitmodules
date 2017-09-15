@@ -45,6 +45,6 @@
         ignore = dirty
 [submodule "docs/submodules/aaf/authz.git"]
 	path = docs/submodules/aaf/authz.git
-	url = ./aaf/authz
+	url = ../aaf/authz
         branch = .
         ignore = dirty
