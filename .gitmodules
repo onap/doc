@@ -43,3 +43,8 @@
 	url = ../dcaegen2
         branch = .
         ignore = dirty
+[submodule "docs/submodules/aaf/authz.git"]
+	path = docs/submodules/aaf/authz.git
+	url = ./aaf/authz
+        branch = .
+        ignore = dirty
