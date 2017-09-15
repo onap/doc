@@ -3,6 +3,7 @@
 
 Setting Up
 ==========
+
 Some initial set up is required to connect a project with
 the master document structure and enable automated publishing of
 changes as summarized in the following diagram and description below 
@@ -130,7 +131,8 @@ to convert or add new content you can update the index and add files under the d
 The diagram below illustrates what is accomplished in the setup steps
 above from the perspective of a file structure created for a local test,
 a jenkins verify job, and/or published release documentation including:
-  - ONAP gerrit project repositories,
+  
+	- ONAP gerrit project repositories,
   - doc project repository master document index.rst, templates, configuration, and other documents
   - submodules directory where other project repositories and directories/files are referenced 
   - file structure: directories (ellipses), files(boxes)
