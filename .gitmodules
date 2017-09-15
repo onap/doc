@@ -40,6 +40,6 @@
         ignore = dirty
 [submodule "docs/submodules/dcaegen2.git"]
 	path = docs/submodules/dcaegen2.git
-	../dcaegen2
+	url = ../dcaegen2
         branch = .
         ignore = dirty

@@ -2,9 +2,11 @@
 
 Projects
 --------
+
 Documentation organized by the project delivering them.
+
 .. note::
-   When available these references should be changed to release artifacts
+   When available these references should be changed to release artifacts.
 
 
 .. toctree::

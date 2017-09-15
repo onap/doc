@@ -115,8 +115,10 @@ Verify Job
 The verify job name is **doc-{stream}-verify-rtd**
 
 Proposed changes in files in any repository with the path 
+
 .. bash
-   docs/**/*.rst
+   
+	 docs/**/*.rst
 
 will be verified by this job prior to a gerrit code review.
 Please check the Jenkins log carefully for warnings.
