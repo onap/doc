@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_22285785",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-09-15T11:17:26Z",
+      "side": 1,
+      "message": "Merge conflict because of another update to both gitmodules and repolist.  \n\nRebase or resubmit using current master.\n\nedit .gitmodules to use a relative URL, add branch and ignore\nurl \u003d ./aaf/authz\nbranch \u003d .\nignore \u003d dirty",
+      "range": {
+        "startLine": 43,
+        "startChar": 7,
+        "endLine": 43,
+        "endChar": 44
+      },
+      "revId": "f2fd938a88701b6e5bf2eac22d4d1eb572dfa93e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
