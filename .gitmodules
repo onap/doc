@@ -38,3 +38,6 @@
 	url = ../optf/has
         branch = .
         ignore = dirty
+[submodule "docs/submodules/dcaegen2.git"]
+	path = docs/submodules/dcaegen2.git
+	url = https://gerrit.onap.org/r/dcaegen2
