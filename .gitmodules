@@ -38,3 +38,6 @@
 	url = ../optf/has
         branch = .
         ignore = dirty
+[submodule "docs/submodules/aaf/authz.git"]
+	path = docs/submodules/aaf/authz.git
+	url = https://gerrit.onap.org/r/a/aaf/authz
