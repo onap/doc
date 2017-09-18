@@ -37,7 +37,12 @@ extensions = [
     'sphinx.ext.imgmath',
     'sphinx.ext.viewcode',
     'sphinxcontrib.blockdiag',
-    'sphinxcontrib.seqdiag'
+    'sphinxcontrib.seqdiag',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.todo',
+    'sphinxcontrib.httpdomain',
+    'sphinxcontrib.plantuml',
+    'sphinxcontrib.swaggerdoc'
 ]
 
 # Font path for seqdiag
@@ -369,3 +374,4 @@ epub_exclude_files = ['search.html']
 
 # Patterns to ignore in linkcheck builder
 linkcheck_ignore = [r'http://localhost:\d+/']
+
