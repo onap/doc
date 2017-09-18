@@ -20,6 +20,6 @@ Documentation organized by the project delivering them.
    vnfrqts/guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
    aai/search-data-service <../submodules/aai/search-data-service.git/docs/index>
-   optf/has <../submodules/optf/has.git/docs/index>
+   Optimization Framework: Homing and Allocation <../submodules/optf/has.git/docs/index>
    dcaegen2 <../submodules/dcaegen2.git/docs/index>
    aaf/authz <../submodules/aaf/authz.git/docs/index>
