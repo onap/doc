@@ -48,3 +48,6 @@
 	url = ../aaf/authz
         branch = .
         ignore = dirty
+[submodule "docs/submodules/policy/engine.git"]
+	path = docs/submodules/policy/engine.git
+	url = https://gerrit.onap.org/r/policy/engine
