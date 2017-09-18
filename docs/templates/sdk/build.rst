@@ -1,7 +1,6 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 
-Building components that use the SDK
-------------------------------------
 
-
+Building a Component using the SDK
+==================================

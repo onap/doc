@@ -131,12 +131,12 @@ to convert or add new content you can update the index and add files under the d
 The diagram below illustrates what is accomplished in the setup steps
 above from the perspective of a file structure created for a local test,
 a jenkins verify job, and/or published release documentation including:
-  
-	- ONAP gerrit project repositories,
-  - doc project repository master document index.rst, templates, configuration, and other documents
-  - submodules directory where other project repositories and directories/files are referenced 
-  - file structure: directories (ellipses), files(boxes)
-  - references: directory/files (solid edges), git submodule (dotted edges), sphinx toctree (dashed edges)
+
+- ONAP gerrit project repositories,
+- doc project repository master document index.rst, templates, configuration, and other documents
+- submodules directory where other project repositories and directories/files are referenced 
+- file structure: directories (ellipses), files(boxes)
+- references: directory/files (solid edges), git submodule (dotted edges), sphinx toctree (dashed edges)
 
 
 .. graphviz::

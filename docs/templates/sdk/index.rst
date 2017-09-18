@@ -6,10 +6,10 @@ Software Development Kit
 Provide an overview of SDK capabilities here.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
+   architecture.rst
    offeredapis.rst
    libraries.rst
-   interfaces.rst
    logging.rst
    build.rst

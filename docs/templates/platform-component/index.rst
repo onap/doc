@@ -7,11 +7,12 @@ Provide an overview of the ONAP Platform component capabilities here.
 Add or remove sections below as appropriate for the platform component.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   delivery.rst
+   architecture.rst
    offeredapis.rst
    consumedapis.rst
+   delivery.rst
    logging.rst
    installation.rst
    configuration.rst

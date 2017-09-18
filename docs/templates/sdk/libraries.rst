@@ -3,5 +3,5 @@
 
 Libraries
 ---------
-Libraries provided including package/Nexus groupID names, language bindings, etc.
+Provide library package and Nexus groupID names
 

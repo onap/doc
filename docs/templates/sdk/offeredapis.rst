@@ -3,10 +3,4 @@
 
 
 Offered APIs
-============
-List APIs offered.   One or more of the following examples may be appropriate.
-
-* java docs link
-* rest API swagger json definition displayed with sphinx directive .. swaggerv2doc:
-* a restructured text document
-
+------------
