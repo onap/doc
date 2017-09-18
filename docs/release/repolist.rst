@@ -23,3 +23,4 @@ Documentation organized by the project delivering them.
    Optimization Framework: Homing and Allocation <../submodules/optf/has.git/docs/index>
    dcaegen2 <../submodules/dcaegen2.git/docs/index>
    aaf/authz <../submodules/aaf/authz.git/docs/index>
+   policy/engine <../submodules/policy/engine.git/docs/index>
