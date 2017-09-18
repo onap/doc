@@ -1,3 +1,0 @@
-Interfaces
-----------
-Language bindings
