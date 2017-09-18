@@ -7,4 +7,7 @@ six
 sphinxcontrib-httpdomain
 sphinxcontrib-blockdiag
 sphinxcontrib-seqdiag
+sphinxcontrib-swaggerdoc
+sphinxcontrib-plantuml
+sphinxcontrib-httpdomain
 sphinx_bootstrap_theme>=0.4.11
