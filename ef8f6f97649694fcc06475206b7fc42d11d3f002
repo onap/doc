@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_14e1ff99",
+        "filename": "doc",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-09-19T19:09:48Z",
+      "side": 0,
+      "message": "The directory where your repository is added as submodule should be something like:\n\ndocs/submodules/vnfsdk/model.git\n\nI could have made a name change on the patch to match the reference you added in the repolist.rst but it appears vnfsdk is only used for hierarchy in gerrit and is not an actual repository.   Can you make a name change like the above either picking an existing repo or making vnfsdk an actual repo?",
+      "revId": "ef8f6f97649694fcc06475206b7fc42d11d3f002",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
