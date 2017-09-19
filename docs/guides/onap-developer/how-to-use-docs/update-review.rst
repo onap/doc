@@ -90,6 +90,26 @@ submodules. To pull in the latest changes:
 
    git submodule foreach 'git pull'
 
+Next, for every submodule, you'll need to rename 'origin' to 'gerrit':
+
+.. code:: bash
+
+   git submodule foreach 'git remote rename origin gerrit'
+
+Finally, for every submodule, you'll have to tell git-review how to find
+Gerrit. 
+
+.. code:: bash
+
+   cd doc # Make sure we're in the top level doc repo directory
+   git submodule foreach 'REPO=$(echo $path | sed "s/docs\/submodules\///") ; git remote add gerrit ssh://<LFID>@gerrit.onap.org:29418/$REPO'
+   
+Or, if you prefer to do only one at a time:
+
+.. code:: bash
+
+   git remote add gerrit ssh://<LFID>@gerrit.onap.org:29418/repopath/repo.git
+
 Requesting Reviews
 ------------------
 
