@@ -342,6 +342,7 @@ specified output folder directory.
 
 .. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
 
+.. _building-all-documentation:
 
 All Documentation
 -----------------
