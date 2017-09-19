@@ -24,3 +24,4 @@ Documentation organized by the project delivering them.
    dcaegen2 <../submodules/dcaegen2.git/docs/index>
    aaf/authz <../submodules/aaf/authz.git/docs/index>
    policy/engine <../submodules/policy/engine.git/docs/index>
+   vfc/nfvo/lcm <../submodules/vfc/lcm.git/docs/index>

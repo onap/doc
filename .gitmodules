@@ -54,3 +54,6 @@
         branch = .
         ignore = dirty
         
+[submodule "docs/submodules/vfc/lcm.git"]
+	path = docs/submodules/vfc/lcm.git
+	url = http://gerrit.onap.org/r/vfc/nfvo/lcm
