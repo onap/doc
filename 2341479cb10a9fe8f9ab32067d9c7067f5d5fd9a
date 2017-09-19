@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_547307e7",
+        "filename": "docs/submodules/aaf/docs/AAF-ConnectingtoAAF.docx",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-09-19T19:33:08Z",
+      "side": 1,
+      "message": "A binary ms word file is not supported.  You can convert this to rst (see http://onap.readthedocs.io/en/latest/guides/onap-developer/how-to-use-docs/converting-formats.html#converting-to-rst )",
+      "revId": "2341479cb10a9fe8f9ab32067d9c7067f5d5fd9a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}

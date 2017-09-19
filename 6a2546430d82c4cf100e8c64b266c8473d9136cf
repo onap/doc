@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_3459a35a",
+        "filename": "docs/submodules/aaf/docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-09-19T19:33:08Z",
+      "side": 0,
+      "message": "Both this index file and the converted to rst word file need to be added to the aaf/authz repository in the top level docs folder.  The path to index.rst when aaf/authz is initialized as a submodule in  the docs project will be \n\ndocs/submodules/aaf/authz.git/index.rst",
+      "revId": "6a2546430d82c4cf100e8c64b266c8473d9136cf",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
