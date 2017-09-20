@@ -11,5 +11,4 @@ Creating Documentation
    style-guide
    include-documentation
    converting-formats
-   update-review
    addendum
