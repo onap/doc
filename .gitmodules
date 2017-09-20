@@ -64,3 +64,9 @@
 	url = ../vnfsdk/model
         branch = .
         ignore = dirty
+[submodule "docs/submodules/holmes/rule-management.git"]
+	path = docs/submodules/holmes/rule-management.git
+	url = ../holmes/rule-management
+[submodule "docs/submodules/holmes/engine-management.git"]
+	path = docs/submodules/holmes/engine-management.git
+	url = ../holmes/engine-management
