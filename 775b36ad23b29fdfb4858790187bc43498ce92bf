@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_12e34f34",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-09-20T03:09:02Z",
+      "side": 1,
+      "message": "URL used to populate submodules contains a userid\n\nReplace highlighted text with ..\nmaking this a relative reference to another repo based on the location of the doc project repo.  The line should look like\n\n      url \u003d ../vnfsdk/model",
+      "range": {
+        "startLine": 64,
+        "startChar": 7,
+        "endLine": 64,
+        "endChar": 43
+      },
+      "revId": "775b36ad23b29fdfb4858790187bc43498ce92bf",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
