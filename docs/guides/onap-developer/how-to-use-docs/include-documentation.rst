@@ -81,7 +81,7 @@ The following sequence will do this over ssh.
    git clone ssh://$lfid@gerrit.onap.org:29418/doc
    cd doc
    mkdir -p `dirname docs/submodules/$reponame`
-   git submodule add https://gerrit.onap.org/r/$reponame docs/submodules/$reponame.git
+   git submodule add ../$reponame docs/submodules/$reponame.git
    git submodule init docs/submodules/$reponame.git
    git submodule update docs/submodules/$reponame.git
 
