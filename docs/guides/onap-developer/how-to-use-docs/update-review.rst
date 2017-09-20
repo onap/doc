@@ -5,6 +5,8 @@
 Updates and Review
 ==================
 
+**NOTE: THIS SECTION IS UNDER HEAVY DEVELOPMENT USE WITH CAUTION**
+
 Most project owners will need only to concern themselves with their own
 project documentation. However, documentation team members and certain
 project owners will need to edit and test multiple documentation repositories.
@@ -89,12 +91,6 @@ submodules. To pull in the latest changes:
 .. code:: bash
 
    git submodule foreach 'git pull'
-
-Next, for every submodule, you'll need to rename 'origin' to 'gerrit':
-
-.. code:: bash
-
-   git submodule foreach 'git remote rename origin gerrit'
 
 Finally, for every submodule, you'll have to tell git-review how to find
 Gerrit. 
