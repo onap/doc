@@ -62,3 +62,6 @@
 [submodule "docs/submodules/holmes/rule-management.git"]
 	path = docs/submodules/holmes/rule-management.git
 	url = https://gerrit.onap.org/r/holmes/rule-management
+[submodule "docs/submodules/holmes/engine-management.git"]
+	path = docs/submodules/holmes/engine-management.git
+	url = https://gerrit.onap.org/r/holmes/engine-management
