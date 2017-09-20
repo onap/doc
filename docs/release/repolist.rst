@@ -26,3 +26,4 @@ Documentation organized by the project delivering them.
    policy/engine <../submodules/policy/engine.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/lcm.git/docs/index>
    vnfsdk/model <../submodules/vnfsdk/model.git/docs/index>
+   holmes/rule-management <../submodules/holmes/rule-management.git/docs/index>
