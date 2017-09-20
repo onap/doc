@@ -25,3 +25,4 @@ Documentation organized by the project delivering them.
    aaf/authz <../submodules/aaf/authz.git/docs/index>
    policy/engine <../submodules/policy/engine.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/lcm.git/docs/index>
+   holmes/rule-management <../submodules/holmes/rule-management.git/docs/index>
