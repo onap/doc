@@ -54,11 +54,6 @@
         branch = .
         ignore = dirty
         
-[submodule "docs/submodules/vfc/lcm.git"]
-	path = docs/submodules/vfc/lcm.git
-	url = ../vfc/nfvo/lcm
-        branch = .
-        ignore = dirty
 [submodule "docs/submodules/vnfsdk/model.git"]
 	path = docs/submodules/vnfsdk/model.git
 	url = ../vnfsdk/model
@@ -70,3 +65,6 @@
 [submodule "docs/submodules/holmes/engine-management.git"]
 	path = docs/submodules/holmes/engine-management.git
 	url = ../holmes/engine-management
+[submodule "docs/submodules/vfc/nfvo/lcm.git"]
+	path = docs/submodules/vfc/nfvo/lcm.git
+	url = http://gerrit.onap.org/r/vfc/nfvo/lcm
