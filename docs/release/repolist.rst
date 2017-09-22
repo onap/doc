@@ -32,3 +32,4 @@ Documentation organized by the project delivering them.
    msb/apigateway <../submodules/msb/apigateway.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
    msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>
+   msb/swagger-sdk <../submodules/msb/swagger-sdk.git/docs/index>

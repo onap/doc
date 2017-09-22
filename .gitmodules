@@ -77,3 +77,6 @@
 [submodule "docs/submodules/msb/java-sdk.git"]
 	path = docs/submodules/msb/java-sdk.git
 	url = ../msb/java-sdk
+[submodule "docs/submodules/msb/swagger-sdk.git"]
+	path = docs/submodules/msb/swagger-sdk.git
+	url = ../msb/swagger-sdk
