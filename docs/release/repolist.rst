@@ -28,3 +28,4 @@ Documentation organized by the project delivering them.
    vnfsdk/model <../submodules/vnfsdk/model.git/docs/index>
    holmes/rule-management <../submodules/holmes/rule-management.git/docs/index>
    holmes/engine-management <../submodules/holmes/engine-management.git/docs/index>
+   vfc/nfvo/lcm <../submodules/vfc/nfvo/lcm.git/docs/index>
