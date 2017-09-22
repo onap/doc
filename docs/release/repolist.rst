@@ -31,3 +31,4 @@ Documentation organized by the project delivering them.
    vfc/nfvo/lcm <../submodules/vfc/nfvo/lcm.git/docs/index>
    msb/apigateway <../submodules/msb/apigateway.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
+   msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>
