@@ -88,3 +88,6 @@
 	url = ../dmaap/messagerouter/messageservice
         branch = .
         ignore = dirty
+[submodule "docs/submodules/oom.git"]
+	path = docs/submodules/oom.git
+	url = ../oom
