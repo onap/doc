@@ -83,3 +83,6 @@
 [submodule "docs/submodules/modeling/modelspec.git"]
 	path = docs/submodules/modeling/modelspec.git
 	url = ../modeling/modelspec
+[submodule "docs/submodules/dmaap/messagerouter/messageservice.git"]
+	path = docs/submodules/dmaap/messagerouter/messageservice.git
+	url = http://sg481n@gerrit.onap.org/r/a/dmaap/messagerouter/messageservice
