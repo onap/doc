@@ -71,3 +71,6 @@
 [submodule "docs/submodules/msb/apigateway.git"]
 	path = docs/submodules/msb/apigateway.git
 	url = ../msb/apigateway
+[submodule "docs/submodules/msb/discovery.git"]
+	path = docs/submodules/msb/discovery.git
+	url = ../msb/discovery
