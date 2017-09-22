@@ -29,3 +29,4 @@ Documentation organized by the project delivering them.
    holmes/rule-management <../submodules/holmes/rule-management.git/docs/index>
    holmes/engine-management <../submodules/holmes/engine-management.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
+   msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>

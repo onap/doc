@@ -73,3 +73,6 @@
 [submodule "docs/submodules/msb/discovery.git"]
 	path = docs/submodules/msb/discovery.git
 	url = ../msb/discovery
+[submodule "docs/submodules/msb/java-sdk.git"]
+	path = docs/submodules/msb/java-sdk.git
+	url = ../msb/java-sdk
