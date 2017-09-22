@@ -80,3 +80,6 @@
 [submodule "docs/submodules/msb/swagger-sdk.git"]
 	path = docs/submodules/msb/swagger-sdk.git
 	url = ../msb/swagger-sdk
+[submodule "docs/submodules/modeling/modelspec.git"]
+	path = docs/submodules/modeling/modelspec.git
+	url = ../modeling/modelspec
