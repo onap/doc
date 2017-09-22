@@ -70,3 +70,6 @@
 [submodule "docs/submodules/holmes/engine-management.git"]
 	path = docs/submodules/holmes/engine-management.git
 	url = ../holmes/engine-management
+[submodule "docs/submodules/msb/discovery.git"]
+	path = docs/submodules/msb/discovery.git
+	url = ../msb/discovery
