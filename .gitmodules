@@ -68,3 +68,6 @@
 [submodule "docs/submodules/vfc/nfvo/lcm.git"]
 	path = docs/submodules/vfc/nfvo/lcm.git
 	url = ../vfc/nfvo/lcm
+[submodule "docs/submodules/msb/apigateway.git"]
+	path = docs/submodules/msb/apigateway.git
+	url = ../msb/apigateway

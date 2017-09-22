@@ -29,3 +29,4 @@ Documentation organized by the project delivering them.
    holmes/rule-management <../submodules/holmes/rule-management.git/docs/index>
    holmes/engine-management <../submodules/holmes/engine-management.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/nfvo/lcm.git/docs/index>
+   msb/apigateway <../submodules/msb/apigateway.git/docs/index>
