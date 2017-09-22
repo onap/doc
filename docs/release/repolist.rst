@@ -34,3 +34,4 @@ Documentation organized by the project delivering them.
    msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>
    msb/swagger-sdk <../submodules/msb/swagger-sdk.git/docs/index>
    modeling/modelspec <../submodules/modeling/modelspec.git/docs/index>
+   oom <../submodules/oom.git/docs/index>

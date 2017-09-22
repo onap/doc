@@ -83,3 +83,6 @@
 [submodule "docs/submodules/modeling/modelspec.git"]
 	path = docs/submodules/modeling/modelspec.git
 	url = ../modeling/modelspec
+[submodule "docs/submodules/oom.git"]
+	path = docs/submodules/oom.git
+	url = ../oom
