@@ -83,3 +83,8 @@
 [submodule "docs/submodules/modeling/modelspec.git"]
 	path = docs/submodules/modeling/modelspec.git
 	url = ../modeling/modelspec
+[submodule "docs/submodules/dmaap/messagerouter/messageservice.git"]
+	path = docs/submodules/dmaap/messagerouter/messageservice.git
+	url = ../dmaap/messagerouter/messageservice
+        branch = .
+        ignore = dirty
