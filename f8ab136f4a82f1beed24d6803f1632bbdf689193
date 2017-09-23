@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_ab3997d8",
+        "filename": "tools",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-09-23T19:55:53Z",
+      "side": 0,
+      "message": "I not sure what is intended by the tools directory and submodules.   Removing this from patch set and resubmitting against latest  doc master, should be all that is needed to integrate oom.",
+      "revId": "f8ab136f4a82f1beed24d6803f1632bbdf689193",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
