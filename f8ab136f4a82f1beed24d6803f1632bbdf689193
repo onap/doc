@@ -16,6 +16,24 @@
       "revId": "f8ab136f4a82f1beed24d6803f1632bbdf689193",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_10f7abf6",
+        "filename": "tools",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 131
+      },
+      "writtenOn": "2017-09-25T13:57:02Z",
+      "side": 0,
+      "message": "Not sure how this got in there as I thought I was following the readthedocs setup page...but thanks!  patch-set 2 removes it.",
+      "parentUuid": "9a437d4f_ab3997d8",
+      "revId": "f8ab136f4a82f1beed24d6803f1632bbdf689193",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
