@@ -88,3 +88,6 @@
 	url = ../dmaap/messagerouter/messageservice
         branch = .
         ignore = dirty
+[submodule "docs/submodules/aai/esr-server.git"]
+	path = docs/submodules/aai/esr-server.git
+	url = ../aai/esr-server

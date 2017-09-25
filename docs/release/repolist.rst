@@ -35,3 +35,4 @@ Documentation organized by the project delivering them.
    msb/swagger-sdk <../submodules/msb/swagger-sdk.git/docs/index>
    modeling/modelspec <../submodules/modeling/modelspec.git/docs/index>
    dmaap/messagerouter/messageservice <../submodules/dmaap/messagerouter/messageservice.git/docs/index>
+   aai/esr-server <../submodules/aai/esr-server.git/docs/index>
