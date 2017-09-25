@@ -94,3 +94,12 @@
 [submodule "docs/submodules/oom.git"]
 	path = docs/submodules/oom.git
 	url = ../oom
+[submodule "docs/submodules/aai/aai-common.git"]
+	path = docs/submodules/aai/aai-common.git
+	url = ../aai/aai-common
+[submodule "docs/submodules/aai/resources.git"]
+	path = docs/submodules/aai/resources.git
+	url = ../aai/resources
+[submodule "docs/submodules/aai/traversal.git"]
+	path = docs/submodules/aai/traversal.git
+	url = ../aai/traversal

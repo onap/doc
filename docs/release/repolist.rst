@@ -37,3 +37,6 @@ Documentation organized by the project delivering them.
    dmaap/messagerouter/messageservice <../submodules/dmaap/messagerouter/messageservice.git/docs/index>
    aai/esr-server <../submodules/aai/esr-server.git/docs/index>
    oom <../submodules/oom.git/docs/index>
+   aai/aai-common <../submodules/aai/aai-common.git/docs/index>
+   aai/resources <../submodules/aai/resources.git/docs/index>
+   aai/traversal <../submodules/aai/traversal.git/docs/index>
