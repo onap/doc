@@ -91,3 +91,12 @@
 [submodule "docs/submodules/aai/esr-server.git"]
 	path = docs/submodules/aai/esr-server.git
 	url = ../aai/esr-server
+[submodule "docs/submodules/aai/aai-common.git"]
+	path = docs/submodules/aai/aai-common.git
+	url = ../aai/aai-common
+[submodule "docs/submodules/aai/resources.git"]
+	path = docs/submodules/aai/resources.git
+	url = ../aai/resources
+[submodule "docs/submodules/aai/traversal.git"]
+	path = docs/submodules/aai/traversal.git
+	url = ../aai/traversal
