@@ -53,7 +53,6 @@
 	url = ../policy/engine
         branch = .
         ignore = dirty
-        
 [submodule "docs/submodules/vnfsdk/model.git"]
 	path = docs/submodules/vnfsdk/model.git
 	url = ../vnfsdk/model
@@ -62,27 +61,43 @@
 [submodule "docs/submodules/holmes/rule-management.git"]
 	path = docs/submodules/holmes/rule-management.git
 	url = ../holmes/rule-management
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/holmes/engine-management.git"]
 	path = docs/submodules/holmes/engine-management.git
 	url = ../holmes/engine-management
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/vfc/nfvo/lcm.git"]
 	path = docs/submodules/vfc/nfvo/lcm.git
 	url = ../vfc/nfvo/lcm
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/msb/apigateway.git"]
 	path = docs/submodules/msb/apigateway.git
 	url = ../msb/apigateway
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/msb/discovery.git"]
 	path = docs/submodules/msb/discovery.git
 	url = ../msb/discovery
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/msb/java-sdk.git"]
 	path = docs/submodules/msb/java-sdk.git
 	url = ../msb/java-sdk
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/msb/swagger-sdk.git"]
 	path = docs/submodules/msb/swagger-sdk.git
 	url = ../msb/swagger-sdk
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/modeling/modelspec.git"]
 	path = docs/submodules/modeling/modelspec.git
 	url = ../modeling/modelspec
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/dmaap/messagerouter/messageservice.git"]
 	path = docs/submodules/dmaap/messagerouter/messageservice.git
 	url = ../dmaap/messagerouter/messageservice
@@ -91,15 +106,25 @@
 [submodule "docs/submodules/aai/esr-server.git"]
 	path = docs/submodules/aai/esr-server.git
 	url = ../aai/esr-server
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/oom.git"]
 	path = docs/submodules/oom.git
 	url = ../oom
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/aai/aai-common.git"]
 	path = docs/submodules/aai/aai-common.git
 	url = ../aai/aai-common
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/aai/resources.git"]
 	path = docs/submodules/aai/resources.git
 	url = ../aai/resources
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/aai/traversal.git"]
 	path = docs/submodules/aai/traversal.git
 	url = ../aai/traversal
+	branch = .
+	ignore = dirty
