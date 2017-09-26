@@ -91,3 +91,6 @@
 [submodule "docs/submodules/aai/esr-server.git"]
 	path = docs/submodules/aai/esr-server.git
 	url = ../aai/esr-server
+[submodule "docs/submodules/aai/esr-gui.git"]
+	path = docs/submodules/aai/esr-gui.git
+	url = ../aai/esr-gui
