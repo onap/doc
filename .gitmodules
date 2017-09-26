@@ -128,3 +128,6 @@
 	url = ../aai/traversal
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/aai/esr-gui.git"]
+	path = docs/submodules/aai/esr-gui.git
+	url = ../aai/esr-gui
