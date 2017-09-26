@@ -131,3 +131,8 @@
 [submodule "docs/submodules/aai/esr-gui.git"]
 	path = docs/submodules/aai/esr-gui.git
 	url = ../aai/esr-gui
+[submodule "docs/submodules/so"]
+	path = docs/submodules/so.git
+	url = ../so
+        branch = .
+        ignore = dirty
