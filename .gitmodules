@@ -103,3 +103,6 @@
 [submodule "docs/submodules/aai/traversal.git"]
 	path = docs/submodules/aai/traversal.git
 	url = ../aai/traversal
+[submodule "docs/submodules/aai/esr-gui.git"]
+	path = docs/submodules/aai/esr-gui.git
+	url = ../aai/esr-gui

@@ -40,3 +40,4 @@ Documentation organized by the project delivering them.
    aai/aai-common <../submodules/aai/aai-common.git/docs/index>
    aai/resources <../submodules/aai/resources.git/docs/index>
    aai/traversal <../submodules/aai/traversal.git/docs/index>
+   aai/esr-gui <../submodules/aai/esr-gui.git/docs/index>
