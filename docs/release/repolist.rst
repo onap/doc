@@ -41,3 +41,6 @@ Documentation organized by the project delivering them.
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
    vnfsdk/model <../submodules/vnfsdk/model.git/docs/index>
    aai/esr-gui <../submodules/aai/esr-gui.git/docs/index>
+   aai/data-router <../submodules/aai/data-router.git/docs/index>
+   aai/sparky-fe <../submodules/aai/sparky-fe.git/docs/index>
+   aai/sparky-be <../submodules/aai/sparky-be.git/docs/index>

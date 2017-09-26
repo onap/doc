@@ -131,3 +131,12 @@
 [submodule "docs/submodules/aai/esr-gui.git"]
 	path = docs/submodules/aai/esr-gui.git
 	url = ../aai/esr-gui
+[submodule "docs/submodules/aai/data-router.git"]
+	path = docs/submodules/aai/data-router.git
+	url = ../aai/data-router
+[submodule "docs/submodules/aai/sparky-fe.git"]
+	path = docs/submodules/aai/sparky-fe.git
+	url = ../aai/sparky-fe
+[submodule "docs/submodules/aai/sparky-be.git"]
+	path = docs/submodules/aai/sparky-be.git
+	url = ../aai/sparky-be
