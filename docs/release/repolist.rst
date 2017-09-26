@@ -23,6 +23,7 @@ Documentation organized by the project delivering them.
    appc <../submodules/appc.git/docs/index>
    clamp <../submodules/clamp.git/docs/index>
    cli <../submodules/cli.git/docs/index>
+   so  <../submodules/so.git/docs/index>
    dcaegen2 <../submodules/dcaegen2.git/docs/index>
    dmaap/messagerouter/messageservice <../submodules/dmaap/messagerouter/messageservice.git/docs/index>
    holmes/engine-management <../submodules/holmes/engine-management.git/docs/index>
