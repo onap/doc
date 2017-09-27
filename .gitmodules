@@ -143,3 +143,6 @@
 [submodule "docs/submodules/integration.git"]
 	path = docs/submodules/integration.git
 	url = ../integration
+[submodule "docs/submodules/portal.git"]
+	path = docs/submodules/portal.git
+	url = ../portal
