@@ -140,3 +140,6 @@
 [submodule "docs/submodules/aai/sparky-be.git"]
 	path = docs/submodules/aai/sparky-be.git
 	url = ../aai/sparky-be
+[submodule "docs/submodules/portal.git"]
+	path = docs/submodules/portal.git
+	url = ../portal
