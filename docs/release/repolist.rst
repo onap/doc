@@ -44,3 +44,4 @@ Documentation organized by the project delivering them.
    aai/data-router <../submodules/aai/data-router.git/docs/index>
    aai/sparky-fe <../submodules/aai/sparky-fe.git/docs/index>
    aai/sparky-be <../submodules/aai/sparky-be.git/docs/index>
+   integration <../submodules/integration.git/docs/index>
