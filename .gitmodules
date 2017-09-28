@@ -195,3 +195,27 @@
 [submodule "docs/submodules/ccsdk/utils.git"]
 	path = docs/submodules/ccsdk/utils.git
 	url = ../ccsdk/utils
+[submodule "docs/submodules/sdc.git"]
+	path = docs/submodules/sdc.git
+	url = ../sdc
+[submodule "docs/submodules/sdc/jtosca.git"]
+	path = docs/submodules/sdc/jtosca.git
+	url = ../sdc/jtosca
+[submodule "docs/submodules/sdc/sdc-distribution-client.git"]
+	path = docs/submodules/sdc/sdc-distribution-client.git
+	url = ../sdc/sdc-distribution-client
+[submodule "docs/submodules/sdc/sdc-docker-base.git"]
+	path = docs/submodules/sdc/sdc-docker-base.git
+	url = ../sdc/sdc-docker-base
+[submodule "docs/submodules/sdc/sdc-titan-cassandra.git"]
+	path = docs/submodules/sdc/sdc-titan-cassandra.git
+	url = ../sdc/sdc-titan-cassandra
+[submodule "docs/submodules/sdc/sdc-tosca.git"]
+	path = docs/submodules/sdc/sdc-tosca.git
+	url = ../sdc/sdc-tosca
+[submodule "docs/submodules/sdc/sdc-workflow-designer.git"]
+	path = docs/submodules/sdc/sdc-workflow-designer.git
+	url = ../sdc/sdc-workflow-designer
+[submodule "docs/submodules/sdc/sdc_common.git"]
+	path = docs/submodules/sdc/sdc_common.git
+	url = ../sdc/sdc_common

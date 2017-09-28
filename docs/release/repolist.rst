@@ -59,3 +59,11 @@ Documentation organized by the project delivering them.
    ccsdk/storage/esaas <../submodules/ccsdk/storage/esaas.git/docs/index>
    ccsdk/storage/pgaas <../submodules/ccsdk/storage/pgaas.git/docs/index>
    ccsdk/utils <../submodules/ccsdk/utils.git/docs/index>
+   sdc <../submodules/sdc.git/docs/index>
+   sdc/jtosca <../submodules/sdc/jtosca.git/docs/index>
+   sdc/sdc-distribution-client <../submodules/sdc/sdc-distribution-client.git/docs/index>
+   sdc/sdc-docker-base <../submodules/sdc/sdc-docker-base.git/docs/index>
+   sdc/sdc-titan-cassandra <../submodules/sdc/sdc-titan-cassandra.git/docs/index>
+   sdc/sdc-tosca <../submodules/sdc/sdc-tosca.git/docs/index>
+   sdc/sdc-workflow-designer <../submodules/sdc/sdc-workflow-designer.git/docs/index>
+   sdc/sdc_common <../submodules/sdc/sdc_common.git/docs/index>
