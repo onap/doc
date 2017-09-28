@@ -195,3 +195,30 @@
 [submodule "docs/submodules/ccsdk/utils.git"]
 	path = docs/submodules/ccsdk/utils.git
 	url = ../ccsdk/utils
+[submodule "docs/submodules/sdnc/adaptors.git"]
+	path = docs/submodules/sdnc/adaptors.git
+	url = ../sdnc/adaptors
+[submodule "docs/submodules/sdnc/architecture.git"]
+	path = docs/submodules/sdnc/architecture.git
+	url = ../sdnc/architecture
+[submodule "docs/submodules/sdnc/core.git"]
+	path = docs/submodules/sdnc/core.git
+	url = ../sdnc/core
+[submodule "docs/submodules/sdnc/features.git"]
+	path = docs/submodules/sdnc/features.git
+	url = ../sdnc/features
+[submodule "docs/submodules/sdnc/northbound.git"]
+	path = docs/submodules/sdnc/northbound.git
+	url = ../sdnc/northbound
+[submodule "docs/submodules/sdnc/oam.git"]
+	path = docs/submodules/sdnc/oam.git
+	url = ../sdnc/oam
+[submodule "docs/submodules/sdnc/parent.git"]
+	path = docs/submodules/sdnc/parent.git
+	url = ../sdnc/parent
+[submodule "docs/submodules/sdnc/plugins.git"]
+	path = docs/submodules/sdnc/plugins.git
+	url = ../sdnc/plugins
+[submodule "docs/submodules/portal.git"]
+	path = docs/submodules/portal.git
+	url = ../portal
