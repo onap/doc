@@ -156,3 +156,42 @@
 [submodule "docs/submodules/multicloud/framework.git"]
 	path = docs/submodules/multicloud/framework.git
 	url = ../multicloud/framework
+[submodule "docs/submodules/ccsdk/dashboard.git"]
+	path = docs/submodules/ccsdk/dashboard.git
+	url = ../ccsdk/dashboard
+[submodule "docs/submodules/ccsdk/distribution.git"]
+	path = docs/submodules/ccsdk/distribution.git
+	url = ../ccsdk/distribution
+[submodule "docs/submodules/ccsdk/parent.git"]
+	path = docs/submodules/ccsdk/parent.git
+	url = ../ccsdk/parent
+[submodule "docs/submodules/ccsdk/platform/blueprints.git"]
+	path = docs/submodules/ccsdk/platform/blueprints.git
+	url = ../ccsdk/platform/blueprints
+[submodule "docs/submodules/ccsdk/platform/nbapi.git"]
+	path = docs/submodules/ccsdk/platform/nbapi.git
+	url = ../ccsdk/platform/nbapi
+[submodule "docs/submodules/ccsdk/platform/plugins.git"]
+	path = docs/submodules/ccsdk/platform/plugins.git
+	url = ../ccsdk/platform/plugins
+[submodule "docs/submodules/ccsdk/sli/adaptors.git"]
+	path = docs/submodules/ccsdk/sli/adaptors.git
+	url = ../ccsdk/sli/adaptors
+[submodule "docs/submodules/ccsdk/sli/core.git"]
+	path = docs/submodules/ccsdk/sli/core.git
+	url = ../ccsdk/sli/core
+[submodule "docs/submodules/ccsdk/sli/northbound.git"]
+	path = docs/submodules/ccsdk/sli/northbound.git
+	url = ../ccsdk/sli/northbound
+[submodule "docs/submodules/ccsdk/sli/plugins.git"]
+	path = docs/submodules/ccsdk/sli/plugins.git
+	url = ../ccsdk/sli/plugins
+[submodule "docs/submodules/ccsdk/storage/esaas.git"]
+	path = docs/submodules/ccsdk/storage/esaas.git
+	url = ../ccsdk/storage/esaas
+[submodule "docs/submodules/ccsdk/storage/pgaas.git"]
+	path = docs/submodules/ccsdk/storage/pgaas.git
+	url = ../ccsdk/storage/pgaas
+[submodule "docs/submodules/ccsdk/utils.git"]
+	path = docs/submodules/ccsdk/utils.git
+	url = ../ccsdk/utils

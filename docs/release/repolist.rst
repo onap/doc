@@ -46,3 +46,16 @@ Documentation organized by the project delivering them.
    aai/sparky-be <../submodules/aai/sparky-be.git/docs/index>
    integration <../submodules/integration.git/docs/index>
    multicloud/framework <../submodules/multicloud/framework.git/docs/index>
+   ccsdk/dashboard <../submodules/ccsdk/dashboard.git/docs/index>
+   ccsdk/distribution <../submodules/ccsdk/distribution.git/docs/index>
+   ccsdk/parent <../submodules/ccsdk/parent.git/docs/index>
+   ccsdk/platform/blueprints <../submodules/ccsdk/platform/blueprints.git/docs/index>
+   ccsdk/platform/nbapi <../submodules/ccsdk/platform/nbapi.git/docs/index>
+   ccsdk/platform/plugins <../submodules/ccsdk/platform/plugins.git/docs/index>
+   ccsdk/sli/adaptors <../submodules/ccsdk/sli/adaptors.git/docs/index>
+   ccsdk/sli/core <../submodules/ccsdk/sli/core.git/docs/index>
+   ccsdk/sli/northbound <../submodules/ccsdk/sli/northbound.git/docs/index>
+   ccsdk/sli/plugins <../submodules/ccsdk/sli/plugins.git/docs/index>
+   ccsdk/storage/esaas <../submodules/ccsdk/storage/esaas.git/docs/index>
+   ccsdk/storage/pgaas <../submodules/ccsdk/storage/pgaas.git/docs/index>
+   ccsdk/utils <../submodules/ccsdk/utils.git/docs/index>
