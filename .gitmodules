@@ -153,3 +153,6 @@
 	url = ../integration
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/multicloud/framework.git"]
+	path = docs/submodules/multicloud/framework.git
+	url = ../multicloud/framework

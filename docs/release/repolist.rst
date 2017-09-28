@@ -45,3 +45,4 @@ Documentation organized by the project delivering them.
    aai/sparky-fe <../submodules/aai/sparky-fe.git/docs/index>
    aai/sparky-be <../submodules/aai/sparky-be.git/docs/index>
    integration <../submodules/integration.git/docs/index>
+   multicloud/framework <../submodules/multicloud/framework.git/docs/index>
