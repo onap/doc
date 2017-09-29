@@ -78,3 +78,4 @@ Documentation organized by the project delivering them.
    sdc/sdc_common <../submodules/sdc/sdc_common.git/docs/index>
    vid <../submodules/vid.git/docs/index>
    vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
+   usecase-ui <../submodules/usecase-ui.git/docs/index>

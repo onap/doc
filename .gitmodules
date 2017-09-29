@@ -252,3 +252,6 @@
 [submodule "docs/submodules/vid/asdcclient.git"]
 	path = docs/submodules/vid/asdcclient.git
 	url = ../vid/asdcclient
+[submodule "docs/submodules/usecase-ui.git"]
+	path = docs/submodules/usecase-ui.git
+	url = ../usecase-ui
