@@ -55,6 +55,14 @@ Documentation organized by the project delivering them.
    Optimization Framework: Homing and Allocation <../submodules/optf/has.git/docs/index>
    policy/engine <../submodules/policy/engine.git/docs/index>
    portal <../submodules/portal.git/docs/index>
+   sdc/jtosca <../submodules/sdc/jtosca.git/docs/index>
+   sdc/sdc_common <../submodules/sdc/sdc_common.git/docs/index>
+   sdc/sdc-distribution-client <../submodules/sdc/sdc-distribution-client.git/docs/index>
+   sdc/sdc-docker-base <../submodules/sdc/sdc-docker-base.git/docs/index>
+   sdc/sdc-titan-cassandra <../submodules/sdc/sdc-titan-cassandra.git/docs/index>
+   sdc/sdc-tosca <../submodules/sdc/sdc-tosca.git/docs/index>
+   sdc/sdc-workflow-designer <../submodules/sdc/sdc-workflow-designer.git/docs/index>
+   sdc <../submodules/sdc.git/docs/index>
    sdnc/adaptors <../submodules/sdnc/adaptors.git/docs/index>
    sdnc/architecture <../submodules/sdnc/architecture.git/docs/index>
    sdnc/core <../submodules/sdnc/core.git/docs/index>
@@ -65,16 +73,8 @@ Documentation organized by the project delivering them.
    sdnc/plugins <../submodules/sdnc/plugins.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/lcm.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/nfvo/lcm.git/docs/index>
+   vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
+   vid <../submodules/vid.git/docs/index>
    vnfrqts/guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
    vnfsdk/model <../submodules/vnfsdk/model.git/docs/index>
-   sdc <../submodules/sdc.git/docs/index>
-   sdc/jtosca <../submodules/sdc/jtosca.git/docs/index>
-   sdc/sdc-distribution-client <../submodules/sdc/sdc-distribution-client.git/docs/index>
-   sdc/sdc-docker-base <../submodules/sdc/sdc-docker-base.git/docs/index>
-   sdc/sdc-titan-cassandra <../submodules/sdc/sdc-titan-cassandra.git/docs/index>
-   sdc/sdc-tosca <../submodules/sdc/sdc-tosca.git/docs/index>
-   sdc/sdc-workflow-designer <../submodules/sdc/sdc-workflow-designer.git/docs/index>
-   sdc/sdc_common <../submodules/sdc/sdc_common.git/docs/index>
-   vid <../submodules/vid.git/docs/index>
-   vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
