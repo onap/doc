@@ -71,6 +71,7 @@ Documentation organized by the project delivering them.
    sdnc/oam <../submodules/sdnc/oam.git/docs/index>
    sdnc/parent <../submodules/sdnc/parent.git/docs/index>
    sdnc/plugins <../submodules/sdnc/plugins.git/docs/index>
+   so <../submodules/so.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/lcm.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/nfvo/lcm.git/docs/index>
    vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
