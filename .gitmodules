@@ -328,3 +328,6 @@
 	url = ../so
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/so/libs.git"]
+	path = docs/submodules/so/libs.git
+	url = ../so/libs
