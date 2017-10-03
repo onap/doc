@@ -1,0 +1,12 @@
+tox
+Sphinx==1.5.3
+doc8
+docutils
+setuptools
+six
+sphinxcontrib-httpdomain
+sphinxcontrib-blockdiag
+sphinxcontrib-seqdiag
+sphinxcontrib-swaggerdoc
+sphinxcontrib-plantuml
+sphinx_bootstrap_theme>=0.4.11
