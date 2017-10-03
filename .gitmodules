@@ -323,3 +323,8 @@
 	url = ../usecase-ui
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/so.git"]
+	path = docs/submodules/so.git
+	url = ../so
+	branch = .
+	ignore = dirty
