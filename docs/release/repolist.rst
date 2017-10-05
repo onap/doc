@@ -72,6 +72,7 @@ Documentation organized by the project delivering them.
    sdnc/parent <../submodules/sdnc/parent.git/docs/index>
    sdnc/plugins <../submodules/sdnc/plugins.git/docs/index>
    so <../submodules/so.git/docs/index>
+   so/libs <../submodules/so/libs.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/lcm.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/nfvo/lcm.git/docs/index>
    vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
@@ -80,4 +81,3 @@ Documentation organized by the project delivering them.
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
    vnfsdk/model <../submodules/vnfsdk/model.git/docs/index>
    usecase-ui <../submodules/usecase-ui.git/docs/index>
-   so/libs <../submodules/so/libs.git/docs/index>
