@@ -1,12 +1,15 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 
-Projects
---------
+Projects Providing Documentation
+--------------------------------
 
 Documentation organized by the project delivering them.
 
 .. note::
-   When available these references should be changed to release artifacts.
+   The list below is the initial reference to project information created
+   when integrating as a submodule.  For the release notes document, 
+   these references will be changed to release notes and artifacts
+   Other project information will referenced in developer and user guides.
 
 
 .. toctree::
@@ -56,7 +59,6 @@ Documentation organized by the project delivering them.
    policy/engine <../submodules/policy/engine.git/docs/index>
    portal <../submodules/portal.git/docs/index>
    sdc/jtosca <../submodules/sdc/jtosca.git/docs/index>
-   sdc/sdc_common <../submodules/sdc/sdc_common.git/docs/index>
    sdc/sdc-distribution-client <../submodules/sdc/sdc-distribution-client.git/docs/index>
    sdc/sdc-docker-base <../submodules/sdc/sdc-docker-base.git/docs/index>
    sdc/sdc-titan-cassandra <../submodules/sdc/sdc-titan-cassandra.git/docs/index>
