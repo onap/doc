@@ -303,11 +303,6 @@
 	url = ../sdc/sdc-workflow-designer
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/sdc/sdc_common.git"]
-	path = docs/submodules/sdc/sdc_common.git
-	url = ../sdc/sdc_common
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/vid.git"]
 	path = docs/submodules/vid.git
 	url = ../vid
