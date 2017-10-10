@@ -202,19 +202,48 @@ Creating Restructured Text
 
 Templates and Examples
 ----------------------
-Some templates are available that capture the kinds of information
-useful for different types of projects and provide simple examples of 
-restructured text.
-You can: browse the templates below; show source to look at the Restructured
-Text and Sphinx directives used; and then copy the source either from a browser window
+Templates are available that capture the kinds of information
+useful for different types of projects and provide some examples of 
+restructured text.  We organize templates in the following way to: help authors 
+understand relationships between documents; keep the user audience context in mind when writing; 
+and tailor sections for different kinds of projects.
+
+**Sections** Represent a certain type of content.   A section is **provided** in a repository, to
+to describe something about the characteristics, use, capability, etc. of things in that repository.
+A section may also be **referenced** from other sections and in other repositories.
+The notes in the beginning of each section template provide
+additional detail about what is typically covered and where there may be references to the section.
+
+**Collections** Are a set of sections that are typically provided for a particular type
+of project, repository, guide, reference manual, etc.
+
+You can: browse the template *collections* and *sections* below; show source to look at the Restructured
+Text and Sphinx directives used; copy the source either from a browser window
 or by downloading the file in raw form from
-the `gerrit doc repository <https://gerrit.onap.org/r/gitweb?p=doc.git;a=tree;f=docs/templates;/>`_.
+the `gerrit doc repository <https://gerrit.onap.org/r/gitweb?p=doc.git;a=tree;f=docs/templates;/>`_ and
+then add them to your repository docs folder and index.rst.
+
+
+Sections
+++++++++
 
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   ../../../templates/**/index
+   ../../../templates/sections/*
+
+
+Collections
++++++++++++
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   ../../../templates/collections/*
+
+
 
 In addition to these simple templates and examples 
 there are many open source projects (e.g. Open Daylight, Open Stack)

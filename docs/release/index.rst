@@ -6,7 +6,7 @@ Releases
 ONAP is developed and released around 6 month cycles.   After an initial major release, additional
 stable point releases may be created.
 
-Major Releases
+Named Releases
 --------------
 
 .. csv-table:: 
@@ -16,17 +16,16 @@ Major Releases
    :widths:  15,       10,       10,                     15,           10
 
    "Amsterdam", "Under Development", "TBD",   "",  ""
-   "R1.0.0 Seed Code", "EOL", "2017-04-XX", "", ""
+   "OpenECOMP R1.0.0 Seed Code", "EOL", "2017-04-XX", "", ""
+
+Amsterdam Projects
+------------------
+The following projects repositories have been approved by the TSC to be part of
+the Amsterdam Release and provide detailed release notes at the links below.
+
+.. include:: releaserepos.rst
+
 
 
 .. include:: repolist.rst
-
-
-Cryptographic Signatures
-------------------------
-
-
-References
-----------
-
 
