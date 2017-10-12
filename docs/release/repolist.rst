@@ -48,6 +48,7 @@ Documentation organized by the project delivering them.
    holmes/engine-management <../submodules/holmes/engine-management.git/docs/index>
    holmes/rule-management <../submodules/holmes/rule-management.git/docs/index>
    integration <../submodules/integration.git/docs/index>
+   logging-analytics <../submodules/logging-analytics.git/docs/index>
    modeling/modelspec <../submodules/modeling/modelspec.git/docs/index>
    msb/apigateway <../submodules/msb/apigateway.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
