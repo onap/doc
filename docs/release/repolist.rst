@@ -84,3 +84,4 @@ Documentation organized by the project delivering them.
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
    vnfsdk/model <../submodules/vnfsdk/model.git/docs/index>
    usecase-ui <../submodules/usecase-ui.git/docs/index>
+   logging-analytics <../submodules/logging-analytics.git/docs/index>
