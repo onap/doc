@@ -326,3 +326,6 @@
 [submodule "docs/submodules/so/libs.git"]
 	path = docs/submodules/so/libs.git
 	url = ../so/libs
+[submodule "docs/submodules/logging-analytics.git"]
+	path = docs/submodules/logging-analytics.git
+	url = ../logging-analytics
