@@ -26,6 +26,8 @@ the Amsterdam Release and provide detailed release notes at the links below.
 .. include:: releaserepos.rst
 
 
+Projects Providing Documentation
+--------------------------------
 
 .. include:: repolist.rst
-
+   

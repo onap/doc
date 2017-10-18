@@ -147,7 +147,11 @@ files:
 .. code-block:: bash
 
  .. This work is licensed under a Creative Commons Attribution 4.0 International License.
- .. (c) <optionally add copyrights company name>
+ .. http://creativecommons.org/licenses/by/4.0
+ .. Copyright YEAR ONAP or COMPANY or INDIVIDUAL
 
  These lines will not be rendered in the html and pdf files.
+
+When there are subsequent, significant contributions to a source file from a different contributor,
+a new copyright line may be appended after the last existing copyright line.
 

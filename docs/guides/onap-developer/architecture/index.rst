@@ -4,9 +4,9 @@ Architecture
 ============
 
 .. note::
-   Some high level groupings are introduced below with references to project/repo index.
-   As more information is provided by each project these references will shift lower to
-   to include only certain sections from each project. For example, the project architecture section.
+   Some high level groupings are introduced below with references to project/repo/docs/architecture.rst or similar architecture references.
+   As more information is provided by each project in a docs/architecture.rst file, it will appear here.   Show source to see the references
+   in each grouping.
 
 Models
 ------
@@ -15,7 +15,7 @@ Models
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/modeling/modelspec.git/docs/index
+   Model Specifications <../../../submodules/modeling/modelspec.git/docs/ONAP release 1 spec/index>
 
 User Interfaces
 ---------------
@@ -24,18 +24,18 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/clamp.git/docs/index
-   ../../../submodules/cli.git/docs/index
-   ../../../submodules/sdc/jtosca.git/docs/index
-   ../../../submodules/sdc/sdc-distribution-client.git/docs/index
-   ../../../submodules/sdc/sdc-docker-base.git/docs/index
-   ../../../submodules/sdc/sdc-titan-cassandra.git/docs/index
-   ../../../submodules/sdc/sdc-tosca.git/docs/index
-   ../../../submodules/sdc/sdc-workflow-designer.git/docs/index
-   ../../../submodules/sdc.git/docs/index
-   ../../../submodules/usecase-ui.git/docs/index
-   ../../../submodules/vid/asdcclient.git/docs/index
-   ../../../submodules/vid.git/docs/index
+   CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/index>
+   CLI - Command Line Interface <../../../submodules/cli.git/docs/architecture.rst>
+   SDC - Service Design and Creation <../../../submodules/sdc.git/docs/architecture.rst>
+   ../../../submodules/sdc/jtosca.git/docs/architecture.rst
+   ../../../submodules/sdc/sdc-distribution-client.git/docs/architecture.rst
+   ../../../submodules/sdc/sdc-docker-base.git/docs/architecture.rst
+   ../../../submodules/sdc/sdc-titan-cassandra.git/docs/architecture.rst
+   ../../../submodules/sdc/sdc-tosca.git/docs/architecture.rst
+   ../../../submodules/sdc/sdc-workflow-designer.git/docs/architecture.rst
+   ../../../submodules/usecase-ui.git/docs/architecture.rst
+   ../../../submodules/vid/asdcclient.git/docs/architecture.rst
+   VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/intro/index>
 
 Platform Components
 -------------------
@@ -44,24 +44,24 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/appc/deployment.git/docs/index
-   ../../../submodules/appc.git/docs/index
-   ../../../submodules/dcaegen2.git/docs/index
-   ../../../submodules/holmes/engine-management.git/docs/index
-   ../../../submodules/holmes/rule-management.git/docs/index
-   ../../../submodules/policy/engine.git/docs/index
-   ../../../submodules/sdnc/adaptors.git/docs/index
-   ../../../submodules/sdnc/architecture.git/docs/index
-   ../../../submodules/sdnc/core.git/docs/index
-   ../../../submodules/sdnc/features.git/docs/index
-   ../../../submodules/sdnc/northbound.git/docs/index
-   ../../../submodules/sdnc/oam.git/docs/index
-   ../../../submodules/sdnc/parent.git/docs/index
-   ../../../submodules/sdnc/plugins.git/docs/index
-   ../../../submodules/so/libs.git/docs/index
-   ../../../submodules/so.git/docs/index
-   ../../../submodules/vfc/lcm.git/docs/index
-   ../../../submodules/vfc/nfvo/lcm.git/docs/index
+   ../../../submodules/appc/deployment.git/docs/architecture.rst
+   ../../../submodules/appc.git/docs/architecture.rst
+   ../../../submodules/dcaegen2.git/docs/architecture.rst
+   ../../../submodules/holmes/engine-management.git/docs/architecture.rst
+   ../../../submodules/holmes/rule-management.git/docs/architecture.rst
+   ../../../submodules/policy/engine.git/docs/architecture.rst
+   ../../../submodules/sdnc/adaptors.git/docs/architecture.rst
+   ../../../submodules/sdnc/architecture.git/docs/architecture.rst
+   ../../../submodules/sdnc/core.git/docs/architecture.rst
+   ../../../submodules/sdnc/features.git/docs/architecture.rst
+   ../../../submodules/sdnc/northbound.git/docs/architecture.rst
+   ../../../submodules/sdnc/oam.git/docs/architecture.rst
+   ../../../submodules/sdnc/parent.git/docs/architecture.rst
+   ../../../submodules/sdnc/plugins.git/docs/architecture.rst
+   ../../../submodules/so/libs.git/docs/architecture.rst
+   ../../../submodules/so.git/docs/architecture.rst
+   ../../../submodules/vfc/lcm.git/docs/architecture.rst
+   ../../../submodules/vfc/nfvo/lcm.git/docs/architecture.rst
 
 Platform Common Services
 ------------------------
@@ -70,23 +70,23 @@ Platform Common Services
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/aaf/authz.git/docs/index
-   ../../../submodules/aai/aai-common.git/docs/index
-   ../../../submodules/aai/data-router.git/docs/index
-   ../../../submodules/aai/esr-gui.git/docs/index
-   ../../../submodules/aai/esr-server.git/docs/index
-   ../../../submodules/aai/resources.git/docs/index
-   ../../../submodules/aai/search-data-service.git/docs/index
-   ../../../submodules/aai/sparky-be.git/docs/index
-   ../../../submodules/aai/sparky-fe.git/docs/index
-   ../../../submodules/aai/traversal.git/docs/index
-   ../../../submodules/dmaap/messagerouter/messageservice.git/docs/index
-   ../../../submodules/msb/apigateway.git/docs/index
-   ../../../submodules/msb/discovery.git/docs/index
-   ../../../submodules/msb/java-sdk.git/docs/index
-   ../../../submodules/msb/swagger-sdk.git/docs/index
-   ../../../submodules/multicloud/framework.git/docs/index
-   ../../../submodules/oom.git/docs/index
+   ../../../submodules/aaf/authz.git/docs/architecture.rst
+   ../../../submodules/aai/aai-common.git/docs/architecture.rst
+   ../../../submodules/aai/data-router.git/docs/architecture.rst
+   ../../../submodules/aai/esr-gui.git/docs/architecture.rst
+   ../../../submodules/aai/esr-server.git/docs/architecture.rst
+   ../../../submodules/aai/resources.git/docs/architecture.rst
+   ../../../submodules/aai/search-data-service.git/docs/architecture.rst
+   ../../../submodules/aai/sparky-be.git/docs/architecture.rst
+   ../../../submodules/aai/sparky-fe.git/docs/architecture.rst
+   ../../../submodules/aai/traversal.git/docs/architecture.rst
+   ../../../submodules/dmaap/messagerouter/messageservice.git/docs/architecture.rst
+   ../../../submodules/msb/apigateway.git/docs/architecture.rst
+   ../../../submodules/msb/discovery.git/docs/architecture.rst
+   ../../../submodules/msb/java-sdk.git/docs/architecture.rst
+   ../../../submodules/msb/swagger-sdk.git/docs/architecture.rst
+   ../../../submodules/multicloud/framework.git/docs/architecture.rst
+   ../../../submodules/oom.git/docs/architecture.rst
 
 SDKs
 ----
@@ -95,21 +95,21 @@ SDKs
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/ccsdk/dashboard.git/docs/index
-   ../../../submodules/ccsdk/distribution.git/docs/index
-   ../../../submodules/ccsdk/parent.git/docs/index
-   ../../../submodules/ccsdk/platform/blueprints.git/docs/index
-   ../../../submodules/ccsdk/platform/nbapi.git/docs/index
-   ../../../submodules/ccsdk/platform/plugins.git/docs/index
-   ../../../submodules/ccsdk/sli/adaptors.git/docs/index
-   ../../../submodules/ccsdk/sli/core.git/docs/index
-   ../../../submodules/ccsdk/sli/northbound.git/docs/index
-   ../../../submodules/ccsdk/sli/plugins.git/docs/index
-   ../../../submodules/ccsdk/storage/esaas.git/docs/index
-   ../../../submodules/ccsdk/storage/pgaas.git/docs/index
-   ../../../submodules/ccsdk/utils.git/docs/index
-   ../../../submodules/portal.git/docs/index
-   ../../../submodules/vnfsdk/model.git/docs/index
+   ../../../submodules/ccsdk/dashboard.git/docs/architecture.rst
+   ../../../submodules/ccsdk/distribution.git/docs/architecture.rst
+   ../../../submodules/ccsdk/parent.git/docs/architecture.rst
+   ../../../submodules/ccsdk/platform/blueprints.git/docs/architecture.rst
+   ../../../submodules/ccsdk/platform/nbapi.git/docs/architecture.rst
+   ../../../submodules/ccsdk/platform/plugins.git/docs/architecture.rst
+   ../../../submodules/ccsdk/sli/adaptors.git/docs/architecture.rst
+   ../../../submodules/ccsdk/sli/core.git/docs/architecture.rst
+   ../../../submodules/ccsdk/sli/northbound.git/docs/architecture.rst
+   ../../../submodules/ccsdk/sli/plugins.git/docs/architecture.rst
+   ../../../submodules/ccsdk/storage/esaas.git/docs/architecture.rst
+   ../../../submodules/ccsdk/storage/pgaas.git/docs/architecture.rst
+   ../../../submodules/ccsdk/utils.git/docs/architecture.rst
+   ../../../submodules/portal.git/docs/architecture.rst
+   ../../../submodules/vnfsdk/model.git/docs/architecture.rst
 
 Other
 -----
@@ -118,7 +118,7 @@ Other
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/integration.git/docs/index
-   ../../../submodules/optf/has.git/docs/index
-   ../../../submodules/vnfrqts/guidelines.git/docs/index
-   ../../../submodules/vnfrqts/requirements.git/docs/index
+   ../../../submodules/integration.git/docs/architecture.rst
+   ../../../submodules/optf/has.git/docs/architecture.rst
+   ../../../submodules/vnfrqts/guidelines.git/docs/architecture.rst
+   ../../../submodules/vnfrqts/requirements.git/docs/architecture.rst
