@@ -65,7 +65,9 @@ master_doc = 'index'
 
 # General information about the project.
 project = u''
-copyright = u'2017, ONAP. Licensed under CC BY 4.0'
+copyright = u'2017 ONAP. Licensed under Creative Commons Attribution 4.0 International License'
+
+
 author = u'Open Network Automation Platform'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -93,7 +95,8 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = [
-	'_build'
+	'_build',
+	'submodules/aaf'
 	]
 
 # The reST default role (used for this markup: `text`) to use for all

@@ -2,8 +2,8 @@
 .. http://creativecommons.org/licenses/by/4.0
 
 
-Platform Component Name
-=======================
+Platform Component
+==================
 
 .. Add or remove sections below as appropriate for the platform component.
 

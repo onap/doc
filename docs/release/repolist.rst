@@ -1,8 +1,5 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 
-Projects Providing Documentation
---------------------------------
-
 Documentation organized by the project delivering them.
 
 .. note::
@@ -48,6 +45,7 @@ Documentation organized by the project delivering them.
    holmes/engine-management <../submodules/holmes/engine-management.git/docs/index>
    holmes/rule-management <../submodules/holmes/rule-management.git/docs/index>
    integration <../submodules/integration.git/docs/index>
+   logging-analytics <../submodules/logging-analytics.git/docs/index>
    modeling/modelspec <../submodules/modeling/modelspec.git/docs/index>
    msb/apigateway <../submodules/msb/apigateway.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
@@ -55,7 +53,7 @@ Documentation organized by the project delivering them.
    msb/swagger-sdk <../submodules/msb/swagger-sdk.git/docs/index>
    multicloud/framework <../submodules/multicloud/framework.git/docs/index>
    oom <../submodules/oom.git/docs/index>
-   Optimization Framework: Homing and Allocation <../submodules/optf/has.git/docs/index>
+   optf/has <../submodules/optf/has.git/docs/index>
    policy/engine <../submodules/policy/engine.git/docs/index>
    portal <../submodules/portal.git/docs/index>
    sdc/jtosca <../submodules/sdc/jtosca.git/docs/index>
@@ -73,8 +71,9 @@ Documentation organized by the project delivering them.
    sdnc/oam <../submodules/sdnc/oam.git/docs/index>
    sdnc/parent <../submodules/sdnc/parent.git/docs/index>
    sdnc/plugins <../submodules/sdnc/plugins.git/docs/index>
-   so <../submodules/so.git/docs/index>
    so/libs <../submodules/so/libs.git/docs/index>
+   so <../submodules/so.git/docs/index>
+   usecase-ui <../submodules/usecase-ui.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/lcm.git/docs/index>
    vfc/nfvo/lcm <../submodules/vfc/nfvo/lcm.git/docs/index>
    vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
@@ -82,5 +81,3 @@ Documentation organized by the project delivering them.
    vnfrqts/guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
    vnfrqts/requirements <../submodules/vnfrqts/requirements.git/docs/index>
    vnfsdk/model <../submodules/vnfsdk/model.git/docs/index>
-   usecase-ui <../submodules/usecase-ui.git/docs/index>
-   logging-analytics <../submodules/logging-analytics.git/docs/index>
