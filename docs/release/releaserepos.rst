@@ -1,4 +1,7 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. http://creativecommons.org/licenses/by/4.0
+.. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
+
 
 Project Specific Release Notes
 ------------------------------
@@ -34,7 +37,7 @@ Project Specific Release Notes
    Release Notes for ccsdk/utils<../submodules/ccsdk/utils.git/docs/release-notes.rst>
    Release Notes for clamp<../submodules/clamp.git/docs/release-notes.rst>
    Release Notes for cli<../submodules/cli.git/docs/release-notes.rst>
-   Release Notes for dcaegen2<../submodules/dcaegen2.git/docs/release-notes.rst>
+   Release Notes for dcaegen2<../submodules/dcaegen2.git/docs/sections/release-notes.rst>
    Release Notes for dmaap/messagerouter/messageservice<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes.rst>
    Release Notes for holmes/engine-management<../submodules/holmes/engine-management.git/docs/release-notes.rst>
    Release Notes for holmes/rule-management<../submodules/holmes/rule-management.git/docs/release-notes.rst>

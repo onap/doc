@@ -26,8 +26,7 @@ the Amsterdam Release and provide detailed release notes at the links below.
 .. include:: releaserepos.rst
 
 
-Projects Providing Documentation
---------------------------------
+==========================
 
-.. include:: repolist.rst
-   
+The complete list of projects providing documentation for current and future releases
+has been moved to the onap-developer guide :ref:`doc_onap-developer_guide_projects`.   
