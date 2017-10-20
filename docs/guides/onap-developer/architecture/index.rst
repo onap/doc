@@ -1,12 +1,16 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. http://creativecommons.org/licenses/by/4.0
+.. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
+
 
 Architecture
 ============
 
 .. note::
-   Some high level groupings are introduced below with references to project/repo/docs/architecture.rst or similar architecture references.
-   As more information is provided by each project in a docs/architecture.rst file, it will appear here.   Show source to see the references
-   in each grouping.
+   Some high level groupings are introduced below with references to
+   project/repo/docs/architecture.rst or similar architecture references.
+   As more information is provided by each project in a docs/architecture.rst
+   file, it will appear here.   Show source to see the references in each grouping.
 
 Models
 ------
@@ -46,16 +50,16 @@ Platform Components
 
    ../../../submodules/appc/deployment.git/docs/architecture.rst
    ../../../submodules/appc.git/docs/architecture.rst
-   ../../../submodules/dcaegen2.git/docs/architecture.rst
+   DCAE - Data Collection Analytics and Events <../../../submodules/dcaegen2.git/docs/sections/architecture.rst>
    ../../../submodules/holmes/engine-management.git/docs/architecture.rst
-   ../../../submodules/holmes/rule-management.git/docs/architecture.rst
+   Holmes <../../../submodules/holmes/rule-management.git/docs/platform/architecture.rst>
    ../../../submodules/policy/engine.git/docs/architecture.rst
    ../../../submodules/sdnc/adaptors.git/docs/architecture.rst
    ../../../submodules/sdnc/architecture.git/docs/architecture.rst
    ../../../submodules/sdnc/core.git/docs/architecture.rst
    ../../../submodules/sdnc/features.git/docs/architecture.rst
-   ../../../submodules/sdnc/northbound.git/docs/architecture.rst
-   ../../../submodules/sdnc/oam.git/docs/architecture.rst
+   SDN Northbound <../../../submodules/sdnc/northbound.git/docs/architecture.rst
+   SDN Controller OAM <../../../submodules/sdnc/oam.git/docs/architecture.rst>
    ../../../submodules/sdnc/parent.git/docs/architecture.rst
    ../../../submodules/sdnc/plugins.git/docs/architecture.rst
    ../../../submodules/so/libs.git/docs/architecture.rst
@@ -63,8 +67,8 @@ Platform Components
    ../../../submodules/vfc/lcm.git/docs/architecture.rst
    ../../../submodules/vfc/nfvo/lcm.git/docs/architecture.rst
 
-Platform Common Services
-------------------------
+Common Services
+---------------
 
 .. toctree::
    :maxdepth: 1
@@ -73,8 +77,8 @@ Platform Common Services
    ../../../submodules/aaf/authz.git/docs/architecture.rst
    ../../../submodules/aai/aai-common.git/docs/architecture.rst
    ../../../submodules/aai/data-router.git/docs/architecture.rst
-   ../../../submodules/aai/esr-gui.git/docs/architecture.rst
-   ../../../submodules/aai/esr-server.git/docs/architecture.rst
+   AAI ESR UI <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
+   AAI ESR Server <../../../submodules/aai/esr-server.git/docs/platform/architecture.rst>
    ../../../submodules/aai/resources.git/docs/architecture.rst
    ../../../submodules/aai/search-data-service.git/docs/architecture.rst
    ../../../submodules/aai/sparky-be.git/docs/architecture.rst
@@ -101,14 +105,14 @@ SDKs
    ../../../submodules/ccsdk/platform/blueprints.git/docs/architecture.rst
    ../../../submodules/ccsdk/platform/nbapi.git/docs/architecture.rst
    ../../../submodules/ccsdk/platform/plugins.git/docs/architecture.rst
-   ../../../submodules/ccsdk/sli/adaptors.git/docs/architecture.rst
-   ../../../submodules/ccsdk/sli/core.git/docs/architecture.rst
-   ../../../submodules/ccsdk/sli/northbound.git/docs/architecture.rst
-   ../../../submodules/ccsdk/sli/plugins.git/docs/architecture.rst
+   CCSDK SLI Adaptors <../../../submodules/ccsdk/sli/adaptors.git/docs/architecture.rst>
+   CCSDK SLI Service Logic Intrepreter <../../../submodules/ccsdk/sli/core.git/docs/architecture.rst>
+   CCSDK SLI Northbound Interface <../../../submodules/ccsdk/sli/northbound.git/docs/architecture.rst>
+   CCSDK SLI Plugins <../../../submodules/ccsdk/sli/plugins.git/docs/architecture.rst>
    ../../../submodules/ccsdk/storage/esaas.git/docs/architecture.rst
    ../../../submodules/ccsdk/storage/pgaas.git/docs/architecture.rst
    ../../../submodules/ccsdk/utils.git/docs/architecture.rst
-   ../../../submodules/portal.git/docs/architecture.rst
+   ../../../submodules/portal.git/docs/portal-sdk/architecture.rst
    ../../../submodules/vnfsdk/model.git/docs/architecture.rst
 
 Other

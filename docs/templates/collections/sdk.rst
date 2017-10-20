@@ -11,7 +11,7 @@ SDK
 
    ../sections/architecture.rst
    ../sections/offeredapis.rst
-   ../sections/deliveries
+   ../sections/delivery.rst
    ../sections/logging.rst
    ../sections/build.rst
    ../sections/release-notes.rst
