@@ -28,7 +28,7 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-   CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/index>
+   CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/architecture.rst>
    CLI - Command Line Interface <../../../submodules/cli.git/docs/architecture.rst>
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/architecture.rst>
    ../../../submodules/sdc/jtosca.git/docs/architecture.rst
