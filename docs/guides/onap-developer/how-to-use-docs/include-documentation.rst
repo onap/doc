@@ -402,7 +402,7 @@ Update submodules, build documentation using tox & then open using any browser.
 .. code-block:: bash
 
    cd doc
-   git submodule update --init
+   git submodule update --depth 1 --init
    tox -edocs
    firefox docs/_build/html/index.html
 
