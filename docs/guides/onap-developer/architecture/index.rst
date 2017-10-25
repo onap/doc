@@ -76,14 +76,10 @@ Common Services
 
    ../../../submodules/aaf/authz.git/docs/architecture.rst
    ../../../submodules/aai/aai-common.git/docs/architecture.rst
-   ../../../submodules/aai/data-router.git/docs/architecture.rst
    AAI ESR UI <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
    AAI ESR Server <../../../submodules/aai/esr-server.git/docs/platform/architecture.rst>
-   ../../../submodules/aai/resources.git/docs/architecture.rst
-   ../../../submodules/aai/search-data-service.git/docs/architecture.rst
    ../../../submodules/aai/sparky-be.git/docs/architecture.rst
    ../../../submodules/aai/sparky-fe.git/docs/architecture.rst
-   ../../../submodules/aai/traversal.git/docs/architecture.rst
    ../../../submodules/dmaap/messagerouter/messageservice.git/docs/architecture.rst
    ../../../submodules/msb/apigateway.git/docs/architecture.rst
    ../../../submodules/msb/discovery.git/docs/architecture.rst

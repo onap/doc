@@ -12,14 +12,10 @@ Project Specific Release Notes
 
    Release Notes for aaf/authz<../submodules/aaf/authz.git/docs/release-notes.rst>
    Release Notes for aai/aai-common<../submodules/aai/aai-common.git/docs/release-notes.rst>
-   Release Notes for aai/data-router<../submodules/aai/data-router.git/docs/release-notes.rst>
    Release Notes for aai/esr-gui<../submodules/aai/esr-gui.git/docs/release-notes.rst>
    Release Notes for aai/esr-server<../submodules/aai/esr-server.git/docs/release-notes.rst>
-   Release Notes for aai/resources<../submodules/aai/resources.git/docs/release-notes.rst>
-   Release Notes for aai/search-data-service<../submodules/aai/search-data-service.git/docs/release-notes.rst>
    Release Notes for aai/sparky-be<../submodules/aai/sparky-be.git/docs/release-notes.rst>
    Release Notes for aai/sparky-fe<../submodules/aai/sparky-fe.git/docs/release-notes.rst>
-   Release Notes for aai/traversal<../submodules/aai/traversal.git/docs/release-notes.rst>
    Release Notes for appc/deployment<../submodules/appc/deployment.git/docs/release-notes.rst>
    Release Notes for appc<../submodules/appc.git/docs/release-notes.rst>
    Release Notes for ccsdk/dashboard<../submodules/ccsdk/dashboard.git/docs/release-notes.rst>
