@@ -14,14 +14,10 @@ Project/Components
 
    aaf/authz <../submodules/aaf/authz.git/docs/index>
    AAI - Active & Available Inventory <../submodules/aai/aai-common.git/docs/index>
-   aai/data-router <../submodules/aai/data-router.git/docs/index>
    AAI External System Registration UI <../submodules/aai/esr-gui.git/docs/index>
    AAI External System Registration Server <../submodules/aai/esr-server.git/docs/index>
-   aai/resources <../submodules/aai/resources.git/docs/index>
-   aai/search-data-service <../submodules/aai/search-data-service.git/docs/index>
    AAI Sparky Inventory UI <../submodules/aai/sparky-be.git/docs/index>
    AAI Sparky Inventory Service <../submodules/aai/sparky-fe.git/docs/index>
-   aai/traversal <../submodules/aai/traversal.git/docs/index>
    APPC - Application Controller Deployment <../submodules/appc/deployment.git/docs/index>
    APPC API Guides <../submodules/appc.git/docs/index>
    CCSDK Dashboard <../submodules/ccsdk/dashboard.git/docs/index>
