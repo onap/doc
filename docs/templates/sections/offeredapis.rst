@@ -23,4 +23,3 @@ Here are several examples:
    apiexample/swaggerv2doc.rst
    apiexample/swagger2markup.rst
    apiexample/worddoc2rst.rst
-   apiexample/httpdomain.rst

@@ -41,7 +41,6 @@ extensions = [
     'sphinxcontrib.seqdiag',
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
-    'sphinxcontrib.httpdomain',
     'sphinxcontrib.plantuml',
     'sphinxcontrib.swaggerdoc'
 ]
