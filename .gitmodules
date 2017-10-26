@@ -28,11 +28,6 @@
 	url = ../appc/deployment
         branch = .
         ignore = dirty
-[submodule "docs/submodules/aai/search-data-service.git"]
-	path = docs/submodules/aai/search-data-service.git
-	url = ../aai/search-data-service
-        branch = .
-        ignore = dirty
 [submodule "docs/submodules/optf/has.git"]
 	path = docs/submodules/optf/has.git
 	url = ../optf/has
@@ -118,24 +113,9 @@
 	url = ../aai/aai-common
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/aai/resources.git"]
-	path = docs/submodules/aai/resources.git
-	url = ../aai/resources
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/aai/traversal.git"]
-	path = docs/submodules/aai/traversal.git
-	url = ../aai/traversal
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/aai/esr-gui.git"]
 	path = docs/submodules/aai/esr-gui.git
 	url = ../aai/esr-gui
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/aai/data-router.git"]
-	path = docs/submodules/aai/data-router.git
-	url = ../aai/data-router
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/aai/sparky-fe.git"]
@@ -326,6 +306,10 @@
 [submodule "docs/submodules/so/libs.git"]
 	path = docs/submodules/so/libs.git
 	url = ../so/libs
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/logging-analytics.git"]
 	path = docs/submodules/logging-analytics.git
 	url = ../logging-analytics
+	branch = .
+	ignore = dirty
