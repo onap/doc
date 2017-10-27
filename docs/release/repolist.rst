@@ -75,3 +75,4 @@ Project/Components
    VNF Guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
    VNF Requirements <../submodules/vnfrqts/requirements.git/docs/index>
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
+   modeling/toscaparsers <../submodules/modeling/toscaparsers.git/docs/index>

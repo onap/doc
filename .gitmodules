@@ -313,3 +313,6 @@
 	url = ../logging-analytics
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/modeling/toscaparsers.git"]
+	path = docs/submodules/modeling/toscaparsers.git
+	url = ../modeling/toscaparsers
