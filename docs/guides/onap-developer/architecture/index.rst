@@ -75,13 +75,13 @@ Common Services
    :titlesonly:
 
    ../../../submodules/aaf/authz.git/docs/architecture.rst
-   ../../../submodules/aai/aai-common.git/docs/architecture.rst
+   AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/platform/architecture.rst>
    AAI ESR UI <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
    AAI ESR Server <../../../submodules/aai/esr-server.git/docs/platform/architecture.rst>
    ../../../submodules/aai/sparky-be.git/docs/architecture.rst
    ../../../submodules/aai/sparky-fe.git/docs/architecture.rst
    ../../../submodules/dmaap/messagerouter/messageservice.git/docs/architecture.rst
-   ../../../submodules/msb/apigateway.git/docs/architecture.rst
+   MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/architecture.rst>
    ../../../submodules/msb/discovery.git/docs/architecture.rst
    ../../../submodules/msb/java-sdk.git/docs/architecture.rst
    ../../../submodules/msb/swagger-sdk.git/docs/architecture.rst
