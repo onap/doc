@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a2f8d8d_9492cf55",
+        "filename": "docs/release/repolist.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2017-10-27T11:01:26Z",
+      "side": 1,
+      "message": "This line should be put in line 45 to keep alphabetical order",
+      "revId": "57d96809ecbc605ec00b0a6d34497643116d6b3c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
