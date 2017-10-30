@@ -42,6 +42,7 @@ Project/Components
    integration <../submodules/integration.git/docs/index>
    logging-analytics <../submodules/logging-analytics.git/docs/index>
    ../submodules/modeling/modelspec.git/docs/index
+   modeling/toscaparsers <../submodules/modeling/toscaparsers.git/docs/index>
    MSB - Microservice Bus <../submodules/msb/apigateway.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
    msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>
@@ -75,4 +76,4 @@ Project/Components
    VNF Guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
    VNF Requirements <../submodules/vnfrqts/requirements.git/docs/index>
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
-   modeling/toscaparsers <../submodules/modeling/toscaparsers.git/docs/index>
+   
