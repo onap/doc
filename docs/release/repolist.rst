@@ -42,6 +42,7 @@ Project/Components
    integration <../submodules/integration.git/docs/index>
    logging-analytics <../submodules/logging-analytics.git/docs/index>
    ../submodules/modeling/modelspec.git/docs/index
+   modeling/toscaparsers <../submodules/modeling/toscaparsers.git/docs/index>
    MSB - Microservice Bus <../submodules/msb/apigateway.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
    msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>
@@ -51,13 +52,13 @@ Project/Components
    ../submodules/optf/has.git/docs/index
    ../submodules/policy/engine.git/docs/index
    ../submodules/portal.git/docs/index
+   Service Design and Creation <../submodules/sdc.git/docs/index>
    sdc/jtosca <../submodules/sdc/jtosca.git/docs/index>
    sdc/sdc-distribution-client <../submodules/sdc/sdc-distribution-client.git/docs/index>
    sdc/sdc-docker-base <../submodules/sdc/sdc-docker-base.git/docs/index>
    sdc/sdc-titan-cassandra <../submodules/sdc/sdc-titan-cassandra.git/docs/index>
    sdc/sdc-tosca <../submodules/sdc/sdc-tosca.git/docs/index>
    sdc/sdc-workflow-designer <../submodules/sdc/sdc-workflow-designer.git/docs/index>
-   Service Design and Creation <../submodules/sdc.git/docs/index>
    sdnc/adaptors <../submodules/sdnc/adaptors.git/docs/index>
    sdnc/architecture <../submodules/sdnc/architecture.git/docs/index>
    sdnc/core <../submodules/sdnc/core.git/docs/index>
@@ -66,13 +67,12 @@ Project/Components
    sdnc/oam <../submodules/sdnc/oam.git/docs/index>
    sdnc/parent <../submodules/sdnc/parent.git/docs/index>
    sdnc/plugins <../submodules/sdnc/plugins.git/docs/index>
-   so/libs <../submodules/so/libs.git/docs/index>
    Service Orchestrator <../submodules/so.git/docs/index>
+   so/libs <../submodules/so/libs.git/docs/index>
    Use Case User Interface <../submodules/usecase-ui.git/docs/index>
    VFC - Virtual Function Controller <../submodules/vfc/nfvo/lcm.git/docs/index>
-   vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
    VID - Virtual Infrastructure Deployment <../submodules/vid.git/docs/index>
+   vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
    VNF Guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
    VNF Requirements <../submodules/vnfrqts/requirements.git/docs/index>
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
-   modeling/toscaparsers <../submodules/modeling/toscaparsers.git/docs/index>
