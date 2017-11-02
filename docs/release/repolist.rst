@@ -18,8 +18,8 @@ Project/Components
    AAI External System Registration Server <../submodules/aai/esr-server.git/docs/index>
    AAI Sparky Inventory UI <../submodules/aai/sparky-be.git/docs/index>
    AAI Sparky Inventory Service <../submodules/aai/sparky-fe.git/docs/index>
-   APPC - Application Controller Deployment <../submodules/appc/deployment.git/docs/index>
-   APPC API Guides <../submodules/appc.git/docs/index>
+   ../submodules/appc/deployment.git/docs/index
+   ../submodules/appc.git/docs/index
    CCSDK Dashboard <../submodules/ccsdk/dashboard.git/docs/index>
    ccsdk/distribution <../submodules/ccsdk/distribution.git/docs/index>
    ccsdk/parent <../submodules/ccsdk/parent.git/docs/index>
