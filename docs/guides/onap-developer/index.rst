@@ -14,4 +14,5 @@ Describe the kinds of references, tutorials, specifications provided for develop
    settingup/index
    developing/index
    how-to-use-docs/index
+   apiref/index
 

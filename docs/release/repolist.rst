@@ -1,9 +1,9 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
-.. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
+.. This work is licensed under a Creative Commons Attribution 4.0
+   International License. http://creativecommons.org/licenses/by/4.0
+   Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
 
-
+.. _doc-repolist:
 
 Project/Components
 ------------------
@@ -73,6 +73,6 @@ Project/Components
    VFC - Virtual Function Controller <../submodules/vfc/nfvo/lcm.git/docs/index>
    VID - Virtual Infrastructure Deployment <../submodules/vid.git/docs/index>
    vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
-   VNF Guidelines <../submodules/vnfrqts/guidelines.git/docs/index>
-   VNF Requirements <../submodules/vnfrqts/requirements.git/docs/index>
+   ../submodules/vnfrqts/guidelines.git/docs/index
+   ../submodules/vnfrqts/requirements.git/docs/index
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>

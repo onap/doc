@@ -1,8 +1,8 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 
 
-VNF Provider Guide
-==================
+VNF Provider Guidelines and Requirements
+========================================
 
 .. toctree::
    :maxdepth: 2

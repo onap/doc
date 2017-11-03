@@ -3,6 +3,8 @@
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
 
+.. _doc-releaserepos:
+
 Project Specific Release Notes
 ------------------------------
 
@@ -15,7 +17,6 @@ Project Specific Release Notes
    Release Notes for aai/esr-gui<../submodules/aai/esr-gui.git/docs/release-notes.rst>
    Release Notes for aai/esr-server<../submodules/aai/esr-server.git/docs/release-notes.rst>
    Release Notes for aai/sparky-be<../submodules/aai/sparky-be.git/docs/release-notes.rst>
-   Release Notes for aai/sparky-fe<../submodules/aai/sparky-fe.git/docs/release-notes.rst>
    Release Notes for appc/deployment<../submodules/appc/deployment.git/docs/release-notes.rst>
    Release Notes for appc<../submodules/appc.git/docs/release-notes.rst>
    Release Notes for ccsdk/dashboard<../submodules/ccsdk/dashboard.git/docs/release-notes.rst>
@@ -34,6 +35,7 @@ Project Specific Release Notes
    Release Notes for clamp<../submodules/clamp.git/docs/release-notes.rst>
    Release Notes for cli<../submodules/cli.git/docs/release-notes.rst>
    Release Notes for dcaegen2<../submodules/dcaegen2.git/docs/sections/release-notes.rst>
+   Release Notes for doc <../release-notes.rst>
    Release Notes for dmaap/messagerouter/messageservice<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes.rst>
    Release Notes for holmes/engine-management<../submodules/holmes/engine-management.git/docs/release-notes.rst>
    Release Notes for holmes/rule-management<../submodules/holmes/rule-management.git/docs/release-notes.rst>

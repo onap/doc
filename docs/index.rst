@@ -14,9 +14,8 @@ ONAP Documentation
 
 
 
-Indices and tables
-==================
+Index and Search
+================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`

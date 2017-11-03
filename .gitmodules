@@ -118,11 +118,6 @@
 	url = ../aai/esr-gui
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/aai/sparky-fe.git"]
-	path = docs/submodules/aai/sparky-fe.git
-	url = ../aai/sparky-fe
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/aai/sparky-be.git"]
 	path = docs/submodules/aai/sparky-be.git
 	url = ../aai/sparky-be

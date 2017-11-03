@@ -1,7 +1,9 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
-.. http://creativecommons.org/licenses/by/4.0
-.. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
+.. This work is licensed under a Creative Commons Attribution 4.0
+   International License. http://creativecommons.org/licenses/by/4.0
+   Copyright 2017 AT&T Intellectual Property.  All rights reserved.
+
+.. _doc-architecture:
 
 Architecture
 ============
@@ -79,7 +81,6 @@ Common Services
    AAI ESR UI <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
    AAI ESR Server <../../../submodules/aai/esr-server.git/docs/platform/architecture.rst>
    ../../../submodules/aai/sparky-be.git/docs/architecture.rst
-   ../../../submodules/aai/sparky-fe.git/docs/architecture.rst
    ../../../submodules/dmaap/messagerouter/messageservice.git/docs/architecture.rst
    MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/architecture.rst>
    ../../../submodules/msb/discovery.git/docs/architecture.rst
@@ -108,7 +109,7 @@ SDKs
    ../../../submodules/ccsdk/storage/esaas.git/docs/architecture.rst
    ../../../submodules/ccsdk/storage/pgaas.git/docs/architecture.rst
    ../../../submodules/ccsdk/utils.git/docs/architecture.rst
-   ../../../submodules/portal.git/docs/portal-sdk/architecture.rst
+   Portal <../../../submodules/portal.git/docs/tutorials/portal-sdk/architecture.rst>
    ../../../submodules/vnfsdk/model.git/docs/architecture.rst
 
 Other
