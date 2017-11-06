@@ -4,10 +4,10 @@
 
 ONAP Developer
 ==============
-Describe the kinds of references, tutorials, specifications provided for developers.
+Documentation for developers.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    architecture/index
    tutorials/index
