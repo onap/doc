@@ -76,7 +76,6 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/aaf/authz.git/docs/architecture.rst
    AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/platform/architecture.rst>
    AAI ESR UI <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
    AAI ESR Server <../../../submodules/aai/esr-server.git/docs/platform/architecture.rst>
@@ -86,8 +85,6 @@ Common Services
    ../../../submodules/msb/discovery.git/docs/architecture.rst
    ../../../submodules/msb/java-sdk.git/docs/architecture.rst
    ../../../submodules/msb/swagger-sdk.git/docs/architecture.rst
-   ../../../submodules/multicloud/framework.git/docs/architecture.rst
-   ../../../submodules/oom.git/docs/architecture.rst
 
 SDKs
 ----
