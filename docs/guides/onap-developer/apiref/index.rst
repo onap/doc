@@ -4,12 +4,12 @@
 
 .. _doc-apiref:
 
-API Reference
-=============
+REST API Reference
+==================
 
 .. note::
    Some high level groupings are introduced below with references to
-   API offered by the various components.
+   REST API offered by the various components.
 
 User Interfaces
 ---------------
@@ -20,7 +20,7 @@ User Interfaces
 
    CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/index.rst>
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/offeredapis.rst>
-   VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/Virtual Function Controller.rst>
+   VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/docs-offeredapis.rst>
 
 Platform Components
 -------------------
@@ -47,5 +47,6 @@ Common Services
    AAF - Application Authorization Framework <../../../submodules/aaf/authz.git/docs/AAF-API-Documentation/AAF-API-Documentation.rst>
    AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI_AMSTERDAM.rst>
    DMaaP - Message Router <../../../submodules/dmaap/messagerouter/messageservice.git/docs/message-router/message-router.rst>
+   Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/offeredapis.rst>
    MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/offeredapis.rst>
    Multi VIM/Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-API-Specification-V1.rst>
