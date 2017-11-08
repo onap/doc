@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_bc4a8781",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2017-11-08T14:04:05Z",
+      "side": 1,
+      "message": "Trailing whitespace to be removed",
+      "revId": "80455a5d969d7ca773c9c5a9bba1f19986071574",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_9c4fcb92",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2017-11-08T14:04:05Z",
+      "side": 1,
+      "message": "Trailing whitespace to be removed",
+      "revId": "80455a5d969d7ca773c9c5a9bba1f19986071574",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_7c440f74",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2017-11-08T14:04:05Z",
+      "side": 1,
+      "message": "Trailing whitespace to be removed",
+      "revId": "80455a5d969d7ca773c9c5a9bba1f19986071574",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_5c49538a",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2017-11-08T14:04:05Z",
+      "side": 1,
+      "message": "Trailing whitespace to be removed",
+      "revId": "80455a5d969d7ca773c9c5a9bba1f19986071574",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
