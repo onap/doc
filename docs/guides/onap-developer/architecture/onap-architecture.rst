@@ -1,11 +1,12 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 Huawei Technologies Co., Ltd.
-**Introducing the ONAP Architecture (Amsterdam Release)**
-=========================================================
 
-**Introduction **
------------------
+Introducing the ONAP Architecture (Amsterdam Release)
+=====================================================
+
+Introduction
+-------------
 
 The ONAP project was formed in March, 2017 in response to a rising need
 for a common platform for telecommunication, cable, and cloud
@@ -102,8 +103,8 @@ following foundational principles:
 
 **Figure 1:** ONAP Platform
 
-**ONAP Architecture**
-=====================
+ONAP Architecture
+-----------------
 
 Figure 2 provides a high-level view of the ONAP architecture and
 microservices-based platform components. The platform provides the
@@ -116,7 +117,8 @@ the ONAP Design Framework Portal.
 
 |image1|\  **Figure 2:** ONAP Platform components (Amsterdam Release)
 
-1. **Portal**
+Portal
+++++++
 
 ONAP delivers a single, consistent user experience to both design time
 and run time environments, based on the user’s role; role changes to be
@@ -138,8 +140,8 @@ vendors and consultants), and other experts to continually define/refine
 new collection, analytics, and policies (including recipes for
 corrective/remedial action) using the ONAP Design Framework Portal.
 
-**Design time Framework**
-=========================
+Design time Framework
++++++++++++++++++++++
 
 The design time framework is a comprehensive development environment
 with tools, techniques, and repositories for defining/describing
@@ -194,8 +196,8 @@ network service, then deploy and decommission it. Once deployed, a user
 can also update the loop with new parameters during runtime, as well as
 suspend and restart it.
 
-**Runtime Framework**
-=====================
+Runtime Framework
++++++++++++++++++
 
 The runtime execution framework executes the rules and policies
 distributed by the design and creation environment. This allows us to
@@ -206,7 +208,8 @@ a Security Framework. These components use common services that support
 logging, access control, and data management.
 
 Orchestration 
--------------
++++++++++++++
+
 The Service Orchestrator (SO) component executes the
 specified processes and automates sequences of activities, tasks, rules
 and policies needed for on-demand creation, modification or removal of
@@ -215,7 +218,8 @@ provides orchestration at a very high level, with an end to end view of
 the infrastructure, network, and applications.
 
 Controllers
------------
++++++++++++
+
 Controllers are applications which are coupled with cloud and network
 services and execute the configuration, real-time policies, and control
 the state of distributed components and services. Rather than using a
@@ -230,7 +234,8 @@ infrastructure. While it provides a generic VNFM, it also integrates
 with external VNFMs and VIMs as part of a NFV MANO stack.
 
 Inventory
----------
++++++++++
+
 Active and Available Inventory (A&AI) provides real-time views of a
 system’s resources, services, products and their relationships with each
 other. The views provided by A&AI relate data managed by multiple ONAP
@@ -247,8 +252,8 @@ is metadata-driven, allowing new inventory types to be added dynamically
 and quickly via SDC catalog definitions, eliminating the need for
 lengthy development cycles.
 
-**Closed-Loop Automation**
-==========================
+Closed-Loop Automation
+----------------------
 
 The following sections describe the ONAP frameworks designed to address
 these major requirements. The key pattern that these frameworks help
@@ -283,8 +288,8 @@ human intervention before executing the change.
 
 \ **Figure 3:** ONAP Closed Loop Automation
 
-**Common Services**
-===================
+Common Services
+---------------
 
 ONAP provides common operational services for all ONAP components
 including activity logging, reporting, common data layer, access
@@ -298,8 +303,8 @@ and opportunities. ONAP provides increased security by embedding access controls
 in each ONAP platform component, augmented by analytics and policy components 
 specifically designed for the detection and mitigation of security violations.
 
-**Amsterdam Use Cases**
-=======================
+Amsterdam Use Cases
+-------------------
 
 The ONAP project uses real-world use cases to help focus our releases.
 For the first release of ONAP (“Amsterdam”), we introduce two use cases:
@@ -383,15 +388,15 @@ By unifying member resources, ONAP will accelerate the development of a vibrant 
 .. |image0| image:: media/ONAP-DTRT.png
    :width: 6in
    :height: 2.6in
-.. |image1| image:: media/toplevel.png
+.. |image1| image:: media/ONAP-toplevel.png
    :width: 6.5in
    :height: 3.13548in
-.. |image2| image:: media/closedloop.jpeg
+.. |image2| image:: media/ONAP-closedloop.png
    :width: 6in
    :height: 2.6in
-.. |image3| image:: media/vcpe.png
+.. |image3| image:: media/ONAP-vcpe.png
    :width: 6.5in
    :height: 3.28271in
-.. |image4| image:: media/volte.png
+.. |image4| image:: media/ONAP-volte.png
    :width: 6.5in
    :height: 3.02431in
