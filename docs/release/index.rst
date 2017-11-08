@@ -22,10 +22,10 @@ Functionality
 Project Specific Release Notes
 ++++++++++++++++++++++++++++++
 Major and stable point releases are specified by a list of project artifact
-versions in a :ref:`manifest here<doc-release-manifest>`.
-Each project provides detailed :ref:`release notes here <doc-releaserepos>`
-and prepends to these if/when any updated versions, the project team believes
-are compatible with major release, are made available.
+versions in a :ref:`manifest<doc-release-manifest>`.
+Each project provides detailed :ref:`release notes<doc-releaserepos>`
+and prepends to these if/when any updated versions the project team believes
+are compatible with a major release are made available.
 
 
 Supported Platforms
@@ -37,12 +37,11 @@ Documentation
 Release controlled documentation is available :ref:`here <master_index>`.
 For Amsterdam this includes:
 
-* A high level architecture view of how components delivered by all projects
-  relate to each other are :ref:`available here <doc-architecture>`.
+* A high level :ref:`architecture view<doc-architecture>` of how components
+  relate to each other.
 
-* A collection of documentation provided by each project and for some projects
-  several components / repositories within the project
-  are :ref:`available here <doc-repolist>`.
+* A collection of documentation provided
+  by :ref:`each project <doc_onap-developer_guide_projects>`.
 
 * Application Programming Interface Reference :ref:`available here <doc-apiref>`
 
