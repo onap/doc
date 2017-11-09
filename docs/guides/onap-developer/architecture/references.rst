@@ -83,6 +83,7 @@ Common Services
    ../../../submodules/msb/discovery.git/docs/architecture.rst
    ../../../submodules/msb/java-sdk.git/docs/architecture.rst
    ../../../submodules/msb/swagger-sdk.git/docs/architecture.rst
+   ../../../submodules/multicloud/framework.git/docs/architecture.rst
 
 SDKs
 ----

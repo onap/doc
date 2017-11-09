@@ -17,7 +17,6 @@ Project/Components
    AAI External System Registration UI <../submodules/aai/esr-gui.git/docs/index>
    AAI External System Registration Server <../submodules/aai/esr-server.git/docs/index>
    AAI Sparky Inventory UI <../submodules/aai/sparky-be.git/docs/index>
-   AAI Sparky Inventory Service <../submodules/aai/sparky-fe.git/docs/index>
    ../submodules/appc/deployment.git/docs/index
    ../submodules/appc.git/docs/index
    CCSDK Dashboard <../submodules/ccsdk/dashboard.git/docs/index>

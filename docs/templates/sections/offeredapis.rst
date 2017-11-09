@@ -12,14 +12,3 @@ Offered APIs
    
    * This note must be removed after content has been added.
 
-
-
-Here are several examples:
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   apiexample/swaggerv2doc.rst
-   apiexample/swagger2markup.rst
-   apiexample/worddoc2rst.rst
