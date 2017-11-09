@@ -36,6 +36,7 @@ Project Specific Release Notes
    msb/discovery<../submodules/msb/discovery.git/docs/release-notes.rst>
    msb/java-sdk<../submodules/msb/java-sdk.git/docs/release-notes.rst>
    msb/swagger-sdk<../submodules/msb/swagger-sdk.git/docs/release-notes.rst>
+   multicloud/framework<../submodules/multicloud/framework.git/docs/Release Notes.rst>
    optf/has<../submodules/optf/has.git/docs/release-notes.rst>
    policy/engine<../submodules/policy/engine.git/docs/release-notes.rst>
    portal<../submodules/portal.git/docs/release-notes.rst>
@@ -77,5 +78,4 @@ Project Specific Release Notes
    sdnc/parent<../submodules/sdnc/parent.git/docs/release-notes.rst>
    sdnc/plugins<../submodules/sdnc/plugins.git/docs/release-notes.rst>
    oom<../submodules/oom.git/docs/release-notes.rst>
-   multicloud/framework<../submodules/multicloud/framework.git/docs/release-notes.rst>
    aaf/authz<../submodules/aaf/authz.git/docs/release-notes.rst>

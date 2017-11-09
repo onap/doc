@@ -151,6 +151,16 @@ Modeling
    ../../../submodules/modeling/modelspec.git/docs/index
    ../../../submodules/modeling/toscaparsers.git/docs/index
 
+MultiVIM CLoud
+--------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/multicloud/framework.git/docs/index
+
+
 ONAP Command Line Interface
 ---------------------------
 
@@ -291,11 +301,3 @@ VNF Software Development Kit
    :titlesonly:
 
    ../../../submodules/vnfsdk/model.git/docs/index
-
-VNF Validation
---------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
