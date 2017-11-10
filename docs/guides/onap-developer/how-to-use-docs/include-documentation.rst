@@ -390,23 +390,15 @@ Download the DOC repository.
 
    git clone http://gerrit.onap.org/r/doc
 
-Change directory to docs & install requirements.
-
-.. code-block:: bash
-
-   cd doc
-   sudo pip install -r etc/requirements.txt
-
 Update submodules, build documentation using tox & then open using any browser.
 
 .. code-block:: bash
 
    cd doc
-   git submodule update --depth 1 --init
-   tox -edocs
+   tox -elocal
    firefox docs/_build/html/index.html
 
-.. note:: Make sure to run `tox -edocs` and not just `tox`.
+.. note:: Make sure to run `tox -elocal` and not just `tox`.
 
 
 
