@@ -14,15 +14,15 @@
 
 **Context**
 ===========
-ONAP may be deployed in different contexts depending on the service provider requirements. The official installation for Amsterdam Release is currenly based on OpenStack.
+ONAP may be deployed in different contexts depending on your requirements. The recommended installation for Amsterdam Release is currenly based on OpenStack.
 
-Using the Amsterdam Release installer, ONAP components may be deployed in a single tenant or can be distributed in various tenants: one for all the components except the DCAE one and another tenant dedicated to the DCAE components. 
+Using the Amsterdam Release installer, ONAP components may be deployed in a single tenant or multiple tenants. One tenant for all the components except DCAE, and another tenant dedicated to the DCAE components. 
 
-The VNFs managed by ONAP may be deployed in different OpenStack tenants or based on top of Vmware based infrastructure (cf MultiCloud project).
+The VNFs managed by ONAP may be deployed in different OpenStack tenants or based on top of VMware based infrastructure (cf MultiCloud project).
 
 Figure 1 
 
-The current installation is based on the mono-tenant deployment (all the ONAP components will be hosted in a unique tenant)
+The current installation is based on the single tenant deployment (all the ONAP components will be hosted in a unique tenant)
 
 
 **Requirements**
@@ -62,7 +62,7 @@ Note that floating IP may be private IP.
 Security
 --------
 The default installation assumes that the Default security group is configured to enable full access between the ONAP components.
-Depending on your environment, we may be forced to open some security groups (eg when using the portal from your desktop) 
+Depending on your environment, we may need to open some security groups (eg when using the portal from your desktop) 
 
 The following YAML file presents the ports exposed by the various components:
 
@@ -81,14 +81,14 @@ TODO Provide a command to create the security groups
 
 Instantiation
 -------------
-- To deploy ONAP, use the Heat template and follow the described in integration project.
+- To deploy ONAP, use the Heat template and follow the described guidelines in integration project.
 
-- The Heat template deployment may take time (up to one hour) depending on your hardware envionment.
+- The Heat template deployment may take time (up to one hour) depending on your hardware environment.
 
 Test the installation
 ---------------------
-Every ONAP component offers a HealthCheck REST API. The *Robot Virtual Machine* can be used to test that every 
-Run the following command to
+Every ONAP component offers a HealthCheck REST API. The *Robot Virtual Machine* can be used to test that every components run smoothly.
+Run the following command to perform the HealthCheck:
 
 .. code-block:: bash
 
@@ -100,8 +100,11 @@ Detect problems
 ---------------
 If all the tests are not OK, many causes are possible.
 Here is a simple procedure to detect where the problem occurs:
-- Check the OpenStack Virtual Machine logs 
-- Connect to Virtual Machine and check that the various containers are runnings. The list of containers aer described in the foloqing section. Is some containers are missing, check the docker logs using the following command:
+
+* Check the OpenStack Virtual Machine logs 
+* Connect to the Virtual Machine and check that the various containers are runnings.
+
+The list of containers are described in the following section. In case some containers are missing, check the docker logs using the following command:
 
 .. code-block:: bash
 
@@ -112,7 +115,7 @@ Here is a simple procedure to detect where the problem occurs:
 **Portal configuration**
 ========================
 The current ONAP installation is using the onap.org domain.
-To use the portal on your desktop, you must configure the following information in your *host* file (located in /etc/host for Linux or /windows/system32/drivers/etc/hosts for Windows:
+To use the portal on your desktop, you must configure the following information in your *host* file (located in /etc/host for Linux or /windows/system32/drivers/etc/hosts for Windows):
 
 .. code-block:: bash
 
