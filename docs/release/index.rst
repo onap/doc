@@ -64,6 +64,13 @@ License
 
 How to Report a Bug
 +++++++++++++++++++
+There are 2 ways to report a bug in ONAP.
+
+In case you are familiar within ONAP, you can directly report a bug by creating a Jira issue at `ONAP Jira <https://jira.onap.org>`_.
+
+If you don't know you are facing a bug or have a question, email the ONAP Discuss mailing list at onap-discuss@lists.onap.org .
+
+You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing and this `guideline <https://wiki.onap.org/display/DW/Mailing+Lists>`_ to register into the ONAP Discuss mailing list.
 
 
 Download and Use
