@@ -30,11 +30,11 @@ Platform Components
    :titlesonly:
 
    APPC - Application Controller <../../../submodules/appc.git/docs/index.rst>
-   DCAE - Data Collection Analytics and Events <../../../submodules/dcaegen2.git/docs/sections/offeredapis.rst>
+   DCAE - Data Collection, Analytics, and Events <../../../submodules/dcaegen2.git/docs/sections/offeredapis.rst>
    Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/offeredapis.rst>
    Policy <../../../submodules/policy/engine.git/docs/platform/offeredapis.rst>
-   SDNC - SDN Controller <../../../submodules/sdnc/northbound.git/docs/offeredapis.rst>
-   SO - Service Orchestrator <../../../submodules/so.git/docs/offered_consumed_apis.rst>
+   SDNC - Software Defined Network Controller <../../../submodules/sdnc/northbound.git/docs/offeredapis.rst>
+   SO - Service Orchestration <../../../submodules/so.git/docs/offered_consumed_apis.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/APIs/index.rst>
 
 Common Services
@@ -44,9 +44,17 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
-   AAF - Application Authorization Framework <../../../submodules/aaf/authz.git/docs/AAF-API-Documentation/AAF-API-Documentation.rst>
    AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI_AMSTERDAM.rst>
-   DMaaP - Message Router <../../../submodules/dmaap/messagerouter/messageservice.git/docs/message-router/message-router.rst>
+   DMaaP - Data Management as a Platform Message Router <../../../submodules/dmaap/messagerouter/messageservice.git/docs/message-router/message-router.rst>
    Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/offeredapis.rst>
-   MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/offeredapis.rst>
-   Multi VIM/Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-API-Specification-V1.rst>
+   MSB - Micro Services Bus <../../../submodules/msb/apigateway.git/docs/platform/offeredapis.rst>
+   MultiVIM Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-API-Specification-V1.rst>
+
+SDK
+---
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   VNF Software Development Kit <../../../submodules/vnfsdk/model.git/docs/vnfsdk-apis.rst>
