@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_72aaf3d5",
+        "filename": "tox.ini",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-11-10T14:45:47Z",
+      "side": 1,
+      "message": "Looking at the verify job https://gerrit.onap.org/r/gitweb?p\u003dci-management.git;a\u003dblob;f\u003djjb/doc/doc-templates-rtd.yaml;h\u003d884c3706b81a344b236a98bb9a127df45feb83c5;hb\u003dHEAD scm section at line 38 and builder section at line 58, I am not sure of the interaction of a git submodule update after the patch has been overlayed on top of current master and submodule master(s). \n\nIt took a while to test the current verify job for all cases and/or to find current information about the jjb being used for ONAP.  Depth 1 local is useful for local test, but less important in the CI/CD environment and may have some downside depending on how submodules are used.\n\nCan you make this change by:\n- copying the current [testenv:docs] section leaving it and the default envlist environment to run in jenkins unchanged.   \n\n- In the copied section change the name to something like [testenv:local] and make the proposed changes for submodule update.\n\n- Change the documentation instructions that I referenced on patch 1 to show how to use tox -elocal?",
+      "range": {
+        "startLine": 6,
+        "startChar": 9,
+        "endLine": 6,
+        "endChar": 13
+      },
+      "revId": "a56ec201cd194a9ef4447956f8267aeabf4c279b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
