@@ -15,6 +15,14 @@ Amsterdam Release
 
 Summary
 +++++++
+ONAP provides a comprehensive platform for real-time, policy-driven
+orchestration and automation of physical and virtual network functions
+that will enable software, network, IT and cloud providers and developers
+to rapidly automate new services and support complete life cycle management.
+By unifying member resources, ONAP will accelerate the development of a
+vibrant ecosystem around a globally shared architecture and implementation
+for network automation–with an open standards focus–faster than any one
+product could on its own.
 
 Functionality
 +++++++++++++
