@@ -57,4 +57,4 @@ SDK
    :maxdepth: 1
    :titlesonly:
 
-   VNF Software Development Kit <../../../submodules/vnfsdk/model.git/docs/vnfsdk-apis.rst>
+   VNF Software Development Kit <../../../submodules/vnfsdk/model.git/docs/files/vnfsdk-apis.rst>
