@@ -49,19 +49,19 @@ Common Controller Software Development Kit
 
    ../../../submodules/ccsdk/distribution.git/docs/index
    ../../../submodules/ccsdk/dashboard.git/docs/index
-   ../../../submodules/ccsdk/platform/plugins.git/docs/index
 
-.. Empty Folders for Release
-   ../../../submodules/ccsdk/parent.git/docs/index
+.. Being consolidated in ccsdk distribution
    ../../../submodules/ccsdk/platform/blueprints.git/docs/index
    ../../../submodules/ccsdk/platform/nbapi.git/docs/index
+   ../../../submodules/ccsdk/storage/esaas.git/docs/index
+   ../../../submodules/ccsdk/storage/pgaas.git/docs/index
+   ../../../submodules/ccsdk/utils.git/docs/index
+   ../../../submodules/ccsdk/parent.git/docs/index
+   ../../../submodules/ccsdk/platform/plugins.git/docs/index
    ../../../submodules/ccsdk/sli/adaptors.git/docs/index
    ../../../submodules/ccsdk/sli/core.git/docs/index
    ../../../submodules/ccsdk/sli/northbound.git/docs/index
    ../../../submodules/ccsdk/sli/plugins.git/docs/index
-   ../../../submodules/ccsdk/storage/esaas.git/docs/index
-   ../../../submodules/ccsdk/storage/pgaas.git/docs/index
-   ../../../submodules/ccsdk/utils.git/docs/index
 
 Data Collection, Analysis, and Events
 -------------------------------------
@@ -89,13 +89,6 @@ Documentation
    :titlesonly:
 
    ../how-to-use-docs/index.rst
-
-External API Framework
-----------------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
 
 
 Holmes
@@ -151,7 +144,7 @@ Modeling
    ../../../submodules/modeling/modelspec.git/docs/index
    ../../../submodules/modeling/toscaparsers.git/docs/index
 
-MultiVIM CLoud
+MultiVIM Cloud
 --------------
 
 .. toctree::
@@ -169,23 +162,6 @@ ONAP Command Line Interface
    :titlesonly:
 
    ../../../submodules/cli.git/docs/index
-
-
-ONAP Optimization Framework
----------------------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   ../../../submodules/optf/has.git/docs/index
-
-ONAP University
----------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
 
 
 ONAP Use Case User Interface
