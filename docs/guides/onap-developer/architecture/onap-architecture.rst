@@ -1,4 +1,4 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+﻿.. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 Huawei Technologies Co., Ltd.
 
@@ -84,11 +84,11 @@ following foundational principles:
    services
 
 -  Carrier-grade scalability including horizontal scaling (linear
-       scale-out) and distribution to support large number of services
-       and large networks
+   scale-out) and distribution to support large number of services
+   and large networks
 
 -  Metadata-driven and policy-driven architecture to ensure flexible
-       ways in which capabilities are used and delivered
+   ways in which capabilities are used and delivered
 
 -  The architecture shall enable sourcing best-in-class components
 
@@ -97,7 +97,7 @@ following foundational principles:
 -  Core capabilities shall support many diverse services
 
 -  The architecture shall support elastic scaling as needs grow or
-       shrink
+   shrink
 
 |image0|\ 
 
@@ -115,7 +115,9 @@ necessary to develop service/operations-specific collection, analytics,
 and policies (including recipes for corrective/remedial action) using
 the ONAP Design Framework Portal.
 
-|image1|\  **Figure 2:** ONAP Platform components (Amsterdam Release)
+|image1|\  
+
+**Figure 2:** ONAP Platform components (Amsterdam Release)
 
 Portal
 ++++++
@@ -257,16 +259,16 @@ Closed-Loop Automation
 
 The following sections describe the ONAP frameworks designed to address
 these major requirements. The key pattern that these frameworks help
-automate is
+automate is:
 
-***Design -> Create -> Collect -> Analyze -> Detect -> Publish ->
-Respond.***
+**Design -> Create -> Collect -> Analyze -> Detect -> Publish ->
+Respond**
 
 We refer to this automation pattern as “closed-loop automation” in that
 it provides the necessary automation to proactively respond to network
 and service conditions without human intervention. A high-level
 schematic of the “closed-loop automation” and the various phases within
-the service lifecycle using the automation is depicted in Figure 4.
+the service lifecycle using the automation is depicted in Figure 3.
 
 Closed-loop control is provided by Data Collection, Analytics and Events
 (DCAE) and other ONAP components. Collectively, they provide FCAPS
@@ -322,7 +324,7 @@ providers to offer new value-added services to their customers with less
 dependency on the underlying hardware.
 
 In this use case, the customer has a physical CPE (pCPE) attached to a
-traditional broadband network such as DSL (Figure 1). On top of this
+traditional broadband network such as DSL (Figure 4). On top of this
 service, a tunnel is established to a data center hosting various VNFs.
 In addition, depending on the capabilities of the pCPE, some functions
 can be deployed on the customer site.
@@ -368,7 +370,7 @@ To connect the different data centers, ONAP will also have to interface
 with legacy systems and physical function to establish VPN connectivity
 in a brown field deployment.
 
-The VoLTE use case, shown in Figure 6, demonstrates the use of the VF-C
+The VoLTE use case, shown in Figure 5, demonstrates the use of the VF-C
 component and TOSCA-based data models to manage the virtualization
 infrastructure.
 
