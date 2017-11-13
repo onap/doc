@@ -45,7 +45,7 @@ These steps are performed only once for the doc project and include:
 (1) creating in the doc repository an initial:
 	- sphinx master document index
 	- a directory structure aligned with the document structure
-	- tests performed in jenkins verify jobs
+	- tests performed in Jenkins verify jobs
 	- sphinx configuration
   
 (2) establishing an account at readthedocs connected with the doc
@@ -59,7 +59,7 @@ These steps are performed for each project repository that provides documentatio
 First let's set two variables that will be used in the subsequent steps.
 Set reponame to the project repository you are setting up just as it appears in the
 **Project Name** column of the Gerrit projects page.
-Set lfid to your Linux Foundation identity that you use to login to gerrit or for git
+Set lfid to your Linux Foundation identity that you use to login to Gerrit or for git
 clone requests over ssh.
 
 .. code-block:: bash
@@ -130,9 +130,9 @@ to convert or add new content you can update the index and add files under the d
 
 The diagram below illustrates what is accomplished in the setup steps
 above from the perspective of a file structure created for a local test,
-a jenkins verify job, and/or published release documentation including:
+a Jenkins verify job, and/or published release documentation including:
 
-- ONAP gerrit project repositories,
+- ONAP Gerrit project repositories,
 - doc project repository master document index.rst, templates, configuration, and other documents
 - submodules directory where other project repositories and directories/files are referenced 
 - file structure: directories (ellipses), files(boxes)
