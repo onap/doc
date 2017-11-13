@@ -56,8 +56,7 @@ For Amsterdam this includes:
 
 * The `developer wiki <http://wiki.onap.org>`_ remains a good source of
   information on meeting plans and notes from committees, project teams and
-  community events. See the doc
-  project :ref:`release notes <doc-release-notes>` for current status on documentation.
+  community events.
 
 
 Known Issues and Limitations
@@ -66,9 +65,10 @@ Known Issues and limitations are documented in each project Release Notes.
 
 Refer to :ref:`release notes <doc-releaserepos>` for each project.
 
-License
-+++++++
-ONAP Amsterdam is an `Apache Version 2 license <http://www.apache.org/licenses/LICENSE-2.0>`_ type of Open Source project.
+Licenses
+++++++++
+ONAP Amsterdam Source Code is licensed under the `Apache Version 2 License <http://www.apache.org/licenses/LICENSE-2.0>`_.
+ONAP Amsterdam Documentation is licensed under the `Creative Commons Attribution 4.0 International License <http://creativecommons.org/licenses/by/4.0>`_.
 
 How to Report a Bug
 +++++++++++++++++++
