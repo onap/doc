@@ -92,21 +92,23 @@ SDKs
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/ccsdk/dashboard.git/docs/architecture.rst
    ../../../submodules/ccsdk/distribution.git/docs/architecture.rst
-   ../../../submodules/ccsdk/parent.git/docs/architecture.rst
+   ../../../submodules/ccsdk/dashboard.git/docs/architecture.rst
    ../../../submodules/ccsdk/platform/blueprints.git/docs/architecture.rst
    ../../../submodules/ccsdk/platform/nbapi.git/docs/architecture.rst
-   ../../../submodules/ccsdk/platform/plugins.git/docs/architecture.rst
-   CCSDK SLI Adaptors <../../../submodules/ccsdk/sli/adaptors.git/docs/architecture.rst>
-   CCSDK SLI Service Logic Intrepreter <../../../submodules/ccsdk/sli/core.git/docs/architecture.rst>
-   CCSDK SLI Northbound Interface <../../../submodules/ccsdk/sli/northbound.git/docs/architecture.rst>
-   CCSDK SLI Plugins <../../../submodules/ccsdk/sli/plugins.git/docs/architecture.rst>
    ../../../submodules/ccsdk/storage/esaas.git/docs/architecture.rst
    ../../../submodules/ccsdk/storage/pgaas.git/docs/architecture.rst
    ../../../submodules/ccsdk/utils.git/docs/architecture.rst
    Portal <../../../submodules/portal.git/docs/tutorials/portal-sdk/architecture.rst>
    ../../../submodules/vnfsdk/model.git/docs/architecture.rst
+
+.. CCSDK documentation consolidated under the above distribution repo
+   ../../../submodules/ccsdk/platform/plugins.git/docs/architecture.rst
+   ../../../submodules/ccsdk/parent.git/docs/architecture.rst
+   CCSDK SLI Adaptors <../../../submodules/ccsdk/sli/adaptors.git/docs/architecture.rst>
+   CCSDK SLI Service Logic Intrepreter <../../../submodules/ccsdk/sli/core.git/docs/architecture.rst>
+   CCSDK SLI Northbound Interface <../../../submodules/ccsdk/sli/northbound.git/docs/architecture.rst>
+   CCSDK SLI Plugins <../../../submodules/ccsdk/sli/plugins.git/docs/architecture.rst>
 
 Other
 -----

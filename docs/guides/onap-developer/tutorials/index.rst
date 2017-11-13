@@ -7,5 +7,3 @@ Tutorials
    :maxdepth: 1
    :titlesonly:
 
-   
-   platform/index.rst
