@@ -124,7 +124,7 @@ Modeling
    :titlesonly:
 
    modeling/modelspec<../submodules/modeling/modelspec.git/docs/release-notes.rst>
-   modeling/toscaparsers<../submodules/modeling/toscaparsers.git/docs/release-notes.rst>
+   modeling/toscaparsers<../submodules/modeling/toscaparsers.git/docs/nfvparser/release-notes/release-notes.rst>
 
 Micro Services Bus
 ------------------
@@ -146,6 +146,15 @@ MultiVIM Cloud
    :titlesonly:
 
    multicloud/framework<../submodules/multicloud/framework.git/docs/Release Notes.rst>
+
+ONAP Operations Manager (experimental)
+--------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/oom.git/docs/index/release-notes.rst
 
 Policy Framework
 ----------------
