@@ -3,10 +3,11 @@
 
 Releases
 ========
-ONAP is developed and released around 6 month cycles. After an initial
-major release, additional stable point releases may be created.  The first
-release is Amsterdam and subsequent major release will be named using city
-names.
+This page is the ONAP Amsterdam Release Notes. The first release is Amsterdam and subsequent major release will be named using city names.
+
+* Release Name: Amsterdam
+* Release Version: 1.0.0
+* Release Date: November 16, 2017
 
 
 Amsterdam Release
@@ -21,7 +22,7 @@ Functionality
 
 Project Specific Release Notes
 ++++++++++++++++++++++++++++++
-Major and stable point releases are specified by a list of project artifact
+ONAP releases are specified by a list of project artifact
 versions in a :ref:`manifest<doc-release-manifest>`.
 Each project provides detailed :ref:`release notes<doc-releaserepos>`
 and prepends to these if/when any updated versions the project team believes
@@ -30,11 +31,11 @@ are compatible with a major release are made available.
 
 Supported Platforms
 +++++++++++++++++++
-
+ONAP Amsterdam Release has been tested on Ubuntu 16.04 and thus is the only OS supported.
 
 Documentation
 +++++++++++++
-Release controlled documentation is available :ref:`here <master_index>`.
+ONAP Amsterdam Release documentation is available :ref:`here <master_index>`.
 For Amsterdam this includes:
 
 * A high level :ref:`architecture view<doc-architecture>` of how components
@@ -43,24 +44,23 @@ For Amsterdam this includes:
 * A collection of documentation provided
   by :ref:`each project <doc_onap-developer_guide_projects>`.
 
-* Application Programming Interface Reference :ref:`available here <doc-apiref>`
+* Application Programming Interface Reference :ref:`available here <doc-apiref>`.
 
 * The `developer wiki <http://wiki.onap.org>`_ remains a good source of
-  information on meeting plans and notes from committees, project teams,
-  community events and general, release independent information about
-  ONAP.  Release dependent information is being migrated from the wiki to
-  gerrit source control. See the doc
-  project :ref:`release notes <doc-release-notes>` for current status.
+  information on meeting plans and notes from committees, project teams and
+  community events. See the doc
+  project :ref:`release notes <doc-release-notes>` for current status on documentation.
 
 
 Known Issues and Limitations
 ++++++++++++++++++++++++++++
-TBP overall / general statement
-See :ref:`release notes <doc-releaserepos>` for each project.
+Known Issues and limitations are documented in each project Release Notes.
+
+Refer to :ref:`release notes <doc-releaserepos>` for each project.
 
 License
 +++++++
-
+ONAP Amsterdam is an `Apache Version 2 license <http://www.apache.org/licenses/LICENSE-2.0>`_ type of Open Source project.
 
 How to Report a Bug
 +++++++++++++++++++
@@ -76,9 +76,9 @@ You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracki
 Download and Use
 ++++++++++++++++
 
-* Source Code in Gerrit https://gerrit.onap.org
+* ONAP Source Code is available through Gerrit at https://gerrit.onap.org or Git at https://git.onap.org/ .
 
-* Artifacts in Nexus / Docker Hub
+* ONAP is packaged within Docker and can be dowloaded from Docker Hub at https://hub.docker.com/r/onap .
 
-* Platform :ref:`Demo <demo-installing-running-onap>`.
+* To Install Amsterdam ONAP refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
 
