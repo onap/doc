@@ -163,6 +163,14 @@ ONAP Command Line Interface
 
    ../../../submodules/cli.git/docs/index
 
+ONAP Operations Manager (experimental)
+--------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/oom.git/docs/index
 
 ONAP Use Case User Interface
 ----------------------------
