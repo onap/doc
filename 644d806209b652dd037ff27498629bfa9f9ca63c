@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_8b6d3607",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2017-11-13T13:34:25Z",
+      "side": 1,
+      "message": "Trailing whitespace to be removed",
+      "revId": "644d806209b652dd037ff27498629bfa9f9ca63c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_ab68f2f5",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2017-11-13T13:34:25Z",
+      "side": 1,
+      "message": "Trailing whitespace to be removed",
+      "revId": "644d806209b652dd037ff27498629bfa9f9ca63c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
