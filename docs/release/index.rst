@@ -81,12 +81,23 @@ If you don't know you are facing a bug or have a question, email the ONAP Discus
 You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing and this `guideline <https://wiki.onap.org/display/DW/Mailing+Lists>`_ to register into the ONAP Discuss mailing list.
 
 
-Download and Use
-++++++++++++++++
+Download
+++++++++
 
 * ONAP Source Code is available through Gerrit at https://gerrit.onap.org or Git at https://git.onap.org/ .
 
 * ONAP is packaged within Docker and can be dowloaded from Docker Hub at https://hub.docker.com/r/onap .
 
-* To Install Amsterdam ONAP refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
 
+Install
++++++++
+There are 2 approaches to install ONAP.
+
+* From a complete demo solution perspective. This installs the whole ONAP, refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
+
+* From a developer perspective. ONAP is installed component per component. Each component :ref:`installation is listed in<doc_onap-developer_guide_projects>`.
+The list of ports used by default within ONAP is documented in `ONAP Service List <https://wiki.onap.org/display/DW/ONAP+Services+List>`_.
+
+Usage
++++++
+This section is intended to provide users on the usage of ONAP components.
