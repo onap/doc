@@ -163,11 +163,6 @@
 	url = ../ccsdk/platform/plugins
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/ccsdk/sli/adaptors.git"]
-	path = docs/submodules/ccsdk/sli/adaptors.git
-	url = ../ccsdk/sli/adaptors
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/ccsdk/sli/core.git"]
 	path = docs/submodules/ccsdk/sli/core.git
 	url = ../ccsdk/sli/core
@@ -176,11 +171,6 @@
 [submodule "docs/submodules/ccsdk/sli/northbound.git"]
 	path = docs/submodules/ccsdk/sli/northbound.git
 	url = ../ccsdk/sli/northbound
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/sli/plugins.git"]
-	path = docs/submodules/ccsdk/sli/plugins.git
-	url = ../ccsdk/sli/plugins
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/storage/esaas.git"]
@@ -198,44 +188,14 @@
 	url = ../ccsdk/utils
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/sdnc/adaptors.git"]
-	path = docs/submodules/sdnc/adaptors.git
-	url = ../sdnc/adaptors
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdnc/architecture.git"]
-	path = docs/submodules/sdnc/architecture.git
-	url = ../sdnc/architecture
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/sdnc/core.git"]
 	path = docs/submodules/sdnc/core.git
 	url = ../sdnc/core
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/sdnc/features.git"]
-	path = docs/submodules/sdnc/features.git
-	url = ../sdnc/features
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdnc/northbound.git"]
-	path = docs/submodules/sdnc/northbound.git
-	url = ../sdnc/northbound
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/sdnc/oam.git"]
 	path = docs/submodules/sdnc/oam.git
 	url = ../sdnc/oam
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdnc/parent.git"]
-	path = docs/submodules/sdnc/parent.git
-	url = ../sdnc/parent
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdnc/plugins.git"]
-	path = docs/submodules/sdnc/plugins.git
-	url = ../sdnc/plugins
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/portal.git"]
