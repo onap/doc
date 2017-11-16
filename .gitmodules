@@ -163,16 +163,6 @@
 	url = ../ccsdk/platform/plugins
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/ccsdk/sli/core.git"]
-	path = docs/submodules/ccsdk/sli/core.git
-	url = ../ccsdk/sli/core
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/sli/northbound.git"]
-	path = docs/submodules/ccsdk/sli/northbound.git
-	url = ../ccsdk/sli/northbound
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/ccsdk/storage/esaas.git"]
 	path = docs/submodules/ccsdk/storage/esaas.git
 	url = ../ccsdk/storage/esaas
@@ -273,8 +263,3 @@
 	url = ../modeling/toscaparsers
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/vvp/documentation.git"]
-	path = docs/submodules/vvp/documentation.git
-	url = ../vvp/documentation
-        branch = .
-        ignore = dirty
