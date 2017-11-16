@@ -2,5 +2,4 @@
 
 Platform Administrator
 ======================
-
-
+* `See Platform Administrator <https://wiki.onap.org/x/fIsP>`_
