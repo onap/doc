@@ -101,3 +101,6 @@ The list of ports used by default within ONAP is documented in `ONAP Service Lis
 Usage
 +++++
 This section is intended to provide users on the usage of ONAP components.
+
+Instructions on using the ONAP deployment including Robot, Portal, SDC and VID in the context of running (Onboarding, service creation, service deployment, VNF creation, VNF preload, VF Module creation and closed loop operations) the vFirewall sanity use case is documented in `Running the ONAP Demos <https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
+
