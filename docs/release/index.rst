@@ -95,11 +95,38 @@ Each project provides detailed :ref:`release notes<doc-releaserepos>`
 and prepends to these if/when any updated versions the project team believes
 are compatible with a major release are made available.
 
-
 Supported Platforms
 +++++++++++++++++++
 ONAP Amsterdam Release has been tested on Ubuntu 16.04 and thus is
 the only OS supported.
+
+.. index:: Download
+
+Download & Install
+++++++++++++++++++
+There are 3 approaches to install ONAP:
+
+* Full ONAP installation using Heat template
+* Advanced installation to install individual components
+* Experimental installation using Kubernetes
+
+Full ONAP installation using Heat template
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+From a complete demo solution perspective. This installs the whole ONAP, 
+ refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
+
+Advanced installation to install individual components
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+From a developer perspective. ONAP can be installed component per component: 
+ :ref:`installation is listed in <doc_onap-developer_guide_projects>`.
+
+* The list of ports used by default within ONAP is documented in `ONAP Service List <https://wiki.onap.org/display/DW/ONAP+Services+List>`_.
+* The ONAP Source Code is available through Gerrit at https://gerrit.onap.org or Git at https://git.onap.org/.
+* ONAP is packaged within Docker and can be dowloaded from Docker Hub at https://hub.docker.com/r/onap.
+
+Experimental installation using Kubernetes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+From a complete demo solution perspective using Kubernetes. This installs the whole ONAP, refer to `ONAP Operations Manager - Quick Start Guide <http://onap.readthedocs.io/en/latest/submodules/oom.git/docs/OOM%20Project%20Description/oom_project_description.html#quick-start-guide>`_.
 
 Documentation
 +++++++++++++
@@ -119,13 +146,15 @@ For Amsterdam this includes:
    information on meeting plans and notes from committees, project teams and
    community events.
 
+Usage
++++++
+This section is intended to provide users on the usage of ONAP components.
 
-Known Issues and Limitations
-++++++++++++++++++++++++++++
-Known Issues and limitations are documented in each project Release Notes.
-
-Refer to :ref:`release notes <doc-releaserepos>` for each project.
-
+Instructions on using the ONAP deployment including Robot, Portal, SDC and VID
+in the context of running (Onboarding, service creation, service deployment,
+VNF creation, VNF preload, VF Module creation and closed loop operations)
+the vFirewall sanity use case is documented
+in `Running the ONAP Demos <https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
 
 .. index:: Licensing
 
@@ -133,6 +162,12 @@ Licenses
 ++++++++
 ONAP Amsterdam Source Code is licensed under the `Apache Version 2 License <http://www.apache.org/licenses/LICENSE-2.0>`_.
 ONAP Amsterdam Documentation is licensed under the `Creative Commons Attribution 4.0 International License <http://creativecommons.org/licenses/by/4.0>`_.
+
+Known Issues and Limitations
+++++++++++++++++++++++++++++
+Known Issues and limitations are documented in each project Release Notes.
+
+Refer to :ref:`release notes <doc-releaserepos>` for each project.
 
 .. index:: Reporting Bugs
 
@@ -148,42 +183,6 @@ There are 2 ways to report a bug in ONAP.
    the ONAP Discuss mailing list at onap-discuss@lists.onap.org .
 
 You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing and this `guideline <https://wiki.onap.org/display/DW/Mailing+Lists>`_ to register into the ONAP Discuss mailing list.
-
-.. index:: Download
-
-Download
-++++++++
-
-* ONAP Source Code is available through Gerrit at https://gerrit.onap.org or Git at https://git.onap.org/ .
-
-* ONAP is packaged within Docker and can be dowloaded from Docker Hub at https://hub.docker.com/r/onap .
-
-
-.. index:: Installation
-
-
-Install
-+++++++
-There are 2 approaches to install ONAP.
-
-* From a complete demo solution perspective. This installs the whole ONAP,
-  refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
-
-* From a developer perspective. ONAP is installed component per component.
-  Each
-  component :ref:`installation is listed in<doc_onap-developer_guide_projects>`.
-  The list of ports used by default within ONAP is documented
-  in `ONAP Service List <https://wiki.onap.org/display/DW/ONAP+Services+List>`_.
-
-Usage
-+++++
-This section is intended to provide users on the usage of ONAP components.
-
-Instructions on using the ONAP deployment including Robot, Portal, SDC and VID
-in the context of running (Onboarding, service creation, service deployment,
-VNF creation, VNF preload, VF Module creation and closed loop operations)
-the vFirewall sanity use case is documented
-in `Running the ONAP Demos <https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
 
 
 .. Include files referenced by link in the toctree as hidden
