@@ -26,6 +26,8 @@ The VNFs managed by ONAP may be deployed in different OpenStack tenants or based
 
 The current installation is based on the single tenant deployment (all the ONAP components will be hosted in a unique tenant) with DCAE componntes deployed in High Availability mode.
 
+The installation requires some manual taks to setup the DCAE components.
+
 **Requirements**
 ================
 
@@ -141,13 +143,19 @@ The list of various services and ports used can be found on the `ONAP wiki <http
 Source files
 ------------
 
+The following files must be downloaded:
+
 - Template file: https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml
 - Environment file: https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env
+
+The environment file must be customized as decribed in the following sections.
+
+.. Note Amsterdam release files
 
 Description
 -----------
 
-The ONAP HEAT template spins up the entire ONAP platform. The template,
+The ONAP HEAT template spins up all the components expect the DCAE. The template,
 onap_openstack.yaml, comes with an environment file,
 onap_openstack.env, in which all the default values are defined.
 
@@ -349,7 +357,7 @@ or Command Line.
  pip install python-openstackclient   # Install the Openstack client to support multiple services
 
 -  Create a file (named i.e. ~/openstack/openrc) that sets all the
-   environmental variables required to access Rackspace:
+   environmental variables required to access your OpenStack tenant:
 
 ::
 
@@ -375,10 +383,16 @@ or Command Line.
 
 .. Note The Heat template deployment may take time (up to one hour) depending on your hardware environment.
 
+Deploy DCAE
+-----------
+The HEAT template deployed the onap-dcae-bootstrap virtual machine.
+
+.. Note To provide the manual tasks to configure the local environment
+
 
 Test the installation
 ---------------------
-Every ONAP component offers a HealthCheck REST API. The *Robot Virtual Machine* can be used to test that every components run smoothly.
+Every ONAP component offers a HealthCheck REST API. The Robot Virtual Machine (*onap-robot*) can be used to test that every components run smoothly.
 Run the following command to perform the HealthCheck:
 
 .. code-block:: bash
@@ -386,6 +400,8 @@ Run the following command to perform the HealthCheck:
   docker exec -it openecompete_container /var/opt/OpenECOMP_ETE/runTags.sh -i health h -d ./html -V /share/config/integration_robot_properties.py -V /share/config/integration_preload_parameters.py -V /share/config/vm_properties.py
 
 This testsuite will execute 30 tests towards the various ONAP components.
+
+After the installation, it is possible to deploy the various use-cases described `ONAP wiki <https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
 
 Detect problems
 ---------------
@@ -395,7 +411,8 @@ Here is a simple procedure to detect where the problem occurs:
 * Check the OpenStack Virtual Machine logs
 * Connect to the Virtual Machine and check that the various containers are running.
 
-The list of containers are described in the following section. In case some containers are missing, check the docker logs using the following command:
+The list of containers are described on the `ONAP wiki <https://wiki.onap.org/display/DW/ONAP+Services+List#ONAPServicesList-ONAPServices>`_
+. In case some containers are missing, check the docker logs using the following command:
 
 .. code-block:: bash
 
