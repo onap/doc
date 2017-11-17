@@ -12,3 +12,8 @@ Creating Documentation
    include-documentation
    converting-formats
    addendum
+
+.. toctree::
+   :hidden:
+
+   update-review.rst
