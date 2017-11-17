@@ -1,6 +1,8 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
    International License. http://creativecommons.org/licenses/by/4.0
 
+.. index:: Release Notes
+
 Releases
 ========
 This page is the ONAP Amsterdam Release Notes. The first release is
@@ -27,10 +29,10 @@ product could on its own.
 
 Functionality
 +++++++++++++
-*Portal* - a single, consistent user experience for both design timer
+**Portal** - a single, consistent user experience for both design timer
 and run time environments, based on the user’s role.
 
-*Design Time Framework* - a comprehensive development environment with
+**Design Time Framework** - a comprehensive development environment with
 tools, techniques, and repositories for defining/describing resources,
 services, and products:
 
@@ -46,9 +48,9 @@ services, and products:
    and/or enforced.
 
  - Closed Loop Automation Management Platform (CLAMP) provides a method
-   for designing and managing control loops.**
+   for designing and managing control loops.
 
-*Runtime Framework* - The runtime execution framework executes the
+**Runtime Framework** - The runtime execution framework executes the
 rules and policies distributed by the design and creation environment
 and Controllers that manage resources corresponding to their assigned
 controlled domain:
@@ -71,7 +73,7 @@ controlled domain:
    system’s resources, services, products and their relationships with each
    other.
 
-*Closed-Loop Automation* -- Design -> Create -> Collect -> Analyze >
+**Closed-Loop Automation** -- Design -> Create -> Collect -> Analyze >
 Detect -> Publish -> Respond:
 
  - Data Collection, Analytics and Events (DCAE) collects performance,
@@ -124,10 +126,15 @@ Known Issues and limitations are documented in each project Release Notes.
 
 Refer to :ref:`release notes <doc-releaserepos>` for each project.
 
+
+.. index:: Licensing
+
 Licenses
 ++++++++
 ONAP Amsterdam Source Code is licensed under the `Apache Version 2 License <http://www.apache.org/licenses/LICENSE-2.0>`_.
 ONAP Amsterdam Documentation is licensed under the `Creative Commons Attribution 4.0 International License <http://creativecommons.org/licenses/by/4.0>`_.
+
+.. index:: Reporting Bugs
 
 How to Report a Bug
 +++++++++++++++++++
@@ -142,6 +149,7 @@ There are 2 ways to report a bug in ONAP.
 
 You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing and this `guideline <https://wiki.onap.org/display/DW/Mailing+Lists>`_ to register into the ONAP Discuss mailing list.
 
+.. index:: Download
 
 Download
 ++++++++
@@ -149,6 +157,9 @@ Download
 * ONAP Source Code is available through Gerrit at https://gerrit.onap.org or Git at https://git.onap.org/ .
 
 * ONAP is packaged within Docker and can be dowloaded from Docker Hub at https://hub.docker.com/r/onap .
+
+
+.. index:: Installation
 
 
 Install
@@ -174,3 +185,12 @@ VNF creation, VNF preload, VF Module creation and closed loop operations)
 the vFirewall sanity use case is documented
 in `Running the ONAP Demos <https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
 
+
+.. Include files referenced by link in the toctree as hidden
+
+.. toctree::
+   :hidden:
+
+   release-manifest.rst
+   releaserepos.rst
+   repolist.rst

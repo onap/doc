@@ -2,5 +2,7 @@
 
 Service Designer
 ================
+.. note::
+   Until this section is migrated to gerrit/readthedocs, use the link below.
 
-* `See Service Designer <https://wiki.onap.org/x/E4AP>`_
+* `Service Designer <https://wiki.onap.org/x/E4AP>`_

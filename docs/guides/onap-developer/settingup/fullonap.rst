@@ -7,6 +7,8 @@
    :depth: 2
 ..
 
+.. index:: Setting Up Full ONAP
+
 
 ========================
 **Setting Up Full ONAP**

@@ -3,6 +3,8 @@
    Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
 
+.. index:: Projects Providing Documentation
+
 .. _doc-repolist:
 
 Project/Components

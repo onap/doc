@@ -100,7 +100,6 @@ A starting structure is shown below and may change as content is
 integrated for each release.   Other ONAP projects will provide
 content that is referenced from this structure.
 
-.. index:: master
 
 
 ::
@@ -133,7 +132,6 @@ ONAP jenkins jobs that verify and merge documentation are triggered by
 RST file changes in the top level docs directory and below.
 
 
-.. index:: licensing
 
 Licensing
 ---------

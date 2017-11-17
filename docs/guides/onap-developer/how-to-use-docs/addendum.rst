@@ -60,8 +60,6 @@ You can add html content that only appears in html output by using the
         This line will be shown only in html version.
 
 
-.. index:: single: indices
-
 Creating Indices
 ----------------
 
