@@ -13,8 +13,8 @@ Amsterdam and subsequent major release will be named using city names.
 * Release Date: November 16, 2017
 
 
-Amsterdam Release
------------------
+Getting Started With Amsterdam
+------------------------------
 
 Summary
 +++++++
@@ -174,7 +174,7 @@ There are 2 ways to report a bug in ONAP.
  * In case you are familiar within ONAP, you can directly report a bug by creating a Jira issue at `ONAP Jira <https://jira.onap.org>`_.
 
  * If you don't know you are facing a bug or have a question, post your question into the `Ask question <https://wiki.onap.org/display/DW/questions/all>`_.
-You will need a Linux Foundation ID to login and post your question. Get a Linux Foundation Identity using this `quick procedure <https://wiki.onap.org/display/DW/Joining+the+Community>`_.
+   You will need a Linux Foundation ID to login and post your question. Get a Linux Foundation Identity using this `quick procedure <https://wiki.onap.org/display/DW/Joining+the+Community>`_.
 
 You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing and this `guideline <https://wiki.onap.org/display/DW/Mailing+Lists>`_ to register into the ONAP Discuss mailing list.
 

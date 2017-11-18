@@ -27,10 +27,6 @@ Project/Components
    ccsdk/platform/blueprints <../submodules/ccsdk/platform/blueprints.git/docs/index>
    ccsdk/platform/nbapi <../submodules/ccsdk/platform/nbapi.git/docs/index>
    CCSDK Orchestrator Plugins <../submodules/ccsdk/platform/plugins.git/docs/index>
-   ../submodules/ccsdk/sli/adaptors.git/docs/index
-   ../submodules/ccsdk/sli/core.git/docs/index
-   ../submodules/ccsdk/sli/northbound.git/docs/index
-   ../submodules/ccsdk/sli/plugins.git/docs/index
    ccsdk/storage/esaas <../submodules/ccsdk/storage/esaas.git/docs/index>
    ccsdk/storage/pgaas <../submodules/ccsdk/storage/pgaas.git/docs/index>
    ccsdk/utils <../submodules/ccsdk/utils.git/docs/index>
@@ -60,14 +56,7 @@ Project/Components
    sdc/sdc-titan-cassandra <../submodules/sdc/sdc-titan-cassandra.git/docs/index>
    sdc/sdc-tosca <../submodules/sdc/sdc-tosca.git/docs/index>
    sdc/sdc-workflow-designer <../submodules/sdc/sdc-workflow-designer.git/docs/index>
-   sdnc/adaptors <../submodules/sdnc/adaptors.git/docs/index>
-   sdnc/architecture <../submodules/sdnc/architecture.git/docs/index>
-   sdnc/core <../submodules/sdnc/core.git/docs/index>
-   sdnc/features <../submodules/sdnc/features.git/docs/index>
-   sdnc/northbound <../submodules/sdnc/northbound.git/docs/index>
    sdnc/oam <../submodules/sdnc/oam.git/docs/index>
-   sdnc/parent <../submodules/sdnc/parent.git/docs/index>
-   sdnc/plugins <../submodules/sdnc/plugins.git/docs/index>
    Service Orchestrator <../submodules/so.git/docs/index>
    so/libs <../submodules/so/libs.git/docs/index>
    Use Case User Interface <../submodules/usecase-ui.git/docs/index>
@@ -77,4 +66,3 @@ Project/Components
    ../submodules/vnfrqts/guidelines.git/docs/index
    ../submodules/vnfrqts/requirements.git/docs/index
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
-   VVP Documentation <../submodules/vvp/documentation.git/docs/index>

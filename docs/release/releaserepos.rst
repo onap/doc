@@ -17,9 +17,6 @@ Active and Available Inventory
    :titlesonly:
 
    aai/aai-common<../submodules/aai/aai-common.git/docs/release-notes.rst>
-   aai/esr-gui<../submodules/aai/esr-gui.git/docs/release-notes.rst>
-   aai/esr-server<../submodules/aai/esr-server.git/docs/release-notes.rst>
-   aai/sparky-be<../submodules/aai/sparky-be.git/docs/release-notes.rst>
 
 Application Controller
 ----------------------
@@ -28,7 +25,6 @@ Application Controller
    :maxdepth: 1
    :titlesonly:
 
-   appc/deployment<../submodules/appc/deployment.git/docs/release-notes.rst>
    appc<../submodules/appc.git/docs/release-notes.rst>
 
 Common Controller Software Development Kit
@@ -39,8 +35,6 @@ Common Controller Software Development Kit
    :titlesonly:
 
    ccsdk/distribution<../submodules/ccsdk/distribution.git/docs/release-notes.rst>
-   ccsdk/dashboard<../submodules/ccsdk/dashboard.git/docs/release-notes.rst>
-   ccsdk/platform/blueprints<../submodules/ccsdk/platform/blueprints.git/docs/release-notes.rst>
 
 Closed Loop Automation Platform
 -------------------------------
@@ -94,7 +88,6 @@ Holmes
    :maxdepth: 1
    :titlesonly:
 
-   holmes/engine-management<../submodules/holmes/engine-management.git/docs/release-notes.rst>
    holmes/rule-management<../submodules/holmes/rule-management.git/docs/release-notes.rst>
 
 Integration
@@ -114,7 +107,7 @@ Logging Enhancements Project
    :maxdepth: 1
    :titlesonly:
 
-   logging-analytics<../submodules/logging-analytics.git/docs/release-notes.rst
+   logging-analytics<../submodules/logging-analytics.git/docs/release-notes.rst>
 
 Modeling
 --------
@@ -134,9 +127,6 @@ Micro Services Bus
    :titlesonly:
 
    msb/apigateway<../submodules/msb/apigateway.git/docs/release-notes.rst>
-   msb/discovery<../submodules/msb/discovery.git/docs/release-notes.rst>
-   msb/java-sdk<../submodules/msb/java-sdk.git/docs/release-notes.rst>
-   msb/swagger-sdk<../submodules/msb/swagger-sdk.git/docs/release-notes.rst>
 
 MultiVIM Cloud
 --------------
@@ -182,11 +172,6 @@ Service Design & Creation
    :titlesonly:
 
    sdc<../submodules/sdc.git/docs/release-notes.rst>
-   sdc/jtosca<../submodules/sdc/jtosca.git/docs/release-notes.rst>
-   sdc/sdc-distribution-client<../submodules/sdc/sdc-distribution-client.git/docs/release-notes.rst>
-   sdc/sdc-docker-base<../submodules/sdc/sdc-docker-base.git/docs/release-notes.rst>
-   sdc/sdc-titan-cassandra<../submodules/sdc/sdc-titan-cassandra.git/docs/release-notes.rst>
-   sdc/sdc-tosca<../submodules/sdc/sdc-tosca.git/docs/release-notes.rst>
    sdc/sdc-workflow-designer<../submodules/sdc/sdc-workflow-designer.git/docs/release-notes.rst>
 
 Software Defined Network Controller
@@ -224,7 +209,6 @@ Virtual Function Controller
    :maxdepth: 1
    :titlesonly:
 
-   vfc/lcm<../submodules/vfc/lcm.git/docs/release-notes.rst>
    vfc/nfvo/lcm<../submodules/vfc/nfvo/lcm.git/docs/release-notes.rst>
 
 Virtual Infrastructure Deployment
@@ -234,7 +218,6 @@ Virtual Infrastructure Deployment
    :maxdepth: 1
    :titlesonly:
 
-   vid/asdcclient<../submodules/vid/asdcclient.git/docs/release-notes.rst>
    vid<../submodules/vid.git/docs/release-notes.rst>
 
 VNF Requirements
@@ -244,7 +227,6 @@ VNF Requirements
    :maxdepth: 1
    :titlesonly:
 
-   vnfrqts/guidelines<../submodules/vnfrqts/guidelines.git/docs/release-notes.rst>
    vnfrqts/requirements<../submodules/vnfrqts/requirements.git/docs/release-notes.rst>
 
 VNF Software Development Kit

@@ -9,11 +9,11 @@ Release Notes
 =============
 
 
-Version: x.y.z
+Version: 1.0.0
 --------------
 
 
-:Release Date: 2017-11-20
+:Release Date: 2017-11-16
 
 
 
@@ -29,7 +29,7 @@ on readthedocs.
 
 The developer wiki still contains some pages that are referenced from the
 readthedocs documentation. The pages and links that remain to be migrated
-are listed in Jira Issue DOC-179 and labeled on the wiki with "move-to-rtd".
+are listed in Jira Issue DOC-179.
 
 ===========
 
