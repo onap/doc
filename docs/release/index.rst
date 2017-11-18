@@ -95,10 +95,10 @@ Each project provides detailed :ref:`release notes<doc-releaserepos>`
 and prepends to these if/when any updated versions the project team believes
 are compatible with a major release are made available.
 
-Supported Platforms
-+++++++++++++++++++
-ONAP Amsterdam Release has been tested on Ubuntu 16.04 and thus is
-the only OS supported.
+Platforms Requirements
+++++++++++++++++++++++
+ONAP Amsterdam Release has been tested on Linux OSs. Details are `available here <http://onap.readthedocs.io/en/latest/guides/onap-developer/settingup/fullonap.html#requirements>`_.
+
 
 .. index:: Download
 
@@ -112,13 +112,11 @@ There are 3 approaches to install ONAP:
 
 Full ONAP installation using Heat template
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-From a complete demo solution perspective. This installs the whole ONAP, 
- refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
+From a complete demo solution perspective. This installs the whole ONAP, refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
 
 Advanced installation to install individual components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-From a developer perspective. ONAP can be installed component per component: 
- :ref:`installation is listed in <doc_onap-developer_guide_projects>`.
+From a developer perspective. ONAP can be installed component per component, refer to :ref:`the installation procedure available for each component<doc_onap-developer_guide_projects>`.
 
 * The list of ports used by default within ONAP is documented in `ONAP Service List <https://wiki.onap.org/display/DW/ONAP+Services+List>`_.
 * The ONAP Source Code is available through Gerrit at https://gerrit.onap.org or Git at https://git.onap.org/.
@@ -165,9 +163,7 @@ ONAP Amsterdam Documentation is licensed under the `Creative Commons Attribution
 
 Known Issues and Limitations
 ++++++++++++++++++++++++++++
-Known Issues and limitations are documented in each project Release Notes.
-
-Refer to :ref:`release notes <doc-releaserepos>` for each project.
+Known Issues and limitations are documented in each :ref:`project Release Notes <doc-releaserepos>`.
 
 .. index:: Reporting Bugs
 
@@ -175,12 +171,10 @@ How to Report a Bug
 +++++++++++++++++++
 There are 2 ways to report a bug in ONAP.
 
- * In case you are familiar within ONAP, you can directly
-   report a bug by creating a Jira issue
-   at `ONAP Jira <https://jira.onap.org>`_.
+ * In case you are familiar within ONAP, you can directly report a bug by creating a Jira issue at `ONAP Jira <https://jira.onap.org>`_.
 
- * If you don't know you are facing a bug or have a question, email
-   the ONAP Discuss mailing list at onap-discuss@lists.onap.org .
+ * If you don't know you are facing a bug or have a question, post your question into the `Ask question <https://wiki.onap.org/display/DW/questions/all>`_.
+You will need a Linux Foundation ID to login and post your question. Get a Linux Foundation Identity using this `quick procedure <https://wiki.onap.org/display/DW/Joining+the+Community>`_.
 
 You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing and this `guideline <https://wiki.onap.org/display/DW/Mailing+Lists>`_ to register into the ONAP Discuss mailing list.
 
