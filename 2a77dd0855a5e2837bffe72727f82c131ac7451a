@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_6a81c649",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2017-11-21T03:07:26Z",
+      "side": 1,
+      "message": "Missing O?",
+      "revId": "2a77dd0855a5e2837bffe72727f82c131ac7451a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
