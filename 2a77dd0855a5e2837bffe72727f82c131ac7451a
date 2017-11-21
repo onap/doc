@@ -16,6 +16,40 @@
       "revId": "2a77dd0855a5e2837bffe72727f82c131ac7451a",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_8aa1aaab",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 2089
+      },
+      "writtenOn": "2017-11-21T05:43:03Z",
+      "side": 1,
+      "message": "should be network",
+      "revId": "2a77dd0855a5e2837bffe72727f82c131ac7451a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_aaa6eebf",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 2089
+      },
+      "writtenOn": "2017-11-21T05:43:03Z",
+      "side": 1,
+      "message": "should be Infrastructure?",
+      "revId": "2a77dd0855a5e2837bffe72727f82c131ac7451a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
