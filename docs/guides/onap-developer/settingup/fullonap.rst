@@ -28,6 +28,8 @@ The current installation is based on the single tenant deployment (all the ONAP 
 
 The installation requires some manual tasks to setup the DCAE components.
 
+.. _demo-installing-running-onap-requirements:
+
 **Requirements**
 ================
 

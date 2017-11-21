@@ -25,7 +25,7 @@ ONAP will enable software, network, IT and cloud providers and developers
 to rapidly automate new services and support complete life cycle management.
 By unifying member resources, ONAP will accelerate the development of a
 vibrant ecosystem around a globally shared architecture and implementation
-for network automationâ€“with an open standards focusâ€“faster than any one
+for network automation-with an open standards focus-faster than any one
 product could on its own.
 
 Functionality
@@ -99,7 +99,7 @@ are compatible with a major release are made available.
 
 Platforms Requirements
 ++++++++++++++++++++++
-ONAP Amsterdam Release has been tested on Linux OSs. Details are `available here <http://onap.readthedocs.io/en/latest/guides/onap-developer/settingup/fullonap.html#requirements>`_.
+ONAP Amsterdam Release has been tested on Linux OSs. Details are :ref:`available here <demo-installing-running-onap-requirements>`.
 
 
 .. index:: Download
@@ -128,7 +128,7 @@ This type of installation is not recommended to fully install ONAP.
 
 Experimental installation using Kubernetes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-From a complete demo solution perspective using Kubernetes. This installs the whole ONAP, refer to `ONAP Operations Manager - Quick Start Guide <http://onap.readthedocs.io/en/latest/submodules/oom.git/docs/OOM%20Project%20Description/oom_project_description.html#quick-start-guide>`_.
+From a complete demo solution perspective using Kubernetes. This installs the whole ONAP, refer to :ref:`ONAP Operations Manager - Quick Start Guide <onap-operations-manager-project>`.
 
 Documentation
 +++++++++++++
