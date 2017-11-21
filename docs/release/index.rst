@@ -19,12 +19,13 @@ Getting Started With Amsterdam
 Summary
 +++++++
 ONAP provides a comprehensive platform for real-time, policy-driven
-orchestration and automation of physical and virtual network functions
-that will enable software, network, IT and cloud providers and developers
+service orchestration and automation including virtual network functions and applications
+instantiation and configuration, but also physical network functions configuration.
+ONAP will enable software, network, IT and cloud providers and developers
 to rapidly automate new services and support complete life cycle management.
 By unifying member resources, ONAP will accelerate the development of a
 vibrant ecosystem around a globally shared architecture and implementation
-for network automation–with an open standards focus–faster than any one
+for network automationâ€“with an open standards focusâ€“faster than any one
 product could on its own.
 
 Functionality
@@ -55,19 +56,19 @@ rules and policies distributed by the design and creation environment
 and Controllers that manage resources corresponding to their assigned
 controlled domain:
 
- - Service Orchestrator (SO) executes the specified processes and automates
+ - Service Orchestrator (SO) executes the specified BPMN processes and automates
    sequences of activities, tasks, rules and policies needed for on-demand
    creation, modification or removal of network, application or infrastructure
-   services and resources.
+   services and resources. SO is especially able to drive any OpenStack-based cloud platform.
 
- - Software Defined Network Controller (SDNC) network configuration of
-   cloud computing resources.
+ - Software Defined Network Controller (SDNC) executes network configuration for
+   cloud computing resources and network.
 
- - Application Controller (APPC) Application resources.
+ - Application Controller (APPC) executes Virtual Network Functions (VNF) configurations and lifecycle
+   management operations.
 
- - Virtual Function Controller (VF-C) provides an ETSI NFV compliant NFV-O
-   functions, and is responsible for life cycle management of virtual services
-   and the associated physical COTS server infrastructure.
+ - Virtual Function Controller (VF-C) is responsible for lifecycle management of virtual network functions
+   and network services based on VNF using VNF Manager.
 
  - Active and Available Inventory (A&AI) provides real-time views of a
    system’s resources, services, products and their relationships with each
@@ -76,12 +77,13 @@ controlled domain:
 **Closed-Loop Automation** -- Design -> Create -> Collect -> Analyze >
 Detect -> Publish -> Respond:
 
- - Data Collection, Analytics and Events (DCAE) collects performance,
-   usage, and configuration data and publishes information to policy,
-   orchestration, and the data lake.
+ - Data Collection, Analytics and Events (DCAE) collects events, performance,
+   usage and publishes information to policy that executes the rules to perform
+   closed loop actions.
 
- - “Holmes” provides alarm correlation and analysis for Telecom cloud
-   infrastructure and services, including hosts, vims, VNFs and NSs
+ - Holmes provides alarm correlation and analysis for Telecom cloud
+   infrastructure and services, including servers, cloud infrastructure,
+   VNFs and Network Services.
 
  - Common Services - operational services for all ONAP components including
    activity logging, reporting, common data layer, access control, resiliency,
