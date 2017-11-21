@@ -20,6 +20,7 @@ User Interfaces
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/installation.rst>
    Use-Case UI <../../../submodules/usecase-ui.git/docs/platform/installation.rst>
    VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/installation.rst>
+   SDNC - Software-Defined Networks Controller <../../../submodules/sdnc/oam.git/docs/installation.rst>
 
 Platform Components
 -------------------
