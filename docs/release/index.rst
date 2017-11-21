@@ -116,7 +116,9 @@ From a complete demo solution perspective. This installs the whole ONAP, refer t
 
 Advanced installation to install individual components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-From a developer perspective. ONAP can be installed component per component, refer to :ref:`the installation procedure available for each component<doc_onap-developer_guide_projects>`.
+From a developer perspective, ONAP can be installed component per component. For details, refer to :ref:`the installation procedure available for each component<doc_onap-developer_guide_projects>`.
+The advanced installation procedure is recommended only for experienced developers who desire to focus their attention on a few components and who have a deep understanding of dependencies between components.
+This type of installation is not recommended to fully install ONAP.
 
 * The list of ports used by default within ONAP is documented in `ONAP Service List <https://wiki.onap.org/display/DW/ONAP+Services+List>`_.
 * The ONAP Source Code is available through Gerrit at https://gerrit.onap.org or Git at https://git.onap.org/.
@@ -176,7 +178,7 @@ There are 2 ways to report a bug in ONAP.
  * If you don't know you are facing a bug or have a question, post your question into the `Ask question <https://wiki.onap.org/display/DW/questions/all>`_.
    You will need a Linux Foundation ID to login and post your question. Get a Linux Foundation Identity using this `quick procedure <https://wiki.onap.org/display/DW/Joining+the+Community>`_.
 
-You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing and this `guideline <https://wiki.onap.org/display/DW/Mailing+Lists>`_ to register into the ONAP Discuss mailing list.
+You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing.
 
 
 .. Include files referenced by link in the toctree as hidden

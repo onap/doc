@@ -18,15 +18,15 @@
 
 **Context**
 ===========
-ONAP may be deployed in different contexts depending on your requirements. The recommended installation for Amsterdam Release is currently based on OpenStack.
+ONAP may be deployed in different contexts depending on your requirements. The recommended installation for Amsterdam Release is currently based on OpenStack HEAT Template.
 
-Using the Amsterdam Release installer, ONAP components may be deployed in a single tenant or multiple tenants. One tenant for all the components except DCAE, and another tenant dedicated to the DCAE components.
+Using the Amsterdam HEAT Template installer, ONAP can be deployed in a single tenant or multiple tenants. One tenant for all the components except DCAE, and another tenant dedicated to the DCAE components.
 
-The VNFs managed by ONAP may be deployed in different OpenStack tenants or based on top of VMware based infrastructure (cf MultiCloud project).
+The VNFs managed by ONAP may be deployed in different OpenStack tenants or based on top of VMware based infrastructure. For details, refer :ref:`to MultiCloud project<index-multicloud>`.
 
-The current installation is based on the single tenant deployment (all the ONAP components will be hosted in a unique tenant) with DCAE componntes deployed in High Availability mode.
+The current installation is based on the single tenant deployment (all the ONAP components will be hosted in a unique tenant) with DCAE components deployed in High Availability mode.
 
-The installation requires some manual taks to setup the DCAE components.
+The installation requires some manual tasks to setup the DCAE components.
 
 **Requirements**
 ================
@@ -54,7 +54,7 @@ To deploy OpenStack, you can use various solutions:
  - `OPNFV Cross Community Continuous Integration - XCI installer <http://docs.opnfv.org/en/latest/infrastructure/xci.html>`_
 
 *Designate* component is usually not deployed using standard OpenStack installers.
-Please find a guide to deploy and configure *Designate*
+Use the procedure below to deploy and configure *Designate*
 
 .. toctree::
    :maxdepth: 1
@@ -66,7 +66,7 @@ The OpenStack infrastructure must enable internet access.
 
 ONAP components
 ---------------
-The following table presents the mapping between the created VM and the ONAP components, and provides informtaion about he VM (flavor and image):
+The following table presents the mapping between the created VM and the ONAP components, and provides VM information (flavor and image):
 
     ===================  =================   =======  ============
     VM name              ONAP project(s)     Flavor   Image
@@ -109,15 +109,15 @@ The ONAP installation requires the following footprint:
  - 148 vCPU
  - 336 GB RAM
  - 3 TB Storage
- - 29 floating IP
+ - 29 floating IP addresses
 
-.. Note: the default flavor size may be optimized. The ONAP community is working to provide adpted flavors for basic ONAP installation.
+.. Note: The default flavor size may be optimized. The ONAP community is working to update flavors of basic ONAP installation.
 
-.. Note: you should also reserve some resourcse for the VNFs to be deployed.
+.. Note: You should also reserve some resources for the VNFs to be deployed.
 
 Artifacts
 ---------
-The following artifacts must be deployed on the OpenStack infrastructure.
+The following artifacts must be deployed on the OpenStack infrastructure:
  - a public SSH key to access the various VM
  - private SSH key and public key SSH key for the DCAE VM
  - Ubuntu 14.04 image
@@ -125,17 +125,17 @@ The following artifacts must be deployed on the OpenStack infrastructure.
  - CentOS 7 image
  - Set of flavors: small, medium, large, medium, large, xlarge, xxlarge
 
-.. Note that floating IP may be private IP.
+.. Note: The floating IP may be private IP.
 
-.. Note Basic flavors can reuse the default flavors as defined by `OpenStack <https://docs.openstack.org/horizon/latest/admin/manage-flavors.html>`_
-   The xxlarge flavor should be confiured using the following values: 12 vCPU, 64 GB RAM and 120 GB storage.
+.. Note: Basic flavors can reuse the default flavors as defined by `OpenStack <https://docs.openstack.org/horizon/latest/admin/manage-flavors.html>`_
+   The xxlarge flavor should be configured using the following values: 12 vCPU, 64 GB RAM and 120 GB storage.
 
 Security
 --------
 The default installation assumes that the Default security group is configured to enable full access between the ONAP components.
 Depending on your environment, we may need to open some security groups (eg when using the portal from your desktop).
 
-The list of various services and ports used can be found on the `ONAP wiki <https://wiki.onap.org/display/DW/ONAP+Services+List#ONAPServicesList-ONAPServices>`_
+The list of various services and ports used can be found on the `ONAP wiki <https://wiki.onap.org/display/DW/ONAP+Services+List#ONAPServicesList-ONAPServices>`_.
 
 **Deployment**
 ==============
@@ -143,12 +143,12 @@ The list of various services and ports used can be found on the `ONAP wiki <http
 Source files
 ------------
 
-The following files must be downloaded:
+Both following files must be downloaded and configured to match your configuration:
 
 - Template file: https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml
 - Environment file: https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env
 
-The environment file must be customized as decribed in the following sections.
+The environment file must be customized as described in the following sections.
 
 .. Note Amsterdam release files
 
@@ -173,7 +173,7 @@ The resource section contains the definition of:
 - ONAP Virtual Machines (VMs)
 - Public/private key pair used to access ONAP VMs
 - Virtual interfaces towards the ONAP Private Management Network
-- Disk volumes.
+- Disk volumes
 
 Each VM specification includes Operating System image name, VM size
 (i.e. flavor), VM name, etc. Each VM has two virtual network interfaces:
@@ -181,9 +181,9 @@ one towards the public network and one towards the ONAP Private
 Management network, as described above. Furthermore, each VM runs a
 post-instantiation script that downloads and installs software
 dependencies (e.g. Java JDK, gcc, make, Python, ...) and ONAP software
-packages and docker containers from remote repositories.
+packages and Docker containers from remote repositories.
 
-When the HEAT template is executed, the Openstack HEAT engine creates
+When the HEAT template is executed, the OpenStack HEAT engine creates
 the resources defined in the HEAT template, based on the parameters
 values defined in the environment file.
 
@@ -228,7 +228,7 @@ execute the following instruction:
 
  user@ubuntu:~$ ssh-keygen -t rsa
 
-The following operations to create the public/private key pair occur:
+The following operations create the public/private key pair:
 
 ::
 
@@ -279,7 +279,7 @@ following OpenStack CLI command:
  dns_forwarder: PUT THE IP OF DNS FORWARDER FOR ONAP DEPLOYMENT'S OWN DNS SERVER
  oam_network_cidr: 10.0.0.0/16
 
-You can use the Google Public DNS 8.8.8.8 and 4.4.4.4 address or your internal DNS servers
+You can use the Google Public DNS 8.8.8.8 and 4.4.4.4 address or your internal DNS servers.
 
 ONAP installs a DNS server used to resolve IP addresses in the ONAP OAM private network.
 ONAP Amsterdam Release also requires OpenStack Designate DNS support for the DCAE platform, so as to allow IP address discovery and communication among DCAE elements.
@@ -298,19 +298,14 @@ The Designate DNS will then forward those queries to the external DNS.
 
 DCAE spins up ONAP's data collection and analytics system in two phases.
 
-The first is the launching of a bootstrap VM that is specified in the ONAP Heat template, as described above. This VM requires a number of deployment-specific configuration parameters being provided so that it can subsequently bring up the DCAE system.
+The first phase consists of launching a bootstrap VM that is specified in the ONAP HEAT template, as described above. This VM requires a number of deployment-specific configuration parameters being provided so that it can subsequently bring up the DCAE system.
 
-There are two groups of parameters.
+There are two groups of parameters:
 
-The first group relates to the launching of DCAE VMs, including parameters such as the keystone URL and additional VM image IDs/names.
-Hence these parameters need to be provided to DCAE.
-Note that although DCAE VMs will be launched in the same tenant as the rest of ONAP, because DCAE may use MultiCloud node as the agent for interfacing with the underlying cloud, it needs a separate keystone URL (which points to MultiCloud node instead of the underlying cloud).
+- The first group relates to the launching of DCAE VMs, including parameters such as the keystone URL and additional VM image IDs/names. Hence these parameters need to be provided to DCAE. Note that although DCAE VMs will be launched in the same tenant as the rest of ONAP, because DCAE may use MultiCloud node as the agent for interfacing with the underlying cloud, it needs a separate keystone URL (which points to MultiCloud node instead of the underlying cloud).
 
-The second group of configuration parameters relate to DNS As A Service support (DNSaaS).
-DCAE requires DNSaaS for registering its VMs into organization-wide DNS service.
-For OpenStack, DNSaaS is provided by Designate, as mentioned above.
-Designate support can be provided via an integrated service endpoint listed under the service catalog of the OpenStack installation; or proxyed by the ONAP MultiCloud service.
-For the latter case, a number of parameters are needed to configure MultiCloud to use the correct Designate service.
+
+- The second group of configuration parameters relate to DNS As A Service support (DNSaaS). DCAE requires DNSaaS for registering its VMs into organization-wide DNS service. For OpenStack, DNSaaS is provided by Designate, as mentioned above. Designate support can be provided via an integrated service endpoint listed under the service catalog of the OpenStack installation; or proxyed by the ONAP MultiCloud service. For the latter case, a number of parameters are needed to configure MultiCloud to use the correct Designate service.
 
 These parameters are described below:
 
@@ -381,7 +376,7 @@ or Command Line.
  openstack stack create -t PATH_TO_HEAT_TEMPLATE(YAML FILE) -e PATH_TO_ENV_FILE STACK_NAME  # New Openstack client
 
 
-.. Note The Heat template deployment may take time (up to one hour) depending on your hardware environment.
+.. Note The HEAT template deployment may take time (up to one hour) depending on your hardware environment.
 
 Deploy DCAE
 -----------
@@ -399,9 +394,9 @@ Run the following command to perform the HealthCheck:
 
   docker exec -it openecompete_container /var/opt/OpenECOMP_ETE/runTags.sh -i health h -d ./html -V /share/config/integration_robot_properties.py -V /share/config/integration_preload_parameters.py -V /share/config/vm_properties.py
 
-This testsuite will execute 30 tests towards the various ONAP components.
+This test suite will execute 30 tests towards the various ONAP components.
 
-After the installation, it is possible to deploy the various use-cases described `ONAP wiki <https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
+After the installation, it is possible to deploy the various use-cases described in `ONAP wiki <https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
 
 Detect problems
 ---------------
@@ -412,7 +407,7 @@ Here is a simple procedure to detect where the problem occurs:
 * Connect to the Virtual Machine and check that the various containers are running.
 
 The list of containers are described on the `ONAP wiki <https://wiki.onap.org/display/DW/ONAP+Services+List#ONAPServicesList-ONAPServices>`_
-. In case some containers are missing, check the docker logs using the following command:
+. In case some containers are missing, check the Docker logs using the following command:
 
 .. code-block:: bash
 
@@ -434,7 +429,7 @@ To use the portal on your desktop, you must configure the following information 
  <onap-aai-inst2_ip>   aai.ui.simpledemo.onap.org
 
 
-You can use the Horizon dashboard to get the IP adresses associated with the Virtual Machines or use the following command line:
+You can use the Horizon dashboard to get the IP addresses associated with the Virtual Machines or use the following command line:
 
 .. code-block:: bash
 
