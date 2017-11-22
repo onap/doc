@@ -118,7 +118,7 @@ From a complete demo solution perspective. This installs the whole ONAP, refer t
 
 Advanced installation to install individual components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-From a developer perspective, ONAP can be installed component per component. For details, refer to :ref:`the installation procedure available for each component<doc_onap-developer_guide_projects>`.
+From a developer perspective, ONAP can be installed component per component. For details, refer to :ref:`the installation procedure available for each component<index-setting-individual-components>`.
 The advanced installation procedure is recommended only for experienced developers who desire to focus their attention on a few components and who have a deep understanding of dependencies between components.
 This type of installation is not recommended to fully install ONAP.
 

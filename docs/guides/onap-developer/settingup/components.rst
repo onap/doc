@@ -1,13 +1,15 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
    http://creativecommons.org/licenses/by/4.0
 
+.. _index-setting-individual-components:
 
 =========================================
 **Setting Up individual ONAP components**
 =========================================
-It is possible to deploy individual components.
+From a developer perspective, ONAP can be installed component per component. This advanced installation procedure is recommended only for experienced developers who desire to focus their attention on a few components and who have a deep understanding of dependencies between components.
+This type of installation is not recommended to fully install ONAP.
 
-The documentation to install the various components is available here:
+The installation procedures for the various components are provided below:
 
 User Interfaces
 ---------------
@@ -16,7 +18,7 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-   CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/index.rst>
+   CLAMP - :ref:`Closed Loop Automation Platform<index-clamp-installation>`
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/installation.rst>
    Use-Case UI <../../../submodules/usecase-ui.git/docs/platform/installation.rst>
    VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/installation.rst>
@@ -58,5 +60,5 @@ SDK
    :titlesonly:
 
    CLI - Command Line Interface<../../../submodules/cli.git/docs/installation_guide.rst>
-   Portal - <../../../submodules/portal.git/docs/tutorials/portal-sdk/setting-up.rst>
+   Portal <../../../submodules/portal.git/docs/tutorials/portal-sdk/setting-up.rst>
    VNF Software Development Kit <../../../submodules/vnfsdk/model.git/docs/files/mktplace-install.rst>
