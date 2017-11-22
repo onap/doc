@@ -90,16 +90,6 @@ Holmes
 
    holmes/rule-management<../submodules/holmes/rule-management.git/docs/release-notes.rst>
 
-Integration
------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   integration<../submodules/integration.git/docs/release-notes.rst>
-
-
 Logging Enhancements Project
 ----------------------------
 
@@ -116,7 +106,7 @@ Modeling
    :maxdepth: 1
    :titlesonly:
 
-   modeling/modelspec<../submodules/modeling/modelspec.git/docs/release-notes.rst>
+   modeling/modelspec<../submodules/modeling/toscaparsers.git/docs/javatoscachecker/release-notes/release-notes.rst>
    modeling/toscaparsers<../submodules/modeling/toscaparsers.git/docs/nfvparser/release-notes/release-notes.rst>
 
 Micro Services Bus
@@ -144,7 +134,7 @@ ONAP Operations Manager (experimental)
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/oom.git/docs/index/release-notes.rst
+   OOM<../submodules/oom.git/docs/release-notes.rst>
 
 Policy Framework
 ----------------
