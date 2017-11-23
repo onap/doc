@@ -66,3 +66,4 @@ Project/Components
    ../submodules/vnfrqts/guidelines.git/docs/index
    ../submodules/vnfrqts/requirements.git/docs/index
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
+   vvp/documentation <../submodules/vvp/documentation.git/docs/index>
