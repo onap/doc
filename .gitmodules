@@ -263,3 +263,8 @@
 	url = ../modeling/toscaparsers
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/vvp/documentation.git"]
+	path = docs/submodules/vvp/documentation.git
+	url = ../vvp/documentation
+	branch = .
+	ignore = dirty
