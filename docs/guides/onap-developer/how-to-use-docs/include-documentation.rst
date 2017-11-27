@@ -6,7 +6,7 @@ Setting Up
 
 Some initial set up is required to connect a project with
 the master document structure and enable automated publishing of
-changes as summarized in the following diagram and description below 
+changes as summarized in the following diagram and description below
 below.
 
 .. seqdiag::
@@ -19,9 +19,9 @@ below.
      DR [label = "Doc Gerrit Repo" ,                     color=pink];
      PR [label = "Other Project\nGerrit Repo",          color=pink ];
      PA [label = "Other Project\nAuthor/Committer", color=lightblue];
-     
+
      === One time setup doc project only ===
-     RD  ->   DA [label = "Acquire Account" ]; 
+     RD  ->   DA [label = "Acquire Account" ];
      DA  ->   DR [label = "Create initial\n doc repository content"];
      DA  <<-- DR [label = "Merge" ];
      RD  <--  DA [label = "Connect gerrit.onap.org" ];
@@ -29,32 +29,32 @@ below.
      PA  ->   DR [label = "Add project repo as\ngit submodule" ];
      DR  ->   DA [label = "Review & Plan to\nIntegrate Content with\nTocTree Structure" ];
      DR  <--  DA [label = "Vote +2/Merge" ];
-     PA  <--  DR [label = "Merge Notification" ];     
+     PA  <--  DR [label = "Merge Notification" ];
      PA  ->   PR [label = "Create in project repo\ntop level directory and index.rst" ];
      PR  ->   DA [label = "Add as Reviewer" ];
      PR  <--  DA [label = "Approve and Integrate" ];
      PA  <--  PR [label = "Merge" ];
      }
-     
-     
+
+
 
 Setup doc project
 -----------------
 These steps are performed only once for the doc project and include:
 
 (1) creating in the doc repository an initial:
-	- sphinx master document index
-	- a directory structure aligned with the document structure
-	- tests performed in jenkins verify jobs
-	- sphinx configuration
-  
+  - sphinx master document index
+  - a directory structure aligned with the document structure
+  - tests performed in jenkins verify jobs
+  - sphinx configuration
+
 (2) establishing an account at readthedocs connected with the doc
 doc project repo in gerrit.onap.org.
 
 
 Setup project repositories(s)
 -----------------------------
-These steps are performed for each project repository that provides documentation. 
+These steps are performed for each project repository that provides documentation.
 
 First let's set two variables that will be used in the subsequent steps.
 Set reponame to the project repository you are setting up just as it appears in the
@@ -67,7 +67,7 @@ clone requests over ssh.
    reponame=
    lfid=
 
-The next step is to add a directory in the doc project where your project will be included as a 
+The next step is to add a directory in the doc project where your project will be included as a
 submodule and at least one reference from the doc project to the documentation index in your repository.
 The following sequence will do this over ssh.
 
@@ -75,7 +75,7 @@ The following sequence will do this over ssh.
 
    If your access network restricts ssh, you will need to use equivalent git commands and
    HTTP Passwords as described `here <http://wiki.onap.org/x/X4AP>`_.
-	
+
 .. code-block:: bash
 
    git clone ssh://$lfid@gerrit.onap.org:29418/doc
@@ -86,11 +86,11 @@ The following sequence will do this over ssh.
    git submodule update docs/submodules/$reponame.git
 
    echo "   $reponame <../submodules/$reponame.git/docs/index>" >> docs/release/repolist.rst
-   
+
    git add .
    git commit -s
    git review
-   
+
 .. caution::
    Wait for the above change to be merged before any merge to the
    project repository that you have just added as a submodule.
@@ -107,7 +107,7 @@ to convert or add new content you can update the index and add files under the d
    If you have additional content, you can include it by editing the
    index.rst file and/or adding other files before the git commit.
    See `Templates and Examples`_ below and :ref:`converting-to-rst` for more information.
-   
+
 
 .. code-block:: bash
 
@@ -120,13 +120,13 @@ to convert or add new content you can update the index and add files under the d
    ------------------------------------------------
    .. toctree::
       :maxdepth: 1
-      
+
    " >  docs/index.rst
-   
+
    git add .
    git commit -s
    git review
-   
+
 
 The diagram below illustrates what is accomplished in the setup steps
 above from the perspective of a file structure created for a local test,
@@ -134,14 +134,14 @@ a jenkins verify job, and/or published release documentation including:
 
 - ONAP gerrit project repositories,
 - doc project repository master document index.rst, templates, configuration, and other documents
-- submodules directory where other project repositories and directories/files are referenced 
+- submodules directory where other project repositories and directories/files are referenced
 - file structure: directories (ellipses), files(boxes)
 - references: directory/files (solid edges), git submodule (dotted edges), sphinx toctree (dashed edges)
 
 
 .. graphviz::
 
-   
+
    digraph docstructure {
    size="8,12";
    node [fontname = "helvetica"];
@@ -156,7 +156,7 @@ a jenkins verify job, and/or published release documentation including:
    gerrit -> doc;
    gerrit -> aaf;
    gerrit -> aai;
-   gerrit -> reponame; 
+   gerrit -> reponame;
    gerrit -> repoelipse;
              repoelipse [label=". . . ."];
    gerrit -> vnfsdk;
@@ -164,38 +164,63 @@ a jenkins verify job, and/or published release documentation including:
 
    //Show example of local reponame instance of component info
    reponame -> reponamedocsdir;
-   reponamesm -> reponamedocsdir;  
+   reponamesm -> reponamedocsdir;
                     reponamedocsdir [label="docs"];
-   reponamedocsdir -> repnamedocsdirindex; 
+   reponamedocsdir -> repnamedocsdirindex;
                          repnamedocsdirindex [label="index.rst", shape=box];
 
-   //Show detail structure of a portion of doc/docs 
+   //Show detail structure of a portion of doc/docs
    doc  -> docs;
-   docs -> confpy;                   
+   docs -> confpy;
            confpy [label="conf.py",shape=box];
-   docs -> masterindex; 
+   docs -> masterindex;
            masterindex [label="Master\nindex.rst", shape=box];
    docs -> release;
-   docs -> templates;                                
-   docs -> otherdocdocumentelipse;  
+   docs -> templates;
+   docs -> otherdocdocumentelipse;
            otherdocdocumentelipse [label="...other\ndocuments"];
    docs -> submodules
-   
+
    masterindex -> releasedocumentindex [style=dashed, label="sphinx\ntoctree\nreference"];
-   
+
    //Show submodule linkage to docs directory
-   submodules -> reponamesm [style=dotted,label="git\nsubmodule\nreference"];  
+   submodules -> reponamesm [style=dotted,label="git\nsubmodule\nreference"];
                  reponamesm [label="reponame.git"];
 
    //Example Release document index that references component info provided in other project repo
-   release -> releasedocumentindex;   
+   release -> releasedocumentindex;
               releasedocumentindex [label="index.rst", shape=box];
    releasedocumentindex -> releaserepolist [style=dashed, label="sphinx\ntoctree\nreference"];
-			   releaserepolist  [label="repolist.rst", shape=box];
+        releaserepolist  [label="repolist.rst", shape=box];
    release -> releaserepolist;
    releaserepolist -> repnamedocsdirindex [style=dashed, label="sphinx\ntoctree\nreference"];
- 
+
    }
+
+About GIT branches
+------------------
+
+GIT is a powerful tool allowing many actions, but without respecting some rules
+the GIT structure can be quickly ugly and unmaintaible.
+
+Here are some conventions about GIT branches:
+  - ALWAYS create a local branch to edit or create any file. This local branch
+    will be considered as a topic in Gerrit and allow contributors to work at the
+    same time on the same project.
+  - 1 feature = 1 branch. In the case of documentation, a new chapter or page about
+    a new code feature can be considered as a 'doc feature'
+  - 1 bug = 1 branch. In the case of documentation, a correction on an existing
+    sentence can be considered as a 'doc bug'
+  - the master branch is considered as "unstable", containing new features that
+    will converge to a stable situation for the release date.
+
+The day of the release, the repository owner will create a new branch to
+fix the code and documentation. This will represent the 'stable' code of the
+release. In this context:
+  - NEVER push a new feature on a stable branch
+  - Only bug correction are authorized on a stable branch using cherry pick method
+
+.. image:: git_branches.png
 
 Creating Restructured Text
 ==========================
@@ -203,9 +228,9 @@ Creating Restructured Text
 Templates and Examples
 ----------------------
 Templates are available that capture the kinds of information
-useful for different types of projects and provide some examples of 
-restructured text.  We organize templates in the following way to: help authors 
-understand relationships between documents; keep the user audience context in mind when writing; 
+useful for different types of projects and provide some examples of
+restructured text.  We organize templates in the following way to: help authors
+understand relationships between documents; keep the user audience context in mind when writing;
 and tailor sections for different kinds of projects.
 
 **Sections** Represent a certain type of content.   A section is **provided** in a repository, to
@@ -245,17 +270,17 @@ Collections
 
 
 
-In addition to these simple templates and examples 
+In addition to these simple templates and examples
 there are many open source projects (e.g. Open Daylight, Open Stack)
 that are using Sphinx and Readthedocs where you may find examples to start with.
 Working with project teams we will continue to enhance templates here and
-capture frequently asked questions on the developer wiki question 
+capture frequently asked questions on the developer wiki question
 topic `documentation <https://wiki.onap.org/questions/topics/16384055/documentation>`_.
 
 Each project should: decide what is relevant content; determine the
 best way to create/maintain it in a CI/CD process; and work with the
 documentation team to reference content from the master index and guides.
-Consider options including filling in a template, 
+Consider options including filling in a template,
 identifying existing content that can be used as is or
 easily converted, and use of Sphinx directives/extensions to automatically
 generate restructured text from other source you already have.
@@ -399,6 +424,3 @@ Update submodules, build documentation using tox & then open using any browser.
    firefox docs/_build/html/index.html
 
 .. note:: Make sure to run `tox -elocal` and not just `tox`.
-
-
-
