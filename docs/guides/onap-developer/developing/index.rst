@@ -106,11 +106,8 @@ Holmes
 Integration
 -----------
 
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   ../../../submodules/integration.git/docs/index
+* ONAP Amsterdam release content is specified within a list of project artifact versions available in the form of a :ref:`manifest<doc-release-manifest>`.
+* To install the whole ONAP (from a complete demo solution perspective) refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
 
 Logging Enhancements Project
 ----------------------------
