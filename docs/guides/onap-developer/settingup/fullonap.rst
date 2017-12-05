@@ -52,19 +52,27 @@ The following OpenStack components must be deployed in the infrastructure:
  - *Nova*
 
 To deploy OpenStack, you can use various solutions:
- - `OpenStack installer <https://docs.openstack.org/install-guide/>`_
+ - `OpenStack installation guide <https://docs.openstack.org/install-guide/>`_
  - `OPNFV Cross Community Continuous Integration - XCI installer <http://docs.opnfv.org/en/latest/infrastructure/xci.html>`_
+ - `OpenStack Ocata installation guide <https://docs.openstack.org/ocata/install/>`_
 
-*Designate* component is usually not deployed using standard OpenStack installers.
-Use the procedure below to deploy and configure *Designate*
+.. tip::
+ - Notice the documentation version mentioned in the URL, e.g. ocata/, pike/, latest/ ...
+ - The installation is pretty huge, some automated scripts have been created by the community:
+
+  - `OpenStack installation with Ansible (All openstack services) <https://docs.openstack.org/openstack-ansible/latest/>`_
+  - `OpenStack Ocata installation scripts for testing environment (DO NOT install Heat, Designate and Cinder Volume services) <https://github.com/reachsrirams/openstack-scripts>`_
+
+Use the procedure below to deploy and configure *Designate* manually
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth:	 1
 
    install-designate.rst
 
 
-The OpenStack infrastructure must enable internet access.
+The OpenStack infrastructure must enable internet access and you need to have an "External network" already configured properly.
+The External network ID will have to be provided in the Heat environment file.
 
 ONAP components
 ---------------
@@ -122,9 +130,9 @@ Artifacts
 The following artifacts must be deployed on the OpenStack infrastructure:
  - a public SSH key to access the various VM
  - private SSH key and public key SSH key for the DCAE VM
- - Ubuntu 14.04 image
- - Ubuntu 16.04 image
- - CentOS 7 image
+ - Ubuntu 14.04 image (https://cloud-images.ubuntu.com/releases/14.04/14.04/)
+ - Ubuntu 16.04 image (https://cloud-images.ubuntu.com/releases/16.04/release/)
+ - CentOS 7 image (http://cloud.centos.org/centos/7/images/)
  - Set of flavors: small, medium, large, medium, large, xlarge, xxlarge
 
 .. Note: The floating IP may be private IP.
@@ -345,16 +353,10 @@ or Command Line.
 
 **Instantiation via Command Line:**
 
-- Install the HEAT client on your machine, e.g. in Ubuntu (ref. http://docs.openstack.org/user-guide/common/cli-install-openstack-command-line-clients.html):
+- You need to have the OpenStack Heat service installed:
 
-::
-
- apt-get install python-dev python-pip
- pip install python-heatclient        # Install heat client
- pip install python-openstackclient   # Install the Openstack client to support multiple services
-
--  Create a file (named i.e. ~/openstack/openrc) that sets all the
-   environmental variables required to access your OpenStack tenant:
+- Create a file (named i.e. ~/openstack/openrc) that sets all the
+  environmental variables required to access your OpenStack tenant:
 
 ::
 
@@ -363,6 +365,8 @@ or Command Line.
  export OS_TENANT_ID=INSERT YOUR TENANT ID HERE
  export OS_REGION_NAME=INSERT THE REGION HERE
  export OS_PASSWORD=INSERT YOUR PASSWORD HERE
+ export OS_USER_DOMAIN_NAME=INSERT YOUR DOMAIN HERE
+ export OS_PROJECT_NAME=INSERT YOUR PROJECT NAME HERE
 
 -  Run the script from command line:
 
@@ -374,8 +378,13 @@ or Command Line.
 
 ::
 
- heat stack-create STACK_NAME -f PATH_TO_HEAT_TEMPLATE(YAML FILE) -e PATH_TO_ENV_FILE       # Old HEAT client, OR
- openstack stack create -t PATH_TO_HEAT_TEMPLATE(YAML FILE) -e PATH_TO_ENV_FILE STACK_NAME  # New Openstack client
+ # Old HEAT client
+ heat stack-create STACK_NAME -f PATH_TO_HEAT_TEMPLATE(YAML FILE) -e PATH_TO_ENV_FILE
+
+ OR
+
+ # New OpenStack client
+ openstack stack create -t PATH_TO_HEAT_TEMPLATE(YAML FILE) -e PATH_TO_ENV_FILE STACK_NAME
 
 
 .. Note The HEAT template deployment may take time (up to one hour) depending on your hardware environment.
