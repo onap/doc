@@ -11,7 +11,9 @@
 **Setting Up Designate on Openstack**
 =====================================
 
-.. tip:: `Openstack Designate documentation <https://docs.openstack.org/designate/latest/index.html>` is an important starting point for configuring Designate. Here, the focus will be on designate for ONAP.
+.. tip::
+ - `Openstack Designate documentation (LATEST) <https://docs.openstack.org/designate/latest/index.html>`_ is an important starting point for configuring Designate. Here, the focus will be on designate for ONAP.
+ - Notice the documentation version mentioned in the URL, e.g. ocata/, pike/, latest/ ...
 
 **Designate Overview**
 ======================
