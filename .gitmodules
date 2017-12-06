@@ -1,12 +1,12 @@
 [submodule "docs/submodules/vnfrqts/guidelines"]
 	path = docs/submodules/vnfrqts/guidelines.git
 	url = ../vnfrqts/guidelines
-	branch = .
+	branch = Amsterdam
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/requirements"]
 	path = docs/submodules/vnfrqts/requirements.git
 	url = ../vnfrqts/requirements
-	branch = .
+	branch = Amsterdam
 	ignore = dirty
 [submodule "docs/submodules/appc"]
 	path = docs/submodules/appc.git
@@ -106,7 +106,7 @@
 [submodule "docs/submodules/oom.git"]
 	path = docs/submodules/oom.git
 	url = ../oom
-	branch = .
+	branch = release-1.1.0
 	ignore = dirty
 [submodule "docs/submodules/aai/aai-common.git"]
 	path = docs/submodules/aai/aai-common.git
@@ -196,7 +196,7 @@
 [submodule "docs/submodules/sdc.git"]
 	path = docs/submodules/sdc.git
 	url = ../sdc
-	branch = .
+	branch = release-1.1.0
 	ignore = dirty
 [submodule "docs/submodules/sdc/jtosca.git"]
 	path = docs/submodules/sdc/jtosca.git
