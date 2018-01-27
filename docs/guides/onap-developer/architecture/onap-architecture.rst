@@ -2,7 +2,7 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 Huawei Technologies Co., Ltd.
 
-Introducing the ONAP Architecture (Amsterdam Release)
+Introducing the ONAP Architecture (Beijing Release)
 =====================================================
 
 Introduction
@@ -99,7 +99,7 @@ following foundational principles:
 -  The architecture shall support elastic scaling as needs grow or
    shrink
 
-|image0|\ 
+|image0|\
 
 **Figure 1:** ONAP Platform
 
@@ -115,9 +115,9 @@ necessary to develop service/operations-specific collection, analytics,
 and policies (including recipes for corrective/remedial action) using
 the ONAP Design Framework Portal.
 
-|image1|\  
+|image1|\
 
-**Figure 2:** ONAP Platform components (Amsterdam Release)
+**Figure 2:** ONAP Platform components (Beijing Release)
 
 Portal
 ++++++
@@ -209,7 +209,7 @@ Analytics and Events (DCAE), Active and Available Inventory (A&AI), and
 a Security Framework. These components use common services that support
 logging, access control, and data management.
 
-Orchestration 
+Orchestration
 +++++++++++++
 
 The Service Orchestrator (SO) component executes the
@@ -300,16 +300,16 @@ provide access management and security enforcement, data backup,
 restoration and recovery. They support standardized VNF interfaces and
 guidelines.
 
-Operating in a virtualized environment introduces new security challenges 
+Operating in a virtualized environment introduces new security challenges
 and opportunities. ONAP provides increased security by embedding access controls
-in each ONAP platform component, augmented by analytics and policy components 
+in each ONAP platform component, augmented by analytics and policy components
 specifically designed for the detection and mitigation of security violations.
 
-Amsterdam Use Cases
+Beijing Use Cases
 -------------------
 
 The ONAP project uses real-world use cases to help focus our releases.
-For the first release of ONAP (“Amsterdam”), we introduce two use cases:
+For the first release of ONAP (“Beijing”), we introduce two use cases:
 vCPE and VoLTE.
 
 \ **Virtual CPE Use Case**
@@ -349,7 +349,7 @@ Read the Residential vCPE Use Case with ONAP whitepaper to learn more.
 
 **Voice over LTE (VoLTE) Use Case**
 
-The second use case developed with Amsterdam is Voice over LTE. This use
+The second use case developed with Beijing is Voice over LTE. This use
 case demonstrates how a Mobile Service Provider (SP) could deploy VoLTE
 services based on SDN/NFV.  The SP is able to onboard the service via
 ONAP. Specific sub-use cases are:
