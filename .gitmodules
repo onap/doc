@@ -271,3 +271,8 @@
 [submodule "docs/submodules/aai/event-client.git"]
 	path = docs/submodules/aai/event-client.git
 	url = ../aai/event-client
+[submodule "docs/submodules/ui/dmaapbc.git"]
+	path = docs/submodules/ui/dmaapbc.git
+	url = ../ui/dmaapbc
+	branch = .
+	ignore = dirty
