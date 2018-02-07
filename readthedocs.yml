@@ -5,3 +5,7 @@ formats:
 
 # Pip requirements
 requirements_file: etc/requirements.txt
+
+# Build Container
+build:
+   image: latest
