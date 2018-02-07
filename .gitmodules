@@ -276,3 +276,6 @@
 	url = ../ui/dmaapbc
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/optf/osdf.git"]
+	path = docs/submodules/optf/osdf.git
+	url = ../optf/osdf
