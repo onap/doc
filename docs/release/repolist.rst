@@ -68,3 +68,4 @@ Project/Components
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
    vvp/documentation <../submodules/vvp/documentation.git/docs/index>
    aai/event-client <../submodules/aai/event-client.git/docs/index>
+   optf/osdf <../submodules/optf/osdf.git/docs/index>
