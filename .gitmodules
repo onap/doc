@@ -284,3 +284,6 @@
 [submodule "docs/submodules/dmaap/datarouter.git"]
 	path = docs/submodules/dmaap/datarouter.git
 	url = ../dmaap/datarouter
+[submodule "docs/submodules/dmaap/dbcapi.git"]
+	path = docs/submodules/dmaap/dbcapi.git
+	url = ../dmaap/dbcapi

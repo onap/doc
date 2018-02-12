@@ -70,3 +70,4 @@ Project/Components
    aai/event-client <../submodules/aai/event-client.git/docs/index>
    optf/osdf <../submodules/optf/osdf.git/docs/index>
    dmaap/datarouter <../submodules/dmaap/datarouter.git/docs/index>
+   dmaap/dbcapi <../submodules/dmaap/dbcapi.git/docs/index>
