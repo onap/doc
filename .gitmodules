@@ -279,3 +279,8 @@
 [submodule "docs/submodules/optf/osdf.git"]
 	path = docs/submodules/optf/osdf.git
 	url = ../optf/osdf
+	branch = .
+	ignore = dirty
+[submodule "docs/submodules/dmaap/datarouter.git"]
+	path = docs/submodules/dmaap/datarouter.git
+	url = ../dmaap/datarouter

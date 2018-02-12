@@ -69,3 +69,4 @@ Project/Components
    vvp/documentation <../submodules/vvp/documentation.git/docs/index>
    aai/event-client <../submodules/aai/event-client.git/docs/index>
    optf/osdf <../submodules/optf/osdf.git/docs/index>
+   dmaap/datarouter <../submodules/dmaap/datarouter.git/docs/index>
