@@ -155,8 +155,8 @@ Source files
 
 Both following files must be downloaded and configured to match your configuration:
 
-- Template file: https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml
-- Environment file: https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env
+- Template file: https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml?h=amsterdam
+- Environment file: https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env?h=amsterdam
 
 The environment file must be customized as described in the following sections.
 
