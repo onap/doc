@@ -1,0 +1,42 @@
+---
+project: 'doc'
+project_creation_date: '2017-06-14'
+lifecycle_state: 'Incubation'
+project_lead: &onap_releng_ptl
+    name: 'Greg Glover'
+    email: 'gg2147@att.com'
+    id: 'gglover'
+    company: 'ATT'
+    timezone: ''
+primary_contact: *onap_releng_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.onap.org/projects/DMAAP'
+    key: 'DMAAP'
+meetings:
+    - type: 'zoom'
+        agenda: ''
+        url: 'https://wiki.onap.org/pages/viewpage.action?pageId=8225074'
+        server: 'n/a'
+        channel: 'n/a'
+        repeats: 'weekly'
+        time: '14:00 UTC'
+committers:
+    - <<: *onap_releng_ptl
+    - name: 'Jun (Nicolas) Hu'
+        email: 'jh245g@att.com'
+        company: 'ATT'
+        id: 'jh245g'
+        timezone: 'America/New York'
+    - name: 'Rich Bennett'
+        email: 'rb2745@att.com'
+        company: 'ATT'
+        id: 'rb2745'
+        timezone: 'America/New York'
+    - name: 'Steven Wright'
+        email: 'sw3588@att.com'
+        company: 'ATT'
+        id: 'wombat123'
+        timezone: 'America/Atlanta'
+tsc:
+    approval: 'https://lists.onap.org/pipermail/onap-tsc'
