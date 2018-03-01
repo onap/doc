@@ -7,16 +7,16 @@ project_lead: &onap_releng_ptl
     email: 'gg2147@att.com'
     id: 'gglover'
     company: 'ATT'
-    timezone: ''
+    timezone: 'America/Chicago'
 primary_contact: *onap_releng_ptl
 issue_tracking:
     type: 'jira'
-    url: 'https://jira.onap.org/projects/DMAAP'
-    key: 'DMAAP'
+    url: 'https://jira.onap.org/projects/DOC'
+    key: 'DOC'
 meetings:
     - type: 'zoom'
         agenda: ''
-        url: 'https://wiki.onap.org/pages/viewpage.action?pageId=8225074'
+        url: 'https://wiki.onap.org/x/dZlk'
         server: 'n/a'
         channel: 'n/a'
         repeats: 'weekly'
