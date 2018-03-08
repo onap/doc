@@ -8,6 +8,7 @@ Describe the different user audiences, tasks performed, and the guides provided 
 .. toctree::
    :maxdepth: 1
 
+   onboarding_and_distributing.rst
    vnfprovider.rst
    servicedesigner.rst
    serviceadmin.rst
