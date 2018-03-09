@@ -153,6 +153,15 @@ MultiVIM Cloud
    ../../../submodules/multicloud/framework.git/docs/index
 
 
+Nokia SVNFM driver
+------------------
+ 
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+ 
+   ../../../submodules/vfc/svnfm/nokiav2/docs/index
+
 ONAP Command Line Interface
 ---------------------------
 
