@@ -287,3 +287,6 @@
 [submodule "docs/submodules/dmaap/dbcapi.git"]
 	path = docs/submodules/dmaap/dbcapi.git
 	url = ../dmaap/dbcapi
+[submodule "docs/submodules/vfc/svnfm.git"]
+	path = docs/submodules/vfc/svnfm.git
+	url = ../vfc/nfvo/driver/vnfm/svnfm
