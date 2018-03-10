@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a93c517_094875b1",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-03-10T15:44:57Z",
+      "side": 1,
+      "message": "Append .git to use the same convention as gerrit and avoid name clash with repo hierarchy if/when it is needed. Change this to: docs/submodules/vfc/svnfm.git",
+      "range": {
+        "startLine": 290,
+        "startChar": 12,
+        "endLine": 290,
+        "endChar": 37
+      },
+      "revId": "20de8a83d4e6ece9b8c1fd60ac11cdebc1e722c2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a93c517_a9caa118",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-03-10T15:44:57Z",
+      "side": 1,
+      "message": "Same comments as above append .git",
+      "range": {
+        "startLine": 291,
+        "startChar": 8,
+        "endLine": 291,
+        "endChar": 33
+      },
+      "revId": "20de8a83d4e6ece9b8c1fd60ac11cdebc1e722c2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a93c517_69d019c9",
+        "filename": "docs/guides/onap-developer/developing/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-03-10T15:44:57Z",
+      "side": 1,
+      "message": "The toc reference should be consistent with the full repo hierarchy path and .git suffix as described in other comments.\nSomething like the following\n../../../submodules/vfc/nfvo/driver/vnfm/svnfm.git/docs/nokiav2/index",
+      "range": {
+        "startLine": 163,
+        "startChar": 23,
+        "endLine": 163,
+        "endChar": 51
+      },
+      "revId": "20de8a83d4e6ece9b8c1fd60ac11cdebc1e722c2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a93c517_c9cdad32",
+        "filename": "docs/submodules/vfc/svnfm",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-03-10T15:44:57Z",
+      "side": 1,
+      "message": "This git directory name: vfc/svnfm leaves out several layers of gerrit repo hierarchy and omits the suffix described in other comments needed to avoid name clashes with gerrit hierarchy vs actual repository names.\n\nName should be:\ndocs/submodules/vfc/nfvo/driver/vnfm/svnfm.git",
+      "revId": "20de8a83d4e6ece9b8c1fd60ac11cdebc1e722c2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
