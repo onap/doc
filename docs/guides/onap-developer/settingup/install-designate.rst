@@ -37,7 +37,7 @@ Currently, only DCAE Gen2 deployment needs designate to work.
 DCAE deployment use cloudify with openstack plugin to start the needed VM for DCAE. In particular, Designate is used to give the IP address of consul server. Thus, the others VMs needs to access the DNS server where Designate push records.
 
 In order to do that, we'll have to deploy DNS Server(s), configure them to accept dns updates and configure our networks to point to this DNS.
-This Fow-To will use bind but you can change to any of the `proposed backends <https://docs.openstack.org/designate/latest/contributor/support-matrix.html>`.
+This How-To will use bind but you can change to any of the `proposed backends <https://docs.openstack.org/designate/latest/contributor/support-matrix.html>`.
 
 Limitations with Heat automated deployment
 ------------------------------------------
@@ -45,7 +45,7 @@ The current design of Heat installer installs DCAE needed VM into the same tenan
 
 Limitations with Kubernetes automated deployment
 ------------------------------------------------
-The current design of kubernetes deployment installs DCAE into any openstack instances in any tenant. It stills mandate designate on the tenant.
+The current design of kubernetes deployment installs DCAE into any openstack instances in any tenant. It still mandates designate on the tenant.
 
 **Quick Install Guide**
 =======================
@@ -54,7 +54,7 @@ Few steps have to be performed. The detail of each steps are in `the config guid
 
 1. Install bind9 nameserver
 2. Configure it to accept dns updates and forward to your master DNS Server
-3. Configure Designate in openstack
+3. Configure Designate in openstack. Please see `this guide <https://docs.openstack.org/mitaka/networking-guide/config-dns-int.html>` for more details.
 4. Create a pool pointing to your nameserver
 
 Now, when starting the Heat Deployment, use this nameserver. When the stack heat has started, retrieve the random string (XXX in the example) and create the zone XXX.yourdomain (yourdomain is what you have filled in `dcae_domain` in onap_openstack.env).
