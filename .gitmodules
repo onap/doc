@@ -271,6 +271,8 @@
 [submodule "docs/submodules/aai/event-client.git"]
 	path = docs/submodules/aai/event-client.git
 	url = ../aai/event-client
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/ui/dmaapbc.git"]
 	path = docs/submodules/ui/dmaapbc.git
 	url = ../ui/dmaapbc
@@ -284,9 +286,15 @@
 [submodule "docs/submodules/dmaap/datarouter.git"]
 	path = docs/submodules/dmaap/datarouter.git
 	url = ../dmaap/datarouter
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/dmaap/dbcapi.git"]
 	path = docs/submodules/dmaap/dbcapi.git
 	url = ../dmaap/dbcapi
-[submodule "docs/submodules/vfc/svnfm.git"]
-	path = docs/submodules/vfc/svnfm.git
+	branch = .
+	ignore = dirty
+[submodule "docs/submodules/vfc/nfvo/driver/vnfm/svnfm.git"]
+	path = docs/submodules/vfc/nfvo/driver/vnfm/svnfm.git
 	url = ../vfc/nfvo/driver/vnfm/svnfm
+	branch = .
+	ignore = dirty
