@@ -53,7 +53,28 @@ The current design of kubernetes deployment installs DCAE into any openstack ins
 Few steps have to be performed. The detail of each steps are in `the config guide of Openstack Designate <https://docs.openstack.org/designate/latest/install/index.html>`:
 
 1. Install bind9 nameserver
-2. Configure it to accept dns updates and forward to your master DNS Server
+2. Configure it to accept dns updates and forward to your master DNS Server. Example configuration is below:
+   .. code:: bash
+    root@designate:~# cat /etc/bind/named.conf.options
+    include "/etc/bind/rndc.key";
+    options {
+        directory "/var/cache/bind";
+        allow-new-zones yes;
+        dnssec-validation auto;
+        listen-on port 53 { 10.203.157.79; };
+        forwarders {
+                8.8.8.8;
+                8.8.4.4;
+                };
+        forward only;
+        allow-query { any; };
+        recursion yes;
+        minimal-responses yes;
+        };
+    controls {
+        inet 10.203.157.79 port 953 allow { 10.203.157.79; } keys { "rndc-key"; };
+        };
+    root@designate:~# 
 3. Configure Designate in openstack. Please see `this guide <https://docs.openstack.org/mitaka/networking-guide/config-dns-int.html>` for more details.
 4. Create a pool pointing to your nameserver
 
