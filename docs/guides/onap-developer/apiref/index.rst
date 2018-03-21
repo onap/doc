@@ -51,6 +51,7 @@ Common Services
    Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/offeredapis.rst>
    MSB - Micro Services Bus <../../../submodules/msb/apigateway.git/docs/platform/offeredapis.rst>
    MultiVIM Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-API-Specification-V1.rst>
+   Music <../../../submodules/music.git/docs/offeredapis.rst>
 
 SDK
 ---

@@ -298,3 +298,8 @@
 	url = ../vfc/nfvo/driver/vnfm/svnfm
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/music.git"]
+	path = docs/submodules/music.git
+	url = ../music
+	branch = .
+	ignore = dirty

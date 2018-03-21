@@ -127,6 +127,16 @@ MultiVIM Cloud
 
    multicloud/framework<../submodules/multicloud/framework.git/docs/Release Notes.rst>
 
+Music
+-----
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   music<../submodules/music.git/docs/release-notes.rst>
+
+
 ONAP Operations Manager (experimental)
 --------------------------------------
 

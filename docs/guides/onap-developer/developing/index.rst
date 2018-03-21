@@ -152,6 +152,15 @@ MultiVIM Cloud
 
    ../../../submodules/multicloud/framework.git/docs/index
 
+Music
+-----
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/music.git/docs/index
+
 
 Nokia SVNFM driver
 ------------------
