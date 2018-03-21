@@ -1,4 +1,5 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a Creative Commons Attribution 4.0
+.. International License.
 
 Tutorials
 =========
@@ -8,7 +9,7 @@ Tutorials
 
 .. caution::
    The tutorials may refer to earlier versions of software
-   and have not been certified on the latest Amsterdam Release.
+   and have not been certified on the latest Beijing Release.
 
 * `Automatically Creating a Netconf Mount in APPC from SDNC <https://wiki.onap.org/x/JYUx>`_
 
