@@ -72,3 +72,4 @@ Project/Components
    VID - Virtual Infrastructure Deployment <../submodules/vid.git/docs/index>
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
    vvp/documentation <../submodules/vvp/documentation.git/docs/index>
+   externalapi/nbi <../submodules/externalapi/nbi.git/docs/index>
