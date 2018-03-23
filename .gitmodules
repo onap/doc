@@ -303,3 +303,6 @@
 	url = ../music
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/externalapi/nbi.git"]
+	path = docs/submodules/externalapi/nbi.git
+	url = ../externalapi/nbi
