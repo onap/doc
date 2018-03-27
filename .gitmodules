@@ -16,43 +16,43 @@
 [submodule "docs/submodules/cli"]
 	path = docs/submodules/cli.git
 	url = ../cli
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/clamp"]
 	path = docs/submodules/clamp.git
 	url = ../clamp
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/appc/deployment.git"]
 	path = docs/submodules/appc/deployment.git
 	url = ../appc/deployment
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/optf/has.git"]
 	path = docs/submodules/optf/has.git
 	url = ../optf/has
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/dcaegen2.git"]
 	path = docs/submodules/dcaegen2.git
 	url = ../dcaegen2
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/aaf/authz.git"]
 	path = docs/submodules/aaf/authz.git
 	url = ../aaf/authz
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/policy/engine.git"]
 	path = docs/submodules/policy/engine.git
 	url = ../policy/engine
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/vnfsdk/model.git"]
 	path = docs/submodules/vnfsdk/model.git
 	url = ../vnfsdk/model
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/holmes/rule-management.git"]
 	path = docs/submodules/holmes/rule-management.git
 	url = ../holmes/rule-management
@@ -96,8 +96,8 @@
 [submodule "docs/submodules/dmaap/messagerouter/messageservice.git"]
 	path = docs/submodules/dmaap/messagerouter/messageservice.git
 	url = ../dmaap/messagerouter/messageservice
-        branch = .
-        ignore = dirty
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/aai/esr-server.git"]
 	path = docs/submodules/aai/esr-server.git
 	url = ../aai/esr-server
@@ -306,3 +306,5 @@
 [submodule "docs/submodules/externalapi/nbi.git"]
 	path = docs/submodules/externalapi/nbi.git
 	url = ../externalapi/nbi
+	branch = .
+	ignore = dirty
