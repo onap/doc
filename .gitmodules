@@ -308,3 +308,6 @@
 	url = ../externalapi/nbi
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/music/distributed-kv-store.git"]
+	path = docs/submodules/music/distributed-kv-store.git
+	url = ../music/distributed-kv-store

@@ -73,3 +73,4 @@ Project/Components
    VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
    vvp/documentation <../submodules/vvp/documentation.git/docs/index>
    externalapi/nbi <../submodules/externalapi/nbi.git/docs/index>
+   music/distributed-kv-store <../submodules/music/distributed-kv-store.git/docs/index>
