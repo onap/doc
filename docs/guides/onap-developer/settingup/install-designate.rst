@@ -54,7 +54,9 @@ Few steps have to be performed. The detail of each steps are in `the config guid
 
 1. Install bind9 nameserver
 2. Configure it to accept dns updates and forward to your master DNS Server. Example configuration is below:
+
    .. code:: bash
+
     root@designate:~# cat /etc/bind/named.conf.options
     include "/etc/bind/rndc.key";
     options {
@@ -74,7 +76,8 @@ Few steps have to be performed. The detail of each steps are in `the config guid
     controls {
         inet 10.203.157.79 port 953 allow { 10.203.157.79; } keys { "rndc-key"; };
         };
-    root@designate:~# 
+    root@designate:~#
+    
 3. Configure Designate in openstack. Please see `this guide <https://docs.openstack.org/mitaka/networking-guide/config-dns-int.html>` for more details.
 4. Create a pool pointing to your nameserver
 
