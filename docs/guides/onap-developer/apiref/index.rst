@@ -38,6 +38,7 @@ Platform Components
    SDNC - Software Defined Network Controller <../../../submodules/sdnc/northbound.git/docs/offeredapis.rst>
    SO - Service Orchestration <../../../submodules/so.git/docs/offered_consumed_apis.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/APIs/index.rst>
+   NBI - NorthBound API <../../../submodules/nbi.git/docs/offeredapis/index.rst>
 
 Common Services
 ---------------

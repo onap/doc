@@ -302,3 +302,13 @@ VNF Software Development Kit
    :titlesonly:
 
    ../../../submodules/vnfsdk/model.git/docs/index
+
+ExternalAPI-NBI
+--------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/externalapi/nbi.git/docs/index
+
