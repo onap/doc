@@ -311,3 +311,6 @@
 [submodule "docs/submodules/music/distributed-kv-store.git"]
 	path = docs/submodules/music/distributed-kv-store.git
 	url = ../music/distributed-kv-store
+[submodule "docs/submodules/vnfrqts/testcases.git"]
+	path = docs/submodules/vnfrqts/testcases.git
+	url = ../vnfrqts/testcases
