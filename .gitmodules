@@ -314,3 +314,6 @@
 [submodule "docs/submodules/vnfrqts/testcases.git"]
 	path = docs/submodules/vnfrqts/testcases.git
 	url = ../vnfrqts/testcases
+[submodule "docs/submodules/vnfrqts/usecases.git"]
+	path = docs/submodules/vnfrqts/usecases.git
+	url = ../vnfrqts/usecases

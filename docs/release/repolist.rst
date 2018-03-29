@@ -75,3 +75,4 @@ Project/Components
    externalapi/nbi <../submodules/externalapi/nbi.git/docs/index>
    music/distributed-kv-store <../submodules/music/distributed-kv-store.git/docs/index>
    vnfrqts/testcases <../submodules/vnfrqts/testcases.git/docs/index>
+   vnfrqts/usecases <../submodules/vnfrqts/usecases.git/docs/index>
