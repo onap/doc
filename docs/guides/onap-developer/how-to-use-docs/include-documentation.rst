@@ -424,3 +424,10 @@ Update submodules, build documentation using tox & then open using any browser.
    firefox docs/_build/html/index.html
 
 .. note:: Make sure to run `tox -elocal` and not just `tox`.
+
+You can check spelling by running tox -espellcheck and browsing to a summary report.
+
+.. code-block:: bash
+
+   tox -espellcheck
+   firefox docs/_build/spellcheck/output.txt

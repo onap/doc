@@ -3,10 +3,13 @@ Sphinx==1.5.3
 doc8
 docutils
 setuptools
+wheel
+pyenchant
 six
 sphinx_rtd_theme
 sphinxcontrib-blockdiag
 sphinxcontrib-seqdiag
 sphinxcontrib-swaggerdoc
 sphinxcontrib-plantuml
+sphinxcontrib-spelling
 sphinx_bootstrap_theme>=0.4.11

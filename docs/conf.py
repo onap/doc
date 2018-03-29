@@ -42,6 +42,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
     'sphinxcontrib.plantuml',
+    'sphinxcontrib.spelling', 
     'sphinxcontrib.swaggerdoc'
 ]
 
@@ -377,3 +378,5 @@ epub_exclude_files = ['search.html']
 # Patterns to ignore in linkcheck builder
 linkcheck_ignore = [r'http://localhost:\d+/']
 
+# Spelling Options
+spelling_word_list_filename='extrawords.txt'
