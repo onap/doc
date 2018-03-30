@@ -93,6 +93,16 @@ Documentation
    ../how-to-use-docs/index.rst
 
 
+External API Framework
+----------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/externalapi/nbi.git/docs/index
+
+
 Holmes
 ------
 
@@ -161,15 +171,6 @@ Music
 
    ../../../submodules/music.git/docs/index
 
-
-Nokia SVNFM driver
-------------------
- 
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
- 
-   ../../../submodules/vfc/svnfm.git/nokiav2/docs/index
 
 ONAP Command Line Interface
 ---------------------------
@@ -302,13 +303,3 @@ VNF Software Development Kit
    :titlesonly:
 
    ../../../submodules/vnfsdk/model.git/docs/index
-
-ExternalAPI-NBI
---------------------------------------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   ../../../submodules/externalapi/nbi.git/docs/index
-
