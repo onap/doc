@@ -178,11 +178,6 @@
 	url = ../ccsdk/utils
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/sdnc/core.git"]
-	path = docs/submodules/sdnc/core.git
-	url = ../sdnc/core
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/sdnc/oam.git"]
 	path = docs/submodules/sdnc/oam.git
 	url = ../sdnc/oam
