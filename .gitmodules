@@ -312,3 +312,6 @@
 [submodule "docs/submodules/vnfrqts/usecases.git"]
 	path = docs/submodules/vnfrqts/usecases.git
 	url = ../vnfrqts/usecases
+[submodule "docs/submodules/integration/devtool.git"]
+	path = docs/submodules/integration/devtool.git
+	url = https://git.onap.org/integration/devtool/
