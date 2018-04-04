@@ -110,6 +110,15 @@ SDKs
    CCSDK SLI Northbound Interface <../../../submodules/ccsdk/sli/northbound.git/docs/architecture.rst>
    CCSDK SLI Plugins <../../../submodules/ccsdk/sli/plugins.git/docs/architecture.rst>
 
+VNFs
+----
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+
+ 
 Other
 -----
 
