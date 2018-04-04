@@ -306,14 +306,20 @@
 [submodule "docs/submodules/music/distributed-kv-store.git"]
 	path = docs/submodules/music/distributed-kv-store.git
 	url = ../music/distributed-kv-store
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/vnfrqts/testcases.git"]
 	path = docs/submodules/vnfrqts/testcases.git
 	url = ../vnfrqts/testcases
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/vnfrqts/usecases.git"]
 	path = docs/submodules/vnfrqts/usecases.git
 	url = ../vnfrqts/usecases
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/integration/devtool.git"]
 	path = docs/submodules/integration/devtool.git
-	url = ../integration/devtool/
+	url = ../integration/devtool
 	branch = .
 	ignore = dirty
