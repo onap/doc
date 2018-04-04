@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a93c517_a5cebd81",
+        "filename": "docs/release/repolist.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-04-04T17:42:20Z",
+      "side": 1,
+      "message": "This top level folder will not trigger verify and merge jobs when you make changes to documentation.  The folder should be \"docs\".   See trigger ANT pattern herelines 55 and 149 of this jjb template https://gerrit.onap.org/r/gitweb?p\u003dci-management.git;a\u003dblob;f\u003djjb/doc/doc-templates-rtd.yaml;h\u003d884c3706b81a344b236a98bb9a127df45feb83c5;hb\u003dHEAD",
+      "range": {
+        "startLine": 79,
+        "startChar": 50,
+        "endLine": 79,
+        "endChar": 53
+      },
+      "revId": "0ca639ab46ba2f4626bf83b1ddf1cd000e3dcbea",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
