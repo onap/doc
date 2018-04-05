@@ -76,4 +76,4 @@ Project/Components
    music/distributed-kv-store <../submodules/music/distributed-kv-store.git/docs/index>
    vnfrqts/testcases <../submodules/vnfrqts/testcases.git/docs/index>
    vnfrqts/usecases <../submodules/vnfrqts/usecases.git/docs/index>
-   Devtool <../submodules/integration/devtool.git/doc/source/index>
+   Devtool <../submodules/integration/devtool.git/docs/source/index>
