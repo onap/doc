@@ -323,3 +323,6 @@
 	url = ../integration/devtool
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/dmaap/dbcapi/dbcapi.git"]
+	path = docs/submodules/dmaap/dbcapi/dbcapi.git
+	url = ../dmaap/dbcapi

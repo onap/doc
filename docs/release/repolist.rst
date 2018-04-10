@@ -30,7 +30,6 @@ Project/Components
    ccsdk/storage/pgaas <../submodules/ccsdk/storage/pgaas.git/docs/index>
    ccsdk/utils <../submodules/ccsdk/utils.git/docs/index>
    dmaap/datarouter <../submodules/dmaap/datarouter.git/docs/index>
-   dmaap/dbcapi <../submodules/dmaap/dbcapi.git/docs/index>
    HOLMES - Alarm Correlation and Analysis <../submodules/holmes/engine-management.git/docs/index>
    HOLMES - Architecuture and APIs <../submodules/holmes/rule-management.git/docs/index>
    integration <../submodules/integration.git/docs/index>
@@ -77,3 +76,4 @@ Project/Components
    vnfrqts/testcases <../submodules/vnfrqts/testcases.git/docs/index>
    vnfrqts/usecases <../submodules/vnfrqts/usecases.git/docs/index>
    Devtool <../submodules/integration/devtool.git/docs/source/index>
+   dmaap/dbcapi <../submodules/dmaap/dbcapi/dbcapi.git/docs/index>
