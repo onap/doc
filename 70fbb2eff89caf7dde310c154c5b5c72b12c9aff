@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a93c517_76b05143",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-04-11T23:14:41Z",
+      "side": 1,
+      "message": "Extra non-repo/hierarchy dbcapi here that I don\u0027t think exists in gerrit and will cause the verify job to fail.  I believe you want\ndocs/submodules/dmaap/dbcapi.git",
+      "range": {
+        "startLine": 326,
+        "startChar": 34,
+        "endLine": 326,
+        "endChar": 41
+      },
+      "revId": "70fbb2eff89caf7dde310c154c5b5c72b12c9aff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a93c517_96adddeb",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-04-11T23:14:41Z",
+      "side": 1,
+      "message": "same comment as above",
+      "range": {
+        "startLine": 327,
+        "startChar": 30,
+        "endLine": 327,
+        "endChar": 37
+      },
+      "revId": "70fbb2eff89caf7dde310c154c5b5c72b12c9aff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a93c517_36b6493f",
+        "filename": "docs/release/repolist.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-04-11T23:14:41Z",
+      "side": 1,
+      "message": "Same comment as in gitmodules",
+      "range": {
+        "startLine": 79,
+        "startChar": 37,
+        "endLine": 79,
+        "endChar": 44
+      },
+      "revId": "70fbb2eff89caf7dde310c154c5b5c72b12c9aff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
