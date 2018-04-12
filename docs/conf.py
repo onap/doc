@@ -376,4 +376,3 @@ epub_exclude_files = ['search.html']
 
 # Patterns to ignore in linkcheck builder
 linkcheck_ignore = [r'http://localhost:\d+/']
-
