@@ -22,7 +22,7 @@ User Interfaces
 
    CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/index.rst>
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/offeredapis.rst>
-   VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/docs-offeredapis.rst>
+   VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/offeredapis.rst>
 
 Platform Components
 -------------------
@@ -35,7 +35,6 @@ Platform Components
    DCAE - Data Collection, Analytics, and Events <../../../submodules/dcaegen2.git/docs/sections/offeredapis.rst>
    Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/offeredapis.rst>
    Policy <../../../submodules/policy/engine.git/docs/platform/offeredapis.rst>
-   SDNC - Software Defined Network Controller <../../../submodules/sdnc/northbound.git/docs/offeredapis.rst>
    SO - Service Orchestration <../../../submodules/so.git/docs/offered_consumed_apis.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/APIs/index.rst>
    NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/offeredapis/index.rst>

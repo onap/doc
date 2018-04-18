@@ -14,6 +14,7 @@ an instance of ONAP.
    :maxdepth: 1
 
    platformadmin.rst
+   platformoperations.rst
    servicedesigner.rst
    servicecreator.rst
    vnfprovider.rst
