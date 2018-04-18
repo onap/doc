@@ -22,7 +22,6 @@ User Interfaces
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/installation.rst>
    Use-Case UI <../../../submodules/usecase-ui.git/docs/platform/installation.rst>
    VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/installation.rst>
-   SDNC - Software-Defined Networks Controller <../../../submodules/sdnc/oam.git/docs/installation.rst>
 
 Platform Components
 -------------------
@@ -31,11 +30,11 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
-   APPC - Application Controller <../../../submodules/appc.git/docs/APPC%20Deployment%20Guidelines/APPC%20Deployment%20Guidelines.rst>
+   APPC - Application Controller <../../../submodules/appc/deployment.git/docs/APPC%20Deployment%20Guidelines/APPC%20Deployment%20Guidelines.rst>
    DCAE - Data Collection, Analytics, and Events <../../../submodules/dcaegen2.git/docs/sections/installation.rst>
-   Holmes - Alarm Correlation <../../../submodules/holmes.git/docs/platform/installation.rst>
+   Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/installation.rst>
    Policy <../../../submodules/policy/engine.git/docs/platform/installation.rst>
-   SDNC - Software Defined Network Controller <../../../submodules/sdnc/northbound.git/docs/installation.rst>
+   SDNC - Software-Defined Networks Controller <../../../submodules/sdnc/oam.git/docs/installation.rst>
    SO - Service Orchestration <../../../submodules/so.git/docs/Install_Configure_SO.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/installation.rst>
 

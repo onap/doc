@@ -43,9 +43,13 @@ Setup doc project
 These steps are performed only once for the doc project and include:
 
 (1) creating in the doc repository an initial:
+
   - sphinx master document index
+
   - a directory structure aligned with the document structure
+
   - tests performed in jenkins verify jobs
+
   - sphinx configuration
 
 (2) establishing an account at readthedocs connected with the doc
@@ -217,7 +221,9 @@ Here are some conventions about GIT branches:
 The day of the release, the repository owner will create a new branch to
 fix the code and documentation. This will represent the 'stable' code of the
 release. In this context:
+
   - NEVER push a new feature on a stable branch
+
   - Only bug correction are authorized on a stable branch using cherry pick method
 
 .. image:: git_branches.png
