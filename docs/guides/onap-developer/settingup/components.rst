@@ -37,6 +37,7 @@ Platform Components
    SDNC - Software-Defined Networks Controller <../../../submodules/sdnc/oam.git/docs/installation.rst>
    SO - Service Orchestration <../../../submodules/so.git/docs/Install_Configure_SO.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/installation.rst>
+   NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/installation/installation.rst>
 
 Common Services
 ---------------

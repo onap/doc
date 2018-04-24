@@ -14,7 +14,7 @@ Nexus Artifacts nexus.onap.org
 ++++++++++++++++++++++++++++++
 
 
-.. csv-table::  
+.. csv-table::
    :align: left
    :header-rows: 1
    :file:  ../submodules/integration.git/version-manifest/src/main/resources/java-manifest.csv
@@ -23,7 +23,7 @@ Nexus Artifacts nexus.onap.org
 Docker Images  nexus3.onap.org
 ++++++++++++++++++++++++++++++
 
-.. csv-table:: 
+.. csv-table::
    :align: left
    :header-rows: 1
    :file:  ../submodules/integration.git/version-manifest/src/main/resources/docker-manifest.csv
