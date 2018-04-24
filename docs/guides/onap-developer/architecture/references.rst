@@ -45,6 +45,7 @@ Platform Components
    Holmes <../../../submodules/holmes/rule-management.git/docs/platform/architecture.rst>
    SDN Controller OAM <../../../submodules/sdnc/oam.git/docs/architecture.rst>
    ../../../submodules/so.git/docs/architecture.rst
+   NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/architecture/architecture.rst>
 
 Common Services
 ---------------
@@ -76,7 +77,7 @@ VNFs
    :titlesonly:
 
 
- 
+
 Other
 -----
 

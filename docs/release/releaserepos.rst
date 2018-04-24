@@ -81,6 +81,15 @@ Data Management as a Platform Message Router
 
    dmaap/messagerouter/messageservice<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes.rst>
 
+External API / NBI
+------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   NBI - NorthBound Interface<../submodules/externalapi/nbi.git/docs/releasenotes/releasenotes.rst>
+
 Holmes
 ------
 
