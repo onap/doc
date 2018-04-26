@@ -79,7 +79,7 @@ Data Management as a Platform Message Router
    :maxdepth: 1
    :titlesonly:
 
-   dmaap/messagerouter/messageservice<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes.rst>
+   dmaap/messagerouter/messageservice<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes/release-notes.rst>
 
 External API / NBI
 ------

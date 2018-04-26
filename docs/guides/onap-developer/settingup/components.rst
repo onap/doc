@@ -18,7 +18,7 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-   CLAMP - :ref:`Closed Loop Automation Platform<index-clamp-installation>`
+   CLAMP - Closed Loop Automation Platform<../../../submodules/clamp.git/docs/index.rst>
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/installation.rst>
    Use-Case UI <../../../submodules/usecase-ui.git/docs/platform/installation.rst>
    VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/installation.rst>
@@ -30,7 +30,7 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
-   APPC - Application Controller <../../../submodules/appc/deployment.git/docs/APPC%20Deployment%20Guidelines/APPC%20Deployment%20Guidelines.rst>
+   APPC - Application Controller <../../../submodules/appc/deployment.git/docs/APPC Deployment Guidelines/APPC Deployment Guidelines.rst>
    DCAE - Data Collection, Analytics, and Events <../../../submodules/dcaegen2.git/docs/sections/installation.rst>
    Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/installation.rst>
    Policy <../../../submodules/policy/engine.git/docs/platform/installation.rst>

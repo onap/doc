@@ -205,7 +205,7 @@ About GIT branches
 ------------------
 
 GIT is a powerful tool allowing many actions, but without respecting some rules
-the GIT structure can be quickly ugly and unmaintaible.
+the GIT structure can be quickly ugly and unmaintainble.
 
 Here are some conventions about GIT branches:
   - ALWAYS create a local branch to edit or create any file. This local branch
@@ -421,7 +421,7 @@ Download the DOC repository.
 
    git clone http://gerrit.onap.org/r/doc
 
-Update submodules, build documentation using tox & then open using any browser.
+Build documentation using tox local environment & then open using any browser.
 
 .. code-block:: bash
 
@@ -430,3 +430,17 @@ Update submodules, build documentation using tox & then open using any browser.
    firefox docs/_build/html/index.html
 
 .. note:: Make sure to run `tox -elocal` and not just `tox`.
+
+There are additional tox enviornment options for checking External URLs and Spelling.
+Use the tox environment options below and then look at the output with the Linux `more` or
+similar command for scanning for output that applies to the files you
+are validating.
+
+.. code-block:: bash
+
+   tox -elinkcheck
+   more <  docs/_build/linkcheck/output.txt
+
+   tox -espellcheck
+   more <  docs/_build/spellcheck/output.txt
+
