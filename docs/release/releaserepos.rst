@@ -247,6 +247,14 @@ VNF Software Development Kit
 
    vnfsdk/model<../submodules/vnfsdk/model.git/docs/release-notes.rst>
 
+VNF Validation Project
+----------------------
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   vvp/documentation<../submodules/vvp/documentation.git/docs/release-notes.rst>
+
 
 .. Not in / not used this release
    ccsdk/parent<../submodules/ccsdk/parent.git/docs/release-notes.rst>
