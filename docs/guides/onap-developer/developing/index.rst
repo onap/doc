@@ -303,3 +303,12 @@ VNF Software Development Kit
    :titlesonly:
 
    ../../../submodules/vnfsdk/model.git/docs/index
+
+VNF Validation Project
+-----------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/vvp/documentation.git/docs/index
