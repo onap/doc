@@ -58,6 +58,7 @@ Common Services
    AAI ESR UI <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
    AAI ESR Server <../../../submodules/aai/esr-server.git/docs/platform/architecture.rst>
    MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/architecture.rst>
+   VNF Validation Project <../../../submodules/vvp/documentation.git/docs/architecture.git>
 
 SDKs
 ----

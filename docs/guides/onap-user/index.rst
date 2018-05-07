@@ -18,3 +18,4 @@ an instance of ONAP.
    servicedesigner.rst
    servicecreator.rst
    vnfprovider.rst
+   vnfcertifier.rst

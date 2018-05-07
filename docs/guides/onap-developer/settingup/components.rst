@@ -51,6 +51,7 @@ Common Services
    Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/nfvparser/installation/installation.instruction.rst>
    MSB - Micro Services Bus <../../../submodules/msb/apigateway.git/docs/platform/installation.rst>
    MultiVIM Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-Heat-Deployment-Guide.rst>
+   VNF Validation Project <../../../submodules/vvp/documentation.git/docs/installation.rst>
 
 SDK
 ---
