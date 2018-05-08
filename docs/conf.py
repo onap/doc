@@ -38,6 +38,7 @@ extensions = [
     'sphinx.ext.imgmath',
     'sphinx.ext.viewcode',
     'sphinxcontrib.blockdiag',
+    'sphinxcontrib.nwdiag',
     'sphinxcontrib.seqdiag',
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
@@ -46,7 +47,8 @@ extensions = [
 ]
 
 # Font path for seqdiag
-seqdiag_fontpath= '/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf'
+seqdiag_fontpath = '/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf'
+nwdiag_fontpath =  '/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -375,4 +377,29 @@ epub_exclude_files = ['search.html']
 #epub_use_index = True
 
 # Patterns to ignore in linkcheck builder
-linkcheck_ignore = [r'http://localhost:\d+/']
+linkcheck_ignore = [
+	r'http://localhost',
+	r'http://yourhostname',
+	r'http://{PDP_URL}:\d+/',
+	r'http://.*simpledemo.onap.org:\d+/',
+	r'http://load-balanced-address:\d+/',
+	r'http://127.0.0.1',
+	r'http://ESR_SERVER_IP:\d+/',
+	r'http://MSB_SERVER_IP:\d+/',
+	r'http://msb_docker_host_ip:\d+/',
+	r'http://msb.onap.org/',
+	r'http://\$msb_address/',
+	r'http://hostIP:\d+/',
+	r'https://\$CBAM_IP:\d+/',
+	r'http://app-host:port/',
+	r'http://servername.domain.com',
+	r'https://we-are-message-router.us:\d+/',
+	r'https://we-are-data-router.us:\d+/',
+	r'http://prov.datarouternew.com:8443/',
+	r'http://www.[host]:[port]/',
+	r'http:/$',
+	r'https:/$',
+	r'http://$',
+	r'https://$',
+	r'http://app-host:port/'
+	]
