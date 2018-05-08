@@ -323,3 +323,8 @@
 	url = ../integration/devtool
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/aaf/sms.git"]
+	path = docs/submodules/aaf/sms.git
+	url = ../aaf/sms
+	branch = .
+	ignore = dirty
