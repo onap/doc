@@ -77,3 +77,4 @@ Project/Components
    vnfrqts/testcases <../submodules/vnfrqts/testcases.git/docs/index>
    vnfrqts/usecases <../submodules/vnfrqts/usecases.git/docs/index>
    Devtool <../submodules/integration/devtool.git/docs/source/index>
+   aaf/sms <../submodules/aaf/sms.git/docs/index>
