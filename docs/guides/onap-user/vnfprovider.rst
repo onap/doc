@@ -11,3 +11,4 @@ VNF Provider
    ../../../submodules/vnfrqts/requirements.git/docs/index.rst
    ../../../submodules/vnfrqts/testcases.git/docs/index.rst
    ../../../submodules/vnfrqts/usecases.git/docs/index.rst
+   ../../../submodules/vnfrqts/requirements.git/docs/release-notes.rst
