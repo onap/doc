@@ -5,12 +5,12 @@
 
 Releases
 ========
-This page is the ONAP Beijing Release Notes. The first release was
+This page is the draft ONAP Beijing Release Notes. The first release was
 Amsterdam and subsequent major release will be named using city names.
 
 * Release Name: Beijing
-* Release Version: 1.0.0
-* Release Date: May 24, 2018
+* Release Version: 2.0.0
+* Release Date: May, 2018
 
 
 Getting Started With ONAP
