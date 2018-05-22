@@ -46,7 +46,8 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
-   AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI_AMSTERDAM.rst>
+   AAI - Active and Available Inventory Common <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI_AMSTERDAM.rst>
+   AAI - Active and Available Inventory ESR <../../../submodules/submodules/aai/esr-server.git/docs/offeredapis.rst>
    DMaaP - Data Management as a Platform Message Router <../../../submodules/dmaap/messagerouter/messageservice.git/docs/offeredapis/offeredapis.rst>
    Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/offeredapis.rst>
    MSB - Micro Services Bus <../../../submodules/msb/apigateway.git/docs/platform/offeredapis.rst>

@@ -262,6 +262,15 @@ Software Defined Network Controller
    ../../../submodules/sdnc/parent.git/docs/index
    ../../../submodules/sdnc/plugins.git/docs/index
 
+User Interface Applications
+---------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/ui/dmaapbc.git/docs/index
+
 Virtual Function Controller
 ---------------------------
 
