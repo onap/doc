@@ -1,19 +1,19 @@
-.. This work is licensed under a Creative Commons Attribution 4.0
-   International License.
-   http://creativecommons.org/licenses/by/4.0
-   Copyright 2017-2018 ONAP
+.. This work is licensed undera Creative Commons Attribution 4.0
+.. International License.
+.. http://creativecommons.org/licenses/by/4.0
+.. Copyright 2017-2018 ONAP
 
 
 .. contents::
    :depth: 2
 ..
 
-.. index:: Setting Up Full ONAP
+.. index:: Setting Up Full ONAP using Virtual Machines
 
 
-========================
-**Setting Up Full ONAP**
-========================
+===============================================
+**Setting Up Full ONAP using Virtual Machines**
+===============================================
 
 .. _demo-installing-running-onap:
 
@@ -23,19 +23,12 @@ ONAP may be deployed in different contexts depending on your requirements.
 The recommended installation for Beijng Release over virtual machines is based
 on OpenStack HEAT Template.
 
-Using the Beijing HEAT Template installer, ONAP can be deployed in a single
-tenant or multiple tenants. One tenant for all the components except DCAE, and
-another tenant dedicated to the DCAE components.
-
 The VNFs managed by ONAP may be deployed in different OpenStack tenants or
 based on top of VMware based infrastructure. For details, refer
 :ref:`to MultiCloud project<index-multicloud>`.
 
 The current installation is based on the single tenant deployment (all the ONAP
-components will be hosted in a unique tenant) with DCAE components deployed in
-High Availability mode.
-
-The installation requires some manual tasks to setup the DCAE components.
+components will be hosted in a unique tenant).
 
 .. _demo-installing-running-onap-requirements:
 
@@ -55,7 +48,6 @@ You can use your private Cloud infrastructure.
 
 The following OpenStack components must be deployed in the infrastructure:
  - *Cinder*
- - *Designate*
  - *Glance*
  - *Heat*
  - *Horizon*
@@ -77,14 +69,6 @@ To deploy OpenStack, you can use various solutions:
   - `OpenStack installation with Ansible (All openstack services) <https://docs.openstack.org/openstack-ansible/latest/>`_
   - `OpenStack Ocata installation scripts for testing environment(DO NOT install Heat, Designate and Cinder Volume services) <https://github.com/reachsrirams/openstack-scripts>`_
 
-Use the procedure below to deploy and configure *Designate* manually
-
-.. toctree::
-   :maxdepth:	 1
-
-   install-designate.rst
-
-
 The OpenStack infrastructure must enable internet access and you need to have
 an "External network" already configured properly.
 The External network ID will have to be provided in the Heat environment file.
@@ -103,7 +87,7 @@ components, and provides VM information (flavor and image):
     onap-clamp           CLAMP               medium   Ubuntu 16.04
     onap-dns-server      *Internal DNS*      small    Ubuntu 14.04
     onap-message-router  DMAAP               large    Ubuntu 14.04
-    onap-multi-service   MSB, VF-C, VNFSDK   xxlarge  Ubuntu 16.04
+    onap-multi-service   MSB, VF-C, VNFSDK   xlarge   Ubuntu 16.04
     onap-policy          Policy              xlarge   Ubuntu 14.04
     onap-portal          Portal, CLI         large    Ubuntu 14.04
     onap-robot           Integration         medium   Ubuntu 16.04
@@ -111,34 +95,22 @@ components, and provides VM information (flavor and image):
     onap-sdnc            SDNC, CCSDK         large    Ubuntu 14.04
     onap-so              SO                  large    Ubuntu 16.04
     onap-vid             VID                 medium   Ubuntu 14.04
-    onap-dcae-bootstrap  DCAE, Holmes        small    Ubuntu 14.04
-    dcaeorcl00           DCAE/Orchestr.      medium   CentOS 7
-    dcaecnsl00           DCAE/Consul         medium   Ubuntu 16.04
-    dcaecnsl01           DCAE/Consul         medium   Ubuntu 16.04
-    dcaecnsl02           DCAE/Consul         medium   Ubuntu 16.04
-    dcaedokp00           DCAE/Policy Hand.   medium   Ubuntu 16.04
-    dcaedoks00           DCAE/VES, Holmes    medium   Ubuntu 16.04
-    dcaepgvm00           DCAE/Postrges       medium   Ubuntu 16.04
-    dcaecdap00           DCAE/CDAP           large    Ubuntu 16.04
-    dcaecdap01           DCAE/CDAP           large    Ubuntu 16.04
-    dcaecdap02           DCAE/CDAP           large    Ubuntu 16.04
-    dcaecdap03           DCAE/CDAP           large    Ubuntu 16.04
-    dcaecdap04           DCAE/CDAP           large    Ubuntu 16.04
-    dcaecdap05           DCAE/CDAP           large    Ubuntu 16.04
-    dcaecdap06           DCAE/CDAP           large    Ubuntu 16.04
+    onap-dcae            DCAE, Holmes        small    Ubuntu 14.04
+    onap-music           Music               large    Ubuntu 14.04
+    onap-oof             OOF                 large    Ubuntu 16.04
+    onap-aaf             AAF                 medium   Ubuntu 16.04
+    onap-sms             AAF                 medium   Ubuntu 16.04
+    onap-nbi             External API        small    Ubuntu 16.04
     ===================  =================   =======  ============
 
 Footprint
 ---------
 The ONAP installation requires the following footprint:
- - 29 VM
- - 148 vCPU
- - 336 GB RAM
- - 3 TB Storage
- - 29 floating IP addresses
-
-.. Note: The default flavor size may be optimized. The ONAP community is
-   working to update flavors of basic ONAP installation.
+ - 20 VM
+ - 88 vCPU
+ - 176 GB RAM
+ - 1.76 TB Storage
+ - 20 floating IP addresses
 
 .. Note: You should also reserve some resources for the VNFs to be deployed.
 
@@ -149,16 +121,13 @@ The following artifacts must be deployed on the OpenStack infrastructure:
  - private SSH key and public key SSH key for the DCAE VM
  - Ubuntu 14.04 image (https://cloud-images.ubuntu.com/releases/14.04/14.04/)
  - Ubuntu 16.04 image (https://cloud-images.ubuntu.com/releases/16.04/release/)
- - CentOS 7 image (http://cloud.centos.org/centos/7/images/)
- - Set of flavors: small, medium, large, medium, large, xlarge, xxlarge
+ - Set of flavors: small, medium, large, xlarge
 
 .. Note: The floating IP may be private IP.
 
 .. Note: Basic flavors can reuse the default flavors as defined by
    OpenStack
    <https://docs.openstack.org/horizon/latest/admin/manage-flavors.html>`_
-   The xxlarge flavor should be configured using the following values:
-   12 vCPU, 64 GB RAM and 120 GB storage.
 
 Security
 --------
@@ -191,11 +160,11 @@ The environment file must be customized as described in the following sections.
 Description
 -----------
 
-The ONAP HEAT template spins up all the components expect the DCAE.
+The ONAP Heat template spins up all the components including the DCAE.
 The template, onap_openstack.yaml, comes with an environment file,
 onap_openstack.env, in which all the default values are defined.
 
-The HEAT template is composed of two sections: (i) parameters, and (ii)
+The Heat template is composed of two sections: (i) parameters, and (ii)
 resources.
 The parameter section contains the declaration and
 description of the parameters that will be used to spin up ONAP, such as
@@ -220,14 +189,14 @@ post-instantiation script that downloads and installs software
 dependencies (e.g. Java JDK, gcc, make, Python, ...) and ONAP software
 packages and Docker containers from remote repositories.
 
-When the HEAT template is executed, the OpenStack HEAT engine creates
-the resources defined in the HEAT template, based on the parameters
+When the Heat template is executed, the OpenStack Heat engine creates
+the resources defined in the Heat template, based on the parameters
 values defined in the environment file.
 
 Environment file
 ----------------
 
-Before running HEAT, it is necessary to customize the environment file.
+Before running Heat, it is necessary to customize the environment file.
 Indeed, some parameters, namely public_net_id, pub_key,
 openstack_tenant_id, openstack_username, and openstack_api_key,
 need to be set depending on the user's environment:
@@ -291,7 +260,6 @@ OpenStack-based cloud.
  flavor_medium:      PUT THE MEDIUM FLAVOR NAME HERE
  flavor_large:       PUT THE LARGE FLAVOR NAME HERE
  flavor_xlarge:      PUT THE XLARGE FLAVOR NAME HERE
- flavor_xxlarge:     PUT THE XXLARGE FLAVOR NAME HERE
 
 To get the images in your OpenStack environment, use the following
 OpenStack CLI command:
@@ -311,12 +279,9 @@ following OpenStack CLI command:
 
 ::
 
- dns_list: PUT THE ADDRESS OFTHE EXTERNAL DNS HERE (e.g. a comma-separated list
- of IP addresses in your /etc/resolv.conf in UNIX-based Operating Systems).
- THIS LIST MUST INCLUDE THE DNS SERVER THAT OFFERS DNS AS AS SERVICE
- see DCAE section below for more details)
+ dns_list: PUT THE ADDRESS OF THE EXTERNAL DNS HERE (e.g. a comma-separated list
+ of IP addresses in your /etc/resolv.conf in UNIX-based Operating Systems)
  external_dns: PUT THE FIRST ADDRESS OF THE EXTERNAL DNS LIST HERE
- oam_network_cidr: 10.0.0.0/16
  dns_forwarder: PUT THE IP OF DNS FORWARDER FOR ONAP DEPLOYMENT'S OWN DNS SERVER
  oam_network_cidr: 10.0.0.0/16
 
@@ -325,73 +290,18 @@ DNS servers.
 
 ONAP installs a DNS server used to resolve IP addresses in the ONAP OAM private
 network.
-ONAP Beijing Release also requires OpenStack Designate DNS support for the
-DCAE platform, so as to allow IP address discovery and communication among
-DCAE elements.
-This is required because the ONAP HEAT template only installs the DCAE
-bootstrap container, which will in turn install the entire DCAE platform.
-As such, at installation time, the IP addresses of the DCAE components are
-unknown.
-
-The DNS server that ONAP installs needs to be connected to the Designate DNS to
-allow communication between the DCAE elements and the other ONAP components.
-To this end, dns\_list, external\_dns, and dns\_forwarder should all have the
-IP address of the Designate DNS.
-These three parameters are redundant, but still required for Beijing Release.
-Originally, dns\_list and external\_dns were both used to circumvent some
-limitations of older OpenStack versions.
-In future releases, the DNS settings and parameters in HEAT will be
-consolidated.
-The Designate DNS is configured to access the external DNS.
-As such, the ONAP DNS will forward to the Designate DNS the queries from ONAP
-components to the external world.
-The Designate DNS will then forward those queries to the external DNS.
 
 **DCAE Parameters**
 
-DCAE spins up ONAP's data collection and analytics system in two phases.
-
-The first phase consists of launching a bootstrap VM that is specified in the
-ONAP HEAT template, as described above. This VM requires a number of
-deployment-specific configuration parameters being provided so that it can
-subsequently bring up the DCAE system.
-
-There are two groups of parameters:
-
-- The first group relates to the launching of DCAE VMs, including parameters
-  such as the keystone URL and additional VM image IDs/names. Hence these
-  parameters need to be provided to DCAE. Note that although DCAE VMs will be
-  launched in the same tenant as the rest of ONAP, because DCAE may use
-  MultiCloud node as the agent for interfacing with the underlying cloud, it
-  needs a separate keystone URL (which points to MultiCloud node instead of
-  the underlying cloud).
-
-
-- The second group of configuration parameters relate to DNS As A Service
-  support(DNSaaS). DCAE requires DNSaaS for registering its VMs into
-  organization-wide DNS service. For OpenStack, DNSaaS is provided by
-  Designate, as mentioned above.
-  Designate support can be provided via an integrated service endpoint listed
-  under the service catalog of the OpenStack installation; or proxyed by the
-  ONAP MultiCloud service. For the latter case, a number of parameters are
-  needed to configure MultiCloud to use the correct Designate service.
-
-These parameters are described below:
-
+For Beijing Release, all the DCAE components are deployed in a single
+virtual machine.
+You must specify R2 to run R2 DCAE components.
+Is you are using R1 to get R1 ONAP, you must fill all the other
+DCAE parameters.
+Please refer to the Amsterdam documentation to fill these parameters.
 ::
 
- dcae_keystone_url: PUT THE MULTIVIM PROVIDED KEYSTONE API URL HERE
- dcae_centos_7_image: PUT THE CENTOS7 VM IMAGE NAME HERE FOR DCAE LAUNCHED CENTOS7 VM
- dcae_domain: PUT THE NAME OF DOMAIN THAT DCAE VMS REGISTER UNDER
- dcae_public_key: PUT THE PUBLIC KEY OF A KEYPAIR HERE TO BE USED BETWEEN DCAE LAUNCHED VMS
- dcae_private_key: PUT THE SECRET KEY OF A KEYPAIR HERE TO BE USED BETWEEN DCAE LAUNCHED VMS
-
- dnsaas_config_enabled: PUT WHETHER TO USE PROXYED DESIGNATE
- dnsaas_region: PUT THE DESIGNATE PROVIDING OPENSTACK'S REGION HERE
- dnsaas_keystone_url: PUT THE DESIGNATE PROVIDING OPENSTACK'S KEYSTONE URL HERE
- dnsaas_tenant_name: PUT THE TENANT NAME IN THE DESIGNATE PROVIDING OPENSTACK HERE (FOR R1 USE THE SAME AS openstack_tenant_name)
- dnsaas_username: PUT THE DESIGNATE PROVIDING OPENSTACK'S USERNAME HERE
- dnsaas_password: PUT THE DESIGNATE PROVIDING OPENSTACK'S PASSWORD HERE
+  dcae_deployment_profile: PUT DCAE DEPLOYMENT PROFILE (R1, R2MVP, R2, or R2PLUS)
 
 Instantiation
 -------------
@@ -439,26 +349,24 @@ or Command Line.
 
 ::
 
- # Old HEAT client
+ # Old Heat client
+
+::
+
  heat stack-create STACK_NAME -f PATH_TO_HEAT_TEMPLATE(YAML FILE)
  -e PATH_TO_ENV_FILE
 
  OR
+
+::
 
  # New OpenStack client
  openstack stack create -t PATH_TO_HEAT_TEMPLATE(YAML FILE)
  -e PATH_TO_ENV_FILE STACK_NAME
 
 
-.. Note The HEAT template deployment may take time (up to one hour)
+.. Note The Heat template deployment may take time (up to one hour)
    depending on your hardware environment.
-
-Deploy DCAE
------------
-The HEAT template deployed the onap-dcae-bootstrap virtual machine.
-
-.. Note To provide the manual tasks to configure the local environment
-
 
 Test the installation
 ---------------------
@@ -475,7 +383,7 @@ Run the following command to perform the HealthCheck:
   -V /share/config/integration_preload_parameters.py
   -V /share/config/vm_properties.py
 
-This test suite will execute 30 tests towards the various ONAP components.
+This test suite will execute 40 tests towards the various ONAP components.
 
 After the installation, it is possible to deploy the various use-cases
 described in `ONAP wiki - demos <https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
@@ -554,9 +462,10 @@ Other UI documentation:
 The list of various services and ports used can be found on the
 `ONAP wiki - services <https://wiki.onap.org/display/DW/ONAP+Services+List#ONAPServicesList-ONAPServices>`_
 
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
-   http://creativecommons.org/licenses/by/4.0
-   Copyright 2017 ONAP
+.. This work is licensed under a Creative Commons Attribution 4.0
+.. International License.
+..  http://creativecommons.org/licenses/by/4.0
+.. Copyright 2017-2018 ONAP
 
 
 .. contents::
