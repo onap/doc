@@ -95,7 +95,7 @@ components, and provides VM information (flavor and image):
     onap-sdnc            SDNC, CCSDK         large    Ubuntu 14.04
     onap-so              SO                  large    Ubuntu 16.04
     onap-vid             VID                 medium   Ubuntu 14.04
-    onap-dcae            DCAE, Holmes        small    Ubuntu 14.04
+    onap-dcae            DCAE, Holmes        xlarge   Ubuntu 16.04
     onap-music           Music               large    Ubuntu 14.04
     onap-oof             OOF                 large    Ubuntu 16.04
     onap-aaf             AAF                 medium   Ubuntu 16.04
@@ -118,7 +118,6 @@ Artifacts
 ---------
 The following artifacts must be deployed on the OpenStack infrastructure:
  - a public SSH key to access the various VM
- - private SSH key and public key SSH key for the DCAE VM
  - Ubuntu 14.04 image (https://cloud-images.ubuntu.com/releases/14.04/14.04/)
  - Ubuntu 16.04 image (https://cloud-images.ubuntu.com/releases/16.04/release/)
  - Set of flavors: small, medium, large, xlarge
@@ -177,7 +176,7 @@ The resource section contains the definition of:
 - ONAP Private Management Network, which ONAP components use to communicate
   with each other and with VNFs
 - ONAP Virtual Machines (VMs)
-- Public/private key pair used to access ONAP VMs
+- Public key pair used to access ONAP VMs
 - Virtual interfaces towards the ONAP Private Management Network
 - Disk volumes
 
@@ -210,7 +209,6 @@ need to be set depending on the user's environment:
  openstack_tenant_id: PUT YOUR OPENSTACK PROJECT ID HERE
  openstack_username:  PUT YOUR OPENSTACK USERNAME HERE
  openstack_api_key:   PUT YOUR OPENSTACK PASSWORD HERE
- horizon_url:         PUT THE HORIZON URL HERE
  keystone_url:        PUT THE KEYSTONE URL HERE (do not include version number)
 
 openstack_region parameter is set to RegionOne (OpenStack default). If
@@ -314,9 +312,9 @@ or Command Line.
 - Login to Horizon URL with your personal credentials
 - Click "Stacks" from the "Orchestration" menu
 - Click "Launch Stack"
-- Paste or manually upload the HEAT template file (onap_openstack.yaml) in the
+- Paste or manually upload the Heat template file (onap_openstack.yaml) in the
   "Template Source" form
-- Paste or manually upload the HEAT environment file (onap_openstack.env) in
+- Paste or manually upload the Heat environment file (onap_openstack.env) in
   the "Environment Source" form
 - Click "Next" - Specify a name in the "Stack Name" form
 - Provide the password in the "Password" form
