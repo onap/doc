@@ -1,4 +1,5 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a Creative Commons Attribution 4.0
+.. International License. http://creativecommons.org/licenses/by/4.0
 
 Addendum
 ========
@@ -50,7 +51,7 @@ Writing RST Markdown
 See http://sphinx-doc.org/rest.html .
 
 **Hint:**
-You can add html content that only appears in html output by using the 
+You can add html content that only appears in html output by using the
 'only' directive with build type
 ('html' and 'singlehtml') for an ONAP document. But, this is not encouraged.
 
@@ -82,7 +83,7 @@ Now, to generate a index entry in your RST, do one of the following:
 
 .. code-block:: rst
 
-   Some content that requires an :index:`index`. 
+   Some content that requires an :index:`index`.
 
 or
 
@@ -112,22 +113,49 @@ Verify Job
 
 The verify job name is **doc-{stream}-verify-rtd**
 
-Proposed changes in files in any repository with the path 
+Proposed changes in files in any repository with top level docs folder
+in the repository and RST files in below this folder
+will be verified by this job as part of a gerrit code review.
 
-.. bash
+.. Important::
+   The contributing author and every reviewer on a gerrit code review
+   should always review the Jenkins log before approving and merging a
+   change.  The log review should include:
    
-	 docs/**/*.rst
-
-will be verified by this job prior to a gerrit code review.
-Please check the Jenkins log carefully for warnings.
-You can improve your document even if the verify job succeeded.
+   * Using a browser or other editor to search for a pattern in the
+     *console log* that matches files in the patch set.  This will quickly
+     identify errors and warnings that are related to the patch set and
+     repository being changed.
+   
+   * Using a browser to click on the *html* folder included in the log
+     and preview how the proposed changes will look when published at
+     Read The Docs. Small changes can be easily made in the patch set.
+     UML and Graphviz defined diagrams do not currently
+     render in the verify job log, but will render at Read The Docs
+     when the change is merged.
 
 Merge Job
 +++++++++
 
 The merge job name is **doc-{stream}-merge-rtd**.
 
-When a committer merges a patch that includes files matching the path described above,
-the doc project merge job will trigger an update at readthedocs.
-This might take about 15 minutes while readthedocs
-builds the documentation. 
+When a committer merges a patch that includes files matching the
+path described above, the doc project merge job will trigger an
+update at readthedocs.  There may be some delay after the merge job
+completes until new version appears at Read The Docs.
+
+Read The Docs URLs
+------------------
+
+When referencing versions of documentation a Read The Docs the following
+URL conventions should be used
+
+ +----------------------------------+----------------------------------------+
+ | URL                              | To Refer to                            |
+ +==================================+========================================+
+ | docs.onap.org                    | Most recent approved named release     |
+ +----------------------------------+----------------------------------------+
+ | docs.onap.org/en/latest          | Latest master branch all projects      |
+ +----------------------------------+----------------------------------------+
+ | docs.onap.org/en/*named release* | An approved name release eg. amsterdam |
+ +----------------------------------+----------------------------------------+
