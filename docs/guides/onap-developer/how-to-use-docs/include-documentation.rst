@@ -1,4 +1,6 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a Creative Commons Attribution 4.0
+.. International License. http://creativecommons.org/licenses/by/4.0
+.. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
 
 Setting Up
@@ -14,18 +16,11 @@ below.
    :width: 1000
 
    seqdiag {
-     RD [label = "Read The Docs",                color =lightgreen ];
      DA [label = "Doc Project\nAuthor/Committer",   color=lightblue];
      DR [label = "Doc Gerrit Repo" ,                     color=pink];
      PR [label = "Other Project\nGerrit Repo",          color=pink ];
      PA [label = "Other Project\nAuthor/Committer", color=lightblue];
 
-     === One time setup doc project only ===
-     RD  ->   DA [label = "Acquire Account" ];
-     DA  ->   DR [label = "Create initial\n doc repository content"];
-     DA  <<-- DR [label = "Merge" ];
-     RD  <--  DA [label = "Connect gerrit.onap.org" ];
-     === For each project repository containing document source ===
      PA  ->   DR [label = "Add project repo as\ngit submodule" ];
      DR  ->   DA [label = "Review & Plan to\nIntegrate Content with\nTocTree Structure" ];
      DR  <--  DA [label = "Vote +2/Merge" ];
@@ -36,49 +31,32 @@ below.
      PA  <--  PR [label = "Merge" ];
      }
 
-
-
-Setup doc project
------------------
-These steps are performed only once for the doc project and include:
-
-(1) creating in the doc repository an initial:
-
-  - sphinx master document index
-
-  - a directory structure aligned with the document structure
-
-  - tests performed in jenkins verify jobs
-
-  - sphinx configuration
-
-(2) establishing an account at readthedocs connected with the doc
-doc project repo in gerrit.onap.org.
-
-
 Setup project repositories(s)
 -----------------------------
-These steps are performed for each project repository that provides documentation.
+These steps are performed for each project repository that
+provides documentation.
 
 First let's set two variables that will be used in the subsequent steps.
-Set reponame to the project repository you are setting up just as it appears in the
-**Project Name** column of the Gerrit projects page.
-Set lfid to your Linux Foundation identity that you use to login to gerrit or for git
-clone requests over ssh.
+Set *reponame* to the project repository you are setting up
+just as it appears in the **Project Name** column of
+the Gerrit projects page.
+Set *lfid* to your Linux Foundation identity that you use to
+login to gerrit or for git clone requests over ssh.
 
 .. code-block:: bash
 
    reponame=
    lfid=
 
-The next step is to add a directory in the doc project where your project will be included as a
-submodule and at least one reference from the doc project to the documentation index in your repository.
+The next step is to add a directory in the doc project where your
+project will be included as a submodule and at least one reference
+from the doc project to the documentation index in your repository.
 The following sequence will do this over ssh.
 
 .. caution::
 
-   If your access network restricts ssh, you will need to use equivalent git commands and
-   HTTP Passwords as described `here <http://wiki.onap.org/x/X4AP>`_.
+   If your access network restricts ssh, you will need to use equivalent
+   git commands and HTTP Passwords as described `here <http://wiki.onap.org/x/X4AP>`_.
 
 .. code-block:: bash
 
@@ -98,19 +76,21 @@ The following sequence will do this over ssh.
 .. caution::
    Wait for the above change to be merged before any merge to the
    project repository that you have just added as a submodule.
-   If the project repository added as submodule changes before the doc project merge, git may not
-   automatically update the submodule reference on changes and/or the verify job will
-   fail in the step below.
+   If the project repository added as submodule changes before the
+   doc project merge, git may not automatically update the submodule
+   reference on changes and/or the verify job will fail in the step below.
 
 
-The last step is to create a docs directory in your repository with an index.rst file.
-The following sequence will complete the minimum required over ssh.  As you have time
-to convert or add new content you can update the index and add files under the docs folder.
+The last step is to create a docs directory in your repository with
+an index.rst file.  The following sequence will complete the minimum
+required over ssh.  As you have time to convert or add new content you
+can update the index and add files under the docs folder.
 
 .. hint::
    If you have additional content, you can include it by editing the
    index.rst file and/or adding other files before the git commit.
-   See `Templates and Examples`_ below and :ref:`converting-to-rst` for more information.
+   See `Templates and Examples`_ below and :ref:`converting-to-rst`
+   for more information.
 
 
 .. code-block:: bash
@@ -137,11 +117,17 @@ above from the perspective of a file structure created for a local test,
 a jenkins verify job, and/or published release documentation including:
 
 - ONAP gerrit project repositories,
-- doc project repository master document index.rst, templates, configuration, and other documents
-- submodules directory where other project repositories and directories/files are referenced
-- file structure: directories (ellipses), files(boxes)
-- references: directory/files (solid edges), git submodule (dotted edges), sphinx toctree (dashed edges)
 
+- doc project repository master document index.rst, templates,
+  configuration, and other documents
+
+- submodules directory where other project repositories and
+  directories/files are referenced
+
+- file structure: directories (ellipses), files(boxes)
+
+- references: directory/files (solid edges), git submodule
+  (dotted edges), sphinx toctree (dashed edges)
 
 .. graphviz::
 
@@ -201,20 +187,78 @@ a jenkins verify job, and/or published release documentation including:
 
    }
 
+Branches in the DOC Project
+---------------------------
+
+The DOC project 'master' branch aggregates the 'latest' content
+from all ONAP project repositories contributing documentation into a
+single tree file structure as described in the previous section.  This
+branch is continuously integrated and deployed at Read The
+Docs as the 'latest' ONAP Documentation by:
+
+* Jenkins doc-verify-rtd and doc-merge-rtd jobs triggered whenever patches on
+  contributing repositories contain rst files at or below a top level
+  'docs' folder.
+
+* Subscription in the DOC project to changes in submodule repositories.
+  These changes appear in the DOC project as commits with title
+  'Updated git submodules' when a change to a contributing project
+  repository is merged.  No DOC project code review occurs, only a
+  submodule repository commit hash is updated to track the head of each
+  contributing master branch.
+
+For each ONAP named release the DOC project creates a branch with the
+release name.  The timing of the release branch is determined by
+work needed in the DOC project to prepare the release branch and the
+amount of change unrelated to the release in the master branch.
+For example contributing projects that create named release branches
+early to begin work on the next release and/or contributing projects
+to the master that are not yet part of the named release would result
+in an earlier named release branch to cleanly separate work to stabilize
+a release from other changes in the master branch.
+
+A named release branch is integrated and deployed at Read The Docs
+as the 'named release' by aggregating content from contributing
+project repositories.  A contributing project repository can
+choose one of the following for the 'named release' branch:
+
+* Remove the contributing project repository submodule and RST
+  references when not part of the named release.
+
+* Provide a commit hash or tag for the contributing project master
+  branch to be used for the life of the release branch or until a
+  request is submitted to change the commit hash or tag.
+
+* Provide the commit hash for the head of a named release branch
+  created in the contributing project repository.  This option
+  may be appropriate if frequent changes are expected over the
+  life of the named release and work the same way as the continuous
+  integration and deployment described for the master branch.
+
+The decision on option for each contributing project repository
+can be made or changed before the final release is approved.  The
+amount of change and expected differences between master and a
+named release branch for each repository should drive the choice of
+option and timing.
+
 About GIT branches
 ------------------
 
 GIT is a powerful tool allowing many actions, but without respecting some rules
-the GIT structure can be quickly ugly and unmaintainble.
+the GIT structure can be quickly hard to maintain.
 
 Here are some conventions about GIT branches:
+
   - ALWAYS create a local branch to edit or create any file. This local branch
-    will be considered as a topic in Gerrit and allow contributors to work at the
-    same time on the same project.
-  - 1 feature = 1 branch. In the case of documentation, a new chapter or page about
-    a new code feature can be considered as a 'doc feature'
-  - 1 bug = 1 branch. In the case of documentation, a correction on an existing
-    sentence can be considered as a 'doc bug'
+    will be considered as a topic in Gerrit and allow contributors to
+    work at the same time on the same project.
+
+  - 1 feature = 1 branch. In the case of documentation, a new chapter
+    or page about a new code feature can be considered as a 'doc feature'
+
+  - 1 bug = 1 branch. In the case of documentation, a correction on an
+    existing sentence can be considered as a 'doc bug'
+
   - the master branch is considered as "unstable", containing new features that
     will converge to a stable situation for the release date.
 
@@ -224,7 +268,8 @@ release. In this context:
 
   - NEVER push a new feature on a stable branch
 
-  - Only bug correction are authorized on a stable branch using cherry pick method
+  - Only bug correction are authorized on a stable branch using
+    cherry pick method
 
 .. image:: git_branches.png
 
@@ -235,22 +280,33 @@ Templates and Examples
 ----------------------
 Templates are available that capture the kinds of information
 useful for different types of projects and provide some examples of
-restructured text.  We organize templates in the following way to: help authors
-understand relationships between documents; keep the user audience context in mind when writing;
-and tailor sections for different kinds of projects.
+restructured text.  We organize templates in the following way to:
 
-**Sections** Represent a certain type of content.   A section is **provided** in a repository, to
-to describe something about the characteristics, use, capability, etc. of things in that repository.
-A section may also be **referenced** from other sections and in other repositories.
+ - help authors understand relationships between documents
+
+ - keep the user audience context in mind when writing and
+
+ - tailor sections for different kinds of projects.
+
+
+**Sections** Represent a certain type of content. A section
+is **provided** in an project repository, to describe something about
+the characteristics, use, capability, etc. of things in that repository.
+A section may also be **referenced** from other sections and in
+other repositories.  For example, an API specification provided in a project
+repository might be referenced to in a Platform API Reference Guide.
 The notes in the beginning of each section template provide
-additional detail about what is typically covered and where there may be references to the section.
+additional detail about what is typically covered and where
+there may be references to the section.
 
-**Collections** Are a set of sections that are typically provided for a particular type
-of project, repository, guide, reference manual, etc.
+**Collections** Are a set of sections that are typically provided
+for a particular type of project, repository, guide, reference manual, etc.
+For example, a collection for a platform component, an SDK, etc.
 
-You can: browse the template *collections* and *sections* below; show source to look at the Restructured
-Text and Sphinx directives used; copy the source either from a browser window
-or by downloading the file in raw form from
+You can: browse the template *collections* and *sections* below;
+show source to look at the Restructured Text and Sphinx directives used;
+copy the source either from a browser window or by downloading the
+file in raw form from
 the `gerrit doc repository <https://gerrit.onap.org/r/gitweb?p=doc.git;a=tree;f=docs/templates;/>`_ and
 then add them to your repository docs folder and index.rst.
 
@@ -278,18 +334,24 @@ Collections
 
 In addition to these simple templates and examples
 there are many open source projects (e.g. Open Daylight, Open Stack)
-that are using Sphinx and Readthedocs where you may find examples to start with.
-Working with project teams we will continue to enhance templates here and
-capture frequently asked questions on the developer wiki question
-topic `documentation <https://wiki.onap.org/questions/topics/16384055/documentation>`_.
+that are using Sphinx and Readthedocs where you may find examples
+to start with.  Working with project teams we will continue to enhance
+templates here and capture frequently asked questions on the developer
+wiki question topic `documentation <https://wiki.onap.org/questions/topics/16384055/documentation>`_.
 
-Each project should: decide what is relevant content; determine the
-best way to create/maintain it in a CI/CD process; and work with the
-documentation team to reference content from the master index and guides.
-Consider options including filling in a template,
-identifying existing content that can be used as is or
-easily converted, and use of Sphinx directives/extensions to automatically
-generate restructured text from other source you already have.
+Each project should:
+
+ - decide what is relevant content
+
+ - determine the best way to create/maintain it in the CI/CD process and
+
+ - work with the documentation team to reference content from the
+   master index and guides.
+
+Consider options including filling in a template, identifying existing
+content that can be used as is or easily converted, and use of Sphinx
+directives/extensions to automatically generate restructured text
+from other source you already have.
 
 Links and References
 --------------------
@@ -406,7 +468,7 @@ specified output folder directory.
 
 All Documentation
 -----------------
-To build the whole documentation under doc/, follow these steps:
+To build the all documentation under doc/, follow these steps:
 
 Install virtual environment.
 
@@ -431,10 +493,10 @@ Build documentation using tox local environment & then open using any browser.
 
 .. note:: Make sure to run `tox -elocal` and not just `tox`.
 
-There are additional tox enviornment options for checking External URLs and Spelling.
-Use the tox environment options below and then look at the output with the Linux `more` or
-similar command for scanning for output that applies to the files you
-are validating.
+There are additional tox environment options for checking External
+URLs and Spelling.  Use the tox environment options below and then
+look at the output with the Linux `more` or similar command for
+scanning for output that applies to the files you are validating.
 
 .. code-block:: bash
 
