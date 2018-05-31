@@ -1,4 +1,6 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a Creative Commons Attribution 4.0
+.. International License. http://creativecommons.org/licenses/by/4.0
+.. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
 .. _converting-to-rst:
 
@@ -8,12 +10,17 @@ Converting to RST
 Installing pandoc
 -----------------
 
-Pandoc is a powerful document-transformation utility. We'll use it to do simple conversions, but it is capable of much more. Visit the `pandoc website <http://pandoc.org/installing.html>`_ for installation instructions for your platform.
+Pandoc is a powerful document-transformation utility. We'll use it to
+do simple conversions, but it is capable of much more. Visit
+the `pandoc website <http://pandoc.org/installing.html>`_ for
+installation instructions for your platform.
 
 Converting
 ----------
 
-Using a terminal, navigate to the directory containing the documents you wish to convert. Next, issue the following command for each file you'd like to convert:
+Using a terminal, navigate to the directory containing the documents
+you wish to convert. Next, issue the following command for each file
+you'd like to convert:
 
 :code:`pandoc -s --toc -f <from format> -t rst myfile.<from format>`
 
@@ -76,7 +83,9 @@ Using a terminal, navigate to the directory containing the documents you wish to
 Fixing the converted document
 -----------------------------
 
-How much you'll need to fix the converted document depends on which file format you're converting from. Here are a couple of things to watch out for:
+How much you'll need to fix the converted document depends on which file
+format you're converting from. Here are a couple of things to watch out
+for:
 
 1. Multi-line titles need to be converted to single line
 2. Standalone "**" characters
@@ -89,7 +98,5 @@ Previewing edits
 Web-based
 ~~~~~~~~~
 
-`rst.ninjs.org <http://rst.ninjs.org>`_ has an excellent RST previewing tool that highlights RST errors with line numbers.
-
-
-
+`rst.ninjs.org <http://rst.ninjs.org>`_ has an excellent RST previewing
+tool that highlights RST errors with line numbers.
