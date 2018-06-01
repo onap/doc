@@ -1,23 +1,26 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
    International License. http://creativecommons.org/licenses/by/4.0
 
+.. contents::
+   :depth: 2
+
 .. index:: Release Notes
 
-Releases
-========
-This page is the draft ONAP Beijing Release Notes. The first release was
+Beijing Releases
+=================
+This page is the ONAP Beijing Release Notes. The first release was
 Amsterdam and subsequent major release will be named using city names.
 
 * Release Name: Beijing
 * Release Version: 2.0.0
-* Release Date: May, 2018
+* Release Date: June 7, 2018
 
 
 Getting Started With ONAP
--------------------------
+==========================
 
 Summary
-+++++++
+-------
 ONAP provides a comprehensive platform for real-time, policy-driven
 service orchestration and automation including virtual network functions and
 applications instantiation and configuration, but also physical network
@@ -30,7 +33,7 @@ for network automation-with an open standards focus-faster than any one
 product could on its own.
 
 Functionality
-+++++++++++++
+-------------
 **Portal** - a single, consistent user experience for both design timer
 and run time environments, based on the user’s role.
 
@@ -42,7 +45,7 @@ services, and products:
    repositories to define/simulate/certify system assets as well as their
    associated processes and policies.
 
- - A VNF Software Development Kit (VNFSDK) with tools for VNF supplier
+ - A VNF Software Development Kit (VNFSDK) and VNF Validation Program (VVP) with tools for VNF supplier
    packaging and validation.
 
  - Policy Creation (POLICY) deals with conditions, requirements,
@@ -51,6 +54,9 @@ services, and products:
 
  - Closed Loop Automation Management Platform (CLAMP) provides a method
    for designing and managing control loops.
+
+ - Optimization Framework (OOF) provides a policy-driven and model-driven framework
+   for creating optimization applications.
 
 **Runtime Framework** - The runtime execution framework executes the
 rules and policies distributed by the design and creation environment
@@ -89,67 +95,36 @@ Detect -> Publish -> Respond:
    VNFs and Network Services.
 
  - Common Services - operational services for all ONAP components including
-   activity logging, reporting, common data layer, access control, resiliency,
-   and software lifecycle management.
+   activity logging, reporting, common data layer, access control, resiliency, multisite state coordination,
+   credential/secret management and software lifecycle management.
+   
+**Microservices Support** 
+
+ - ONAP Operation Manager (OOM) use kubernetes and Helm to manage ONAP components.
+ - Microservices Bus (MSB) provides service registration/discovery,
+   external API gateway, internal API gateway, client software development kit (SDK), and Swagger SDK.
 
 Project Specific Release Notes
-++++++++++++++++++++++++++++++
+==============================
 ONAP releases are specified by a list of project artifact
 versions in a :ref:`manifest<doc-release-manifest>`.
 Each project provides detailed :ref:`release notes<doc-releaserepos>`
 and prepends to these if/when any updated versions the project team believes
 are compatible with a major release are made available.
 
-Platforms Requirements
-++++++++++++++++++++++
-ONAP Beijing Release has been tested on Linux OSs. Details are
-:ref:`available here <demo-installing-running-onap-requirements>`.
-
-
 .. index:: Download
 
 Download & Install
-++++++++++++++++++
+==================
 There are 3 approaches to install ONAP:
 
-* Full ONAP installation using Heat template
+* Installation using Kubernetes (aka OOM). Recommended method
+* Installation using Heat template
 * Advanced installation to install individual components
-* Experimental installation using Kubernetes
-
-Full ONAP installation using Heat template
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-From a complete demo solution perspective. This installs the whole ONAP,
-refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
-
-Advanced installation to install individual components
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-From a developer perspective, ONAP can be installed component per component.
-For details, refer to :ref:`the installation procedure available for each
-component<index-setting-individual-components>`.
-The advanced installation procedure is recommended only for experienced
-developers who desire to focus their attention on a few components and who have
-a deep understanding of dependencies between components.
-This type of installation is not recommended to fully install ONAP.
-
-* The list of ports used by default within ONAP is documented in
-  `ONAP Service List <https://wiki.onap.org/display/DW/ONAP+Services+List>`_.
-
-* The ONAP Source Code is available through Gerrit at https://gerrit.onap.org
-  or Git at https://git.onap.org/.
-
-* ONAP is packaged within Docker and can be dowloaded from Docker Hub at
-  https://hub.docker.com/r/onap.
-
-Experimental installation using Kubernetes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-From a complete demo solution perspective using Kubernetes. This installs the
-whole ONAP, refer to :ref:`ONAP Operations Manager -
-Quick Start Guide <onap-operations-manager-project>`.
 
 Documentation
-+++++++++++++
-ONAP Beijing Release documentation is available :ref:`here <master_index>`.
-For Beijing this includes:
+=============
+ONAP Beijing Release provides multiple documents including the following:
 
  * A high level :ref:`architecture view<doc-architecture>` of how components
    relate to each other.
@@ -164,35 +139,33 @@ For Beijing this includes:
    information on meeting plans and notes from committees, project teams and
    community events.
 
-Usage
-+++++
-This section is intended to provide users on the usage of ONAP components.
-
-Instructions on using the ONAP deployment including Robot, Portal, SDC and VID
-in the context of running (Onboarding, service creation, service deployment,
-VNF creation, VNF preload, VF Module creation and closed loop operations)
-the vFirewall sanity use case is documented
-in `Running the ONAP Demos
-<https://wiki.onap.org/display/DW/Running+the+ONAP+Demos>`_.
-
 .. index:: Licensing
 
+Security Notes
+==============
+ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_. The goal of the Beijing release is for all ONAP projects to be close to achieving a CII Passing badge.
+
+- `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge#core-infrastructure-initiative-best-practices-badge>`_
+- `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
+
+Project specific details are in the :ref:`release notes<doc-releaserepos>`for each project.
+
 Licenses
-++++++++
+========
 ONAP Source Code is licensed under the `Apache Version 2 License
 <http://www.apache.org/licenses/LICENSE-2.0>`_.
 ONAP Documentation is licensed under the `Creative Commons Attribution 4.0
 International License <http://creativecommons.org/licenses/by/4.0>`_.
 
 Known Issues and Limitations
-++++++++++++++++++++++++++++
+============================
 Known Issues and limitations are documented in each
 :ref:`project Release Notes <doc-releaserepos>`.
 
 .. index:: Reporting Bugs
 
 How to Report a Bug
-+++++++++++++++++++
+===================
 There are 2 ways to report a bug in ONAP.
 
  * In case you are familiar within ONAP, you can directly report a bug by
@@ -203,9 +176,9 @@ There are 2 ways to report a bug in ONAP.
    `Ask question <https://wiki.onap.org/display/DW/questions/all>`_.
    You will need a Linux Foundation ID to login and post your question.
    Get a Linux Foundation Identity using this
-   `quick procedure <https://wiki.onap.org/display/DW/Joining+the+Community>`_.
+   `quick procedure <https://wiki.onap.org/display/DW/Joining+the+ONAP+Technical+Community#JoiningtheONAPTechnicalCommunity-WhereDoIStart?>`_.
 
-You may consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing.
+To properly report a bug in Jira, you may want to consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing.
 
 
 .. Include files referenced by link in the toctree as hidden
