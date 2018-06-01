@@ -8,6 +8,17 @@
 Release Notes
 =============
 
+Version: 2.0.0
+--------------
+
+:Release Date: 2018-07-06
+
+
+**New Features**
+
+
+**Other**
+
 
 Version: 1.0.0
 --------------
