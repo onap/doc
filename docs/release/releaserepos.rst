@@ -147,7 +147,7 @@ Music
    music<../submodules/music.git/docs/release-notes.rst>
 
 
-ONAP Operations Manager (experimental)
+ONAP Operations Manager (OOM)
 --------------------------------------
 
 .. toctree::
