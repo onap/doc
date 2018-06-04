@@ -16,7 +16,16 @@ Active and Available Inventory
    :maxdepth: 1
    :titlesonly:
 
-   aai/aai-common<../submodules/aai/aai-common.git/docs/release-notes.rst>
+   aai<../submodules/aai/aai-common.git/docs/release-notes.rst>
+
+Application Authorization Framework
+-----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   aaf<../submodules/aaf/authz.git/docs/sections/release-notes.rst>
 
 Application Controller
 ----------------------
@@ -34,8 +43,7 @@ Common Controller Software Development Kit
    :maxdepth: 1
    :titlesonly:
 
-   ccsdk/distribution<../submodules/ccsdk/distribution.git/docs/release-notes.rst>
-   ccsdk/platform/plugins<../submodules/ccsdk/platform/plugins.git/docs/release-notes.rst>
+   ccsdk<../submodules/ccsdk/distribution.git/docs/release-notes.rst>
 
 Closed Loop Automation Platform
 -------------------------------
@@ -46,14 +54,6 @@ Closed Loop Automation Platform
 
    clamp<../submodules/clamp.git/docs/release-notes.rst>
 
-ONAP Command Line Interface
----------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   cli<../submodules/cli.git/docs/release-notes.rst>
 
 Data Collection, Analysis, and Events
 -------------------------------------
@@ -80,7 +80,7 @@ Data Management as a Platform Message Router
    :maxdepth: 1
    :titlesonly:
 
-   dmaap/messagerouter/messageservice<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes/release-notes.rst>
+   dmaap<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes/release-notes.rst>
 
 External API / NBI
 ------
@@ -98,7 +98,7 @@ Holmes
    :maxdepth: 1
    :titlesonly:
 
-   holmes/rule-management<../submodules/holmes/rule-management.git/docs/release-notes.rst>
+   holmes<../submodules/holmes/rule-management.git/docs/release-notes.rst>
 
 Logging Enhancements Project
 ----------------------------
@@ -126,7 +126,7 @@ Micro Services Bus
    :maxdepth: 1
    :titlesonly:
 
-   msb/apigateway<../submodules/msb/apigateway.git/docs/release-notes.rst>
+   msb<../submodules/msb/apigateway.git/docs/release-notes.rst>
 
 MultiVIM Cloud
 --------------
@@ -147,14 +147,41 @@ Music
    music<../submodules/music.git/docs/release-notes.rst>
 
 
-ONAP Operations Manager (OOM)
---------------------------------------
+ONAP Command Line Interface
+---------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   cli<../submodules/cli.git/docs/release-notes.rst>
+
+ONAP Operations Manager
+-----------------------
 
 .. toctree::
    :maxdepth: 2
    :titlesonly:
 
-   OOM<../submodules/oom.git/docs/release-notes.rst>
+   oom<../submodules/oom.git/docs/release-notes.rst>
+
+ONAP Optimization Framework
+---------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   oof<../submodules/optf/osdf.git/docs/sections/release-notes.rst>
+
+ONAP Use Case User Interface
+----------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   usecase-ui<../submodules/usecase-ui.git/docs/release-notes.rst>
 
 Policy Framework
 ----------------
@@ -163,7 +190,7 @@ Policy Framework
    :maxdepth: 1
    :titlesonly:
 
-   policy/engine<../submodules/policy/engine.git/docs/release-notes.rst>
+   policy<../submodules/policy/engine.git/docs/release-notes.rst>
 
 Portal Platform
 ---------------
@@ -182,7 +209,6 @@ Service Design & Creation
    :titlesonly:
 
    sdc<../submodules/sdc.git/docs/release-notes.rst>
-   sdc/sdc-workflow-designer<../submodules/sdc/sdc-workflow-designer.git/docs/release-notes.rst>
 
 Software Defined Network Controller
 -----------------------------------
@@ -191,7 +217,7 @@ Software Defined Network Controller
    :maxdepth: 1
    :titlesonly:
 
-   sdnc/oam<../submodules/sdnc/oam.git/docs/release-notes.rst>
+   sdnc<../submodules/sdnc/oam.git/docs/release-notes.rst>
 
 Service Orchestration
 ---------------------
@@ -201,16 +227,6 @@ Service Orchestration
    :titlesonly:
 
    so<../submodules/so.git/docs/release-notes.rst>
-   so/libs<../submodules/so/libs.git/docs/release-notes.rst>
-
-ONAP Use Case User Interface
-----------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   usecase-ui<../submodules/usecase-ui.git/docs/release-notes.rst>
 
 Virtual Function Controller
 ---------------------------
@@ -219,7 +235,7 @@ Virtual Function Controller
    :maxdepth: 1
    :titlesonly:
 
-   vfc/nfvo/lcm<../submodules/vfc/nfvo/lcm.git/docs/release-notes.rst>
+   vfc<../submodules/vfc/nfvo/lcm.git/docs/release-notes.rst>
 
 Virtual Infrastructure Deployment
 ---------------------------------
@@ -237,9 +253,7 @@ VNF Requirements
    :maxdepth: 1
    :titlesonly:
 
-   vnfrqts/requirements<../submodules/vnfrqts/requirements.git/docs/release-notes.rst>
-   vnfrqts/testcases<../submodules/vnfrqts/testcases.git/docs/release-notes.rst>
-   vnfrqts/usecases<../submodules/vnfrqts/usecases.git/docs/release-notes.rst>
+   vnfrqts<../submodules/vnfrqts/requirements.git/docs/release-notes.rst>
 
 VNF Software Development Kit
 ----------------------------
@@ -248,7 +262,7 @@ VNF Software Development Kit
    :maxdepth: 1
    :titlesonly:
 
-   vnfsdk/model<../submodules/vnfsdk/model.git/docs/release-notes.rst>
+   vnfsdk<../submodules/vnfsdk/model.git/docs/release-notes.rst>
 
 VNF Validation Project
 ----------------------
@@ -256,7 +270,7 @@ VNF Validation Project
    :maxdepth: 1
    :titlesonly:
 
-   vvp/documentation<../submodules/vvp/documentation.git/docs/release-notes.rst>
+   vvp<../submodules/vvp/documentation.git/docs/release-notes.rst>
 
 
 .. Not in / not used this release
