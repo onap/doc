@@ -78,12 +78,3 @@ VNFs
    :maxdepth: 1
    :titlesonly:
 
-
-
-Other
------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
