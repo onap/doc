@@ -31,7 +31,7 @@ User Interfaces
    CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/architecture.rst>
    CLI - Command Line Interface <../../../submodules/cli.git/docs/architecture.rst>
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/architecture.rst>
-   ../../../submodules/usecase-ui.git/docs/platform/architecture.rst
+   UUI- Usecase UI <../../../submodules/usecase-ui.git/docs/platform/architecture.rst>
    VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/architecture.rst>
 
 Platform Components
