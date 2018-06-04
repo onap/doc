@@ -6,8 +6,8 @@
 
 .. index:: Release Notes
 
-Beijing Releases
-=================
+Beijing Release
+===============
 This page is the ONAP Beijing Release Notes. The first release was
 Amsterdam and subsequent major release will be named using city names.
 
@@ -108,6 +108,7 @@ Project Specific Release Notes
 ==============================
 ONAP releases are specified by a list of project artifact
 versions in a :ref:`manifest<doc-release-manifest>`.
+
 Each project provides detailed :ref:`release notes<doc-releaserepos>`
 and prepends to these if/when any updated versions the project team believes
 are compatible with a major release are made available.
@@ -148,7 +149,7 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge#core-infrastructure-initiative-best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
-Project specific details are in the :ref:`release notes<doc-releaserepos>`for each project.
+Project specific details are in the :ref:`release notes<doc-releaserepos>` for each project.
 
 Licenses
 ========
