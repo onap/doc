@@ -19,7 +19,7 @@ Models
    :maxdepth: 1
    :titlesonly:
 
-   Model Specifications <../../../submodules/modeling/modelspec.git/docs/ONAP Model Spec/index.rst>
+   Model Specifications <../../../submodules/modeling/modelspec.git/docs/ONAP release 2 spec/index>
 
 User Interfaces
 ---------------
@@ -62,7 +62,7 @@ Common Services
    AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/platform/architecture.rst>
    AAI ESR UI <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
    AAI ESR Server <../../../submodules/aai/esr-server.git/docs/platform/architecture.rst>
-   DMAAP DR - Data Management as s Platform Dara Router  <../../../submodules/dmaap/datarouter.git/docs/data-router/data-router.rst>
+   DMAAP DR - Data Management as a Platform (Data Router)  <../../../submodules/dmaap/datarouter.git/docs/data-router/data-router.rst>
    ExtAPI - External API/NBI <../../../submodules/externalapi/nbi.git/docs/architecture/architecture.rst>
    Logging Framework - <../../../submodules/logging-analytics.git/docs/Logging_User_Guide/Logging_User_Guide.rst>
    MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/architecture.rst>
@@ -70,5 +70,5 @@ Common Services
    MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/architecture.rst>
    OOM - ONAP Operations Manager <../../../submodules/oom.git/docs/oom_project_description.rst>
    OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/architecture.rst>
-   VNF SDK <../../../submodules/vnfsdk/model.git/docs/index.rst>
+   VNF SDK <../../../submodules/vnfsdk/model.git/docs/files/VNF SDK blueprints.rst>
    VVP - VNF Validation Project <../../../submodules/vvp/documentation.git/docs/architecture.rst>
