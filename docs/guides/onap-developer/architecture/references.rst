@@ -19,7 +19,7 @@ Models
    :maxdepth: 1
    :titlesonly:
 
-   Model Specifications <../../../submodules/modeling/modelspec.git/docs/ONAP release 2 spec/index>
+   Model Specifications <../../../submodules/modeling/modelspec.git/docs/ONAP Model Spec/index.rst>
 
 User Interfaces
 ---------------
@@ -28,8 +28,10 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
+   APPC CDT - Application Controller Design Tool  <../../../submodules/appc.git/docs/APPC CDT Guide/APPC CDT Guide.rst>
    CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/architecture.rst>
    CLI - Command Line Interface <../../../submodules/cli.git/docs/architecture.rst>
+   PORTAL
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/architecture.rst>
    UUI- Usecase UI <../../../submodules/usecase-ui.git/docs/platform/architecture.rst>
    VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/architecture.rst>
@@ -41,11 +43,13 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
+   APPC - Application Controller <../../../submodules/appc.git/docs/APPC User Guide/APPC User Guide.rst>
    DCAE - Data Collection Analytics and Events <../../../submodules/dcaegen2.git/docs/sections/architecture.rst>
    Holmes <../../../submodules/holmes/rule-management.git/docs/platform/architecture.rst>
-   SDN Controller OAM <../../../submodules/sdnc/oam.git/docs/architecture.rst>
-   ../../../submodules/so.git/docs/architecture.rst
-   NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/architecture/architecture.rst>
+   Policy <../../../submodules/policy/engine.git/docs/platform/architecture.rst>
+   SDNC - SDN Controller OAM <../../../submodules/sdnc/oam.git/docs/architecture.rst>
+   SO - Service Orchestrator <../../../submodules/so.git/docs/architecture.rst>
+   VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/architecture.rst>
 
 Common Services
 ---------------
@@ -54,27 +58,17 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
+   AAF - Application Authorization Framework <../../../submodules/aaf/authz.git/docs/sections/architecture.rst>
    AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/platform/architecture.rst>
    AAI ESR UI <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
    AAI ESR Server <../../../submodules/aai/esr-server.git/docs/platform/architecture.rst>
+   DMAAP DR - Data Management as s Platform Dara Router  <../../../submodules/dmaap/datarouter.git/docs/data-router/data-router.rst>
+   ExtAPI - External API/NBI <../../../submodules/externalapi/nbi.git/docs/architecture/architecture.rst>
+   Logging Framework - <../../../submodules/logging-analytics.git/docs/Logging_User_Guide/Logging_User_Guide.rst>
    MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/architecture.rst>
+   Multi Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-Administration-Guide.rst>
+   MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/architecture.rst>
+   OOM - ONAP Operations Manager <../../../submodules/oom.git/docs/oom_project_description.rst>
+   OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/architecture.rst>
+   VNF SDK <../../../submodules/vnfsdk/model.git/docs/index.rst>
    VVP - VNF Validation Project <../../../submodules/vvp/documentation.git/docs/architecture.rst>
-
-
-SDKs
-----
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   Portal <../../../submodules/portal.git/docs/tutorials/portal-sdk/architecture.rst>
-
-
-VNFs
-----
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
