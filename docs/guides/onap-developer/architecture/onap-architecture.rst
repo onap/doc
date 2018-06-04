@@ -133,7 +133,7 @@ which highlights the role of key new components:
    deployments to Kubernetes-managed cloud environments.
 
 3. ONAP Common Services now manage more complex and optimized
-   topologies\ **. MUSIC** allows ONAP to scale to multi-site
+   topologies. **MUSIC** allows ONAP to scale to multi-site
    environments to support global scale infrastructure requirements. The
    ONAP Optimization Framework (OOF) provides a declarative,
    policy-driven approach for creating and running optimization
@@ -168,6 +168,8 @@ efficiency and platform deployment. In addition, OOM helps enhance ONAP
 platform maturity by providing scalability and resiliency enhancements
 to the components it manages.
 
+|image3|
+
 OOM is the lifecycle manager of the ONAP platform and uses the
 Kubernetes container management system and Consul to provide the
 following functionality:
@@ -176,7 +178,7 @@ following functionality:
    (including multiple clusters, federated deployments across sites, and
    anti-affinity rules)
 
-2. |image3|\ **Configuration -** unified configuration across all ONAP
+2. **Configuration** - unified configuration across all ONAP
    components
 
 3. **Monitoring** - real-time health monitoring feeding to a Consul GUI
@@ -219,7 +221,7 @@ dashboards, as well as hosted application widgets.
 
 The portal provides an SDK to enable multiple development teams to
 adhere to consistent UI development requirements by taking advantage of
-built-in capabilities (Services/ API/ UI controls), tools and
+built-in capabilities (Services/API/UI controls), tools and
 technologies. ONAP also provides a Command Line Interface (CLI) for
 operators who require it (e.g., to integrate with their scripting
 environment). ONAP SDKs enable operations/security, third parties (e.g.,
@@ -532,9 +534,9 @@ interworking with vendor-specific components, including VNFMs, EMSs,
 VIMs and SDN controllers, across Edge Data Centers and a Core Date
 Center.
 
-|image6|
-
 **Figure 7. ONAP VoLTE Architecture**
+
+|image6|
 
 ONAP supports the VoLTE use case with several key components: SO, VF-C,
 SDN-C, and Multi-VIM/ Cloud. In this use case, SO is responsible for
@@ -555,6 +557,8 @@ addition, the usage of commercial software in this blueprint offers CSPs
 an efficient path to rapid production.
 
 Read the VoLTE Use Case with ONAP whitepaper to learn more.
+
+.. include:: blueprint-enr.rst
 
 Conclusion
 ==========
