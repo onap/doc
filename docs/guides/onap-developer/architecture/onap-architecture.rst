@@ -1,9 +1,10 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a Creative Commons Attribution
+.. 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017-2018 Huawei Technologies Co., Ltd.
 
-1. Introduction 
-================
+1. Introduction
+===============
 
 The ONAP project addresses a rising need for a common platform for
 telecommunication, cable, and cloud operators—and their solution
@@ -48,19 +49,19 @@ dynamic services, there are three major requirements:
    all aspects – modeling the resources and relationships that make up
    the service, specifying the policy rules that guide the service
    behavior, specifying the applications, analytics and closed-loop
-   events needed for the elastic management of the service  
+   events needed for the elastic management of the service.
 
 -  An orchestration and control framework (Service Orchestrator and
    Controllers) that is recipe/policy-driven to provide automated
    instantiation of the service when needed and managing service demands
-   in an elastic manner  
+   in an elastic manner.
 
 -  An analytic framework that closely monitors the service behavior
-during the service lifecycle based on the specified design, analytics
-and policies to enable response as required from the control framework,
-to deal with situations ranging from those that require healing to those
-that require scaling of the resources to elastically adjust to demand
-variations.
+   during the service lifecycle based on the specified design, analytics
+   and policies to enable response as required from the control framework,
+   to deal with situations ranging from those that require healing to those
+   that require scaling of the resources to elastically adjust to demand
+   variations.
 
 To achieve this, ONAP decouples the details of specific services and
 technologies from the common information models, core orchestration
@@ -81,31 +82,31 @@ following foundational principles:
 -  Ability to dynamically introduce full service lifecycle orchestration
    (design, provisioning and operation) and service API for new services
    & technologies without the need for new platform software releases or
-   without affecting operations for the existing services  
+   without affecting operations for the existing services.
 
 -  Carrier-grade scalability including horizontal scaling (linear
    scale-out) and distribution to support large number of services and
-   large networks  
+   large networks.
 
 -  Metadata-driven and policy-driven architecture to ensure flexible and
-   automated ways in which capabilities are used and delivered  
+   automated ways in which capabilities are used and delivered.
 
--  The architecture shall enable sourcing best-in-class components  
+-  The architecture shall enable sourcing best-in-class components.
 
--  Common capabilities are ‘developed’ once and ‘used’ many times  
+-  Common capabilities are ‘developed’ once and ‘used’ many times.
 
 -  Core capabilities shall support many diverse services and
-   infrastructures 
+   infrastructures.
 
 -  The architecture shall support elastic scaling as needs grow or
-   shrink  
+   shrink.
 
-**Figure 1: ONAP Platform**  
+**Figure 1: ONAP Platform**
 
 |image0|
 
-2. ONAP Architecture 
-=====================
+2. ONAP Architecture
+====================
 
 The platform provides the common functions (e.g., data collection,
 control loops, metadata recipe creation, policy/recipe distribution,
@@ -202,8 +203,8 @@ microservice direction. MSB is integrated with OOM to provide
 transparent service registration for ONAP microservices, it also
 supports OpenStack(Heat) and bare metal deployment.
 
-4. Portal 
-==========
+4. Portal
+=========
 
 ONAP delivers a single, consistent user experience to both design-time
 and run-time environments, based on the user’s role. Role changes are
@@ -227,8 +228,8 @@ define/redefine new collection, analytics, and policies (including
 recipes for corrective/remedial action) using the ONAP Design Framework
 Portal.
 
-5. Design-time Framework 
-=========================
+5. Design-time Framework
+========================
 
 The design-time framework is a comprehensive development environment
 with tools, techniques, and repositories for defining/ describing
@@ -285,8 +286,8 @@ particular network service, then deploy and decommission it. Once
 deployed, a user can also update the loop with new parameters during
 runtime, as well as suspend and restart it.
 
-6. Runtime Framework 
-=====================
+6. Runtime Framework
+====================
 
 The runtime execution framework executes the rules and policies
 distributed by the design and creation environment.
@@ -302,8 +303,8 @@ deployments. The External API provides access for third-party frameworks
 such as MEF, TM Forum and potentially others, to facilitate interactions
 between operator BSS and relevant ONAP components.
 
-Orchestration 
---------------
+Orchestration
+-------------
 
 The Service Orchestrator (SO) component executes the specified processes
 by automating sequences of activities, tasks, rules and policies needed
@@ -346,8 +347,8 @@ value of virtualization through fine grained optimization of cloud
 resources while delivering the performance/security SLAs. For the
 Beijing release, this feature is available for the vCPE use case.
 
-Controllers 
-------------
+Controllers
+-----------
 
 Controllers are applications which are coupled with cloud and network
 services and execute the configuration, real-time policies, and control
@@ -367,8 +368,8 @@ project records and manages state of the Portal and ONAP Optimization
 Framework to ensure consistency, redundancy and high availability across
 geographically distributed ONAP deployments.
 
-Inventory 
-----------
+Inventory
+---------
 
 Active and Available Inventory (A&AI) provides real-time views of a
 system’s resources, services, products and their relationships with each
@@ -386,8 +387,8 @@ A&AI is metadata-driven, allowing new inventory types to be added
 dynamically and quickly via SDC catalog definitions, eliminating the
 need for lengthy development cycles.
 
-7. Closed-Loop Automation 
-==========================
+7. Closed-Loop Automation
+=========================
 
 The following sections describe the ONAP frameworks designed to address
 major operator requirements. The key pattern that these frameworks help
@@ -406,7 +407,7 @@ Closed-loop control is provided by Data Collection, Analytics and Events
 (DCAE) and one or more of the other ONAP runtime components.
 Collectively, they provide FCAPS (Fault Configuration Accounting
 Performance Security) functionality. DCAE collects performance, usage,
-and configuration data; provides computation of analytics; aids in
+and configuration data; provides computation of analytics; aids in
 troubleshooting; and publishes events, data and analytics (e.g., to
 policy, orchestration, and the data lake). Another component, “Holmes”,
 connects to DCAE and provides alarm correlation for ONAP, which depicts
@@ -425,8 +426,8 @@ human intervention before executing the change.
 
 |image4|
 
-8. Common Services 
-===================
+8. Common Services
+==================
 
 ONAP provides common operational services for all ONAP components
 including activity logging, reporting, common data layer, access
@@ -473,16 +474,16 @@ standard, and improve the industry collaboration. Service models,
 multi-VIM models and other models will be explored and defined in the
 Casablanca and future releases.
 
-10. ONAP Use Cases 
-===================
+10. ONAP Use Cases
+==================
 
 The ONAP project tests blueprints for real-world use cases to enable
 rapid adoption of the platform. With the first release of ONAP
 (“Amsterdam”), we introduced two blueprints: vCPE and VoLTE. Subsequent
 releases test additional functionality and/or new blueprints.
 
-Virtual CPE Use Case 
----------------------
+Virtual CPE Use Case
+--------------------
 
 In this use case, many traditional network functions such as NAT,
 firewall, and parental controls are implemented as virtual network
@@ -520,11 +521,11 @@ Policy, SO, A&AI and other ONAP components.
 
 Read the Residential vCPE Use Case with ONAP whitepaper to learn more.
 
-Voice over LTE (VoLTE) Use Case 
---------------------------------
+Voice over LTE (VoLTE) Use Case
+-------------------------------
 
 The second blueprint developed for ONAP is Voice over LTE. This
-blueprint demonstrates how a Mobile Service Provider (SP) could deploy
+blueprint demonstrates how a Mobile Service Provider (SP) could deploy
 VoLTE services based on SDN/NFV. This blueprint incorporates commercial
 VNFs to create and manage the underlying vEPC and vIMS services by
 interworking with vendor-specific components, including VNFMs, EMSs,
@@ -555,8 +556,8 @@ an efficient path to rapid production.
 
 Read the VoLTE Use Case with ONAP whitepaper to learn more.
 
-Conclusion 
-===========
+Conclusion
+==========
 
 The ONAP platform provides a comprehensive platform for real-time,
 policy-driven orchestration and automation of physical and virtual
