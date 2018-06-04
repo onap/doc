@@ -27,6 +27,15 @@ Application Controller
 
    appc<../submodules/appc.git/docs/release-notes.rst>
 
+Authorization Application Framework
+-----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   Authorization Application Framework<../submodules/aaf/authz.git/docs/sections/release-notes.rst>
+
 Common Controller Software Development Kit
 ------------------------------------------
 
@@ -35,7 +44,6 @@ Common Controller Software Development Kit
    :titlesonly:
 
    ccsdk/distribution<../submodules/ccsdk/distribution.git/docs/release-notes.rst>
-   ccsdk/platform/plugins<../submodules/ccsdk/platform/plugins.git/docs/release-notes.rst>
 
 Closed Loop Automation Platform
 -------------------------------
@@ -147,14 +155,33 @@ Music
    music<../submodules/music.git/docs/release-notes.rst>
 
 
-ONAP Operations Manager (OOM)
---------------------------------------
+ONAP Operations Manager
+-----------------------
 
 .. toctree::
    :maxdepth: 2
    :titlesonly:
 
    OOM<../submodules/oom.git/docs/release-notes.rst>
+
+ONAP Use Case User Interface
+----------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   usecase-ui<../submodules/usecase-ui.git/docs/release-notes.rst>
+
+Optimization Framework
+----------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   Optimization Framework<../submodules/optf/osdf.git/docs/sections/release-notes.rst>
+
 
 Policy Framework
 ----------------
@@ -182,7 +209,6 @@ Service Design & Creation
    :titlesonly:
 
    sdc<../submodules/sdc.git/docs/release-notes.rst>
-   sdc/sdc-workflow-designer<../submodules/sdc/sdc-workflow-designer.git/docs/release-notes.rst>
 
 Software Defined Network Controller
 -----------------------------------
@@ -201,16 +227,6 @@ Service Orchestration
    :titlesonly:
 
    so<../submodules/so.git/docs/release-notes.rst>
-   so/libs<../submodules/so/libs.git/docs/release-notes.rst>
-
-ONAP Use Case User Interface
-----------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   usecase-ui<../submodules/usecase-ui.git/docs/release-notes.rst>
 
 Virtual Function Controller
 ---------------------------
@@ -238,8 +254,6 @@ VNF Requirements
    :titlesonly:
 
    vnfrqts/requirements<../submodules/vnfrqts/requirements.git/docs/release-notes.rst>
-   vnfrqts/testcases<../submodules/vnfrqts/testcases.git/docs/release-notes.rst>
-   vnfrqts/usecases<../submodules/vnfrqts/usecases.git/docs/release-notes.rst>
 
 VNF Software Development Kit
 ----------------------------
