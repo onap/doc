@@ -581,13 +581,13 @@ faster than any one product could on its own.
 .. |image1| image:: media/ONAP-toplevel.png
    :width: 6.5in
    :height: 3.13548in
-.. |image2| image:: media/fncview.png
+.. |image2| image:: media/ONAP-fncview.png
    :width: 6.5in
    :height: 3.409in
-.. |image3| image:: media/oom.png
+.. |image3| image:: media/ONAP-oom.png
    :width: 2.28472in
    :height: 2.30625in
-.. |image4| image:: media/closedloop.jpeg
+.. |image4| image:: media/ONAP-closedloop.jpeg
    :width: 6in
    :height: 2.6in
 .. |image5| image:: media/ONAP-vcpe.png
