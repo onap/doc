@@ -45,6 +45,15 @@ Common Controller Software Development Kit
 
    ccsdk<../submodules/ccsdk/distribution.git/docs/release-notes.rst>
 
+Command Line Interface
+----------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   cli<../submodules/cli.git/docs/release-notes.rst>
+   
 Closed Loop Automation Platform
 -------------------------------
 
@@ -100,8 +109,8 @@ Holmes
 
    holmes<../submodules/holmes/rule-management.git/docs/release-notes.rst>
 
-Logging Enhancements Project
-----------------------------
+Logging Analytics
+-----------------
 
 .. toctree::
    :maxdepth: 1
@@ -146,16 +155,6 @@ Music
 
    music<../submodules/music.git/docs/release-notes.rst>
 
-
-ONAP Command Line Interface
----------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   cli<../submodules/cli.git/docs/release-notes.rst>
-
 ONAP Operations Manager
 -----------------------
 
@@ -165,23 +164,14 @@ ONAP Operations Manager
 
    oom<../submodules/oom.git/docs/release-notes.rst>
 
-ONAP Optimization Framework
----------------------------
+Optimization Framework
+----------------------
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
-   oof<../submodules/optf/osdf.git/docs/sections/release-notes.rst>
-
-ONAP Use Case User Interface
-----------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   usecase-ui<../submodules/usecase-ui.git/docs/release-notes.rst>
+   optf<../submodules/optf/osdf.git/docs/sections/release-notes.rst>
 
 Policy Framework
 ----------------
@@ -227,6 +217,15 @@ Service Orchestration
    :titlesonly:
 
    so<../submodules/so.git/docs/release-notes.rst>
+
+Use Case User Interface
+-----------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   usecase-ui<../submodules/usecase-ui.git/docs/release-notes.rst>
 
 Virtual Function Controller
 ---------------------------
