@@ -25,12 +25,12 @@ The following table presents the required resources to deploy ONAP.
 
 (*) For individual deployment, it depends on the components.
 
+The various installations can be found here:
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:
-
-Depending on   
-   
+ 
    onap_oom.rst
    onap_heat.rst
    onap_individual.rst

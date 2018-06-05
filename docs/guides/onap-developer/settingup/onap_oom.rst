@@ -15,7 +15,7 @@
 **Setting Up Full ONAP using Containers**
 =========================================
 
-.. _installing-onap-heat:
+.. _installing-onap-k8s:
 
 **Context**
 ===========
@@ -34,8 +34,13 @@ You must use the following version for the various sofware components.
   Docker       17.03.x
   ===========  =======
 
-Creation of Kubernetes cluster is available here:
-   ../../../submodules/oom.git/docs/oom_cloud_setup_guide.rst
+Creation of Kubernetes cluster is described here:
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   
+   ../../../../submodules/oom.git/docs/oom_cloud_setup_guide.rst
 
 
 The ONAP full installation requires the following footprint:
@@ -45,7 +50,12 @@ The ONAP full installation requires the following footprint:
  - 160 GB Storage
 
 ONAP installation is described here:
-   ../../../submodules/oom.git/docs/oom_quickstart_guide.rst
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../../../../submodules/oom.git/docs/oom_quickstart_guide.rst
 
 .. note::
    It is also possible to deploy a subset of ONAP components on a single VM.

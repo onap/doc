@@ -30,4 +30,3 @@ This type of installation is not recommended to fully install ONAP.
 * The ONAP Source Code is available through Gerrit at https://gerrit.onap.org or Git at https://git.onap.org/.
 * ONAP is packaged within Docker and can be dowloaded from Docker Hub at https://hub.docker.com/r/onap.
 
-.. contents::
