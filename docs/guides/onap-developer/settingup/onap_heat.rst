@@ -15,7 +15,7 @@
 **Setting Up Full ONAP using Virtual Machines**
 ===============================================
 
-.. _demo-installing-running-onap:
+.. _installing-onap-heat:
 
 **Context**
 ===========

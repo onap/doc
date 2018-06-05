@@ -45,8 +45,8 @@ services, and products:
    repositories to define/simulate/certify system assets as well as their
    associated processes and policies.
 
- - A VNF Software Development Kit (VNFSDK) and VNF Validation Program (VVP) with tools for VNF supplier
-   packaging and validation.
+ - A VNF Software Development Kit (VNFSDK) and VNF Validation Program (VVP)
+   with tools for VNF supplier packaging and validation.
 
  - Policy Creation (POLICY) deals with conditions, requirements,
    constraints, attributes, or needs that must be provided, maintained,
@@ -55,8 +55,8 @@ services, and products:
  - Closed Loop Automation Management Platform (CLAMP) provides a method
    for designing and managing control loops.
 
- - Optimization Framework (OOF) provides a policy-driven and model-driven framework
-   for creating optimization applications.
+ - Optimization Framework (OOF) provides a policy-driven and model-driven
+   framework for creating optimization applications.
 
 **Runtime Framework** - The runtime execution framework executes the
 rules and policies distributed by the design and creation environment
@@ -95,14 +95,17 @@ Detect -> Publish -> Respond:
    VNFs and Network Services.
 
  - Common Services - operational services for all ONAP components including
-   activity logging, reporting, common data layer, access control, resiliency, multisite state coordination,
-   credential/secret management and software lifecycle management.
-   
-**Microservices Support** 
+   activity logging, reporting, common data layer, access control, resiliency,
+   multisite state coordination, credential/secret management and
+   software lifecycle management.
 
- - ONAP Operation Manager (OOM) use kubernetes and Helm to manage ONAP components.
+**Microservices Support**
+
+ - ONAP Operation Manager (OOM) use kubernetes and Helm to manage ONAP
+   components.
  - Microservices Bus (MSB) provides service registration/discovery,
-   external API gateway, internal API gateway, client software development kit (SDK), and Swagger SDK.
+   external API gateway, internal API gateway, client software development kit
+   (SDK), and Swagger SDK.
 
 Project Specific Release Notes
 ==============================
@@ -119,9 +122,9 @@ Download & Install
 ==================
 There are 3 approaches to install ONAP:
 
-* Installation using Kubernetes (aka OOM). Recommended method
-* Installation using Heat template
-* Advanced installation to install individual components
+* :ref:`Installation using Kubernetes (aka OOM) <installing-onap-k8s>`. Recommended method.
+* :ref:`Installation using Heat template <installing-onap-heat>`.
+* :ref:`Advanced installation to install individual components <installing-onap-individual>`.
 
 Documentation
 =============
@@ -149,7 +152,8 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge#core-infrastructure-initiative-best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
-Project specific details are in the :ref:`release notes<doc-releaserepos>` for each project.
+Project specific details are in the :ref:`release notes<doc-releaserepos>`
+for each project.
 
 Licenses
 ========
