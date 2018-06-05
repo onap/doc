@@ -61,7 +61,7 @@ Common Services
    AAF - Application Authorization Framework <../../../submodules/aaf/authz.git/docs/sections/architecture.rst>
    AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/platform/architecture.rst>
    AAI ESR <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
-   DMAAP DR - Data Management as a Platform (Data Router)  <../../../submodules/dmaap/datarouter.git/docs/data-router/data-router.rst>
+   DMAAP MR - Data Management as a Platform (Message Router)  <../../../submodules/dmaap/messagerouter/messageservice.git/docs/architecture/architecture.rst>
    ExtAPI - External API/NBI <../../../submodules/externalapi/nbi.git/docs/architecture/architecture.rst>
    Logging Framework - <../../../submodules/logging-analytics.git/docs/Logging_User_Guide/Logging_User_Guide.rst>
    MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/architecture.rst>
@@ -69,5 +69,5 @@ Common Services
    MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/architecture.rst>
    OOM - ONAP Operations Manager <../../../submodules/oom.git/docs/oom_project_description.rst>
    OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/architecture.rst>
-   VNF SDK <../../../submodules/vnfsdk/model.git/docs/files/VNF SDK blueprints.rst>
+   VNF SDK <../../../submodules/vnfsdk/model.git/docs/files/vnfsdk-apis.rst>
    VVP - VNF Validation Project <../../../submodules/vvp/documentation.git/docs/architecture.rst>
