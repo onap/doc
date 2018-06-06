@@ -1,4 +1,5 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a Creative Commons Attribution
+.. 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
@@ -7,7 +8,8 @@
 
 Project Specific Release Notes
 ++++++++++++++++++++++++++++++
-Each project is listed below followed by the Gerrit repositories in which there are release notes.
+Each project is listed below followed by the Gerrit repositories in which
+there are release notes.
 
 Active and Available Inventory
 ------------------------------
@@ -44,6 +46,15 @@ Common Controller Software Development Kit
    :titlesonly:
 
    ccsdk<../submodules/ccsdk/distribution.git/docs/release-notes.rst>
+
+Command Line Interface
+----------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   cli<../submodules/cli.git/docs/release-notes.rst>
 
 Closed Loop Automation Platform
 -------------------------------
@@ -83,7 +94,7 @@ Data Management as a Platform Message Router
    dmaap<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes/release-notes.rst>
 
 External API / NBI
-------
+------------------
 
 .. toctree::
    :maxdepth: 1
@@ -100,8 +111,8 @@ Holmes
 
    holmes<../submodules/holmes/rule-management.git/docs/release-notes.rst>
 
-Logging Enhancements Project
-----------------------------
+Logging Analytics
+-----------------
 
 .. toctree::
    :maxdepth: 1
@@ -146,16 +157,6 @@ Music
 
    music<../submodules/music.git/docs/release-notes.rst>
 
-
-ONAP Command Line Interface
----------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   cli<../submodules/cli.git/docs/release-notes.rst>
-
 ONAP Operations Manager
 -----------------------
 
@@ -165,23 +166,14 @@ ONAP Operations Manager
 
    oom<../submodules/oom.git/docs/release-notes.rst>
 
-ONAP Optimization Framework
----------------------------
+Optimization Framework
+----------------------
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
-   oof<../submodules/optf/osdf.git/docs/sections/release-notes.rst>
-
-ONAP Use Case User Interface
-----------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   usecase-ui<../submodules/usecase-ui.git/docs/release-notes.rst>
+   optf<../submodules/optf/osdf.git/docs/sections/release-notes.rst>
 
 Policy Framework
 ----------------
@@ -210,6 +202,15 @@ Service Design & Creation
 
    sdc<../submodules/sdc.git/docs/release-notes.rst>
 
+Service Orchestration
+---------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   so<../submodules/so.git/docs/release-notes.rst>
+
 Software Defined Network Controller
 -----------------------------------
 
@@ -219,14 +220,14 @@ Software Defined Network Controller
 
    sdnc<../submodules/sdnc/oam.git/docs/release-notes.rst>
 
-Service Orchestration
----------------------
+Use Case User Interface
+-----------------------
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
-   so<../submodules/so.git/docs/release-notes.rst>
+   usecase-ui<../submodules/usecase-ui.git/docs/release-notes.rst>
 
 Virtual Function Controller
 ---------------------------

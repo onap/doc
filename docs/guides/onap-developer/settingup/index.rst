@@ -30,7 +30,7 @@ The various installations can be found here:
 .. toctree::
    :maxdepth: 1
    :titlesonly:
- 
+
    onap_oom.rst
    onap_heat.rst
    onap_individual.rst

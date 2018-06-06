@@ -17,7 +17,7 @@ Amsterdam and subsequent major release will be named using city names.
 
 
 Getting Started With ONAP
-==========================
+=========================
 
 Summary
 -------
@@ -118,8 +118,8 @@ are compatible with a major release are made available.
 
 .. index:: Download
 
-Download & Install
-==================
+Installation
+============
 There are 3 approaches to install ONAP:
 
 * :ref:`Installation using Kubernetes (aka OOM) <installing-onap-k8s>`. Recommended method.
