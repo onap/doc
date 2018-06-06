@@ -34,6 +34,15 @@ Application Controller
    ../../../submodules/appc/deployment.git/docs/index
    ../../../submodules/appc.git/docs/index
 
+Application Authorization Framework
+-----------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/aaf/authz.git/docs/index
+
 Command Line Interface
 ----------------------
 
@@ -43,7 +52,7 @@ Command Line Interface
 
    ../../../submodules/cli.git/docs/index
 
-   
+
 Closed Loop Automation Platform
 -------------------------------
 
@@ -127,8 +136,11 @@ Holmes
 Integration
 -----------
 
-* ONAP Amsterdam release content is specified within a list of project artifact versions available in the form of a :ref:`manifest<doc-release-manifest>`.
-* To install the whole ONAP (from a complete demo solution perspective) refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
+* ONAP Amsterdam release content is specified within a list of project
+  artifact versions available in the form of
+  a :ref:`manifest<doc-release-manifest>`.
+* To install the whole ONAP (from a complete demo solution perspective)
+  refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
 
 Logging Analytics
 -----------------
@@ -190,6 +202,16 @@ ONAP Operations Manager
    :titlesonly:
 
    ../../../submodules/oom.git/docs/index
+
+Optimization Framework
+----------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/optf/has.git/docs/index
+   ../../../submodules/optf/osdf.git/docs/index
 
 Policy Framework
 ----------------
