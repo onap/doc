@@ -19,7 +19,7 @@ Models
    :maxdepth: 1
    :titlesonly:
 
-   Model Specifications <../../../submodules/modeling/modelspec.git/docs/ONAP release 2 spec/index>
+   Model Specifications <../../../submodules/modeling/modelspec.git/docs/index>
 
 User Interfaces
 ---------------
