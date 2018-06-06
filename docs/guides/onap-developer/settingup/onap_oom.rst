@@ -3,13 +3,7 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2018 ONAP
 
-
-.. contents::
-   :depth: 2
-..
-
 .. index:: Setting Up Full ONAP using Containers
-
 
 =========================================
 **Setting Up Full ONAP using Containers**
@@ -25,21 +19,21 @@ components using containers.
 
 You must use the following version for the various sofware components.
 
-  ===========  =======
+  ===========  =========
   Software     Version
-  ===========  =======
+  ===========  =========
   Kubernetes   1.8.10
   Helm         2.8.2
   kubectl      1.8.10
   Docker       17.03.x
-  ===========  =======
+  ===========  =========
 
 Creation of Kubernetes cluster is described here:
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
-   
+
    ../../../../submodules/oom.git/docs/oom_cloud_setup_guide.rst
 
 

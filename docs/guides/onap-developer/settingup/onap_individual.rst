@@ -4,10 +4,6 @@
 .. Copyright 2017-2018 ONAP
 
 
-.. contents::
-   :depth: 2
-..
-
 .. index:: Setting Up ONAP individual components
 
 
