@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a93c517_ccc5603e",
+        "filename": "docs/guides/onap-developer/settingup/onap_heat.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1077
+      },
+      "writtenOn": "2018-06-07T01:41:37Z",
+      "side": 1,
+      "message": "deploy should be deployment of",
+      "revId": "c2f4258da8a5e15f0303ba5d3f94f4788a210a41",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a93c517_acc81457",
+        "filename": "docs/guides/onap-developer/settingup/onap_oom.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1077
+      },
+      "writtenOn": "2018-06-07T01:41:37Z",
+      "side": 1,
+      "message": "Gildas, kuberetes runs docker containers in the same way that docker-compose runs docker containers in heat - the difference is that kuberetes allows for multi-VM deployment as opposed to single node for docker-compose - there are no kubernetes containers - just docker containers (kubernetes is a layer on top of docker)",
+      "revId": "c2f4258da8a5e15f0303ba5d3f94f4788a210a41",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
