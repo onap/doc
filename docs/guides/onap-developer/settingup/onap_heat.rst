@@ -11,9 +11,9 @@
 .. index:: Setting Up Full ONAP using Virtual Machines
 
 
-===============================================
-**Setting Up Full ONAP using Virtual Machines**
-===============================================
+==============================
+**Setting Up ONAP using HEAT**
+==============================
 
 .. _installing-onap-heat:
 
@@ -29,6 +29,11 @@ based on top of VMware based infrastructure. For details, refer
 
 The current installation is based on the single tenant deployment (all the ONAP
 components will be hosted in a unique tenant).
+
+.. note::
+   Prior to deploy ONAP, there is no need to download manually any Docker Container.
+   The HEAT deployment takes care to automatically download the Docker Containers.
+
 
 .. _demo-installing-running-onap-requirements:
 
