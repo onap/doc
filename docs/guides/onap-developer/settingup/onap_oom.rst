@@ -5,19 +5,25 @@
 
 .. index:: Setting Up Full ONAP using Containers
 
+<<<<<<< HEAD
 =========================================
 **Setting Up Full ONAP using Containers**
 =========================================
+=======
+
+====================================
+**Setting Up ONAP using Kubernetes**
+====================================
+>>>>>>> c110ce56... Added clarification on deployment procedure
 
 .. _installing-onap-k8s:
 
 **Context**
 ===========
 
-The recommended installation is based on Kubernetes to deploy ONAP
-components using containers.
+The recommended ONAP deployment is based on Kubernetes and Docker containers. This method is also called deployment through OOM.
 
-You must use the following version for the various sofware components.
+The following is the recommended component version.
 
   ===========  =========
   Software     Version
@@ -52,6 +58,9 @@ ONAP installation is described here:
    ../../../../submodules/oom.git/docs/oom_quickstart_guide.rst
 
 .. note::
+   Prior to deployment of ONAP, there is no need to download manually any Docker Container.
+   The OOM deployment takes care to automatically download the Docker Containers.
+   
    It is also possible to deploy a subset of ONAP components on a single VM.
    The VM flavor to be used depends on the number of ONAP components to be
    deployed.
