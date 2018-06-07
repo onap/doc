@@ -10,10 +10,9 @@
 
 .. index:: Setting Up Full ONAP using Virtual Machines
 
-
-===============================================
-**Setting Up Full ONAP using Virtual Machines**
-===============================================
+==============================
+**Setting Up ONAP using Heat**
+==============================
 
 .. _installing-onap-heat:
 
@@ -21,7 +20,7 @@
 ===========
 ONAP may be deployed in different contexts depending on your requirements.
 The recommended installation for Beijng Release over virtual machines is based
-on OpenStack HEAT Template.
+on OpenStack Heat Template.
 
 The VNFs managed by ONAP may be deployed in different OpenStack tenants or
 based on top of VMware based infrastructure. For details, refer
@@ -29,6 +28,11 @@ based on top of VMware based infrastructure. For details, refer
 
 The current installation is based on the single tenant deployment (all the ONAP
 components will be hosted in a unique tenant).
+
+.. note::
+   Prior to deployment of ONAP, there is no need to download manually any Docker Container.
+   The Heat deployment takes care to automatically download the Docker Containers.
+
 
 .. _demo-installing-running-onap-requirements:
 
