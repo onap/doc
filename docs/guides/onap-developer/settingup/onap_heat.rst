@@ -152,9 +152,9 @@ Both following files must be downloaded and configured to match your
 configuration:
 
 - Template file:
-  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml
+  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml?h=beijing
 - Environment file:
-  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env
+  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env?h=beijing
 
 The environment file must be customized as described in the following sections.
 
