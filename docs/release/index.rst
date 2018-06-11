@@ -7,7 +7,7 @@
 .. index:: Release Notes
 
 Beijing Release Notes
-=====================
+^^^^^^^^^^^^^^^^^^^^^
 This page is the ONAP Beijing Release Notes. The first release was
 Amsterdam and subsequent major release will be named using city names.
 

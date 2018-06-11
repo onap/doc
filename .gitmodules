@@ -1,330 +1,290 @@
-[submodule "docs/submodules/vnfrqts/guidelines"]
-	path = docs/submodules/vnfrqts/guidelines.git
-	url = ../vnfrqts/guidelines
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/vnfrqts/requirements"]
-	path = docs/submodules/vnfrqts/requirements.git
-	url = ../vnfrqts/requirements
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/appc"]
-	path = docs/submodules/appc.git
-	url = ../appc
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/cli"]
-	path = docs/submodules/cli.git
-	url = ../cli
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/clamp"]
-	path = docs/submodules/clamp.git
-	url = ../clamp
-	branch = .
+[submodule "docs/submodules/externalapi/nbi.git"]
+	path = docs/submodules/externalapi/nbi.git
+	url = ../externalapi/nbi
+	branch = beijing
 	ignore = dirty
 [submodule "docs/submodules/appc/deployment.git"]
 	path = docs/submodules/appc/deployment.git
 	url = ../appc/deployment
-	branch = .
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/optf/has.git"]
-	path = docs/submodules/optf/has.git
-	url = ../optf/has
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/dcaegen2.git"]
-	path = docs/submodules/dcaegen2.git
-	url = ../dcaegen2
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/aaf/authz.git"]
-	path = docs/submodules/aaf/authz.git
-	url = ../aaf/authz
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/policy/engine.git"]
-	path = docs/submodules/policy/engine.git
-	url = ../policy/engine
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/vnfsdk/model.git"]
-	path = docs/submodules/vnfsdk/model.git
-	url = ../vnfsdk/model
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/holmes/rule-management.git"]
-	path = docs/submodules/holmes/rule-management.git
-	url = ../holmes/rule-management
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/holmes/engine-management.git"]
-	path = docs/submodules/holmes/engine-management.git
-	url = ../holmes/engine-management
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/vfc/nfvo/lcm.git"]
-	path = docs/submodules/vfc/nfvo/lcm.git
-	url = ../vfc/nfvo/lcm
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/msb/apigateway.git"]
-	path = docs/submodules/msb/apigateway.git
-	url = ../msb/apigateway
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/msb/discovery.git"]
-	path = docs/submodules/msb/discovery.git
-	url = ../msb/discovery
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/msb/java-sdk.git"]
-	path = docs/submodules/msb/java-sdk.git
-	url = ../msb/java-sdk
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/msb/swagger-sdk.git"]
-	path = docs/submodules/msb/swagger-sdk.git
-	url = ../msb/swagger-sdk
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/modeling/modelspec.git"]
-	path = docs/submodules/modeling/modelspec.git
-	url = ../modeling/modelspec
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/dmaap/messagerouter/messageservice.git"]
-	path = docs/submodules/dmaap/messagerouter/messageservice.git
-	url = ../dmaap/messagerouter/messageservice
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/aai/esr-server.git"]
-	path = docs/submodules/aai/esr-server.git
-	url = ../aai/esr-server
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/oom.git"]
-	path = docs/submodules/oom.git
-	url = ../oom
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/aai/aai-common.git"]
-	path = docs/submodules/aai/aai-common.git
-	url = ../aai/aai-common
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/aai/esr-gui.git"]
-	path = docs/submodules/aai/esr-gui.git
-	url = ../aai/esr-gui
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/aai/sparky-be.git"]
-	path = docs/submodules/aai/sparky-be.git
-	url = ../aai/sparky-be
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/integration.git"]
-	path = docs/submodules/integration.git
-	url = ../integration
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/multicloud/framework.git"]
-	path = docs/submodules/multicloud/framework.git
-	url = ../multicloud/framework
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/dashboard.git"]
-	path = docs/submodules/ccsdk/dashboard.git
-	url = ../ccsdk/dashboard
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/distribution.git"]
-	path = docs/submodules/ccsdk/distribution.git
-	url = ../ccsdk/distribution
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/parent.git"]
-	path = docs/submodules/ccsdk/parent.git
-	url = ../ccsdk/parent
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/platform/blueprints.git"]
-	path = docs/submodules/ccsdk/platform/blueprints.git
-	url = ../ccsdk/platform/blueprints
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/platform/nbapi.git"]
-	path = docs/submodules/ccsdk/platform/nbapi.git
-	url = ../ccsdk/platform/nbapi
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/platform/plugins.git"]
-	path = docs/submodules/ccsdk/platform/plugins.git
-	url = ../ccsdk/platform/plugins
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/storage/esaas.git"]
-	path = docs/submodules/ccsdk/storage/esaas.git
-	url = ../ccsdk/storage/esaas
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/storage/pgaas.git"]
-	path = docs/submodules/ccsdk/storage/pgaas.git
-	url = ../ccsdk/storage/pgaas
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/utils.git"]
-	path = docs/submodules/ccsdk/utils.git
-	url = ../ccsdk/utils
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdnc/oam.git"]
-	path = docs/submodules/sdnc/oam.git
-	url = ../sdnc/oam
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/portal.git"]
-	path = docs/submodules/portal.git
-	url = ../portal
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdc.git"]
-	path = docs/submodules/sdc.git
-	url = ../sdc
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdc/jtosca.git"]
-	path = docs/submodules/sdc/jtosca.git
-	url = ../sdc/jtosca
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdc/sdc-distribution-client.git"]
-	path = docs/submodules/sdc/sdc-distribution-client.git
-	url = ../sdc/sdc-distribution-client
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdc/sdc-docker-base.git"]
-	path = docs/submodules/sdc/sdc-docker-base.git
-	url = ../sdc/sdc-docker-base
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdc/sdc-titan-cassandra.git"]
-	path = docs/submodules/sdc/sdc-titan-cassandra.git
-	url = ../sdc/sdc-titan-cassandra
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdc/sdc-tosca.git"]
-	path = docs/submodules/sdc/sdc-tosca.git
-	url = ../sdc/sdc-tosca
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/sdc/sdc-workflow-designer.git"]
-	path = docs/submodules/sdc/sdc-workflow-designer.git
-	url = ../sdc/sdc-workflow-designer
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/vid.git"]
-	path = docs/submodules/vid.git
-	url = ../vid
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/vid/asdcclient.git"]
-	path = docs/submodules/vid/asdcclient.git
-	url = ../vid/asdcclient
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/usecase-ui.git"]
-	path = docs/submodules/usecase-ui.git
-	url = ../usecase-ui
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/so.git"]
-	path = docs/submodules/so.git
-	url = ../so
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/so/libs.git"]
-	path = docs/submodules/so/libs.git
-	url = ../so/libs
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/logging-analytics.git"]
-	path = docs/submodules/logging-analytics.git
-	url = ../logging-analytics
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/modeling/toscaparsers.git"]
-	path = docs/submodules/modeling/toscaparsers.git
-	url = ../modeling/toscaparsers
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/vvp/documentation.git"]
-	path = docs/submodules/vvp/documentation.git
-	url = ../vvp/documentation
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/aai/event-client.git"]
-	path = docs/submodules/aai/event-client.git
-	url = ../aai/event-client
-	branch = .
+[submodule "docs/submodules/cli.git"]
+	path = docs/submodules/cli.git
+	url = ../cli
+	branch = beijing
 	ignore = dirty
 [submodule "docs/submodules/ui/dmaapbc.git"]
 	path = docs/submodules/ui/dmaapbc.git
 	url = ../ui/dmaapbc
-	branch = .
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/optf/osdf.git"]
-	path = docs/submodules/optf/osdf.git
-	url = ../optf/osdf
-	branch = .
+[submodule "docs/submodules/vvp/documentation.git"]
+	path = docs/submodules/vvp/documentation.git
+	url = ../vvp/documentation
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/dmaap/datarouter.git"]
-	path = docs/submodules/dmaap/datarouter.git
-	url = ../dmaap/datarouter
-	branch = .
+[submodule "docs/submodules/modeling/toscaparsers.git"]
+	path = docs/submodules/modeling/toscaparsers.git
+	url = ../modeling/toscaparsers
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/dmaap/dbcapi.git"]
-	path = docs/submodules/dmaap/dbcapi.git
-	url = ../dmaap/dbcapi
-	branch = .
+[submodule "docs/submodules/modeling/modelspec.git"]
+	path = docs/submodules/modeling/modelspec.git
+	url = ../modeling/modelspec
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/vnfsdk/model.git"]
+	path = docs/submodules/vnfsdk/model.git
+	url = ../vnfsdk/model
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/vfc/nfvo/lcm.git"]
+	path = docs/submodules/vfc/nfvo/lcm.git
+	url = ../vfc/nfvo/lcm
+	branch = beijing
 	ignore = dirty
 [submodule "docs/submodules/vfc/nfvo/driver/vnfm/svnfm.git"]
 	path = docs/submodules/vfc/nfvo/driver/vnfm/svnfm.git
 	url = ../vfc/nfvo/driver/vnfm/svnfm
-	branch = .
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/music.git"]
-	path = docs/submodules/music.git
-	url = ../music
-	branch = .
+[submodule "docs/submodules/msb/apigateway.git"]
+	path = docs/submodules/msb/apigateway.git
+	url = ../msb/apigateway
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/externalapi/nbi.git"]
-	path = docs/submodules/externalapi/nbi.git
-	url = ../externalapi/nbi
-	branch = .
+[submodule "docs/submodules/msb/discovery.git"]
+	path = docs/submodules/msb/discovery.git
+	url = ../msb/discovery
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/music/distributed-kv-store.git"]
-	path = docs/submodules/music/distributed-kv-store.git
-	url = ../music/distributed-kv-store
-	branch = .
+[submodule "docs/submodules/msb/swagger-sdk.git"]
+	path = docs/submodules/msb/swagger-sdk.git
+	url = ../msb/swagger-sdk
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/vnfrqts/testcases.git"]
-	path = docs/submodules/vnfrqts/testcases.git
-	url = ../vnfrqts/testcases
-	branch = .
+[submodule "docs/submodules/msb/java-sdk.git"]
+	path = docs/submodules/msb/java-sdk.git
+	url = ../msb/java-sdk
+	branch = beijing
 	ignore = dirty
-[submodule "docs/submodules/vnfrqts/usecases.git"]
-	path = docs/submodules/vnfrqts/usecases.git
-	url = ../vnfrqts/usecases
-	branch = .
+[submodule "docs/submodules/sdc.git"]
+	path = docs/submodules/sdc.git
+	url = ../sdc
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/multicloud/framework.git"]
+	path = docs/submodules/multicloud/framework.git
+	url = ../multicloud/framework
+	branch = beijing
 	ignore = dirty
 [submodule "docs/submodules/integration/devtool.git"]
 	path = docs/submodules/integration/devtool.git
 	url = ../integration/devtool
-	branch = .
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/integration.git"]
+	path = docs/submodules/integration.git
+	url = ../integration
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/sdc/sdc-tosca.git"]
+	path = docs/submodules/sdc/sdc-tosca.git
+	url = ../sdc/sdc-tosca
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/sdc/sdc-docker-base.git"]
+	path = docs/submodules/sdc/sdc-docker-base.git
+	url = ../sdc/sdc-docker-base
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/sdc/sdc-distribution-client.git"]
+	path = docs/submodules/sdc/sdc-distribution-client.git
+	url = ../sdc/sdc-distribution-client
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/sdc/jtosca.git"]
+	path = docs/submodules/sdc/jtosca.git
+	url = ../sdc/jtosca
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/sdc/sdc-titan-cassandra.git"]
+	path = docs/submodules/sdc/sdc-titan-cassandra.git
+	url = ../sdc/sdc-titan-cassandra
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/sdc/sdc-workflow-designer.git"]
+	path = docs/submodules/sdc/sdc-workflow-designer.git
+	url = ../sdc/sdc-workflow-designer
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/holmes/rule-management.git"]
+	path = docs/submodules/holmes/rule-management.git
+	url = ../holmes/rule-management
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/holmes/engine-management.git"]
+	path = docs/submodules/holmes/engine-management.git
+	url = ../holmes/engine-management
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/dcaegen2.git"]
+	path = docs/submodules/dcaegen2.git
+	url = ../dcaegen2
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/vnfrqts/testcases.git"]
+	path = docs/submodules/vnfrqts/testcases.git
+	url = ../vnfrqts/testcases
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/vnfrqts/requirements.git"]
+	path = docs/submodules/vnfrqts/requirements.git
+	url = ../vnfrqts/requirements
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/vnfrqts/usecases.git"]
+	path = docs/submodules/vnfrqts/usecases.git
+	url = ../vnfrqts/usecases
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/vnfrqts/guidelines.git"]
+	path = docs/submodules/vnfrqts/guidelines.git
+	url = ../vnfrqts/guidelines
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/portal.git"]
+	path = docs/submodules/portal.git
+	url = ../portal
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/logging-analytics.git"]
+	path = docs/submodules/logging-analytics.git
+	url = ../logging-analytics
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/so.git"]
+	path = docs/submodules/so.git
+	url = ../so
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/vid.git"]
+	path = docs/submodules/vid.git
+	url = ../vid
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/appc.git"]
+	path = docs/submodules/appc.git
+	url = ../appc
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/dmaap/datarouter.git"]
+	path = docs/submodules/dmaap/datarouter.git
+	url = ../dmaap/datarouter
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/dmaap/messagerouter/messageservice.git"]
+	path = docs/submodules/dmaap/messagerouter/messageservice.git
+	url = ../dmaap/messagerouter/messageservice
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/dmaap/dbcapi.git"]
+	path = docs/submodules/dmaap/dbcapi.git
+	url = ../dmaap/dbcapi
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/aai/aai-common.git"]
+	path = docs/submodules/aai/aai-common.git
+	url = ../aai/aai-common
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/aai/event-client.git"]
+	path = docs/submodules/aai/event-client.git
+	url = ../aai/event-client
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/aai/esr-server.git"]
+	path = docs/submodules/aai/esr-server.git
+	url = ../aai/esr-server
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/aai/sparky-be.git"]
+	path = docs/submodules/aai/sparky-be.git
+	url = ../aai/sparky-be
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/aai/esr-gui.git"]
+	path = docs/submodules/aai/esr-gui.git
+	url = ../aai/esr-gui
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/sdnc/oam.git"]
+	path = docs/submodules/sdnc/oam.git
+	url = ../sdnc/oam
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/music/distributed-kv-store.git"]
+	path = docs/submodules/music/distributed-kv-store.git
+	url = ../music/distributed-kv-store
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/usecase-ui.git"]
+	path = docs/submodules/usecase-ui.git
+	url = ../usecase-ui
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/optf/osdf.git"]
+	path = docs/submodules/optf/osdf.git
+	url = ../optf/osdf
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/optf/has.git"]
+	path = docs/submodules/optf/has.git
+	url = ../optf/has
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/so/libs.git"]
+	path = docs/submodules/so/libs.git
+	url = ../so/libs
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/clamp.git"]
+	path = docs/submodules/clamp.git
+	url = ../clamp
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/oom.git"]
+	path = docs/submodules/oom.git
+	url = ../oom
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/music.git"]
+	path = docs/submodules/music.git
+	url = ../music
+	branch = beijing
 	ignore = dirty
 [submodule "docs/submodules/aaf/sms.git"]
 	path = docs/submodules/aaf/sms.git
 	url = ../aaf/sms
-	branch = .
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/aaf/authz.git"]
+	path = docs/submodules/aaf/authz.git
+	url = ../aaf/authz
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/ccsdk/distribution.git"]
+	path = docs/submodules/ccsdk/distribution.git
+	url = ../ccsdk/distribution
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/ccsdk/parent.git"]
+	path = docs/submodules/ccsdk/parent.git
+	url = ../ccsdk/parent
+	branch = beijing
+	ignore = dirty
+[submodule "docs/submodules/policy/engine.git"]
+	path = docs/submodules/policy/engine.git
+	url = ../policy/engine
+	branch = beijing
 	ignore = dirty
