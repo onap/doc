@@ -111,6 +111,15 @@ Holmes
 
    holmes<../submodules/holmes/rule-management.git/docs/release-notes.rst>
 
+Integration
+-----------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   integration<../submodules/integration/integration.git/docs/release-notes.rst>
+
 Logging Analytics
 -----------------
 
