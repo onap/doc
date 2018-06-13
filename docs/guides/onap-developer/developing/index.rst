@@ -136,7 +136,7 @@ Holmes
 Integration
 -----------
 
-* ONAP Amsterdam release content is specified within a list of project
+* ONAP Beijing release content is specified within a list of project
   artifact versions available in the form of
   a :ref:`manifest<doc-release-manifest>`.
 * To install the whole ONAP (from a complete demo solution perspective)
