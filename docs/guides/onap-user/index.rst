@@ -4,8 +4,8 @@
 
 
 
-ONAP User Guides
-================
+User Guides
+===========
 The following guides are provided to describe tasks that a user of
 ONAP may need to perform when integrating, deploying, and operating
 an instance of ONAP.

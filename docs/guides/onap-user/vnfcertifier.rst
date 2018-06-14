@@ -4,6 +4,6 @@ VNF Certifier
 ==============
 
 .. toctree::
-   :maxdepth:2
+   :maxdepth: 2
 
    ../../../submodules/vvp/documentation.git/docs/index.rst

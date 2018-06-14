@@ -139,8 +139,9 @@ Integration
 * ONAP Amsterdam release content is specified within a list of project
   artifact versions available in the form of
   a :ref:`manifest<doc-release-manifest>`.
+
 * To install the whole ONAP (from a complete demo solution perspective)
-  refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
+  refer to :ref:`Setting Up ONAP <demo-installing-running-onap-requirements>`.
 
 Logging Analytics
 -----------------
