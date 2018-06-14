@@ -2,8 +2,8 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
-ONAP Use Cases
-==============
+Use Cases
+=========
 
 Example uses case descriptions and sequence diagrams illustrating
 interactions between platform components.
@@ -12,3 +12,4 @@ interactions between platform components.
    :maxdepth: 1
 
    vfw.rst
+   volte.rst

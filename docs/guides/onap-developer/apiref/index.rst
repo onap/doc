@@ -47,7 +47,7 @@ Common Services
    :titlesonly:
 
    AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI_AMSTERDAM.rst>
-   AAI ESR <../../../submodules/submodules/aai/esr-server.git/docs/offeredapis.rst>
+   AAI ESR <../../../submodules/aai/esr-server.git/docs/offeredapis.rst>
    DMAAP MR - Data Management as a Platform (Message Router) <../../../submodules/dmaap/messagerouter/messageservice.git/docs/offeredapis/offeredapis.rst>
    ExtAPI- External API/NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/offeredapis/index.rst>
    Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/offeredapis.rst>

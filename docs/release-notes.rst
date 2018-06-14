@@ -1,4 +1,3 @@
-
 .. This work is licensed under a Creative Commons Attribution 4.0
    International License. http://creativecommons.org/licenses/by/4.0
    Copyright 2017 AT&T Intellectual Property.  All rights reserved.
@@ -11,14 +10,25 @@ Release Notes
 Version: 2.0.0
 --------------
 
-:Release Date: 2018-07-06
+:Release Date: 2018-06-07
 
 
 **New Features**
 
+* Created a beijing branch referencing all repos providing documentation
+  for the beijing release.
+
+* Added tox environments and documentation for linkcheck and spellcheck buiders.
+
+* Verify jobs now include the html build in the archived log to make it
+  easier to review changes prior to merge.
+
+* Provided guidelines for document "code reviews" and
+  end of release work with multiple branches.
+
+* Added a template for a Virtual Netework Function
 
 **Other**
-
 
 Version: 1.0.0
 --------------

@@ -31,7 +31,7 @@ User Interfaces
    APPC CDT - Application Controller Design Tool  <../../../submodules/appc.git/docs/APPC CDT Guide/APPC CDT Guide.rst>
    CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/architecture.rst>
    CLI - Command Line Interface <../../../submodules/cli.git/docs/architecture.rst>
-   PORTAL
+   PORTAL <../../../submodules/portal.git/docs/platform/architecture.rst>
    SDC - Service Design and Creation <../../../submodules/sdc.git/docs/architecture.rst>
    UUI- Usecase UI <../../../submodules/usecase-ui.git/docs/platform/architecture.rst>
    VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/architecture.rst>
