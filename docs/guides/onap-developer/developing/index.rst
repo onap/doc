@@ -190,6 +190,17 @@ ONAP Operations Manager (experimental)
 
    ../../../submodules/oom.git/docs/index
 
+ONAP Optimization Framework
+--------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/optf/has.git/docs/index
+   ../../../submodules/optf/osdf.git/docs/index
+
+
 ONAP Use Case User Interface
 ----------------------------
 
