@@ -6,6 +6,7 @@ setuptools
 six
 sphinx_rtd_theme
 sphinxcontrib-blockdiag
+sphinxcontrib-needs>=0.2.3
 sphinxcontrib-nwdiag
 sphinxcontrib-seqdiag
 sphinxcontrib-swaggerdoc

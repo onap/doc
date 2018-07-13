@@ -118,3 +118,27 @@ Tasks
 
 -  Break down end-to-end tasks into manageable chunks.
 
+
+ONAP Conventions for the Use of Sphinx Directives
+-------------------------------------------------
+
+Needs Directive
+^^^^^^^^^^^^^^^
+
+ * Needs IDs must match the regular expression "^[A-Z0-9]+-[A-Z0-9]+"
+
+ * The prefix (string before the dash) must be described in the following table
+
+.. list-table:: Needs Prefix Use
+   :align: center
+   :widths: 8 40 40
+   :header-rows: 1
+
+   * - Prefix
+     - Description
+     - Use
+
+   * - R
+     - Represents a requirement that must be met by a VNF provider
+     - Defined only in the vnfrqts project repositories, may be referenced in any project repository source
+
