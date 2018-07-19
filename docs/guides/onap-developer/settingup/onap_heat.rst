@@ -408,7 +408,7 @@ command:
 ========================
 The current ONAP installation is using the *onap.org* domain.
 To use the portal on your desktop, you must configure the following information
-in your *host* file (located in /etc/host for Linux or
+in your *host* file (located in /etc/hosts for Linux or
 /windows/system32/drivers/etc/hosts for Windows):
 
 .. code-block:: bash
