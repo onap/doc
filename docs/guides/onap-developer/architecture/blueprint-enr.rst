@@ -27,7 +27,7 @@ The Beijing release provides the initial support for these capabilities.
 The community has implemented manually triggered scale-out and scale-in
 in combination with a specific VNF manager (sVNFM) and demonstrated this
 with the VoLTE blueprint. An operator uses the Usecase UI (UUI) project
-to trigger a scaleing operation. UUI communicates with the Service
+to trigger a scaling operation. UUI communicates with the Service
 Orchestrator (SO). SO uses the VF-C controller, which in turn instructs
 a vendor-provided sVNFM to implement the scale-out action.
 
