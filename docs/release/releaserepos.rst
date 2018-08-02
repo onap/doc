@@ -200,6 +200,7 @@ Service Orchestration
    :maxdepth: 1
    :titlesonly:
 
+   so<../submodules/so.git/docs/release-notes.rst>
    so/libs<../submodules/so/libs.git/docs/release-notes.rst>
 
 ONAP Use Case User Interface
