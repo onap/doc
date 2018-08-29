@@ -5,23 +5,22 @@
 ONAP Documentation
 ==================
 
-.. note::
+.. caution::
    This version of documentation is created from the latest master branch of
-   source repositories and is not a stable release.
-
-   To get the current stable release use one of the following
+   source repositories and is not a stable release.  To get the current stable
+   release use one of the following
 
    * http://docs.onap.org
    * http://docs.onap.org/en/beijing
    * the selector on the bottom right and select beijing
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    release/index
    guides/onap-developer/index
    guides/onap-user/index
-   use-cases/index
+   vnf-rg/index.rst
 
 
 
