@@ -133,6 +133,11 @@
 	url = ../multicloud/framework
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/multicloud/k8s.git"]
+	path = docs/submodules/multicloud/k8s.git
+	url = ../multicloud/k8s
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/ccsdk/dashboard.git"]
 	path = docs/submodules/ccsdk/dashboard.git
 	url = ../ccsdk/dashboard
