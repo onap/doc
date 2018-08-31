@@ -17,5 +17,3 @@ an instance of ONAP.
    platformoperations.rst
    servicedesigner.rst
    servicecreator.rst
-   vnfprovider.rst
-   vnfcertifier.rst
