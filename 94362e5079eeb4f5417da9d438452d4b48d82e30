@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_388ab36a",
+        "filename": "docs/guides/onap-provider/vnfvalidator.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-08-31T19:55:56Z",
+      "side": 1,
+      "message": "insert space  :maxdepth: 2\n\neliminates error \nvnfvalidator.rst:6: WARNING: toctree contains reference to nonexisting document u\u0027guides/onap-provider/:maxdepth:2\u0027\n\nand \n\nmay give you additional info in the outline",
+      "revId": "94362e5079eeb4f5417da9d438452d4b48d82e30",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
