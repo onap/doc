@@ -35,9 +35,9 @@ Platform Components
    DCAE - Data Collection, Analytics, and Events <../../../submodules/dcaegen2.git/docs/sections/offeredapis.rst>
    Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/offeredapis.rst>
    Policy <../../../submodules/policy/engine.git/docs/platform/offeredapis.rst>
+   SDNC - SDN Controller OAM <../../../submodules/sdnc/oam.git/docs/offeredapis.html>
    SO - Service Orchestration <../../../submodules/so.git/docs/offered_consumed_apis.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/APIs/index.rst>
-   NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/offeredapis/index.rst>
 
 Common Services
 ---------------
@@ -46,13 +46,15 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
-   AAI - Active and Available Inventory Common <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI_AMSTERDAM.rst>
-   AAI - Active and Available Inventory ESR <../../../submodules/submodules/aai/esr-server.git/docs/offeredapis.rst>
-   DMaaP - Data Management as a Platform Message Router <../../../submodules/dmaap/messagerouter/messageservice.git/docs/offeredapis/offeredapis.rst>
+   AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI_AMSTERDAM.rst>
+   AAI ESR <../../../submodules/aai/esr-server.git/docs/offeredapis.rst>
+   DMAAP MR - Data Management as a Platform (Message Router) <../../../submodules/dmaap/messagerouter/messageservice.git/docs/offeredapis/offeredapis.rst>
+   ExtAPI- External API/NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/offeredapis/index.rst>
    Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/offeredapis.rst>
    MSB - Micro Services Bus <../../../submodules/msb/apigateway.git/docs/platform/offeredapis.rst>
-   MultiVIM Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-API-Specification-V1.rst>
-   Music <../../../submodules/music.git/docs/offeredapis.rst>
+   Multi Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-API-Specification-V1.rst>
+   MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/offeredapis.rst>
+   OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/offeredapis.rst>
    VVP - VNF Validation Project <../../../submodules/vvp/documentation.git/docs/offeredapis.rst>
 
 SDK

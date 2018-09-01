@@ -4,8 +4,8 @@
 
 .. _onap_developer_guides:
 
-ONAP Developer Guides
-=====================
+Developer Guides
+================
 The following guides are provided for developers who want to
 understanding or contribute to the ONAP open source.
 
@@ -18,4 +18,5 @@ understanding or contribute to the ONAP open source.
    developing/index
    how-to-use-docs/index
    apiref/index
+   use-cases/index
 

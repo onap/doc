@@ -10,18 +10,17 @@
 
 .. index:: Setting Up Full ONAP using Virtual Machines
 
+==============================
+**Setting Up ONAP using Heat**
+==============================
 
-===============================================
-**Setting Up Full ONAP using Virtual Machines**
-===============================================
-
-.. _demo-installing-running-onap:
+.. _installing-onap-heat:
 
 **Context**
 ===========
 ONAP may be deployed in different contexts depending on your requirements.
 The recommended installation for Beijng Release over virtual machines is based
-on OpenStack HEAT Template.
+on OpenStack Heat Template.
 
 The VNFs managed by ONAP may be deployed in different OpenStack tenants or
 based on top of VMware based infrastructure. For details, refer
@@ -29,6 +28,11 @@ based on top of VMware based infrastructure. For details, refer
 
 The current installation is based on the single tenant deployment (all the ONAP
 components will be hosted in a unique tenant).
+
+.. note::
+   Prior to deployment of ONAP, there is no need to download manually any Docker Container.
+   The Heat deployment takes care to automatically download the Docker Containers.
+
 
 .. _demo-installing-running-onap-requirements:
 
@@ -148,9 +152,9 @@ Both following files must be downloaded and configured to match your
 configuration:
 
 - Template file:
-  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml
+  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml?h=beijing
 - Environment file:
-  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env
+  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env?h=beijing
 
 The environment file must be customized as described in the following sections.
 
@@ -408,7 +412,7 @@ command:
 ========================
 The current ONAP installation is using the *onap.org* domain.
 To use the portal on your desktop, you must configure the following information
-in your *host* file (located in /etc/hosts for Linux or
+in your *hosts* file (located in /etc/hosts for Linux or
 /windows/system32/drivers/etc/hosts for Windows):
 
 .. code-block:: bash

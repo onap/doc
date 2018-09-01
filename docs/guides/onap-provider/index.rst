@@ -4,8 +4,8 @@
 
 
 
-ONAP VNF Requirements and Guidelines
-=====================================
+VNF Requirements and Guidelines
+===============================
 
 The following includes guides and requirements are provided to
 describe tasks that an xNF provider of ONAP may need to properly
