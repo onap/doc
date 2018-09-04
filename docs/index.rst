@@ -5,11 +5,10 @@
 ONAP Documentation
 ==================
 
-.. note::
+.. caution::
    This version of documentation is created from the latest master branch of
-   source repositories and is not a stable release.
-
-   To get the current stable release use one of the following
+   source repositories and is not a stable release.  To get the current stable
+   release use one of the following
 
    * http://docs.onap.org
    * http://docs.onap.org/en/beijing
@@ -22,7 +21,6 @@ ONAP Documentation
    guides/onap-developer/index
    guides/onap-user/index
    guides/onap-provider/index
-   use-cases/index
 
 
 

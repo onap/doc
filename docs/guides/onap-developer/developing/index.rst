@@ -1,4 +1,5 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a Creative Commons Attribution
+.. 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
@@ -32,6 +33,25 @@ Application Controller
 
    ../../../submodules/appc/deployment.git/docs/index
    ../../../submodules/appc.git/docs/index
+
+Application Authorization Framework
+-----------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/aaf/authz.git/docs/index
+
+Command Line Interface
+----------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/cli.git/docs/index
+
 
 Closed Loop Automation Platform
 -------------------------------
@@ -116,11 +136,15 @@ Holmes
 Integration
 -----------
 
-* ONAP Amsterdam release content is specified within a list of project artifact versions available in the form of a :ref:`manifest<doc-release-manifest>`.
-* To install the whole ONAP (from a complete demo solution perspective) refer to :ref:`Setting Up ONAP <demo-installing-running-onap>`.
+* ONAP Beijing release content is specified within a list of project
+  artifact versions available in the form of
+  a :ref:`manifest<doc-release-manifest>`.
 
-Logging Enhancements Project
-----------------------------
+* To install the whole ONAP (from a complete demo solution perspective)
+  refer to :ref:`Setting Up ONAP <demo-installing-running-onap-requirements>`.
+
+Logging Analytics
+-----------------
 
 .. toctree::
    :maxdepth: 2
@@ -171,18 +195,8 @@ Music
 
    ../../../submodules/music.git/docs/index
 
-
-ONAP Command Line Interface
----------------------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   ../../../submodules/cli.git/docs/index
-
-ONAP Operations Manager (experimental)
---------------------------------------
+ONAP Operations Manager
+-----------------------
 
 .. toctree::
    :maxdepth: 2
@@ -190,8 +204,8 @@ ONAP Operations Manager (experimental)
 
    ../../../submodules/oom.git/docs/index
 
-ONAP Optimization Framework
---------------------------------------
+Optimization Framework
+----------------------
 
 .. toctree::
    :maxdepth: 2
@@ -199,16 +213,6 @@ ONAP Optimization Framework
 
    ../../../submodules/optf/has.git/docs/index
    ../../../submodules/optf/osdf.git/docs/index
-
-
-ONAP Use Case User Interface
-----------------------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   ../../../submodules/usecase-ui.git/docs/index
 
 Policy Framework
 ----------------
@@ -272,6 +276,15 @@ Software Defined Network Controller
    ../../../submodules/sdnc/northbound.git/docs/index
    ../../../submodules/sdnc/parent.git/docs/index
    ../../../submodules/sdnc/plugins.git/docs/index
+
+Use Case User Interface
+-----------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/usecase-ui.git/docs/index
 
 User Interface Applications
 ---------------------------

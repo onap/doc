@@ -1,5 +1,5 @@
 ONAP Blueprint Enrichment
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 The ONAP Beijing release includes four functional enhancements in the
 areas of manually triggered scaling, change management, and hardware
@@ -9,7 +9,7 @@ applicable to any use case; however, to showcase them in a concrete
 manner, they have been incorporated into VoLTE and vCPE blueprints.
 
 Manually Triggered Scaling
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Scale-out and scale-in are two primary benefits of NFV. Scaling can be
 triggered manually (e.g., by a user or OSS/BSS) or automatically via a
@@ -27,7 +27,7 @@ The Beijing release provides the initial support for these capabilities.
 The community has implemented manually triggered scale-out and scale-in
 in combination with a specific VNF manager (sVNFM) and demonstrated this
 with the VoLTE blueprint. An operator uses the Usecase UI (UUI) project
-to trigger a scaling operation. UUI communicates with the Service
+to trigger a scaleing operation. UUI communicates with the Service
 Orchestrator (SO). SO uses the VF-C controller, which in turn instructs
 a vendor-provided sVNFM to implement the scale-out action.
 
@@ -41,7 +41,7 @@ APPC over DMaaP, where APPC picks it up and executes the configuration
 scale out action on the requested VNF.
 
 Change Management
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 NFV will bring with it an era of continuous, incremental changes instead
 of periodic step-function software upgrades, in addition to a constant
@@ -69,7 +69,7 @@ the SDN-C controller in terms of running the pre-check, post-check and
 upgrade through Ansible playbooks.
 
 Hardware Platform Awareness (HPA)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Many VNFs have specific hardware requirements to achieve their
 performance and security goals. These hardware requirements may range
