@@ -36,7 +36,7 @@ Platform Components
    Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/offeredapis.rst>
    Policy <../../../submodules/policy/engine.git/docs/platform/offeredapis.rst>
    SDNC - SDN Controller OAM <../../../submodules/sdnc/oam.git/docs/offeredapis.html>
-   SO - Service Orchestration <../../../submodules/so.git/docs/offered_consumed_apis.rst>
+   SO - Service Orchestration <../../../submodules/so.git/docs/api/offered_consumed_apis.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/APIs/index.rst>
 
 Common Services
