@@ -35,7 +35,7 @@ Platform Components
    DCAE - Data Collection, Analytics, and Events <../../../submodules/dcaegen2.git/docs/sections/offeredapis.rst>
    Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/offeredapis.rst>
    Policy <../../../submodules/policy/engine.git/docs/platform/offeredapis.rst>
-   SO - Service Orchestration <../../../submodules/so.git/docs/offered_consumed_apis.rst>
+   SO - Service Orchestration <../../../submodules/so.git/docs/api/offered_consumed_apis.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/APIs/index.rst>
    NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/offeredapis/index.rst>
 
