@@ -53,5 +53,14 @@ committers:
         company: 'Nokia'
         id: 'tperala'
         timezone: 'Europe/Helsinki'
+    - name: 'Sofia Wallin'
+        email: 'sofia.wallin@ericsson.com'
+        company: 'Ericsson'
+        id: 'sofiawallin'
+        timezone: 'Europe/Stockholm'
 tsc:
     approval: 'https://lists.onap.org/pipermail/onap-tsc'
+    changes:
+        - type: 'Addition'
+          name: 'Sofia Wallin'
+          link: 'https://lists.onap.org/g/onap-discuss/topic/25520248#12413'
