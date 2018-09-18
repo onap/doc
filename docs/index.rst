@@ -7,8 +7,8 @@ ONAP Documentation
 
 .. caution::
    This version of documentation is created from the latest master branch of
-   source repositories and is not a stable release.  To get the current stable
-   release use one of the following
+   source repositories, includes a proposed theme change, and is not a stable release.
+   To get the current stable release use one of the following
 
    * http://docs.onap.org
    * http://docs.onap.org/en/beijing
