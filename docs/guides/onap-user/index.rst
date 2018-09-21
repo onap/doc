@@ -12,3 +12,4 @@ Describe the different user audiences, tasks performed, and the guides provided 
    servicedesigner.rst
    serviceadmin.rst
    platformadmin.rst
+   onapadmin.rst
