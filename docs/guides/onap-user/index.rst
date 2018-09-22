@@ -17,3 +17,4 @@ an instance of ONAP.
    platformoperations.rst
    servicedesigner.rst
    servicecreator.rst
+   onapadmin.rst
