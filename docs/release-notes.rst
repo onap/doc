@@ -47,7 +47,7 @@ on readthedocs.
 
 The developer wiki still contains some pages that are referenced from the
 readthedocs documentation. The pages and links that remain to be migrated
-are listed in Jira Issue DOC-179.
+are listed in Jira Issue `DOC-179 <https://jira.onap.org/browse/DOC-179>`_.
 
 ===========
 
