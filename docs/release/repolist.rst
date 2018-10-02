@@ -78,3 +78,4 @@ Project/Components
    vnfrqts/usecases <../submodules/vnfrqts/usecases.git/docs/index>
    Devtool <../submodules/integration/devtool.git/docs/source/index>
    Secret Management Service <../submodules/aaf/sms.git/docs/index>
+   policy/apex-pdp <../submodules/policy/apex-pdp.git/docs/index>
