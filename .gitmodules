@@ -333,3 +333,6 @@
 	url = ../aaf/sms
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/policy/apex-pdp.git"]
+	path = docs/submodules/policy/apex-pdp.git
+	url = ../policy/apex-pdp
