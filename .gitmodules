@@ -336,3 +336,5 @@
 [submodule "docs/submodules/policy/apex-pdp.git"]
 	path = docs/submodules/policy/apex-pdp.git
 	url = ../policy/apex-pdp
+	branch = .
+	ignore = dirty
