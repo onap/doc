@@ -22,6 +22,7 @@ Active and Available Inventory
    AAI-esr-gui <../../../submodules/aai/esr-gui.git/docs/index>
    ../../../submodules/aai/esr-server.git/docs/index
    ../../../submodules/aai/sparky-be.git/docs/index
+   ../../../submodules/aai/event-client.git/docs/index.rst
 
 
 Application Controller
@@ -42,6 +43,7 @@ Application Authorization Framework
    :titlesonly:
 
    ../../../submodules/aaf/authz.git/docs/index
+   Secret Management Service <../../../submodules/aaf/sms.git/docs/index>
 
 Command Line Interface
 ----------------------
@@ -71,6 +73,7 @@ Common Controller Software Development Kit
 
    ../../../submodules/ccsdk/distribution.git/docs/index
    ../../../submodules/ccsdk/dashboard.git/docs/index
+   ../../../submodules/ccsdk/platform/plugins.git/docs/index
 
 .. Being consolidated in ccsdk distribution
    ../../../submodules/ccsdk/platform/blueprints.git/docs/index
@@ -79,7 +82,6 @@ Common Controller Software Development Kit
    ../../../submodules/ccsdk/storage/pgaas.git/docs/index
    ../../../submodules/ccsdk/utils.git/docs/index
    ../../../submodules/ccsdk/parent.git/docs/index
-   ../../../submodules/ccsdk/platform/plugins.git/docs/index
    ../../../submodules/ccsdk/sli/adaptors.git/docs/index
    ../../../submodules/ccsdk/sli/core.git/docs/index
    ../../../submodules/ccsdk/sli/northbound.git/docs/index
@@ -94,6 +96,24 @@ Data Collection, Analysis, and Events
 
    ../../../submodules/dcaegen2.git/docs/index
 
+Data Management as a Platform Data Bus Controller
+-------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../../../submodules/dmaap/dbcapi.git/docs/index
+
+Data Management as a Platform Data Router
+-----------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../../../submodules/dmaap/datarouter.git/docs/index
+
 Data Management as a Platform Message Router
 --------------------------------------------
 
@@ -102,6 +122,15 @@ Data Management as a Platform Message Router
    :titlesonly:
 
    ../../../submodules/dmaap/messagerouter/messageservice.git/docs/index
+
+Development Tools
+-----------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../../../submodules/integration/devtool.git/docs/source/index
 
 Documentation
 -------------
@@ -194,6 +223,7 @@ Music
    :titlesonly:
 
    ../../../submodules/music.git/docs/index
+   ../../../submodules/music/distributed-kv-store.git/docs/index
 
 ONAP Operations Manager
 -----------------------
@@ -317,17 +347,6 @@ Virtual Infrastructure Deployment
 .. Empty folders for this release
    ../../../submodules/vid/asdcclient.git/docs/index
 
-VNF Requirements
-----------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-
-   ../../../submodules/vnfrqts/guidelines.git/docs/index
-   ../../../submodules/vnfrqts/requirements.git/docs/index
-
 VNF Software Development Kit
 ----------------------------
 
@@ -336,12 +355,3 @@ VNF Software Development Kit
    :titlesonly:
 
    ../../../submodules/vnfsdk/model.git/docs/index
-
-VNF Validation Project
------------------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   ../../../submodules/vvp/documentation.git/docs/index
