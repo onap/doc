@@ -34,7 +34,7 @@ product could on its own.
 
 Functionality
 -------------
-**Portal** - a single, consistent user experience for both design timer
+**Portal** - a single, consistent user experience for both design time
 and run time environments, based on the user’s role.
 
 **Design Time Framework** - a comprehensive development environment with
