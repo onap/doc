@@ -85,3 +85,4 @@ Project/Components
    sdc/sdc-tosca <../submodules/sdc/sdc-tosca.git/docs/index>
    vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
 
+   multicloud/azure <../submodules/multicloud/azure.git/docs/index>
