@@ -338,3 +338,6 @@
 	url = ../policy/apex-pdp
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/multicloud/azure.git"]
+	path = docs/submodules/multicloud/azure.git
+	url = ../multicloud/azure
