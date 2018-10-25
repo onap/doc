@@ -104,6 +104,7 @@ Data Management as a Platform Data Bus Controller
    :titlesonly:
 
    ../../../submodules/dmaap/dbcapi.git/docs/index
+   ../../../submodules/dmaap/buscontroller.git/docs/index
 
 Data Management as a Platform Data Router
 -----------------------------------------

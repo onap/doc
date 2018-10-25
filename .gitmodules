@@ -341,3 +341,8 @@
 [submodule "docs/submodules/multicloud/azure.git"]
 	path = docs/submodules/multicloud/azure.git
 	url = ../multicloud/azure
+[submodule "docs/submodules/dmaap/buscontroller.git"]
+	path = docs/submodules/dmaap/buscontroller.git
+	url = ../dmaap/buscontroller
+	branch = .
+	ignore = dirty
