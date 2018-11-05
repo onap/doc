@@ -6,14 +6,14 @@
 
 .. index:: Release Notes
 
-Beijing Release Notes
-^^^^^^^^^^^^^^^^^^^^^
-This page is the ONAP Beijing Release Notes. The first release was
-Amsterdam and subsequent major release will be named using city names.
+Casablanca Release Notes
+^^^^^^^^^^^^^^^^^^^^^^^^
+This page is the ONAP Casablanca Release Notes. The first release was labelled
+Amsterdam, second release Beijing and subsequent major release will be named using city names.
 
-* Release Name: Beijing
-* Release Version: 2.0.0
-* Release Date: June 7, 2018
+* Release Name: Casablanca
+* Release Version: 3.0.0
+* Release Date: Nov xx, 2018
 
 
 Getting Started With ONAP
@@ -128,7 +128,7 @@ There are 3 approaches to install ONAP:
 
 Documentation
 =============
-ONAP Beijing Release provides multiple documents including the following:
+ONAP Casablanca Release provides multiple documents including the following:
 
  * A high level :ref:`architecture view<doc-architecture>` of how components
    relate to each other.
@@ -147,7 +147,7 @@ ONAP Beijing Release provides multiple documents including the following:
 
 Security Notes
 ==============
-ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_. The goal of the Beijing release is for all ONAP projects to be close to achieving a CII Passing badge.
+ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_. The goal of the Casablanca release is for all ONAP projects to be close to achieving a CII Passing badge.
 
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge#core-infrastructure-initiative-best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
