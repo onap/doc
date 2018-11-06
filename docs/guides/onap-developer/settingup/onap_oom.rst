@@ -22,9 +22,9 @@ The following is the recommended component version.
   ===========  =========
   Software     Version
   ===========  =========
-  Kubernetes   1.8.10
-  Helm         2.8.2
-  kubectl      1.8.10
+  Kubernetes   1.11.2
+  Helm         2.9.1
+  kubectl      1.11.2
   Docker       17.03.x
   ===========  =========
 
@@ -37,10 +37,10 @@ Creation of Kubernetes cluster is described here:
    ../../../../submodules/oom.git/docs/oom_cloud_setup_guide.rst
 
 
-The ONAP full installation requires the following footprint:
- - 4 VM
- - 32 vCPU
- - 128 GB RAM
+The ONAP full installation was validated with the following footprint:
+ - 14 VM (1 rancher, 13 k8s nodes)
+   - 8 vCPU
+   - 16 GB RAM
  - 160 GB Storage
 
 ONAP installation is described here:
