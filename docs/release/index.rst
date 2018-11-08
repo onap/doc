@@ -9,11 +9,12 @@
 Casablanca Release Notes
 ^^^^^^^^^^^^^^^^^^^^^^^^
 This page is the ONAP Casablanca Release Notes. The first release was labelled
-Amsterdam, second release Beijing and subsequent major release will be named using city names.
+Amsterdam, second release Beijing and subsequent major release will be named
+using city names.
 
 * Release Name: Casablanca
 * Release Version: 3.0.0
-* Release Date: Nov xx, 2018
+* Release Date: Nov 30, 2018
 
 
 Getting Started With ONAP
@@ -39,7 +40,7 @@ and run time environments, based on the user’s role.
 
 **Design Time Framework** - a comprehensive development environment with
 tools, techniques, and repositories for defining/describing resources,
-services, and products:
+and services:
 
  - Service Design and Creation (SDC) provides tools, techniques, and
    repositories to define/simulate/certify system assets as well as their
@@ -122,9 +123,11 @@ Installation
 ============
 There are 3 approaches to install ONAP:
 
-* :ref:`Installation using Kubernetes (aka OOM) <installing-onap-k8s>`. Recommended method.
+* :ref:`Installation using Kubernetes (aka OOM) <installing-onap-k8s>`.
+  Recommended method.
 * :ref:`Installation using Heat template <installing-onap-heat>`.
-* :ref:`Advanced installation to install individual components <installing-onap-individual>`.
+* :ref:`Advanced installation to install individual components
+  <installing-onap-individual>`.
 
 Documentation
 =============
