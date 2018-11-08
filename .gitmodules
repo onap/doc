@@ -346,3 +346,8 @@
 	url = ../dmaap/buscontroller
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/optf/cmso.git"]
+	path = docs/submodules/optf/cmso.git
+	url = ../optf/cmso
+	branch = .
+	ignore = dirty
