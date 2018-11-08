@@ -86,3 +86,4 @@ Project/Components
    vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
 
    multicloud/azure <../submodules/multicloud/azure.git/docs/index>
+   optf/cmso <../submodules/optf/cmso.git/docs/index>
