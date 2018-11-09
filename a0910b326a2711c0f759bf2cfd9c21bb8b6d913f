@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_0ba119f8",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2018-11-09T07:35:01Z",
+      "side": 1,
+      "message": "this can be removed since page navigation is enabled on RTD",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 24
+      },
+      "revId": "a0910b326a2711c0f759bf2cfd9c21bb8b6d913f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
