@@ -5,14 +5,10 @@
 ONAP Documentation
 ==================
 
-.. caution::
-   This version of documentation is created from the latest master branch of
-   source repositories, includes a proposed theme change, and is not a stable release.
-   To get the current stable release use one of the following
-
-   * http://docs.onap.org
-   * http://docs.onap.org/en/beijing
-   * the selector on the bottom right and select beijing
+.. important::
+   Casablanca Release Documentation
+   
+   ** UNDER CONSTRUCTION **
 
 .. toctree::
    :maxdepth: 2
