@@ -210,7 +210,7 @@ supports OpenStack(Heat) and bare metal deployment.
 
 ONAP delivers a single, consistent user experience to both design-time
 and run-time environments, based on the user’s role. Role changes are
-are configured within a single ONAP instance instance.
+configured within a single ONAP instance.
 
 This user experience is managed by the ONAP Portal, which provides
 access to design, analytics and operational control/administration
