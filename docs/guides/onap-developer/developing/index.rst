@@ -244,6 +244,7 @@ Optimization Framework
 
    ../../../submodules/optf/has.git/docs/index
    ../../../submodules/optf/osdf.git/docs/index
+   ../../../submodules/optf/cmso.git/docs/index
 
 Policy Framework
 ----------------
