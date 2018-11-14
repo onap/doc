@@ -17,11 +17,5 @@
 # Usage:   sh smsummary.sh output_file
 #
 
-echo "************************************************************************************" > $1
-echo "* Submodule branches used to build this version of the documentation.              *" >> $1
-echo "************************************************************************************" >> $1
-
-git submodule foreach git for-each-ref \
-  --format='%(committerdate:iso8601) %(objectname) %(HEAD) %(refname) %(subject)' \
-  --sort -committerdate refs/heads/ | \
-  sed -e 's:^:       :' -e 's:       Entering .docs/submodules/::' -e 's:.git.$::' -e 's:refs/heads/::' >> $1
+cd docs/submodules
+git submodule status | sed -e 's:^ ::' -e 's: :,:' -e 's: :,:' -e 's:[()]::g' -e 's:\.git::' > $1

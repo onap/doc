@@ -5,6 +5,9 @@
 Contributing Submodule Summary
 ==============================
 
-.. code-block:: console
-   
-.. literalinclude:: _static/smsummary.out
+This summary is currently only generated in a jenkins verify job log.   The table
+will be empty when published at Read The Docs.   
+
+.. csv-table::
+   :header: "Commit Hash", "Submodule Repository", "Reference"
+   :file: _static/smsummary.csv
