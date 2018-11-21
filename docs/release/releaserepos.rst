@@ -136,8 +136,8 @@ Modeling
    :maxdepth: 1
    :titlesonly:
 
-   modeling/modelspec<../submodules/modeling/toscaparsers.git/docs/javatoscachecker/release-notes.rst>
-   modeling/toscaparsers<../submodules/modeling/toscaparsers.git/docs/nfvparser/release-notes/release-notes.rst>
+   Java Tosca Checker <../submodules/modeling/toscaparsers.git/docs/javatoscachecker/release-notes/index.rst>
+   NFV Tosca Parser <../submodules/modeling/toscaparsers.git/docs/nfvparser/release-notes/release-notes.rst>
 
 Micro Services Bus
 ------------------

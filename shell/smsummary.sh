@@ -17,5 +17,4 @@
 # Usage:   sh smsummary.sh output_file
 #
 
-cd docs/submodules
 git submodule status | sed -e 's:^ ::' -e 's: :,:' -e 's: :,:' -e 's:[()]::g' -e 's:\.git::' > $1
