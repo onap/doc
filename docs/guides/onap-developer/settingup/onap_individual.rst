@@ -3,7 +3,6 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017-2018 ONAP
 
-
 .. index:: Setting Up ONAP individual components
 
 
@@ -23,13 +22,10 @@ developers who desire to focus their attention on a few components and who
 have a deep understanding of dependencies between components.
 This type of installation is not recommended to fully install ONAP.
 
-* The list of ports used by default within ONAP is documented
-  in `ONAP Service List <https://wiki.onap.org/display/DW/ONAP+Services+List>`_.
-
 * The ONAP Source Code is available through Gerrit
   at https://gerrit.onap.org/r/#/admin/projects or Git at https://git.onap.org/.
 
-* ONAP is packaged within Docker and can be dowloaded from Docker Hub at https://hub.docker.com/r/onap.
+* ONAP is packaged within Docker and can be downloaded from Docker Hub at https://hub.docker.com/r/onap.
 
 * ONAP Docker releases are specified by a list of project artifact versions
   in a :ref:`manifest<doc-release-manifest>`.
