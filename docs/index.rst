@@ -21,11 +21,3 @@ ONAP Documentation
    guides/onap-developer/index
    guides/onap-user/index
    guides/onap-provider/index
-
-
-
-Index and Search
-================
-
-* :ref:`genindex`
-* :ref:`search`
