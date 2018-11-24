@@ -9,6 +9,8 @@
 Setting Up ONAP
 ===============
 
+.. _installing-onap:
+
 ONAP is deployed using the ONAP Operations Manager (OOM).
 
 The recommended ONAP deployment is based on Kubernetes, Docker containers

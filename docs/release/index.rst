@@ -97,7 +97,7 @@ Detect -> Publish -> Respond:
 
 **Microservices Support**
 
- - ONAP Operation Manager (OOM) use kubernetes and Helm to manage ONAP
+ - ONAP Operation Manager (OOM) use Kubernetes and Helm to manage ONAP
    components.
  - Microservices Bus (MSB) provides service registration/discovery,
    external API gateway, internal API gateway, client software development kit
@@ -116,13 +116,8 @@ are compatible with a major release are made available.
 
 Installation
 ============
-There are 3 approaches to install ONAP:
-
-* :ref:`Installation using Kubernetes (aka OOM) <installing-onap-k8s>`.
-  Recommended method.
-* :ref:`Installation using Heat template <installing-onap-heat>`.
-* :ref:`Advanced installation to install individual components
-  <installing-onap-individual>`.
+ONAP is installed using
+:ref:`ONAP Operations Manager (OOM) over Kubernetes<installing-onap>`
 
 Documentation
 =============
@@ -145,7 +140,10 @@ ONAP Casablanca Release provides multiple documents including the following:
 
 Security Notes
 ==============
-ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_. The goal of the Casablanca release is for all ONAP projects to be close to achieving a CII Passing badge.
+ONAP has adopted the 
+`CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
+The goal of the Casablanca release is for all ONAP projects to be close to
+achieving a CII Passing badge.
 
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge#core-infrastructure-initiative-best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
