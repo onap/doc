@@ -7,18 +7,31 @@
 Release Notes
 =============
 
+Version: 3.0.0
+--------------
+
+:Release Date: 2018-11-30
+
+**New Features**
+
+* Introduced a new theme (mobile compatible)
+
+* Added a 'Report Issue' link to open a Jira bug report
+
+* Include swagger2doc plugin to better display Swagger files
+
 Version: 2.0.0
 --------------
 
 :Release Date: 2018-06-07
-
 
 **New Features**
 
 * Created a beijing branch referencing all repos providing documentation
   for the beijing release.
 
-* Added tox environments and documentation for linkcheck and spellcheck buiders.
+* Added tox environments and documentation for linkcheck and spellcheck
+  buiders.
 
 * Verify jobs now include the html build in the archived log to make it
   easier to review changes prior to merge.
@@ -33,10 +46,7 @@ Version: 2.0.0
 Version: 1.0.0
 --------------
 
-
 :Release Date: 2017-11-16
-
-
 
 **New Features**
 
