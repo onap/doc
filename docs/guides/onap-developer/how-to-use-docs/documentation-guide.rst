@@ -10,8 +10,8 @@ content depending on the nature of the project.  For example projects
 delivering a platform component may have different types of content than
 a project that creates libraries for a software development kit.
 The content from each project may be used together as a reference for
-that project and/or be used in documents are tailored to a specific
-user audience and task they are performing.
+that project and/or be used in documents that are tailored to a specific
+user audience and tasks they are performing.
 
 Much of the content in this document is derived from similar
 documentation processes used in other Linux Foundation
@@ -25,7 +25,7 @@ with gerrit reviews, and published documents generated when there is a
 change in any source used to build the documentation.
 
 Authors create source for documents in reStructured Text (RST) that is
-rendered to HTML and PDF and published on Readthedocs.io.
+rendered to HTML and published on Readthedocs.io.
 The developer Wiki or other web sites can reference these rendered
 documents directly allowing projects to easily maintain current release
 documentation.
@@ -109,7 +109,7 @@ is referenced from this structure.
 
 ::
 
-    docs/
+    docs
     ├── guides
     │   ├── onap-developer
     │   │   ├── apiref
@@ -117,20 +117,14 @@ is referenced from this structure.
     │   │   ├── developing
     │   │   ├── how-to-use-docs
     │   │   ├── settingup
-    │   │   └── tutorials
+    │   │   ├── tutorials
+    │   │   └── use-cases
+    │   ├── onap-provider
     │   └── onap-user
-    │       ├── onap-portal
-    │       ├── platform operations
-    │       ├── service design
-    │       ├── service deployment
-    │       ├── vnf provider
-    │       └── vnf certifier
     ├── release
-    ├── templates
-    │   ├── collections
-    │   └── sections
-    └── use-cases
-
+    └── templates
+        ├── collections
+        └── sections
 
 Source Files
 ------------
@@ -159,4 +153,3 @@ files:
 When there are subsequent, significant contributions to a source file
 from a different contributor, a new copyright line may be appended
 after the last existing copyright line.
-

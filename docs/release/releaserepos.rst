@@ -128,6 +128,7 @@ Logging Analytics
    :titlesonly:
 
    logging-analytics<../submodules/logging-analytics.git/docs/release-notes.rst>
+   pomba<../submodules/logging-analytics/pomba/pomba-audit-common.git/docs/release-notes.rst>
 
 Modeling
 --------
