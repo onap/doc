@@ -358,3 +358,8 @@
 	url = ../policy/distribution
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/logging-analytics/pomba/pomba-audit-common.git"]
+	path = docs/submodules/logging-analytics/pomba/pomba-audit-common.git
+	url = ../logging-analytics/pomba/pomba-audit-common
+	branch = .
+	ignore = dirty
