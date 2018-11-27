@@ -30,8 +30,10 @@ The current installation is based on the single tenant deployment (all the ONAP
 components will be hosted in a unique tenant).
 
 .. note::
-   Prior to deployment of ONAP, there is no need to download manually any Docker Container.
-   The Heat deployment takes care to automatically download the Docker Containers.
+   Prior to deployment of ONAP, there is no need to download manually any
+   Docker Container.
+   The Heat deployment takes care to automatically download the Docker
+   Containers.
 
 
 .. _demo-installing-running-onap-requirements:
@@ -85,22 +87,22 @@ components, and provides VM information (flavor and image):
     ===================  =================   =======  ============
     VM name              ONAP project(s)     Flavor   Image
     ===================  =================   =======  ============
-    onap-aai-inst1       AAI                 xlarge   Ubuntu 14.04
-    onap-aai-inst2       AAI/UI              xlarge   Ubuntu 14.04
-    onap-appc            APPC, CCSDK         large    Ubuntu 14.04
+    onap-aai-inst1       AAI                 xlarge   Ubuntu 16.04
+    onap-aai-inst2       AAI/UI              xlarge   Ubuntu 16.04
+    onap-appc            APPC, CCSDK         large    Ubuntu 16.04
     onap-clamp           CLAMP               medium   Ubuntu 16.04
-    onap-dns-server      *Internal DNS*      small    Ubuntu 14.04
-    onap-message-router  DMAAP               large    Ubuntu 14.04
+    onap-dns-server      *Internal DNS*      small    Ubuntu 16.04
+    onap-message-router  DMAAP               large    Ubuntu 16.04
     onap-multi-service   MSB, VF-C, VNFSDK   xlarge   Ubuntu 16.04
-    onap-policy          Policy              xlarge   Ubuntu 14.04
-    onap-portal          Portal, CLI         large    Ubuntu 14.04
+    onap-policy          Policy              xlarge   Ubuntu 16.04
+    onap-portal          Portal, CLI         large    Ubuntu 16.04
     onap-robot           Integration         medium   Ubuntu 16.04
     onap-sdc             SDC                 xlarge   Ubuntu 16.04
-    onap-sdnc            SDNC, CCSDK         large    Ubuntu 14.04
+    onap-sdnc            SDNC, CCSDK         large    Ubuntu 16.04
     onap-so              SO                  large    Ubuntu 16.04
-    onap-vid             VID                 medium   Ubuntu 14.04
+    onap-vid             VID                 medium   Ubuntu 16.04
     onap-dcae            DCAE, Holmes        xlarge   Ubuntu 16.04
-    onap-music           Music               large    Ubuntu 14.04
+    onap-music           Music               large    Ubuntu 16.04
     onap-oof             OOF                 large    Ubuntu 16.04
     onap-aaf             AAF                 medium   Ubuntu 16.04
     onap-sms             AAF                 medium   Ubuntu 16.04
@@ -122,7 +124,6 @@ Artifacts
 ---------
 The following artifacts must be deployed on the OpenStack infrastructure:
  - a public SSH key to access the various VM
- - Ubuntu 14.04 image (https://cloud-images.ubuntu.com/releases/14.04/14.04/)
  - Ubuntu 16.04 image (https://cloud-images.ubuntu.com/releases/16.04/release/)
  - Set of flavors: small, medium, large, xlarge
 
@@ -152,9 +153,9 @@ Both following files must be downloaded and configured to match your
 configuration:
 
 - Template file:
-  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml?h=beijing
+  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.yaml?h=casablanca
 - Environment file:
-  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env?h=beijing
+  https://git.onap.org/demo/plain/heat/ONAP/onap_openstack.env?h=casablanca
 
 The environment file must be customized as described in the following sections.
 
@@ -256,7 +257,6 @@ OpenStack-based cloud.
 
 ::
 
- ubuntu_1404_image:  PUT THE UBUNTU 14.04 IMAGE NAME HERE
  ubuntu_1604_image:  PUT THE UBUNTU 16.04 IMAGE NAME HERE
  flavor_small:       PUT THE SMALL FLAVOR NAME HERE
  flavor_medium:      PUT THE MEDIUM FLAVOR NAME HERE
@@ -277,6 +277,12 @@ following OpenStack CLI command:
 
         openstack flavor list
 
+**Proxy parameters**
+
+::
+  http_proxy: PUT YOUR HTTP PROXY ADDRESS (if you don't work behind a proxy put no_proxy)
+  https_proxy: PUT YOUR HTTPS PROXY ADDRESS (if you don't work behind a proxy put no_proxy)
+
 **Network parameters**
 
 ::
@@ -295,15 +301,24 @@ network.
 
 **DCAE Parameters**
 
-For Beijing Release, all the DCAE components are deployed in a single
-virtual machine.
-You must specify R2 to run R2 DCAE components.
-Is you are using R1 to get R1 ONAP, you must fill all the other
-DCAE parameters.
-Please refer to the Amsterdam documentation to fill these parameters.
+Depending on the set of DCAE compoennts to be deployed, you can select
+
+- R3 MVP - This profile includes a minimum set of DCAE components that will
+  support the vFW/vDNS, vCPE. and vVoLTE use cases. It will deploy the
+  following components: Consul server, Config Binding Service, Postgres
+  database, VES collector, TCA analytics, Holmes rule management, Holmes
+  engine management
+- R3 - This profile also deploys the rest of the DCAE platform. With R3
+  deployment profile, DCAE supports CLAMP and full control loop
+  functionalities. These additional components are: Cloudify Manager,
+  Deployment Handler, Policy Handler, Service Change Handler, Inventory API.
+- R3PLUS - This profile deploys the DCAE R2 stretch goal service components,
+  namely: PNF Registration Handler, SNMP Trap collector, HV-VES Collector,
+  Missing Heartbeat Detection analytics, Universal Mapper
+
 ::
 
-  dcae_deployment_profile: PUT DCAE DEPLOYMENT PROFILE (R1, R2MVP, R2, or R2PLUS)
+  dcae_deployment_profile: PUT DCAE DEPLOYMENT PROFILE (R3MVP, R3, or R3PLUS)
 
 Instantiation
 -------------
@@ -378,11 +393,11 @@ Run the following command to perform the HealthCheck:
 
 .. code-block:: bash
 
-  docker exec -it openecompete_container /var/opt/OpenECOMP_ETE/runTags.sh
-  -i health
-  -d ./html
-  -V /share/config/integration_robot_properties.py
-  -V /share/config/integration_preload_parameters.py
+  docker exec -it openecompete_container /var/opt/OpenECOMP_ETE/runTags.sh \
+  -i health \
+  -d ./html \
+  -V /share/config/integration_robot_properties.py \
+  -V /share/config/integration_preload_parameters.py \
   -V /share/config/vm_properties.py
 
 This test suite will execute 40 tests towards the various ONAP components.
