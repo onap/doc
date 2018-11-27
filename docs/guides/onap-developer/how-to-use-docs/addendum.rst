@@ -130,9 +130,6 @@ will be verified by this job as part of a gerrit code review.
    * Using a browser to click on the *html* folder included in the log
      and preview how the proposed changes will look when published at
      Read The Docs. Small changes can be easily made in the patch set.
-     UML and Graphviz defined diagrams do not currently
-     render in the verify job log, but will render at Read The Docs
-     when the change is merged.
 
 Merge Job
 +++++++++
