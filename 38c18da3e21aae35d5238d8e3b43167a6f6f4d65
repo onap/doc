@@ -16,6 +16,24 @@
       "revId": "38c18da3e21aae35d5238d8e3b43167a6f6f4d65",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_e97d7d6f",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 35
+      },
+      "writtenOn": "2018-11-28T22:29:09Z",
+      "side": 1,
+      "message": "This links to https://logs.onap.org/production/vex-yul-ecomp-jenkins-1/doc-casablanca-verify-rtd/129/html/submodules/integration.git/docs/onap-oom-heat.html#onap-oom-heat, which is coming from the docs in the integration repo.\n\nAny suggestions on a better way to phrase this are welcome.",
+      "parentUuid": "9adffdf1_c93d19bd",
+      "revId": "38c18da3e21aae35d5238d8e3b43167a6f6f4d65",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
