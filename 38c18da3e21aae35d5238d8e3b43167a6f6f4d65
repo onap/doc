@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_c93d19bd",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2018-11-28T22:21:27Z",
+      "side": 1,
+      "message": "Where is defined \u003conap-oom-heat\u003e ?\nONAP OOM HEAT is confusing.\nI would suggest to add this link in guides/onap-developer/settingup/index.rst",
+      "revId": "38c18da3e21aae35d5238d8e3b43167a6f6f4d65",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
