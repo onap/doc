@@ -16,6 +16,7 @@ ONAP is deployed using the ONAP Operations Manager (OOM).
 The recommended ONAP deployment is based on Kubernetes, Docker containers
 and Helm installer.
 
+
 Requirements
 ------------
 
@@ -35,6 +36,16 @@ The ONAP full installation is validated with the following footprint:
    - 8 vCPU
    - 16 GB RAM
  - 160 GB Storage
+
+
+Quick Start
+-----------
+
+A quick-start :ref:`ONAP OOM HEAT Template<onap-oom-heat>` is
+available that fully automates the instructions in the installation
+guides below and deploys ONAP using OOM on an HA-enabled Kubernetes
+cluster.
+
 
 Installation
 ------------

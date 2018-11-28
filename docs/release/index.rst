@@ -116,8 +116,11 @@ are compatible with a major release are made available.
 
 Installation
 ============
-ONAP is installed using
-:ref:`ONAP Operations Manager (OOM) over Kubernetes<installing-onap>`
+- ONAP is installed using :ref:`ONAP Operations Manager (OOM) over
+  Kubernetes<installing-onap>`.
+- A quick-start :ref:`ONAP OOM HEAT Template<onap-oom-heat>` is
+  available that fully automates the instructions above and deploys
+  ONAP using OOM on an HA-enabled Kubernetes cluster.
 
 Documentation
 =============
