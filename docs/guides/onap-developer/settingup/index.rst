@@ -36,6 +36,16 @@ The ONAP full installation is validated with the following footprint:
    - 16 GB RAM
  - 160 GB Storage
 
+
+Quick Start
+-----------
+
+A quick-start :ref:`Kubernetes and ONAP Installation Script<onap-oom-heat>`
+is available that fully automates the instructions in the installation
+guides below to spin up an HA-enabled Kubernetes cluster and deploys
+ONAP on it using OOM.
+
+
 Installation
 ------------
 
