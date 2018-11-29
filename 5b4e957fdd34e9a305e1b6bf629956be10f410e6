@@ -16,6 +16,23 @@
       "revId": "5b4e957fdd34e9a305e1b6bf629956be10f410e6",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_57e220d6",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2018-11-29T14:44:37Z",
+      "side": 1,
+      "message": "To be removed to avoid confusion",
+      "revId": "5b4e957fdd34e9a305e1b6bf629956be10f410e6",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
