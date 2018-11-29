@@ -33,6 +33,24 @@
       "revId": "5b4e957fdd34e9a305e1b6bf629956be10f410e6",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_b842593c",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 35
+      },
+      "writtenOn": "2018-11-29T14:48:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9adffdf1_57e220d6",
+      "revId": "5b4e957fdd34e9a305e1b6bf629956be10f410e6",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
