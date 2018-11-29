@@ -363,3 +363,13 @@
 	url = ../logging-analytics/pomba/pomba-audit-common
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/integration/benchmark.git"]
+	path = docs/submodules/integration/benchmark.git
+	url = ../integration/benchmark
+	branch = .
+	ignore = dirty
+[submodule "docs/submodules/oparent/cia.git"]
+	path = docs/submodules/oparent/cia.git
+	url = ../oparent/cia
+	branch = .
+	ignore = dirty
