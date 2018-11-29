@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_77c5e43a",
+        "filename": "docs/guides/onap-developer/settingup/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2018-11-29T07:45:10Z",
+      "side": 1,
+      "message": "To avoid confusion between Heat and OOM, I suggest to replace\nby \u0027ONAP OOM HEAT Template\u0027  by \u0027Kubernetes and ONAP installation\u0027",
+      "revId": "5b4e957fdd34e9a305e1b6bf629956be10f410e6",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
