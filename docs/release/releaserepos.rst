@@ -119,6 +119,8 @@ Integration
    :titlesonly:
 
    integration<../submodules/integration.git/docs/release-notes.rst>
+   oparent-cia<../submodules/oparent/cia.git/docs/release-notes.rst>
+   benchmarks<../submodules/integration/benchmark.git/docs/release-notes.rst>
 
 Logging Analytics
 -----------------
