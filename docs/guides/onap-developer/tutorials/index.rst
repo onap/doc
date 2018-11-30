@@ -9,7 +9,7 @@ Tutorials
 
 .. caution::
    The tutorials may refer to earlier versions of software
-   and have not been certified on the latest Beijing Release.
+   and have not been certified on the latest Casablanca Release.
 
 * `Automatically Creating a Netconf Mount in APPC from SDNC <https://wiki.onap.org/x/JYUx>`_
 
