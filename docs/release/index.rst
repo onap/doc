@@ -159,7 +159,7 @@ For the Casablanca release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
 Integration team has run the 72 hours stability testing (100% passing rate) 
-and full resilience testing (96.9% passing rate). More details in :ref:`ONAP Maturity Testing Notes <integration-s3p>` 
+and full resilience testing (96.9% passing rate) at ONAP OpenLabs. More details in :ref:`ONAP Maturity Testing Notes <integration-s3p>` 
 
 Licenses
 ========
