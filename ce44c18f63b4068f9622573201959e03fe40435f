@@ -16,6 +16,24 @@
       "revId": "ce44c18f63b4068f9622573201959e03fe40435f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_02b8d3c6",
+        "filename": "docs/guides/onap-user/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-11-30T01:57:28Z",
+      "side": 1,
+      "message": "Yes I will do this in one more patch that syncs the submodule references with contributing casablanca branch head",
+      "parentUuid": "9adffdf1_a291c753",
+      "revId": "ce44c18f63b4068f9622573201959e03fe40435f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
