@@ -18,4 +18,4 @@ an instance of ONAP.
    servicedesigner.rst
    servicecreator.rst
    onapadmin.rst
-   Verified Use Cases <../../submodules/integration.git/docs/docs_usecases.rst>
+   ../../submodules/integration.git/docs/docs_usecases.rst
