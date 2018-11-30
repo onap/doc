@@ -151,6 +151,16 @@ achieving a CII Passing badge.
 Project specific details are in the :ref:`release notes<doc-releaserepos>`
 for each project.
 
+.. index:: maturity
+
+ONAP Maturity Testing Notes
+===========================
+For the Casablanca release, ONAP continues to improve in multiple areas of 
+Scalability, Security, Stability and Performance (S3P) metrics.
+
+Integration team has run the 72 hours stability testing (100% passing rate) 
+and full resilience testing (96.9% passing rate). More details in :ref:`ONAP Maturity Testing Notes <integration-s3p>` 
+
 Licenses
 ========
 ONAP Source Code is licensed under the `Apache Version 2 License
