@@ -1,4 +1,5 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. This work is licensed under a
+   Creative Commons Attribution 4.0 International License.
 
 .. _master_index:
 
@@ -11,8 +12,8 @@ ONAP Documentation
    To get the current stable release use one of the following
 
    * http://docs.onap.org
-   * http://docs.onap.org/en/beijing
-   * the selector on the bottom right and select beijing
+   * http://docs.onap.org/en/casablanca
+   * the selector on the bottom right and select casablanca
 
 .. toctree::
    :maxdepth: 2
