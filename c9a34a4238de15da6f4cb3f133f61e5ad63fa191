@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9adffdf1_c092c39e",
+        "filename": "docs/documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-11-30T12:43:22Z",
+      "side": 1,
+      "message": "Agree this can be removed, it was added in the first month of beijing release because some news announcements had be distributed with a URL referencing the master branch",
+      "parentUuid": "9adffdf1_254f2194",
+      "revId": "c9a34a4238de15da6f4cb3f133f61e5ad63fa191",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9adffdf1_e5483989",
         "filename": "docs/index.rst",
         "patchSetId": 1
