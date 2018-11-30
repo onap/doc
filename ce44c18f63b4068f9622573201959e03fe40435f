@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_a291c753",
+        "filename": "docs/guides/onap-user/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2018-11-30T01:41:47Z",
+      "side": 1,
+      "message": "Could you please change it to \"Verified Use Cases and Functional Requirements\" to consistent with the name of other places?",
+      "revId": "ce44c18f63b4068f9622573201959e03fe40435f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
