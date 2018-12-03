@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_f561c239",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-12-03T13:39:19Z",
+      "side": 1,
+      "message": "Should the expandable navigation bar be mentioned in addition to or as an alternative to this link? See https://jira.onap.org/browse/DOC-355 for comments clarification on navigation bar.",
+      "range": {
+        "startLine": 39,
+        "startChar": 18,
+        "endLine": 39,
+        "endChar": 21
+      },
+      "revId": "2a3d831747934033c91fbd8a30c4647ad5dc0e96",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
