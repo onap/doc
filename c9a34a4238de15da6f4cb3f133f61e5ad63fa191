@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "9adffdf1_d5727eac",
+        "filename": "docs/documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2018-12-03T09:43:21Z",
+      "side": 1,
+      "message": "Hi Sofia, I have done the requested changes. Thanks!",
+      "parentUuid": "9adffdf1_c092c39e",
+      "revId": "c9a34a4238de15da6f4cb3f133f61e5ad63fa191",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9adffdf1_e5483989",
         "filename": "docs/index.rst",
         "patchSetId": 1
@@ -48,6 +66,24 @@
       "writtenOn": "2018-11-30T11:13:27Z",
       "side": 1,
       "message": "please remove all trailing whitespaces",
+      "revId": "c9a34a4238de15da6f4cb3f133f61e5ad63fa191",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_9564f6e5",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2018-12-03T09:43:21Z",
+      "side": 1,
+      "message": "Hi Sofia! I have done the removal of spaces. Thanks!",
+      "parentUuid": "9adffdf1_e5483989",
       "revId": "c9a34a4238de15da6f4cb3f133f61e5ad63fa191",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
