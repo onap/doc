@@ -18,5 +18,4 @@ understanding or contribute to the ONAP open source.
    developing/index
    how-to-use-docs/index
    apiref/index
-   use-cases/index
 
