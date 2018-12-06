@@ -108,6 +108,11 @@ Project Specific Release Notes
 ONAP releases are specified by a list of project artifact
 versions in a :ref:`manifest<doc-release-manifest>`.
 
+.. toctree::
+   :hidden:
+
+   release-manifest.rst
+
 Each project provides detailed :ref:`release notes<doc-releaserepos>`
 and prepends to these if/when any updated versions the project team believes
 are compatible with a major release are made available.
@@ -197,6 +202,5 @@ To properly report a bug in Jira, you may want to consider these `recommendation
 .. toctree::
    :hidden:
 
-   release-manifest.rst
    releaserepos.rst
    repolist.rst
