@@ -46,6 +46,54 @@
       "revId": "2a3d831747934033c91fbd8a30c4647ad5dc0e96",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_aa7d1170",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2018-12-07T13:34:49Z",
+      "side": 1,
+      "message": "Hi Rich, I have done the recommended addition, please check.\nBr, Noemi",
+      "parentUuid": "9adffdf1_f561c239",
+      "range": {
+        "startLine": 39,
+        "startChar": 18,
+        "endLine": 39,
+        "endChar": 21
+      },
+      "revId": "2a3d831747934033c91fbd8a30c4647ad5dc0e96",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_4dd27a01",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2018-12-07T13:34:49Z",
+      "side": 1,
+      "message": "At the end of the text \u003ci had a link to \u0027onap documentation\u0027. I think Rich wished to have another reference here in the text, to the expandable navigation bar. So the reader can use the link \"ONAP documentation\" or can go to the navigation bar and expand doc content there.",
+      "parentUuid": "9adffdf1_cda2eaad",
+      "range": {
+        "startLine": 39,
+        "startChar": 18,
+        "endLine": 39,
+        "endChar": 21
+      },
+      "revId": "2a3d831747934033c91fbd8a30c4647ad5dc0e96",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
