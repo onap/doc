@@ -118,6 +118,30 @@
       "revId": "2a3d831747934033c91fbd8a30c4647ad5dc0e96",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_8dd2a2d0",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2018-12-07T14:54:00Z",
+      "side": 1,
+      "message": "Currently we have (1) a toctree defined across all rst files integrated from doc project and other contributing repos; (2) a navigation bar that presents an expandable (to any level) view of the toctree; (3) a link from the new landing page to the (old landing) page which present the toctree to level (2).   My question was how to describe the difference between (2) and (3) now when they are similar and/or how they may evolve to something where they are not similar.",
+      "parentUuid": "9adffdf1_ed648e4a",
+      "range": {
+        "startLine": 39,
+        "startChar": 18,
+        "endLine": 39,
+        "endChar": 21
+      },
+      "revId": "2a3d831747934033c91fbd8a30c4647ad5dc0e96",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
