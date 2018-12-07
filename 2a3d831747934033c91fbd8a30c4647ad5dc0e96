@@ -94,6 +94,30 @@
       "revId": "2a3d831747934033c91fbd8a30c4647ad5dc0e96",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_ed648e4a",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2018-12-07T14:33:04Z",
+      "side": 1,
+      "message": "Ok, and I think I agree to that. We should probably figure out how to add links directly from the landing page to release notes, user guides etc in a structured way. What about dividing it into \u0027Release documentation\u0027 which should contain user guides, release notes etc. And then have a \"Developer documentation\" section with the rest? And more heading of course if needed.",
+      "parentUuid": "9adffdf1_aa7d1170",
+      "range": {
+        "startLine": 39,
+        "startChar": 18,
+        "endLine": 39,
+        "endChar": 21
+      },
+      "revId": "2a3d831747934033c91fbd8a30c4647ad5dc0e96",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
