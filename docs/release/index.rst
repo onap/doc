@@ -11,6 +11,7 @@ using city names.
 * Release Version: 3.0.0
 * Release Date: Nov 30, 2018
 
+.. _getting-started:
 
 Getting Started With ONAP
 =========================
