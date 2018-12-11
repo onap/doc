@@ -3,6 +3,8 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017-2018 Huawei Technologies Co., Ltd.
 
+.. _ONAP-architecture:
+
 1. Introduction
 ===============
 

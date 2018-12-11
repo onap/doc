@@ -2,7 +2,7 @@
 .. International License.  http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
-
+.. _vnf_reqs:
 
 VNF Requirements and Guidelines
 ===============================
