@@ -373,3 +373,6 @@
 	url = ../oparent/cia
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/ccsdk/apps.git"]
+	path = docs/submodules/ccsdk/apps.git
+	url = ../ccsdk/apps
