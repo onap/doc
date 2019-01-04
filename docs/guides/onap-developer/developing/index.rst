@@ -74,6 +74,7 @@ Common Controller Software Development Kit
    ../../../submodules/ccsdk/distribution.git/docs/index
    ../../../submodules/ccsdk/dashboard.git/docs/index
    ../../../submodules/ccsdk/platform/plugins.git/docs/index
+   ../../../submodules/ccsdk/apps.git/docs/index
 
 .. Being consolidated in ccsdk distribution
    ../../../submodules/ccsdk/platform/blueprints.git/docs/index
