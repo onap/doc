@@ -57,6 +57,7 @@ You can reach the complete Casablanca Release documentation from the Navigation 
    :maxdepth: 1
    :hidden:
 
+   Home <self>
    release/index
    guides/onap-developer/index
    guides/onap-user/index
