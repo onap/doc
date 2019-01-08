@@ -88,3 +88,4 @@ Project/Components
    multicloud/azure <../submodules/multicloud/azure.git/docs/index>
    optf/cmso <../submodules/optf/cmso.git/docs/index>
   ccsdk/apps <../submodules/ccsdk/apps.git/docs/index>
+   cdt <../submodules/appc/cdt.git/docs/index>
