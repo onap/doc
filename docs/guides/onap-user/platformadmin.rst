@@ -16,7 +16,13 @@ The Portal SDK for application developers includes bundled tools,
 technologies, and built-in capabilities such as services, APIs,
 and UI controls. Existing applications can migrate to the Portal
 with the provided APIs and libraries.
-See :ref:`Portal SDK <portal-sdk>`
+See Portal SDK:
+
+.. toctree::
+   maxdepth: 1
+   :titlesonly:
+
+   ../../../../submodules/portal.git/docs/tutorials/portal-sdk/index.html
 
 Access the ONAP Portal
 ----------------------
