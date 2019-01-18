@@ -24,9 +24,9 @@ The following is the recommended component version.
   ===========  =========
   Software     Version
   ===========  =========
-  Kubernetes   1.11.2
+  Kubernetes   1.11.5
   Helm         2.9.1
-  kubectl      1.11.2
+  kubectl      1.11.5
   Docker       17.03.x
   ===========  =========
 
