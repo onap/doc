@@ -7,9 +7,55 @@ This page is the ONAP Casablanca Release Notes. The first release was labelled
 Amsterdam, second release Beijing and subsequent major release will be named
 using city names.
 
+Release notes are cumulative for the release, meaning this release note for Casablanca will have an entry for each Major, Minor, and Maintenance release, if applicable. Information that is applicable regardless of release is included in the `Getting Started With ONAP`_ section of this document.
+
+Each component within the ONAP solution maintains their own component level release notes and links to those release notes are provided below. Details on the specific items delivered in each releaese by each component is maintained in the component specific release notes.
+
+Casablanca Releases
+===================
+
+The following releases are available for Casablanca:
+  - `Casablanca Maintenance Release 3.0.1`_
+  - `Casablanca Major Release 3.0.0`_
+
+Casablanca Maintenance Release 3.0.1
+====================================
+
+* Release Name: Casablanca
+* Release Version: 3.0.1
+* Release Date: Jan 31, 2019
+
+The Casablanca Maintenance Release delivered a number of fixes and updates across the following projects:
+ - AAF
+ - AAI
+ - APPC
+ - CCSDK
+ - CLAMP
+ - DCAEGEN2
+ - DOC
+ - EXTAPI
+ - Integration
+ - MultiCloud
+ - MSB
+ - OOM
+ - OOF
+ - Policy
+ - SDC
+ - SDNC
+ - SO
+ - UsecaseUI
+ - VFC
+
+Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
+
+Casablanca Major Release 3.0.0
+==============================
+
 * Release Name: Casablanca
 * Release Version: 3.0.0
 * Release Date: Nov 30, 2018
+
+The Casablanca 3.0.0 is the first of Casablanca.
 
 .. _getting-started:
 
@@ -98,16 +144,16 @@ Detect -> Publish -> Respond:
 
 **Microservices Support**
 
- - ONAP Operation Manager (OOM) use Kubernetes and Helm to manage ONAP
-   components.
+ - ONAP Operation Manager
+
+(OOM) use Kubernetes and Helm to manage ONAP components.
  - Microservices Bus (MSB) provides service registration/discovery,
    external API gateway, internal API gateway, client software development kit
    (SDK), and Swagger SDK.
 
 Project Specific Release Notes
 ==============================
-ONAP releases are specified by a list of project artifact
-versions in a :ref:`manifest<doc-release-manifest>`.
+ONAP releases are specified by a list of project artifact versions in a :ref:`manifest<doc-release-manifest>`.
 
 .. toctree::
    :hidden:
@@ -122,8 +168,7 @@ are compatible with a major release are made available.
 
 Installation
 ============
-ONAP is installed using
-:ref:`ONAP Operations Manager (OOM) over Kubernetes<installing-onap>`
+ONAP is installed using :ref:`ONAP Operations Manager (OOM) over Kubernetes<installing-onap>`
 
 Documentation
 =============
@@ -146,38 +191,31 @@ ONAP Casablanca Release provides multiple documents including the following:
 
 Security Notes
 ==============
-ONAP has adopted the 
-`CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
-The goal of the Casablanca release is for all ONAP projects to be close to
-achieving a CII Passing badge.
+ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
+The goal of the Casablanca release is for all ONAP projects to be close to achieving a CII Passing badge.
 
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge#core-infrastructure-initiative-best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
-Project specific details are in the :ref:`release notes<doc-releaserepos>`
-for each project.
+Project specific details are in the :ref:`release notes<doc-releaserepos>` for each project.
 
 .. index:: maturity
- 
+
 ONAP Maturity Testing Notes
 ===========================
-For the Casablanca release, ONAP continues to improve in multiple areas of 
-Scalability, Security, Stability and Performance (S3P) metrics.
+For the Casablanca release, ONAP continues to improve in multiple areas of Scalability, Security, Stability and Performance (S3P) metrics.
  
-The Integration team ran the 72 hours stability testing (100% passing rate) 
-and full resilience testing (96.9% passing rate) at ONAP OpenLabs. More details in :ref:`ONAP Maturity Testing Notes <integration-s3p>` 
+The Integration team ran the 72 hours stability testing (100% passing rate) and full resilience testing (96.9% passing rate) at ONAP OpenLabs. More details in :ref:`ONAP Maturity Testing Notes <integration-s3p>` 
 
 Licenses
 ========
-ONAP Source Code is licensed under the `Apache Version 2 License
-<http://www.apache.org/licenses/LICENSE-2.0>`_.
+ONAP Source Code is licensed under the `Apache Version 2 License <http://www.apache.org/licenses/LICENSE-2.0>`_.
 ONAP Documentation is licensed under the `Creative Commons Attribution 4.0
 International License <http://creativecommons.org/licenses/by/4.0>`_.
 
 Known Issues and Limitations
 ============================
-Known Issues and limitations are documented in each
-:ref:`project Release Notes <doc-releaserepos>`.
+Known Issues and limitations are documented in each :ref:`project Release Notes <doc-releaserepos>`.
 
 .. index:: Reporting Bugs
 
@@ -189,11 +227,9 @@ There are 2 ways to report a bug in ONAP.
    creating a Jira issue at `ONAP Jira <https://jira.onap.org>`_.
 
  * If you don't know you are facing a bug or have a question, post your
-   question into the
-   `Ask question <https://wiki.onap.org/display/DW/questions/all>`_.
+   question into the `Ask question <https://wiki.onap.org/display/DW/questions/all>`_.
    You will need a Linux Foundation ID to login and post your question.
-   Get a Linux Foundation Identity using this
-   `quick procedure <https://wiki.onap.org/display/DW/Joining+the+ONAP+Technical+Community#JoiningtheONAPTechnicalCommunity-WhereDoIStart?>`_.
+   Get a Linux Foundation Identity using this `quick procedure <https://wiki.onap.org/display/DW/Joining+the+ONAP+Technical+Community#JoiningtheONAPTechnicalCommunity-WhereDoIStart?>`_.
 
 To properly report a bug in Jira, you may want to consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing.
 
@@ -205,3 +241,4 @@ To properly report a bug in Jira, you may want to consider these `recommendation
 
    releaserepos.rst
    repolist.rst
+
