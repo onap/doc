@@ -435,7 +435,7 @@ Casablanca release.
 
 Closed loop control is provided by cooperation among a number of design time
 and runtime elements. The Runtime loop starts with Data Collection, Analytics
-and Events (DCAE) and then moves through the loop of micro-services like Homes
+and Events (DCAE) and then moves through the loop of micro-services like Holmes
 for event detection, Policy for determining actions, and finally controllers
 and orchestrators to implement actions CLAMP is used to monitor the loops
 themselves. CLAMP, Policy and DCAE all have design time aspects to support the
