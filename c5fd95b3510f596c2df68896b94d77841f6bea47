@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_bc2c0c9a",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-01-31T14:54:24Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 208,
+        "startChar": 211,
+        "endLine": 208,
+        "endChar": 212
+      },
+      "revId": "c5fd95b3510f596c2df68896b94d77841f6bea47",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
