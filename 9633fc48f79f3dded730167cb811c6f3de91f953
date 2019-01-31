@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_68d903f2",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-01-31T13:57:23Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 204,
+        "startChar": 0,
+        "endLine": 204,
+        "endChar": 1
+      },
+      "revId": "9633fc48f79f3dded730167cb811c6f3de91f953",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_48de7fde",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-01-31T13:57:23Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 207,
+        "startChar": 74,
+        "endLine": 207,
+        "endChar": 75
+      },
+      "revId": "9633fc48f79f3dded730167cb811c6f3de91f953",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_c8f10f6c",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-01-31T13:57:23Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 209,
+        "startChar": 0,
+        "endLine": 209,
+        "endChar": 1
+      },
+      "revId": "9633fc48f79f3dded730167cb811c6f3de91f953",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_e8f4135c",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-01-31T13:57:23Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 210,
+        "startChar": 75,
+        "endLine": 210,
+        "endChar": 76
+      },
+      "revId": "9633fc48f79f3dded730167cb811c6f3de91f953",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
