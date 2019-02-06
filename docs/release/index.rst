@@ -26,7 +26,6 @@ Casablanca Maintenance Release 3.0.1
 * Release Date: Jan 31, 2019
 
 The Casablanca Maintenance Release delivered a number of fixes and updates across the following projects:
- - AAF
  - AAI
  - APPC
  - CCSDK
