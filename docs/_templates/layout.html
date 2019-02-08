@@ -4,6 +4,19 @@
 {# Custom CSS override for warning banner #}
 {% set css_files = css_files + ['_static/css/ribbon.css'] %}
 
+{# Google Analytics #}
+{% block extrahead %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134127499-1"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-134127499-1');
+</script>
+{% endblock %}
+
 {# Ribbon #}
 {% block content %}
   <div class="ribbon">
