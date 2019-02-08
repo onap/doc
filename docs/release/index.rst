@@ -38,6 +38,7 @@ The Casablanca Maintenance Release delivered a number of fixes and updates acros
  - OOM
  - OOF
  - Policy
+ - Portal
  - SDC
  - SDNC
  - SO
