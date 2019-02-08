@@ -7,6 +7,14 @@
 Release Notes
 =============
 
+Version: 3.0.1
+--------------
+
+:Release Date: 2019-01-31
+
+**New Features**
+
+
 Version: 3.0.0
 --------------
 
