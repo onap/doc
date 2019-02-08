@@ -35,7 +35,6 @@ The Casablanca Maintenance Release delivered a number of fixes and updates acros
  - EXTAPI
  - Integration
  - MultiCloud
- - MSB
  - OOM
  - OOF
  - Policy
@@ -43,7 +42,6 @@ The Casablanca Maintenance Release delivered a number of fixes and updates acros
  - SDNC
  - SO
  - UsecaseUI
- - VFC
 
 Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
 
