@@ -32,8 +32,6 @@ Project/Components
    Service Design and Creation <../submodules/sdc.git/docs/index>
    Service Orchestrator <../submodules/so.git/docs/index>
    so/libs <../submodules/so/libs.git/docs/index>
-   ../submodules/appc/deployment.git/docs/index
-   ../submodules/appc.git/docs/index
    ../submodules/clamp.git/docs/index
    ../submodules/cli.git/docs/index
    ../submodules/dcaegen2.git/docs/index
