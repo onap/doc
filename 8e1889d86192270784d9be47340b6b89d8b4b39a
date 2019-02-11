@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7162652c_facbece5",
+        "filename": "docs/release/repolist.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2019-02-11T20:57:03Z",
+      "side": 0,
+      "message": "Deleting these two lines appears unrelated to the other CDS change.   Should this file be omitted from the patch set or can you add text describing the reason for deletion in commit message.",
+      "range": {
+        "startLine": 35,
+        "startChar": 3,
+        "endLine": 36,
+        "endChar": 36
+      },
+      "revId": "8e1889d86192270784d9be47340b6b89d8b4b39a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
