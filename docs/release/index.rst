@@ -34,6 +34,7 @@ The Casablanca Maintenance Release delivered a number of fixes and updates acros
  - DOC
  - EXTAPI
  - Integration
+ - Logging-analytics
  - MultiCloud
  - OOM
  - OOF
