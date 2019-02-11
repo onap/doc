@@ -14,6 +14,8 @@ Version: 3.0.1
 
 **New Features**
 
+The Documentation project release contains only minor fixes.
+
 
 Version: 3.0.0
 --------------
