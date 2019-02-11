@@ -14,6 +14,15 @@ Version: 3.0.1
 
 **New Features**
 
+The Documentation project release contains only minor fixes.
+
+* DOC-342 fix typos
+* DOC-367 manifest appears with incorrect navigation bar context
+* DOC-385 Update release notes for Casablanca Maintenance Release
+* DOC-391 Casablanca Maintenance Release Note - reference to AAF
+* DOC-392 Casablanca Maintenance Release Note - reference to MSB
+* DOC-393 Casablanca Maintenance Release Note - reference to VFC
+
 
 Version: 3.0.0
 --------------
