@@ -59,8 +59,8 @@ You can reach the complete Casablanca Release documentation from the Navigation 
 
    Home <self>
    release/index
+   guides/onap-developer/architecture/index
+   guides/onap-developer/settingup/index
    guides/onap-developer/index
    guides/onap-user/index
    guides/onap-provider/index
-
-
