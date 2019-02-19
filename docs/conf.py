@@ -67,7 +67,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u''
-copyright = u'2018 ONAP. Licensed under Creative Commons Attribution 4.0 International License'
+copyright = u'2019 ONAP. Licensed under Creative Commons Attribution 4.0 International License'
 
 
 author = u'Open Network Automation Platform'
