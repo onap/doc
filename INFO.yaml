@@ -4,9 +4,9 @@ project_creation_date: '2017-06-14'
 lifecycle_state: 'Incubation'
 project_lead: &onap_doc_ptl
     name: 'Sofia Wallin'
-    email: 'sofia.wallin@ericsson.com'
+    email: 'sofia.wallin@est.tech'
     id: 'sofiawallin'
-    company: 'Ericsson'
+    company: 'Ericsson Software Technology'
     timezone: 'Europe/Stockholm'
 primary_contact: *onap_doc_ptl
 issue_tracking:
@@ -43,11 +43,6 @@ committers:
       company: 'Orange'
       id: 'eric.debeau'
       timezone: ''
-    - name: 'Liu Yang'
-      email: 'james.yangliu@huawei.com'
-      company: 'Huawei'
-      id: 'James.yangliu'
-      timezone: 'Europe/Paris'
     - name: 'Timo Perala'
       email: 'timo.perala@nokia.com'
       company: 'Nokia'
