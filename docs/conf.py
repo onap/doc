@@ -137,9 +137,10 @@ html_theme = 'sphinx_rtd_theme'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {	'style_nav_header_background': 'white',
-						'sticky_navigation': False,
-						'collapse_navigation': False}
+html_theme_options = {
+	'style_nav_header_background': 'white',
+	'sticky_navigation': False
+	}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
