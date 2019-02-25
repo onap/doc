@@ -89,3 +89,4 @@ Project/Components
    optf/cmso <../submodules/optf/cmso.git/docs/index>
   ccsdk/apps <../submodules/ccsdk/apps.git/docs/index>
    cds <../submodules/ccsdk/cds.git/docs/index>
+   oom/offline-installer <../submodules/oom/offline-installer.git/docs/index>
