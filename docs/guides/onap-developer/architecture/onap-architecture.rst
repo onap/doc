@@ -634,24 +634,6 @@ Policy.
 
 Read the vFW/vDNS with ONAP blueprint to learn more.
 
-Conclusion
-==========
-
-The ONAP platform provides a comprehensive platform for real-time,
-policy-driven orchestration and automation of physical and virtual network
-functions that will enable software, network, IT and cloud providers and
-developers to rapidly automate new services and support complete lifecycle
-management.
-
-By unifying member resources, ONAP will accelerate the development of a vibrant
-ecosystem around a globally shared architecture and implementation for network
-automation—with an open standards focus—faster than any one product could on
-its own.
-
-Resources
-=========
-Watch videos about the major platform components on YouTube and Youku
-Read about how ONAP can be deployed using containers
 
 .. |image1| image:: media/ONAP-toplevel.png
    :width: 6.5in
