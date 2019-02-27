@@ -84,9 +84,8 @@ Project/Components
    sdc/sdc-titan-cassandra <../submodules/sdc/sdc-titan-cassandra.git/docs/index>
    sdc/sdc-tosca <../submodules/sdc/sdc-tosca.git/docs/index>
    vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
-
    multicloud/azure <../submodules/multicloud/azure.git/docs/index>
    optf/cmso <../submodules/optf/cmso.git/docs/index>
-  ccsdk/apps <../submodules/ccsdk/apps.git/docs/index>
-   cds <../submodules/ccsdk/cds.git/docs/index>
+   ccsdk/apps <../submodules/ccsdk/apps.git/docs/index>
+   ccsdk/cds <../submodules/ccsdk/cds.git/docs/index>
    oom/offline-installer <../submodules/oom/offline-installer.git/docs/index>
