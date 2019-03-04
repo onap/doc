@@ -148,11 +148,12 @@ Detect -> Publish -> Respond:
 
 Project Specific Release Notes
 ==============================
-ONAP releases are specified by a list of project artifact versions in a :ref:`manifest<doc-release-manifest>`.
+ONAP releases are specified by a list of project artifact versions in a :ref:`manifest artifacts <doc-release-manifest-artifacts>` and :ref:`manifest dockers <doc-release-manifest-docker>`.
 
 .. toctree::
    :hidden:
 
+   release-manifest-docker.rst
    release-manifest.rst
 
 Each project provides detailed :ref:`release notes<doc-releaserepos>`
@@ -169,7 +170,7 @@ Documentation
 =============
 ONAP Casablanca Release provides multiple documents including the following:
 
- * A high level :ref:`architecture view<doc-architecture>` of how components
+ * A high level :ref:`architecture view<doc-architecture>` of how component
    relate to each other.
 
  * A collection of documentation provided
