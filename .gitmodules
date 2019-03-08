@@ -376,9 +376,15 @@
 [submodule "docs/submodules/ccsdk/apps.git"]
 	path = docs/submodules/ccsdk/apps.git
 	url = ../ccsdk/apps
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/ccsdk/cds.git"]
 	path = docs/submodules/ccsdk/cds.git
 	url = ../ccsdk/cds
+	branch = .
+	ignore = dirty
 [submodule "docs/submodules/oom/offline-installer.git"]
 	path = docs/submodules/oom/offline-installer.git
 	url = ../oom/offline-installer
+	branch = .
+	ignore = dirty
