@@ -2,6 +2,7 @@
 project: 'doc'
 project_creation_date: '2017-06-14'
 lifecycle_state: 'Incubation'
+project_category: ''
 project_lead: &onap_doc_ptl
     name: 'Sofia Wallin'
     email: 'sofia.wallin@est.tech'
@@ -13,6 +14,11 @@ issue_tracking:
     type: 'jira'
     url: 'https://jira.onap.org/projects/DOC'
     key: 'DOC'
+mailing_list:
+    type: 'groups.io'
+    url: 'lists.onap.org'
+    tag: '<[sub-project_name]>'
+realtime_discussion: ''
 meetings:
     - type: 'zoom'
       agenda: ''
@@ -21,18 +27,20 @@ meetings:
       channel: 'n/a'
       repeats: 'weekly'
       time: '14:00 UTC'
+repositories:
+    - 'doc'
 committers:
     - <<: *onap_doc_ptl
     - name: 'Jun (Nicolas) Hu'
       email: 'jh245g@att.com'
       company: 'ATT'
       id: 'jh245g'
-      timezone: 'America/New York'
+      timezone: 'America/New_York'
     - name: 'Rich Bennett'
       email: 'rb2745@att.com'
       company: 'ATT'
       id: 'rb2745'
-      timezone: 'America/New York'
+      timezone: 'America/New_York'
     - name: 'Steven Wright'
       email: 'sw3588@att.com'
       company: 'ATT'
