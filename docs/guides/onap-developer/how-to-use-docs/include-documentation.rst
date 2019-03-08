@@ -492,11 +492,13 @@ Build documentation using tox local environment & then open using any browser.
    firefox docs/_build/html/index.html
 
 .. note:: Make sure to run `tox -elocal` and not just `tox`.
+   This updates all submodule repositories that are integrated
+   by the doc project.
 
 There are additional tox environment options for checking External
 URLs and Spelling.  Use the tox environment options below and then
-look at the output with the Linux `more` or similar command for
-scanning for output that applies to the files you are validating.
+look at the output with the Linux `more` or similar command
+scan for output that applies to the files you are validating.
 
 .. code-block:: bash
 
