@@ -155,6 +155,10 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 Project specific details are in the :ref:`release notes<doc-releaserepos>`
 for each project.
 
+**Please note that this version is no longer supported in terms of security bug fixes.
+It means that community is not going to backport any security improvements introduced in master nor fix any reported vulnerabilities.
+Please upgrade to newer release.**
+
 Licenses
 ========
 ONAP Source Code is licensed under the `Apache Version 2 License
