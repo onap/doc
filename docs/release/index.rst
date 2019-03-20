@@ -195,6 +195,9 @@ The goal of the Casablanca release is for all ONAP projects to be close to achie
 
 Project specific details are in the :ref:`release notes<doc-releaserepos>` for each project.
 
+**Please note that according to `TSC recommendation <https://lists.onap.org/g/onap-seccom/message/1080>`_ Casablanca release is not supported in terms of security bug fixes.
+It means that community is not going to backport any security fixes developed during Dublin or any later release cycle to this release.**
+
 .. index:: maturity
 
 ONAP Maturity Testing Notes
@@ -237,4 +240,3 @@ To properly report a bug in Jira, you may want to consider these `recommendation
 
    releaserepos.rst
    repolist.rst
-
