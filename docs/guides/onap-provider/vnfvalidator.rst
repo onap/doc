@@ -7,3 +7,4 @@ VNF Validation Documentation
    :maxdepth: 2
 
    ../../../submodules/vvp/documentation.git/docs/index.rst
+   ../../../submodules/vvp/documentation.git/docs/release-notes.rst

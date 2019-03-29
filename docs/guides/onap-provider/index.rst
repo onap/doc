@@ -8,8 +8,8 @@ VNF Requirements and Guidelines
 ===============================
 
 The following includes guides and requirements are provided to
-describe tasks that an xNF provider of ONAP may need to properly
-set up an xNF for ONAP usage.
+describe tasks that an VNF or PNF provider of ONAP may need to properly
+set up an VNF or PNF for ONAP usage.
 
 .. toctree::
    :maxdepth: 2
@@ -18,4 +18,5 @@ set up an xNF for ONAP usage.
    ../../../submodules/vnfrqts/requirements.git/docs/index.rst
    ../../../submodules/vnfrqts/testcases.git/docs/index.rst
    ../../../submodules/vnfrqts/usecases.git/docs/index.rst
+   ../../../submodules/vnfrqts/requirements.git/docs/release-notes.rst
    vnfvalidator.rst
