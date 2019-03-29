@@ -55,6 +55,14 @@ ONAP installation is described here:
 
    ../../../../submodules/oom.git/docs/oom_quickstart_guide.rst
 
+Alternative way of offline ONAP installation is described here:
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../../../../submodules/oom/offline-installer.git/docs/index.rst
+
 NodePorts
 ---------
 
