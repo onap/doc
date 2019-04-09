@@ -15,8 +15,26 @@ Casablanca Releases
 ===================
 
 The following releases are available for Casablanca:
+  - `Casablanca Maintenance Release 3.0.2`_
   - `Casablanca Maintenance Release 3.0.1`_
   - `Casablanca Major Release 3.0.0`_
+
+Casablanca Maintenance Release 3.0.2
+====================================
+
+* Release Name: Casablanca
+* Release Version: 3.0.2
+* Release Date: Apr 15, 2019
+
+Casablanca Maintenance Release 3.0.2 addresses issue of certificate expiry across the following projects:
+ - AAI
+ - CLAMP
+ - DMAAP
+ - Policy
+ - VID
+
+Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
+
 
 Casablanca Maintenance Release 3.0.1
 ====================================
@@ -25,7 +43,7 @@ Casablanca Maintenance Release 3.0.1
 * Release Version: 3.0.1
 * Release Date: Jan 31, 2019
 
-The Casablanca Maintenance Release delivered a number of fixes and updates across the following projects:
+Casablanca Maintenance Release 3.0.1 delivered a number of fixes and updates across the following projects:
  - AAI
  - APPC
  - CCSDK
