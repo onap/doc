@@ -32,6 +32,7 @@ Casablanca Maintenance Release 3.0.2 addresses issue of certificate expiry acros
  - DMAAP
  - Policy
  - VID
+ - Portal
 
 Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
 
