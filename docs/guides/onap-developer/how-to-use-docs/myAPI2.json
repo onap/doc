@@ -1,0 +1,37 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "my API 2",
+    "version" : "1.0.0",
+    "title" : "API example",
+    "contact" : {
+      "email" : "onap@orange.com"
+    },
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host" : "serverRoot",
+  "basePath" : "/status",
+  "schemes" : [ "https" ],
+  "produces": [
+    "application/json;charset=utf-8"
+  ],
+  "paths" : {
+    "/status" : {
+      "get" : {
+        "summary" : "Displays status for my favorite component",
+        "description" : "Displays status for my favorite component",
+        "responses": {
+          "200": {
+            "description": "Service OK"
+          },
+          "503" : {
+            "description" : "Service Unavailable"
+          }
+        }
+      }
+    }
+  }
+}
