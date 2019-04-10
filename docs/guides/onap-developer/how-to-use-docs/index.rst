@@ -10,6 +10,7 @@ Creating Documentation
    documentation-guide
    style-guide
    include-documentation
+   api-swagger-guide
    converting-formats
    addendum
 
