@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d3e0d11f_16ad2237",
+        "filename": "docs/guides/overview/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-10T18:21:14Z",
+      "side": 1,
+      "message": "trailing white space",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "90e4439c_4380cdc0",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-10T18:21:14Z",
+      "side": 1,
+      "message": "copyright to be reviewed. Nearly all the contents come from previous files",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1d9a545b_ecb6b10b",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-10T18:21:14Z",
+      "side": 1,
+      "message": "why listing the features delivered int this table ?",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f98aeb74_4d3f9e28",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-10T18:21:14Z",
+      "side": 1,
+      "message": "VolTE is no more a blueprint for Dublin",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
