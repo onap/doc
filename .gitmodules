@@ -388,3 +388,8 @@
 	url = ../oom/offline-installer
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/ccsdk/features.git"]
+	path = docs/submodules/ccsdk/features.git
+	url = ../ccsdk/features
+	branch = .
+	ignore = dirty
