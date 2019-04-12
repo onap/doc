@@ -92,7 +92,7 @@ Data Management as a Platform
    :titlesonly:
 
    dmaap message router (MR) <../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes/release-notes.rst>
-   dmaap data router (DR) <../submodules/dmaap/datarouter.git/docs/datarouter/release-notes.rst>
+   dmaap data router (DR) <../submodules/dmaap/datarouter.git/docs/data-router/release-notes.rst>
    dmaap bus controller (BC) <../submodules/dmaap/buscontroller.git/docs/release-notes/release-notes.rst>
 
 External API / NBI

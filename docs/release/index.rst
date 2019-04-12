@@ -29,7 +29,7 @@ Casablanca Maintenance Release 3.0.2
 Casablanca Maintenance Release 3.0.2 addresses issue of certificate expiry across the following projects:
  - AAI
  - CLAMP
- - DMAAP
+ - DMAAP Data Router
  - Policy
  - VID
  - Portal
