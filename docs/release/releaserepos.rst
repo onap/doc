@@ -84,14 +84,16 @@ Documentation
 
    doc <../release-notes.rst>
 
-Data Management as a Platform Message Router
---------------------------------------------
+Data Management as a Platform 
+-----------------------------
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
-   dmaap<../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes/release-notes.rst>
+   dmaap message router (MR) <../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes/release-notes.rst>
+   dmaap data router (DR) <../submodules/dmaap/datarouter.git/docs/datarouter/release-notes.rst>
+   dmaap bus controller (BC) <../submodules/dmaap/buscontroller.git/docs/release-notes/release-notes.rst>
 
 External API / NBI
 ------------------
