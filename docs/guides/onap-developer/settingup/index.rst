@@ -5,6 +5,7 @@
 .. Modifications Copyright 2018 Orange
 .. Modifications Copyright 2018 Amdocs
 .. Modifications Copyright 2018 Huawei
+.. Modifications Copyright 2019 Orange
 
 Setting Up ONAP
 ===============
@@ -73,8 +74,23 @@ microservice.
 It should be noted that the use of NodePorts is temporary.
 An alternative solution is currently being scoped for the Dublin Release.
 
-* The list of node ports used by ONAP is documented
-  in `ONAP Node Port List <https://wiki.onap.org/display/DW/OOM+NodePort+List>`_.
+More information from official Kubernetes documentation about
+`NodePort <https://kubernetes.io/docs/concepts/services-networking/service/#nodeport>`_.
+
+The following table lists all the NodePorts used by ONAP.
+
+.. csv-table:: NodePorts table
+   :file: nodeports.csv
+   :widths: 20,20,20,20,20
+   :header-rows: 1
+
+This table retrieves information from the ONAP deployment using the following
+Kubernetes command:
+
+.. code-block:: bash
+
+  kubectl get svc -n onap -o go-template='{{range .items}}{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{.}}{{"\n"}}{{end}}{{end}}{{end}}'
+
 
 .. note::
    Prior to deployment of ONAP, there is no need to download manually any Docker container.
