@@ -16,6 +16,40 @@
       "revId": "6b7ded3ae1e10e1285842a062f09cb9c42d9504d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "760c16df_283075d0",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 650,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-17T14:21:08Z",
+      "side": 1,
+      "message": "Can you add the list os ONAP components involved in the use-case ?",
+      "revId": "6b7ded3ae1e10e1285842a062f09cb9c42d9504d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "228e8b5b_b62f6433",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 652,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-17T14:21:08Z",
+      "side": 1,
+      "message": "Add a link reference to the blueprint",
+      "revId": "6b7ded3ae1e10e1285842a062f09cb9c42d9504d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
