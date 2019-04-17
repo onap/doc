@@ -2,7 +2,7 @@
 .. a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017-2018 AT&T Intellectual Property. All rights reserved.
-.. Modifications Copyright 2018 Orange
+.. Modifications Copyright 2018-2019 Orange
 .. Modifications Copyright 2018 Amdocs
 .. Modifications Copyright 2018 Huawei
 
@@ -24,9 +24,9 @@ The following is the recommended component version.
   ===========  =========
   Software     Version
   ===========  =========
-  Kubernetes   1.11.2
+  Kubernetes   1.11.5
   Helm         2.9.1
-  kubectl      1.11.2
+  kubectl      1.11.5
   Docker       17.03.x
   ===========  =========
 
