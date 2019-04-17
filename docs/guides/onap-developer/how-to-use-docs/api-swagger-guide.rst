@@ -16,7 +16,8 @@ The API should be described using OpenAPI specifications and available as a
 A Swagger editor is available here `<http://editor.swagger.io/>`_ to generate
 such JSON files.
 
-As a result, you should get one JSON file per API:
+As a result, you should get one JSON file per API. For example the project
+**my** has 2 API: **myAPI1** and **myAPI2**.
 
 - myAPI1.json
 - myAPI2.json
@@ -35,17 +36,28 @@ We propose the following table:
    "myAPI1", ":download:`link <myAPI1.json>`"
    "myAPI12", ":download:`link <myAPI2.json>`"
 
+.. note::
+   During documentation merge/publish at RTD, any file referenced in an RST file with
+   ':download:' and relative path to a contributing project repository is copied, uniquely
+   named, and published with the generated HTML pages.
 
 The code is available here:
 
 .. code:: rst
 
-   ..csv-table::
-     :header: "API name", "Swagger JSON"
-     :widths: 10,5
+   .. csv-table::
+      :header: "API name", "Swagger JSON"
+      :widths: 10,5
 
-     "myAPI1", ":download:`link <myAPI1.json>`"
-     "myAPI2", ":download:`link <myAPI2.json>`"
+      "myAPI1", ":download:`link <myAPI1.json>`"
+      "myAPI2", ":download:`link <myAPI2.json>`"
+
+.. note::
+   The syntax of <myAPI1.json> is to be taken literally. Keep '<' and '>'.
+
+.. note::
+   Note the “v” in  swaggerv2doc!
+   If your JSON file has multiple endpoints, this directive does not preserve the order.
 
 API Swagger
 -----------
