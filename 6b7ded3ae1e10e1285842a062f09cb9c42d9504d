@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "60edb8b6_2d31c61b",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-04-17T14:05:54Z",
+      "side": 1,
+      "message": "please remove trailing whitespace",
+      "revId": "6b7ded3ae1e10e1285842a062f09cb9c42d9504d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
