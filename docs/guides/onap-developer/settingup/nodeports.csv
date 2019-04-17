@@ -21,6 +21,8 @@ NodePort,Component,Service name,targetPort,Port
 30219,POLICY,pap-8443,8443,8443
 30220,AAI,aai-sparky-be,9517,9517
 30221,POLICY,drools-9696,9696,9696
+30222,DCAE,xdcae-hv-ves-collector,6061,6061
+30223,DCAE,xdcae-datafile-collector,8100,8100
 30224,SO,so-monitor-port,9091,9091
 30225,PORTAL,portal-app4,8443,8443
 30226,DMAAP,message-router-3905,3905,3905
@@ -32,6 +34,7 @@ NodePort,Component,Service name,targetPort,Port
 30232,AAI,aai,8080,8080
 30233,AAI,aai-ssl,8443,8443
 30234,POMBA,pomba-kibana,5601,5601
+30235,DCAE,xdcae-ves-collector,8080,8080
 30236,POLICY,nexus,8081,8081
 30237,POLICY,policy-apex-pdp,12345,12345
 30238,VID,vid-http,8080,8080
@@ -55,6 +58,7 @@ NodePort,Component,Service name,targetPort,Port
 30259,DMAAP,dmaap-dr-prov,8080,8080
 30260,CLI,cli8080,80,80
 30261,MULTICLOUD,multicloud-azure,9008,9008
+30262,DCAE,xdcae-datafile-collector,8433,8443
 30263,DCAE,dcae-fe,8183,8183
 30264,DCAE,dcae-fe2,9444,9444
 30265,DCAE,dcae-dt,8186,8186
@@ -91,3 +95,6 @@ NodePort,Component,Service name,targetPort,Port
 30399,UUI,uui-server,8082,8082
 30420,CONTRIB,netbox-nginx,8080,8080
 30476,DCAE,tomcat,8080,8080
+32010,DCAE,xdcae-tca-analytics,11011,11011
+
+
