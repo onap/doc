@@ -643,7 +643,7 @@ The Broadband Service blueprint uses ONAP for the design, provisioning, life-cyc
 
 **Figure 8. ONAP BBS Nomadic ONT Architecture**
 
-This blueprint shows the extensibility of the ONAP platform in supporting the orchestration of services across different location (e.g., Central Office, Core) and technology domains (e.g., Access, Edge). 
+This blueprint shows the extensibility of the ONAP platform in supporting the orchestration of services across different location (e.g., Central Office, Core) and technology domains (e.g., Access, Edge).
 
 In a joint collaboration with BBF (Broadband Forum) members, BBS implements and tests some of the specifications defined in the architectural framework of CloudCO (Cloud Central Office), Technical Report TR-384, among others. CloudCO aims at re-architecting the broadband network using SDN and NFV technologies and a cloud-like infrastructure deployed at Central Offices.
 
