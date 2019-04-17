@@ -16,7 +16,8 @@ The API should be described using OpenAPI specifications and available as a
 A Swagger editor is available here `<http://editor.swagger.io/>`_ to generate
 such JSON files.
 
-As a result, you should get one JSON file per API:
+As a result, you should get one JSON file per API. For example the project
+**my** has 2 API: **myAPI1** and **myAPI2**.
 
 - myAPI1.json
 - myAPI2.json
@@ -35,6 +36,13 @@ We propose the following table:
    "myAPI1", ":download:`link <myAPI1.json>`"
    "myAPI12", ":download:`link <myAPI2.json>`"
 
+.. note::
+   The JSON file may be located in a different directory under the project repo and
+   can be referenced with relative path such as '<../myswaggerrepo/myAPI1.json>'
+
+.. note::
+   When the Swagger JSON file is updated during the build time, it is expected that
+   the JSON file should also be updated in the project repository.
 
 The code is available here:
 
