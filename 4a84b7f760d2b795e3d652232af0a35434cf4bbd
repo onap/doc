@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "420fb72f_a4b2dac3",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/api-swagger-guide.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2019-04-18T00:25:06Z",
+      "side": 1,
+      "message": "Might be good to clarify \"build\" processing maybe something like:\n\nDuring documentation merge/publish at RTD, any file referenced in an RST file with :download: and relative path to a contributing project repository is copied, uniquely named, and published with the generated html pages.",
+      "range": {
+        "startLine": 44,
+        "startChar": 3,
+        "endLine": 45,
+        "endChar": 66
+      },
+      "revId": "4a84b7f760d2b795e3d652232af0a35434cf4bbd",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
