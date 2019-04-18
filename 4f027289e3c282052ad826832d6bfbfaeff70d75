@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "58f4d61e_147f5e13",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2693
+      },
+      "writtenOn": "2019-04-18T11:49:33Z",
+      "side": 1,
+      "message": "True. Original source of the text copied are files copyrighted to AT\u0026T. Is it okay if we add AT\u0026T and Nokia here? Adding ONAP or ONAP contributors is not explicit enough.",
+      "parentUuid": "90e4439c_4380cdc0",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1d9a545b_ecb6b10b",
         "filename": "docs/guides/overview/overview.rst",
         "patchSetId": 2
