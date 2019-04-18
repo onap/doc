@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "482d003d_bb89d416",
+        "filename": "docs/guides/overview/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-18T18:43:40Z",
+      "side": 1,
+      "message": "White space still there",
+      "parentUuid": "26f97c88_afee72ef",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "90e4439c_4380cdc0",
         "filename": "docs/guides/overview/overview.rst",
         "patchSetId": 2
@@ -107,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "378cf3b9_2e583602",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-18T18:43:40Z",
+      "side": 1,
+      "message": "I do not understand. All these components have been introduced in Beijing.\nOk to keep the various Release with a link to the asociated Release note",
+      "parentUuid": "7d1d23ba_f2c34539",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f98aeb74_4d3f9e28",
         "filename": "docs/guides/overview/overview.rst",
         "patchSetId": 2
@@ -136,6 +172,24 @@
       "side": 1,
       "message": "This info is based upon onap.org/Platform/Blueprints.\nThe aim here again was to make it visible for what environments ONAP is aimed for.\nIf there are even more Blueprints compleetd in earlier releases, please let me know, I would like to add them.",
       "parentUuid": "f98aeb74_4d3f9e28",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "329d5b86_5ee4a8cd",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-18T18:43:40Z",
+      "side": 1,
+      "message": "OK. BBS Blueprint should be added",
+      "parentUuid": "49d08e0c_89d7c539",
       "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
