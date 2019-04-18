@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0fcbefa1_46626729",
+        "filename": "docs/guides/onap-user/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-18T09:03:54Z",
+      "side": 1,
+      "message": "Add a copyright: I propose:.. Copyright 2019 ONAP Contributors.  All rights reserved.",
+      "revId": "4a8125b7f1c31457b926e833c453c84701f6a285",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c9bb7cf1_f477e1b3",
+        "filename": "docs/guides/onap-user/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-18T09:03:54Z",
+      "side": 1,
+      "message": "remove trailing white spaces",
+      "revId": "4a8125b7f1c31457b926e833c453c84701f6a285",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "edfa324c_95055a9a",
+        "filename": "docs/guides/onap-user/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-18T09:03:54Z",
+      "side": 1,
+      "message": "remove trailing white space",
+      "revId": "4a8125b7f1c31457b926e833c453c84701f6a285",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab926e0_b851a1e9",
+        "filename": "docs/guides/onap-user/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-18T09:03:54Z",
+      "side": 1,
+      "message": "remove trailing white space",
+      "revId": "4a8125b7f1c31457b926e833c453c84701f6a285",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "07066493_ccd9f380",
+        "filename": "docs/guides/onap-user/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-18T09:03:54Z",
+      "side": 1,
+      "message": "remove trailing white space",
+      "revId": "4a8125b7f1c31457b926e833c453c84701f6a285",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
