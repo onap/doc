@@ -2,6 +2,8 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
+.. _user-guides-service-design:
+
 Service Design
 ==============
 The goal of the service design process is to create all artifacts
@@ -22,7 +24,11 @@ Design includes the following topics:
 
 * `Pre-Onboarding <https://wiki.onap.org/x/Y4AP>`_
 
-* `Resource Onboarding <https://wiki.onap.org/x/YIAP>`_
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   Resourse-Onboarding <./resource-onboarding/index.rst>
 
 * `VF Creation and Testing <https://wiki.onap.org/x/PoAP>`_
 
