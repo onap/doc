@@ -634,6 +634,33 @@ Policy.
 
 Read the vFW/vDNS with ONAP blueprint to learn more.
 
+BBS (Broadband Service) Blueprint
+---------------------------------
+
+The Broadband Service blueprint uses ONAP for the design, provisioning, life-cycle management and
+assurance of fixed broadband access services. In a first step, BBS blueprint works with multi-Gigabit
+Internet Connectivity services based on PON (Passive Optical Network access technology, and relies
+on the orchestration and automation capabilities provided by the ONAP platform to support new
+scenarios, such as the Nomadic ONT (see Figure 8).
+
+|image8|
+
+**Figure 8. ONAP BBS Nomadic ONT Architecture**
+
+This blueprint shows the extensibility of the ONAP platform in supporting the orchestration of
+services across different location (e.g., Central Office, Core) and technology domains (e.g.,
+Access, Edge).
+
+In a joint collaboration with BBF (Broadband Forum) members, BBS implements and tests some of the
+specifications defined in the architectural framework of CloudCO (Cloud Central Office), Technical
+Report TR-384, among others. CloudCO aims at re-architecting the broadband network using SDN and NFV
+technologies and a cloud-like infrastructure deployed at Central Offices.
+
+The definition of External API capabilities supporting this use case also relies on TM Forum
+OpenAPIs and MEF LSO.
+
+BBS uses the following ONAP key components: ExternalAPI, SDC, SO, SDN-C, APEX policy engine and
+DCAE.
 
 .. |image1| image:: media/ONAP-toplevel.png
    :width: 6.5in
@@ -656,3 +683,5 @@ Read the vFW/vDNS with ONAP blueprint to learn more.
 .. |image7| image:: media/ONAP-ccvpn.png
    :width: 6.5in
    :height: 3.02431in
+.. |image8| image:: media/ONAP-bbs.png
+   :width: 6.5in
