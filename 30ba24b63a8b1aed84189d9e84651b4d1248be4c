@@ -1,0 +1,205 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "18289141_67801173",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "Great work,... also only small suggestions..",
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "310bdd91_1eaee369",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "Just some suggestion:\nsometimes it is easier for reading, if the button/panel names to be clicked would be e.g. in italic, e.g. *Composition*",
+      "range": {
+        "startLine": 49,
+        "startChar": 12,
+        "endLine": 49,
+        "endChar": 23
+      },
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "328386b8_df6d1073",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "*Accept*",
+      "range": {
+        "startLine": 56,
+        "startChar": 6,
+        "endLine": 56,
+        "endChar": 12
+      },
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "58896bde_9c8d20d6",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "*Reject*",
+      "range": {
+        "startLine": 58,
+        "startChar": 6,
+        "endLine": 58,
+        "endChar": 12
+      },
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "283adf6d_d375e271",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "tailing space",
+      "range": {
+        "startLine": 75,
+        "startChar": 57,
+        "endLine": 75,
+        "endChar": 58
+      },
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "21418bf0_bb8828ad",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "*Waiting For Distribution*",
+      "range": {
+        "startLine": 107,
+        "startChar": 3,
+        "endLine": 107,
+        "endChar": 27
+      },
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d9d81fe2_e1bb045c",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "*Distribute*",
+      "range": {
+        "startLine": 111,
+        "startChar": 24,
+        "endLine": 111,
+        "endChar": 34
+      },
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "514cf181_366e5fbf",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "*Distributed Services*",
+      "range": {
+        "startLine": 116,
+        "startChar": 34,
+        "endLine": 116,
+        "endChar": 54
+      },
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "14b903a9_d61ffea5",
+        "filename": "docs/guides/onap-user/service-distribution/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-04-18T14:45:51Z",
+      "side": 1,
+      "message": "*Monitor*",
+      "range": {
+        "startLine": 118,
+        "startChar": 54,
+        "endLine": 118,
+        "endChar": 61
+      },
+      "revId": "30ba24b63a8b1aed84189d9e84651b4d1248be4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
