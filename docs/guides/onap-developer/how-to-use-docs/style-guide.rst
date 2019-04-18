@@ -106,6 +106,8 @@ Headings (Titles)
 -  Use descriptive titles for tables and figures titles. Do not
    number tables or figures. Do not (in general) add titles for screen shots.
 
+- <TO DO> Guidelines for heading levels and toctree directive
+
 Tasks
 ^^^^^
 -  Start task titles with an action word. Examples: Create, Add,
