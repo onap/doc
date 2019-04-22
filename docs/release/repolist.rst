@@ -91,3 +91,7 @@ Project/Components
    cds <../submodules/ccsdk/cds.git/docs/index>
    oom/offline-installer <../submodules/oom/offline-installer.git/docs/index>
    ccsdk/features <../submodules/ccsdk/features.git/docs/index>
+   parent <../submodules/parent.git/docs/index>
+   api <../submodules/api.git/docs/index>
+   pap <../submodules/pap.git/docs/index>
+   drools <../submodules/drools.git/docs/index>

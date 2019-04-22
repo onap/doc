@@ -393,3 +393,18 @@
 	url = ../ccsdk/features
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/policy/parent.git"]
+	path = docs/submodules/policy/parent.git
+	url = ../policy/parent/
+[submodule "docs/submodules/policy/api.git"]
+	path = docs/submodules/policy/api.git
+	url = ../policy/api/
+[submodule "docs/submodules/policy/pap.git"]
+	path = docs/submodules/policy/pap.git
+	url = ../policy/pap/
+[submodule "docs/submodules/policy/drools.git"]
+	path = docs/submodules/policy/drools.git
+	url = ../policy/drools-pdp
+[submodule "docs/submodules/policy/xacml.git"]
+	path = docs/submodules/policy/xacml.git
+	url = ../policy/xacml-pdp
