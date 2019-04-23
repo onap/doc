@@ -393,3 +393,6 @@
 	url = ../ccsdk/features
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/policy/parent.git"]
+	path = docs/submodules/policy/parent.git
+	url = ../policy/parent
