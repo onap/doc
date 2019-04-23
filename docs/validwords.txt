@@ -126,7 +126,7 @@ javascript
 Javascript
 jboss
 JBoss
-Jenkin
+Jenkins
 Jira
 jpath
 json
@@ -297,7 +297,7 @@ SDN
 sdnc
 Sdnc
 SDNC
-Seleniunm
+Selenium
 servlet
 Servlet
 Skynet
