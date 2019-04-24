@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ac4ac64_fad2124a",
+        "filename": "docs/guides/onap-user/control-loop/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-24T11:46:28Z",
+      "side": 1,
+      "message": "Closed Loop",
+      "revId": "c82177414c4dd67a0abbc45df58a7be3ba36bd78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0ebffca0_b81f0f52",
+        "filename": "docs/guides/onap-user/control-loop/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-24T11:46:28Z",
+      "side": 1,
+      "message": "Policy/DCAE",
+      "revId": "c82177414c4dd67a0abbc45df58a7be3ba36bd78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4cbcbffe_7f7c7cfd",
+        "filename": "docs/guides/onap-user/control-loop/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-24T11:46:28Z",
+      "side": 1,
+      "message": ". at end of line",
+      "revId": "c82177414c4dd67a0abbc45df58a7be3ba36bd78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "78a66d04_c5f2e7e9",
+        "filename": "docs/guides/onap-user/control-loop/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-24T11:46:28Z",
+      "side": 1,
+      "message": "which modeling tool ?",
+      "revId": "c82177414c4dd67a0abbc45df58a7be3ba36bd78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e2413dea_44be128d",
+        "filename": "docs/guides/onap-user/control-loop/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-24T11:46:28Z",
+      "side": 1,
+      "message": "keep present\u003d\u003e replace \"will involve\" by involves",
+      "revId": "c82177414c4dd67a0abbc45df58a7be3ba36bd78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce71cdea_f3315b7a",
+        "filename": "docs/guides/onap-user/control-loop/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-24T11:46:28Z",
+      "side": 1,
+      "message": ". to be added at end of line",
+      "revId": "c82177414c4dd67a0abbc45df58a7be3ba36bd78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a33b78b8_803d100a",
+        "filename": "docs/guides/onap-user/control-loop/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-24T11:46:28Z",
+      "side": 1,
+      "message": "We should remove this sentence",
+      "revId": "c82177414c4dd67a0abbc45df58a7be3ba36bd78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5825c64c_52e89107",
+        "filename": "docs/guides/onap-user/control-loop/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-24T11:46:28Z",
+      "side": 1,
+      "message": "Policy with upper capital as it is an ONAP component",
+      "revId": "c82177414c4dd67a0abbc45df58a7be3ba36bd78",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
