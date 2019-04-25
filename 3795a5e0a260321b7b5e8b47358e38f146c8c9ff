@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b2e2d605_6d11aefb",
+        "filename": "docs/guides/onap-user/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-25T07:13:08Z",
+      "side": 1,
+      "message": "First _ to be removed",
+      "revId": "3795a5e0a260321b7b5e8b47358e38f146c8c9ff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d9710917_ce3cd6cf",
+        "filename": "docs/guides/onap-user/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-25T07:13:08Z",
+      "side": 1,
+      "message": "supress \\",
+      "revId": "3795a5e0a260321b7b5e8b47358e38f146c8c9ff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b868b8a3_56b7c82c",
+        "filename": "docs/guides/onap-user/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-25T07:13:08Z",
+      "side": 1,
+      "message": "Old reference: to be updated",
+      "revId": "3795a5e0a260321b7b5e8b47358e38f146c8c9ff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d7030113_f571b736",
+        "filename": "docs/guides/onap-user/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-25T07:13:08Z",
+      "side": 1,
+      "message": "Supress OpenECMP reference and linked to the RST requirements",
+      "revId": "3795a5e0a260321b7b5e8b47358e38f146c8c9ff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd7cb6f6_7e57b0c9",
+        "filename": "docs/guides/onap-user/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-25T07:13:08Z",
+      "side": 1,
+      "message": "To be removed",
+      "revId": "3795a5e0a260321b7b5e8b47358e38f146c8c9ff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fd8a335c_17e4c0a4",
+        "filename": "docs/guides/onap-user/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-04-25T07:13:08Z",
+      "side": 1,
+      "message": "UPDATE to be removed",
+      "revId": "3795a5e0a260321b7b5e8b47358e38f146c8c9ff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
