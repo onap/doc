@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "d9a3d23b_058bbe34",
+        "filename": "docs/guides/overview/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2019-04-26T09:22:04Z",
+      "side": 1,
+      "message": "Sorry, git review was not added, though the change was done. My apologies.",
+      "parentUuid": "482d003d_bb89d416",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "575cae7a_55507af7",
         "filename": "docs/guides/overview/media/ONAP_architecture_high_level.svg",
         "patchSetId": 2
@@ -72,6 +90,24 @@
     },
     {
       "key": {
+        "uuid": "67452e6d_4ce27b86",
+        "filename": "docs/guides/overview/media/ONAP_architecture_high_level.svg",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2019-04-26T09:22:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "575cae7a_55507af7",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c67373c2_d46dd9aa",
         "filename": "docs/guides/overview/media/ONAP_main_functions.svg",
         "patchSetId": 2
@@ -83,6 +119,24 @@
       "writtenOn": "2019-04-24T08:26:56Z",
       "side": 1,
       "message": "please remove trailing whitespace",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a545555c_5b9ef0f3",
+        "filename": "docs/guides/overview/media/ONAP_main_functions.svg",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2019-04-26T09:22:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c67373c2_d46dd9aa",
       "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
@@ -142,6 +196,24 @@
     },
     {
       "key": {
+        "uuid": "dd244245_453dc41d",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2019-04-26T09:22:04Z",
+      "side": 1,
+      "message": "Thank you, I have also finally added Huawei, as I found sources from them as well.",
+      "parentUuid": "ad5f6da0_b990a8e3",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1d9a545b_ecb6b10b",
         "filename": "docs/guides/overview/overview.rst",
         "patchSetId": 2
@@ -195,6 +267,24 @@
     },
     {
       "key": {
+        "uuid": "ba93355a_e35128b0",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2019-04-26T09:22:04Z",
+      "side": 1,
+      "message": "This is the currently available information in the Casablance Release Notes, these are the features that have been improved in Casablanca: https://logs.onap.org/production/vex-yul-ecomp-jenkins-1/doc-master-verify-rtd/4531/html/release/index.html\nBut ok, I remove them.",
+      "parentUuid": "378cf3b9_2e583602",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f98aeb74_4d3f9e28",
         "filename": "docs/guides/overview/overview.rst",
         "patchSetId": 2
@@ -242,6 +332,24 @@
       "side": 1,
       "message": "OK. BBS Blueprint should be added",
       "parentUuid": "49d08e0c_89d7c539",
+      "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7e6e3663_1c340066",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 4970
+      },
+      "writtenOn": "2019-04-26T09:22:04Z",
+      "side": 1,
+      "message": "Thanks for the heads up, I did not notice BBS yet. I have added it.",
+      "parentUuid": "329d5b86_5ee4a8cd",
       "revId": "4f027289e3c282052ad826832d6bfbfaeff70d75",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
