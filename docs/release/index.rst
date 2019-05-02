@@ -1,8 +1,12 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
    International License. http://creativecommons.org/licenses/by/4.0
 
+
+.. _casablancarelease-notes:
+
 Casablanca Release Notes
 ^^^^^^^^^^^^^^^^^^^^^^^^
+
 This page is the ONAP Casablanca Release Notes. The first release was labelled
 Amsterdam, second release Beijing and subsequent major release will be named
 using city names.
