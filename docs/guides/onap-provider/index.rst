@@ -4,8 +4,8 @@
 
 .. _vnf_reqs:
 
-VNF Requirements and Guidelines
-===============================
+VNF and PNF Requirements and Guidelines
+=======================================
 
 The following includes guides and requirements are provided to
 describe tasks that an VNF or PNF provider of ONAP may need to properly
