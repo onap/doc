@@ -2,10 +2,10 @@
 .. International License.  http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
-.. _vnf_reqs:
+.. _vnf_pnf_reqs:
 
-VNF Requirements and Guidelines
-===============================
+VNF and PNF Requirements and Guidelines
+=======================================
 
 The following includes guides and requirements are provided to
 describe tasks that an VNF or PNF provider of ONAP may need to properly
