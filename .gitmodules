@@ -396,3 +396,6 @@
 [submodule "docs/submodules/policy/parent.git"]
 	path = docs/submodules/policy/parent.git
 	url = ../policy/parent
+[submodule "docs/submodules/modeling/genericparser.git"]
+	path = docs/submodules/modeling/genericparser.git
+	url = ../modeling/genericparser
