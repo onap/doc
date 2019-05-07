@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5d21c879_7a96ce29",
+        "filename": "docs/guides/onap-user/servicedesigner.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-05-07T14:20:07Z",
+      "side": 1,
+      "message": "This can also be moved to the Doc Tree, as it is merged",
+      "revId": "900ad5df935f395a7d50c543776aec79513b7056",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "78e4a5a2_138af32c",
+        "filename": "docs/guides/onap-user/servicedesigner.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-05-07T14:20:07Z",
+      "side": 1,
+      "message": "THis is also merged and can be moved",
+      "revId": "900ad5df935f395a7d50c543776aec79513b7056",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eb381543_f43eb27e",
+        "filename": "docs/guides/onap-user/servicedesigner.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-05-07T14:20:07Z",
+      "side": 1,
+      "message": "Also merged and can be moved",
+      "revId": "900ad5df935f395a7d50c543776aec79513b7056",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
