@@ -21,14 +21,13 @@ Design progresses logically through a series of phases. Each phase:
 
 Design includes the following topics:
 
-
-* `Pre-Onboarding <https://wiki.onap.org/x/Y4AP>`_
-
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
-   Resourse-Onboarding <./resource-onboarding/index.rst>
+   Pre-Onboarding <./pre-onboarding/index.rst>
+
+   Resource-Onboarding <./resource-onboarding/index.rst>
 
 * `VF Creation and Testing <https://wiki.onap.org/x/PoAP>`_
 
