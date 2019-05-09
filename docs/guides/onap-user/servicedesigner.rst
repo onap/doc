@@ -21,20 +21,19 @@ Design progresses logically through a series of phases. Each phase:
 
 Design includes the following topics:
 
-
-* `Pre-Onboarding <https://wiki.onap.org/x/Y4AP>`_
-
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
-   Resourse-Onboarding <./resource-onboarding/index.rst>
+   Pre-Onboarding <./pre-onboarding/index.rst>
 
-* `VF Creation and Testing <https://wiki.onap.org/x/PoAP>`_
+   Resource-Onboarding <./resource-onboarding/index.rst>
 
-* `Governance Approval and Service Distribution <https://wiki.onap.org/x/UYAP>`_
+   VF Creation and Testing <./vfcreation/index.rst>
 
-* `Control Loop Design <https://wiki.onap.org/x/WYAP>`_
+   Governance Approval and Service Distribution <./service-distribution/index.rst>
+
+   Control Loop Design <./control-loop/index.rst>
 
 * `Policy Design <https://wiki.onap.org/x/SYAP>`_
 
