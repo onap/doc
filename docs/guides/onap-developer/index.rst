@@ -7,15 +7,12 @@
 Developer Guides
 ================
 The following guides are provided for developers who want to
-understanding or contribute to the ONAP open source.
+understand or contribute to the ONAP open source.
 
 .. toctree::
    :maxdepth: 1
 
-   architecture/index
    tutorials/index
-   settingup/index
-   developing/index
    how-to-use-docs/index
    apiref/index
 
