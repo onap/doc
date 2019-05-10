@@ -7,8 +7,8 @@
 
 .. _doc_onap-developer_guide_projects:
 
-Developing ONAP
-===============
+ONAP components and functionalities
+===================================
 Additional developer level detail is provided for each project below.
 
 Active and Available Inventory
