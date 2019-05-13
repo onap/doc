@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5872bf14_7851cf51",
+        "filename": "docs/release/repolist.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-05-13T12:15:32Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "b698090551e5059679be901c47c64cde001a31c9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
