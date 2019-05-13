@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4350ee7_d652c25c",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-05-13T11:53:32Z",
+      "side": 1,
+      "message": "index to be changed also: _vnf_pnf_reqs:",
+      "revId": "066bd57f01e75efed528507fd8298b89829555e1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
