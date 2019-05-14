@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dce38f09_518a5c28",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-05-14T12:09:43Z",
+      "side": 1,
+      "message": "cabablanca to be removed. We must avoid confusion when reviewing the doc",
+      "revId": "d4c937447cc00136b353ca90d1b2487c77d0d9b5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
