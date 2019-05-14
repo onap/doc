@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b5b343b2_d5761c54",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-05-14T11:18:40Z",
+      "side": 1,
+      "message": "To be Changed to Dublin",
+      "revId": "c735c78a15ce9c12de12a4c9de380153522bf63d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0ee22bb8_7c7fa76b",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-05-14T11:18:40Z",
+      "side": 1,
+      "message": "to be changed to Dublin",
+      "revId": "c735c78a15ce9c12de12a4c9de380153522bf63d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
