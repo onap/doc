@@ -18,7 +18,7 @@ the acceleration of the development of a vibrant ecosystem around a globally
 shared architecture and the implementation of network automation faster than
 any product could on its own.
 
-Please find some guidance here on the content of the Casablanca Release documentation for ONAP:
+Please find some guidance here on the content of the Dublin Release documentation for ONAP:
 
  +---------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | Main documentation areas 	                                 |   Description                                                                                 |
@@ -52,7 +52,7 @@ Please find some guidance here on the content of the Casablanca Release document
  |                                                               | participants.                                                                                 |
  +---------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
-You can reach the complete Casablanca Release documentation from the Navigation bar on the left.
+You can reach the complete set of Dublin Release documentation from the Navigation bar on the left.
 
 .. toctree::
    :maxdepth: 1

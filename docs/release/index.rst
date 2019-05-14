@@ -4,78 +4,27 @@
 
 .. _casablancarelease-notes:
 
-Casablanca Release Notes
-^^^^^^^^^^^^^^^^^^^^^^^^
+Dublin Release Notes
+^^^^^^^^^^^^^^^^^^^^
 
-This page is the ONAP Casablanca Release Notes. The first release was labelled
-Amsterdam, second release Beijing and subsequent major release will be named
-using city names.
+This page provides the release notes for the ONAP Dublin release. This includes details of software versions used, known limitations, and
+outstanding trouble reports.
 
-Release notes are cumulative for the release, meaning this release note for Casablanca will have an entry for each Major, Minor, and Maintenance release, if applicable. Information that is applicable regardless of release is included in the `Getting Started With ONAP`_ section of this document.
+Release notes are cumulative for the release, meaning this release note for the Dublin release will have an entry for each Major, Minor, and Maintenance
+release, if applicable. Information that is applicable regardless of release is included in the `Getting Started With ONAP`_ section of this
+document.
 
-Each component within the ONAP solution maintains their own component level release notes and links to those release notes are provided below. Details on the specific items delivered in each releaese by each component is maintained in the component specific release notes.
+Each component within the ONAP solution maintains their own component level release notes and links to those release notes are provided below.
+Details on the specific items delivered in each releaese by each component is maintained in the component specific release notes.
 
-Casablanca Releases
-===================
+Dublin Major Release 4.0.0
+==========================
 
-The following releases are available for Casablanca:
-  - `Casablanca Maintenance Release 3.0.2`_
-  - `Casablanca Maintenance Release 3.0.1`_
-  - `Casablanca Major Release 3.0.0`_
+* Release Name: Dublin
+* Release Version: 4.0.0
+* Release Date: , 2019
 
-Casablanca Maintenance Release 3.0.2
-====================================
-
-* Release Name: Casablanca
-* Release Version: 3.0.2
-* Release Date: Apr 15, 2019
-
-Casablanca Maintenance Release 3.0.2 addresses issue of certificate expiry across the following projects:
- - AAI
- - CLAMP
- - DMAAP Data Router
- - Policy
- - VID
- - Portal
-
-Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
-
-
-Casablanca Maintenance Release 3.0.1
-====================================
-
-* Release Name: Casablanca
-* Release Version: 3.0.1
-* Release Date: Jan 31, 2019
-
-Casablanca Maintenance Release 3.0.1 delivered a number of fixes and updates across the following projects:
- - AAI
- - APPC
- - CCSDK
- - CLAMP
- - DCAEGEN2
- - DOC
- - EXTAPI
- - Integration
- - MultiCloud
- - OOM
- - OOF
- - Policy
- - Portal
- - SDC
- - SDNC
- - SO
-
-Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
-
-Casablanca Major Release 3.0.0
-==============================
-
-* Release Name: Casablanca
-* Release Version: 3.0.0
-* Release Date: Nov 30, 2018
-
-The Casablanca 3.0.0 is the first of Casablanca.
+The Dublin 4.0.0 is the first release for Dublin.
 
 .. _getting-started:
 
@@ -171,7 +120,8 @@ Detect -> Publish -> Respond:
 
 Project Specific Release Notes
 ==============================
-ONAP releases are specified by a list of project artifact versions in a :ref:`manifest artifacts <doc-release-manifest-artifacts>` and :ref:`manifest dockers <doc-release-manifest-docker>`.
+ONAP releases are specified by a list of project artifact versions in a :ref:`manifest artifacts <doc-release-manifest-artifacts>`
+and :ref:`manifest dockers <doc-release-manifest-docker>`.
 
 .. toctree::
    :hidden:
@@ -191,7 +141,7 @@ ONAP is installed using :ref:`ONAP Operations Manager (OOM) over Kubernetes<inst
 
 Documentation
 =============
-ONAP Casablanca Release provides multiple documents including the following:
+ONAP Dublin Release provides multiple documents including the following:
 
  * A high level :ref:`architecture view<doc-architecture>` of how component
    relate to each other.
