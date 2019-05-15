@@ -55,13 +55,18 @@ The code is available here:
 .. note::
    The syntax of <myAPI1.json> is to be taken literally. Keep '<' and '>'.
 
-.. note::
-   Note the “v” in  swaggerv2doc!
-   If your JSON file has multiple endpoints, this directive does not preserve the order.
 
 API Swagger
 -----------
 For each API, the ``swaggerv2doc`` directive must be used as follows:
+
+.. note::
+   Note the “v” in  swaggerv2doc!
+   If your JSON file has multiple endpoints, this directive does not preserve the order.
+
+.. note::
+   swaggerv2doc directive may generate errors when Swagger file contains specific
+   information. In such case, do not use this direcive.
 
 .. code:: rst
 
