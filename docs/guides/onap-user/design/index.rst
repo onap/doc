@@ -2,14 +2,13 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
-.. _user-guides-service-design:
+Design
+======
 
-Service Design
-==============
-The goal of the service design process is to create all artifacts
-(models) that are required to instantiate and manage resources,
-services, and products on the ONAP platform. The design process
-requires input from users with multiple roles.
+The goal of the design process is to create all artifacts (models)
+that are required to instantiate and manage resources, services,
+and products on the ONAP platform. The design process requires
+input from users with multiple roles.
 
 Design progresses logically through a series of phases. Each phase:
 
@@ -30,6 +29,8 @@ Design includes the following topics:
    Resource-Onboarding <./resource-onboarding/index.rst>
 
    VF Creation and Testing <./vfcreation/index.rst>
+
+   Service Design <./service-design/index.rst>
 
    Governance Approval and Service Distribution <./service-distribution/index.rst>
 

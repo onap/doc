@@ -13,9 +13,9 @@ an instance of ONAP.
 .. toctree::
    :maxdepth: 1
 
-   platformadmin.rst
+   onapportal.rst
    platformoperations.rst
-   servicedesigner.rst
-   servicecreator.rst
-   onapadmin.rst
+   design/index.rst
+   servicedeployment.rst
+   onapcli.rst onapadmin.rst
    Verified Use Cases <../../submodules/integration.git/docs/docs_usecases.rst>
