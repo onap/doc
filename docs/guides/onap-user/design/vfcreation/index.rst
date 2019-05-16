@@ -2,6 +2,8 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Doc Team.  All rights reserved.
 
+.. _vfcreation-and-testing:
+
 VF Creation and Testing
 =======================
 **Goal**: Using VSPs, create one or more VFs as the building blocks for a
@@ -64,22 +66,22 @@ Create a VF
 
    .. note:: These tasks can be done only before submitting the VF for testing.
 
-   - Icon — change the icon associated with the VF (vendor-supplied icons are
+   - Icon ??? change the icon associated with the VF (vendor-supplied icons are
      preferred)
-   - Deployment Artifacts — download, view, modify, or change VF deployment
+   - Deployment Artifacts ??? download, view, modify, or change VF deployment
      artifacts (for example, the contents of the Heat .zip file, which contains
      the Heat volume template, the VF license, etc.)
-   - Information Artifacts — view or upload artifacts, such as test scripts, test
+   - Information Artifacts ??? view or upload artifacts, such as test scripts, test
      results, or the AIC questionnaire
-   - TOSCA Artifacts — view or upload the TOSCA model or the TOSCA template
-   - Properties — define or update VF properties (not used in Release 1)
-   - Composition — view or edit the graphical representation of the resource-level
+   - TOSCA Artifacts ??? view or upload the TOSCA model or the TOSCA template
+   - Properties ??? define or update VF properties (not used in Release 1)
+   - Composition ??? view or edit the graphical representation of the resource-level
      TOSCA model (generated from the Heat template)
-   - Activity Log — view activity related to assets associated with the VF
+   - Activity Log ??? view activity related to assets associated with the VF
      (displays the action, date, user, status, and any comments related to each
      action)
-   - Deployment — view VF modules defined in the Heat template
-   - Inputs — view inputs defined for the resource-level TOSCA model
+   - Deployment ??? view VF modules defined in the Heat template
+   - Inputs ??? view inputs defined for the resource-level TOSCA model
 
 #. After creating a VF, submit it for testing (see `Submit a VF for testing`_).
 
