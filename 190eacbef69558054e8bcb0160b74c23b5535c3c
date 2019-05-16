@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8fdf0706_685d06f0",
+        "filename": "docs/guides/onap-user/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-05-16T14:25:56Z",
+      "side": 1,
+      "message": "onapadmin.rst to be removed",
+      "revId": "190eacbef69558054e8bcb0160b74c23b5535c3c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
