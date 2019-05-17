@@ -18,7 +18,7 @@ the acceleration of the development of a vibrant ecosystem around a globally
 shared architecture and the implementation of network automation faster than
 any product could on its own.
 
-Please find some guidance here on the content of the Dublin Release documentation for ONAP:
+Please find some guidance here on the content of ONAP documentation:
 
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | Main documentation areas 	                                                   | Description                                                                                   |
@@ -50,12 +50,12 @@ Please find some guidance here on the content of the Dublin Release documentatio
  |                                                                                 | User Guide. The instantiation and the management of resources and the services                |
  |                                                                                 | are supported with a Service Design Guide and with guidelines on Service Deployment.          |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`VNF/PNF Requirements and Guidelines <vnf_reqs>`                           | Harmonized VNF and PNF requirements and reduced customization of onboarding VNFs              |
+ | :ref:`VNF/PNF Requirements and Guidelines <vnf_pnf_reqs>`                       | Harmonized VNF and PNF requirements and reduced customization of onboarding VNFs              |
  |                                                                                 | and PNFs can accelerate the optimal usage of this ONAP environment. The guidelines            |
  |                                                                                 | on VNF/PNF requirements facilitates synchronized and aligned activities for all participants. |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
-You can reach the complete set of Dublin Release documentation from the Navigation bar on the left.
+
 
 .. toctree::
    :maxdepth: 1
