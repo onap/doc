@@ -135,15 +135,6 @@ Development Tools
 
    ../../../submodules/integration/devtool.git/docs/source/index
 
-Documentation
--------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   ../how-to-use-docs/index.rst
-
 
 External API Framework
 ----------------------
