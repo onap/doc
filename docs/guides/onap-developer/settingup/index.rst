@@ -25,17 +25,21 @@ The following is the recommended component version.
   ===========  =========
   Software     Version
   ===========  =========
-  Kubernetes   1.11.5
-  Helm         2.9.1
-  kubectl      1.11.5
-  Docker       17.03.x
+  Kubernetes   1.13.5
+  Helm         2.12.3
+  kubectl      1.13.5
+  Docker       18.09.5
   ===========  =========
 
 The ONAP full installation is validated with the following footprint:
- - 14 VM (1 Rancher, 13 K8s nodes)
-   - 8 vCPU
-   - 16 GB RAM
- - 160 GB Storage
+
+.. csv-table:: Validated installation footprint
+   :widths: 3,5,10
+
+   VM number, VM flavor, VM role
+   12, 16 GB RAM - 8 vCPUs, Running the K8S worker role
+   3, 8 GB RAM - 4 vCPUs, Running the K8S controller role
+   1, 8 GB RAM - 4 vCPUs, Running the shared NFS server for /dockerdata-nfs/
 
 Installation
 ------------
@@ -64,6 +68,14 @@ Alternative way of offline ONAP installation is described here:
 
    ../../../../submodules/oom/offline-installer.git/docs/index.rst
 
+.. note::
+   Prior to deployment of ONAP, there is no need to download manually any Docker container.
+   The OOM deployment takes care to automatically download the Docker containers.
+
+   It is also possible to deploy a subset of ONAP components on a single VM.
+   The VM flavor to be used depends on the number of ONAP components to be
+   deployed.
+
 NodePorts
 ---------
 
@@ -91,21 +103,3 @@ Kubernetes command:
 
   kubectl get svc -n onap -o go-template='{{range .items}}{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{.}}{{"\n"}}{{end}}{{end}}{{end}}'
 
-
-.. note::
-   Prior to deployment of ONAP, there is no need to download manually any Docker container.
-   The OOM deployment takes care to automatically download the Docker containers.
-
-   It is also possible to deploy a subset of ONAP components on a single VM.
-   The VM flavor to be used depends on the number of ONAP components to be
-   deployed.
-
-.. note::
-   For test purposes, it is possible to use other installations:
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   onap_heat.rst
-   onap_individual.rst
