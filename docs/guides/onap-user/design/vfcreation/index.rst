@@ -2,7 +2,7 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Doc Team.  All rights reserved.
 
-.. _vfcreation-and-testing:
+.. _doc_guide_user_des_vf-cre:
 
 VF Creation and Testing
 =======================
