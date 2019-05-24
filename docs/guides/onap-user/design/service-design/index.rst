@@ -2,6 +2,8 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Contributors. All rights reserved.
 
+.. _doc_guide_user_des_ser-des:
+
 Service Design
 ==============
 
