@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7e317fe0_892199a1",
+        "filename": "docs/guides/onap-user/design/pre-onboarding/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-05-27T08:54:00Z",
+      "side": 1,
+      "message": "it\u0027s very long, we might wanna keep it simple.",
+      "revId": "f3ba182d4f6e6410f14970180631101456ad2e4c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
