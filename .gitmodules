@@ -403,3 +403,6 @@
 	url = ../modeling/genericparser
 	branch = .
 	ignore = dirty
+[submodule "docs/submodules/osa.git"]
+	path = docs/submodules/osa.git
+	url = ../../osa/

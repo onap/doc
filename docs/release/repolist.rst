@@ -93,3 +93,4 @@ Project/Components
    ccsdk/features <../submodules/ccsdk/features.git/docs/index>
    parent <../submodules/parent.git/docs/index>
    modeling/genericparser <../submodules/modeling/genericparser.git/docs/index>
+   osa <../submodules/osa.git/docs/index>
