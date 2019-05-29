@@ -405,4 +405,6 @@
 	ignore = dirty
 [submodule "docs/submodules/osa.git"]
 	path = docs/submodules/osa.git
-	url = ../../osa/
+	url = ../osa/
+	branch = master
+	ignore = dirty
