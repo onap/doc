@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f04207d3_edc8e554",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 680,
+      "author": {
+        "id": 5057
+      },
+      "writtenOn": "2019-05-29T22:59:15Z",
+      "side": 1,
+      "message": "Punctuation missing. Are there links intended to be embedded here?\nPunctuation inconsistent throughout on bulleted lists.",
+      "range": {
+        "startLine": 680,
+        "startChar": 69,
+        "endLine": 680,
+        "endChar": 70
+      },
+      "revId": "1c347a36b49ffa5d477d6478b3743a9a71134398",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
