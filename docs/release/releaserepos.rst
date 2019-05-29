@@ -196,7 +196,7 @@ Policy Framework
    :maxdepth: 1
    :titlesonly:
 
-   policy<../submodules/policy/engine.git/docs/release-notes.rst>
+   policy<../submodules/policy/parent.git/docs/release-notes.rst>
 
 Portal Platform
 ---------------
