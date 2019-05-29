@@ -30,14 +30,24 @@ One or two sentences explaining the purpose of this Release.
 **Known Issues**
 	- `CIMAN-65 <https://jira.onap.org/browse/CIMAN-65>`_ and two, three sentences.
 	  One sentences explaining what is the issue.
-	  
+
 	  Another sentence explaining the impact of the issue.
-	  
+
 	  And an optional sentence providing a workaround.
 
-**Security Issues**
-	You may want to include a reference to CVE (Common Vulnerabilities and Exposures) `CVE <https://cve.mitre.org>`_
+**Security Notes**
 
+*Fixed Security Issues*
+
+	List of security issues fixed in this release including CVEs and OJSI tickets.
+
+*Known Security Issues*
+
+	List of new security issues that are left unfixed in this release including CVEs and OJSI tickets.
+
+*Known Vulnerabilities in Used Modules*
+
+	Results of know vulnerabilities analysis in used modules.
 
 **Upgrade Notes**
 
