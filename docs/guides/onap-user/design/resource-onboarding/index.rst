@@ -2,6 +2,8 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Contributors. All rights reserved.
 
+.. _doc_guide_user_des_res-onb:
+
 Resource Onboarding
 ===================
 **Goal:** Add models and other artifacts required to create, configure, instantiate, and manage a VF and, optionally, a VFC.

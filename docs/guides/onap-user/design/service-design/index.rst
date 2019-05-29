@@ -2,6 +2,8 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Contributors. All rights reserved.
 
+.. _doc_guide_user_des_ser-des:
+
 Service Design
 ==============
 
@@ -30,7 +32,7 @@ instantiate, and manage services. Validate and certify the services.
 Create a Service
 ----------------
 
-**Prerequisites:** Create VFs required for this service (see :ref:`vfcreation-and-testing`).
+**Prerequisites:** Create VFs required for this service (see :ref:`doc_guide_user_des_vf-cre`).
 
 #. From the SDC HOME page, hover over Add and select Add Service.
 #. In the General section, complete all fields.
