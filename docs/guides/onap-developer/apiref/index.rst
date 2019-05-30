@@ -48,7 +48,7 @@ Common Services
    :titlesonly:
 
    AAF - Application Authorization Framework <../../../submodules/aaf/sms.git/docs/api.rst>
-   AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI_AMSTERDAM.rst>
+   AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI.rst>
    AAI ESR - AAI External System Register <../../../submodules/aai/esr-server.git/docs/offeredapis.rst>
    DMAAP DBC - Data Management as a Platform (Data Bus Controller) <../../../submodules/dmaap/dbcapi.git/docs/api.rst>
    DMAAP DR - Data Management as a Platform (Data Router) <../../../submodules/dmaap/datarouter.git/docs/index.rst>
