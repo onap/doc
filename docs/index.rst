@@ -23,6 +23,9 @@ Please find some guidance here on the content of ONAP documentation:
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | Main documentation areas 	                                                   | Description                                                                                   |
  +=================================================================================+===============================================================================================+
+ | :ref:`Release Notes <dublinrelease-notes>`                                      | The Release Notes besides providing the basic information on the main release, also           |
+ |                                                                                 | presents link to the release information of each, specific ONAP component.                    |
+ +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Overview <overview>`                                                 | ONAP Overview provides generic and high-level guidance on the mission and main                |
  |                                                                                 | functionalities of ONAP. Basic guidelines on license details, limitations and                 |
  |                                                                                 | security references support understanding the solution.                                       |
@@ -62,8 +65,8 @@ Please find some guidance here on the content of ONAP documentation:
    :hidden:
 
    Home <self>
-   guides/overview/index
    release/index
+   guides/overview/index
    guides/onap-developer/architecture/index
    guides/onap-developer/developing/index
    guides/onap-developer/settingup/index
