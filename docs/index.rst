@@ -54,6 +54,9 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | and PNFs can accelerate the optimal usage of this ONAP environment. The guidelines            |
  |                                                                                 | on VNF/PNF requirements facilitates synchronized and aligned activities for all participants. |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+ | :ref:`ONAP Security <onap-security>`                                            | The current state of ONAP Security is described here. We can learn about discovered and fixed |
+ |                                                                                 | vulnerabilities.                                                                              |
+ +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
 
 
@@ -70,3 +73,4 @@ Please find some guidance here on the content of ONAP documentation:
    guides/onap-developer/index
    guides/onap-user/index
    guides/onap-provider/index
+   ../submodules/osa.git/docs/index
