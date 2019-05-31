@@ -58,6 +58,12 @@ The following sequence will do this over ssh.
    If your access network restricts ssh, you will need to use equivalent
    git commands and HTTP Passwords as described `here <http://wiki.onap.org/x/X4AP>`_.
 
+.. caution::
+
+   Don't replace ../ in *git submodule add* with any relative path on
+   your local file system. It refers to the location of your repository
+   on the server.
+
 .. code-block:: bash
 
    git clone ssh://$lfid@gerrit.onap.org:29418/doc
@@ -507,4 +513,3 @@ scan for output that applies to the files you are validating.
 
    tox -espellcheck
    more <  docs/_build/spellcheck/output.txt
-
