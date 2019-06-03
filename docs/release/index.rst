@@ -50,8 +50,14 @@ community events.
 
 Security Notes
 ==============
+Details about discovered and mitigated vulnerabilities are in :ref:`ONAP Security <onap-security>`
+
+.. toctree::
+   :hidden:
+
+   ../submodules/osa.git/docs/index.rst
+
 ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
-The goal of the Casablanca release is for all ONAP projects to be close to achieving a CII Passing badge.
 
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge#core-infrastructure-initiative-best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
