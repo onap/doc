@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b75484c_9dcfa701",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-06-04T14:10:46Z",
+      "side": 1,
+      "message": "I think I might be tired...",
+      "revId": "88d72517660b443f67cc8c9ef319ca23fc7d7dae",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
