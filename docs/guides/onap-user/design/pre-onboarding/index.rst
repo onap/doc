@@ -7,12 +7,19 @@
 Pre-Onboarding
 ==============
 
-    * `Create a Tenant`_
-    * `Validate VFs (Virtual Functions)`_
-    * `Generate Manifest and Package Artifacts`_
+    * `Create a Tenant`_ (will be moved to "Service Deployment")
+    * `Generate Manifest and Package Artifacts`_ (for HEAT based VNFs)
+    * `Validate xNF Package (VNF/PNF)`_
+
+.. _doc_guide_user_des_pre-onb_cre-ten:
 
 Create a Tenant
 ---------------
+
+.. note::
+   This section is not really belonging to the "Design" phase,
+   but to the preparation of the "Service Deployment" and will be
+   moved in the next release
 
 Each service requires a tenant_ (a group of users who share a common access)
 in which resources are stored in the cloud. This process is performed using
@@ -58,41 +65,28 @@ The overall process is as follows:
    |image1|
 
 
-Validate VFs (Virtual Functions)
---------------------------------
-
-Prior to resource onboarding, the Certification Group does the following:
-
- - onboards the Heat template(s) and metadata to the SDC catalog
- - creates a test VF
- - runs the Heat scanning tools
- - shares the results with any group that approves Virtual Functions
-
-In parallel, the Certification Group onboards the VF Image and OS to a
-standalone ONAP instance (the "sandbox") and performs the following:
-
- - security scan
- - compatibility test for the OS and vendor binary
- - malware scan
-
-The Certification group then instantiates the VF image using the vendor
-Heat (if provided) in order to validate that the VM can run on the Network
-Cloud.
-
-No VF functionality testing is performed at this stage.
-
+.. _doc_guide_user_des_pre-onb_gen-man:
 
 Generate Manifest and Package Artifacts
 ---------------------------------------
 
+.. note::
+   This section describes the steps required to package a given HEAT
+   template into a zip-file, which can be onboarded to SDC. Instructions
+   to create TOSCA based VNF or PNF Onboarding Packages are not described
+   here
+
 Before onboarding resources, run generate-manifest.py to generate a
 MANIFEST file. These steps are performed outside SDC.
 
-OBSOLETE: **Prerequisites:** Obtain Heat/ENV files and other files required for
-onboarding. See the reference document `VNF Heat Template Requirements
-for OpenECOMP <https://wiki.onap.org/download/attachments/1015849/VNF%20Heat%20Template%20Requirements%20for%20OpenECOMP.pdf?version=2&modificationDate=1487262292000&api=v2>`__ for details.
+**Prerequisites:** Obtain Heat/ENV files and other files required for
+onboarding. The requirements are found in the following document.
 
-UPDATE: see VNF Modeling Requirements / HEAT: https://onap.readthedocs.io/en/casablanca/submodules/vnfrqts/requirements.git/docs/Chapter5/Heat/index.html
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   Heat requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter5/Heat/index.rst>
 
 #. Put the Heat, ENV, nested Heat, and other files used by get-file in templates
    in a directory.
@@ -112,16 +106,63 @@ UPDATE: see VNF Modeling Requirements / HEAT: https://onap.readthedocs.io/en/cas
     - [dir y] contains the Heat/ENV files and other files
     - [dir x] contains the python script
 
-#. Run the script on the Windows command line:
+#. Run the script on the Windows command line (not valid anymore):
 
-   .. code-block::
+   .. code-block:: python
 
-    python generate-manifest.py -f "dir y"
+      python generate-manifest.py -f "dir y"
 
 #. Examine the manifest file and confirm that is correct.
 
 #. Package all Heat/ENV files, all other files, and the MANIFEST.json
    into one .zip file.
+
+.. _doc_guide_user_des_pre-onb_val:
+
+Validate xNF Package (VNF/PNF)
+------------------------------
+
+VNF and PNF packages have to follow the requirements described in:
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   VNF and PNF Modeling Requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter5/index.rst>
+   ONAP Management Requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter7/index.rst>
+
+For Validation of VNF and PNF packages the tools delivered by VNFSDK can be
+used:
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../../../onap-provider/vnfvalidator.rst
+
+Prior to resource onboarding, the Certification Group does the following:
+
+ - for VNF and PNF
+     - Validation of the delivered xNF package and artifacts
+     - using the VNF Validation Tools
+ - in case of VNF
+    - onboards the Heat template(s) and metadata to the SDC catalog
+    - creates a test VF
+    - runs the Heat scanning tools
+ - shares the results with any group that approves Virtual Functions
+
+In parallel, the Certification Group onboards the VF Image and OS to a
+standalone ONAP instance (the "sandbox") and performs the following:
+
+ - security scan
+ - compatibility test for the OS and vendor binary
+ - malware scan
+
+The Certification group then instantiates the VF image using the vendor
+Heat (if provided) in order to validate that the VM can run on the Network
+Cloud.
+
+No VF functionality testing is performed at this stage.
 
 
 .. |image1| image:: media/tenant.png
