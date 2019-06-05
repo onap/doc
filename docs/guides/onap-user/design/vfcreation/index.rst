@@ -18,40 +18,42 @@ service. Validate and certify the VFs.
 Steps
 -----
 
-- `Create a VF`_
-- `Update a VF [optional]`_
-- `Submit a VF for testing`_
-- `Test a VF`_
+- `Create a VF/PNF by VSP import`_
+- `Create a VF/PNF manually`_
+- `Update a VF/PNF [optional]`_
+- `Submit for testing`_
+- `Test a VF/PNF`_
 
-Create a VF
------------
+.. _doc_guide_user_des_vf-cre_cre-imp:
 
-**Prerequisites:**
+Create a VF/PNF by VSP import
+-----------------------------
 
-- Create a license for each VF (see Create a license model) (see also the
-  tutorial Creating a Licensing Model)
+**Prerequisites:** (see :ref:`doc_guide_user_des_res-onb` )
+
+- Create a license for each VF/PNF
 - Create a Vendor Software Product.
 
 **Steps**
 
-#. From the SDC HOME page, click the *Vendor Software Component* icon in the
-   header (upper right).
+#. From the SDC HOME page, click the *Import VSP*
 
    |image2|
 
-#. From the Import VF box, expand a VSP name and click the *Import VSP* icon.
+#. From the *Import VF* box, expand a VSP name and click the *Import VSP* icon.
 
    |image3|
 
 #. In the General section, complete all fields.
 
-   .. note:: Use the letters "VF" in the name to indicate that the component is a VF.
+   .. note:: Use the letters "VF" or "PNF" in the name to indicate that the
+             component type.
 
 #. Click *Create*.
 
-   - A message displays while VF creation is in progress. (This can take up to
+   - A message displays while creation is in progress. (This can take up to
      10 minutes.)
-   - A message displays when VF creation is complete.
+   - A message displays when creation is complete.
 
 #. Click *Check In* to save changes.
 
@@ -59,34 +61,89 @@ Create a VF
 
 #. Enter a comment and click *OK*.
 
-   - A message displays when the VF is checked in.
+   - A message displays when the VF/PNF is checked in.
 
-#. [Optional]  At any time before submitting the VF for testing, click these
-   options to update VF information:
+#. [Optional]  At any time before submitting the VF/PNF for testing, click
+   these options to update VF/PNF information:
 
    .. note:: These tasks can be done only before submitting the VF for testing.
 
-   - Icon ??? change the icon associated with the VF (vendor-supplied icons are
-     preferred)
-   - Deployment Artifacts ??? download, view, modify, or change VF deployment
+   - **Icon** change the icon associated with the VF/PNF (vendor-supplied icons
+     are preferred)
+   - **Deployment Artifacts** download, view, modify, or change deployment
      artifacts (for example, the contents of the Heat .zip file, which contains
-     the Heat volume template, the VF license, etc.)
-   - Information Artifacts ??? view or upload artifacts, such as test scripts, test
+     the Heat volume template, the license, etc.)
+   - **Information Artifacts** view or upload artifacts, such as test scripts, test
      results, or the AIC questionnaire
-   - TOSCA Artifacts ??? view or upload the TOSCA model or the TOSCA template
-   - Properties ??? define or update VF properties (not used in Release 1)
-   - Composition ??? view or edit the graphical representation of the resource-level
+   - **TOSCA Artifacts** view or upload the TOSCA model or the TOSCA template
+   - **Properties** define or update properties
+   - **Composition** view or edit the graphical representation of the resource-level
      TOSCA model (generated from the Heat template)
-   - Activity Log ??? view activity related to assets associated with the VF
+   - **Activity Log** view activity related to assets associated with the VF/PNF
      (displays the action, date, user, status, and any comments related to each
      action)
-   - Deployment ??? view VF modules defined in the Heat template
-   - Inputs ??? view inputs defined for the resource-level TOSCA model
+   - **Deployment** view VF modules defined in the Heat template
+   - **Inputs** view inputs defined for the resource-level TOSCA model
 
-#. After creating a VF, submit it for testing (see `Submit a VF for testing`_).
+#. After creating a VF/PNF, submit it for testing (see `Submit for testing`_).
 
-Update a VF [optional]
-----------------------
+.. _doc_guide_user_des_vf-cre_cre-man:
+
+Create a VF/PNF manually
+------------------------
+
+**Steps**
+
+#. From the SDC HOME page, click the *Add VF* or *Add PNF*
+
+   |image9|
+
+#. In the General section, complete all fields.
+
+#. Before submitting the VF/PNF for testing, click these
+   options to update VF/PNF information:
+
+   .. note:: These tasks can be done only before submitting the VF/PNF for testing.
+
+   - **Icon** change the icon associated with the VF/PNF (vendor-supplied icons are
+     preferred)
+   - **Deployment Artifacts** download, view, modify, or change VF/PNF deployment
+     artifacts (for example, the contents of the Heat .zip file, which contains
+     the Heat volume template, the VF license, etc.)
+   - **Information Artifacts** view or upload artifacts, such as test scripts, test
+     results, or the AIC questionnaire
+   - **TOSCA Artifacts** view or upload the TOSCA model or the TOSCA template
+   - **Properties** define or update properties
+   - **Composition** view or edit the graphical representation of the resource-level
+     TOSCA model (generated from the Heat template)
+   - **Activity Log** view activity related to assets associated with the VF/PNF
+     (displays the action, date, user, status, and any comments related to each
+     action)
+   - **Deployment** view VF modules defined in the Heat template
+   - **Inputs** view inputs defined for the resource-level TOSCA model
+
+#. Click *Create*.
+
+   - A message displays while creation is in progress. (This can take up to
+     10 minutes.)
+   - A message displays when creation is complete.
+
+#. Click *Check In* to save changes.
+
+   - A box displays for confirming the changes.
+
+#. Enter a comment and click *OK*.
+
+   - A message displays when the is checked in.
+
+
+#. After creating a VF/PNF, submit it for testing (see `Submit for testing`_).
+
+
+.. _doc_guide_user_des_vf-cre_vf-upd:
+
+Update a VF/PNF [optional]
+--------------------------
 
 - Update the VSP and other artifacts in a VF.
 - Upload a new version the VSP to the VF whenever the VSP is updated (see steps
@@ -97,8 +154,8 @@ Update a VF [optional]
 
 **Prerequisites:**
 
-- `Create a VF`_.
-- If the VSP was updated: Update a VSP [optional]
+- `Create a VF/PNF by VSP import`_ or `Create a VF/PNF manually`_
+- If the VSP was updated: :ref:`doc_guide_user_des_res-onb_upd-vsp`
 
 **Steps**
 
@@ -127,19 +184,23 @@ Update a VF [optional]
 
 #. After updating the VF:
 
-   - Submit the VF for testing (see Submit a VF for testing).
+   - Submit the VF for testing (see `Submit for testing`_).
    - Update the VF version in any service that contains the VF
      (see step 4 in Update a service [optional]).
 
-Submit a VF for testing
------------------------
+.. _doc_guide_user_des_vf-cre_sub-tst:
 
-**Prerequisites:** `Create a VF`_
+Submit for testing
+------------------
+
+**Prerequisites:** `Create a VF/PNF by VSP import`_ or
+`Create a VF/PNF manually`_
 
 **Steps**
 
-#. When a VF is ready for testing, click *CATALOG* and service for the VF.
-#. Click the VF and click *Submit for Testing*.
+#. When a VF/PNF is ready for testing, click *CATALOG* and service for the
+   VF/PNF.
+#. Click the VF/PNF and click *Submit for Testing*.
 
    |image7|
 
@@ -153,12 +214,14 @@ Submit a VF for testing
 #. Add the email addresses of the people on the Certification Group for this
    site with the *Tester* role and send the email.
 
-Test a VF
----------
+.. _doc_guide_user_des_vf-cre_tst-vf:
 
-Test the design and artifacts of a VF.
+Test a VF/PNF
+-------------
 
-**Prerequisites:** `Submit a VF for testing`_.
+Test the design and artifacts of a VF/PNF.
+
+**Prerequisites:** `Submit for testing`_
 
 **Steps**
 
@@ -170,10 +233,12 @@ Test the design and artifacts of a VF.
 #. When testing is complete, click *Accept*.
 
 .. |image1| image:: media/design_vf_workflow.png
-.. |image2| image:: media/image2017-1-27_11-13-30.png
+.. |image2| image:: media/SDC-Import.png
 .. |image3| image:: media/image2017-1-27_11-14-3.png
 .. |image4| image:: media/image2017-1-27_11-17-18.png
 .. |image5| image:: media/sdc_artifact_update.png
 .. |image6| image:: media/design_vf_updatevspmessage.png
 .. |image7| image:: media/image2017-1-27_11-20-13.png
 .. |image8| image:: media/image2017-1-27_11-21-4.png
+.. |image9| image:: media/SDC-Add.png
+
