@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ad316fd_50092985",
+        "filename": "docs/guides/onap-user/design/vfcreation/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 653
+      },
+      "writtenOn": "2019-06-07T12:09:09Z",
+      "side": 1,
+      "message": "in TOSCA artifacts you can only view and download (not upload) the TOSCA model, as it is currently represented internally in SDC at the composition stage",
+      "range": {
+        "startLine": 115,
+        "startChar": 33,
+        "endLine": 115,
+        "endChar": 40
+      },
+      "revId": "83b8a885e8644ebb72e3a30cd57b8374c07afff8",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
