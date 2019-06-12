@@ -20,7 +20,10 @@ Release Data
 | **Release name**                     | Dublin Major Release                 |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | June 6th 2019                        |
+| **Release version**                  | Dublin 4.0.0                         |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release date**                     | June 13th 2019                       |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -28,12 +31,13 @@ New features
 ------------
 
 - As part of the LFN cross community guidelines the ONAP documentation project has impelmented the same theme of the docs.onap.org as the the
-  other projects within LFN.
-To have one common way of working with documentation as well as publishing has been a key task during the last years.
+  other projects within LFN. To have one common way of working with documentation as well as publishing has been a key task during the last years.
 
 - Improvning the structure of docs.onap.org to enhace the user experiance.
 
 - Moving content from the wiki to RTD (read the docs) for better visibility and experiance. Work started and will continue throughout upcoming
   releases.
 
-All JIRA tickets for the Dublin release can be found `here`: https://jira.onap.org/browse/DOC-476?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Dublin%20Release%22https://docs.opnfv.org
+All JIRA tickets for the Dublin release can be found `ONAP Documentation Jira`_
+
+.. _`ONAP Documentation Jira`: https://jira.onap.org/browse/DOC-476?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Dublin%20Release%22https://docs.opnfv.org
