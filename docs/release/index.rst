@@ -68,9 +68,9 @@ Project specific details are in the :ref:`release notes<doc-releaserepos>` for e
 
 ONAP Maturity Testing Notes
 ===========================
-For the Casablanca release, ONAP continues to improve in multiple areas of Scalability, Security, Stability and Performance (S3P) metrics.
+For Dublin release, ONAP continues to improve in multiple areas of Scalability, Security, Stability and Performance (S3P) metrics.
 
-The Integration team ran the 72 hours stability testing (100% passing rate) and full resilience testing (96.9% passing rate) at ONAP OpenLabs. More details in :ref:`ONAP Maturity Testing Notes <integration-s3p>`
+The Integration team ran the 72 hours stability testing (100% passing rate) and full resilience testing (99.4% passing rate) at ONAP OpenLabs. More details in :ref:`ONAP Maturity Testing Notes <integration-s3p>`
 
 Known Issues and Limitations
 ============================
