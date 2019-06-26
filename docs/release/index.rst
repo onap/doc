@@ -27,15 +27,8 @@ The Dublin 4.0.0 is the first release for Dublin.
 
 Project Specific Release Notes
 ==============================
-ONAP releases are specified by a list of project artifact versions in a :ref:`manifest artifacts <doc-release-manifest-artifacts>`
-and :ref:`manifest dockers <doc-release-manifest-docker>`.
-
-.. toctree::
-   :hidden:
-
-   release-manifest-docker.rst
-   release-manifest.rst
-
+ONAP releases are specified by a list of project artifact versions in the project repositories and 
+docker container image versions listed in the OOM helm charts.
 Each project provides detailed :ref:`release notes<doc-releaserepos>`
 and prepends to these if/when any updated versions the project team believes
 are compatible with a major release are made available.
