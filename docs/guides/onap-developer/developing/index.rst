@@ -159,12 +159,11 @@ Holmes
 Integration
 -----------
 
-* ONAP Casablanca release content is specified within a list of project
-  artifact versions available in the form of
-  a :ref:`manifest<doc-release-manifest>`.
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
 
-* To install the whole ONAP (from a complete demo solution perspective)
-  refer to :ref:`Setting Up ONAP <demo-installing-running-onap-requirements>`.
+   ../../../submodules/integration.git/docs/index
 
 Logging Analytics
 -----------------
