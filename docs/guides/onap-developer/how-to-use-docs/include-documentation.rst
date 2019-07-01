@@ -432,7 +432,12 @@ Install virtual environment.
 .. code-block:: bash
 
    sudo pip install virtualenv
-   cd /local/repo/path/to/project
+
+Download a project repository.
+
+.. code-block:: bash
+
+  git clone http://gerrit.onap.org/r/<project>
 
 Download the doc repository.
 
@@ -447,28 +452,31 @@ Change directory to doc & install requirements.
    cd doc
    sudo pip install -r etc/requirements.txt
 
-Move the conf.py file to your project folder where RST files have been kept:
+Copy the conf.py file to your project folder where RST files have been kept:
 
 .. code-block:: bash
 
-   mv doc/docs/conf.py <path-to-your-folder>/
+   cp docs/conf.py <path-to-project-folder>/<folder where are rst files>
 
-Move the static files to your project folder:
+Copy the static files to the project folder where RST files have been kept:
 
 .. code-block:: bash
 
-   mv docs/_static/ <path-to-your-folder>/
+   cp -r docs/_static/ <path-to-project-folder>/<folder where are rst files>
 
 Build the documentation from within your project folder:
 
 .. code-block:: bash
 
-   sphinx-build -b html <path-to-your-folder> <path-to-output-folder>
+   sphinx-build -b html <path-to-project-folder>/<folder where are rst files> <path-to-output-folder>
 
 Your documentation shall be built as HTML inside the
 specified output folder directory.
 
-.. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
+You can use your Web Browser to open
+and check resulting html pages in the output folder.
+
+.. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`.This is for testing only. Only commit the rst files and related content.
 
 .. _building-all-documentation:
 
@@ -502,7 +510,7 @@ Build documentation using tox local environment & then open using any browser.
    by the doc project.
 
 There are additional tox environment options for checking External
-URLs and Spelling.  Use the tox environment options below and then
+URLs and Spelling. Use the tox environment options below and then
 look at the output with the Linux `more` or similar command
 scan for output that applies to the files you are validating.
 
