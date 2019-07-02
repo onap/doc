@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "83ca17c1_84e1bbca",
+        "filename": "docs/guides/onap-developer/settingup/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-02T18:19:14Z",
+      "side": 1,
+      "message": "We could use maxdepth 2",
+      "revId": "afe104e5723912a251adf25a6dc09e02dc542fc3",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "322a46fb_e5518ed7",
+        "filename": "docs/guides/onap-developer/settingup/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-02T18:19:14Z",
+      "side": 1,
+      "message": "oom_user_guide.rst",
+      "revId": "afe104e5723912a251adf25a6dc09e02dc542fc3",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8a7fb9f_81cc1989",
+        "filename": "docs/guides/onap-developer/settingup/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-02T18:19:14Z",
+      "side": 1,
+      "message": "We could use maxdepth: 2",
+      "revId": "afe104e5723912a251adf25a6dc09e02dc542fc3",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
