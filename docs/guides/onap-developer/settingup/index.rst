@@ -47,7 +47,7 @@ Installation
 Creation of Kubernetes cluster is described here:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
 
    ../../../../submodules/oom.git/docs/oom_cloud_setup_guide.rst
@@ -55,15 +55,16 @@ Creation of Kubernetes cluster is described here:
 ONAP installation is described here:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
 
    ../../../../submodules/oom.git/docs/oom_quickstart_guide.rst
+   ../../../../submodules/oom.git/docs/oom_user_guide.rst
 
 Alternative way of offline ONAP installation is described here:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :titlesonly:
 
    ../../../../submodules/oom/offline-installer.git/docs/index.rst
@@ -102,4 +103,3 @@ Kubernetes command:
 .. code-block:: bash
 
   kubectl get svc -n onap -o go-template='{{range .items}}{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{.}}{{"\n"}}{{end}}{{end}}{{end}}'
-
