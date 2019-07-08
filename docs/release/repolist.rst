@@ -59,10 +59,11 @@ Project/Components
    dmaap/datarouter <../submodules/dmaap/datarouter.git/docs/index>
    dmaap/dbcapi <../submodules/dmaap/dbcapi.git/docs/index>
    music/distributed-kv-store <../submodules/music/distributed-kv-store.git/docs/index>
+   osa <../submodules/osa.git/docs/index>
 
 .. The following submodules have been added but no content or in some cases
    deprecated content appears.   To eliminate toctree warnings until content
-   is updated or the submodule is removed  we leave the references 
+   is updated or the submodule is removed  we leave the references
 
 .. toctree::
    :maxdepth: 1
@@ -93,4 +94,3 @@ Project/Components
    ccsdk/features <../submodules/ccsdk/features.git/docs/index>
    parent <../submodules/parent.git/docs/index>
    modeling/genericparser <../submodules/modeling/genericparser.git/docs/index>
-   osa <../submodules/osa.git/docs/index>
