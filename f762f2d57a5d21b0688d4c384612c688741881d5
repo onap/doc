@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50d8a120_a10ec2b5",
+        "filename": "docs/guides/onap-user/instantiate/pre_instantiation/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-09T16:18:33Z",
+      "side": 1,
+      "message": "Here I would put the instructions how to add a \"Complex\" and a \"Cloud Instance\",\nInstructions are found already in MultiCloud User Guide:\nhttps://onap.readthedocs.io/en/latest/submodules/multicloud/framework.git/docs/multicloud-plugin-windriver/UserGuide-MultiCloud-WindRiver-TitaniumCloud.html#tutorial-onboard-instance-of-wind-river-titanium-cloud",
+      "revId": "f762f2d57a5d21b0688d4c384612c688741881d5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
