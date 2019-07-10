@@ -427,17 +427,19 @@ One Project
 -----------
 To test how the documentation renders in HTML, follow these steps:
 
-Install virtual environment.
+Install `virtual environment <https://pypi.org/project/virtualenv>`_ & create one.
 
 .. code-block:: bash
 
    sudo pip install virtualenv
+   virtualenv onap_docs
+   source onap_docs/bin/activate
 
 Download a project repository.
 
 .. code-block:: bash
 
-  git clone http://gerrit.onap.org/r/<project>
+   git clone http://gerrit.onap.org/r/<project>
 
 Download the doc repository.
 
@@ -450,7 +452,7 @@ Change directory to doc & install requirements.
 .. code-block:: bash
 
    cd doc
-   sudo pip install -r etc/requirements.txt
+   pip install -r etc/requirements.txt
 
 Copy the conf.py file to your project folder where RST files have been kept:
 
@@ -476,7 +478,7 @@ specified output folder directory.
 You can use your Web Browser to open
 and check resulting html pages in the output folder.
 
-.. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`.This is for testing only. Only commit the rst files and related content.
+.. note:: Be sure to remove the `conf.py`, the static/ files and the output folder from the `<project>/docs/`. This is for testing only. Only commit the rst files and related content.
 
 .. _building-all-documentation:
 
