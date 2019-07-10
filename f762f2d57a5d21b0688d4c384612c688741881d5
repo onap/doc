@@ -2,6 +2,108 @@
   "comments": [
     {
       "key": {
+        "uuid": "33261e2e_2db3e6a7",
+        "filename": "docs/guides/onap-user/instantiate/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-10T13:33:58Z",
+      "side": 1,
+      "message": "linked",
+      "revId": "f762f2d57a5d21b0688d4c384612c688741881d5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fd92cc6c_4d4d6a2f",
+        "filename": "docs/guides/onap-user/instantiate/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-10T13:33:58Z",
+      "side": 1,
+      "message": "Operator actor",
+      "revId": "f762f2d57a5d21b0688d4c384612c688741881d5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "144a624b_e9f91c66",
+        "filename": "docs/guides/onap-user/instantiate/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-10T13:33:58Z",
+      "side": 1,
+      "message": "Operator actor",
+      "revId": "f762f2d57a5d21b0688d4c384612c688741881d5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a57b8ac5_2fa4f419",
+        "filename": "docs/guides/onap-user/instantiate/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-10T13:33:58Z",
+      "side": 1,
+      "message": "Operator actor",
+      "revId": "f762f2d57a5d21b0688d4c384612c688741881d5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aca733ea_03571eaf",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-10T13:33:58Z",
+      "side": 1,
+      "message": "ONAP",
+      "revId": "f762f2d57a5d21b0688d4c384612c688741881d5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0c694e74_b052419c",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/so1/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-07-10T13:33:58Z",
+      "side": 1,
+      "message": "Some tabulations to be replaced by white spaces",
+      "revId": "f762f2d57a5d21b0688d4c384612c688741881d5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "50d8a120_a10ec2b5",
         "filename": "docs/guides/onap-user/instantiate/pre_instantiation/index.rst",
         "patchSetId": 1
