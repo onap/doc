@@ -15,6 +15,7 @@ an instance of ONAP.
 
    onapportal.rst
    platformoperations.rst
+   cloud_site/index.rst
    design/index.rst
    servicedeployment.rst
    onapcli.rst
