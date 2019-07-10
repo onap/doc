@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a37e2923_2a3bf765",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 436,
+      "author": {
+        "id": 4965
+      },
+      "writtenOn": "2019-07-10T17:14:38Z",
+      "side": 1,
+      "message": "Please add a note that this commit should be executed every time before you try to build the documentation as some users may not be aware of this",
+      "revId": "709b5b68960d22917c294356100a917b2e1e994c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
