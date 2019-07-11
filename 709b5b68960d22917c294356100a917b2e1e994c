@@ -16,6 +16,24 @@
       "revId": "709b5b68960d22917c294356100a917b2e1e994c",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "15f0fd4e_f8ea1687",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/include-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 436,
+      "author": {
+        "id": 5047
+      },
+      "writtenOn": "2019-07-11T08:14:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a37e2923_2a3bf765",
+      "revId": "709b5b68960d22917c294356100a917b2e1e994c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
