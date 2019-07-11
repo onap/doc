@@ -1,0 +1,314 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8f447b3d_5aabb515",
+        "filename": "docs/guides/onap-user/cloud_site/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "typo: configure",
+      "range": {
+        "startLine": 10,
+        "startChar": 49,
+        "endLine": 10,
+        "endChar": 59
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "262c4e66_44db4e26",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "The use of SO with multicloud is optional. At ONAP installation, a default cloud site is declared in SO without multicloud usage.\nThis page should describe also how to declare a cloud site without using multicloud.",
+      "range": {
+        "startLine": 13,
+        "startChar": 9,
+        "endLine": 13,
+        "endChar": 71
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "65c16a3e_7147abbb",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "Proposal to avoid personal description: The MariaDB database of ONAP SO needs to be modified",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 70
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d11942a0_7af09afb",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "Other proposal: The usage of ONAP SO with ONAP Multicloud for any Cloud Site needs to be indicated",
+      "range": {
+        "startLine": 17,
+        "startChar": 16,
+        "endLine": 18,
+        "endChar": 23
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a4f0ef03_c446b905",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "A \"mso_id\" and \"mso_pass\" are required even if with multicloud, these are the credentials managed by ESR that will be used",
+      "range": {
+        "startLine": 43,
+        "startChar": 47,
+        "endLine": 43,
+        "endChar": 53
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ebd291d9_8446c8b4",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "To use a region name that we meet in most of the use cases, RegionOne or regionOne",
+      "range": {
+        "startLine": 49,
+        "startChar": 1,
+        "endLine": 49,
+        "endChar": 19
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8a1567fd_051d3b3f",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "To explain how to identify the nodePort \"80\" of the service msb-iag, It may change in future ONAP version or depending on installation.",
+      "range": {
+        "startLine": 55,
+        "startChar": 62,
+        "endLine": 55,
+        "endChar": 77
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d2453203_68f55e15",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "Ok this is the version v1 of multicloud API that is used here. But the same version needs to be used in AAI part",
+      "range": {
+        "startLine": 55,
+        "startChar": 56,
+        "endLine": 55,
+        "endChar": 142
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0af6385_49da4c67",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "To replace by lastUser",
+      "range": {
+        "startLine": 55,
+        "startChar": 311,
+        "endLine": 55,
+        "endChar": 318
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84907732_456b96eb",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "The pod bpmn-infra shall be bounced (deleted) to take into account the updated config map.",
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "23bac1b1_6bdaa2ef",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "i would say \"Complex\" object",
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1bb77bbd_9099708f",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "Personal form: AAI REST API is used to declare the complex object.",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 54
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1591c5b1_a8d44e74",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "Personal form: Here, the region ID of the deployed openstack cloud site will be set.\nIn Casablanca, this information is optional (to be checked for Dublin)",
+      "range": {
+        "startLine": 169,
+        "startChar": 0,
+        "endLine": 170,
+        "endChar": 53
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e864709d_a212193e",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-07-11T09:39:28Z",
+      "side": 1,
+      "message": "I propose to use the version v1 of multicloud API where this warning is no longer relevant.\nIn addition, in SO part, the version v1 is specified",
+      "range": {
+        "startLine": 261,
+        "startChar": 0,
+        "endLine": 263,
+        "endChar": 28
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
