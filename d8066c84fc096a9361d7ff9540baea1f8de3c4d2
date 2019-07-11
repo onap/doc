@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "ac587038_c83d0d7a",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-11T13:33:10Z",
+      "side": 1,
+      "message": "Maybe it would be good to define here the example variables once, e.g.\n- Complex Name: My_Complex\n- Region Name: INTEGRATION_CENTER\n- Cloud Owner: MyCompanyName",
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "262c4e66_44db4e26",
         "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
         "patchSetId": 1
@@ -202,6 +219,75 @@
         "startChar": 311,
         "endLine": 55,
         "endChar": 318
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5e474d6a_5f5dd2ee",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-11T13:33:10Z",
+      "side": 1,
+      "message": "It is easier to insert only the needed values and leave the final 3 empty:\nINSERT INTO identity_services(ID, IDENTITY_URL, MSO_ID, MSO_PASS, ADMIN_TENANT, MEMBER_ROLE, TENANT_METADATA, IDENTITY_SERVER_TYPE, IDENTITY_AUTHENTICATION_TYPE) VALUES(\u0027MC_KEYSTONE\u0027, \u0027http://msb-iag.onap:80/api/multicloud/v1/MyCompanyName_INTEGRATION_CENTER/identity/v2.0\u0027, \u0027admin\u0027, \u00275b6f369745f5f0e1c61da7f0656f3daf93c8030a2ea94b7964c67abdcfb49bdf2fa2266344b4caaca1eba8264d277831\u0027, \u0027service\u0027, \u0027admin\u0027, 1, \u0027KEYSTONE\u0027, \u0027USERNAME_PASSWORD\u0027)",
+      "range": {
+        "startLine": 55,
+        "startChar": 1,
+        "endLine": 55,
+        "endChar": 367
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "82183726_7da4c28f",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-11T13:33:10Z",
+      "side": 1,
+      "message": "also here only fill the required ones:\nINSERT INTO cloud_sites(ID, REGION_ID, IDENTITY_SERVICE_ID, CLOUD_VERSION, CLLI, ORCHESTRATOR) VALUES(...)\nIn the K8S video from Eric Multanen he uses in \"ORCHESTRATOR\" the value \"multicloud\", I don\u0027t know, whether it is relevant...",
+      "range": {
+        "startLine": 56,
+        "startChar": 2,
+        "endLine": 56,
+        "endChar": 193
+      },
+      "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d86c62d9_7a5110bb",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-11T13:33:10Z",
+      "side": 1,
+      "message": "Maybe there should be a hint how to find the right configmap name, like you did it for the mysql pod, e.g. :\n  kubectl -n onap get configmap | grep so-so-bpmn-infra-app-configmap",
+      "range": {
+        "startLine": 65,
+        "startChar": 33,
+        "endLine": 65,
+        "endChar": 68
       },
       "revId": "d8066c84fc096a9361d7ff9540baea1f8de3c4d2",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
