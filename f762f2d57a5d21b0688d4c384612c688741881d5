@@ -87,6 +87,29 @@
     },
     {
       "key": {
+        "uuid": "616828bc_f93a14a2",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/nbi/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-12T08:40:22Z",
+      "side": 1,
+      "message": "Is that correct ?\nIn the ExtAPI documentation it uis mentioned:\n\nServiceOrder management in NBI will support 2 modes:\n- E2E integration - NBI calls SO API to perform an End-To-end integration\n- Service-level only integration - NBI will trigger only SO request at serviceInstance level. \nSO prerequisite: SO must be able to find a BPMN to process service fulfillment (integrate VNF, VNF activation in SDNC, VF module\nThe choice of the mode is done in NBI depending on information retrieved in SDC. If the serviceSpecification is within a Category “E2E Service” , NBI will use E2E SO API, if not only API at service instance level will be used.\n\nThere is no difference or specific expectation in the service order API used by NBI user.",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 56
+      },
+      "revId": "f762f2d57a5d21b0688d4c384612c688741881d5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0c694e74_b052419c",
         "filename": "docs/guides/onap-user/instantiate/instantiation/so1/index.rst",
         "patchSetId": 1
