@@ -34,5 +34,5 @@ ONAP may need to perform to inter-connect ONAP with a a new cloud Site.
    openstack/index.rst
    k8s/index.rst
    aws/index.rst
-   azur/index.rst
+   azure/index.rst
    vmware/index.rst
