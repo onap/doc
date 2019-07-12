@@ -78,7 +78,7 @@ Project/Components
    integration <../submodules/integration.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
    msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>
-   policy/apex-pdp <../submodules/policy/apex-pdp.git/docs/index>
+   policy/parent <../submodules/policy/parent.git/docs/index>
    sdc/jtosca <../submodules/sdc/jtosca.git/docs/index>
    sdc/sdc-distribution-client <../submodules/sdc/sdc-distribution-client.git/docs/index>
    sdc/sdc-docker-base <../submodules/sdc/sdc-docker-base.git/docs/index>

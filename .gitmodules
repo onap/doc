@@ -333,11 +333,6 @@
 	url = ../aaf/sms
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/policy/apex-pdp.git"]
-	path = docs/submodules/policy/apex-pdp.git
-	url = ../policy/apex-pdp
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/multicloud/azure.git"]
 	path = docs/submodules/multicloud/azure.git
 	url = ../multicloud/azure
@@ -351,11 +346,6 @@
 [submodule "docs/submodules/optf/cmso.git"]
 	path = docs/submodules/optf/cmso.git
 	url = ../optf/cmso
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/policy/distribution.git"]
-	path = docs/submodules/policy/distribution.git
-	url = ../policy/distribution
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/logging-analytics/pomba/pomba-audit-common.git"]
