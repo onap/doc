@@ -51,7 +51,10 @@ login to gerrit or for git clone requests over ssh.
 The next step is to add a directory in the doc project where your
 project will be included as a submodule and at least one reference
 from the doc project to the documentation index in your repository.
-The following sequence will do this over ssh.
+The following sequence will do this over ssh. Please note that the
+reference to your project in *repolist.rst* should be considered
+temporary and removed when you reference it from more appropriate
+place.
 
 .. caution::
 
