@@ -247,8 +247,6 @@ Policy Framework
 
    ../../../submodules/policy/parent.git/docs/index
    ../../../submodules/policy/engine.git/docs/index
-   ../../../submodules/policy/apex-pdp.git/docs/index
-   ../../../submodules/policy/distribution.git/docs/index
 
 Portal Platform
 ---------------
