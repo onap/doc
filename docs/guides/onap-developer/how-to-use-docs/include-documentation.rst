@@ -497,12 +497,11 @@ All Documentation
 -----------------
 To build the all documentation under doc/, follow these steps:
 
-Install virtual environment.
+Install `tox <https://pypi.org/project/tox>`_.
 
 .. code-block:: bash
 
-   sudo pip install virtualenv
-   cd /local/repo/path/to/project
+   sudo pip install tox
 
 Download the DOC repository.
 
