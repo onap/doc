@@ -17,6 +17,6 @@ an instance of ONAP.
    platformoperations.rst
    cloud_site/index.rst
    design/index.rst
-   servicedeployment.rst
+   instantiate/index.rst
    onapcli.rst
    Verified Use Cases <../../submodules/integration.git/docs/docs_usecases.rst>
