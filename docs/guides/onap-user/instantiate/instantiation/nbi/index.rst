@@ -2,13 +2,22 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Contributors.  All rights reserved.
 
-.. _doc_guide_user_ser_inst:
+.. _doc_guide_user_ser_inst_nbi:
 
 
-Alacarte mode Service Instantiation via ONAP NBI API (TM Forum)
-===============================================================
+Service Instantiation via ONAP NBI API (TM Forum)
+=================================================
 
 ONAP NBI allow you to use a TM Forum standardized API (serviceOrder API)
+
+Additional info in:
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   NBI Guide <../../../../../submodules/externalapi/nbi.git/docs/offeredapis/offeredapis.rst>
+
 
 ONAP NBI will convert that request to ONAP SO request.
 
@@ -21,10 +30,10 @@ ServiceOrder management in NBI will support 2 modes:
   be created on cloud platform)
 
 ONAP SO prerequisite: SO must be able to find a BPMN to process service
-fulfillment (integrate VNF, VNF activation in SDNC, VF module
+fulfillment (integrate VNF, VNF activation in SDNC, VF module)
 
 The choice of the mode is done by NBI depending on information retrieved
-in SDC. If the serviceSpecification is within a Category “E2E Service” ,
+in SDC. If the serviceSpecification is within a Category "E2E Service" ,
 NBI will use E2E SO API, if not only API at service instance level
 will be used.
 
