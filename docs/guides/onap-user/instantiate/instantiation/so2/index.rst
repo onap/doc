@@ -2,7 +2,7 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Contributors.  All rights reserved.
 
-.. _doc_guide_user_ser_inst:
+.. _doc_guide_user_ser_inst_so2:
 
 
 Macro mode Service Instantiation via ONAP SO API
@@ -19,6 +19,16 @@ that are supposed to be defined during Design and Onboard steps.
 That means ONAP has all information
 to be able to get all necessary values by itself (there is no longer need
 for an Operator to provide "SDNC preload").
+
+Additional info in:
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   CDS Documentation <../../../../../submodules/ccsdk/cds.git/docs/index.rst>
+   CDS vDNS E2E Automation <https://wiki.onap.org/display/DW/vDNS+CDS+Dublin>
+
 
 Request Example :
 

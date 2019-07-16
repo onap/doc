@@ -3,11 +3,11 @@
 .. Copyright 2019 ONAP Contributors.  All rights reserved.
 
 
-Alacarte mode Service Instantiation via ONAP VID Portal
-=======================================================
+A La Carte mode Service Instantiation via ONAP VID Portal
+=========================================================
 
-. toctree::
+.. toctree::
    :maxdepth: 1
    :titlesonly:
 
-   ../../../../submodules/vid.git/docs/humaninterfaces.rst
+   ../../../../../submodules/vid.git/docs/humaninterfaces.rst
