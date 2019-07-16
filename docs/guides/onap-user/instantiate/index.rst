@@ -22,10 +22,10 @@ Instantiation includes the following topics:
 service BPMN workflow. That means it is linked to ONAP source code
 and lifecycle.
 
-**Alacarte** method required the Operator actor to build and send
+**A La Carte** method requires the Operations actor to build and send
 a lot of operations. To build those requests, Operator actor needs to
 define/collect by himself all VNF parameters/values.
 
-**Macro** method required the Operator actor to build and send only one request and,
-thanks to CDS Blueprint templates, ONAP will collect and assign
-by itself all paramters/values.
+**Macro** method required the Operations actor to build and send only one
+request and, thanks to CDS Blueprint templates, ONAP will collect and assign
+all required parameters/values by itself.
