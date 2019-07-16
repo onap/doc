@@ -1,0 +1,101 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d9fdf074_df967741",
+        "filename": "docs/guides/onap-user/cloud_site/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T06:50:00Z",
+      "side": 1,
+      "message": "Please provide a document label for linking",
+      "revId": "ecf8ecaf49c9a5bf7d48eb19fbd6a40d7d54db9b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "018b9dc7_fed0c8c3",
+        "filename": "docs/guides/onap-user/cloud_site/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T06:50:00Z",
+      "side": 1,
+      "message": "azure",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 37,
+        "endChar": 7
+      },
+      "revId": "ecf8ecaf49c9a5bf7d48eb19fbd6a40d7d54db9b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "57a9a49f_3e3c1f27",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T06:50:00Z",
+      "side": 1,
+      "message": "please add a document label",
+      "revId": "ecf8ecaf49c9a5bf7d48eb19fbd6a40d7d54db9b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf48b59c_bafb8a0f",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T06:50:00Z",
+      "side": 1,
+      "message": "Maybe later we could have also a link to the Multicloud Tutorials. Unfortunally these docs have no Label, so only relative links will be possible at the moment.",
+      "revId": "ecf8ecaf49c9a5bf7d48eb19fbd6a40d7d54db9b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b8974646_a0eca0f2",
+        "filename": "docs/guides/onap-user/cloud_site/openstack/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T06:50:00Z",
+      "side": 1,
+      "message": "add a CR between to have 2 lines",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 0
+      },
+      "revId": "ecf8ecaf49c9a5bf7d48eb19fbd6a40d7d54db9b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
