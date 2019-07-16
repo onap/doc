@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3c76a1b6_976489b2",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/nbi/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T07:25:49Z",
+      "side": 1,
+      "message": "missin \")\"",
+      "revId": "fb177970a40171b592db1d3be75bc6c42e0c03d4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a6e16b2e_8da223af",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/so1/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T07:25:49Z",
+      "side": 1,
+      "message": "missing blanks in front",
+      "range": {
+        "startLine": 312,
+        "startChar": 0,
+        "endLine": 312,
+        "endChar": 14
+      },
+      "revId": "fb177970a40171b592db1d3be75bc6c42e0c03d4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "98995a03_292e9e4b",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/uui/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T07:25:49Z",
+      "side": 1,
+      "message": "also here a level is missing (../)",
+      "range": {
+        "startLine": 14,
+        "startChar": 3,
+        "endLine": 14,
+        "endChar": 14
+      },
+      "revId": "fb177970a40171b592db1d3be75bc6c42e0c03d4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "de59a03a_bf1dc91a",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/vid/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T07:25:49Z",
+      "side": 1,
+      "message": "I think one level is missing",
+      "range": {
+        "startLine": 13,
+        "startChar": 3,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "fb177970a40171b592db1d3be75bc6c42e0c03d4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5348da06_50f4695d",
+        "filename": "docs/guides/onap-user/instantiate/pre_instantiation/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-07-16T07:25:49Z",
+      "side": 1,
+      "message": "one \" to much",
+      "range": {
+        "startLine": 63,
+        "startChar": 19,
+        "endLine": 63,
+        "endChar": 20
+      },
+      "revId": "fb177970a40171b592db1d3be75bc6c42e0c03d4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
