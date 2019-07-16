@@ -87,3 +87,4 @@ Project/Components
 
    multicloud/azure <../submodules/multicloud/azure.git/docs/index>
    optf/cmso <../submodules/optf/cmso.git/docs/index>
+   oom/offline-installer <../submodules/oom/offline-installer.git/docs/index>
