@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "36b9c2a9_41c822cc",
+        "filename": "docs/guides/onap-user/design/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 653
+      },
+      "writtenOn": "2019-07-17T15:29:58Z",
+      "side": 1,
+      "message": "artifacts",
+      "range": {
+        "startLine": 41,
+        "startChar": 38,
+        "endLine": 41,
+        "endChar": 47
+      },
+      "revId": "dd3ea6723109a7c8fa140f8dfc6b415aea26432d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
