@@ -302,6 +302,15 @@ Software Defined Network Controller
    ../../../submodules/sdnc/parent.git/docs/index
    ../../../submodules/sdnc/plugins.git/docs/index
 
+Software Defined Network Controller for Radio (SDN-R)
+-----------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   ../../../submodules/ccsdk/features.git/docs/index
+
 Use Case User Interface
 -----------------------
 
