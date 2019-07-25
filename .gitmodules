@@ -158,11 +158,6 @@
 	url = ../ccsdk/platform/blueprints
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/ccsdk/platform/nbapi.git"]
-	path = docs/submodules/ccsdk/platform/nbapi.git
-	url = ../ccsdk/platform/nbapi
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/ccsdk/platform/plugins.git"]
 	path = docs/submodules/ccsdk/platform/plugins.git
 	url = ../ccsdk/platform/plugins
@@ -171,11 +166,6 @@
 [submodule "docs/submodules/ccsdk/storage/esaas.git"]
 	path = docs/submodules/ccsdk/storage/esaas.git
 	url = ../ccsdk/storage/esaas
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/storage/pgaas.git"]
-	path = docs/submodules/ccsdk/storage/pgaas.git
-	url = ../ccsdk/storage/pgaas
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/utils.git"]
@@ -233,11 +223,6 @@
 	url = ../vid
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/vid/asdcclient.git"]
-	path = docs/submodules/vid/asdcclient.git
-	url = ../vid/asdcclient
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/usecase-ui.git"]
 	path = docs/submodules/usecase-ui.git
 	url = ../usecase-ui
@@ -271,11 +256,6 @@
 [submodule "docs/submodules/aai/event-client.git"]
 	path = docs/submodules/aai/event-client.git
 	url = ../aai/event-client
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ui/dmaapbc.git"]
-	path = docs/submodules/ui/dmaapbc.git
-	url = ../ui/dmaapbc
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/optf/osdf.git"]
