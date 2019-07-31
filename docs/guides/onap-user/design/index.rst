@@ -4,8 +4,8 @@
 
 .. _doc_guide_user_des:
 
-Design
-======
+Design Service
+==============
 
 The goal of the design process is to create all artifacts (models)
 that are required to instantiate and manage resources, services,
