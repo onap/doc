@@ -4,10 +4,10 @@
 
 .. _doc_guide_user_des_vf-cre:
 
-VF Creation and Testing
-=======================
-**Goal**: Using VSPs, create one or more VFs as the building blocks for a
-service. Validate and certify the VFs.
+VF/PNF Creation and Testing
+===========================
+**Goal**: Using VSPs, create one or more VFs/PNFs as the building blocks for a
+service. Validate and certify the VFs/PNFs.
 
 **ONAP Component**: SDC
 
@@ -40,13 +40,13 @@ Create a VF/PNF by VSP import
 
    |image2|
 
-#. From the *Import VF* box, expand a VSP name and click the *Import VSP* icon.
+#. From the *Import VSP* box, expand a VSP name and click the *Import VSP* icon.
 
    |image3|
 
 #. In the General section, complete all fields.
 
-   .. note:: Use the letters "VF" or "PNF" in the name to indicate that the
+   .. note:: Use the letters "VF" or "PNF" in the name to indicate the
              component type.
 
 #. Click *Create*.
@@ -66,7 +66,7 @@ Create a VF/PNF by VSP import
 #. [Optional]  At any time before submitting the VF/PNF for testing, click
    these options to update VF/PNF information:
 
-   .. note:: These tasks can be done only before submitting the VF for testing.
+   .. note:: These tasks can be done only before submitting the VF/PNF for testing.
 
    - **Icon** change the icon associated with the VF/PNF (vendor-supplied icons
      are preferred)
@@ -145,11 +145,11 @@ Create a VF/PNF manually
 Update a VF/PNF [optional]
 --------------------------
 
-- Update the VSP and other artifacts in a VF.
-- Upload a new version the VSP to the VF whenever the VSP is updated (see steps
-  3 to 5). Other reasons for updating a VF include:
+- Update the VSP and other artifacts in a VF/PNF.
+- Upload a new version the VSP to the VF/PNF whenever the VSP is updated (see steps
+  3 to 5). Other reasons for updating a VF/PNF include:
 
-  - artifact changes at the VF level that need be uploaded, for example,
+  - artifact changes at the VF/PNF level that need be uploaded, for example,
     changes to ENV values (see step 6)
 
 **Prerequisites:**
@@ -159,13 +159,13 @@ Update a VF/PNF [optional]
 
 **Steps**
 
-#. From the SDC HOME page, click *CATALOG* and search for a VF.
+#. From the SDC HOME page, click *CATALOG* and search for a VF/PNF.
 
 #. In the General section, click *Check Out*.
    The Select VSP field is displays.
 
 #. In the Select VSP field, click *Browse*.
-   The Import VF box displays and shows the VSP that was used to create the VF.
+   The Import VSP box displays and shows the VSP that was used to create the VF/PNF.
 
 #. Expand the VSP field and click.
 
@@ -182,10 +182,10 @@ Update a VF/PNF [optional]
 
 #. Click *Check In* to save changes.
 
-#. After updating the VF:
+#. After updating the VF/PNF:
 
-   - Submit the VF for testing (see `Submit for testing`_).
-   - Update the VF version in any service that contains the VF
+   - Submit the VF/PNF for testing (see `Submit for testing`_).
+   - Update the VF/PNF version in any service that contains the VF/PNF
      (see step 4 in Update a service [optional]).
 
 .. _doc_guide_user_des_vf-cre_sub-tst:
@@ -227,9 +227,9 @@ Test the design and artifacts of a VF/PNF.
 
 #. Sign in to SDC as a *Tester*.
 #. From the HOME page, select *Ready For Testing* under Active Projects.
-#. In the right pane, click the VF.
+#. In the right pane, click the VF/PNF.
 #. Click *Start Testing*.
-#. Test the VF.
+#. Test the VF/PNF.
 #. When testing is complete, click *Accept*.
 
 .. |image1| image:: media/design_vf_workflow.png
