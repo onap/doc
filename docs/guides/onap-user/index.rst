@@ -20,3 +20,4 @@ an instance of ONAP.
    instantiate/index.rst
    onapcli.rst
    Verified Use Cases <../../submodules/integration.git/docs/docs_usecases.rst>
+   Using ONAP Rest API with Postman <../../submodules/integration.git/docs/docs_postman.rst>
