@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cc92a8bf_35601a50",
+        "filename": "docs/guides/onap-user/design/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-08-05T06:59:33Z",
+      "side": 1,
+      "message": "Typo \"F\"",
+      "range": {
+        "startLine": 287,
+        "startChar": 29,
+        "endLine": 287,
+        "endChar": 30
+      },
+      "revId": "a344750d1929da595ea4e6c02db22a09e14096e8",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
