@@ -22,6 +22,30 @@
       "revId": "4e81519c0657f16bb86348c2eed31eefdd8a52dc",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d80cf14_d8147c99",
+        "filename": "docs/guides/onap-developer/apiref/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 2437
+      },
+      "writtenOn": "2019-08-05T15:10:51Z",
+      "side": 1,
+      "message": "Good point\nI make the correction",
+      "parentUuid": "7a6444eb_60d82f10",
+      "range": {
+        "startLine": 81,
+        "startChar": 34,
+        "endLine": 81,
+        "endChar": 37
+      },
+      "revId": "4e81519c0657f16bb86348c2eed31eefdd8a52dc",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
