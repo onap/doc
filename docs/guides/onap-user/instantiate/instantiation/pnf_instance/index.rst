@@ -4,8 +4,8 @@
 
 
 
-Declare PNF instances in ONAP
-=============================
+Declare PNF instances
+=====================
 
 PNF instances can be declared in ONAP inventory (AAI) using REST API
 

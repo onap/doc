@@ -8,7 +8,8 @@
 Macro mode Service Instantiation via ONAP SO API
 ================================================
 
-Using Macro mode, you have to build and send only one request to ONAP SO
+Using Macro mode, you have to build and send one and only one
+request to ONAP SO.
 
 In that request you need to indicate all object instances
 that you want to be instantiated.
@@ -16,9 +17,9 @@ that you want to be instantiated.
 Reminder : ONAP SO in Macro mode will perform the VNF parameters/values
 assignment based on CDS Blueprint templates
 that are supposed to be defined during Design and Onboard steps.
-That means ONAP has all information
+That means ONAP should have all information
 to be able to get all necessary values by itself (there is no longer need
-for an Operator to provide "SDNC preload").
+for a user to provide those values via the "SDNC preload" operation).
 
 Additional info in:
 

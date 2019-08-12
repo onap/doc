@@ -2,27 +2,40 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Contributors.  All rights reserved.
 
-.. _doc_guide_user_ser_inst:
-
-
-Service Instantiation methods
-=============================
-
 
 Declare PNF instances:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    Declare PNF instances <./pnf_instance/index.rst>
 
-Instantiate a Service:
+Instantiate a Service
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   using ONAP VID Portal with "A La Carte" method <./vid/index.rst>
-   using ONAP UUI Portal with "e2eServiceInstance" method <./uui/index.rst>
-   using ONAP NBI REST API (TM Forum) <./nbi/index.rst>
-   using ONAP SO REST API with "A La Carte" method <./so1/index.rst>
-   using ONAP SO REST API with "Macro" mode method <./so2/index.rst>
+   Instantiate a Service <./service_instance/index.rst>
+
+
+Instantiate a VNF:
+
+.. toctree::
+   :maxdepth: 1
+
+    Instantiate a VNF <./vnf_instance/index.rst>
+
+Configure a VNF:
+
+.. toctree::
+   :maxdepth: 1
+
+    Configure a VNF <./vnf_configure/index.rst>
+
+
+Instantiate a Virtual Link:
+
+.. toctree::
+   :maxdepth: 1
+
+    Instantiate a Virtual Link <./virtual_link_instance/index.rst>
