@@ -21,8 +21,8 @@ Instantiate a Service:
 .. toctree::
    :maxdepth: 2
 
-   using ONAP VID Portal with "A La Carte" method<./vid/index.rst>
-   using ONAP UUI Portal with "e2eServiceInstance" method<./uui/index.rst>
-   using ONAP NBI REST API (TM Forum) with "A La Carte" method <./nbi/index.rst>
+   using ONAP VID Portal with "A La Carte" method <./vid/index.rst>
+   using ONAP UUI Portal with "e2eServiceInstance" method <./uui/index.rst>
+   using ONAP NBI REST API (TM Forum) <./nbi/index.rst>
    using ONAP SO REST API with "A La Carte" method <./so1/index.rst>
    using ONAP SO REST API with "Macro" mode method <./so2/index.rst>
