@@ -7,7 +7,7 @@
 Resource Onboarding
 ===================
 **Goal:** Add models and other artifacts required to create, configure,
-          instantiate, and manage a VF and, optionally, a VFC.
+          instantiate, and manage a VF/PNF and, optionally, a VFC.
 
 **Tool:** SDC
 
@@ -26,8 +26,8 @@ Resource Onboarding
     * `Update a VSP [optional]`_
 
 After updating the artifacts in a VSP, also update:
-    * the VF created from the VSP
-    * any services that include the VF
+    * the VF/PNF created from the VSP
+    * any services that include the VF/PNF
 
 |image1|
 
@@ -69,7 +69,7 @@ click |image2|
 #. Click *Submit* to add the license model to the catalog. A success message
    displays.
 #. After creating a license, complete `Create a Vendor Software Product`_ to
-   add the VSP required for the associated VF.
+   add the VSP required for the associated VF/PNF.
 
 Create a License Key Group [Optional]
 -------------------------------------
@@ -151,7 +151,7 @@ Create a Vendor Software Product
 --------------------------------
 
 Create one or more Vendor Software Products (VSPs) as the building blocks
-for VFs.
+for VFs/PNFs.
 
 .. note::
    For interim saving while creating a VSP, click |image2|
@@ -159,7 +159,11 @@ for VFs.
 **Prerequisites:**
 
 * `Create a License Model`_
-* Existing VNF HEAT package or VNF/PNF CSAR/Zip package
+* VNF HEAT package or VNF/PNF CSAR/Zip package is available.
+
+  See :ref:`sdc_onboarding_package_types` for a description
+  of the onboarding package types.
+* If the package is a secure package then :ref:`pre-install the corresponding Root Certificate in SDC <doc_guide_user_des_res-onb_pre-install_root_certificate>`.
 
 #. From the SDC HOME page, click *ONBOARD*.
 #. Hover over Add and select New Vendor Software Product.
@@ -183,6 +187,7 @@ for VFs.
    as required.
 #. In Software Product Attachments (right pane), click *Select file*.
 #. In case of a VNF HEAT file: Locate the Heat .zip package and click *Open*.
+
    In case of a VNF or PNF CSAR file: Locate the VNF or PNF csar/.zip package
    and click *Open*.
 #. SDC validates the files in the package. After successful validation, SDC
@@ -251,7 +256,7 @@ on the Components tab.
 Update a VSP [optional]
 -----------------------
 
-Upload a new Heat package to a VSP. Afterward, update the VF and service.
+Upload a new onboarding package to a VSP. Afterward, update the VF/PNF and service.
 
 **Prerequisites:** Add one or more VSPs
                    (see `Create a Vendor Software Product`_).
@@ -273,16 +278,41 @@ Upload a new Heat package to a VSP. Afterward, update the VF and service.
    .. note::
      If the Heat template contains errors, contact the Certification Group for
      guidance on how to proceed.
-
 #. Click *Check In* to save changes.
 #. Click *Submit* to add the VSP to the catalog.
     A success message is displayed. If the VSP attachments contain errors, an
     error message is displayed instead. Fix the issue(s) and re-submit.
 #. After updating the VSP:
-    #. Upload the VSP to the VF
-       (see steps 3 to 5 in :ref:`doc_guide_user_des_vf-cre`).
-    #. Update the VF version in services that include the VF (see step 4
+
+   #. Upload the VSP to the Vf/PNF
+      (see steps 3 to 5 in :ref:`doc_guide_user_des_vf-cre`).
+   #. Update the VF/PNF version in services that include the VF/PNF (see step 4
        in :ref:`doc_guide_user_des_ser-des`).
+
+.. _doc_guide_user_des_res-onb_pre-install_root_certificate:
+
+Pre-Install Root Certificate in SDC [only needed for secure package]
+--------------------------------------------------------------------
+SDC supports the onboarding of packages that are secured according to security option 2 in ETSI NFV-SOL 004v2.6.1.
+
+During onboarding, SDC will validate the authenticity and integrity of a secure package. To enable this validation,
+the root certificate corresponding to the certificate included in the package needs to be available to SDC.
+This is currently done by uploading the root certificate to the following default directory location::
+
+   /dockerdata-nfs/{{ .Release.Name }}/sdc/onbaording/cert
+
+.. note::
+   The directory listed above is mapped to the following directory in the onboarding pod (sdc-onboarding-be)
+   ::
+
+      /var/lib/jetty/cert
+
+   so it is also possible to copy the root certificate directly to this directory in the pod.
+
+The location where the root certificate is uploaded is configurable. The relevant parameters are described in
+the *cert* block in the following values file::
+
+   <path_to_oom_kubernetes>/sdc/charts/sdc-onboarding-be/values.yaml
 
 
 .. |image0| image:: media/sdro-resource-onboarding-workflow.png
