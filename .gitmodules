@@ -153,19 +153,9 @@
 	url = ../ccsdk/parent
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/ccsdk/platform/blueprints.git"]
-	path = docs/submodules/ccsdk/platform/blueprints.git
-	url = ../ccsdk/platform/blueprints
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/ccsdk/platform/plugins.git"]
 	path = docs/submodules/ccsdk/platform/plugins.git
 	url = ../ccsdk/platform/plugins
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/storage/esaas.git"]
-	path = docs/submodules/ccsdk/storage/esaas.git
-	url = ../ccsdk/storage/esaas
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/utils.git"]
