@@ -7,7 +7,7 @@
 User Guides
 ===========
 The following guides are provided to describe tasks that a user of
-ONAP may need to perform when integrating, deploying, and operating
+ONAP may need to perform when integrating, deploying, testing and operating
 an instance of ONAP.
 
 .. toctree::
@@ -21,4 +21,5 @@ an instance of ONAP.
    configure/index.rst
    onapcli.rst
    Verified Use Cases <../../submodules/integration.git/docs/docs_usecases.rst>
+   Testing ONAP with RobotFramework <../../submodules/integration.git/docs/docs_robot.rst>
    Using ONAP Rest API with Postman <../../submodules/integration.git/docs/docs_postman.rst>
