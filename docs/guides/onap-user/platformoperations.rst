@@ -13,3 +13,5 @@ Platform Operations
    ../../../submodules/oom.git/docs/oom_cloud_setup_guide.rst
    ../../../submodules/oom.git/docs/oom_quickstart_guide.rst
    ../../../submodules/oom.git/docs/oom_user_guide.rst
+
+   Testing ONAP with RobotFramework <../../submodules/integration.git/docs/docs_robot.rst>
