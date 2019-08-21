@@ -69,3 +69,13 @@ SDK
    :titlesonly:
 
    VNF Software Development Kit <../../../submodules/vnfsdk/model.git/docs/files/vnfsdk-apis.rst>
+
+
+Some ONAP Postman collections
+-----------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   Some ONAP Postman collections <../../../submodules/integration.git/docs/docs_postman.rst>
