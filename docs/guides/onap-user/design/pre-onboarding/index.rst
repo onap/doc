@@ -82,11 +82,8 @@ MANIFEST file. These steps are performed outside SDC.
 **Prerequisites:** Obtain Heat/ENV files and other files required for
 onboarding. The requirements are found in the following document.
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
 
-   Heat requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter5/Heat/index.rst>
+`Heat requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter5/Heat/index.html>`_
 
 #. Put the Heat, ENV, nested Heat, and other files used by get-file in templates
    in a directory.
@@ -124,12 +121,9 @@ Validate xNF Package (VNF/PNF)
 
 VNF and PNF packages have to follow the requirements described in:
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
+`VNF and PNF Modeling Requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter5/index.html>`_
 
-   VNF and PNF Modeling Requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter5/index.rst>
-   ONAP Management Requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter7/index.rst>
+`ONAP Management Requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter7/index.html>`_
 
 For Validation of VNF and PNF packages the tools delivered by VNFSDK can be
 used:
