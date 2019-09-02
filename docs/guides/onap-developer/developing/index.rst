@@ -55,8 +55,8 @@ Command Line Interface
    ../../../submodules/cli.git/docs/index
 
 
-Closed Loop Automation Platform
--------------------------------
+Control Loop Automation Management Platform
+-------------------------------------------
 
 .. toctree::
    :maxdepth: 2
