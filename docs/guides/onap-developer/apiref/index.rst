@@ -35,7 +35,7 @@ Platform Components
    APPC - Application Controller <../../../submodules/appc.git/docs/index.rst>
    DCAE - Data Collection, Analytics, and Events <../../../submodules/dcaegen2.git/docs/sections/offeredapis.rst>
    Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/offeredapis.rst>
-   Policy <../../../submodules/policy/engine.git/docs/platform/offeredapis.rst>
+   Policy <../../../submodules/policy/parent.git/docs/offeredapis.rst>
    SDNC - SDN Controller <../../../submodules/sdnc/oam.git/docs/offeredapis.rst>
    SO - Service Orchestration <../../../submodules/so.git/docs/api/offered_consumed_apis.rst>
    VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/APIs/index.rst>
