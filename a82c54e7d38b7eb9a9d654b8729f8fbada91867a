@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "49ca4bb2_014c89a2",
+        "filename": "docs/guides/onap-user/design/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-09-03T07:56:14Z",
+      "side": 1,
+      "message": "Should be renamed to \"VNF LifeCycle Command templating\"",
+      "range": {
+        "startLine": 120,
+        "startChar": 3,
+        "endLine": 120,
+        "endChar": 38
+      },
+      "revId": "a82c54e7d38b7eb9a9d654b8729f8fbada91867a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
