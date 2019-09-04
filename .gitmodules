@@ -358,13 +358,13 @@
 	url = ../policy/parent
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/modeling/genericparser.git"]
-	path = docs/submodules/modeling/genericparser.git
-	url = ../modeling/genericparser
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/osa.git"]
 	path = docs/submodules/osa.git
 	url = ../osa
+	branch = master
+	ignore = dirty
+[submodule "docs/submodules/modeling/etsicatalog.git"]
+	path = docs/submodules/modeling/etsicatalog.git
+	url = ../modeling/etsicatalog
 	branch = master
 	ignore = dirty

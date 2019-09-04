@@ -93,4 +93,4 @@ Project/Components
    oom/offline-installer <../submodules/oom/offline-installer.git/docs/index>
    ccsdk/features <../submodules/ccsdk/features.git/docs/index>
    parent <../submodules/parent.git/docs/index>
-   modeling/genericparser <../submodules/modeling/genericparser.git/docs/index>
+   modeling/etsicatalog <../submodules/modeling/etsicatalog.git/docs/index>
