@@ -56,6 +56,11 @@ committers:
       company: 'Nokia'
       id: 'tperala'
       timezone: 'Europe/Helsinki'
+    - name: 'Andreas Geissler'
+      email: 'andreas-geissler@telekom.de'
+      company: 'Deutsche Telekom'
+      id: 'andreas.geissler'
+      timezone: 'Germany'
 tsc:
     approval: 'https://lists.onap.org/pipermail/onap-tsc'
     changes:
