@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b4f4b420_a3dab5e2",
+        "filename": ".gitmodules",
+        "patchSetId": 1
+      },
+      "lineNbr": 373,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2019-09-05T13:00:06Z",
+      "side": 1,
+      "message": "URL should be relative to the super project origin (doc) without ssh, lfid, and port. Reference info at https://git-scm.com/docs/gitmodules\n\netsicatalog is inconsistent with line 371\n\nmodeling/etsiparser does not appear in the gerrit list of repos https://gerrit.onap.org/r/#/admin/projects/?filter\u003dmodeling\n\nWhen adding or removing a submodule.... using the steps as referenced below should eliminate or detect inconsistencies such as the above.\n\nSteps for removing submodule\nhttps://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule\n\nSteps for adding submodule\nhttps://docs.onap.org/en/dublin/guides/onap-developer/how-to-use-docs/include-documentation.html#setup-project-repositories-s",
+      "range": {
+        "startLine": 373,
+        "startChar": 7,
+        "endLine": 373,
+        "endChar": 62
+      },
+      "revId": "72c3beff011fd1184fa65cdf6284f0c72bbfb0fa",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
