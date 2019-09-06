@@ -186,7 +186,7 @@ that will be needed for the instantiation
 ::
 
   curl -X POST \
-  http://sdnc.api.simpledemo.onap.org:30202/restconf/operations/VNF-API:preload-vnf-topology-operation \
+  https://sdnc.api.simpledemo.onap.org:30267/restconf/operations/VNF-API:preload-vnf-topology-operation \
   -H 'Accept: application/json' \
   -H 'Authorization: Basic YWRtaW46S3A4Yko0U1hzek0wV1hsaGFrM2VIbGNzZTJnQXc4NHZhb0dHbUp2VXkyVQ==' \
   -H 'Content-Type: application/json' \
