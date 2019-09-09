@@ -368,3 +368,6 @@
 	url = ../osa
 	branch = master
 	ignore = dirty
+[submodule "docs/submodules/modeling/etsicatalog.git"]
+	path = docs/submodules/modeling/etsicatalog.git
+	url = ../modeling/etsicatalog
