@@ -45,7 +45,7 @@ Onboarding, Design and Distribution process.
     in a Service Model
 
 * Service Design
-    A Service Model is created as a composition of resources 
+    A Service Model is created as a composition of resources
     (e.g. V(N)Fs, PNFs,...), Policies, Workflows,...
     The created Service Model will pass a testing workflow and
     handed over to a Governance Approval and Distribution process
@@ -57,22 +57,25 @@ Onboarding, Design and Distribution process.
 
 **The optional/additional Design steps are:**
 
-* Controller Blueprint Design
-    The Controller Blueprint is the overall service design, fully model-driven,
-    intent based package needed for self service provisioning and configuration
-    management automation. The framework to automate the resolution of resources
-    for instantiation and any config provisioning operation,
-    such as day0, day1 or day2 configuration.
-    It provides a tool called Controller Design Studio
+* VNF parameter assignment templating
+    The objective is to automate the resolution of resources for instantiation
+    and any config provisioning operation, such as day0, day1 or day2
+    configuration.
+    The Controller Blueprint archive (CBA) is the overall service design,
+    fully model-driven, intent based package needed to design self service
+    provisioning and configuration management automation.
+    ONAP CDS (Controller Design Studio) is the controller that will process
+    the Controller Blueprint archive (CBA) at run-time.
 
 * Policy Design
-    The Policy Creation component deals with policies.
     These are rules, conditions, requirements, constraints, attributes,
     or needs that must be provided, maintained, and/or enforced.
     At a lower level, Policy involves machine-readable rules enabling
-    actions to be taken based on triggers or requests.
+    actions to be taken based on triggers or requests. ONAP Policy framework
+    provides some policy models that are implemented and pre-loaded when
+    installing ONAP.
 
-* APPC Controller Design
+* VNF LifeCycle Command templating
     APPC Controller Design Tool (CDT) is used for self-service onboarding of
     VNF’s. VNF owners can create templates and other artifacts for APPC
     Configure command (used to apply a post-instantiation configuration)
@@ -91,7 +94,7 @@ Onboarding, Design and Distribution process.
     The design is done in the SDC DCAE-DS (Design Studio).
     The DCAE Design Studio enables to define and configure
     the monitoring flows of DCAE.
-    The configuration and deployment of a Control Loop will be done with 
+    The configuration and deployment of a Control Loop will be done with
     Control Loop Automation Management (CLAMP) tool.
 
 The follwing sections will focus on the different Design steps:
@@ -110,11 +113,11 @@ The follwing sections will focus on the different Design steps:
 
    Governance Approval and Service Distribution <./service-distribution/index.rst>
 
-   Controller Blueprint Design <../../../submodules/ccsdk/cds.git/docs/index.rst>
+   VNF parameter assignment templating <../../../submodules/ccsdk/cds.git/docs/index.rst>
 
    Policy Design <../../../submodules/policy/parent.git/docs/design/design.rst>
 
-   APPC Controller Design <../../../submodules/appc.git/docs/APPC CDT Guide/APPC CDT Guide.rst>
+   VNF LifeCycle Command templating <../../../submodules/appc.git/docs/APPC CDT Guide/APPC CDT Guide.rst>
 
    Workflow Design <../../../submodules/sdc.git/docs/workflow.rst>
 
