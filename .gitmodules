@@ -148,19 +148,9 @@
 	url = ../ccsdk/distribution
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/ccsdk/parent.git"]
-	path = docs/submodules/ccsdk/parent.git
-	url = ../ccsdk/parent
-	branch = .
-	ignore = dirty
 [submodule "docs/submodules/ccsdk/platform/plugins.git"]
 	path = docs/submodules/ccsdk/platform/plugins.git
 	url = ../ccsdk/platform/plugins
-	branch = .
-	ignore = dirty
-[submodule "docs/submodules/ccsdk/utils.git"]
-	path = docs/submodules/ccsdk/utils.git
-	url = ../ccsdk/utils
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdnc/oam.git"]

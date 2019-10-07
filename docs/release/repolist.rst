@@ -69,12 +69,10 @@ Project/Components
    :maxdepth: 1
    :titlesonly:
 
-   ccsdk/parent <../submodules/ccsdk/parent.git/docs/index>
    ccsdk/platform/blueprints <../submodules/ccsdk/platform/blueprints.git/docs/index>
    ccsdk/platform/nbapi <../submodules/ccsdk/platform/nbapi.git/docs/index>
    ccsdk/storage/esaas <../submodules/ccsdk/storage/esaas.git/docs/index>
    ccsdk/storage/pgaas <../submodules/ccsdk/storage/pgaas.git/docs/index>
-   ccsdk/utils <../submodules/ccsdk/utils.git/docs/index>
    integration <../submodules/integration.git/docs/index>
    msb/discovery <../submodules/msb/discovery.git/docs/index>
    msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>
