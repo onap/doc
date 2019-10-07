@@ -82,8 +82,6 @@ Common Controller Software Development Kit
    ../../../submodules/ccsdk/platform/nbapi.git/docs/index
    ../../../submodules/ccsdk/storage/esaas.git/docs/index
    ../../../submodules/ccsdk/storage/pgaas.git/docs/index
-   ../../../submodules/ccsdk/utils.git/docs/index
-   ../../../submodules/ccsdk/parent.git/docs/index
    ../../../submodules/ccsdk/sli/adaptors.git/docs/index
    ../../../submodules/ccsdk/sli/core.git/docs/index
    ../../../submodules/ccsdk/sli/northbound.git/docs/index
