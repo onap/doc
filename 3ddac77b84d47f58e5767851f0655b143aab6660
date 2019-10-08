@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d45154b3_d4a8413d",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-10-08T14:43:38Z",
+      "side": 1,
+      "message": "trailing whitespaces to be removed",
+      "revId": "3ddac77b84d47f58e5767851f0655b143aab6660",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bd8d0f34_56babf7b",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-10-08T14:43:38Z",
+      "side": 1,
+      "message": "This document provides the release notes for the documentation project.",
+      "revId": "3ddac77b84d47f58e5767851f0655b143aab6660",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3864005e_a851e8cb",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-10-08T14:43:38Z",
+      "side": 1,
+      "message": "5.0.0 or 5.0.1 ?",
+      "revId": "3ddac77b84d47f58e5767851f0655b143aab6660",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
