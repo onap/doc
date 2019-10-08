@@ -289,7 +289,6 @@ VNF Validation Project
 
 
 .. Not in / not used this release
-   ccsdk/parent<../submodules/ccsdk/parent.git/docs/release-notes.rst>
    ccsdk/platform/nbapi<../submodules/ccsdk/platform/nbapi.git/docs/release-notes.rst>
    ccsdk/sli/adaptors<../submodules/ccsdk/sli/adaptors.git/docs/release-notes.rst>
    ccsdk/sli/core<../submodules/ccsdk/sli/core.git/docs/release-notes.rst>
@@ -297,7 +296,6 @@ VNF Validation Project
    ccsdk/sli/plugins<../submodules/ccsdk/sli/plugins.git/docs/release-notes.rst>
    ccsdk/storage/esaas<../submodules/ccsdk/storage/esaas.git/docs/release-notes.rst>
    ccsdk/storage/pgaas<../submodules/ccsdk/storage/pgaas.git/docs/release-notes.rst>
-   ccsdk/utils<../submodules/ccsdk/utils.git/docs/release-notes.rst>
    sdnc/adaptors<../submodules/sdnc/adaptors.git/docs/release-notes.rst>
    sdnc/architecture<../submodules/sdnc/architecture.git/docs/release-notes.rst>
    sdnc/core<../submodules/sdnc/core.git/docs/release-notes.rst>
