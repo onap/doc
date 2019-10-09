@@ -59,7 +59,7 @@ committers:
     - name: 'Andreas Geissler'
       email: 'andreas-geissler@telekom.de'
       company: 'Deutsche Telekom'
-      id: 'andreas.geissler'
+      id: 'andreasgeissler'
       timezone: 'Germany/Cologne'
 tsc:
     approval: 'https://lists.onap.org/pipermail/onap-tsc'
