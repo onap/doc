@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "67811f2d_f555156f",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-10-09T14:01:22Z",
+      "side": 1,
+      "message": "documenatation to be corrected in documentation",
+      "revId": "908c7c177cd3f97898866679b73a096e319f9d9c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
