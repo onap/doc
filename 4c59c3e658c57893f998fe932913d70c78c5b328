@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "90e52f39_99e15e24",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1215
+      },
+      "writtenOn": "2019-10-10T06:10:14Z",
+      "side": 1,
+      "message": "No major changes but regarding the code changes, there were lots of changes. Some consolidated features introduced in beta in Dublin. It could make sense to list some of them.\nOr indicate that the goal of el alto was to consolidate the process and indicate the introduction of new CI/CD chains, the use of several labs to validate the version,..",
+      "revId": "4c59c3e658c57893f998fe932913d70c78c5b328",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "943b8a30_3dc89101",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1215
+      },
+      "writtenOn": "2019-10-10T06:10:14Z",
+      "side": 1,
+      "message": "Still a Dublin ref here",
+      "revId": "4c59c3e658c57893f998fe932913d70c78c5b328",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
