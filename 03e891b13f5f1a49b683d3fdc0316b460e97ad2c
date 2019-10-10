@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ed55a7b7_f9209780",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-10-10T17:43:39Z",
+      "side": 1,
+      "message": "Should be 5.0.1",
+      "range": {
+        "startLine": 23,
+        "startChar": 48,
+        "endLine": 23,
+        "endChar": 53
+      },
+      "revId": "03e891b13f5f1a49b683d3fdc0316b460e97ad2c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
