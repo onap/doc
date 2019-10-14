@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bac51dca_03ada1fd",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 5956
+      },
+      "writtenOn": "2019-10-14T10:24:41Z",
+      "side": 1,
+      "message": "Should this be \".. _elaltorelease-notes:\" ?",
+      "range": {
+        "startLine": 5,
+        "startChar": 4,
+        "endLine": 5,
+        "endChar": 10
+      },
+      "revId": "43b07da86a8b2b87071e5a29f1402ec10ad48859",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
