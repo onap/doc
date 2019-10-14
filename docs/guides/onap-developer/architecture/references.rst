@@ -71,4 +71,4 @@ Common Services
    OOM - ONAP Operations Manager <../../../submodules/oom.git/docs/oom_project_description.rst>
    OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/architecture.rst>
    VNF SDK <../../../submodules/vnfsdk/model.git/docs/files/vnfsdk-apis.rst>
-   VVP - VNF Validation Project <../../../submodules/vvp/documentation.git/docs/architecture.rst>
+

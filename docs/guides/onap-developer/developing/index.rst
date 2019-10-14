@@ -318,15 +318,6 @@ Use Case User Interface
 
    ../../../submodules/usecase-ui.git/docs/index
 
-User Interface Applications
----------------------------
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   ../../../submodules/ui/dmaapbc.git/docs/index
-
 Virtual Function Controller
 ---------------------------
 
