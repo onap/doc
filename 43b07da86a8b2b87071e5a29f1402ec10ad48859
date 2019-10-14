@@ -22,6 +22,30 @@
       "revId": "43b07da86a8b2b87071e5a29f1402ec10ad48859",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0b0cf3e4_102800e2",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-10-14T10:27:49Z",
+      "side": 1,
+      "message": "No, never change a reference. However, to use a release specific name as a ref might be confusing. That should have been thought of when adding this.",
+      "parentUuid": "bac51dca_03ada1fd",
+      "range": {
+        "startLine": 5,
+        "startChar": 4,
+        "endLine": 5,
+        "endChar": 10
+      },
+      "revId": "43b07da86a8b2b87071e5a29f1402ec10ad48859",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
