@@ -4,26 +4,25 @@
 
 .. _dublinrelease-notes:
 
-Dublin Release Notes
-^^^^^^^^^^^^^^^^^^^^
+El Alto Release Notes
+^^^^^^^^^^^^^^^^^^^^^
 
-This page provides the release notes for the ONAP Dublin release. This includes details of software versions used, known limitations, and
+This page provides the release notes for the ONAP El Alto release. This includes details of software versions used, known limitations, and
 outstanding trouble reports.
 
-Release notes are cumulative for the release, meaning this release note for the Dublin release will have an entry for each Major, Minor, and Maintenance
+Release notes are cumulative for the release, meaning this release note for the El Alto release will have an entry for each Major, Minor, and
+Maintenance
 release, if applicable.
 
 Each component within the ONAP solution maintains their own component level release notes and links to those release notes are provided below.
 Details on the specific items delivered in each releaese by each component is maintained in the component specific release notes.
 
-Dublin Major Release 4.0.0
-==========================
+El Alto Major Release 5.0.1
+===========================
 
-* Release Name: Dublin
-* Release Version: 4.0.0
-* Release Date: , 2019
-
-The Dublin 4.0.0 is the first release for Dublin.
+* Release Name: El Alto
+* Release Version: 5.0.1
+* Release Date: October 24 2019
 
 Project Specific Release Notes
 ==============================
@@ -35,7 +34,7 @@ are compatible with a major release are made available.
 
 Documentation
 =============
-ONAP Dublin Release provides multiple documents, see :ref:`ONAP Home<master_index>`.
+ONAP El Alto Release provides a set selection of documents, see :ref:`ONAP Home<master_index>`.
 
 The `developer wiki <http://wiki.onap.org>`_ remains a good source of
 information on meeting plans and notes from committees, project teams and
@@ -61,7 +60,7 @@ Project specific details are in the :ref:`release notes<doc-releaserepos>` for e
 
 ONAP Maturity Testing Notes
 ===========================
-For Dublin release, ONAP continues to improve in multiple areas of Scalability, Security, Stability and Performance (S3P) metrics.
+For El Alto release, ONAP continues to improve in multiple areas of Scalability, Security, Stability and Performance (S3P) metrics.
 
 The Integration team ran the 72 hours stability testing (100% passing rate) and full resilience testing (99.4% passing rate) at ONAP OpenLabs. More details in :ref:`ONAP Maturity Testing Notes <integration-s3p>`
 
@@ -87,9 +86,3 @@ To properly report a bug in Jira, you may want to consider these `recommendation
 
 
 .. Include files referenced by link in the toctree as hidden
-
-.. toctree::
-   :hidden:
-
-   releaserepos.rst
-   repolist.rst
