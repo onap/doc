@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b70cd259_34d6e51a",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-10-14T09:10:35Z",
+      "side": 1,
+      "message": "Never change a reference.  it is only used for links and references and nothing that shows anywhere on RTD. the link is now broken.",
+      "range": {
+        "startLine": 26,
+        "startChar": 1,
+        "endLine": 26,
+        "endChar": 49
+      },
+      "revId": "79aca75f6075e77f04004ef61a797e456c1989a8",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
