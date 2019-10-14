@@ -1,7 +1,8 @@
 .. This work is licensed under a Creative Commons Attribution
 .. 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
-.. Copyright 2019 Nokia; Copyright 2017-2018 Huawei Technologies Co., Ltd.; Copyright 2017 AT&T Intellectual Property.
+.. Copyright 2019 Nokia; Copyright 2017-2018 Huawei Technologies Co., Ltd.;
+.. Copyright 2017 AT&T Intellectual Property
 
 Open Network Automation Platform Overview
 =========================================
@@ -57,11 +58,12 @@ Design-time framework and Run-time framework:
 In order to design, deploy and operate services and assure these dynamic
 services, ONAP activities are built up as follows:
 
-* **Service design** – Service design is built on a robust design framework that
-  allows specification of the service in all aspects – modeling the resources and
-  relationships that make up the service, specifying the policy rules that guide
-  the service behavior, specifying the applications, analytics and closed control
-  loop events needed for the elastic management of the service.
+* **Service design** – Service design is built on a robust design framework
+  that allows specification of the service in all aspects – modeling the
+  resources and relationships that make up the service, specifying the policy
+  rules that guide the service behavior, specifying the applications, analytic
+  and closed control loop events needed for the elastic management of the
+  service.
 * **Service deployment** – Service deployment is built on an orchestration
   and control framework that is policy-driven (Service Orchestrator and
   Controllers) to provide automated instantiation of the service when
@@ -99,29 +101,39 @@ principles:
 Functional overview of ONAP
 ===========================
 
-The following guidelines show the main ONAP activities in a chronological order, presenting ONAP's functional structure:
+The following guidelines show the main ONAP activities in a chronological
+order, presenting ONAP's functional structure:
 
-1. **Service design** - ONAP supports Service Design operations, using the TOSCA approach.
+1. **Service design** - ONAP supports Service Design operations, using the
+TOSCA approach.
 These service design activities are built up of the following subtasks:
- a. Planning VNF onboarding – checking which VNFs will be necessary for the required environment and features
+
+ a. Planning VNF onboarding – checking which VNFs will be necessary for the
+    required environment and features
  b. Creating resources, composing services
  c. Distributing services - Distributing services constitutes of 2 subtasks:
-   * TOSCA C-SAR package is stored in the Catalog
+
+ * TOSCA C-SAR package is stored in the Catalog
    * new service notification is published
 
 2. **Service orchestration and deployment**
+
   a. Defining which VNFs are necessary for the service
   b. Defining orchestration steps
   c. Selecting valid cloud region
   d. Service orchestration calling cloud APIs to deploy VNFs
-   * The onboarding and instantiation of VNFs in ONAP is represented via
+
+  * The onboarding and instantiation of VNFs in ONAP is represented via
      the example of onboarding and instantiating a virtual network function
      (VNF), the virtual Firewall (vFirewall). Following the guidelines and
      steps of this example, any other VNF can be similarly onboarded
      and instantiated to ONAP. See :ref:`virtual Firewall Onboarding and
      Instantiating <vfirewall_usecase>` examples.
+
   e. Controllers applying configuration on VNFs
+
 3. **Service operations**
+
   a. Closed Loop design and deployment
   b. Collecting and evaluating event data
 
@@ -152,7 +164,9 @@ is named after a city.
 +----------------------+----------------+----------------------+-----------------------------------------------------------+
 |Release Name          |Release version |Release Date          |Features delivered                                         |
 +======================+================+======================+===========================================================+
-|Dublin                |4.0.0           |2019                  | :ref:`Dublin Release Notes <dublinrelease-notes>`         |
+|El Alto               |5.0.1           | 24 October 2019      | :ref:`El Alto Release Notes <release-notes>`              |
++----------------------+----------------+----------------------+-----------------------------------------------------------+
+|Dublin                |4.0.0           | 9 July 2019          |                                                           |
 +----------------------+----------------+----------------------+-----------------------------------------------------------+
 |Casablanca            |* 3.0.2         |* 31 January 2019     |                                                           |
 |                      |* 3.0.1         |* 30 November 2018    |                                                           |
@@ -166,7 +180,8 @@ is named after a city.
 ONAP Blueprints and environments
 ================================
 
-ONAP is able to deploy and operate VNFs running OpenStack based Centralized Private Cloud Instances, as well as Mobile Edge Cloud instances.
+ONAP is able to deploy and operate VNFs running OpenStack based Centralized
+Private Cloud Instances, as well as Mobile Edge Cloud instances.
 ONAP has been tested in the following network environments:
 
 * Voice Over LTE (VoLTE)
@@ -178,7 +193,8 @@ ONAP has been tested in the following network environments:
 Licenses
 ========
 
-Open Network Automation Platform (ONAP) is an open source project hosted by the Linux Foundation.
+Open Network Automation Platform (ONAP) is an open source project hosted by the
+Linux Foundation.
 
 ONAP Source Code is licensed under the `Apache Version 2 License <http://www.apache.org/licenses/LICENSE-2.0>`_.
 ONAP Documentation is licensed under the `Creative Commons Attribution 4.0
