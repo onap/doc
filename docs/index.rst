@@ -23,7 +23,7 @@ Please find some guidance here on the content of ONAP documentation:
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | Main documentation areas 	                                                   | Description                                                                                   |
  +=================================================================================+===============================================================================================+
- | :ref:`Release Notes <elaltorelease-notes>`                                      | The Release Notes besides providing the basic information on the main release, also           |
+ | :ref:`Release Notes <dublinrelease-notes>`                                      | The Release Notes besides providing the basic information on the main release, also           |
  |                                                                                 | presents link to the release information of each, specific ONAP component.                    |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Overview <overview>`                                                 | ONAP Overview provides generic and high-level guidance on the mission and main                |
