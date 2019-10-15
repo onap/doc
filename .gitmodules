@@ -141,7 +141,7 @@
 [submodule "docs/submodules/ccsdk/dashboard.git"]
 	path = docs/submodules/ccsdk/dashboard.git
 	url = https://git.onap.org/ccsdk/dashboard
-	branch = .
+	branch = master
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/distribution.git"]
 	path = docs/submodules/ccsdk/distribution.git
@@ -156,7 +156,7 @@
 [submodule "docs/submodules/ccsdk/platform/plugins.git"]
 	path = docs/submodules/ccsdk/platform/plugins.git
 	url = https://git.onap.org/ccsdk/platform/plugins
-	branch = .
+	branch = master
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/utils.git"]
 	path = docs/submodules/ccsdk/utils.git
