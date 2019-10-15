@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f099f52e_d490b142",
+        "filename": "docs/guides/overview/overview.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 5956
+      },
+      "writtenOn": "2019-10-15T10:03:29Z",
+      "side": 1,
+      "message": "I would rather use the form \"analytics\"",
+      "range": {
+        "startLine": 64,
+        "startChar": 70,
+        "endLine": 64,
+        "endChar": 78
+      },
+      "revId": "ddbab33a17a86bba7c45cb53064bde2a9fba8287",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
