@@ -361,10 +361,10 @@
 [submodule "docs/submodules/osa.git"]
 	path = docs/submodules/osa.git
 	url = https://git.onap.org/osa
-	branch = master
+	branch = 06f9c4044638bc8b0fcbce64e5cabe225953e28e
 	ignore = dirty
 [submodule "docs/submodules/modeling/etsicatalog.git"]
 	path = docs/submodules/modeling/etsicatalog.git
 	url = https://git.onap.org/modeling/etsicatalog
-	branch = master
+	branch = 143acce423e6adfb9ee121a3d8cfeb76aa6c993c
 	ignore = dirty
