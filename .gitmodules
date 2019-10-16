@@ -141,7 +141,7 @@
 [submodule "docs/submodules/ccsdk/dashboard.git"]
 	path = docs/submodules/ccsdk/dashboard.git
 	url = https://git.onap.org/ccsdk/dashboard
-	branch = master
+	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/distribution.git"]
 	path = docs/submodules/ccsdk/distribution.git
@@ -156,7 +156,7 @@
 [submodule "docs/submodules/ccsdk/platform/plugins.git"]
 	path = docs/submodules/ccsdk/platform/plugins.git
 	url = https://git.onap.org/ccsdk/platform/plugins
-	branch = master
+	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/utils.git"]
 	path = docs/submodules/ccsdk/utils.git
@@ -306,7 +306,7 @@
 [submodule "docs/submodules/multicloud/azure.git"]
 	path = docs/submodules/multicloud/azure.git
 	url = https://git.onap.org/multicloud/azure
-	branch = master
+	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dmaap/buscontroller.git"]
 	path = docs/submodules/dmaap/buscontroller.git
