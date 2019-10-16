@@ -60,37 +60,3 @@ Project/Components
    dmaap/dbcapi <../submodules/dmaap/dbcapi.git/docs/index>
    music/distributed-kv-store <../submodules/music/distributed-kv-store.git/docs/index>
    osa <../submodules/osa.git/docs/index>
-
-.. The following submodules have been added but no content or in some cases
-   deprecated content appears.   To eliminate toctree warnings until content
-   is updated or the submodule is removed  we leave the references
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   ccsdk/parent <../submodules/ccsdk/parent.git/docs/index>
-   ccsdk/platform/blueprints <../submodules/ccsdk/platform/blueprints.git/docs/index>
-   ccsdk/platform/nbapi <../submodules/ccsdk/platform/nbapi.git/docs/index>
-   ccsdk/storage/esaas <../submodules/ccsdk/storage/esaas.git/docs/index>
-   ccsdk/storage/pgaas <../submodules/ccsdk/storage/pgaas.git/docs/index>
-   ccsdk/utils <../submodules/ccsdk/utils.git/docs/index>
-   integration <../submodules/integration.git/docs/index>
-   msb/discovery <../submodules/msb/discovery.git/docs/index>
-   msb/java-sdk <../submodules/msb/java-sdk.git/docs/index>
-   policy/parent <../submodules/policy/parent.git/docs/index>
-   sdc/jtosca <../submodules/sdc/jtosca.git/docs/index>
-   sdc/sdc-distribution-client <../submodules/sdc/sdc-distribution-client.git/docs/index>
-   sdc/sdc-docker-base <../submodules/sdc/sdc-docker-base.git/docs/index>
-   sdc/sdc-titan-cassandra <../submodules/sdc/sdc-titan-cassandra.git/docs/index>
-   sdc/sdc-tosca <../submodules/sdc/sdc-tosca.git/docs/index>
-   vid/asdcclient <../submodules/vid/asdcclient.git/docs/index>
-
-   multicloud/azure <../submodules/multicloud/azure.git/docs/index>
-   optf/cmso <../submodules/optf/cmso.git/docs/index>
-  ccsdk/apps <../submodules/ccsdk/apps.git/docs/index>
-   cds <../submodules/ccsdk/cds.git/docs/index>
-   oom/offline-installer <../submodules/oom/offline-installer.git/docs/index>
-   ccsdk/features <../submodules/ccsdk/features.git/docs/index>
-   parent <../submodules/parent.git/docs/index>
-   modeling/etsicatalog <../submodules/modeling/etsicatalog.git/docs/index>
