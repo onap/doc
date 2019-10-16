@@ -150,7 +150,7 @@
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/parent.git"]
 	path = docs/submodules/ccsdk/parent.git
-	url = ../ccsdk/parent
+	url = https://git.onap.org/ccsdk/parent
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/platform/plugins.git"]
@@ -160,7 +160,7 @@
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/utils.git"]
 	path = docs/submodules/ccsdk/utils.git
-	url = ../ccsdk/utils
+	url = https://git.onap.org/ccsdk/utils
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/sdnc/oam.git"]
