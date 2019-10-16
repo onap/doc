@@ -166,7 +166,7 @@
 [submodule "docs/submodules/sdnc/oam.git"]
 	path = docs/submodules/sdnc/oam.git
 	url = https://git.onap.org/sdnc/oam
-	branch = master
+	branch = .
 	ignore = dirty
 [submodule "docs/submodules/portal.git"]
 	path = docs/submodules/portal.git
