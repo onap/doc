@@ -1,360 +1,360 @@
 [submodule "docs/submodules/vnfrqts/guidelines"]
 	path = docs/submodules/vnfrqts/guidelines.git
-	url = ../vnfrqts/guidelines
+	url = https://git.onap.org/vnfrqts/guidelines
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/requirements"]
 	path = docs/submodules/vnfrqts/requirements.git
-	url = ../vnfrqts/requirements
+	url = https://git.onap.org/vnfrqts/requirements
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/appc"]
 	path = docs/submodules/appc.git
-	url = ../appc
+	url = https://git.onap.org/appc
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/cli"]
 	path = docs/submodules/cli.git
-	url = ../cli
+	url = https://git.onap.org/cli
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/clamp"]
 	path = docs/submodules/clamp.git
-	url = ../clamp
+	url = https://git.onap.org/clamp
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/appc/deployment.git"]
 	path = docs/submodules/appc/deployment.git
-	url = ../appc/deployment
+	url = https://git.onap.org/appc/deployment
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/optf/has.git"]
 	path = docs/submodules/optf/has.git
-	url = ../optf/has
+	url = https://git.onap.org/optf/has
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dcaegen2.git"]
 	path = docs/submodules/dcaegen2.git
-	url = ../dcaegen2
+	url = https://git.onap.org/dcaegen2
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/aaf/authz.git"]
 	path = docs/submodules/aaf/authz.git
-	url = ../aaf/authz
+	url = https://git.onap.org/aaf/authz
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/policy/engine.git"]
 	path = docs/submodules/policy/engine.git
-	url = ../policy/engine
+	url = https://git.onap.org/policy/engine
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vnfsdk/model.git"]
 	path = docs/submodules/vnfsdk/model.git
-	url = ../vnfsdk/model
+	url = https://git.onap.org/vnfsdk/model
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/holmes/rule-management.git"]
 	path = docs/submodules/holmes/rule-management.git
-	url = ../holmes/rule-management
+	url = https://git.onap.org/holmes/rule-management
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/holmes/engine-management.git"]
 	path = docs/submodules/holmes/engine-management.git
-	url = ../holmes/engine-management
+	url = https://git.onap.org/holmes/engine-management
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vfc/nfvo/lcm.git"]
 	path = docs/submodules/vfc/nfvo/lcm.git
-	url = ../vfc/nfvo/lcm
+	url = https://git.onap.org/vfc/nfvo/lcm
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/msb/apigateway.git"]
 	path = docs/submodules/msb/apigateway.git
-	url = ../msb/apigateway
+	url = https://git.onap.org/msb/apigateway
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/msb/discovery.git"]
 	path = docs/submodules/msb/discovery.git
-	url = ../msb/discovery
+	url = https://git.onap.org/msb/discovery
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/msb/java-sdk.git"]
 	path = docs/submodules/msb/java-sdk.git
-	url = ../msb/java-sdk
+	url = https://git.onap.org/msb/java-sdk
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/msb/swagger-sdk.git"]
 	path = docs/submodules/msb/swagger-sdk.git
-	url = ../msb/swagger-sdk
+	url = https://git.onap.org/msb/swagger-sdk
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/modeling/modelspec.git"]
 	path = docs/submodules/modeling/modelspec.git
-	url = ../modeling/modelspec
+	url = https://git.onap.org/modeling/modelspec
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dmaap/messagerouter/messageservice.git"]
 	path = docs/submodules/dmaap/messagerouter/messageservice.git
-	url = ../dmaap/messagerouter/messageservice
+	url = https://git.onap.org/dmaap/messagerouter/messageservice
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/aai/esr-server.git"]
 	path = docs/submodules/aai/esr-server.git
-	url = ../aai/esr-server
+	url = https://git.onap.org/aai/esr-server
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/oom.git"]
 	path = docs/submodules/oom.git
-	url = ../oom
+	url = https://git.onap.org/oom
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/aai/aai-common.git"]
 	path = docs/submodules/aai/aai-common.git
-	url = ../aai/aai-common
+	url = https://git.onap.org/aai/aai-common
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/aai/esr-gui.git"]
 	path = docs/submodules/aai/esr-gui.git
-	url = ../aai/esr-gui
+	url = https://git.onap.org/aai/esr-gui
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/aai/sparky-be.git"]
 	path = docs/submodules/aai/sparky-be.git
-	url = ../aai/sparky-be
+	url = https://git.onap.org/aai/sparky-be
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/integration.git"]
 	path = docs/submodules/integration.git
-	url = ../integration
+	url = https://git.onap.org/integration
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/multicloud/framework.git"]
 	path = docs/submodules/multicloud/framework.git
-	url = ../multicloud/framework
+	url = https://git.onap.org/multicloud/framework
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/multicloud/k8s.git"]
 	path = docs/submodules/multicloud/k8s.git
-	url = ../multicloud/k8s
+	url = https://git.onap.org/multicloud/k8s
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/dashboard.git"]
 	path = docs/submodules/ccsdk/dashboard.git
-	url = ../ccsdk/dashboard
+	url = https://git.onap.org/ccsdk/dashboard
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/distribution.git"]
 	path = docs/submodules/ccsdk/distribution.git
-	url = ../ccsdk/distribution
+	url = https://git.onap.org/ccsdk/distribution
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/platform/plugins.git"]
 	path = docs/submodules/ccsdk/platform/plugins.git
-	url = ../ccsdk/platform/plugins
+	url = https://git.onap.org/ccsdk/platform/plugins
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdnc/oam.git"]
 	path = docs/submodules/sdnc/oam.git
-	url = ../sdnc/oam
+	url = https://git.onap.org/sdnc/oam
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/portal.git"]
 	path = docs/submodules/portal.git
-	url = ../portal
+	url = https://git.onap.org/portal
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdc.git"]
 	path = docs/submodules/sdc.git
-	url = ../sdc
+	url = https://git.onap.org/sdc
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdc/jtosca.git"]
 	path = docs/submodules/sdc/jtosca.git
-	url = ../sdc/jtosca
+	url = https://git.onap.org/sdc/jtosca
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-distribution-client.git"]
 	path = docs/submodules/sdc/sdc-distribution-client.git
-	url = ../sdc/sdc-distribution-client
+	url = https://git.onap.org/sdc/sdc-distribution-client
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-docker-base.git"]
 	path = docs/submodules/sdc/sdc-docker-base.git
-	url = ../sdc/sdc-docker-base
+	url = https://git.onap.org/sdc/sdc-docker-base
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-titan-cassandra.git"]
 	path = docs/submodules/sdc/sdc-titan-cassandra.git
-	url = ../sdc/sdc-titan-cassandra
+	url = https://git.onap.org/sdc/sdc-titan-cassandra
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-tosca.git"]
 	path = docs/submodules/sdc/sdc-tosca.git
-	url = ../sdc/sdc-tosca
+	url = https://git.onap.org/sdc/sdc-tosca
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-workflow-designer.git"]
 	path = docs/submodules/sdc/sdc-workflow-designer.git
-	url = ../sdc/sdc-workflow-designer
+	url = https://git.onap.org/sdc/sdc-workflow-designer
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vid.git"]
 	path = docs/submodules/vid.git
-	url = ../vid
+	url = https://git.onap.org/vid
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/usecase-ui.git"]
 	path = docs/submodules/usecase-ui.git
-	url = ../usecase-ui
+	url = https://git.onap.org/usecase-ui
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/so.git"]
 	path = docs/submodules/so.git
-	url = ../so
+	url = https://git.onap.org/so
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/so/libs.git"]
 	path = docs/submodules/so/libs.git
-	url = ../so/libs
+	url = https://git.onap.org/so/libs
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/logging-analytics.git"]
 	path = docs/submodules/logging-analytics.git
-	url = ../logging-analytics
+	url = https://git.onap.org/logging-analytics
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/modeling/toscaparsers.git"]
 	path = docs/submodules/modeling/toscaparsers.git
-	url = ../modeling/toscaparsers
+	url = https://git.onap.org/modeling/toscaparsers
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vvp/documentation.git"]
 	path = docs/submodules/vvp/documentation.git
-	url = ../vvp/documentation
+	url = https://git.onap.org/vvp/documentation
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/aai/event-client.git"]
 	path = docs/submodules/aai/event-client.git
-	url = ../aai/event-client
+	url = https://git.onap.org/aai/event-client
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/optf/osdf.git"]
 	path = docs/submodules/optf/osdf.git
-	url = ../optf/osdf
+	url = https://git.onap.org/optf/osdf
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dmaap/datarouter.git"]
 	path = docs/submodules/dmaap/datarouter.git
-	url = ../dmaap/datarouter
+	url = https://git.onap.org/dmaap/datarouter
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dmaap/dbcapi.git"]
 	path = docs/submodules/dmaap/dbcapi.git
-	url = ../dmaap/dbcapi
+	url = https://git.onap.org/dmaap/dbcapi
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vfc/nfvo/driver/vnfm/svnfm.git"]
 	path = docs/submodules/vfc/nfvo/driver/vnfm/svnfm.git
-	url = ../vfc/nfvo/driver/vnfm/svnfm
+	url = https://git.onap.org/vfc/nfvo/driver/vnfm/svnfm
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/music.git"]
 	path = docs/submodules/music.git
-	url = ../music
+	url = https://git.onap.org/music
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/externalapi/nbi.git"]
 	path = docs/submodules/externalapi/nbi.git
-	url = ../externalapi/nbi
+	url = https://git.onap.org/externalapi/nbi
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/music/distributed-kv-store.git"]
 	path = docs/submodules/music/distributed-kv-store.git
-	url = ../music/distributed-kv-store
+	url = https://git.onap.org/music/distributed-kv-store
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/testcases.git"]
 	path = docs/submodules/vnfrqts/testcases.git
-	url = ../vnfrqts/testcases
+	url = https://git.onap.org/vnfrqts/testcases
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/usecases.git"]
 	path = docs/submodules/vnfrqts/usecases.git
-	url = ../vnfrqts/usecases
+	url = https://git.onap.org/vnfrqts/usecases
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/integration/devtool.git"]
 	path = docs/submodules/integration/devtool.git
-	url = ../integration/devtool
+	url = https://git.onap.org/integration/devtool
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/aaf/sms.git"]
 	path = docs/submodules/aaf/sms.git
-	url = ../aaf/sms
+	url = https://git.onap.org/aaf/sms
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/multicloud/azure.git"]
 	path = docs/submodules/multicloud/azure.git
-	url = ../multicloud/azure
+	url = https://git.onap.org/multicloud/azure
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/dmaap/buscontroller.git"]
 	path = docs/submodules/dmaap/buscontroller.git
-	url = ../dmaap/buscontroller
+	url = https://git.onap.org/dmaap/buscontroller
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/optf/cmso.git"]
 	path = docs/submodules/optf/cmso.git
-	url = ../optf/cmso
+	url = https://git.onap.org/optf/cmso
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/logging-analytics/pomba/pomba-audit-common.git"]
 	path = docs/submodules/logging-analytics/pomba/pomba-audit-common.git
-	url = ../logging-analytics/pomba/pomba-audit-common
+	url = https://git.onap.org/logging-analytics/pomba/pomba-audit-common
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/integration/benchmark.git"]
 	path = docs/submodules/integration/benchmark.git
-	url = ../integration/benchmark
+	url = https://git.onap.org/integration/benchmark
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/oparent/cia.git"]
 	path = docs/submodules/oparent/cia.git
-	url = ../oparent/cia
+	url = https://git.onap.org/oparent/cia
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/apps.git"]
 	path = docs/submodules/ccsdk/apps.git
-	url = ../ccsdk/apps
+	url = https://git.onap.org/ccsdk/apps
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/cds.git"]
 	path = docs/submodules/ccsdk/cds.git
-	url = ../ccsdk/cds
+	url = https://git.onap.org/ccsdk/cds
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/oom/offline-installer.git"]
 	path = docs/submodules/oom/offline-installer.git
-	url = ../oom/offline-installer
+	url = https://git.onap.org/oom/offline-installer
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/features.git"]
 	path = docs/submodules/ccsdk/features.git
-	url = ../ccsdk/features
+	url = https://git.onap.org/ccsdk/features
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/policy/parent.git"]
 	path = docs/submodules/policy/parent.git
-	url = ../policy/parent
+	url = https://git.onap.org/policy/parent
 	branch = .
 	ignore = dirty
 [submodule "docs/submodules/osa.git"]
 	path = docs/submodules/osa.git
-	url = ../osa
+	url = https://git.onap.org/osa
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/modeling/etsicatalog.git"]
 	path = docs/submodules/modeling/etsicatalog.git
-	url = ../modeling/etsicatalog
+	url = https://git.onap.org/modeling/etsicatalog
 	branch = master
 	ignore = dirty
