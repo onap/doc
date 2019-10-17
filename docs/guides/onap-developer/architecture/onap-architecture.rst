@@ -94,23 +94,16 @@ Further, ONAP comes with a functional architecture with component definitions
 and interfaces, which provides a force of industry alignment in addition to
 the open source code.
 
-ONAP Architecture
+ONAP Architectur
 =================
-The platform provides common functions such as data collection, control loops,
-meta-data recipe creation, and policy/recipe distribution that are necessary to
-construct specific behaviors.
 
-To create a service or operational capability ONAP supports service/
-operations-specific service definitions, data collection, analytics, and
-policies (including recipes for corrective/remedial action) using the ONAP
-Design Framework Portal.
+The ONAP architecture consists of a design time and run time functions, as well as functions for
+managing ONAP itself.
 
-Figure 1 provides a high-level view of the ONAP architecture with its
-microservices-based platform components.
+**Figure 1 provides a high-level view of the ONAP architecture with its microservices-based platform components.**
 
 |image1|
 
-**Figure 1: ONAP Platform Architecture (Dublin Release)**
 
 Figure 2 below, provides a simplified functional view of the architecture,
 which highlights the role of a few key components:
@@ -137,62 +130,6 @@ which highlights the role of a few key components:
 |image2|
 
 **Figure 2. Functional view of the ONAP architecture**
-
-The Dublin release has a number of important new features in the areas of
-design time and runtime, ONAP installation, and S3P.
-
-Design time: Dublin has evolved the controller design studio, as part of the
-controller framework, which enables a model driven approach for how an ONAP
-controller controls the network resources.
-
-Runtime: Service Orchestration (SO) and controllers have new functionality to
-support physical network functions (PNFs), reboot, traffic migration, expanded
-hardware platform awareness (HPA), cloud agnostic intent capabilities, improved
-homing service, SDN geographic redundancy, scale-out and edge cloud onboarding.
-This will expand the actions available to support lifecycle management
-functionality, increase performance and availability, and unlock new edge
-automation and 5G use cases. With support for ETSI NFV-SOL003, the introduction
-of an ETSI compliant VNFM is simplified.
-
-To facilitate VNF vendor integration, ONAP introduced some mapper components
-that translate specific events (SNMP traps, telemetry, 3 GPP PM) towards ONAP
-VES standardized events.
-
-The Policy project supports multiple policy engines and can distribute policies
-through policy design capabilities in SDC, simplifying the design process.
-Next, the Holmes alarm correlation engine continues to support a GUI
-functionality via scripting to simplify how rapidly alarm correlation rules can
-be developed.
-
-ONAP northbound API continues to align better with TM Forum APIs (Service
-Catalog, Service Inventory, Service Order and Hub API) and MEF APIs (around
-Legato and Interlude APIs) to simplify integration with OSS/BSS. The VID and
-UUI operations GUI projects can support a larger range of lifecycle management
-actions through a simple point and click interface allowing operators to
-perform more tasks with ease. Furthermore, The CLAMP project supports a
-dashboard to view DMaaP and other events during design and runtime to ease the
-debugging of control-loop automation. ONAP has experimentally introduced ISTIO
-in certain components to progress the introduction of Service Mesh.
-
-ONAP installation: The ONAP Operations Manager (OOM) continues to make progress
-in streamlining ONAP installation by using Kubernetes (Docker and Helm Chart
-technologies). OOM supports pluggable persistent storage including GlusterFS,
-providing users with more storage options. In a multi-node deployment, OOM
-allows more control on the placement of services based on available resources
-or node selectors. Finally, OOM now supports backup/restore of an entire k8s
-deployment thus introducing data protection.
-
-Deployability: Dublin continued the 7 Dimensions momentum (Stability, Security,
-Scalability, Performance; and Resilience, Manageability, and Usability) from
-the prior to the Beijing release. A new logging project initiative called Post
-Orchestration Model Based Audit (POMBA), can check for deviations between
-design and ops environments thus increasing network service reliability.
-Numerous other projects ranging from Logging, SO, VF-C, A&AI, Portal, Policy,
-CLAMP and MSB have a number of improvements in the areas of performance,
-availability, logging, move to a cloud-native architecture, authentication,
-stability, security, and code quality. Finally, versions of OpenDaylight and
-Kafka that are integrated into ONAP were upgraded to the Oxygen and v0.11
-releases providing new capabilities such as P4 and data routing respectively.
 
 Microservices Support
 =====================
@@ -321,38 +258,30 @@ requiring rewrites of their software code. Policy permits simpler management
 
 Runtime Framework
 =================
-The runtime execution framework executes the rules and policies distributed by
-the design and creation environment.
+The runtime execution framework executes the rules and policies and othe models
+distributed by the design and creation environment.
 
-This allows for the distribution of policy enforcement and templates among
+This allows for the distribution of models and policy among
 various ONAP modules such as the Service Orchestrator (SO), Controllers,
 Data Collection, Analytics and Events (DCAE), Active and Available Inventory
-(A&AI), and a Security Framework. These components use common services that
+(A&AI). These components use common services that
 support logging, access control, Multi-Site State Coordination (MUSIC), which
 allow the platform to register and manage state across multi-site deployments.
-The External API provides access for third-party frameworks such as MEF,
-TM Forum and potentially others, to facilitate interactions between operator
-BSS and relevant ONAP components. The logging services also includes
-event-based analysis capabilities to support post orchestration consistency
-analysis.
 
 Orchestration
 -------------
 The Service Orchestrator (SO) component executes the specified processes by
 automating sequences of activities, tasks, rules and policies needed for
 on-demand creation, modification or removal of network, application or
-infrastructure services and resources. The SO provides orchestration at a
-very high level, with an end-to-end view of the infrastructure, network,
+infrastructure services and resources, this includes VNFs, CNFs and PNFs. The SO provides
+orchestration at a very high level, with an end-to-end view of the infrastructure, network,
 and applications.
 
-ONAP External APIs, North Bound Interface (NBI) module, exposes ONAP
-capabilities to OSS/BSS by currently implementing TM Forum APIs. In the
-previous Release, Casablanca, External APIs was already providing a set of
-serviceOrder, serviceInventory, serviceCatalog and event publish/subscribe
-serviceOrder notification management. For Dublin, External APIs is for the
-first time officially involved in two approved ONAP blueprints. One is
-BroadBand Service (BBS), the second one is Cross Domain and Cross Layer VPN
+One is BroadBand Service (BBS), the second one is Cross Domain and Cross Layer VPN
 (CCVPN).
+
+Virtual Infrastructure Deployment (VID)
+---------------------------------------
 
 The Virtual Infrastructure Deployment (VID) application enables users to
 instantiate infrastructure services from SDC, along with their associated
@@ -388,8 +317,8 @@ distributed components and services. Rather than using a single monolithic
 control layer, operators may choose to use multiple distinct controller types
 that manage resources in the execution environment corresponding to their
 assigned controlled domain such as cloud computing resources (network
-configuration (SDN-C) and application (App-C). Also, the Virtual Function
-Controller (VF-C) provides an ETSI NFV compliant NFV-O function that is
+configuration (SDN-C) and application (App-C). The App-C and SDN-C also support the
+Virtual Function Controller (VF-C) provides an ETSI NFV compliant NFV-O function that is
 responsible for lifecycle management of virtual services and the associated
 physical COTS server infrastructure. VF-C provides a generic VNFM capability
 but also integrates with external VNFMs and VIMs as part of an NFV MANO stack.
@@ -411,6 +340,13 @@ the controllers as they make changes in the network environment. A&AI is
 metadata-driven, allowing new inventory types to be added dynamically and
 quickly via SDC catalog definitions, eliminating the need for lengthy
 development cycles.
+
+Policy Framework
+----------------
+
+The Policy framework provides policy based decision making capability and supports multiple policy
+engines and can distribute policies through policy design capabilities in SDC, simplifying the design process. 
+
 
 Multi Cloud Adaptation
 ----------------------
