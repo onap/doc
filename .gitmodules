@@ -233,11 +233,6 @@
 	url = https://git.onap.org/logging-analytics
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/modeling/toscaparsers.git"]
-	path = docs/submodules/modeling/toscaparsers.git
-	url = https://git.onap.org/modeling/toscaparsers
-	branch = master
-	ignore = dirty
 [submodule "docs/submodules/vvp/documentation.git"]
 	path = docs/submodules/vvp/documentation.git
 	url = https://git.onap.org/vvp/documentation
