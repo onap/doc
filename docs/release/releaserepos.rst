@@ -139,8 +139,8 @@ Modeling
    :maxdepth: 1
    :titlesonly:
 
-   modeling/modelspec<../submodules/modeling/toscaparsers.git/docs/javatoscachecker/release-notes.rst>
-   modeling/toscaparsers<../submodules/modeling/toscaparsers.git/docs/nfvparser/release-notes/release-notes.rst>
+   modeling/modelspec<../submodules/modeling/modelspec.git/docs/Release-notes/release-notes.rst>
+   modeling/etsicatalog<../submodules/modeling/etsicatalog.git/docs/release-notes.rst>
 
 Micro Services Bus
 ------------------

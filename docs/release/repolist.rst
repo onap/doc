@@ -21,6 +21,7 @@ Project/Components
    HOLMES - Architecuture and APIs <../submodules/holmes/rule-management.git/docs/index>
    logging-analytics <../submodules/logging-analytics.git/docs/index>
    modeling/toscaparsers <../submodules/modeling/toscaparsers.git/docs/index>
+   modeling/etsicatalog <../submodules/modeling/etsicatalog.git/docs/index>
    MSB - Microservice Bus <../submodules/msb/apigateway.git/docs/index>
    msb/swagger-sdk <../submodules/msb/swagger-sdk.git/docs/index>
    MultiCloud Framework <../submodules/multicloud/framework.git/docs/index>
