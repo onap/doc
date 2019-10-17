@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3dbfc2fd_4f3a08f7",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-10-17T14:56:36Z",
+      "side": 1,
+      "message": "e dissapeared",
+      "revId": "0a5a88156c9da879685db8aa0f4cbb8c6327671e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39bf1aae_d2bf3e40",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 285,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-10-17T14:56:36Z",
+      "side": 1,
+      "message": "blank line",
+      "revId": "0a5a88156c9da879685db8aa0f4cbb8c6327671e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "10e45d0e_4393bcdd",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 346,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2019-10-17T14:56:36Z",
+      "side": 1,
+      "message": "blank line",
+      "revId": "0a5a88156c9da879685db8aa0f4cbb8c6327671e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
