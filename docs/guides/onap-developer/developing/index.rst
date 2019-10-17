@@ -197,7 +197,7 @@ Modeling
    :titlesonly:
 
    ../../../submodules/modeling/modelspec.git/docs/index
-   ../../../submodules/modeling/toscaparsers.git/docs/index
+   ../../../submodules/modeling/etsicatalog.git/docs/index
 
 MultiVIM Cloud
 --------------

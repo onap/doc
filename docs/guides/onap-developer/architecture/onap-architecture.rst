@@ -491,7 +491,7 @@ requirements of various use cases, guide the development and bring consistency
 among ONAP components and explore a common model to improve the
 interoperability of ONAP.
 
-In the Dublin Release, ONAP supports the following Models:
+In the El Alto Release, ONAP supports the following Models:
 
 - A VNF Descriptor Information Model based on ETSI NFV IFA011 v.2.5.1 with
   appropriate modifications aligned with ONAP requirements
@@ -506,10 +506,13 @@ In the Dublin Release, ONAP supports the following Models:
   modelling project parsing capabilities)
 - These models enable ONAP to interoperate with implementations based on
   standards and improve industry collaboration.
+- Root model which presents the relationship between different models
+- Business and Interaction model based on TMF specifications
+- VES model based on VES 7.1 specification
 
-In Dublin release, in addition to the parser library, modeling project
-introduced generic parser which provide the Tosca parser restful APIs for other
-projects as a standalone service.
+In El Alto release, modeling project rename the generic parser into etsi catalog,
+which still provide the parser functionalities, as well as additional package
+management functionalities.
 
 Industry Alignment
 ==================

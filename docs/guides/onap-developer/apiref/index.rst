@@ -54,7 +54,6 @@ Common Services
    DMAAP DR - Data Management as a Platform (Data Router) <../../../submodules/dmaap/datarouter.git/docs/index.rst>
    DMAAP MR - Data Management as a Platform (Message Router) <../../../submodules/dmaap/messagerouter/messageservice.git/docs/offeredapis/offeredapis.rst>
    ExtAPI- External API/NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/offeredapis/offeredapis.rst>
-   Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/offeredapis.rst>
    MSB - Micro Services Bus <../../../submodules/msb/apigateway.git/docs/platform/offeredapis.rst>
    Multi Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-APIv1-Specification.rst>
    MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/offeredapis.rst>
