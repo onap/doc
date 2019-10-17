@@ -59,7 +59,6 @@ Common Services
    Multi Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-APIv1-Specification.rst>
    MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/offeredapis.rst>
    OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/offeredapis.rst>
-   VVP - VNF Validation Project <../../../submodules/vvp/documentation.git/docs/offeredapis.rst>
 
 SDK
 ---
