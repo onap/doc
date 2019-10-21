@@ -619,7 +619,7 @@ Watch videos about the major platform components on
 
 Read about how ONAP can be deployed using containers.
 
-.. |image1| image:: media/ONAP-toplevel.png
+.. |image1| image:: media/ONAP-toplevel.elalto.png
    :width: 6.5in
    :height: 3.13548in
 .. |image2| image:: media/ONAP-fncview.png
