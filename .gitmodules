@@ -31,7 +31,7 @@
 [submodule "docs/submodules/optf/has.git"]
 	path = docs/submodules/optf/has.git
 	url = https://git.onap.org/optf/has
-	branch = master
+	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/dcaegen2.git"]
 	path = docs/submodules/dcaegen2.git
@@ -51,7 +51,7 @@
 [submodule "docs/submodules/vnfsdk/model.git"]
 	path = docs/submodules/vnfsdk/model.git
 	url = https://git.onap.org/vnfsdk/model
-	branch = master
+	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/holmes/rule-management.git"]
 	path = docs/submodules/holmes/rule-management.git
@@ -216,7 +216,7 @@
 [submodule "docs/submodules/usecase-ui.git"]
 	path = docs/submodules/usecase-ui.git
 	url = https://git.onap.org/usecase-ui
-	branch = master
+	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/so.git"]
 	path = docs/submodules/so.git
@@ -246,7 +246,7 @@
 [submodule "docs/submodules/optf/osdf.git"]
 	path = docs/submodules/optf/osdf.git
 	url = https://git.onap.org/optf/osdf
-	branch = master
+	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/dmaap/datarouter.git"]
 	path = docs/submodules/dmaap/datarouter.git
