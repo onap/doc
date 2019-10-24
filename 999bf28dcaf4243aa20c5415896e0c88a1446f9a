@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4fd2aeba_27f90623",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 57
+      },
+      "writtenOn": "2019-10-24T12:55:18Z",
+      "side": 1,
+      "message": "Every other project uses docs/release-notes.rst except for AAF, DCAE, External API. Interesting - hard to have consistency among the docs if something as simple as release notes isn\u0027t.",
+      "range": {
+        "startLine": 16,
+        "startChar": 67,
+        "endLine": 16,
+        "endChar": 98
+      },
+      "revId": "999bf28dcaf4243aa20c5415896e0c88a1446f9a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3cd41596_3ac0db53",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 57
+      },
+      "writtenOn": "2019-10-24T12:55:18Z",
+      "side": 1,
+      "message": "Interesting - why does DMAAP have 3 separate release notes? Each project should have 1.",
+      "range": {
+        "startLine": 23,
+        "startChar": 3,
+        "endLine": 25,
+        "endChar": 111
+      },
+      "revId": "999bf28dcaf4243aa20c5415896e0c88a1446f9a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "baa2f64f_a3f39788",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 57
+      },
+      "writtenOn": "2019-10-24T12:55:18Z",
+      "side": 1,
+      "message": "And this project decided to put it in its own sub-directory.",
+      "range": {
+        "startLine": 26,
+        "startChar": 78,
+        "endLine": 26,
+        "endChar": 107
+      },
+      "revId": "999bf28dcaf4243aa20c5415896e0c88a1446f9a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "23ff6f2a_448c2b6f",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 57
+      },
+      "writtenOn": "2019-10-24T12:55:18Z",
+      "side": 1,
+      "message": "Spelled differently.",
+      "range": {
+        "startLine": 33,
+        "startChar": 62,
+        "endLine": 33,
+        "endChar": 80
+      },
+      "revId": "999bf28dcaf4243aa20c5415896e0c88a1446f9a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
