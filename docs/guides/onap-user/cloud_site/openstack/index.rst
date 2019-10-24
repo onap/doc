@@ -318,6 +318,38 @@ Check the Cloud Site creation in ONAP AAI:
     -H 'cache-control: no-cache' -k
 
 
+Associate an Availability zone to a Cloud site in ONAP AAI:
+
+::
+
+  curl -X PUT \
+    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/INTEGRATION_CENTER/availability-zones/availability-zone/brittany \
+    -H 'Accept: application/json' \
+    -H 'Authorization: Basic QUFJOkFBSQ==' \
+    -H 'Content-Type: application/json' \
+    -H 'X-FromAppId: AAI' \
+    -H 'X-TransactionId: get_aai_subscr' \
+    -H 'cache-control: no-cache' \
+    -d '{
+      "availability-zone-name": "brittany",
+      "hypervisor-type": "KVM"
+  }'
+
+
+Check the operation:
+
+::
+
+  curl -X GET \
+    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/INTEGRATION_CENTER/availability-zones \
+    -H 'Accept: application/json' \
+    -H 'Authorization: Basic QUFJOkFBSQ==' \
+    -H 'Content-Type: application/json' \
+    -H 'X-FromAppId: AAI' \
+    -H 'X-TransactionId: 808b54e3-e563-4144-a1b9-e24e2ed93d4f' \
+    -H 'cache-control: no-cache'
+
+
 
 STEP 3 : Register the Cloud Site in ONAP Multicloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
