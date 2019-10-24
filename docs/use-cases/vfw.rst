@@ -68,8 +68,7 @@ Instantiation
    SO -> VID : complete
    note right : VID will poll for completion
    ONAP_User -> Robot : run Heat Bridge
-   Robot -> CloudAPI  :  retrieve cloud data 
+   Robot -> CloudAPI  :  retrieve cloud data
    Robot -> AAI :  Update with cloud data
    |||
    @enduml
-
