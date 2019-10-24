@@ -1,365 +1,365 @@
 [submodule "docs/submodules/vnfrqts/guidelines"]
 	path = docs/submodules/vnfrqts/guidelines.git
-	url = https://git.onap.org/vnfrqts/guidelines
+	url = https://gerrit.onap.org/r/vnfrqts/guidelines
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/requirements"]
 	path = docs/submodules/vnfrqts/requirements.git
-	url = https://git.onap.org/vnfrqts/requirements
+	url = https://gerrit.onap.org/r/vnfrqts/requirements
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/appc"]
 	path = docs/submodules/appc.git
-	url = https://git.onap.org/appc
+	url = https://gerrit.onap.org/r/appc
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/cli"]
 	path = docs/submodules/cli.git
-	url = https://git.onap.org/cli
+	url = https://gerrit.onap.org/r/cli
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/clamp"]
 	path = docs/submodules/clamp.git
-	url = https://git.onap.org/clamp
+	url = https://gerrit.onap.org/r/clamp
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/appc/deployment.git"]
 	path = docs/submodules/appc/deployment.git
-	url = https://git.onap.org/appc/deployment
+	url = https://gerrit.onap.org/r/appc/deployment
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/optf/has.git"]
 	path = docs/submodules/optf/has.git
-	url = https://git.onap.org/optf/has
+	url = https://gerrit.onap.org/r/optf/has
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/dcaegen2.git"]
 	path = docs/submodules/dcaegen2.git
-	url = https://git.onap.org/dcaegen2
+	url = https://gerrit.onap.org/r/dcaegen2
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/aaf/authz.git"]
 	path = docs/submodules/aaf/authz.git
-	url = https://git.onap.org/aaf/authz
+	url = https://gerrit.onap.org/r/aaf/authz
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/policy/engine.git"]
 	path = docs/submodules/policy/engine.git
-	url = https://git.onap.org/policy/engine
+	url = https://gerrit.onap.org/r/policy/engine
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/vnfsdk/model.git"]
 	path = docs/submodules/vnfsdk/model.git
-	url = https://git.onap.org/vnfsdk/model
+	url = https://gerrit.onap.org/r/vnfsdk/model
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/holmes/rule-management.git"]
 	path = docs/submodules/holmes/rule-management.git
-	url = https://git.onap.org/holmes/rule-management
+	url = https://gerrit.onap.org/r/holmes/rule-management
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/holmes/engine-management.git"]
 	path = docs/submodules/holmes/engine-management.git
-	url = https://git.onap.org/holmes/engine-management
+	url = https://gerrit.onap.org/r/holmes/engine-management
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/vfc/nfvo/lcm.git"]
 	path = docs/submodules/vfc/nfvo/lcm.git
-	url = https://git.onap.org/vfc/nfvo/lcm
+	url = https://gerrit.onap.org/r/vfc/nfvo/lcm
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/msb/apigateway.git"]
 	path = docs/submodules/msb/apigateway.git
-	url = https://git.onap.org/msb/apigateway
+	url = https://gerrit.onap.org/r/msb/apigateway
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/msb/discovery.git"]
 	path = docs/submodules/msb/discovery.git
-	url = https://git.onap.org/msb/discovery
+	url = https://gerrit.onap.org/r/msb/discovery
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/msb/java-sdk.git"]
 	path = docs/submodules/msb/java-sdk.git
-	url = https://git.onap.org/msb/java-sdk
+	url = https://gerrit.onap.org/r/msb/java-sdk
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/msb/swagger-sdk.git"]
 	path = docs/submodules/msb/swagger-sdk.git
-	url = https://git.onap.org/msb/swagger-sdk
+	url = https://gerrit.onap.org/r/msb/swagger-sdk
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/modeling/modelspec.git"]
 	path = docs/submodules/modeling/modelspec.git
-	url = https://git.onap.org/modeling/modelspec
+	url = https://gerrit.onap.org/r/modeling/modelspec
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/dmaap/messagerouter/messageservice.git"]
 	path = docs/submodules/dmaap/messagerouter/messageservice.git
-	url = https://git.onap.org/dmaap/messagerouter/messageservice
+	url = https://gerrit.onap.org/r/dmaap/messagerouter/messageservice
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/aai/esr-server.git"]
 	path = docs/submodules/aai/esr-server.git
-	url = https://git.onap.org/aai/esr-server
+	url = https://gerrit.onap.org/r/aai/esr-server
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/oom.git"]
 	path = docs/submodules/oom.git
-	url = https://git.onap.org/oom
+	url = https://gerrit.onap.org/r/oom
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/aai/aai-common.git"]
 	path = docs/submodules/aai/aai-common.git
-	url = https://git.onap.org/aai/aai-common
+	url = https://gerrit.onap.org/r/aai/aai-common
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/aai/esr-gui.git"]
 	path = docs/submodules/aai/esr-gui.git
-	url = https://git.onap.org/aai/esr-gui
+	url = https://gerrit.onap.org/r/aai/esr-gui
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/aai/sparky-be.git"]
 	path = docs/submodules/aai/sparky-be.git
-	url = https://git.onap.org/aai/sparky-be
+	url = https://gerrit.onap.org/r/aai/sparky-be
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/integration.git"]
 	path = docs/submodules/integration.git
-	url = https://git.onap.org/integration
+	url = https://gerrit.onap.org/r/integration
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/multicloud/framework.git"]
 	path = docs/submodules/multicloud/framework.git
-	url = https://git.onap.org/multicloud/framework
+	url = https://gerrit.onap.org/r/multicloud/framework
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/multicloud/k8s.git"]
 	path = docs/submodules/multicloud/k8s.git
-	url = https://git.onap.org/multicloud/k8s
+	url = https://gerrit.onap.org/r/multicloud/k8s
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/dashboard.git"]
 	path = docs/submodules/ccsdk/dashboard.git
-	url = https://git.onap.org/ccsdk/dashboard
+	url = https://gerrit.onap.org/r/ccsdk/dashboard
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/distribution.git"]
 	path = docs/submodules/ccsdk/distribution.git
-	url = https://git.onap.org/ccsdk/distribution
+	url = https://gerrit.onap.org/r/ccsdk/distribution
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/parent.git"]
 	path = docs/submodules/ccsdk/parent.git
-	url = https://git.onap.org/ccsdk/parent
+	url = https://gerrit.onap.org/r/ccsdk/parent
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/platform/plugins.git"]
 	path = docs/submodules/ccsdk/platform/plugins.git
-	url = https://git.onap.org/ccsdk/platform/plugins
+	url = https://gerrit.onap.org/r/ccsdk/platform/plugins
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/utils.git"]
 	path = docs/submodules/ccsdk/utils.git
-	url = https://git.onap.org/ccsdk/utils
+	url = https://gerrit.onap.org/r/ccsdk/utils
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/sdnc/oam.git"]
 	path = docs/submodules/sdnc/oam.git
-	url = https://git.onap.org/sdnc/oam
+	url = https://gerrit.onap.org/r/sdnc/oam
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/portal.git"]
 	path = docs/submodules/portal.git
-	url = https://git.onap.org/portal
+	url = https://gerrit.onap.org/r/portal
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/sdc.git"]
 	path = docs/submodules/sdc.git
-	url = https://git.onap.org/sdc
+	url = https://gerrit.onap.org/r/sdc
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/sdc/jtosca.git"]
 	path = docs/submodules/sdc/jtosca.git
-	url = https://git.onap.org/sdc/jtosca
+	url = https://gerrit.onap.org/r/sdc/jtosca
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-distribution-client.git"]
 	path = docs/submodules/sdc/sdc-distribution-client.git
-	url = https://git.onap.org/sdc/sdc-distribution-client
+	url = https://gerrit.onap.org/r/sdc/sdc-distribution-client
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-docker-base.git"]
 	path = docs/submodules/sdc/sdc-docker-base.git
-	url = https://git.onap.org/sdc/sdc-docker-base
+	url = https://gerrit.onap.org/r/sdc/sdc-docker-base
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-titan-cassandra.git"]
 	path = docs/submodules/sdc/sdc-titan-cassandra.git
-	url = https://git.onap.org/sdc/sdc-titan-cassandra
+	url = https://gerrit.onap.org/r/sdc/sdc-titan-cassandra
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-tosca.git"]
 	path = docs/submodules/sdc/sdc-tosca.git
-	url = https://git.onap.org/sdc/sdc-tosca
+	url = https://gerrit.onap.org/r/sdc/sdc-tosca
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/sdc/sdc-workflow-designer.git"]
 	path = docs/submodules/sdc/sdc-workflow-designer.git
-	url = https://git.onap.org/sdc/sdc-workflow-designer
+	url = https://gerrit.onap.org/r/sdc/sdc-workflow-designer
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/vid.git"]
 	path = docs/submodules/vid.git
-	url = https://git.onap.org/vid
+	url = https://gerrit.onap.org/r/vid
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/usecase-ui.git"]
 	path = docs/submodules/usecase-ui.git
-	url = https://git.onap.org/usecase-ui
+	url = https://gerrit.onap.org/r/usecase-ui
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/so.git"]
 	path = docs/submodules/so.git
-	url = https://git.onap.org/so
+	url = https://gerrit.onap.org/r/so
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/so/libs.git"]
 	path = docs/submodules/so/libs.git
-	url = https://git.onap.org/so/libs
+	url = https://gerrit.onap.org/r/so/libs
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/logging-analytics.git"]
 	path = docs/submodules/logging-analytics.git
-	url = https://git.onap.org/logging-analytics
+	url = https://gerrit.onap.org/r/logging-analytics
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/vvp/documentation.git"]
 	path = docs/submodules/vvp/documentation.git
-	url = https://git.onap.org/vvp/documentation
+	url = https://gerrit.onap.org/r/vvp/documentation
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/aai/event-client.git"]
 	path = docs/submodules/aai/event-client.git
-	url = https://git.onap.org/aai/event-client
+	url = https://gerrit.onap.org/r/aai/event-client
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/optf/osdf.git"]
 	path = docs/submodules/optf/osdf.git
-	url = https://git.onap.org/optf/osdf
+	url = https://gerrit.onap.org/r/optf/osdf
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/dmaap/datarouter.git"]
 	path = docs/submodules/dmaap/datarouter.git
-	url = https://git.onap.org/dmaap/datarouter
+	url = https://gerrit.onap.org/r/dmaap/datarouter
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/dmaap/dbcapi.git"]
 	path = docs/submodules/dmaap/dbcapi.git
-	url = https://git.onap.org/dmaap/dbcapi
+	url = https://gerrit.onap.org/r/dmaap/dbcapi
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/vfc/nfvo/driver/vnfm/svnfm.git"]
 	path = docs/submodules/vfc/nfvo/driver/vnfm/svnfm.git
-	url = https://git.onap.org/vfc/nfvo/driver/vnfm/svnfm
+	url = https://gerrit.onap.org/r/vfc/nfvo/driver/vnfm/svnfm
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/music.git"]
 	path = docs/submodules/music.git
-	url = https://git.onap.org/music
+	url = https://gerrit.onap.org/r/music
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/externalapi/nbi.git"]
 	path = docs/submodules/externalapi/nbi.git
-	url = https://git.onap.org/externalapi/nbi
+	url = https://gerrit.onap.org/r/externalapi/nbi
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/music/distributed-kv-store.git"]
 	path = docs/submodules/music/distributed-kv-store.git
-	url = https://git.onap.org/music/distributed-kv-store
+	url = https://gerrit.onap.org/r/music/distributed-kv-store
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/testcases.git"]
 	path = docs/submodules/vnfrqts/testcases.git
-	url = https://git.onap.org/vnfrqts/testcases
+	url = https://gerrit.onap.org/r/vnfrqts/testcases
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/vnfrqts/usecases.git"]
 	path = docs/submodules/vnfrqts/usecases.git
-	url = https://git.onap.org/vnfrqts/usecases
+	url = https://gerrit.onap.org/r/vnfrqts/usecases
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/integration/devtool.git"]
 	path = docs/submodules/integration/devtool.git
-	url = https://git.onap.org/integration/devtool
+	url = https://gerrit.onap.org/r/integration/devtool
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/aaf/sms.git"]
 	path = docs/submodules/aaf/sms.git
-	url = https://git.onap.org/aaf/sms
+	url = https://gerrit.onap.org/r/aaf/sms
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/multicloud/azure.git"]
 	path = docs/submodules/multicloud/azure.git
-	url = https://git.onap.org/multicloud/azure
+	url = https://gerrit.onap.org/r/multicloud/azure
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/dmaap/buscontroller.git"]
 	path = docs/submodules/dmaap/buscontroller.git
-	url = https://git.onap.org/dmaap/buscontroller
+	url = https://gerrit.onap.org/r/dmaap/buscontroller
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/optf/cmso.git"]
 	path = docs/submodules/optf/cmso.git
-	url = https://git.onap.org/optf/cmso
+	url = https://gerrit.onap.org/r/optf/cmso
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/logging-analytics/pomba/pomba-audit-common.git"]
 	path = docs/submodules/logging-analytics/pomba/pomba-audit-common.git
-	url = https://git.onap.org/logging-analytics/pomba/pomba-audit-common
+	url = https://gerrit.onap.org/r/logging-analytics/pomba/pomba-audit-common
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/integration/benchmark.git"]
 	path = docs/submodules/integration/benchmark.git
-	url = https://git.onap.org/integration/benchmark
+	url = https://gerrit.onap.org/r/integration/benchmark
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/oparent/cia.git"]
 	path = docs/submodules/oparent/cia.git
-	url = https://git.onap.org/oparent/cia
+	url = https://gerrit.onap.org/r/oparent/cia
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/apps.git"]
 	path = docs/submodules/ccsdk/apps.git
-	url = https://git.onap.org/ccsdk/apps
+	url = https://gerrit.onap.org/r/ccsdk/apps
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/cds.git"]
 	path = docs/submodules/ccsdk/cds.git
-	url = https://git.onap.org/ccsdk/cds
+	url = https://gerrit.onap.org/r/ccsdk/cds
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/oom/offline-installer.git"]
 	path = docs/submodules/oom/offline-installer.git
-	url = https://git.onap.org/oom/offline-installer
+	url = https://gerrit.onap.org/r/oom/offline-installer
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/ccsdk/features.git"]
 	path = docs/submodules/ccsdk/features.git
-	url = https://git.onap.org/ccsdk/features
+	url = https://gerrit.onap.org/r/ccsdk/features
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/policy/parent.git"]
 	path = docs/submodules/policy/parent.git
-	url = https://git.onap.org/policy/parent
+	url = https://gerrit.onap.org/r/policy/parent
 	branch = elalto
 	ignore = dirty
 [submodule "docs/submodules/osa.git"]
 	path = docs/submodules/osa.git
-	url = https://git.onap.org/osa
+	url = https://gerrit.onap.org/r/osa
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/modeling/etsicatalog.git"]
 	path = docs/submodules/modeling/etsicatalog.git
-	url = https://git.onap.org/modeling/etsicatalog
+	url = https://gerrit.onap.org/r/modeling/etsicatalog
 	branch = master
 	ignore = dirty
