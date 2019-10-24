@@ -38,7 +38,40 @@ Those informations will be available to all service instantiation
 (you only need to declare them once in ONAP)
 
 
-Example for "Owning Entity" named "Test"
+Example for "Owning Entity" named "OE-Generic"
+
+For Owning_Entity, it is important to declare the information in AAI
+with a UUID value for "owning-entity-id". That value will be necessary
+to instantiate a service with SO using GR_API.
+
+::
+
+  curl -X PUT \
+    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v13/business/owning-entities/owning-entity/8874891f-5120-4b98-b452-46284513958d \
+    -H 'Accept: application/json' \
+    -H 'Authorization: Basic QUFJOkFBSQ==' \
+    -H 'Content-Type: application/json' \
+    -H 'X-FromAppId: AAI' \
+    -H 'X-TransactionId: get_aai_subscr' \
+    -H 'cache-control: no-cache' \
+    -d '{
+      "owning-entity-name": "OE-Generic",
+      "owning-entity-id": "8874891f-5120-4b98-b452-46284513958d"
+  }'
+
+::
+
+  curl -X GET \
+    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/business/owning-entities \
+    -H 'Accept: application/json' \
+    -H 'Authorization: Basic QUFJOkFBSQ==' \
+    -H 'Content-Type: application/json' \
+    -H 'X-FromAppId: AAI' \
+    -H 'X-TransactionId: get_aai_subscr' \
+    -H 'cache-control: no-cache'
+
+
+To declare the Owning Entity in VID:
 
 ::
 
@@ -48,8 +81,9 @@ Example for "Owning Entity" named "Test"
     -H 'Content-Type: application/json' \
     -H 'cache-control: no-cache' \
     -d '{
-      "options": ["Test"]
+      "options": ["OE-Generic"]
   }'
+
 
 Example for "platform" named "Test_Platform"
 
