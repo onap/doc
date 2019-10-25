@@ -27,6 +27,39 @@ El Alto Major Release 5.0.1
 * Release Version: 5.0.1
 * Release Date: October 24 2019
 
+El Alto features
+================
+El Alto release focused on tests, security and documentation, and introduces
+some new features.
+
+Existing Features Enhancement
+-----------------------------
+- CDS Enhancements
+- Reduce Defects Backlog
+
+Documentation
+-------------
+- Swagger integration
+- User Guides (End to end, SDC, CLAMP...)
+
+Tests
+-----
+- JS tests coverage
+- Increase end to end test automation
+- OOM Gating
+
+Security/Vulnerability/Licenses
+-------------------------------
+- AAF Auto-Configuration and Certificate Generation
+- Upgrade to latest oParent
+- OpenDayLight Neson SR1
+- Replace Angular by React (CLAMP)
+
+IT Improvements
+---------------
+- Self-serve Release
+- Kickoff DockerHub migration
+
 Project Specific Release Notes
 ==============================
 ONAP releases are specified by a list of project artifact versions in the
