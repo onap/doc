@@ -40,7 +40,8 @@ Create a VF/PNF by VSP import
 
    |image2|
 
-#. From the *Import VSP* box, expand a VSP name and click the *Import VSP* icon.
+#. From the *Import VSP* box, expand a VSP name
+   and click the *Import VSP* icon.
 
    |image3|
 
@@ -146,7 +147,8 @@ Update a VF/PNF [optional]
 --------------------------
 
 - Update the VSP and other artifacts in a VF/PNF.
-- Upload a new version the VSP to the VF/PNF whenever the VSP is updated (see steps
+- Upload a new version the VSP to the VF/PNF whenever
+  the VSP is updated (see steps
   3 to 5). Other reasons for updating a VF/PNF include:
 
   - artifact changes at the VF/PNF level that need be uploaded, for example,
@@ -165,7 +167,8 @@ Update a VF/PNF [optional]
    The Select VSP field is displays.
 
 #. In the Select VSP field, click *Browse*.
-   The Import VSP box displays and shows the VSP that was used to create the VF/PNF.
+   The Import VSP box displays and shows the VSP
+   that was used to create the VF/PNF.
 
 #. Expand the VSP field and click.
 
