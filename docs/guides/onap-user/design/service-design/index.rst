@@ -32,7 +32,8 @@ instantiate, and manage services. Validate and certify the services.
 Create a Service
 ----------------
 
-**Prerequisites:** Create VFs required for this service (see :ref:`doc_guide_user_des_vf-cre`).
+**Prerequisites:** Create VFs required for this service
+(see :ref:`doc_guide_user_des_vf-cre`).
 
 #. From the SDC HOME page, hover over Add and select Add Service.
 #. In the General section, complete all fields.
@@ -243,7 +244,8 @@ updated (see step 4).
    #. Click Save
 
 #. [Optional] Click Management Callflow to edit, upload, or delete
-   associated deployment artifacts (see "Create a Management Workflow [optional]").
+   associated deployment artifacts
+   (see "Create a Management Workflow [optional]").
 #. [Optional] Click Network Callflow to edit the interactions among VFs
    that comprise the service (see `Create a Network Callflow [optional]`_).
 #. [Optional] Click Inputs to select parameters as input fields during

@@ -113,7 +113,7 @@ The follwing sections will focus on the different Design steps:
 
    Governance Approval and Service Distribution <./service-distribution/index.rst>
 
-   VNF parameter assignment templating <../../../submodules/ccsdk/cds.git/docs/index.rst>
+   VNF parameter assignment templating <./parameter_resolution/index.rst>
 
    Policy Design <../../../submodules/policy/parent.git/docs/design/design.rst>
 

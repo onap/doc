@@ -163,7 +163,7 @@ for VFs/PNFs.
 
   See :ref:`sdc_onboarding_package_types` for a description
   of the onboarding package types.
-* If the package is a secure package then :ref:`pre-install the corresponding Root Certificate in SDC <doc_guide_user_des_res-onb_pre-install_root_certificate>`.
+* If the package is a secure package then :ref:`pre-install the corresponding Root Certificate in SDC <doc_guide_user_des_res-onb_pre-install root_certificate>`.
 
 #. From the SDC HOME page, click *ONBOARD*.
 #. Hover over Add and select New Vendor Software Product.
@@ -256,7 +256,8 @@ on the Components tab.
 Update a VSP [optional]
 -----------------------
 
-Upload a new onboarding package to a VSP. Afterward, update the VF/PNF and service.
+Upload a new onboarding package to a VSP. Afterward, update the VF/PNF
+and service.
 
 **Prerequisites:** Add one or more VSPs
                    (see `Create a Vendor Software Product`_).
@@ -293,11 +294,15 @@ Upload a new onboarding package to a VSP. Afterward, update the VF/PNF and servi
 
 Pre-Install Root Certificate in SDC [only needed for secure package]
 --------------------------------------------------------------------
-SDC supports the onboarding of packages that are secured according to security option 2 in ETSI NFV-SOL 004v2.6.1.
+SDC supports the onboarding of packages that are secured according
+to security option 2 in ETSI NFV-SOL 004v2.6.1.
 
-During onboarding, SDC will validate the authenticity and integrity of a secure package. To enable this validation,
-the root certificate corresponding to the certificate included in the package needs to be available to SDC.
-This is currently done by uploading the root certificate to the following default directory location::
+During onboarding, SDC will validate the authenticity and integrity of
+a secure package. To enable this validation,
+the root certificate corresponding to the certificate included
+in the package needs to be available to SDC.
+This is currently done by uploading the root certificate to the
+following default directory location::
 
    /dockerdata-nfs/{{ .Release.Name }}/sdc/onbaording/cert
 
@@ -309,7 +314,8 @@ This is currently done by uploading the root certificate to the following defaul
 
    so it is also possible to copy the root certificate directly to this directory in the pod.
 
-The location where the root certificate is uploaded is configurable. The relevant parameters are described in
+The location where the root certificate is uploaded is configurable.
+The relevant parameters are described in
 the *cert* block in the following values file::
 
    <path_to_oom_kubernetes>/sdc/charts/sdc-onboarding-be/values.yaml
