@@ -1,0 +1,163 @@
+heat_template_version: 2013-05-23
+
+description: Heat template to deploy a FreeRadius
+
+parameters:
+# Metadata required by ONAP
+  vnf_name:
+    type: string
+    label: VM name
+    description: The VM name
+  vnf_id:
+    type: string
+    label: VNF ID
+    description: The VNF ID is provided by ONAP
+  vf_module_id:
+    type: string
+    label: VF module ID
+    description: The VF Module ID is provided by ONAP
+
+# Server parameters, naming required by ONAP
+  image_name:
+    type: string
+    label: Image name or ID
+    description: Image to be used for compute instance
+  flavor_name:
+    type: string
+    label: Flavor
+    description: Type of instance (flavor) to be used
+  pub_key:
+    type: string
+    label: Public key
+    description: Public key to be installed on the compute instance
+  key_name:
+    type: string
+    label: Public key name
+    description: Public key name to be installed on the compute instance    
+  freeRadius_name_0:
+    type: string
+    label: VM name
+    description: The VM name
+
+# Network parameters, naming required by ONAP
+  onap_private_net_id:
+    type: string
+    label: management network
+    description: The management network
+  onap_private_subnet_id:
+    type: string
+    label: management network
+    description: The management network
+  public_net_id:
+    type: string
+    label: control plane network
+    description: The control plane network
+  freeradius_ip:
+    type: string
+    label: freeradius vm ip address
+    description: freeradius vm ip address
+
+resources:
+  random-str:
+    type: OS::Heat::RandomString
+    properties:
+      length: 4
+      
+  freeRadius_key:
+    type: OS::Nova::KeyPair
+    properties:
+      name: { get_param: key_name } 
+      public_key: { get_param: pub_key }
+      save_private_key: false
+
+  freeRadius_oam_security_group:
+    type: OS::Neutron::SecurityGroup
+    properties:
+      description: security group
+      name:
+        str_replace:
+          template: pre_base_rand
+          params:
+            pre: oam_sg_
+            base: { get_param: vnf_name }
+            rand: { get_resource: random-str }
+      rules: [
+        {remote_ip_prefix: 0.0.0.0/0, protocol: tcp, port_range_min: 22, port_range_max: 22},
+        {remote_ip_prefix: 0.0.0.0/0, protocol: icmp}]
+
+  freeRadius_control_plane_security_group:
+    type: OS::Neutron::SecurityGroup
+    properties:
+      description: security group
+      name:
+        str_replace:
+          template: pre_base_rand
+          params:
+            pre: cp_sg_
+            base: { get_param: vnf_name }
+            rand: { get_resource: random-str }
+      rules: [
+        {remote_ip_prefix: 0.0.0.0/0, protocol: tcp, port_range_min: 22, port_range_max: 22},
+        {remote_ip_prefix: 0.0.0.0/0, protocol: icmp}]
+
+  freeRadius_0_oam_port_0:
+    type: OS::Neutron::Port
+    properties:
+      name:
+        str_replace:
+          template: pre_base_rand
+          params:
+            pre: oam_port_
+            base: { get_param: vnf_name }
+            rand: { get_resource: random-str }
+      network: { get_param: onap_private_net_id }
+      fixed_ips: [{"subnet": { get_param: onap_private_subnet_id }, "ip_address": { get_param: freeradius_ip }}]
+      security_groups: [{ get_resource: freeRadius_oam_security_group }]
+
+  freeRadius_0_control_plane_port_0:
+    type: OS::Neutron::Port
+    properties:
+      name:
+        str_replace:
+          template: pre_base_rand
+          params:
+            pre: cp_port_
+            base: { get_param: vnf_name }
+            rand: { get_resource: random-str }
+      network: { get_param: public_net_id }
+      security_groups: [{ get_resource: freeRadius_control_plane_security_group }]
+
+  freeRadius_VM_settings:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      config: |
+            #!/bin/bash
+            apt-get update
+            apt-get install -y freeradius
+            echo -e "password\npassword" | passwd cloud
+            sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config 
+            service ssh restart
+
+
+  freeRadius_server_0:
+    type: OS::Nova::Server
+    properties:
+      image: { get_param: image_name }
+      flavor: { get_param: flavor_name }
+      name: { get_param: freeRadius_name_0 }
+      metadata: {vnf_id: { get_param: vnf_id }, vf_module_id: { get_param: vf_module_id }, vnf_name: { get_param: vnf_name }}
+      key_name: { get_resource: freeRadius_key }
+      networks:
+        - port: { get_resource: freeRadius_0_oam_port_0 }
+        - port: { get_resource: freeRadius_0_control_plane_port_0 }
+      user_data_format: RAW
+      user_data: |
+        #!/bin/bash
+        echo "!!! Install FreeRadius"
+        apt-get update
+        apt-get install -y freeradius
+        echo "!!! Setup password authentication for user cloud"
+        echo -e "password\npassword" | passwd cloud
+        sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config 
+        service ssh restart
+        echo "!!! Done"
