@@ -1,0 +1,6 @@
+TOSCA-Meta-File-Version: 1.0.0
+CSAR-Version: 1.0
+Created-By: SEAUDI, Abdelmuhaimen <abdelmuhaimen.seaudi@orange.com>
+Entry-Definitions: Definitions/freeradius.json
+Template-Tags: freeradius_CDS
+Content-Type: application/vnd.oasis.bpmn

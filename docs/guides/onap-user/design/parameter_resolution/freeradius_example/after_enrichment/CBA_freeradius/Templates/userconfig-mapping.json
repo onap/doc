@@ -1,0 +1,112 @@
+[
+  {
+    "name": "service-instance-id",
+    "property": {
+      "description": "",
+      "required": false,
+      "type": "string",
+      "status": "",
+      "constraints": [
+        {}
+      ],
+      "entry_schema": {
+        "type": ""
+      }
+    },
+    "input-param": false,
+    "dictionary-name": "service-instance-id",
+    "dictionary-source": "input",
+    "dependencies": [],
+    "version": 0
+  },
+  {
+    "name": "vnf-id",
+    "property": {
+      "description": "",
+      "required": false,
+      "type": "string",
+      "status": "",
+      "constraints": [
+        {}
+      ],
+      "entry_schema": {
+        "type": ""
+      }
+    },
+    "input-param": false,
+    "dictionary-name": "vnf-id",
+    "dictionary-source": "input",
+    "dependencies": [],
+    "version": 0
+  },
+  {
+  
+    "name": "radius_test_user",
+    "property": {
+      "description": "",
+      "required": false,
+      "type": "string",
+      "status": "",
+      "constraints": [
+        {}
+      ],
+      "entry_schema": {
+        "type": ""
+      }
+    },
+    "input-param": false,
+    "dictionary-name": "radius_test_user",
+    "dictionary-source": "sdnc",
+    "dependencies": [
+      "service-instance-id",
+      "vnf-id"
+    ],
+    "version": 0
+  },
+  {
+      "name": "freeradius_ip",
+    "property": {
+      "description": "",
+      "required": false,
+      "type": "string",
+      "status": "",
+      "constraints": [
+        {}
+      ],
+      "entry_schema": {
+        "type": ""
+      }
+    },
+    "input-param": false,
+    "dictionary-name": "freeradius_ip",
+    "dictionary-source": "sdnc",
+    "dependencies": [
+      "service-instance-id",
+      "vnf-id"
+    ],
+    "version": 0
+  },
+  {
+    "name": "radius_test_password",
+    "property": {
+      "description": "",
+      "required": false,
+      "type": "string",
+      "status": "",
+      "constraints": [
+        {}
+      ],
+      "entry_schema": {
+        "type": ""
+      }
+    },
+    "input-param": false,
+    "dictionary-name": "radius_test_password",
+    "dictionary-source": "sdnc",
+    "dependencies": [
+      "service-instance-id",
+      "vnf-id"
+    ],
+    "version": 0
+  }
+]
