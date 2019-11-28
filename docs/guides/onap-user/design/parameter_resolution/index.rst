@@ -10,8 +10,8 @@ VNF Parameter resolution templating
 Overview
 --------
 
-When instantiating a Service composed of PNF, VNF or CNF there is the need to
-get some values for some parameters.
+When instantiating a Service composed of connectivity, PNF,
+VNF or CNF there is the need to get some values for some parameters.
 
 For example, it may be necessary to provide a VNF management @ip
 Address or a VNF instance name. Those parameters can be necessary
@@ -58,36 +58,49 @@ The purpose of the following text is to describe various files and content
 that are necessary to the CDS controller to resolve any parameters.
 
 To illustrate the subject, let's take an example: a service composed of
-a freeradius VNF.
+an "ubuntu" VNF. That service will be called "ubuntuCDS" in ONAP SDC
+for that example.
 
-That software will be installed on a simple ubuntu image.
+That VNF will be based on a simple ubuntu image. That VF will be called
+ubuntuCDS in ONAP SDC for that example.
 
+WARNING: all operations need to be adapted to your context
+(platform, service, identifiers...)
+
+Pre-requisite
+-------------
+
+Two Directed Graph have to be replaced in ONAP SDNC with a version > 1.7.4
+
+VNF topology assign: DG_VNF_ASSIGN_.
+
+VF-Module topology assign: DG_VFMODULE_ASSIGN_.
 
 Design process
 --------------
 
-    * `Step 1 : identify the parameters needed for instantiation`_
+    * `Step 1: identify the parameters needed for instantiation`_
     * `Step 2: identify the parameters needed for post-instantiation`_
-    * `Step 3: identify the data source for each parameter`_
+    * `Step 3: identify the resolution method for each parameter`_
     * `Step 4: add new data definition in CDS resource dictionary`_
     * `Step 5: write template files`_
     * `Step 6: write mapping files`_
     * `Step 7: write scripts`_
-    * `Step 8: write the "CDS blueprint" file`_
+    * `Step 8: write the "blueprint" file`_
     * `Step 9: build the "Controller Blueprint Archive” (cba)`_
     * `Step 10: attached the cba to a service definition`_
     * `Step 11: distribute the service`_
     * `Step 12: instantiate the service and check`_
 
 
-Step 1 : identify the parameters needed for instantiation
----------------------------------------------------------
+Step 1: identify the parameters needed for instantiation
+--------------------------------------------------------
 
-To instantiate a freeradius VNF, a Heat Template can be used. Several
+To instantiate a "ubuntu" VNF, a Heat Template can be used. Several
 parameters are defined in that template: vnf_name, image_name,
 management @ip...
 
-This Heat Template is a first place to find the parameters that need
+This Heat Template is a first place to identify the parameters that need
 to be resolved.
 
 Our example:
@@ -96,274 +109,126 @@ Our example:
 
    parameters:
    # Metadata required by ONAP
-   vnf_id: FreeRadius-VNF
-   vf_module_id: FreeRadius-VF-module
-   vnf_name: FreeRadius-VNF-name
+   vnf_id: ubuntuCDS-VNF
+   vf_module_id: ubuntuCDS-VF-module
+   vnf_name: ubuntuCDS-VNF-name
 
    # Server parameters, naming required by ONAP
-   image_name: ubuntu-16.04-daily
-   flavor_name: onap.small
-   pub_key: ssh-rsa AAAAB3Nza...UwMtE0oHV47zQABx root@qvocrobot-virtual-machine
-   key_name: FreeRadius-key
-   freeRadius_name_0: FreeRadius-VM-name
-   freeradius_ip: 10.0.0.100
+   ubuntuCDS_image_name: ubuntu-18
+   ubuntuCDS_flavor_name: onap.small
+   ubuntuCDS_pub_key: ssh-rsa AAAAB3VHCx...vVL8l1BrX3BY0R8D imported-openssh-key
+   ubuntuCDS_name_0: ubuntuCDS
 
    # Network parameters, naming required by ONAP
-   onap_private_net_id: admin
-   public_net_id: admin
-
-
-In the following section, only part of those parameters will be automated
-by CDS (just for illustration).
-
-- vnf_name
-- flavor_name
-- pub_key
-- image_name
-- freeradius_ip
-
-In real, all parameters need to be  processed
-(or at least those that change from one VNF instance to the other)
+   admin_plane_net_name: admin
 
 Step 2: identify the parameters needed for post-instantiation
 -------------------------------------------------------------
 
-Also, a freeradius VNF is software that will be able to accept or reject
-some connection requests. Only declared "users" can be accepted by
-the freeradius.
+Post-instantiation activity will occur after the VNF is instantiated.
 
-To be able to proceed, it is necessary to declare (=configure) some "users"
-in a file located in /etc/freeradius/users in the VM where the freeradius
-software is installed.
+Typically, it can be adding a first firewall rule in a firewal VNF.
 
-At this step, the designer needs to know the VNF specificities. It is
-application-level parameters. For example: configure a firewall rule in
-a firewall VNF, declare a "user" in a AAA radius VNF...
+In the ubuntuCDS example, there is no such parameter.
 
-In the freeradius example (an opensource AAA radius solution),
-the following parameters can be automated via CDS:
 
-- user_name
-- user_password
-
-Step 3: identify the data source for each parameter
----------------------------------------------------
-
-The parameter list that the Designer decided to automate:
-
-- vnf_name
-- flavor_name
-- pub_key
-- image_name
-- freeradius_ip
-- user_name
-- user_password
+Step 3: identify the resolution method for each parameter
+---------------------------------------------------------
 
 Here after the decision/solution that the designer may take:
 
-**vnf_name** will be resolved using a "naming" application (micro-service),
-provided by ONAP.
-
-**image_name** will be resolved via a default value in the template
-
-**flavor_name** will be resolved via an input that will be provided
+**vnf_name** will be resolved via an input that will be provided
 in the instantiation request.
 
-**pub_key** will be resolved via an input that will be provided
+**ubuntuCDS_image_name** will be resolved via an input that will be provided
 in the instantiation request.
 
-**freeradius_ip** will be resolved using an IP Address Management (IPAM)
-application, provided by ONAP (Netbox).
+**ubuntuCDS_flavor_name** will be resolved via an input that will be provided
+in the instantiation request.
 
-**user_name** and **user_password** will be resolved via inputs
-that will be provided in the instantiation request.
+**ubuntuCDS_pub_key** will be resolved via an input that will be provided
+in the instantiation request.
+
+**admin_plane_net_name** will be resolved via an input that will be provided
+in the instantiation request.
+
+Service Designer needs also to know that some parameters will be
+automatically resolved by ONAP SO and/or ONAP SDNC.
+
+- service-instance-id
+- vnf-id
+- vf_module_id
+
+For each resolution method, Service Designer needs to identify all
+necessary parameters that must be provided to the resoluton method
+in order to obtain the resolution.
+
+Also, Service Designer needs to know that ONAP will instantiate
+a service, a list of VNF that are composing the service and, for each VNF,
+a "VF-module" will be instantiated.
+
 
 Step 4: add new data definition in CDS resource dictionary
 ----------------------------------------------------------
 
 In CDS, there is a database that will contain all resource Definitions
-in order to be able to re-use those resources.
+in order to be able to re-use those resources from one service to an other.
 
-Service Designer needs to check about existing resources in the disctionary.
+Service Designer needs to check about existing resource definitions
+in the dictionary.
 
 By default, some resources are pre-loaded when installing ONAP platform.
 
 Preloaded resources (parameter definition): Resources_.
 
-For the freeradius use-case, there are 3 resources to add
-in the resource dictionary:
+Be careful: the content of the resource dictionary is not the same from
+one ONAP release to an other.
 
-::
+If Service Designer sees that there is an existing parameter
+that corresponds to the need, he has the possibility to re-use it
+in the mapping file(s), but maybe with a different name.
 
-   curl -k 'https://cds-ui:30497/resourcedictionary/save' -X POST -H 'Content-type: application/json' \
-   -d '{
-      "name": "radius_test_user",
-      "tags": "radius_test_user",
-      "data_type": "string",
-      "description": "radius_test_user",
-      "entry_schema": "string",
-      "updatedBy": "Seaudi, Abdelmuhaimen <abdelmuhaimen.seaudi@orange.com>",
-      "definition": {
-         "tags": "radius_test_user",
-         "name": "radius_test_user",
-         "property": {
-            "description": "radius_test_user",
-            "type": "string"
-         },
-         "updated-by": "Seaudi, Abdelmuhaimen <abdelmuhaimen.seaudi@orange.com>",
-         "sources": {
-            "input": {
-               "type": "source-input"
-            },
-            "default": {
-               "type": "source-default",
-               "properties": {}
-            },
-            "sdnc": {
-               "type": "source-rest",
-               "properties": {
-                  "verb": "GET",
-                  "type": "JSON",
-                  "url-path": "/restconf/config/GENERIC-RESOURCE-API:services/service/$service-instance-id/service-data/vnfs/vnf/$vnf-id/vnf-data/vnf-topology/vnf-parameters-data/param/radius_test_user",
-                  "path": "/param/0/value",
-                  "input-key-mapping": {
-                     "service-instance-id": "service-instance-id",
-                     "vnf-id": "vnf-id"
-                  },
-                  "output-key-mapping": {
-                     "radius_test_user": "value"
-                  },
-                  "key-dependencies": ["service-instance-id",
-                  "vnf-id"]
-               }
-            }
-         }
-      }
-   }'
+For example, "image_name" is already defined in the resource dictionary but,
+it is named "freeRadius_image_name" in the Heat files.
 
+For the ubuntuCDS example, there is no need to add any entry in the
+data_dictionary
 
-::
-
-   curl -k 'https://cds-ui:30497/resourcedictionary/save' -X POST -H 'Content-type: application/json' \
-   '{
-      "name": "radius_test_password",
-      "tags": "radius_test_password",
-      "data_type": "string",
-      "description": "radius_test_password",
-      "entry_schema": "string",
-      "updatedBy": "Seaudi, Abdelmuhaimen <abdelmuhaimen.seaudi@orange.com>",
-      "definition": {
-         "tags": "radius_test_password",
-         "name": "radius_test_password",
-         "property": {
-            "description": "radius_test_password",
-            "type": "string"
-         },
-         "updated-by": "Seaudi, Abdelmuhaimen <abdelmuhaimen.seaudi@orange.com>",
-         "sources": {
-            "input": {
-               "type": "source-input"
-            },
-            "default": {
-               "type": "source-default",
-               "properties": {}
-            },
-            "sdnc": {
-               "type": "source-rest",
-               "properties": {
-                  "verb": "GET",
-                  "type": "JSON",
-                  "url-path": "/restconf/config/GENERIC-RESOURCE-API:services/service/$service-instance-id/service-data/vnfs/vnf/$vnf-id/vnf-data/vnf-topology/vnf-parameters-data/param/radius_test_password",
-                  "path": "/param/0/value",
-                  "input-key-mapping": {
-                     "service-instance-id": "service-instance-id",
-                     "vnf-id": "vnf-id"
-                  },
-                  "output-key-mapping": {
-                     "radius_test_password": "value"
-                  },
-                  "key-dependencies": ["service-instance-id",
-                  "vnf-id"]
-               }
-            }
-         }
-      }
-   }'
-
-
-::
-
-   curl -k 'https://cds-ui:30497/resourcedictionary/save' -X POST -H 'Content-type: application/json' \
-   '{
-      "name": "freeradius_ip",
-      "tags": "freeradius_ip",
-      "data_type": "string",
-      "description": "freeradius_ip",
-      "entry_schema": "string",
-      "updatedBy": "Seaudi, Abdelmuhaimen <abdelmuhaimen.seaudi@orange.com>",
-      "definition": {
-         "tags": "freeradius_ip",
-         "name": "freeradius_ip",
-         "property": {
-            "description": "freeradius_ip",
-            "type": "string"
-         },
-         "updated-by": "Seaudi, Abdelmuhaimen <abdelmuhaimen.seaudi@orange.com>",
-         "sources": {
-            "input": {
-               "type": "source-input"
-            },
-            "default": {
-               "type": "source-default",
-               "properties": {}
-            },
-            "sdnc": {
-               "type": "source-rest",
-               "properties": {
-                  "verb": "GET",
-                  "type": "JSON",
-                  "url-path": "/restconf/config/GENERIC-RESOURCE-API:services/service/$service-instance-id/service-data/vnfs/vnf/$vnf-id/vnf-data/vnf-topology/vnf-parameters-data/param/freeradius_ip",
-                  "path": "/param/0/value",
-                  "input-key-mapping": {
-                     "service-instance-id": "service-instance-id",
-                     "vnf-id": "vnf-id"
-                  },
-                  "output-key-mapping": {
-                     "freeradius_ip": "value"
-                  },
-                  "key-dependencies": ["service-instance-id",
-                  "vnf-id"]
-               }
-            }
-         }
-      }
-   }'
-
-
+"curls" requests example to declare a new resource
+:download:`Here <ubuntu_example/curls_resource_dictionary.txt>`
 
 Step 5: write template files
 ----------------------------
 
-In this example, Designer needs to create 3 "templates".
+In this Ubuntu example, Designer needs to create 2 "templates" files.
+Naming of those files is important. For VNF, prefix name must be equal to the
+VF name in ONAP SDC. For the VFmodule, prefix name must be equal to the name
+of the Heat template.
 
-- VNF level :download:`VNF_template_file <freeradius_example/before_enrichment/CBA_freeradius/Templates/vnf-template.vtl>`
-- VFmodule level :download:`VFmodule_template_file <freeradius_example/before_enrichment/CBA_freeradius/Templates/radius-template.vtl>`
-- post-instantiation VNF level :download:`VNF_config_template_file <freeradius_example/before_enrichment/CBA_freeradius/Templates/userconfig-template.vtl>`
+- VNF level :download:`VNF_template_file <ubuntu_example/cba-before-enrichment/Templates/ubuntuCDS-template.vtl>`
+- VF-module level :download:`VFmodule_template_file <ubuntu_example/cba-before-enrichment/Templates/base_ubuntuCDS-template.vtl>`
 
 CDS makes use of "velocity template" or "Jinja template" files.
 
 This way, CDS is able to generate the desired datastructure
 with resolved values, that will then be sent to the target system:
 
-- openstack when instantiating the VNF/VF-module
+- openstack when instantiating the Heat stack
 - instantiated VNF when doing some post-instantiation operation
 
 There are two sections in each velocity file:
 
 - "resource-accumulator-resolved-data": a list of all parameters
-- "capability-data": a list of "capabilities" to process and resolv a parameter
+- "capability-data": a list of "capabilities" to process and resolve
+  a parameter
 
-ONAP SDNC provides some "capabilities":
+A capability can be an other way to resolve a parameter,
+using a directed graph.
+
+A capability may also be an action to be performed such as modifying
+a data in ONAP AAI.
+
+ONAP SDNC provides those "capabilities":
 
 - generate-name
 - vlan-tag-assign
@@ -374,12 +239,17 @@ ONAP SDNC provides some "capabilities":
 There is an SDNC Directed Graph associated to each of those "capability".
 
 Service Designer needs to know about those capabilitie with their
-input/output, in order to re-use them.
+input/output, in order to re-use them. Especially, Service Designer needs
+to know inputs because those inputs need to be part of the templates.
 
-In case, Service Designer wants to use a new capability, a solution will be
-to create a Directed Graph and update the Self-serve-vnf-assign and/or
-Self-serve-vf-module-assign Directed Graph by adding a new
+In case Service Designer wants to use a new capability, a solution is
+to create a Directed Graph and update the self-serve-vnf-assign and/or
+self-serve-vf-module-assign Directed Graph by adding a new
 entry in the list of capabilities (node: set ss.capability.execution-order[])
+
+The "aai-vfmodule-put" capability is important to be part of a vf-module
+template because it will be used to put the vf-module-name in AAI
+and ONAP SO will use that value to name the heat stack.
 
 |image3|
 
@@ -395,85 +265,79 @@ This is the place where the Designer explains, for each parameter:
 - default value
 
 At VNF instantiation step, values are often coming from input (in the request
-sent by the user).
+sent by the user, in the "instanceParams" section of the vnf).
 
-At VF module instantion step, values are often coming from SDNC database
-(stored values from VNF instantiation step).
+At VF module instantion step, values can come form input also in the request
+sent by the user, in the "instanceParams" section of the vf-module)
 
 Resolved data are always stored in SDNC database (MDSAL)
 
-About sources:
+Note1: if service designer wants to re-use for vf-module a
+parameter/value from VNF "userParams" section,
+then the source will be from "SDNC" in the vf-module mapping file.
 
-- "input": parameter/value is provided in the request
-- "sdnc": parameter/value is coming from the SDNC database (MDSAL)
-  via a Rest call
-- "default": always take the default value
-- "processor-db": coming from SDNC but MariaDB database via SQL request
+Note2: service-instance-id, vnf-id and vf_module_id are parameters considered
+as "input" from CDS point of view but in reality they are resolved by ONAP SO
+with ONAP AAI. Thus, those parameters are not "input" from ONAP SO
+point of view: service designer has not need to provide those parameters in
+service instantiation request (step 12).
 
-Other sources are possible.
+For the ubuntu example, there are then 2 mapping files.
+File names are important and must be aligned with vtl template names.
 
-For the freeradius example, there are then 3 mapping files:
-
-- VNF level :download:`VNF_mapping_file <freeradius_example/before_enrichment/CBA_freeradius/Templates/vnf-mapping.json>`
-- VFmodule level :download:`VFmodule_mapping_file <freeradius_example/before_enrichment/CBA_freeradius/Templates/radius-mapping.json>`
-- post-instantiation VNF level :download:`VNF_config_mapping_file <freeradius_example/before_enrichment/CBA_freeradius/Templates/userconfig-mapping.json>`
+- VNF level :download:`VNF_mapping_file <ubuntu_example/cba-before-enrichment/Templates/ubuntuCDS-mapping.json>`
+- VFmodule level :download:`VFmodule_mapping_file <ubuntu_example/cba-before-enrichment/Templates/base_ubuntuCDS-mapping.json>`
 
 Step 7: write scripts
 ---------------------
 
 Sometimes, it will be necessary to use some scripts (python, kotlin,
-ansible...) to process some operation.
+ansible...) to process some post-configuration operation.
 
 Those scripts needs to be part of the "Controller Blueprint Archive” (cba).
 
-In freeradius example, a :download:`Kotlin script <freeradius_example/before_enrichment/CBA_freeradius/Scripts/kotlin/kotlin.kt>` is used
-to get data, open an ssh tunnel to the VNF and add the user/password
-in the /etc/freeradius/users file.
+No such script for the ubuntuCDS example.
 
-Step 8: write the "CDS blueprint" file
+
+Step 8: write the "blueprint" file
 --------------------------------------
 
-The "designer" will then create a "CDS blueprint".
+The "designer" will then create a "blueprint".
 
-It is a JSON file and for the freeradius usecase, it is called
-freeradius.json.
+It is a JSON file and for the ubuntuCDS usecase, it is called
+ubuntuCDS.json.
+Name must be aligned with VF name in ONAP SDC.
 
-This file will be the main entry point for CDS controller
-to understand what need to be processed and how to process it.
+This file will be the main entry point for CDS blueprint processor.
+This processor will use that file to understand what need to
+be processed and how to process it.
 
 The content of that file is composed of several sections conforming to TOSCA
 specifications.
 
-Part of the file is provided by the Service Designer but it will them be
-automatically completed by CDS controller via an "enrichment" operation
-(see next step)
-
 |image1|
 
-In a short, this file will contain information about:
+For the ubuntu example:download:`CDS blueprint <ubuntu_example/cba-before-enrichment/Definitions/ubuntuCDS.json>` before enrichment.
 
-- any parameters or external sources needed to resolve parameters,
-- all the resolve actions needed during the instantiation of a service,
-- any post-instantiation steps that need to run after the service
-  instance is up and running
-- all necessary template files
+This example is the minimum that is required to simply instantiate a
+VNF.
 
-For the freeradius example, here is the :download:`CDS blueprint <freeradius_example/before_enrichment/CBA_freeradius/Definitions/freeradius.json>`
-before enrichment.
+Some extension can then be added in order to define additional
+operations.
 
 Step 9: build the "Controller Blueprint Archive” (cba)
 ------------------------------------------------------
 
-Having created velocity templates, mapping files, scripts and a first
+Having created velocity templates, mapping files and a first
 CDS blueprint version,
 it is now simple to create the "Controller Blueprint Archive” (cba).
 
 This is a "zip-like" archive file that will have the following structure
-and content:
+and content ("environment", "scripts" and "plans" are optional):
 
 |image2|
 
-For the freeradius example, here is the :download:`cba archive <freeradius_example/before_enrichment/CBA_freeradius.cba>` before enrichment.
+For the ubuntu example :download:`cba archive <ubuntu_example/cba-before-enrichment/cba-ubuntuCDS-before-enrichment.zip>` before enrichment.
 
 To complete that cba, an "enrichment" operation is needed.
 
@@ -483,57 +347,59 @@ Service Designer can use two methods:
 - using CDS rest API
 
 Service Designer needs to send the cba to CDS-UI pod and requests
-the enrichment.
+the enrichment, then save and then download.
 
-Here is the example using CDS-UI rest API:
+Here is the example using CDS-UI rest API to enrich:
 
 ::
 
    curl -X POST \
    https://cds-ui:30497/controllerblueprint/enrich-blueprint \
-   -H 'Accept: application/json, text/plain, */*' \
-   -H 'Accept-Encoding: gzip, deflate, br' \
-   -H 'Accept-Language: en-US,en;q=0.9,ar;q=0.8,fr;q=0.7' \
-   -H 'Cache-Control: no-cache' \
-   -H 'Connection: keep-alive' \
-   -H 'Content-Length: 16488' \
-   -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryamjjRAAflAzY4XR5' \
-   -H 'Host: cds-ui:30497' \
-   -H 'Origin: https://cds-ui:30497' \
-   -H 'Postman-Token: 5e895c04-577a-4610-97e6-5d3881fd96c5,508c40d9-65da-47bc-a3a8-038d64f44a94' \
-   -H 'Referer: https://cds-ui:30497/blueprint' \
-   -H 'Sec-Fetch-Mode: cors' \
-   -H 'Sec-Fetch-Site: same-origin' \
-   -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36' \
-   -H 'cache-control: no-cache' \
    -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
-   -F 'file=@/home/user/dev/CBA_freeradius.cba' -k
+   -F 'file=@{path-where-is-your-cba}/cba-ubuntuCDS-before-enrichment.zip' -k
 
-Result will be that the cba will contains several new files in "Definition"
-folder of the cba. Also, the CDS blueprint file (freeradius.json) will
-be completed.
+   curl -X POST \
+   https://cds-ui:30497/controllerblueprint/save
+ 
+
+   curl -X POST \
+   https://cds-ui:30497/controllerblueprint/deploy 
+
+
+   curl -X POST \
+   https://cds-ui:30497/controllerblueprint/download 
+
+
+Result will be that the cba will now contains several new files in "Definition"
+folder of the cba.
 
 The cba is now ready to be onboarded in ONAP SDC along with
 a service definition.
 
-For the freeradius example, here is the :download:`cba archive <freeradius_example/after_enrichment/CBA_freeradius.cba>` after enrichment.
+For the ubuntu example :download:`cba archive <ubuntu_example/cba-after-enrichment/cba-ubuntuCDS-enriched.zip>` after enrichment.
 
 Step 10: attached the cba to a service definition
 -------------------------------------------------
 
-In SDC, when defining a service, Designer will attach the cba archive
-to the service definition, using the "deployment" section.
+In SDC, when defining a VF, Designer will attach the cba archive
+to the VF definition, using the "deployment artifact" section.
 
-Note that the template_name and template_version are to be added to the
-service model in SDC under assignment parameters section, and this will
-tell SO which blueprint to use for the service model that is being
-instantiated.
+Having define all necessary VF, Service Designer will create a SERVICE in SDC.
 
-SDC sdnc_artifact_name = CBA blueprint json filename, e.g. “vnf”,
+Service Designer will compose the SERVICE with appropriate VF(s) and will have
+to modify PROPERTIES in the "properties assignement" section.
+
+Service Designer needs to provide values for sdnc_artifact_name,
+sdnc_model_name and sdnc_model_verion.
+
+This will tell SO which blueprint to use for the service model that is being
+instantiate
+
+SDC sdnc_artifact_name = CBA blueprint json filename, e.g. “ubuntuCDS”,
 we will see below that we will have vnf-mapping.json and vnf-template.vtl
 templates in the blueprint.
 
-SDC sdnc_model_name = CBA Metadata template_name, e.g. “test”,
+SDC sdnc_model_name = CBA Metadata template_name, e.g. “ubuntuCDS”,
 we can see in the below screenshot the metadata section showing template name.
 
 SDC sdnc_model_verion = CBA Metadata template_version, e.g. “1.0.0”,
@@ -553,139 +419,176 @@ CDS controller will then collect the cba archive.
 Step 12: instantiate the service and check
 ------------------------------------------
 
-Here is the ONAP SO api request to instantiate the freeradius service:
+Here is an example of an ONAP SO api request to
+instantiate the ubuntu service.
+
+This request is used to instantiate a service using the "Macro" mode.
+
+Do not try to use that example as-is: you need to adapt all values to your
+platform/service model.
+
+In this example, the request contains several "inputs" at VNF level and
+several "inputs" at VF-module level.
+
+All various "id" and "version" are some copy/paste information that
+Service Designer has the possibility to find in the TOSCA service
+template created in ONAP SDC.
+
+This request will instantiate a "service", a "VNF" and a "VF-module".
+That "service" instance is attached to the customer named "JohnDoe" with
+service subscription named "ubuntCDS"
+(supposed already declared in your ONAP AAI).
+
+In case the instantiation fails, a roolback is performed (parameter
+"suppressRollback" = false)
+
+For that example, no "homing" and the "cloud" tenant is explicitely
+provided (supposed already declared in your ONAP AAI)
 
 ::
 
    curl -X POST \
-   http://84.39.34.234:30277/onap/so/infra/serviceInstantiation/v7/serviceInstances \
-   -H 'Accept: */*' \
-   -H 'Accept-Encoding: gzip, deflate' \
+   http://so.api.simpledemo.onap.org:30277/onap/so/infra/serviceInstantiation/v7/serviceInstances \
+   -H 'Accept: application/json' \
    -H 'Authorization: Basic SW5mcmFQb3J0YWxDbGllbnQ6cGFzc3dvcmQxJA==' \
-   -H 'Cache-Control: no-cache' \
-   -H 'Connection: keep-alive' \
-   -H 'Content-Length: 4581' \
    -H 'Content-Type: application/json' \
-   -H 'Cookie: JSESSIONID=DAFA0915D8D644A5E01BB499A1769365' \
-   -H 'Host: 84.39.34.234:30277' \
-   -H 'Postman-Token: 02273554-69e5-426b-83ce-675462a14436,eea8e2dc-fbce-45ac-82d7-19fdca83804a' \
-   -H 'User-Agent: PostmanRuntime/7.19.0' \
+   -H 'X-ONAP-PartnerName: NBI' \
    -H 'cache-control: no-cache' \
    -d '{
-   "requestDetails": {
-      "subscriberInfo": {
-         "globalSubscriberId": "Demonstration"
-      },
-      "requestInfo": {
-         "suppressRollback": false,
-         "productFamilyId": "a9a77d5a-123e-4ca2-9eb9-0b015d2ee0fb",
-         "requestorId": "adt",
-         "source": "VID"
-      },
-      "cloudConfiguration": {
-         "lcpCloudRegionId": "fr1",
-         "tenantId": "6270eaa820934710960682c506115453",
-         "cloudOwner":"CloudOwner"
-      },
-      "requestParameters": {
-         "subscriptionServiceType": "vLB",
-         "userParams": [
-         {
-            "Homing_Solution": "none"
+      "requestDetails": {
+         "subscriberInfo": {
+               "globalSubscriberId": "JohnDoe"
          },
-         {
-            "service": {
-               "instanceParams": [
-               ],
-               "resources": {
-               "vnfs": [
+         "requestInfo": {
+               "suppressRollback": false,
+               "productFamilyId": "Useless_But_Mandatory",
+               "requestorId": "adt",
+               "instanceName": "My_ubuntuCDS_service_instance_001",
+               "source": "VID"
+         },
+         "cloudConfiguration": {
+               "lcpCloudRegionId": "RegionOne",
+               "tenantId": "71cf9d931d9e4b8e9fcca50d97c1cf96",
+               "cloudOwner": "ONAP"
+         },
+         "requestParameters": {
+               "subscriptionServiceType": "ubuntuCDS",
+               "userParams": [
                   {
-                     "modelInfo": {
-                  "modelName": "freeradius5",
-                  "modelVersionId": "f7538c8d-c27c-46f9-8c2c-f01eb2a19bfa",
-                  "modelInvariantUuid": "cd322f8b-0496-4126-b3d6-200adceaf11f",
-                  "modelVersion": "1.0",
-                  "modelCustomizationId": "bc976d7c-bf2c-4da5-9b6b-815d9ea22b92",
-                  "modelInstanceName": "freeradius5 0"
-                     },
-                     "cloudConfiguration": {
-                     "lcpCloudRegionId": "fr1",
-                     "tenantId": "6270eaa820934710960682c506115453"
-                     },
-                     "platform": {
-                     "platformName": "test"
-                     },
-                     "lineOfBusiness": {
-                     "lineOfBusinessName": "LOB-Demonstration"
-                     },
-                     "productFamilyId": "a9a77d5a-123e-4ca2-9eb9-0b015d2ee0fb",
-                     "instanceName": "freeradius5 0",
-                     "instanceParams": [
-                     {
-                        "onap_private_net_id": "olc-onap",
-                        "onap_private_subnet_id": "olc-onap",
-                        "pub_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCs84Cy8+qi/jvucay0BwFtOq3ian0ulTXFGxkZcZCR0N48j88pbHJaEqb9e25MAsrfH+7Etb9Kd5nbBThEL/i0AyHXnDsc80Oq0sqlLcfLo3SGSurkrNoRofHboJ5Hn+N9SlWN5FCQGbTx1w3rjqR4LasAI6XxH9xpXSFyyge6ysVXH0cYaZ8sg98nFZa1fPJR9L8COjZvF+EYudub2RC5HVyV/sx7bliNFo9JwQh6du1abG4G7ZDjTIcYwYp21iq52UzWU28RVcAyY6AQZJu2lHLdsr8fPvyeWZpC5EqGsxI1G609m9G/dURRKwYfez/f2ATzpn5QjEX7LrLWBM8r Generated-by-Nova",
-                        "image_name": "Ubuntu 16.04",
-                        "flavor_name":"n1.cw.standard-1",
-                        "sec_group":"olc-open",
-                        "cloud_env":"openstack",
-                        "public_net_id": "olc-public",
-                        "aic-cloud-region": "fr1",
-                        "key_name":"olc-key",
-                        "vf-naming-policy": "SDNC_Policy.Config_MS_ONAP_VNF_NAMING_TIMESTAMP",
-                        "radius_test_user": "Rene-Robert",
-                        "radius_test_password": "SecretPassword"
+                     "Homing_Solution": "none"
+                  },
+                  {
+                     "service": {
+                           "instanceParams": [],
+                           "instanceName": "My_ubuntuCDS_service_instance_001",
+                           "resources": {
+                              "vnfs": [
+                                 {
+                                       "modelInfo": {
+                                          "modelName": "ubuntuCDS",
+                                          "modelVersionId": "c6a5534e-76d5-4128-97bf-ad3b72208d53",
+                                          "modelInvariantUuid": "ed3064e7-62c0-494c-bb9b-4f56d1ad157e",
+                                          "modelVersion": "1.0",
+                                          "modelCustomizationId": "6a32fb56-191e-4d11-a0cc-44b779aba4fc",
+                                          "modelInstanceName": "ubuntuCDS 0"
+                                       },
+                                       "cloudConfiguration": {
+                                          "lcpCloudRegionId": "RegionOne",
+                                          "tenantId": "71cf9d931d9e4b8e9fcca50d97c1cf96"
+                                       },
+                                       "platform": {
+                                          "platformName": "Useless_But_Mandatory"
+                                       },
+                                       "productFamilyId": "Useless_But_Mandatory",
+                                       "instanceName": "My_VNF_ubuntuCDS_instance_001",
+                                       "instanceParams": [
+                                          {
+                                             "vnf_name": "My_VNF_ubuntuCDS_instance_001"
+                                          }
+                                       ],
+                                       "vfModules": [
+                                          {
+                                             "modelInfo": {
+                                                   "modelName": "Ubuntucds..base_ubuntuCDS..module-0",
+                                                   "modelVersionId": "3025cd36-b170-4667-abb1-2bae1f297844",
+                                                   "modelInvariantUuid": "0101f9e0-7beb-4b58-92c7-ba3324b5a54d",
+                                                   "modelVersion": "1",
+                                                   "modelCustomizationId": "9bca4d4b-e27c-4652-a61e-b1b4ebca503d"
+                                             },
+                                             "instanceName": "My_vfModule_ubuntuCDS_instance_001",
+                                             "instanceParams": [
+                                                   {
+                                                      "vnf_name": "My_VNF_ubuntuCDS_instance_001",
+                                                      "vf_module_name": "My_vfModule_ubuntuCDS_instance_001",
+                                                      "ubuntuCDS_pub_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDY15cdBmIs2XOpe4EiFCsaY6bmUmK/GysMoLl4UG51JCfJwvwoWCoA+6mDIbymZxhxq9IGxilp/yTA6WQ9s/5pBag1cUMJmFuda9PjOkXl04jgqh5tR6I+GZ97AvCg93KAECis5ubSqw1xOCj4utfEUtPoF1OuzqM/lE5mY4N6VKXn+fT7pCD6cifBEs6JHhVNvs5OLLp/tO8Pa3kKYQOdyS0xc3rh+t2lrzvKUSWGZbX+dLiFiEpjsUL3tDqzkEMNUn4pdv69OJuzWHCxRWPfdrY9Wg0j3mJesP29EBht+w+EC9/kBKq+1VKdmsXUXAcjEvjovVL8l1BrX3BY0R8D imported-openssh-key",
+                                                      "ubuntuCDS_image_name": "ubuntu-18.04-daily",
+                                                      "ubuntuCDS_flavor_name": "onap.small",
+                                                      "ubuntuCDS_name_0": "ubuntuCDS-VM-001",
+                                                      "admin_plane_net_name": "admin"
+                                                   }
+                                             ]
+                                          }
+                                       ]
+                                 }
+                              ]
+                           },
+                           "modelInfo": {
+                              "modelVersion": "1.0",
+                              "modelVersionId": "10369444-1e06-4d5d-974b-362bcfd19533",
+                              "modelInvariantId": "32e00b49-eff8-443b-82a8-b75fbb6e3867",
+                              "modelName": "ubuntuCDS",
+                              "modelType": "service"
+                           }
                      }
-                     ],
-                     "vfModules": [
-                     {
-                        "modelInfo": {
-                           "modelName": "Freeradius5..radius..module-0",
-                           "modelVersionId": "e08d6d0f-27ea-4b46-a2d1-0d60c49fca59",
-                           "modelInvariantUuid": "fdb408c6-6dd1-4a0c-88ca-ebc3ff77b445",
-                           "modelVersion": "1",
-                           "modelCustomizationId": "e82a94de-6dff-4dc9-a57e-335315c8fdae"
-                        },
-                        "instanceName": "Freeradius5..radius..module-0",
-                        "instanceParams": [
-                                                   {  }
-                        ]
-                     }
-                     ]
                   }
-               ]
-               },
-               "modelInfo": {
+               ],
+               "aLaCarte": false,
+               "usePreload": false
+         },
+         "owningEntity": {
+               "owningEntityId": "Useless_But_Mandatory",
+               "owningEntityName": "Useless_But_Mandatory"
+         },
+         "modelInfo": {
                "modelVersion": "1.0",
-         "modelVersionId": "4dacb612-935f-4755-91a1-78af64331c42",
-         "modelInvariantId": "98d65302-3be3-4828-a116-1bedb2919048",
-         "modelName": "freeradius5",
+               "modelVersionId": "10369444-1e06-4d5d-974b-362bcfd19533",
+               "modelInvariantId": "32e00b49-eff8-443b-82a8-b75fbb6e3867",
+               "modelName": "ubuntuCDS",
                "modelType": "service"
-               }
-            }
          }
-         ],
-         "aLaCarte": false
-      },
-      "project": {
-         "projectName": "Project-Demonstration"
-      },
-      "owningEntity": {
-         "owningEntityId": "67f2e84c-734d-4e90-a1e4-d2ffa2e75849",
-         "owningEntityName": "OE-Demonstration"
-      },
-      "modelInfo": {
-         "modelVersion": "1.0",
-         "modelVersionId": "4dacb612-935f-4755-91a1-78af64331c42",
-         "modelInvariantId": "98d65302-3be3-4828-a116-1bedb2919048",
-         "modelName": "freeradius5",
-      "modelType": "service"
       }
-   }
    }'
+
+In response, ONAP SO will immediately provide a requestId and a service
+instance id.
+
+The instantiation will take some time. It will be necessary
+to perform a "GET" on the request to check the result.
+
+::
+
+   curl -X GET \
+      http://so.api.simpledemo.onap.org:30277/onap/so/infra/orchestrationRequests/v7/{{requestID}} \
+      -H 'Accept: application/json' \
+      -H 'Authorization: Basic SW5mcmFQb3J0YWxDbGllbnQ6cGFzc3dvcmQxJA==' \
+      -H 'Content-Type: application/json' \
+      -H 'X-FromAppId: AAI' \
+      -H 'X-TransactionId: get_aai_subscr' \
+      -H 'cache-control: no-cache'
+
+Trouble shooting
+----------------
+
+Have a look to 
+
+- debug.log in CDS blueprint processor Pod
+- debug.log into SO Bpmn pod
+- karaf.log into SDNC pod
 
 .. |image1| image:: ../media/cds-blueprint.png
 .. |image2| image:: ../media/cba.png
 .. |image3| image:: ../media/capabilities.png
 .. |image4| image:: ../media/sdc.png
-.. _Resources: https://git.onap.org/ccsdk/cds/tree/components/model-catalog/resource-dictionary/starter-dictionary 
+.. _Resources: https://git.onap.org/ccsdk/cds/tree/components/model-catalog/resource-dictionary/starter-dictionary
+.. _DG_VNF_ASSIGN: https://gerrit.onap.org/r/gitweb?p=sdnc/oam.git;a=blob_plain;f=platform-logic/generic-resource-api/src/main/json/GENERIC-RESOURCE-API_vnf-topology-operation-assign.json;hb=HEAD
+.. _DG_VFMODULE_ASSIGN: https://gerrit.onap.org/r/gitweb?p=sdnc/oam.git;a=blob_plain;f=platform-logic/generic-resource-api/src/main/json/GENERIC-RESOURCE-API_vf-module-topology-operation-assign.json;hb=HEAD

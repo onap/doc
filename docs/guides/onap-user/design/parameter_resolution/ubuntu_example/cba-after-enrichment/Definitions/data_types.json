@@ -1,0 +1,116 @@
+{
+  "data_types" : {
+    "dt-resource-assignment-properties" : {
+      "description" : "Dynamic DataType definition for workflow(resource-assignment).",
+      "version" : "1.0.0",
+      "properties" : {
+        "vnf-id" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "default" : "",
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "vf-module-id" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "default" : "",
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "ubuntuCDS_pub_key" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "vnf_id" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "default" : "",
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "service-instance-id" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "default" : "",
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "vnf_name" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "default" : "ubuntuCDS-VNF-name",
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "ubuntuCDS_flavor_name" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "ubuntuCDS_name_0" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "admin_plane_net_name" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "entry_schema" : {
+            "type" : ""
+          }
+        },
+        "ubuntuCDS_image_name" : {
+          "description" : "",
+          "required" : false,
+          "type" : "string",
+          "status" : "",
+          "constraints" : [ { } ],
+          "entry_schema" : {
+            "type" : ""
+          }
+        }
+      },
+      "derived_from" : "tosca.datatypes.Dynamic"
+    }
+  }
+}
