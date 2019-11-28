@@ -1,0 +1,6 @@
+TOSCA-Meta-File-Version: 1.0.0
+CSAR-Version: 1.0
+Created-By: RG, ONES <romain.garel@orange.com>
+Entry-Definitions: Definitions/ubuntuCDS.json
+Template-Tags: ubuntuCDS
+Content-Type: application/vnd.oasis.bpmn
