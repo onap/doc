@@ -1,0 +1,96 @@
+{
+    "tosca_definitions_version": "ubuntuCDS_1_0_0",
+    "metadata": {
+      "template_author": "ONES",
+      "author-email": "rene.robert@orange.com",
+      "user-groups": "ADMIN, OPERATION",
+      "template_name": "ubuntuCDS",
+      "template_version": "1.0.0",
+      "template_tags": "ubuntuCDS"
+    },
+    "imports": [ {
+    "file" : "Definitions/data_types.json"
+  }, {
+    "file" : "Definitions/relationship_types.json"
+  }, {
+    "file" : "Definitions/artifact_types.json"
+  }, {
+    "file" : "Definitions/node_types.json"
+  }, {
+    "file" : "Definitions/policy_types.json"
+  } ],
+    "dsl_definitions": {},
+    "topology_template": {
+      "workflows": {
+        "resource-assignment": {
+          "steps": {
+            "resource-assignment": {
+              "description": "Resource Assign Workflow",
+              "target": "resource-assignment"
+            }
+          },
+          "inputs": {
+            "template-prefix": {
+              "required": true,
+              "type": "list",
+              "entry_schema": {
+                "type": "string"
+              }
+            },
+            "resource-assignment-properties": {
+              "description": "Dynamic PropertyDefinition for workflow(resource-assignment).",
+              "required": true,
+              "type": "dt-resource-assignment-properties"
+            }
+          },
+          "outputs": {
+            "meshed-template": {
+              "type": "json",
+              "value": {
+                "get_attribute": [
+                  "resource-assignment",
+                  "assignment-params"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "node_templates": {
+        "resource-assignment": {
+          "type": "component-resource-resolution",
+          "interfaces": {
+            "ResourceResolutionComponent": {
+              "operations": {
+                "process": {
+                  "inputs": {
+                    "artifact-prefix-names": {
+                      "get_input": "template-prefix"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "artifacts": {
+            "ubuntuCDS-template": {
+              "type": "artifact-template-velocity",
+              "file": "Templates/ubuntuCDS-template.vtl"
+            },
+            "ubuntuCDS-mapping": {
+              "type": "artifact-mapping-resource",
+              "file": "Templates/ubuntuCDS-mapping.json"
+            },
+            "base_ubuntuCDS-template": {
+              "type": "artifact-template-velocity",
+              "file": "Templates/base_ubuntuCDS-template.vtl"
+            },
+            "base_ubuntuCDS-mapping": {
+              "type": "artifact-mapping-resource",
+              "file": "Templates/base_ubuntuCDS-mapping.json"
+            }
+          }
+        }
+      }
+    }
+  }
