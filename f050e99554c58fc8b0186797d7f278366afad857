@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "48ec4cce_94e772d2",
+        "filename": "docs/guides/onap-user/design/parameter_resolution/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-11-29T09:24:59Z",
+      "side": 1,
+      "message": "set the parameter values for the created instances.",
+      "range": {
+        "startLine": 14,
+        "startChar": 32,
+        "endLine": 14,
+        "endChar": 67
+      },
+      "revId": "f050e99554c58fc8b0186797d7f278366afad857",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "66184395_7f037470",
+        "filename": "docs/guides/onap-user/design/parameter_resolution/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-11-29T09:24:59Z",
+      "side": 1,
+      "message": "In the first releases of ONAP the operator needed to provide these parameters as preload data via datasheet or API call before instantiating each PNF/VNF/CNF.\nThis was an error-prone manual step that interferes with an automated and scalable service instantiation.",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 31
+      },
+      "revId": "f050e99554c58fc8b0186797d7f278366afad857",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aab42594_39b86ae4",
+        "filename": "docs/guides/onap-user/design/parameter_resolution/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-11-29T09:24:59Z",
+      "side": 1,
+      "message": "workaround",
+      "range": {
+        "startLine": 79,
+        "startChar": 4,
+        "endLine": 79,
+        "endChar": 15
+      },
+      "revId": "f050e99554c58fc8b0186797d7f278366afad857",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8adfddbf_2ce9bd77",
+        "filename": "docs/guides/onap-user/design/parameter_resolution/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-11-29T09:24:59Z",
+      "side": 1,
+      "message": "file used to deploy the CDS UI",
+      "range": {
+        "startLine": 92,
+        "startChar": 34,
+        "endLine": 92,
+        "endChar": 63
+      },
+      "revId": "f050e99554c58fc8b0186797d7f278366afad857",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e94c1833_c0220180",
+        "filename": "docs/guides/onap-user/design/parameter_resolution/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-11-29T09:24:59Z",
+      "side": 1,
+      "message": "an",
+      "range": {
+        "startLine": 129,
+        "startChar": 15,
+        "endLine": 129,
+        "endChar": 16
+      },
+      "revId": "f050e99554c58fc8b0186797d7f278366afad857",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "31095da9_cc6a0629",
+        "filename": "docs/guides/onap-user/design/parameter_resolution/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-11-29T09:24:59Z",
+      "side": 1,
+      "message": "firewall",
+      "range": {
+        "startLine": 160,
+        "startChar": 55,
+        "endLine": 160,
+        "endChar": 62
+      },
+      "revId": "f050e99554c58fc8b0186797d7f278366afad857",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e3badcfc_5d5956b5",
+        "filename": "docs/guides/onap-user/design/parameter_resolution/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-11-29T09:24:59Z",
+      "side": 1,
+      "message": "Please check with Yuiry, he said, that no predefined DD exit, all definitions need to be imported. \nMaybe a link to examples would be good (https://github.com/onap/ccsdk-cds/tree/master/components/model-catalog/resource-dictionary/starter-dictionary)",
+      "range": {
+        "startLine": 210,
+        "startChar": 0,
+        "endLine": 210,
+        "endChar": 71
+      },
+      "revId": "f050e99554c58fc8b0186797d7f278366afad857",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e567432f_642b49ce",
+        "filename": "docs/guides/onap-user/design/parameter_resolution/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-11-29T09:24:59Z",
+      "side": 1,
+      "message": "capabilities",
+      "range": {
+        "startLine": 271,
+        "startChar": 43,
+        "endLine": 271,
+        "endChar": 54
+      },
+      "revId": "f050e99554c58fc8b0186797d7f278366afad857",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
