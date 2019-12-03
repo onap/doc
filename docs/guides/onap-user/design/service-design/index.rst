@@ -100,6 +100,10 @@ Create a Service
 #. After creating a service and configuring optional fields, submit it
    for testing (see `Submit a Service for Testing`_).
 
+Note: Create Service can now be invoked via External SDC API also.
+Refer SDC REST API reference for details of the API.
+Currently, only a 'Partner Domain Service' category is supported
+which cannot be created manually from SDC portal.
 
 Create a Workflow [optional]
 ----------------------------
