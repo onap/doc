@@ -605,6 +605,126 @@ to perform a "GET" on the request to check the result.
       -H 'X-TransactionId: get_aai_subscr' \
       -H 'cache-control: no-cache'
 
+
+To delete the service instance, just add the service_instance_id in the URL and
+send a DELETE operation.
+
+
+::
+
+   curl -X DELETE \
+   http://so.api.simpledemo.onap.org:30277/onap/so/infra/serviceInstantiation/v7/serviceInstances/{{service_instance_Id}} \
+   -H 'Accept: application/json' \
+   -H 'Authorization: Basic SW5mcmFQb3J0YWxDbGllbnQ6cGFzc3dvcmQxJA==' \
+   -H 'Content-Type: application/json' \
+   -H 'X-ONAP-PartnerName: NBI' \
+   -H 'cache-control: no-cache' \
+   -d '{
+      "requestDetails": {
+         "subscriberInfo": {
+               "globalSubscriberId": "JohnDoe"
+         },
+         "requestInfo": {
+               "suppressRollback": false,
+               "productFamilyId": "Useless_But_Mandatory",
+               "requestorId": "adt",
+               "instanceName": "My_ubuntuCDS_service_instance_001",
+               "source": "VID"
+         },
+         "cloudConfiguration": {
+               "lcpCloudRegionId": "RegionOne",
+               "tenantId": "71cf9d931d9e4b8e9fcca50d97c1cf96",
+               "cloudOwner": "ONAP"
+         },
+         "requestParameters": {
+               "subscriptionServiceType": "ubuntuCDS",
+               "userParams": [
+                  {
+                     "Homing_Solution": "none"
+                  },
+                  {
+                     "service": {
+                           "instanceParams": [],
+                           "instanceName": "My_ubuntuCDS_service_instance_001",
+                           "resources": {
+                              "vnfs": [
+                                 {
+                                       "modelInfo": {
+                                          "modelName": "ubuntuCDS",
+                                          "modelVersionId": "c6a5534e-76d5-4128-97bf-ad3b72208d53",
+                                          "modelInvariantUuid": "ed3064e7-62c0-494c-bb9b-4f56d1ad157e",
+                                          "modelVersion": "1.0",
+                                          "modelCustomizationId": "6a32fb56-191e-4d11-a0cc-44b779aba4fc",
+                                          "modelInstanceName": "ubuntuCDS 0"
+                                       },
+                                       "cloudConfiguration": {
+                                          "lcpCloudRegionId": "RegionOne",
+                                          "tenantId": "71cf9d931d9e4b8e9fcca50d97c1cf96"
+                                       },
+                                       "platform": {
+                                          "platformName": "Useless_But_Mandatory"
+                                       },
+                                       "productFamilyId": "Useless_But_Mandatory",
+                                       "instanceName": "My_VNF_ubuntuCDS_instance_001",
+                                       "instanceParams": [
+                                          {
+                                             "vnf_name": "My_VNF_ubuntuCDS_instance_001"
+                                          }
+                                       ],
+                                       "vfModules": [
+                                          {
+                                             "modelInfo": {
+                                                   "modelName": "Ubuntucds..base_ubuntuCDS..module-0",
+                                                   "modelVersionId": "3025cd36-b170-4667-abb1-2bae1f297844",
+                                                   "modelInvariantUuid": "0101f9e0-7beb-4b58-92c7-ba3324b5a54d",
+                                                   "modelVersion": "1",
+                                                   "modelCustomizationId": "9bca4d4b-e27c-4652-a61e-b1b4ebca503d"
+                                             },
+                                             "instanceName": "My_vfModule_ubuntuCDS_instance_001",
+                                             "instanceParams": [
+                                                   {
+                                                      "vnf_name": "My_VNF_ubuntuCDS_instance_001",
+                                                      "vf_module_name": "My_vfModule_ubuntuCDS_instance_001",
+                                                      "ubuntuCDS_pub_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDY15cdBmIs2XOpe4EiFCsaY6bmUmK/GysMoLl4UG51JCfJwvwoWCoA+6mDIbymZxhxq9IGxilp/yTA6WQ9s/5pBag1cUMJmFuda9PjOkXl04jgqh5tR6I+GZ97AvCg93KAECis5ubSqw1xOCj4utfEUtPoF1OuzqM/lE5mY4N6VKXn+fT7pCD6cifBEs6JHhVNvs5OLLp/tO8Pa3kKYQOdyS0xc3rh+t2lrzvKUSWGZbX+dLiFiEpjsUL3tDqzkEMNUn4pdv69OJuzWHCxRWPfdrY9Wg0j3mJesP29EBht+w+EC9/kBKq+1VKdmsXUXAcjEvjovVL8l1BrX3BY0R8D imported-openssh-key",
+                                                      "ubuntuCDS_image_name": "ubuntu-18.04-daily",
+                                                      "ubuntuCDS_flavor_name": "onap.small",
+                                                      "ubuntuCDS_name_0": "ubuntuCDS-VM-001",
+                                                      "admin_plane_net_name": "admin"
+                                                   }
+                                             ]
+                                          }
+                                       ]
+                                 }
+                              ]
+                           },
+                           "modelInfo": {
+                              "modelVersion": "1.0",
+                              "modelVersionId": "10369444-1e06-4d5d-974b-362bcfd19533",
+                              "modelInvariantId": "32e00b49-eff8-443b-82a8-b75fbb6e3867",
+                              "modelName": "ubuntuCDS",
+                              "modelType": "service"
+                           }
+                     }
+                  }
+               ],
+               "aLaCarte": false,
+               "usePreload": false
+         },
+         "owningEntity": {
+               "owningEntityId": "Useless_But_Mandatory",
+               "owningEntityName": "Useless_But_Mandatory"
+         },
+         "modelInfo": {
+               "modelVersion": "1.0",
+               "modelVersionId": "10369444-1e06-4d5d-974b-362bcfd19533",
+               "modelInvariantId": "32e00b49-eff8-443b-82a8-b75fbb6e3867",
+               "modelName": "ubuntuCDS",
+               "modelType": "service"
+         }
+      }
+   }'
+
+
 Trouble shooting
 ----------------
 
