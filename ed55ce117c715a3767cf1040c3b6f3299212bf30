@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "86732c98_421b538c",
+        "filename": "docs/guides/onap-user/design/service-design/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-12-05T08:31:09Z",
+      "side": 1,
+      "message": "Hi, I think you want to explain, that the \"Create Service\" can also be invoked via external SDC API. But from reading it looks like, that it only can be via the API (\"it can be invoked via NBI only\"), therefor I would suggest to rephrase it a bit, like:\n\nNote: \"Create Service\" can now be invoked via the external SDC API (see \u003c../../../../submodules/sdc.git/docs/offeredapis.rst\u003e). Currently, only a \u0027Partner Domain Service\u0027 category is supported, which cannot be created manually from SDC portal.",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 50
+      },
+      "revId": "ed55ce117c715a3767cf1040c3b6f3299212bf30",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
