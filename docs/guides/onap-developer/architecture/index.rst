@@ -7,8 +7,8 @@
 
 .. _doc-architecture:
 
-Architecture
-============
+ONAP Architecture
+=================
 
 .. toctree::
    :maxdepth: 2
