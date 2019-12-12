@@ -46,6 +46,30 @@
       "revId": "ed55ce117c715a3767cf1040c3b6f3299212bf30",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6601327b_dfb91c7d",
+        "filename": "docs/guides/onap-user/design/service-design/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-12-12T08:52:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e566c147_108ef201",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 50
+      },
+      "revId": "ed55ce117c715a3767cf1040c3b6f3299212bf30",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
