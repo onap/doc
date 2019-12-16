@@ -1,11 +1,11 @@
 tox
-Sphinx==2.3.0
+Sphinx
 doc8
 docutils
 setuptools
 six
 sphinx_rtd_theme>=0.4.3
-sphinxcontrib-blockdiag
+sphinxcontrib-blockdiag==1.5.5
 sphinxcontrib-needs>=0.2.3
 sphinxcontrib-nwdiag
 sphinxcontrib-seqdiag
