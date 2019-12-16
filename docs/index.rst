@@ -39,19 +39,15 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | We can learn what functionalities ONAP provides and how the certain components in ONAP        |
  |                                                                                 | operate together.                                                                             |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`Setting Up ONAP <installing-onap>`                                        | Installation guidelines and requirements help the very first set up of an                     |
- |                                                                                 | ONAP environment. The ONAP Operations Manager Cloud setup Guide and the                       |
- |                                                                                 | ONAP Operations Manager Quick Start Guide support the deployment and installation activities. |
+ | :ref:`Operations and Adminstration Guides <operation_guides>`                   | ONAP Platform operation and adminstration cover the configuration and installation of ONAP,   |
+ |                                                                                 | its management, monitoring and other operational tasks (integration, user management,...)     |
+ +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+ | :ref:`User Guides <user-guides>`                                                | The User Guides focus on tasks to administer Services using ONAP, covering Service Design,    |
+ |                                                                                 | instantiation and their management using control loops                                        |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`Developer Guides <ONAP_developer_guides>`                                 | Developers contributing to the ONAP development can find crucial information                  |
  |                                                                                 | in the Developer Guides. The reader can search among the developers’ topics                   |
  |                                                                                 | in alphabetical order.                                                                        |
- +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`User Guides <user-guides>`                                                | The User Guides provide details on the ONAP portal, which portal integrates                   |
- |                                                                                 | numerous different ONAP applications at one place. Platform operations are                    |
- |                                                                                 | supported with ONAP Operations Quick Start Guide and with an ONAP Operations                  |
- |                                                                                 | User Guide. The instantiation and the management of resources and the services                |
- |                                                                                 | are supported with a Service Design Guide and with guidelines on Service Deployment.          |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`VNF/PNF Requirements and Guidelines <vnf_pnf_reqs>`                       | Harmonized VNF and PNF requirements and reduced customization of onboarding VNFs              |
  |                                                                                 | and PNFs can accelerate the optimal usage of this ONAP environment. The guidelines            |
@@ -69,7 +65,7 @@ Please find some guidance here on the content of ONAP documentation:
    guides/overview/index
    guides/onap-developer/architecture/index
    guides/onap-developer/developing/index
-   guides/onap-developer/settingup/index
-   guides/onap-developer/index
+   guides/onap-operator/index
    guides/onap-user/index
+   guides/onap-developer/index
    guides/onap-provider/index

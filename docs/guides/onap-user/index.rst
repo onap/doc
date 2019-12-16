@@ -14,8 +14,6 @@ an instance of ONAP.
    :maxdepth: 1
 
    onapportal.rst
-   platformoperations.rst
-   cloud_site/index.rst
    design/index.rst
    instantiate/index.rst
    configure/index.rst
