@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "ab8c3dba_6189a6f4",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-12-18T13:43:22Z",
+      "side": 1,
+      "message": "That is just the heading for that chapter, so for Software deliverables and Documentation Deliverables.",
+      "parentUuid": "9a7fe0af_d9024986",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 12
+      },
+      "revId": "276d39a23778a424cff97d85f702986d28a70af1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9bca814d_6db6f2ad",
         "filename": "docs/templates/sections/release-notes.rst",
         "patchSetId": 2
@@ -94,6 +118,30 @@
     },
     {
       "key": {
+        "uuid": "38d64241_d03bfadb",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-12-18T13:43:22Z",
+      "side": 1,
+      "message": "It can be. But I\u0027m thinking there might be other additions not covered by attached list of docker images?",
+      "parentUuid": "9bca814d_6db6f2ad",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 0
+      },
+      "revId": "276d39a23778a424cff97d85f702986d28a70af1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "bcfc0e91_5909b7ab",
         "filename": "docs/templates/sections/release-notes.rst",
         "patchSetId": 2
@@ -105,6 +153,30 @@
       "writtenOn": "2019-12-18T12:12:40Z",
       "side": 1,
       "message": "Known Issues would be JIRA tickets - those tickets should have the workarounds explicitly outlined. So do we need another section for this? If you have multiple places where things are documented, then its difficult to remember to keep both up-to-date.",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 0
+      },
+      "revId": "276d39a23778a424cff97d85f702986d28a70af1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8fde57c4_a770cc14",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2019-12-18T13:43:22Z",
+      "side": 1,
+      "message": "I\u0027m thinking this is where you list your Jira tickets. As well under Known Issues. System limitations might be limited and a short text in bullet form should be enough.",
+      "parentUuid": "bcfc0e91_5909b7ab",
       "range": {
         "startLine": 61,
         "startChar": 0,
