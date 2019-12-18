@@ -45,6 +45,75 @@
       "revId": "276d39a23778a424cff97d85f702986d28a70af1",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9a7fe0af_d9024986",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 57
+      },
+      "writtenOn": "2019-12-18T12:12:40Z",
+      "side": 1,
+      "message": "What is the difference between this and software deliverables?",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 12
+      },
+      "revId": "276d39a23778a424cff97d85f702986d28a70af1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9bca814d_6db6f2ad",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 57
+      },
+      "writtenOn": "2019-12-18T12:12:40Z",
+      "side": 1,
+      "message": "Isn\u0027t this really covered above in Docker images?",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 0
+      },
+      "revId": "276d39a23778a424cff97d85f702986d28a70af1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bcfc0e91_5909b7ab",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 57
+      },
+      "writtenOn": "2019-12-18T12:12:40Z",
+      "side": 1,
+      "message": "Known Issues would be JIRA tickets - those tickets should have the workarounds explicitly outlined. So do we need another section for this? If you have multiple places where things are documented, then its difficult to remember to keep both up-to-date.",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 0
+      },
+      "revId": "276d39a23778a424cff97d85f702986d28a70af1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
