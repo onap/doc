@@ -1,60 +1,90 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
+.. (c) ONAP Project and its contributors
+
+***********************
+<project> Release Notes
+***********************
+
+Abstract
+========
+
+This document provides the release notes for the ``<releasename>`` release.
+
+Summary
+=======
+
+<Give a high level of your project with regards to this specific release>
 
 
-Release Notes
-=============
+Release Data
+============
 
-.. note::
-        * This Release Notes must be updated each time the team decides to Release new artifacts.
-        * The scope of this Release Notes is for this particular component. In other words, each ONAP component has its Release Notes.
-        * This Release Notes is cumulative, the most recently Released artifact is made visible in the top of this Release Notes.
-        * Except the date and the version number, all the other sections are optional but there must be at least one section describing the purpose of this new release.
-        * This note must be removed after content has been added.
++--------------------------------------+--------------------------------------+
+| **Project**                          |                                      |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Docker images**                    | make sure you include all docker     |
+|                                      |  images including the                |
+|                                      |  release version                     |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release designation**              |                                      |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release date**                     |                                      |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+
+New features
+------------
 
 
-Version: x.y.z
---------------
+Deliverables
+------------
+
+Software Deliverables
+~~~~~~~~~~~~~~~~~~~~~
 
 
-:Release Date: yyyy-mm-dd
+Documentation Deliverables
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Known Limitations, Issues and Workarounds
+=========================================
+
+System Limitations
+------------------
+
+
+Known Issues
+------------
 
 
 
-**New Features**
+Workarounds
+-----------
 
-One or two sentences explaining the purpose of this Release.
 
-**Bug Fixes**
-        - `CIMAN-65 <https://jira.onap.org/browse/CIMAN-65>`_ and a sentence explaining what this defect is addressing.
-**Known Issues**
-        - `CIMAN-65 <https://jira.onap.org/browse/CIMAN-65>`_ and two, three sentences.
-          One sentences explaining what is the issue.
 
-          Another sentence explaining the impact of the issue.
+Test Results
+============
+List or refer to any project specific results
 
-          And an optional sentence providing a workaround.
 
-**Security Notes**
+References
+==========
 
-*Fixed Security Issues*
+For more information on the ONAP ``<release name>`` release, please see:
 
-        List of security issues fixed in this release including CVEs and OJSI tickets.
+#. `ONAP Home Page`_
+#. `ONAP Documentation`_
+#. `ONAP Release Downloads`_
+#. `ONAP Wiki Page`_
 
-*Known Security Issues*
 
-        List of new security issues that are left unfixed in this release including CVEs and OJSI tickets.
-
-*Known Vulnerabilities in Used Modules*
-
-        Results of know vulnerabilities analysis in used modules.
-
-**Upgrade Notes**
-
-**Deprecation Notes**
-
-**Other**
-
-===========
-
-End of Release Notes
+.. _`ONAP Home Page`: https://www.onap.org
+.. _`ONAP  Wiki Page`: https://wiki.onap.org
+.. _`ONAP Documentation`: https://docs.onap.org
+.. _`ONAP Release Downloads`: https://git.onap.org
