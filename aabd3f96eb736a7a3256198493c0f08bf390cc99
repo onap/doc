@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ee2e9398_8bb0f62b",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-12-19T09:15:34Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ef216538_c33bef5c",
+      "range": {
+        "startLine": 53,
+        "startChar": 68,
+        "endLine": 53,
+        "endChar": 76
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "500e7a9f_ba72f0f2",
         "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
         "patchSetId": 3
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "6aa738b1_20f9a8b7",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-12-19T09:15:34Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "500e7a9f_ba72f0f2",
+      "range": {
+        "startLine": 57,
+        "startChar": 8,
+        "endLine": 57,
+        "endChar": 17
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "142fe8ab_993e2bbb",
         "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
         "patchSetId": 3
@@ -59,6 +107,30 @@
       "writtenOn": "2019-12-19T08:31:38Z",
       "side": 1,
       "message": "The MSB https interface (and other port) should be used",
+      "range": {
+        "startLine": 366,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 118
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7afa0480_eef6acf5",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-12-19T09:15:34Z",
+      "side": 1,
+      "message": "No, i have just performed the test with postman but using https, the registration appears ok but the identity-url is not updated in AAI.",
+      "parentUuid": "142fe8ab_993e2bbb",
       "range": {
         "startLine": 366,
         "startChar": 0,
