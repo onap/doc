@@ -6,19 +6,20 @@
 Adding a new Openstack Cloud Site to ONAP
 =========================================
 
-The following guide describe how to configure ONAP to be able to instantiate
+The following guide describes how to configure ONAP to be able to instantiate
 a service in a new cloud site based on Openstack.
 
 There are 2 methods for ONAP to communicate with Openstack in order
 to instantiate a service:
 
-method 1 : ONAP SO => Openstack
-method 2 : ONAP SO => ONAP MultiCloud => Openstack
+* method 1 : ONAP SO => Openstack
+* method 2 : ONAP SO => ONAP MultiCloud => Openstack
 
-In this guideline the following parameter/value will be used
+In this guideline the following parameters/values will be used
 
 * Complex Name: My_Complex
-* Region Name: INTEGRATION_CENTER
+* Region Name: ONAP_Cloud_Region_Name
+* Openstack Tenant Region Value: TenantRegion
 * Cloud Owner: MyCompanyName
 
 
@@ -32,20 +33,32 @@ TO BE DESCRIBED
 Method 2 : using ONAP MultiCloud
 --------------------------------
 
-
 STEP 1 : declare Cloud Site in ONAP SO to interact with ONAP multiCloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The MariaDB database of ONAP SO needs to be modified.
 
-In the ONAP SO, the use of ONAP Multicloud for that Cloud Site need
-to be indicated.
+In the ONAP SO, the use of ONAP Multicloud for that Cloud Site needs to be
+indicated.
 
-ONAP SO will communicate with ONAP MultiCloud like if MultiCloud would be
-an Openstack system.
+ONAP SO will communicate with ONAP MultiCloud that interfaces target cloud
+environment. Two configuration options are offered:
 
+* First option: Declare multicloud URL in identity_services table
+
+  * Openstack tenant credentials are still managed by SO
+  * Openstack tenant region value is checked against Region_ID value in
+    cloud_sites
+
+* Second option (from Dublin version): Target solution managing all Openstack
+  tenant information within AAI
+
+  * ORCHESTRATOR value is set to `multicloud` in cloud_sites table
+  * All Openstack tenant information are stored in AAI and managed by
+    multicloud
 
 Connect to ONAP SO pod
+^^^^^^^^^^^^^^^^^^^^^^
 
 In a Unix Terminal, to get the SO pods id that is providing
 the MariaDB database:
@@ -72,17 +85,31 @@ Nevertheless, you need to provide a correct encrypted value for the pass value.
 "MyCompanyName" is a cloud owner value. WARNING : do not use underscore
 in the value.
 
-"INTEGRATION_CENTER" is the region name
+"ONAP_Cloud_Region_Name" is the ONAP region name that can be different from
+final Openstack tenant region name (TenantRegion in the example).
 
 ::
 
   mysql --user=so_admin --password=so_Admin123
   USE catalogdb
-  INSERT INTO identity_services VALUES('MC_KEYSTONE', 'http://msb-iag.onap:80/api/multicloud/v1/MyCompanyName_INTEGRATION_CENTER/identity/v2.0', 'admin', '5b6f369745f5f0e1c61da7f0656f3daf93c8030a2ea94b7964c67abdcfb49bdf2fa2266344b4caaca1eba8264d277831', 'service', 'admin', 1, 'KEYSTONE', 'USERNAME_PASSWORD', 'lastUser', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
-  INSERT INTO cloud_sites VALUES('INTEGRATION_CENTER', 'INTEGRATION_CENTER', 'MC_KEYSTONE', 2.5, 'INTEGRATION_CENTER', NULL, NULL, NULL, 'MySelf', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
+
+  # First option: Without using ORCHESTRATOR VALUE set to multicloud
+  INSERT INTO identity_services VALUES('MC_KEYSTONE', 'http://msb-iag.onap:80/api/multicloud/v1/MyCompanyName/ONAP_Cloud_Region_Name/identity/v2.0', 'admin', '5b6f369745f5f0e1c61da7f0656f3daf93c8030a2ea94b7964c67abdcfb49bdf2fa2266344b4caaca1eba8264d277831', 'service', 'admin', 1, 'KEYSTONE', 'USERNAME_PASSWORD', 'lastUser', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
+  INSERT INTO cloud_sites VALUES('ONAP_Cloud_Region_Name', 'TenantRegion', 'MC_KEYSTONE', 2.5, 'ONAP_Cloud_Region_Name', NULL, NULL, NULL, 'MySelf', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
+
+  # Second option: using ORCHESTRATOR VALUE set to multicloud from Dublin version
+  INSERT INTO cloud_sites(ID, REGION_ID, IDENTITY_SERVICE_ID, CLOUD_VERSION, CLLI, ORCHESTRATOR) values("ONAP_Cloud_Region_Name", "ONAP_Cloud_Region_Name", "DEFAULT_KEYSTONE", "2.5", "My_Complex", "multicloud");
 
 
-You need then to change the ONAP SO VNF Adapter Rest API endpoint version:
+**Known restriction with second option**
+
+See the following tickets:
+
+* `MULTICLOUD-846 <https://jira.onap.org/browse/MULTICLOUD-846>`_
+* `MULTICLOUD-866 <https://jira.onap.org/browse/MULTICLOUD-866>`_
+
+ONAP SO VNF Adapter Rest API endpoint version shall be set to version "v2"
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 in a unix terminal:
 
@@ -113,26 +140,26 @@ in the section "vnf", modify the rest endpoint:
                endpoint: http://so-openstack-adapter.onapg:8087/services/rest/v1/volume-groups
 
 
-Having modified the configmap, it is necessary to delete the pod in order
-it takes the modification into account.
+Having modified the configmap, it is necessary to delete the pod bpmn-infra in
+order it takes the modification into account.
 
 to find the right pod name:
 
 ::
 
-  kubectl -n onap get po | grep so-so
+  kubectl get po -n onap |grep bpmn-infra
 
 
 You need to find the pod that is similar to the following pod id:
 
-"onap-so-so-6b9f64b887-jgrdp"
+"onap-so-so-bpmn-infra-79fdf6f9d5-t8qr4"
 
 
 to delete the pod:
 
 ::
 
-  kubectl -n onap delete onap-so-so-6b9f64b887-jgrdp
+  kubectl -n onap delete onap-so-so-bpmn-infra-79fdf6f9d5-t8qr4
 
 
 Then, wait for the pod to restart. To check:
@@ -149,6 +176,7 @@ STEP 2 : declare the new cloud Site in ONAP AAI
 
 
 declare a Complex in ONAP AAI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 A Cloud Site is located in a Building called "Complex" object
@@ -207,42 +235,43 @@ Check the Complexes in ONAP AAI:
 
 
 
-declare a Cloud Site in ONAP AAI
+Declare a Cloud Site in ONAP AAI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 To declare a Cloud Site, you need to use the AAI REST API.
 
-The new Cloud site is named "INTEGRATION_CENTER" in this example.
+The new Cloud site is named "ONAP_Cloud_Region_Name" in this example.
 
 There is also a "Cloud Owner" notion in ONAP AAI datamodel.
 
 The new Cloud Owner is named "MyCompanyName" in this example.
 
 In Openstack, there is also a "region" notion. You need to get the value of
-the region that has been set when deploying your openstack platform
+the region that has been set when deploying your Openstack platform.
 
-In the following example the openstack region has the value "RegionOne"
+In the following example the Openstack region has the value "TenantRegion"
 (in the parameter "cloud-extra-info")
 
 parameter "complex-name" relate to the Complex you previously declared.
 
 parameter "cloud-type" take the value "openstack"
 
-parameter "cloud-region-version" is refering to your openstack version
+parameter "cloud-region-version" is refering to your Openstack version
 
 parameter "cloud-extra-info" will contain the Openstack "region".
-Here, the region ID of the deployed openstack cloud site will be set.
+Here, the region ID of the deployed Openstack cloud site will be set.
 
-In the following example the openstack region has the value "RegionOne".
+In the following example the Openstack region has the value "TenantRegion".
 
-parameter "esr-system-info-list" will contain the list of openstack platform
+parameter "esr-system-info-list" will contain the list of Openstack platform
 credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
 
 
 ::
 
   curl -X PUT \
-  https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/INTEGRATION_CENTER \
+  https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAP_Cloud_Region_Name \
   -H 'Accept: application/json' \
   -H 'Authorization: Basic QUFJOkFBSQ==' \
   -H 'Cache-Control: no-cache' \
@@ -253,7 +282,7 @@ credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
   -H 'X-TransactionId: 9999' \
   -d '{
       "cloud-owner": "MyCompanyName",
-      "cloud-region-id": "INTEGRATION_CENTER",
+      "cloud-region-id": "ONAP_Cloud_Region_Name",
       "cloud-type": "openstack",
       "owner-defined-type": "N/A",
       "cloud-region-version": "pike",
@@ -261,7 +290,7 @@ credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
       "cloud-zone": "CloudZone",
       "sriov-automation": false,
       "identity-url": "WillBeUpdatedByMultiCloud",
-      "cloud-extra-info":"{\"openstack-region-id\":\"RegionOne\"}"
+      "cloud-extra-info":"{\"openstack-region-id\":\"TenantRegion\"}"
       "esr-system-info-list": {
           "esr-system-info": [
               {
@@ -270,7 +299,7 @@ credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
               "user-name": "<your openstack user>",
               "password": "<your openstack password>",
               "system-type": "VIM",
-              "ssl-insecure": true,
+              "ssl-insecure": false,
               "cloud-domain": "Default",
               "default-tenant": "<your openstack project name>",
               "system-status": "active"
@@ -279,14 +308,23 @@ credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
         }
       }' -k
 
+In this example, the cloud-region-version is set to `pike` that is the
+Openstack pike version.
+
+* Multicloud pike plugin is claimed to support Openstack pike
+* It is possible but not guaranteed to support other Openstack version
+  (e.g. rocky) since no testing has been done by multicloud project on all
+  other Openstack versions.
+* Whatever the Openstack version is tested against, if the cause of a bug roots
+  in Openstack pike source code, this bug shall be reported.
+* `starlingx` is another possible version value for Openstack clouds.
 
 Associate Cloud site to a Complex in ONAP AAI:
-
 
 ::
 
   curl -X PUT \
-    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/INTEGRATION_CENTER/relationship-list/relationship \
+    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAP_Cloud_Region_Name/relationship-list/relationship \
     -H 'Accept: application/json' \
     -H 'Authorization: Basic QUFJOkFBSQ==' \
     -H 'Content-Type: application/json' \
@@ -318,38 +356,6 @@ Check the Cloud Site creation in ONAP AAI:
     -H 'cache-control: no-cache' -k
 
 
-Associate an Availability zone to a Cloud site in ONAP AAI:
-
-::
-
-  curl -X PUT \
-    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/INTEGRATION_CENTER/availability-zones/availability-zone/brittany \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Basic QUFJOkFBSQ==' \
-    -H 'Content-Type: application/json' \
-    -H 'X-FromAppId: AAI' \
-    -H 'X-TransactionId: get_aai_subscr' \
-    -H 'cache-control: no-cache' \
-    -d '{
-      "availability-zone-name": "brittany",
-      "hypervisor-type": "KVM"
-  }'
-
-
-Check the operation:
-
-::
-
-  curl -X GET \
-    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/INTEGRATION_CENTER/availability-zones \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Basic QUFJOkFBSQ==' \
-    -H 'Content-Type: application/json' \
-    -H 'X-FromAppId: AAI' \
-    -H 'X-TransactionId: 808b54e3-e563-4144-a1b9-e24e2ed93d4f' \
-    -H 'cache-control: no-cache'
-
-
 
 STEP 3 : Register the Cloud Site in ONAP Multicloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -357,7 +363,7 @@ STEP 3 : Register the Cloud Site in ONAP Multicloud
 ::
 
   curl -X POST \
-  http://msb.api.discovery.simpledemo.onap.org:30280/api/multicloud/v1/MyCompanyName_INTEGRATION_CENTER/registry \
+  https://msb.api.discovery.simpledemo.onap.org:30283/api/multicloud/v1/MyCompanyName/ONAP_Cloud_Region_Name/registry \
   -H 'Accept: application/json' \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
@@ -368,7 +374,7 @@ check registration:
 ::
 
   curl -X GET \
-  https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/INTEGRATION_CENTER?depth=all \
+  https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAP_Cloud_Region_Name?depth=all \
   -H 'Accept: application/json' \
   -H 'Authorization: Basic QUFJOkFBSQ==' \
   -H 'Cache-Control: no-cache' \
@@ -376,3 +382,23 @@ check registration:
   -H 'Real-Time: true' \
   -H 'X-FromAppId: jimmy-postman' \
   -H 'X-TransactionId: 9999' -k
+
+The registration is successfull if at least, the field `identity-url` is
+updated with the multicloud http url. In addition, all the cloud information
+are loaded in AAI (Flavors, images, etc) but only
+
+* if ORCHESTRATOR value is set to `multicloud` in cloud_sites database table
+* and if the Openstack cloud is configured to support only keystone v2 or v3
+  having the version set in the service url. Multicloud pike and starlingx
+  plugins do not support an Openstack cloud that exposes both v2 and v3.
+
+::
+
+  openstack endpoint list --service keystone
+  +----------------------------------+-----------+--------------+--------------+---------+-----------+-----------------------------------+
+  | ID                               | Region    | Service Name | Service Type | Enabled | Interface | URL                               |
+  +----------------------------------+-----------+--------------+--------------+---------+-----------+-----------------------------------+
+  | 53c0016ad22144b2883b3a9487206a4b | RegionOne | keystone     | identity     | True    | public    | https://specific_url:5000/v3      |
+  | 85a7a334353a4b028d8005a454b6578f | RegionOne | keystone     | identity     | True    | admin     | http://10.x.x.9:35357/v3          |
+  | 8d5274cd66884ec7b0e3edd965a53f69 | RegionOne | keystone     | identity     | True    | internal  | http://10.x.x.9:5000/v3           |
+  +----------------------------------+-----------+--------------+--------------+---------+-----------+-----------------------------------+
