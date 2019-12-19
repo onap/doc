@@ -140,6 +140,30 @@
       "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "139fed89_db6f98f8",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-12-19T09:46:06Z",
+      "side": 1,
+      "message": "Sorry, after a new test using new cloud owner value, it works. The identity-url is well updated in AAI but setting http url!\nIn my previous attempt, some datas were still present in multicloud with existing cloud owner\nI prepare the new patchset",
+      "parentUuid": "7afa0480_eef6acf5",
+      "range": {
+        "startLine": 366,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 118
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
