@@ -188,6 +188,30 @@
       "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4fcfcc32_b76e58d3",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2019-12-19T13:32:38Z",
+      "side": 1,
+      "message": "Hi,\nI suppose that you didn\u0027t see my previous comment. Using a new cloud owner/cloud region, the update via msb https works even with ElAlto so i modified the description to recommend https (compatible with all releases)",
+      "parentUuid": "6d0ade16_be924fcb",
+      "range": {
+        "startLine": 366,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 118
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
