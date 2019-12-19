@@ -164,6 +164,30 @@
       "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6d0ade16_be924fcb",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-12-19T12:25:18Z",
+      "side": 1,
+      "message": "Hi Thierry,\nyou may look at the ElAlto Release, where the MSB http interface still existed.\nBut in Frankfurt (below output in master installation) this interface is removed (see OOM changes 19./20.11.2019).\nSo in my opinion there should be a solution using the https interface in MSB or put a note, that this description is only valid for ElAlto.\nBest regards\nAndreas\n\nubuntu@control01-onap-master:~$ kubectl get service -n onap|grep msb\nmsb-consul                         ClusterIP      10.43.243.108   \u003cnone\u003e                                 8500/TCP                                                      7h10m\nmsb-discovery                      ClusterIP      10.43.139.248   \u003cnone\u003e                                 10081/TCP                                                     7h10m\nmsb-eag                            NodePort       10.43.232.16    \u003cnone\u003e                                 443:30284/TCP                                                 7h10m\nmsb-iag                            NodePort       10.43.254.42    \u003cnone\u003e                                 443:30283/TCP                                                 7h10m",
+      "parentUuid": "139fed89_db6f98f8",
+      "range": {
+        "startLine": 366,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 118
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
