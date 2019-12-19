@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ef216538_c33bef5c",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-12-19T08:31:38Z",
+      "side": 1,
+      "message": "Openstack",
+      "range": {
+        "startLine": 53,
+        "startChar": 68,
+        "endLine": 53,
+        "endChar": 76
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "500e7a9f_ba72f0f2",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-12-19T08:31:38Z",
+      "side": 1,
+      "message": "Openstack",
+      "range": {
+        "startLine": 57,
+        "startChar": 8,
+        "endLine": 57,
+        "endChar": 17
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "142fe8ab_993e2bbb",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2019-12-19T08:31:38Z",
+      "side": 1,
+      "message": "The MSB https interface (and other port) should be used",
+      "range": {
+        "startLine": 366,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 118
+      },
+      "revId": "aabd3f96eb736a7a3256198493c0f08bf390cc99",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
