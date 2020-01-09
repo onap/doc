@@ -8,7 +8,7 @@
 	url = ../vnfrqts/requirements
 	branch = .
 	ignore = dirty
-[submodule "docs/submodules/appc"]
+[submodule "docs/submodules/appc.git"]
 	path = docs/submodules/appc.git
 	url = ../appc
 	branch = .
