@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "893671b3_70199804",
+        "filename": "docs/guides/onap-operator/cloud_site/openstack/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 5622
+      },
+      "writtenOn": "2020-01-09T12:34:48Z",
+      "side": 1,
+      "message": "In that case to avoid further errors for newbies on ONAP, it is requested to change ONAP_Cloud_Region_Name to ONAPCloudRegionName",
+      "range": {
+        "startLine": 90,
+        "startChar": 9,
+        "endLine": 90,
+        "endChar": 20
+      },
+      "revId": "fe62d50776e3c2696c3fbbb2ecc3c67b7b14a520",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
