@@ -8,7 +8,7 @@
 	url = https://gerrit.onap.org/r/vnfrqts/requirements
 	branch = elalto
 	ignore = dirty
-[submodule "docs/submodules/appc"]
+[submodule "docs/submodules/appc.git"]
 	path = docs/submodules/appc.git
 	url = https://gerrit.onap.org/r/appc
 	branch = elalto
