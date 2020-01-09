@@ -87,6 +87,8 @@ in the value.
 
 "ONAP_Cloud_Region_Name" is the ONAP region name that can be different from
 final Openstack tenant region name (TenantRegion in the example).
+*** know restriction ****
+Check status of https://jira.onap.org/projects/MULTICLOUD/issues/MULTICLOUD-970
 
 ::
 
@@ -94,7 +96,7 @@ final Openstack tenant region name (TenantRegion in the example).
   USE catalogdb
 
   # First option: Without using ORCHESTRATOR VALUE set to multicloud
-  INSERT INTO identity_services VALUES('MC_KEYSTONE', 'http://msb-iag.onap:80/api/multicloud/v1/MyCompanyName/ONAP_Cloud_Region_Name/identity/v2.0', 'admin', '5b6f369745f5f0e1c61da7f0656f3daf93c8030a2ea94b7964c67abdcfb49bdf2fa2266344b4caaca1eba8264d277831', 'service', 'admin', 1, 'KEYSTONE', 'USERNAME_PASSWORD', 'lastUser', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
+  INSERT INTO identity_services VALUES('MC_KEYSTONE', 'http://msb-iag.onap:80/api/multicloud/v1/MyCompanyName/ONAP_Cloud_Region_Name/identity/v2.0', 'admin', '5b6f369745f5f0e1c61da7f0656f3daf93c8030a2ea94b7964c67abdcfb49bdf2fa2266344b4caaca1eba8264d277831', 'service', 'admin', 1, 'KEYSTONE', 'USERNAME_PASSWORD', 'lastUser', '2019-07-05 10:32:00', '2019-07-05 10:32:00','PROJECT_DOMAIN_NAME','USER_DOMAIN_NAME');
   INSERT INTO cloud_sites VALUES('ONAP_Cloud_Region_Name', 'TenantRegion', 'MC_KEYSTONE', 2.5, 'ONAP_Cloud_Region_Name', NULL, NULL, NULL, 'MySelf', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
 
   # Second option: using ORCHESTRATOR VALUE set to multicloud from Dublin version
@@ -290,7 +292,7 @@ credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
       "cloud-zone": "CloudZone",
       "sriov-automation": false,
       "identity-url": "WillBeUpdatedByMultiCloud",
-      "cloud-extra-info":"{\"openstack-region-id\":\"TenantRegion\"}"
+      "cloud-extra-info":"{\"openstack-region-id\":\"TenantRegion\"}",
       "esr-system-info-list": {
           "esr-system-info": [
               {
