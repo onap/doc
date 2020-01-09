@@ -214,7 +214,7 @@ k8s cloud region.
       "cloud-zone": "CloudZone",
       "sriov-automation": false,
       "identity-url": "",
-      "cloud-extra-info":"{\"openstack-region-id\":\"TenantRegion\"}"
+      "cloud-extra-info":"{\"openstack-region-id\":\"TenantRegion\"}",
       "esr-system-info-list": {
           "esr-system-info": [
               {
