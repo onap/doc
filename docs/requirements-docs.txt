@@ -11,4 +11,5 @@ sphinxcontrib-nwdiag
 sphinxcontrib-seqdiag
 sphinxcontrib-swaggerdoc
 sphinxcontrib-plantuml
-sphinx_bootstrap_theme>=0.4.11
+sphinx_bootstrap_theme
+lfdocs-conf
