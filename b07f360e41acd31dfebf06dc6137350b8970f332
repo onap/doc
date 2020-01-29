@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "5a64b5f2_148c375e",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 943
+      },
+      "writtenOn": "2020-01-29T14:14:03Z",
+      "side": 1,
+      "message": "Should read \u003cGive a high level description of your project with regards to this specific release\u003e",
+      "revId": "b07f360e41acd31dfebf06dc6137350b8970f332",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "99be016e_ab47113e",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 943
+      },
+      "writtenOn": "2020-01-29T14:14:03Z",
+      "side": 1,
+      "message": "Please add a section for Known Vulnerabilities",
+      "revId": "b07f360e41acd31dfebf06dc6137350b8970f332",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9e1f7e17_97cff721",
         "filename": "docs/templates/sections/release-notes.rst",
         "patchSetId": 3
