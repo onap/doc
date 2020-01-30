@@ -1,0 +1,17 @@
+# Formats in addition to HTML
+
+formats:
+   - htmlzip
+
+python:
+  version: 3.7
+  install:
+    - requirements: docs/requirements-docs.txt
+
+# Build Container
+build:
+   image: latest
+
+
+sphinx:
+    configuration: docs/conf.py
