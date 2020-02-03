@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "17a213d1_1a4f0d0c",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4965
+      },
+      "writtenOn": "2020-02-03T13:28:42Z",
+      "side": 1,
+      "message": "BTW\nWould be great if you could also provide some nice template how to list issues using jira tickets as projects tend to have a mix of forms. This would help us unify that",
+      "revId": "b07f360e41acd31dfebf06dc6137350b8970f332",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "99be016e_ab47113e",
         "filename": "docs/templates/sections/release-notes.rst",
         "patchSetId": 3
