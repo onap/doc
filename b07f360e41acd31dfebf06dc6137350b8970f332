@@ -89,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "1cfdd34c_4efd5d2a",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2020-02-03T14:03:03Z",
+      "side": 1,
+      "message": "Sure I can add it as a separate heading, but would you prefer to call it Known Vulnerabilities or Security Notes?",
+      "parentUuid": "d4aaab2a_26f3691d",
+      "revId": "b07f360e41acd31dfebf06dc6137350b8970f332",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9e1f7e17_97cff721",
         "filename": "docs/templates/sections/release-notes.rst",
         "patchSetId": 3
