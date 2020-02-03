@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "76ff8311_9ac6186b",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2020-02-03T13:22:25Z",
+      "side": 1,
+      "message": "You mean as a subheading under \u0027Test Results\u0027? Otherwise would it make sense to add it under \u0027Known Limitations, Issues and Workarounds\u0027?",
+      "parentUuid": "99be016e_ab47113e",
+      "revId": "b07f360e41acd31dfebf06dc6137350b8970f332",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9e1f7e17_97cff721",
         "filename": "docs/templates/sections/release-notes.rst",
         "patchSetId": 3
