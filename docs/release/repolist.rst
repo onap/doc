@@ -62,3 +62,4 @@ Project/Components
    music/distributed-kv-store <../submodules/music/distributed-kv-store.git/docs/index>
    osa <../submodules/osa.git/docs/index>
 
+   aaf/certservice <../submodules/aaf/certservice.git/docs/index>
