@@ -358,3 +358,6 @@
 	url = https://gerrit.onap.org/r/modeling/etsicatalog
 	branch = master
 	ignore = dirty
+[submodule "docs/submodules/aaf/certservice.git"]
+	path = docs/submodules/aaf/certservice.git
+	url = ../aaf/certservice
