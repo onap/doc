@@ -23,13 +23,8 @@ for a user to provide those values via the "SDNC preload" operation).
 
 Additional info in:
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   CDS Documentation <../../../../../submodules/ccsdk/cds.git/docs/index.rst>
-   CDS vDNS E2E Automation <https://wiki.onap.org/display/DW/vDNS+CDS+Dublin>
-
+* CDS Documentation: :ref:`cds_main-doc`
+* CDS vDNS Usecase Description in `Wiki <https://wiki.onap.org/display/DW/vDNS+CDS+Dublin>`_
 
 Request Example :
 
