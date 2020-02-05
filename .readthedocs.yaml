@@ -17,5 +17,8 @@ python:
    install:
       - requirements: etc/requirements.txt
 
+submodules:
+   include: all
+
 sphinx:
    configuration: docs/conf.py
