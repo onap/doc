@@ -18,7 +18,8 @@ python:
       - requirements: etc/requirements.txt
 
 submodules:
-   include: all
+   # include: all
+   exclude: all
 
 sphinx:
    configuration: docs/conf.py
