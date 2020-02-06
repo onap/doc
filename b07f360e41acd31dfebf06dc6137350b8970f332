@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "14ff4751_042073e0",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4965
+      },
+      "writtenOn": "2020-02-06T22:35:55Z",
+      "side": 1,
+      "message": "Security notes as there were 3 subsections as you can see on the left. I\u0027d prefer to keep them",
+      "parentUuid": "1cfdd34c_4efd5d2a",
+      "revId": "b07f360e41acd31dfebf06dc6137350b8970f332",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9e1f7e17_97cff721",
         "filename": "docs/templates/sections/release-notes.rst",
         "patchSetId": 3
