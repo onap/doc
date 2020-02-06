@@ -11,6 +11,5 @@ intersphinx_mapping = {}
 
 html_last_updated_fmt = '%d-%b-%y %H:%M'
 
-
 def setup(app):
     app.add_stylesheet("css/ribbon_onap.css")
