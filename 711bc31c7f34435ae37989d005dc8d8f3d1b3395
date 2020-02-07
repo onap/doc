@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "caf7fefb_a565226b",
+        "filename": "docs/conf.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 493,
+      "author": {
+        "id": 3271
+      },
+      "writtenOn": "2020-02-07T18:52:19Z",
+      "side": 0,
+      "message": "This is needed for the sphinxcontrib-needs extension.",
+      "range": {
+        "startLine": 436,
+        "startChar": 0,
+        "endLine": 493,
+        "endChar": 3
+      },
+      "revId": "711bc31c7f34435ae37989d005dc8d8f3d1b3395",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
