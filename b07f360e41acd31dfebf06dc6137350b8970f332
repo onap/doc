@@ -125,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "05980b48_a05df670",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2020-02-12T12:11:07Z",
+      "side": 1,
+      "message": "So are you and Amy talking about the same thing here? The idea is to create a generic template that can be tweaked for specific project needs, but I will add a section for security notes",
+      "parentUuid": "14ff4751_042073e0",
+      "revId": "b07f360e41acd31dfebf06dc6137350b8970f332",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9e1f7e17_97cff721",
         "filename": "docs/templates/sections/release-notes.rst",
         "patchSetId": 3
