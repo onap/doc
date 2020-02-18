@@ -10,4 +10,4 @@ A La Carte mode Service Instantiation via ONAP VID Portal
    :maxdepth: 1
    :titlesonly:
 
-   ../../../../../submodules/vid.git/docs/humaninterfaces.rst
+   ../../../../../submodules/vid.git/docs/instantiate.rst

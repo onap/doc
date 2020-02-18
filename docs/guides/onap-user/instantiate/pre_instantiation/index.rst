@@ -76,7 +76,7 @@ To declare the Owning Entity in VID:
 ::
 
   curl -X POST \
-    http://vid.api.simpledemo.onap.org:30238/vid/maintenance/category_parameter/owningEntity \
+    https://vid.api.simpledemo.onap.org:30200/vid/maintenance/category_parameter/owningEntity \
     -H 'Accept-Encoding: gzip, deflate' \
     -H 'Content-Type: application/json' \
     -H 'cache-control: no-cache' \
@@ -90,11 +90,11 @@ Example for "platform" named "Test_Platform"
 ::
 
   curl -X POST \
-    http://vid.api.simpledemo.onap.org:30238/vid/maintenance/category_parameter/platform \
+    https://vid.api.simpledemo.onap.org:30200/vid/maintenance/category_parameter/platform \
     -H 'Content-Type: application/json' \
     -H 'cache-control: no-cache' \
     -d '{
-      "options": [""Test_Platform"]
+      "options": ["Test_Platform"]
   }'
 
 Example for "line of business" named "Test_LOB"
@@ -102,7 +102,7 @@ Example for "line of business" named "Test_LOB"
 ::
 
   curl -X POST \
-  http://vid.api.simpledemo.onap.org:30238/vid/maintenance/category_parameter/lineOfBusiness \
+  https://vid.api.simpledemo.onap.org:30200/vid/maintenance/category_parameter/lineOfBusiness \
   -H 'Content-Type: application/json' \
   -H 'cache-control: no-cache' \
   -d '{
@@ -114,7 +114,7 @@ Example for "project" named "Test_project"
 ::
 
   curl -X POST \
-    http://vid.api.simpledemo.onap.org:30238/vid/maintenance/category_parameter/project \
+    https://vid.api.simpledemo.onap.org:30200/vid/maintenance/category_parameter/project \
     -H 'Content-Type: application/json' \
     -H 'cache-control: no-cache' \
     -d '{
