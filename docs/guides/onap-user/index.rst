@@ -13,7 +13,7 @@ an instance of ONAP.
 .. toctree::
    :maxdepth: 1
 
-   onapportal.rst
+   onap-portal-user/onap-portal-user.rst
    design/index.rst
    instantiate/index.rst
    configure/index.rst

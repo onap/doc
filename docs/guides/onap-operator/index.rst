@@ -16,3 +16,4 @@ an instance of ONAP.
    settingup/index.rst
    platformoperations.rst
    cloud_site/index.rst
+   onap-portal-admin/onap-portal-admin.rst
