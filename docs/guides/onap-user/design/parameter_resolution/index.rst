@@ -33,11 +33,7 @@ the “instantiation” API on ONAP NBI or ONAP SO.
 ONAP CDS component is then in charge of resolving those parameters
 automatically.
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   Full CDS documentation is here <../../../../submodules/ccsdk/cds.git/docs/index.rst>
+The detailed CDS documentation can be found here: :ref:`cds_main-doc`
 
 It offers automated solution out of the box by delivering network intent
 declarative package during design time phase that automated the provisioning
