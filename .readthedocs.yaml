@@ -6,9 +6,6 @@
 #
 version: 2
 
-formats:
-   - htmlzip
-
 build:
    image: latest
 
