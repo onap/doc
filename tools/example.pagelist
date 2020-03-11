@@ -1,0 +1,27 @@
+#
+# c2m example pagelist
+#
+# example pagelist (field descriptions below); it uses the delimiter "|" for the four fields per line
+# copy/paste page id and title from wiki; to get the wiki page_id you have to login to the wiki, open the page and choose e.g. the history
+# depth: use depth to follow down the child-pages hierarchy if required: -1=infinte, 0=no children, #=number of child-pages to follow
+# every hierarchy "0" entry will lead into the creation of a dedicated working directory where the page and child-pages are stored
+# for better readability you can add spaces to the list, but use "|" as a delimiter
+# lines starting with a # are filtered by c2m
+#
+# hierarchy | page_id  | page_title                      | depth
+#
+0           |  1018748 | ONAP Portal                     |  0
+1.1         |  1018759 | ONAP Portal for users           |  0
+1.2         |  1018762 | ONAP Portal for administrators  |  0
+1.2.1       |  1018764 | Admins                          |  0
+1.2.2       |  1018811 | Users                           |  0
+1.2.3       |  1018821 | Portal Admins                   |  0
+1.2.4       |  1018826 | Application Onboarding          |  0
+1.2.5       |  1018832 | Widget Onboarding               |  0
+1.2.6       |  1018835 | Edit Functional Menu            |  0
+1.2.7       | 16004953 | Portal Microservices Onboarding |  0
+#
+# in case you want to export to only one single output page (that contains all child-pages of the above example) use:
+#
+# 0         |  1018748 | ONAP Portal                     | -1
+#
