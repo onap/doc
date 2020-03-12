@@ -29,4 +29,4 @@ more details see header of the script.
 
 ADDITIONAL FILES
 
-example-tox-build.log: an example tox logfile to demonstrate functionality
+example-tox-build-log: an example tox logfile to demonstrate functionality
