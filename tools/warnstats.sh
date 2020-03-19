@@ -25,27 +25,36 @@
 ### DESCRIPTION:
 ### warnstat helps to find the onap modules (projects) and rst-files which are
 ### responsible for the most warnings during the documentation build process
-### it requires a tox build logfile, parses it line by line and prints out some
-### statistics
+### it requires a tox build logfile, parses it line by line, prints out some
+### statistics and provides links to the local rst file and html version.
 ###
 
 ###
 ### CHANGELOG (LATEST ON TOP)
 ###
-### 1.3.1 (2020-03-10) fixed minor typo in usage message
-### 1.3.0 (2020-03-09) initial release
+### 1.4.0 (2020-03-18) - the link to the local html and rst file is provided in
+###                      the output. this may help to ease the debug process.
+###                      use mouse-over/context menu functionality of bash to
+###                      easily open files with your browser or rst editor.
+###                    - improved handling for module names (in case they are
+###                      no real onap projects/modules but directories which
+###                      contain additional documentation in rst format).
+### 1.3.1 (2020-03-10) - fixed minor typo in usage message
+### 1.3.0 (2020-03-09) - initial release
 ###
 
-script_version="1.3.1 (2020-03-10)"
+script_version="1.4.0 (2020-03-18)"
 
 echo " ";
-echo "warnstats - Version ${script_version}";
-echo " ";
+echo " warnstats version ${script_version}";
 
 declare -A module_array
 declare -A message_short_array
 declare -A message_long_array
 declare -A rstfile_array
+declare -A rstfilepath_array
+declare -A htmlfilepath_array
+declare -A webpath_array
 
 ###
 ### simple script argument handling
@@ -65,23 +74,107 @@ if [ ! -f $logfile ] ; then
     exit 1
 fi
 
+# get local html build directory
+html_build_dir=$(grep "sphinx-build -b html" $logfile);
+html_build_dir=$(echo "$html_build_dir" | grep -oP "/ .*/doc/docs/_build/html$");
+html_build_dir=$(echo "$html_build_dir" | sed -r 's:^/ ::');
+echo " tox html build directory: $html_build_dir"
+
 # read in the tox build logfile - use only lines which contain a warning
 readarray -t logfile_array < <(grep ": WARNING:" $logfile);
 
 # process filtered logfile line by line
+echo " tox logfile: $logfile";
 for line in "${logfile_array[@]}"
 do
     # count warning lines
     (( counter++ ));
-    echo -n -e "lines processed: $counter\r";
+    echo -n -e " lines processed: $counter\r";
 
-    # extract module name from line
-    module=$(echo "$line" | sed -r 's:^/.+/doc/docs/(submodules|guides)/::' | cut -f1 -d\/);
-
-    # in case the extraction has no valid name fill the missing field
-    if [[ "$module" == "" ]] ; then
-        module="<missing_module_name>";
+    #
+    # extract path to local rst file
+    #
+    path_rst=$line;
+    #echo "DBUG      line: $line"
+    # remove problematic text in line that causes regex to fail
+    path_rst=$(echo "$path_rst" | sed -r 's:, other instance in.*::');
+    #echo "DBUG path_rst: $path_rst"
+    # grep the rst file path
+    path_rst=$(echo "$path_rst" | grep -oP "^/.*\.rst");
+    #echo "DBUG path_rst: $path_rst"
+    if [[ "$path_rst" == "" ]] ; then
+      path_rst="path_to_rst_missing"
+      #echo "DBUG path_rst: $path_rst"
     fi
+    path_rst="file:$path_rst";
+    #echo "DBUG path_rst: $path_rst"
+    # finally embed the full rst path in a message to use mouse-over/context menu of bash to open file
+    #echo -e '\e]8;;'$path_rst'\a(rst)\e]8;;\a'
+    path_rst='\e]8;;'$path_rst'\arst\e]8;;\a';
+    #echo -e "DBUG path_rst: "$path_rst;
+
+    #
+    # extract path to the html version of the local rst file
+    #
+    path_html=$line;
+    #echo "DBUG      line: $line"
+    # remove problematic text in line that causes regex to fail
+    path_html=$(echo "$path_html" | sed -r 's:, other instance in.*::');
+    #echo "DBUG path_html: $path_html"
+    # grep the rst file path and modify it so we get the local html build path; grep a little bit more to be save
+    path_html=$(echo "$path_html" | grep -oP "(^|/)docs(/.*|)/[\w -]*\.rst");
+    #echo "DBUG path_html: $path_html"
+    path_html=$(echo "$path_html" | sed -r 's:^/docs::');
+    #echo "DBUG path_html: $path_html"
+    path_html=$(echo "$path_html" | sed -r 's:.rst:.html:');
+    #echo "DBUG path_html: $path_html"
+    # create also the path to the web version
+    path_web="https://docs.onap.org/en/latest$path_html"
+    path_web='\e]8;;'$path_web'\aweb\e]8;;\a';
+    #echo "DBUG path_web: $path_web"
+    path_html="file:$html_build_dir$path_html";
+    #echo "DBUG path_html: $path_html"
+    # finally embed the full html path in a message to use mouse-over/context menu of bash to open file
+    #echo -e '\e]8;;'$path_html'\a(html)\e]8;;\a'
+    path_html='\e]8;;'$path_html'\ahtml\e]8;;\a';
+    #echo -e "DBUG path_html: "$path_html;
+
+
+    # extract module name from line (remove all text before module name; then cut out module name)
+    module=$(echo "$line" | sed -r 's:(^.*/doc/docs/submodules/|^docs/submodules/|checking consistency... )::' | cut -f1 -d\/);
+    #echo "DBUG   line: $line"
+    #echo "DBUG module: $module"
+
+    # in case the extraction has not lead to a valid module name do some additional investigation
+    if [[ "$module" == "" ]] ; then
+
+      if [[ $line =~ doc/docs/release ]] ; then
+          module="<docs/release>"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      elif [[ $line =~ doc/docs/use-cases ]] ; then
+          module="<docs/use-cases>"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      elif [[ $line =~ doc/docs/guides ]] ; then
+            module="<docs/guides>"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      else
+          module="<docs>"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      fi
+
+    fi
+    #echo "DBUG   line: $line";
+    #echo "DBUG module: $module";
+
+    # get the maximum length of the variable entries to adjust table width later on
+    if [[ ${#module} -gt "$maxlength_module" ]]; then
+      maxlength_module=${#module};
+    fi
+    #echo "DBUG maxlength_module=$maxlength_module";
 
     # extract rst file name from line and do some formatting to use it later as an array name
     #echo "DBUG line: $line";
@@ -89,12 +182,23 @@ do
     rstfile=$(echo -e ${rstfile} | tr '[:blank:]' '_');
     #echo "DBUG rst-file: $rstfile";
 
+    # get the maximum length of the variable entries to adjust table width later on
+    if [[ ${#rstfile} -gt "$maxlength_rstfile" ]]; then
+      maxlength_rstfile=${#rstfile};
+    fi
+    #echo "DBUG maxlength_rstfile=$maxlength_rstfile";
+
     # count the number of warnings for the module/rstfile combination
-    (( rstfile_array[$module | $rstfile]++ ));
+    (( rstfile_array[$module  |  $rstfile]++ ));
 
     # count the number of warnings for the single module
-    #echo "DBUG $module | $rstfile | $message";
+    #echo "DBUG $module  |  $rstfile  |  $message";
     (( module_array[$module]++ ));
+
+    # now we have all the information to fill the html/rst/web (file) path arrays
+    htmlfilepath_array[$module  |  $rstfile]=$path_html;
+     rstfilepath_array[$module  |  $rstfile]=$path_rst;
+         webpath_array[$module  |  $rstfile]=$path_web;
 
     # extract the warning message and do some formatting
     #message=$(echo "$line" | sed -r 's:^/.+WARNING\:\ ::');
@@ -137,7 +241,7 @@ do
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
-  echo " $n | $m" >>tempoutfile;
+  echo " $n  |  $m" >>tempoutfile;
 done
 
 #format counter to have always x digits
@@ -165,7 +269,7 @@ do
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
-  echo " $n | $m" >>tempoutfile;
+  echo " $n  |  $m" >>tempoutfile;
 done
 
 #format counter to have always x digits
@@ -192,7 +296,7 @@ do
   n=${module_array[$i]};
   ((nc += n))
   n=$(printf "%05d" $n);
-  echo " $n | $m" >>tempoutfile;
+  echo " $n  |  $m" >>tempoutfile;
 done
 
 #format counter to have always x digits
@@ -215,10 +319,19 @@ for i in "${!rstfile_array[@]}"
 do
   m=$i;
   n=${rstfile_array[$i]};
+  p=${htmlfilepath_array[$i]}
+  r=${rstfilepath_array[$i]}
+  w=${webpath_array[$i]}
+  #echo "DBUG -------------------------------"
+  #echo "DBUG i=$i"
+  #echo "DBUG m=$m"
+  #echo "DBUG n=$n"
+  #echo "DBUG p=$p"
+  #echo -e "DBUG p=$p"
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
-  echo " $m | $n" >>tempoutfile;
+  echo -e " $m  |  ($r,$p,$w)  |  $n" >>tempoutfile;
 done
 
 #format counter to have always x digits
@@ -244,10 +357,13 @@ for i in "${!rstfile_array[@]}"
 do
   m=$i;
   n=${rstfile_array[$i]};
+  p=${htmlfilepath_array[$i]}
+  r=${rstfilepath_array[$i]}
+  w=${webpath_array[$i]}
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
-  echo " $n | $m" >>tempoutfile;
+  echo -e " $n  |  $m  |  ($r,$p,$w)" >>tempoutfile;
 done
 
 #format counter to have always x digits
