@@ -24,14 +24,19 @@
 ###
 ### DESCRIPTION:
 ### warnstat helps to find the onap modules (projects) and rst-files which are
-### responsible for the most warnings during the documentation build process
+### responsible for the most warnings during the documentation build process.
 ### it requires a tox build logfile, parses it line by line, prints out some
-### statistics and provides links to the local rst file and html version.
+### statistics and provides links to the local rst file, its html version, the
+### related link to readthedocs and as well the doc8 test result for the rst.
 ###
 
 ###
 ### CHANGELOG (LATEST ON TOP)
 ###
+### 1.5.0 (2020-03-23) - doc8 test now executed for every rst file. result is
+###                      provided in the output as "doc8_(nnnnn)" where nnnnn
+###                      is the total number of accumulated doc8 errors.
+###                    - improved readability of output
 ### 1.4.0 (2020-03-18) - the link to the local html and rst file is provided in
 ###                      the output. this may help to ease the debug process.
 ###                      use mouse-over/context menu functionality of bash to
@@ -43,7 +48,11 @@
 ### 1.3.0 (2020-03-09) - initial release
 ###
 
-script_version="1.4.0 (2020-03-18)"
+script_version="1.5.0 (2020-03-23)"
+doc8_dir=$(pwd)/doc8_results
+logfile=$1;
+doc8_command="doc8 --verbose"; #add options if required
+web_base_url="https://docs.onap.org/en/latest";
 
 echo " ";
 echo " warnstats version ${script_version}";
@@ -55,12 +64,11 @@ declare -A rstfile_array
 declare -A rstfilepath_array
 declare -A htmlfilepath_array
 declare -A webpath_array
+declare -A doc8_result_array
 
 ###
 ### simple script argument handling
 ###
-
-logfile=$1;
 
 # check if there is an argument at all
 if [[ "$logfile" == "" ]] ; then
@@ -74,22 +82,33 @@ if [ ! -f $logfile ] ; then
     exit 1
 fi
 
+# create and clean doc8 directory
+if [ ! -d "$doc8_dir" ]; then
+  mkdir $doc8_dir;
+else
+  rm ${doc8_dir}/*.txt 2>/dev/null;
+fi
+
 # get local html build directory
-html_build_dir=$(grep "sphinx-build -b html" $logfile);
-html_build_dir=$(echo "$html_build_dir" | grep -oP "/ .*/doc/docs/_build/html$");
-html_build_dir=$(echo "$html_build_dir" | sed -r 's:^/ ::');
-echo " tox html build directory: $html_build_dir"
+html_build_dir=$(grep "Generated docs available in" $logfile);
+html_build_dir=$(echo "$html_build_dir" | grep -oP " /.*/doc/docs/_build/html$");
+html_build_dir=$(echo "$html_build_dir" | sed -r 's:^ ::');
+echo " html build directory ..... $html_build_dir"
+echo " web base url ............. $web_base_url";
+echo " doc8 command ............. $doc8_command";
+echo " doc8 results directory ... $doc8_dir";
+echo " tox logfile .............. $logfile";
 
 # read in the tox build logfile - use only lines which contain a warning
 readarray -t logfile_array < <(grep ": WARNING:" $logfile);
 
 # process filtered logfile line by line
-echo " tox logfile: $logfile";
 for line in "${logfile_array[@]}"
 do
+
     # count warning lines
     (( counter++ ));
-    echo -n -e " lines processed: $counter\r";
+    echo -n -e " lines processed .......... $counter (doc8 check may take a while ...)\r";
 
     #
     # extract path to local rst file
@@ -106,11 +125,8 @@ do
       path_rst="path_to_rst_missing"
       #echo "DBUG path_rst: $path_rst"
     fi
-    path_rst="file:$path_rst";
-    #echo "DBUG path_rst: $path_rst"
     # finally embed the full rst path in a message to use mouse-over/context menu of bash to open file
-    #echo -e '\e]8;;'$path_rst'\a(rst)\e]8;;\a'
-    path_rst='\e]8;;'$path_rst'\arst\e]8;;\a';
+    path_rst_link='\e]8;;file:'$path_rst'\arst\e]8;;\a';
     #echo -e "DBUG path_rst: "$path_rst;
 
     #
@@ -129,16 +145,11 @@ do
     path_html=$(echo "$path_html" | sed -r 's:.rst:.html:');
     #echo "DBUG path_html: $path_html"
     # create also the path to the web version
-    path_web="https://docs.onap.org/en/latest$path_html"
-    path_web='\e]8;;'$path_web'\aweb\e]8;;\a';
-    #echo "DBUG path_web: $path_web"
-    path_html="file:$html_build_dir$path_html";
-    #echo "DBUG path_html: $path_html"
+    path_web_link='\e]8;;'${web_base_url}${path_html}'\aweb\e]8;;\a';
+    #echo "DBUG path_web_link: $path_web_link"
     # finally embed the full html path in a message to use mouse-over/context menu of bash to open file
-    #echo -e '\e]8;;'$path_html'\a(html)\e]8;;\a'
-    path_html='\e]8;;'$path_html'\ahtml\e]8;;\a';
-    #echo -e "DBUG path_html: "$path_html;
-
+    path_html_link='\e]8;;file:'${html_build_dir}${path_html}'\ahtml\e]8;;\a';
+    #echo -e "DBUG path_html_link: "$path_html_link;
 
     # extract module name from line (remove all text before module name; then cut out module name)
     module=$(echo "$line" | sed -r 's:(^.*/doc/docs/submodules/|^docs/submodules/|checking consistency... )::' | cut -f1 -d\/);
@@ -149,19 +160,19 @@ do
     if [[ "$module" == "" ]] ; then
 
       if [[ $line =~ doc/docs/release ]] ; then
-          module="<docs/release>"
+          module="docs_release"
           #echo "DBUG   line: $line"
           #echo "DBUG module: $module"
       elif [[ $line =~ doc/docs/use-cases ]] ; then
-          module="<docs/use-cases>"
+          module="docs_use-cases"
           #echo "DBUG   line: $line"
           #echo "DBUG module: $module"
       elif [[ $line =~ doc/docs/guides ]] ; then
-            module="<docs/guides>"
+            module="docs_guides"
           #echo "DBUG   line: $line"
           #echo "DBUG module: $module"
       else
-          module="<docs>"
+          module="docs"
           #echo "DBUG   line: $line"
           #echo "DBUG module: $module"
       fi
@@ -189,16 +200,16 @@ do
     #echo "DBUG maxlength_rstfile=$maxlength_rstfile";
 
     # count the number of warnings for the module/rstfile combination
-    (( rstfile_array[$module  |  $rstfile]++ ));
+    (( rstfile_array[$module | $rstfile]++ ));
 
     # count the number of warnings for the single module
-    #echo "DBUG $module  |  $rstfile  |  $message";
+    #echo "DBUG $module | $rstfile | $message";
     (( module_array[$module]++ ));
 
     # now we have all the information to fill the html/rst/web (file) path arrays
-    htmlfilepath_array[$module  |  $rstfile]=$path_html;
-     rstfilepath_array[$module  |  $rstfile]=$path_rst;
-         webpath_array[$module  |  $rstfile]=$path_web;
+    htmlfilepath_array[$module | $rstfile]=$path_html_link;
+     rstfilepath_array[$module | $rstfile]=$path_rst_link;
+         webpath_array[$module | $rstfile]=$path_web_link;
 
     # extract the warning message and do some formatting
     #message=$(echo "$line" | sed -r 's:^/.+WARNING\:\ ::');
@@ -217,14 +228,33 @@ do
 
     # reduce length of message to group them more easily and then ...
     # count the number of warnings for the single message (short version)
-    message_short="$(echo -e "${message}" | cut -c -20)";
+    message_short="$(echo -e "${message}" | cut -c -16)";
     (( message_short_array[$message_short]++ ))
+
+    # check rst files with doc8 and store results
+    doc8_result_path="${doc8_dir}/${module}-${rstfile}.txt";
+    #echo "DBUG ---------------------------------------------"
+    #echo "DBUG doc8_result_path=\"$doc8_result_path\""
+    # doc8 check only if result file does not exists yet AND if rst file is valid (exists)
+    if [[ ! -f "$doc8_result_path" && -f "$path_rst" ]] ; then
+        echo "FILE:$path_rst" >$doc8_result_path;
+        $doc8_command "$path_rst" >>$doc8_result_path;
+        total_acc_err=$(grep "Total accumulated errors = " $doc8_result_path);
+        #echo "DBUG total_acc_err=$total_acc_err";
+        total_acc_err=$(echo $total_acc_err | sed 's:Total accumulated errors = ::');
+        #echo "DBUG total_acc_err=$total_acc_err";
+        total_acc_err=$(printf "%05d" $total_acc_err);
+        #echo "DBUG command:doc8 ${path_rst} >>${doc8_result_path}";
+        #echo "DBUG total_acc_err=$total_acc_err";
+    fi
+    doc8_result='\e]8;;file:'${doc8_result_path}'\adoc8_('$total_acc_err')\e]8;;\a';
+    doc8_result_array[$module | $rstfile]=$doc8_result;
 
 done
 
 #format counter to have always x digits
 counter=$(printf "%05d" $counter);
-echo "                              ";
+echo "                                                                      ";
 echo " $counter LINES WITH WARNING IN FILE '$logfile'";
 
 echo " ";
@@ -241,7 +271,7 @@ do
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
-  echo " $n  |  $m" >>tempoutfile;
+  echo " $n | $m" >>tempoutfile;
 done
 
 #format counter to have always x digits
@@ -257,7 +287,7 @@ nc=0
 
 echo " ";
 echo "################################################################################";
-echo "~~~ MESSAGES SHORTENED (FOR BETTER GROUPING) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+echo "~~~ MESSAGES SHORTENED (FOR SIMPLE GROUPING) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 echo "################################################################################";
 echo " ";
 
@@ -269,7 +299,7 @@ do
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
-  echo " $n  |  $m" >>tempoutfile;
+  echo " $n | $m" >>tempoutfile;
 done
 
 #format counter to have always x digits
@@ -296,7 +326,7 @@ do
   n=${module_array[$i]};
   ((nc += n))
   n=$(printf "%05d" $n);
-  echo " $n  |  $m" >>tempoutfile;
+  echo " $n | $m" >>tempoutfile;
 done
 
 #format counter to have always x digits
@@ -322,6 +352,7 @@ do
   p=${htmlfilepath_array[$i]}
   r=${rstfilepath_array[$i]}
   w=${webpath_array[$i]}
+  d=${doc8_result_array[$i]};
   #echo "DBUG -------------------------------"
   #echo "DBUG i=$i"
   #echo "DBUG m=$m"
@@ -331,7 +362,38 @@ do
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
-  echo -e " $m  |  ($r,$p,$w)  |  $n" >>tempoutfile;
+
+  # extend module name to the max for better readability
+  tmp_mod=$(echo "$m" | sed -r 's: \|.+$::');
+  #echo "DBUG tmp_mod=$tmp_mod"
+  len_tmp_mod=${#tmp_mod}
+  to_add="$(($maxlength_module-$len_tmp_mod))"
+  #echo "DBUG to_add=$to_add"
+  while [ $to_add -gt 0 ]; do
+      tmp_mod="${tmp_mod} ";
+      ((to_add--));
+      #echo "DBUG  to_add=$to_add"
+      #echo "DBUG tmp_mod=\"$tmp_mod\""
+  done
+
+  # extend rst name to the max for better readability
+  tmp_rst=$(echo "$m" | sed -r 's:^.+ \| ::');
+  #echo "DBUG tmp_rst=$tmp_rst"
+  len_tmp_rst=${#tmp_rst}
+  to_add="$(($maxlength_rstfile-$len_tmp_rst))"
+  #echo "DBUG to_add=$to_add"
+  while [ $to_add -gt 0 ]; do
+      tmp_rst="${tmp_rst} ";
+      ((to_add--));
+      #echo "DBUG  to_add=$to_add"
+      #echo "DBUG tmp_rst=\"$tmp_rst\""
+  done
+
+  # recombine module and rst names
+  m="${tmp_mod} | ${tmp_rst}";
+
+  # print out to temp file
+  echo -e " $m | $r  $p  $w  $d | $n" >>tempoutfile;
 done
 
 #format counter to have always x digits
@@ -360,10 +422,42 @@ do
   p=${htmlfilepath_array[$i]}
   r=${rstfilepath_array[$i]}
   w=${webpath_array[$i]}
+  d=${doc8_result_array[$i]};
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
-  echo -e " $n  |  $m  |  ($r,$p,$w)" >>tempoutfile;
+
+  # extend module name to the max for better readability
+  tmp_mod=$(echo "$m" | sed -r 's: \|.+$::');
+  #echo "DBUG tmp_mod=$tmp_mod"
+  len_tmp_mod=${#tmp_mod}
+  to_add="$(($maxlength_module-$len_tmp_mod))"
+  #echo "DBUG to_add=$to_add"
+  while [ $to_add -gt 0 ]; do
+      tmp_mod="${tmp_mod} ";
+      ((to_add--));
+      #echo "DBUG  to_add=$to_add"
+      #echo "DBUG tmp_mod=\"$tmp_mod\""
+  done
+
+  # extend rst name to the max for better readability
+  tmp_rst=$(echo "$m" | sed -r 's:^.+ \| ::');
+  #echo "DBUG tmp_rst=$tmp_rst"
+  len_tmp_rst=${#tmp_rst}
+  to_add="$(($maxlength_rstfile-$len_tmp_rst))"
+  #echo "DBUG to_add=$to_add"
+  while [ $to_add -gt 0 ]; do
+      tmp_rst="${tmp_rst} ";
+      ((to_add--));
+      #echo "DBUG  to_add=$to_add"
+      #echo "DBUG tmp_rst=\"$tmp_rst\""
+  done
+
+  # recombine module and rst names
+  m="${tmp_mod} | ${tmp_rst}";
+
+  # print out to temp file
+  echo -e " $n | $m | $r  $p  $w  $d" >>tempoutfile;
 done
 
 #format counter to have always x digits
