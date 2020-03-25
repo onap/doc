@@ -44,6 +44,7 @@ Application Authorization Framework
 
    ../../../submodules/aaf/authz.git/docs/index
    Secret Management Service <../../../submodules/aaf/sms.git/docs/index>
+   Certification Service <../../../submodules/aaf/certservice.git/docs/index>
 
 Command Line Interface
 ----------------------
