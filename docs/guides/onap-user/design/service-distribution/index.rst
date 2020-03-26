@@ -4,126 +4,82 @@
 
 .. _doc_guide_user_des_ser-dis:
 
-Governance Approval and Service Distribution
-============================================
+Service Distribution
+====================
 
 Each ONAP platform operator will have a specific set of policies
 and procedures for approving Services and deploying them in the
 operator's ONAP environment. This outline describes the general
 flow of such procedures.
 
-**Goal:** Add all information required to create, instantiate, and
-manage a service.
+**Goal:** Add all information required to create, instantiate, and
+manage a service in Runtime.
 
-**Tools:** SDC
+**Tools:** SDC
 
-**SDC user roles:** Governor, Ops
+**SDC user roles:** Designer
+
+
+|image1|
+
+**Figure: Workflow for Service Distribution**
 
 Steps
 -----
 
-- `Review a Service for Governance Approval`_
-- `Request Service Distribution`_
-- `Distribute a Service`_
+- `Distribute Service`_
+- `Monitor Distribution`_
 - `Verify that the DCAE Blueprint is Deployed`_
 
-|image1|
 
-**Figure 1. Workflow**
+.. _doc_guide_user_des_ser-dis-start:
 
-Review a Service for Governance Approval
-----------------------------------------
+Distribute Service
+------------------
 
-A member of the Governance Board performs a governance review of a
-certified service and its associated VFs, and then approves (or rejects)
-the artifacts for distribution.
-
-**Prerequisites:** Service is tested.
-
-**Steps**
-
-#. Sign in to SDC as a Governor.
-#. From the HOME page, click CATALOG and select a service that is ready
-   for governance review.
-#. Review the service and its associated resources.
-#. To view deployment artifacts:
-
-   #. Click *Composition* tab (left pane) and then click the Deployment
-      Artifact icon (right pane) to see the list of artifacts.
-   #. Click the download icon adjacent to an artifact to download and
-      view it.
-
-#. When the review is complete, click:
-
-   -  *Accept* if the service passes the governance review. The service is
-      marked Approved for Distribution.
-   -  *Reject* if the service fails the governance review. The service is
-      marked Rejected for Distribution.
-
-After a service receives governance approval, it moves into the Waiting
-to be Distributed section of the Operations Workspace (Ops role)
-
-Request Service Distribution
-----------------------------
-
-Request service distribution to populate all appropriate ONAP
-components with the resources and artifacts ssociated with the service and its
-VFs.
-
-**Prerequisites:**
-
-A service has received governance approval and is
-available in the Waiting to be Distributed section of the SDC Operations
-Workspace (under the Ops Role). For more information, see
-`Review a Service for Governance Approval`_.
-
-The steps shown here are generic; each service provider has a different,
-specific set of instructions. Contact your site IT support for the
-particulars.
-
-**Steps**
-
-#. Open at ticket request at your site
-#. Make a "DISTRIBUTION REQUEST"
-#. Provide the following information in your request:
-
-   -  Environment
-   -  Name of service to be distributed
-   -  Version number
-   -  [Optional] Additional information or instructions (provide special
-      instructions for the request)
-   -  Your user ID
-   -  [Optional] Alternate Contact user ID (provide an alternate contact
-      if the primary contact is unavailable)
-
-Distribute a Service
---------------------
-
-**Prerequisites:** The service is approved.
+**Prerequisites:** The Service is Certified.
 
 **Steps**
 
 
-#. Sign in to SDC as Ops.
-#. In the Active Projects pane (left pane) of the HOME page, select the
-   W*aiting For Distribution* check box.
-#. Select a service that is ready for distribution.
+#. Sign in to SDC as Developer.
+#. From the SDC HOME page, click CATALOG and search for the service.
+#. Select the service that is *Ready for Distribution*.
+
+   |image2|
+
 #. Review the version history to verify that the correct version is
    selected.
 #. In the header, click *Distribute*.
 
-   The service moves from the Ready For Distribution folder to the
-   Distributed Services folder.
+   The service state changes to *Distributed*
+#. Continue with the step `Monitor Distribution`_
 
-#. From the Workspace pane, click *Distributed Services*.
-   All distributed services display.
-#. Select the service distributed in step 5 and click *Monitor*.
+
+.. _doc_guide_user_des_ser-dis-mon:
+
+Monitor Distribution
+--------------------
+
+**Steps**
+
+#. Sign in to SDC as Developer.
+#. From the SDC HOME page, click CATALOG and search for the service.
+#. Select the service that is in *Distributed* state.
+#. Click *Distribution* in the left pane.
    The Distribution Report displays.
-#. In the Distribution Report, navigate to the Component ID for the
+
+   |image3|
+
+#. In the Distribution Report, navigate to the Distribution ID for the
    service and click the adjacent down arrow.
    The report shows all components associated with the service and their
-   distribution statuses, such as DOWNLOAD_OK.
+   distribution statuses.
 #. Review the status of each component.
+#. If deploy errors are shown, the reason has to be investigated and the
+   Service can be *Redistributed*
+
+.. _doc_guide_user_des_ser-dis-dcae:
 
 Verify that the DCAE Blueprint is Deployed
 ------------------------------------------
@@ -134,4 +90,6 @@ management workflow and configuration description for a given VNF, and
 it must be available after completing the service distribution process
 and before beginning the instantiation process.
 
-.. |image1| image:: media/design_governance_workflow.png
+.. |image1| image:: media/sdc-service-distribution-workflow.png
+.. |image2| image:: media/sdc-service-distribute.png
+.. |image3| image:: media/sdc-service-distribute-monitor.png

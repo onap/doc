@@ -28,12 +28,12 @@ Onboarding, Design and Distribution process.
 **The "Core" Design Process includes the following steps:**
 
 * Pre-Onboarding
-    A VNF/PNF Provider delivers VNF descriptor, model and
-    artefacts (e.g. HEAT template), which will be validated
+    A VNF/PNF/CNF Provider delivers its descriptor, model and
+    artefacts (e.g. HEAT template, Helm Chart), which will be validated
     and packaged for onboarding to ONAP
 
 * (Resource)-Onboarding
-    In the SDC a License Model is created, the VNF/PNF package imported
+    In the SDC a License Model is created, the VNF/PNF/CNF package imported
     and a Vendor Software Product (VSP) is created
 
 * VF Creation and Testing
