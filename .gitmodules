@@ -283,11 +283,6 @@
 	url = https://gerrit.onap.org/r/vnfrqts/usecases
 	branch = master
 	ignore = dirty
-[submodule "docs/submodules/integration/devtool.git"]
-	path = docs/submodules/integration/devtool.git
-	url = https://gerrit.onap.org/r/integration/devtool
-	branch = master
-	ignore = dirty
 [submodule "docs/submodules/aaf/sms.git"]
 	path = docs/submodules/aaf/sms.git
 	url = https://gerrit.onap.org/r/aaf/sms
@@ -311,11 +306,6 @@
 [submodule "docs/submodules/logging-analytics/pomba/pomba-audit-common.git"]
 	path = docs/submodules/logging-analytics/pomba/pomba-audit-common.git
 	url = https://gerrit.onap.org/r/logging-analytics/pomba/pomba-audit-common
-	branch = master
-	ignore = dirty
-[submodule "docs/submodules/integration/benchmark.git"]
-	path = docs/submodules/integration/benchmark.git
-	url = https://gerrit.onap.org/r/integration/benchmark
 	branch = master
 	ignore = dirty
 [submodule "docs/submodules/oparent/cia.git"]
