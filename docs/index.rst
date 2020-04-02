@@ -54,7 +54,8 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | and PNFs can accelerate the optimal usage of this ONAP environment. The guidelines            |
  |                                                                                 | on VNF/PNF requirements facilitates synchronized and aligned activities for all participants. |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-
+ | :ref:`Active Projects <active_projects>`                                        | Simple listing of all Active projects                                                         |
+ +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
 
 .. toctree::
@@ -70,3 +71,4 @@ Please find some guidance here on the content of ONAP documentation:
    guides/onap-user/index
    guides/onap-developer/index
    guides/onap-provider/index
+   guides/active-projects/index
