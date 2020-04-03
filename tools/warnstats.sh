@@ -33,6 +33,8 @@
 ###
 ### CHANGELOG (LATEST ON TOP)
 ###
+### 1.6.0 (2020-04-03) - extended detection of docs pathes in case they are not
+###                      below the submodules directory
 ### 1.5.0 (2020-03-23) - doc8 test now executed for every rst file. result is
 ###                      provided in the output as "doc8_(nnnnn)" where nnnnn
 ###                      is the total number of accumulated doc8 errors.
@@ -48,7 +50,7 @@
 ### 1.3.0 (2020-03-09) - initial release
 ###
 
-script_version="1.5.0 (2020-03-23)"
+script_version="1.6.0 (2020-04-03)"
 doc8_dir=$(pwd)/doc8_results
 logfile=$1;
 doc8_command="doc8 --verbose"; #add options if required
@@ -114,16 +116,18 @@ do
     # extract path to local rst file
     #
     path_rst=$line;
+    path_rst_debug=$line;
     #echo "DBUG      line: $line"
     # remove problematic text in line that causes regex to fail
     path_rst=$(echo "$path_rst" | sed -r 's:, other instance in.*::');
     #echo "DBUG path_rst: $path_rst"
     # grep the rst file path
-    path_rst=$(echo "$path_rst" | grep -oP "^/.*\.rst");
+    path_rst=$(echo "$path_rst" | grep -oP "^(/|docs).*\.rst");
     #echo "DBUG path_rst: $path_rst"
     if [[ "$path_rst" == "" ]] ; then
       path_rst="path_to_rst_missing"
-      #echo "DBUG path_rst: $path_rst"
+      #echo "DBUG       path_rst: $path_rst"
+      #echo "DBUG path_rst_debug: $path_rst_debug"
     fi
     # finally embed the full rst path in a message to use mouse-over/context menu of bash to open file
     path_rst_link='\e]8;;file:'$path_rst'\arst\e]8;;\a';
@@ -167,8 +171,32 @@ do
           module="docs_use-cases"
           #echo "DBUG   line: $line"
           #echo "DBUG module: $module"
+      elif [[ $line =~ doc/docs/guides/onap-developer ]] ; then
+          module="docs_guides_onap-developer"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      elif [[ $line =~ doc/docs/guides/onap-operator ]] ; then
+          module="docs_guides_onap-operator"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      elif [[ $line =~ doc/docs/guides/onap-provider ]] ; then
+          module="docs_guides_onap-provider"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      elif [[ $line =~ doc/docs/guides/onap-user ]] ; then
+          module="docs_guides_onap-user"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      elif [[ $line =~ doc/docs/guides/overview ]] ; then
+          module="docs_guides_overview"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
+      elif [[ $line =~ doc/docs/templates ]] ; then
+          module="docs_templates"
+          #echo "DBUG   line: $line"
+          #echo "DBUG module: $module"
       elif [[ $line =~ doc/docs/guides ]] ; then
-            module="docs_guides"
+          module="docs_guides"
           #echo "DBUG   line: $line"
           #echo "DBUG module: $module"
       else
