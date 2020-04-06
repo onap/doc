@@ -53,7 +53,7 @@ Details about discovered and mitigated vulnerabilities are in
 .. toctree::
    :hidden:
 
-   ../submodules/osa.git/docs/index.rst
+   :ref:`onap-osa <onap-osa:onap-security>`
 
 ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
 
