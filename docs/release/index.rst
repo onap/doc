@@ -48,12 +48,7 @@ community events.
 Security Notes
 ==============
 Details about discovered and mitigated vulnerabilities are in
-:ref:`ONAP Security <onap-security>`
-
-.. toctree::
-   :hidden:
-
-   ../submodules/osa.git/docs/index.rst
+:ref:`ONAP Security <onap-osa:onap-security>`
 
 ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
 
