@@ -20,7 +20,7 @@ be found in:
    :maxdepth: 2
    :titlesonly:
 
-   ../../submodules/oom.git/docs/oom_user_guide.rst
+:ref:`../oom.git/docs/oom_user_guide.rst<oom:master_index>`
 
 ONAP Testing and Monitoring
 ---------------------------
@@ -38,7 +38,7 @@ functions
    :maxdepth: 2
    :titlesonly:
 
-   RobotFramework <../../submodules/integration.git/docs/docs_robot.rst>
+:ref:`RobotFramework<integration:master_index>`
 
 **Interface Health can be checked via Consul:**
 
@@ -71,7 +71,7 @@ functions
    :maxdepth: 2
    :titlesonly:
 
-   Logging&Analytics <../../submodules/logging-analytics.git/docs/index.rst>
+:ref:`Logging   Logging&Analytics <../../submodules/logging-analytics.git/docs/index.rst>Analytics<logging-analytics:master_index>`
 
 ONAP Backup and Restore
 -----------------------
@@ -90,5 +90,5 @@ the MUSIC component:
    :maxdepth: 2
    :titlesonly:
 
-   Multi-Site State Coordination <../../submodules/music.git/docs/index.rst>
+:ref:`Multi-Site State Coordination<music:master_index>`
 

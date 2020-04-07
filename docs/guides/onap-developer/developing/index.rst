@@ -18,11 +18,11 @@ Active and Available Inventory
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/aai/aai-common.git/docs/index
-   AAI-esr-gui <../../../submodules/aai/esr-gui.git/docs/index>
-   ../../../submodules/aai/esr-server.git/docs/index
-   ../../../submodules/aai/sparky-be.git/docs/index
-   ../../../submodules/aai/event-client.git/docs/index.rst
+:ref:`../../aai/aai-common<aai-aai-common:master_index>`
+:ref:`AAI-esr-gui<aai-esr-gui:master_index>`
+:ref:`../../aai/esr-server<aai-esr-server:master_index>`
+:ref:`../../aai/sparky-be<aai-sparky-be:master_index>`
+:ref:`../../aai/event-client.rst<aai-event-client:master_index>`
 
 
 Application Controller
@@ -32,8 +32,8 @@ Application Controller
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/appc/deployment.git/docs/index
-   ../../../submodules/appc.git/docs/index
+:ref:`../../appc/deployment<appc-deployment:master_index>`
+:ref:`../../appc<appc:master_index>`
 
 Application Authorization Framework
 -----------------------------------
@@ -42,9 +42,9 @@ Application Authorization Framework
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/aaf/authz.git/docs/index
-   Secret Management Service <../../../submodules/aaf/sms.git/docs/index>
-   Certification Service <../../../submodules/aaf/certservice.git/docs/index>
+:ref:`../../aaf/authz<aaf-authz:master_index>`
+:ref:`Secret Management Service<aaf-sms:master_index>`
+:ref:`Certification Service<aaf-certservice:master_index>`
 
 Command Line Interface
 ----------------------
@@ -53,7 +53,7 @@ Command Line Interface
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/cli.git/docs/index
+:ref:`../../cli<cli:master_index>`
 
 
 Control Loop Automation Management Platform
@@ -63,7 +63,7 @@ Control Loop Automation Management Platform
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/clamp.git/docs/index
+:ref:`../../clamp<clamp:master_index>`
 
 Common Controller Software Development Kit
 ------------------------------------------
@@ -72,21 +72,21 @@ Common Controller Software Development Kit
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/ccsdk/distribution.git/docs/index
-   ../../../submodules/ccsdk/dashboard.git/docs/index
-   ../../../submodules/ccsdk/platform/plugins.git/docs/index
-   ../../../submodules/ccsdk/apps.git/docs/index
-   ../../../submodules/ccsdk/cds.git/docs/index
+:ref:`../../ccsdk/distribution<ccsdk-distribution:master_index>`
+:ref:`../../ccsdk/dashboard<ccsdk-dashboard:master_index>`
+:ref:`../../ccsdk/platform/plugins<ccsdk-platform-plugins:master_index>`
+:ref:`../../ccsdk/apps<ccsdk-apps:master_index>`
+:ref:`../../ccsdk/cds<ccsdk-cds:master_index>`
 
 .. Being consolidated in ccsdk distribution
-   ../../../submodules/ccsdk/platform/blueprints.git/docs/index
-   ../../../submodules/ccsdk/platform/nbapi.git/docs/index
-   ../../../submodules/ccsdk/storage/esaas.git/docs/index
-   ../../../submodules/ccsdk/storage/pgaas.git/docs/index
-   ../../../submodules/ccsdk/sli/adaptors.git/docs/index
-   ../../../submodules/ccsdk/sli/core.git/docs/index
-   ../../../submodules/ccsdk/sli/northbound.git/docs/index
-   ../../../submodules/ccsdk/sli/plugins.git/docs/index
+:ref:`../../ccsdk/platform/blueprints<ccsdk-platform-blueprints:master_index>`
+:ref:`../../ccsdk/platform/nbapi<ccsdk-platform-nbapi:master_index>`
+:ref:`../../ccsdk/storage/esaas<ccsdk-storage-esaas:master_index>`
+:ref:`../../ccsdk/storage/pgaas<ccsdk-storage-pgaas:master_index>`
+:ref:`../../ccsdk/sli/adaptors<ccsdk-sli-adaptors:master_index>`
+:ref:`../../ccsdk/sli/core<ccsdk-sli-core:master_index>`
+:ref:`../../ccsdk/sli/northbound<ccsdk-sli-northbound:master_index>`
+:ref:`../../ccsdk/sli/plugins<ccsdk-sli-plugins:master_index>`
 
 Data Collection, Analysis, and Events
 -------------------------------------
@@ -95,7 +95,7 @@ Data Collection, Analysis, and Events
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/dcaegen2.git/docs/index
+:ref:`../../dcaegen2<dcaegen2:master_index>`
 
 Data Management as a Platform Data Bus Controller
 -------------------------------------------------
@@ -104,8 +104,8 @@ Data Management as a Platform Data Bus Controller
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/dmaap/dbcapi.git/docs/index
-   ../../../submodules/dmaap/buscontroller.git/docs/index
+:ref:`../../dmaap/dbcapi<dmaap-dbcapi:master_index>`
+:ref:`../../dmaap/buscontroller<dmaap-buscontroller:master_index>`
 
 Data Management as a Platform Data Router
 -----------------------------------------
@@ -114,7 +114,7 @@ Data Management as a Platform Data Router
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/dmaap/datarouter.git/docs/index
+:ref:`../../dmaap/datarouter<dmaap-datarouter:master_index>`
 
 Data Management as a Platform Message Router
 --------------------------------------------
@@ -123,7 +123,7 @@ Data Management as a Platform Message Router
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/dmaap/messagerouter/messageservice.git/docs/index
+:ref:`../../dmaap/messagerouter/messageservice<dmaap-messagerouter-messageservice:master_index>`
 
 Development Tools
 -----------------
@@ -132,7 +132,7 @@ Development Tools
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/integration/devtool.git/docs/source/index
+:ref:`../../integration/devtool.git/docs/source/index<integration-devtool:master_index>`
 
 
 External API Framework
@@ -142,7 +142,7 @@ External API Framework
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/externalapi/nbi.git/docs/index
+:ref:`../../externalapi/nbi<externalapi-nbi:master_index>`
 
 
 Holmes
@@ -152,8 +152,8 @@ Holmes
    :maxdepth: 2
    :titlesonly:
 
-   Alarm Correlation and Analysis <../../../submodules/holmes/engine-management.git/docs/index>
-   Architecture and APIs <../../../submodules/holmes/rule-management.git/docs/index>
+:ref:`Alarm Correlation and Analysis<holmes-engine-management:master_index>`
+:ref:`Architecture and APIs<holmes-rule-management:master_index>`
 
 Integration
 -----------
@@ -162,7 +162,7 @@ Integration
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/integration.git/docs/index
+:ref:`../../integration<integration:master_index>`
 
 Logging Analytics
 -----------------
@@ -171,7 +171,7 @@ Logging Analytics
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/logging-analytics.git/docs/index
+:ref:`../../logging-analytics<logging-analytics:master_index>`
 
 Micro Services Bus
 ------------------
@@ -180,12 +180,12 @@ Micro Services Bus
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/msb/apigateway.git/docs/index
-   ../../../submodules/msb/swagger-sdk.git/docs/index
+:ref:`../../msb/apigateway<msb-apigateway:master_index>`
+:ref:`../../msb/swagger-sdk<msb-swagger-sdk:master_index>`
 
 .. Empty folders in this release
-   ../../../submodules/msb/discovery.git/docs/index
-   ../../../submodules/msb/java-sdk.git/docs/index
+:ref:`../../msb/discovery<msb-discovery:master_index>`
+:ref:`../../msb/java-sdk<msb-java-sdk:master_index>`
 
 
 Modeling
@@ -195,8 +195,8 @@ Modeling
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/modeling/modelspec.git/docs/index
-   ../../../submodules/modeling/etsicatalog.git/docs/index
+:ref:`../../modeling/modelspec<modeling-modelspec:master_index>`
+:ref:`../../modeling/etsicatalog<modeling-etsicatalog:master_index>`
 
 MultiVIM Cloud
 --------------
@@ -205,7 +205,7 @@ MultiVIM Cloud
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/multicloud/framework.git/docs/index
+:ref:`../../multicloud/framework<multicloud-framework:master_index>`
 
 Music
 -----
@@ -214,8 +214,8 @@ Music
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/music.git/docs/index
-   ../../../submodules/music/distributed-kv-store.git/docs/index
+:ref:`../../music<music:master_index>`
+:ref:`../../music/distributed-kv-store<music-distributed-kv-store:master_index>`
 
 ONAP Operations Manager
 -----------------------
@@ -224,7 +224,7 @@ ONAP Operations Manager
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/oom.git/docs/index
+:ref:`../../oom<oom:master_index>`
 
 Optimization Framework
 ----------------------
@@ -233,9 +233,9 @@ Optimization Framework
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/optf/has.git/docs/index
-   ../../../submodules/optf/osdf.git/docs/index
-   ../../../submodules/optf/cmso.git/docs/index
+:ref:`../../optf/has<optf-has:master_index>`
+:ref:`../../optf/osdf<optf-osdf:master_index>`
+:ref:`../../optf/cmso<optf-cmso:master_index>`
 
 Policy Framework
 ----------------
@@ -244,8 +244,8 @@ Policy Framework
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/policy/parent.git/docs/index
-   ../../../submodules/policy/engine.git/docs/index
+:ref:`../../policy/parent<policy-parent:master_index>`
+:ref:`../../policy/engine<policy-engine:master_index>`
 
 Portal Platform
 ---------------
@@ -254,7 +254,7 @@ Portal Platform
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/portal.git/docs/index
+:ref:`../../portal<portal:master_index>`
 
 Service Design & Creation
 -------------------------
@@ -263,15 +263,15 @@ Service Design & Creation
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/sdc.git/docs/index
+:ref:`../../sdc<sdc:master_index>`
 
 .. Empty folders for this release
-   ../../../submodules/sdc/jtosca.git/docs/index
-   ../../../submodules/sdc/sdc-distribution-client.git/docs/index
-   ../../../submodules/sdc/sdc-docker-base.git/docs/index
-   ../../../submodules/sdc/sdc-titan-cassandra.git/docs/index
-   ../../../submodules/sdc/sdc-tosca.git/docs/index
-   ../../../submodules/sdc/sdc-workflow-designer.git/docs/index
+:ref:`../../sdc/jtosca<sdc-jtosca:master_index>`
+:ref:`../../sdc/sdc-distribution-client<sdc-sdc-distribution-client:master_index>`
+:ref:`../../sdc/sdc-docker-base<sdc-sdc-docker-base:master_index>`
+:ref:`../../sdc/sdc-titan-cassandra<sdc-sdc-titan-cassandra:master_index>`
+:ref:`../../sdc/sdc-tosca<sdc-sdc-tosca:master_index>`
+:ref:`../../sdc/sdc-workflow-designer<sdc-sdc-workflow-designer:master_index>`
 
 Service Orchestration
 ---------------------
@@ -280,8 +280,8 @@ Service Orchestration
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/so.git/docs/index
-   ../../../submodules/so/libs.git/docs/index
+:ref:`../../so<so:master_index>`
+:ref:`../../so/libs<so-libs:master_index>`
 
 Software Defined Network Controller
 -----------------------------------
@@ -290,16 +290,16 @@ Software Defined Network Controller
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/sdnc/oam.git/docs/index
+:ref:`../../sdnc/oam<sdnc-oam:master_index>`
 
 .. Empty folders for this release
-   ../../../submodules/sdnc/adaptors.git/docs/index
-   ../../../submodules/sdnc/architecture.git/docs/index
-   ../../../submodules/sdnc/core.git/docs/index
-   ../../../submodules/sdnc/features.git/docs/index
-   ../../../submodules/sdnc/northbound.git/docs/index
-   ../../../submodules/sdnc/parent.git/docs/index
-   ../../../submodules/sdnc/plugins.git/docs/index
+:ref:`../../sdnc/adaptors<sdnc-adaptors:master_index>`
+:ref:`../../sdnc/architecture<sdnc-architecture:master_index>`
+:ref:`../../sdnc/core<sdnc-core:master_index>`
+:ref:`../../sdnc/features<sdnc-features:master_index>`
+:ref:`../../sdnc/northbound<sdnc-northbound:master_index>`
+:ref:`../../sdnc/parent<sdnc-parent:master_index>`
+:ref:`../../sdnc/plugins<sdnc-plugins:master_index>`
 
 Software Defined Network Controller for Radio (SDN-R)
 -----------------------------------------------------
@@ -308,7 +308,7 @@ Software Defined Network Controller for Radio (SDN-R)
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/ccsdk/features.git/docs/index
+:ref:`../../ccsdk/features<ccsdk-features:master_index>`
 
 Use Case User Interface
 -----------------------
@@ -317,7 +317,7 @@ Use Case User Interface
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/usecase-ui.git/docs/index
+:ref:`../../usecase-ui<usecase-ui:master_index>`
 
 Virtual Function Controller
 ---------------------------
@@ -326,7 +326,7 @@ Virtual Function Controller
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/vfc/nfvo/lcm.git/docs/index
+:ref:`../../vfc/nfvo/lcm<vfc-nfvo-lcm:master_index>`
 
 Virtual Infrastructure Deployment
 ---------------------------------
@@ -336,10 +336,10 @@ Virtual Infrastructure Deployment
    :titlesonly:
 
 
-   ../../../submodules/vid.git/docs/index
+:ref:`../../vid<vid:master_index>`
 
 .. Empty folders for this release
-   ../../../submodules/vid/asdcclient.git/docs/index
+:ref:`../../vid/asdcclient<vid-asdcclient:master_index>`
 
 VNF Software Development Kit
 ----------------------------
@@ -348,4 +348,4 @@ VNF Software Development Kit
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/vnfsdk/model.git/docs/index
+:ref:`../../vnfsdk/model<vnfsdk-model:master_index>`

@@ -71,12 +71,12 @@ place.
 
    git clone ssh://$lfid@gerrit.onap.org:29418/doc
    cd doc
-   mkdir -p `dirname docs/submodules/$reponame`
-   git submodule add ../$reponame docs/submodules/$reponame.git
-   git submodule init docs/submodules/$reponame.git
-   git submodule update docs/submodules/$reponame.git
+:ref:`mkdir -p `dirname do$reponame`<$reponame`:master_index>`
+:ref:`git submodule add ../$reponame do$reponame.git<$reponame:master_index>`
+:ref:`git submodule init do$reponame.git<$reponame:master_index>`
+:ref:`git submodule update do$reponame.git<$reponame:master_index>`
 
-   echo "   $reponame <../submodules/$reponame.git/docs/index>" >> docs/release/repolist.rst
+:ref:`echo " $reponame<$reponame:master_index>`
 
    git add .
    git commit -s
@@ -130,7 +130,7 @@ a jenkins verify job, and/or published release documentation including:
 - doc project repository master document index.rst, templates,
   configuration, and other documents
 
-- submodules directory where other project repositories and
+:ref:`- submodules directory where other project repositories and<:master_index>`
   directories/files are referenced
 
 - file structure: directories (ellipses), files(boxes)
@@ -146,7 +146,7 @@ a jenkins verify job, and/or published release documentation including:
    node [fontname = "helvetica"];
    // Align gerrit repos and docs directories
    {rank=same doc aaf aai reponame repoelipse vnfsdk vvp}
-   {rank=same confpy release templates masterindex submodules otherdocdocumentelipse}
+:ref:`{rank=same confpy release templates masterindex submodules otherdocdocumentelipse}<:master_index>`
    {rank=same releasedocumentindex releaserepolist}
 
    //Illustrate Gerrit Repos and provide URL/Link for complete repo list
@@ -178,7 +178,7 @@ a jenkins verify job, and/or published release documentation including:
    docs -> templates;
    docs -> otherdocdocumentelipse;
            otherdocdocumentelipse [label="...other\ndocuments"];
-   docs -> submodules
+:ref:`docs -> submodules<:master_index>`
 
    masterindex -> releasedocumentindex [style=dashed, label="sphinx\ntoctree\nreference"];
 
@@ -211,7 +211,7 @@ Docs as the 'latest' ONAP Documentation by:
 
 * Subscription in the DOC project to changes in submodule repositories.
   These changes appear in the DOC project as commits with title
-  'Updated git submodules' when a change to a contributing project
+:ref:`'Updated git submodules' when a change to a contributing project<:master_index>`
   repository is merged.  No DOC project code review occurs, only a
   submodule repository commit hash is updated to track the head of each
   contributing master branch.

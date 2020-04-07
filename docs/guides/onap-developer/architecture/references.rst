@@ -20,7 +20,7 @@ Models
    :maxdepth: 1
    :titlesonly:
 
-   Model Specifications <../../../submodules/modeling/modelspec.git/docs/index>
+:ref:`Model Specifications<modeling-modelspec:master_index>`
 
 User Interfaces
 ---------------
@@ -29,13 +29,13 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-   APPC CDT - Application Controller Design Tool  <../../../submodules/appc.git/docs/APPC CDT Guide/APPC CDT Guide.rst>
-   CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/architecture.rst>
-   CLI - Command Line Interface <../../../submodules/cli.git/docs/architecture.rst>
-   PORTAL <../../../submodules/portal.git/docs/platform/architecture.rst>
-   SDC - Service Design and Creation <../../../submodules/sdc.git/docs/architecture.rst>
-   UUI- Usecase UI <../../../submodules/usecase-ui.git/docs/platform/architecture.rst>
-   VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/architecture.rst>
+:ref:`APPC CDT - Application Controller Design Tool<appc:master_index>`
+:ref:`CLAMP - Closed Loop Automation Platform<clamp:master_index>`
+:ref:`CLI - Command Line Interface<cli:master_index>`
+:ref:`PORTAL<portal:master_index>`
+:ref:`SDC - Service Design and Creation<sdc:master_index>`
+:ref:`UUI- Usecase UI<usecase-ui:master_index>`
+:ref:`VID - Virtual Infrastructure Deployment<vid:master_index>`
 
 Platform Components
 -------------------
@@ -44,13 +44,13 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
-   APPC - Application Controller <../../../submodules/appc.git/docs/APPC User Guide/APPC User Guide.rst>
-   DCAE - Data Collection Analytics and Events <../../../submodules/dcaegen2.git/docs/sections/architecture.rst>
-   Holmes <../../../submodules/holmes/rule-management.git/docs/platform/architecture.rst>
-   Policy <../../../submodules/policy/engine.git/docs/platform/architecture.rst>
-   SDNC - SDN Controller OAM <../../../submodules/sdnc/oam.git/docs/architecture.rst>
-   SO - Service Orchestrator <../../../submodules/so.git/docs/architecture/architecture.rst>
-   VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/architecture.rst>
+:ref:`APPC - Application Controller<appc:master_index>`
+:ref:`DCAE - Data Collection Analytics and Events<dcaegen2:master_index>`
+:ref:`Holmes<holmes-rule-management:master_index>`
+:ref:`Policy<policy-engine:master_index>`
+:ref:`SDNC - SDN Controller OAM<sdnc-oam:master_index>`
+:ref:`SO - Service Orchestrator<so:master_index>`
+:ref:`VFC - Virtual Function Controller<vfc-nfvo-lcm:master_index>`
 
 Common Services
 ---------------
@@ -59,16 +59,16 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
-   AAF - Application Authorization Framework <../../../submodules/aaf/authz.git/docs/sections/architecture/index.rst>
-   AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/platform/architecture.rst>
-   AAI ESR <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
-   DMAAP MR - Data Management as a Platform (Message Router)  <../../../submodules/dmaap/messagerouter/messageservice.git/docs/architecture/architecture.rst>
-   ExtAPI - External API/NBI <../../../submodules/externalapi/nbi.git/docs/architecture/architecture.rst>
-   Logging Framework - <../../../submodules/logging-analytics.git/docs/Logging_User_Guide/logging_user_guide.rst>
-   MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/architecture.rst>
-   Multi Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-Administrator-Guide.rst>
-   MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/architecture.rst>
-   OOM - ONAP Operations Manager <../../../submodules/oom.git/docs/oom_project_description.rst>
-   OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/architecture.rst>
-   VNF SDK <../../../submodules/vnfsdk/model.git/docs/files/vnfsdk-apis.rst>
+:ref:`AAF - Application Authorization Framework<aaf-authz:master_index>`
+:ref:`AAI - Active and Available Inventory<aai-aai-common:master_index>`
+:ref:`AAI ESR<aai-esr-gui:master_index>`
+:ref:`DMAAP MR - Data Management as a Platform (Message Router)<dmaap-messagerouter-messageservice:master_index>`
+:ref:`ExtAPI - External API/NBI<externalapi-nbi:master_index>`
+:ref:`Logging Framework -<logging-analytics:master_index>`
+:ref:`MSB - Microservices Bus<msb-apigateway:master_index>`
+:ref:`Multi Cloud<multicloud-framework:master_index>`
+:ref:`MUSIC - Multi-site State Coordination Service<music:master_index>`
+:ref:`OOM - ONAP Operations Manager<oom:master_index>`
+:ref:`OPTF - Optimization Framework<optf-osdf:master_index>`
+:ref:`VNF SDK<vnfsdk-model:master_index>`
 
