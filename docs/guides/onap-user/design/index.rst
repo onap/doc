@@ -27,16 +27,16 @@ Onboarding, Design and Distribution process.
 
 **The "Core" Design Process includes the following steps:**
 
-* Pre-Onboarding
-    A VNF/PNF Provider delivers VNF descriptor, model and
-    artefacts (e.g. HEAT template), which will be validated
+**Pre-Onboarding**
+    A VNF/PNF/CNF Provider delivers its descriptor, model and
+    artefacts (e.g. HEAT template, Helm Chart), which will be validated
     and packaged for onboarding to ONAP
 
-* (Resource)-Onboarding
-    In the SDC a License Model is created, the VNF/PNF package imported
+**(Resource)-Onboarding**
+    In the SDC a License Model is created, the VNF/PNF/CNF package imported
     and a Vendor Software Product (VSP) is created
 
-* VF Creation and Testing
+**VF Creation and Testing**
     A V(N)F, PNF or CR Model is created (a) import of a VSP or VFC
     (b) manual creation and import of artefacts created via external
     tools like the Controller Design Studio (CDS), responsible for the
@@ -44,20 +44,19 @@ Onboarding, Design and Distribution process.
     The created VF will pass a testing workflow to be used
     in a Service Model
 
-* Service Design
+**Service Design**
     A Service Model is created as a composition of resources
     (e.g. V(N)Fs, PNFs,...), Policies, Workflows,...
-    The created Service Model will pass a testing workflow and
-    handed over to a Governance Approval and Distribution process
+    The created Service Model will ber certified and handed over to
+    the Service Distribution process
 
-* Governance Approval and Distribution
-    The Service Provider will have a specific set of policies and
-    procedures for approving Services and deploying them in the
+**Service Distribution**
+    The Service Provider will distribute the Service Model to the
     Runtime Service Catalog
 
 **The optional/additional Design steps are:**
 
-* VNF parameter assignment templating
+**VNF parameter assignment templating**
     The objective is to automate the resolution of resources for instantiation
     and any config provisioning operation, such as day0, day1 or day2
     configuration.
@@ -67,7 +66,7 @@ Onboarding, Design and Distribution process.
     ONAP CDS (Controller Design Studio) is the controller that will process
     the Controller Blueprint archive (CBA) at run-time.
 
-* Policy Design
+**Policy Design**
     These are rules, conditions, requirements, constraints, attributes,
     or needs that must be provided, maintained, and/or enforced.
     At a lower level, Policy involves machine-readable rules enabling
@@ -75,18 +74,18 @@ Onboarding, Design and Distribution process.
     provides some policy models that are implemented and pre-loaded when
     installing ONAP.
 
-* VNF LifeCycle Command templating
+**VNF LifeCycle Command templating**
     APPC Controller Design Tool (CDT) is used for self-service onboarding of
     VNF’s. VNF owners can create templates and other artifacts for APPC
     Configure command (used to apply a post-instantiation configuration)
     as well as other life cycle commands.
 
-* Workflow Design
+**Workflow Design**
     The purpose of the Workflow Designer is to enable designers to define or
     modify workflows to support Service/Resource change management scenarios
     executed by the Service Orchestrator.
 
-* Control Loop Design
+**Control Loop Design**
     This phase includes the Design of a closed loop template and associate it
     to a Service. The template represents the theoretical flow of the CL.
     It generates a deployment artifact that can be ingested by the DCAE in
@@ -111,7 +110,7 @@ The follwing sections will focus on the different Design steps:
 
    Service Design <./service-design/index.rst>
 
-   Governance Approval and Service Distribution <./service-distribution/index.rst>
+   Service Distribution <./service-distribution/index.rst>
 
    VNF parameter resolution Design <./parameter_resolution/index.rst>
 
