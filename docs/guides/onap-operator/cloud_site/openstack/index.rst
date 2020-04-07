@@ -18,7 +18,7 @@ to instantiate a service:
 In this guideline the following parameters/values will be used
 
 * Complex Name: My_Complex
-* Region Name: ONAP_Cloud_Region_Name
+* Region Name: ONAPCloudRegionName
 * Openstack Tenant Region Value: TenantRegion
 * Cloud Owner: MyCompanyName
 
@@ -85,8 +85,10 @@ Nevertheless, you need to provide a correct encrypted value for the pass value.
 "MyCompanyName" is a cloud owner value. WARNING : do not use underscore
 in the value.
 
-"ONAP_Cloud_Region_Name" is the ONAP region name that can be different from
+"ONAPCloudRegionName" is the ONAP region name that can be different from
 final Openstack tenant region name (TenantRegion in the example).
+*** know restriction ****
+Check status of https://jira.onap.org/projects/MULTICLOUD/issues/MULTICLOUD-970
 
 ::
 
@@ -94,11 +96,11 @@ final Openstack tenant region name (TenantRegion in the example).
   USE catalogdb
 
   # First option: Without using ORCHESTRATOR VALUE set to multicloud
-  INSERT INTO identity_services VALUES('MC_KEYSTONE', 'http://msb-iag.onap:80/api/multicloud/v1/MyCompanyName/ONAP_Cloud_Region_Name/identity/v2.0', 'admin', '5b6f369745f5f0e1c61da7f0656f3daf93c8030a2ea94b7964c67abdcfb49bdf2fa2266344b4caaca1eba8264d277831', 'service', 'admin', 1, 'KEYSTONE', 'USERNAME_PASSWORD', 'lastUser', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
-  INSERT INTO cloud_sites VALUES('ONAP_Cloud_Region_Name', 'TenantRegion', 'MC_KEYSTONE', 2.5, 'ONAP_Cloud_Region_Name', NULL, NULL, NULL, 'MySelf', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
+  INSERT INTO identity_services VALUES('MC_KEYSTONE', 'http://msb-iag.onap:80/api/multicloud/v1/MyCompanyName/ONAPCloudRegionName/identity/v2.0', 'admin', '5b6f369745f5f0e1c61da7f0656f3daf93c8030a2ea94b7964c67abdcfb49bdf2fa2266344b4caaca1eba8264d277831', 'service', 'admin', 1, 'KEYSTONE', 'USERNAME_PASSWORD', 'lastUser', '2019-07-05 10:32:00', '2019-07-05 10:32:00','PROJECT_DOMAIN_NAME','USER_DOMAIN_NAME');
+  INSERT INTO cloud_sites VALUES('ONAPCloudRegionName', 'TenantRegion', 'MC_KEYSTONE', 2.5, 'ONAPCloudRegionName', NULL, NULL, NULL, 'MySelf', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
 
   # Second option: using ORCHESTRATOR VALUE set to multicloud from Dublin version
-  INSERT INTO cloud_sites(ID, REGION_ID, IDENTITY_SERVICE_ID, CLOUD_VERSION, CLLI, ORCHESTRATOR) values("ONAP_Cloud_Region_Name", "ONAP_Cloud_Region_Name", "DEFAULT_KEYSTONE", "2.5", "My_Complex", "multicloud");
+  INSERT INTO cloud_sites(ID, REGION_ID, IDENTITY_SERVICE_ID, CLOUD_VERSION, CLLI, ORCHESTRATOR) values("ONAPCloudRegionName", "ONAPCloudRegionName", "DEFAULT_KEYSTONE", "2.5", "My_Complex", "multicloud");
 
 
 **Known restriction with second option**
@@ -241,7 +243,7 @@ Declare a Cloud Site in ONAP AAI
 
 To declare a Cloud Site, you need to use the AAI REST API.
 
-The new Cloud site is named "ONAP_Cloud_Region_Name" in this example.
+The new Cloud site is named "ONAPCloudRegionName" in this example.
 
 There is also a "Cloud Owner" notion in ONAP AAI datamodel.
 
@@ -271,7 +273,7 @@ credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
 ::
 
   curl -X PUT \
-  https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAP_Cloud_Region_Name \
+  https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAPCloudRegionName \
   -H 'Accept: application/json' \
   -H 'Authorization: Basic QUFJOkFBSQ==' \
   -H 'Cache-Control: no-cache' \
@@ -282,7 +284,7 @@ credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
   -H 'X-TransactionId: 9999' \
   -d '{
       "cloud-owner": "MyCompanyName",
-      "cloud-region-id": "ONAP_Cloud_Region_Name",
+      "cloud-region-id": "ONAPCloudRegionName",
       "cloud-type": "openstack",
       "owner-defined-type": "N/A",
       "cloud-region-version": "pike",
@@ -290,7 +292,7 @@ credentials that will allow ONAP MultiCloud to communicate with the Cloud Site.
       "cloud-zone": "CloudZone",
       "sriov-automation": false,
       "identity-url": "WillBeUpdatedByMultiCloud",
-      "cloud-extra-info":"{\"openstack-region-id\":\"TenantRegion\"}"
+      "cloud-extra-info":"{\"openstack-region-id\":\"TenantRegion\"}",
       "esr-system-info-list": {
           "esr-system-info": [
               {
@@ -324,7 +326,7 @@ Associate Cloud site to a Complex in ONAP AAI:
 ::
 
   curl -X PUT \
-    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAP_Cloud_Region_Name/relationship-list/relationship \
+    https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAPCloudRegionName/relationship-list/relationship \
     -H 'Accept: application/json' \
     -H 'Authorization: Basic QUFJOkFBSQ==' \
     -H 'Content-Type: application/json' \
@@ -363,7 +365,7 @@ STEP 3 : Register the Cloud Site in ONAP Multicloud
 ::
 
   curl -X POST \
-  https://msb.api.discovery.simpledemo.onap.org:30283/api/multicloud/v1/MyCompanyName/ONAP_Cloud_Region_Name/registry \
+  https://msb.api.discovery.simpledemo.onap.org:30283/api/multicloud/v1/MyCompanyName/ONAPCloudRegionName/registry \
   -H 'Accept: application/json' \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
@@ -374,7 +376,7 @@ check registration:
 ::
 
   curl -X GET \
-  https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAP_Cloud_Region_Name?depth=all \
+  https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/cloud-infrastructure/cloud-regions/cloud-region/MyCompanyName/ONAPCloudRegionName?depth=all \
   -H 'Accept: application/json' \
   -H 'Authorization: Basic QUFJOkFBSQ==' \
   -H 'Cache-Control: no-cache' \
