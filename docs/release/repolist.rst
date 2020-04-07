@@ -10,56 +10,56 @@
 Project/Components
 ------------------
 .. Already referenced in other sections of doc project
-   aaf/authz <../submodules/aaf/authz.git/docs/index>
-   AAI - Active & Available Inventory <../submodules/aai/aai-common.git/docs/index>
-   AAI External System Registration Server <../submodules/aai/esr-server.git/docs/index>
-   AAI External System Registration UI <../submodules/aai/esr-gui.git/docs/index>
-   AAI Sparky Inventory UI <../submodules/aai/sparky-be.git/docs/index>
-   CCSDK Dashboard <../submodules/ccsdk/dashboard.git/docs/index>
-   ccsdk/distribution <../submodules/ccsdk/distribution.git/docs/index>
-   HOLMES - Alarm Correlation and Analysis <../submodules/holmes/engine-management.git/docs/index>
-   HOLMES - Architecuture and APIs <../submodules/holmes/rule-management.git/docs/index>
-   logging-analytics <../submodules/logging-analytics.git/docs/index>
-   modeling/toscaparsers <../submodules/modeling/toscaparsers.git/docs/index>
-   modeling/etsicatalog <../submodules/modeling/etsicatalog.git/docs/index>
-   MSB - Microservice Bus <../submodules/msb/apigateway.git/docs/index>
-   msb/swagger-sdk <../submodules/msb/swagger-sdk.git/docs/index>
-   MultiCloud Framework <../submodules/multicloud/framework.git/docs/index>
-   music <../submodules/music.git/docs/index>
-   ONAP Operations Manager <../submodules/oom.git/docs/index>
-   optf/osdf <../submodules/optf/osdf.git/docs/index>
-   sdc/sdc-workflow-designer <../submodules/sdc/sdc-workflow-designer.git/docs/index>
-   sdnc/oam <../submodules/sdnc/oam.git/docs/index>
-   Service Design and Creation <../submodules/sdc.git/docs/index>
-   Service Orchestrator <../submodules/so.git/docs/index>
-   so/libs <../submodules/so/libs.git/docs/index>
-   ../submodules/appc/deployment.git/docs/index
-   ../submodules/appc.git/docs/index
-   ../submodules/clamp.git/docs/index
-   ../submodules/cli.git/docs/index
-   ../submodules/dcaegen2.git/docs/index
-   ../submodules/dmaap/messagerouter/messageservice.git/docs/index
-   ../submodules/modeling/modelspec.git/docs/index
-   ../submodules/optf/has.git/docs/index
-   ../submodules/policy/engine.git/docs/index
-   ../submodules/portal.git/docs/index
-   ../submodules/vnfrqts/guidelines.git/docs/index
-   ../submodules/vnfrqts/requirements.git/docs/index
-   Use Case User Interface <../submodules/usecase-ui.git/docs/index>
-   VFC - Virtual Function Controller <../submodules/vfc/nfvo/lcm.git/docs/index>
-   VID - Virtual Infrastructure Deployment <../submodules/vid.git/docs/index>
-   VNF Software Development Kit <../submodules/vnfsdk/model.git/docs/index>
-   vvp/documentation <../submodules/vvp/documentation.git/docs/index>
-   externalapi/nbi <../submodules/externalapi/nbi.git/docs/index>
-   vnfrqts/testcases <../submodules/vnfrqts/testcases.git/docs/index>
-   vnfrqts/usecases <../submodules/vnfrqts/usecases.git/docs/index>
-   aai/event-client <../submodules/aai/event-client.git/docs/index>
-   CCSDK Orchestrator Plugins <../submodules/ccsdk/platform/plugins.git/docs/index>
-   Devtool <../submodules/integration/devtool.git/docs/source/index>
-   Secret Management Service <../submodules/aaf/sms.git/docs/index>
-   dmaap/datarouter <../submodules/dmaap/datarouter.git/docs/index>
-   dmaap/dbcapi <../submodules/dmaap/dbcapi.git/docs/index>
-   music/distributed-kv-store <../submodules/music/distributed-kv-store.git/docs/index>
-   osa <../submodules/osa.git/docs/index>
 
-   aaf/certservice <../submodules/aaf/certservice.git/docs/index>
+:ref:`aaf/authz <aaf-authz:master_index>`
+:ref:`AAI - Active Available Inventory <Available Inventory <aai-aai-common:master_index>`
+:ref:`AAI External System Registration Server <aai-esr-server:master_index>`
+:ref:`AAI External System Registration UI <aai-esr-gui:master_index>`
+:ref:`AAI Sparky Inventory UI <aai-sparky-be:master_index>`
+:ref:`CCSDK Dashboard <ccsdk-dashboard:master_index>`
+:ref:`ccsdk/distribution <ccsdk-distribution:master_index>`
+:ref:`HOLMES - Alarm Correlation and Analysis <holmes-engine-management:master_index>`
+:ref:`HOLMES - Architecuture and APIs <holmes-rule-management:master_index>`
+:ref:`logging-analytics <logging-analytics:master_index>`
+:ref:`modeling/toscaparsers <modeling-toscaparsers:master_index>`
+:ref:`modeling/etsicatalog <modeling-etsicatalog:master_index>`
+:ref:`MSB - Microservice Bus <msb-apigateway:master_index>`
+:ref:`msb/swagger-sdk <msb-swagger-sdk:master_index>`
+:ref:`MultiCloud Framework <multicloud-framework:master_index>`
+:ref:`music <music:master_index>`
+:ref:`ONAP Operations Manager <oom:master_index>`
+:ref:`optf/osdf <optf-osdf:master_index>`
+:ref:`sdc/sdc-workflow-designer <sdc-sdc-workflow-designer:master_index>`
+:ref:`sdnc/oam <sdnc-oam:master_index>`
+:ref:`Service Design and Creation <sdc:master_index>`
+:ref:`Service Orchestrator <so:master_index>`
+:ref:`so/libs <so-libs:master_index>`
+:ref:`appc/deployment<appc-deployment:master_index>`
+:ref:`appc<appc:master_index>`
+:ref:`clamp<clamp:master_index>`
+:ref:`cli<cli:master_index>`
+:ref:`dcaegen2<dcaegen2:master_index>`
+:ref:`dmaap/messagerouter/messageservice<dmaap-messagerouter-messageservice:master_index>`
+:ref:`modeling/modelspec<modeling-modelspec:master_index>`
+:ref:`optf/has<optf-has:master_index>`
+:ref:`policy/engine<policy-engine:master_index>`
+:ref:`portal<portal:master_index>`
+:ref:`vnfrqts/guidelines<vnfrqts-guidelines:master_index>`
+:ref:`vnfrqts/requirements<vnfrqts-requirements:master_index>`
+:ref:`Use Case User Interface <usecase-ui:master_index>`
+:ref:`VFC - Virtual Function Controller <vfc-nfvo-lcm:master_index>`
+:ref:`VID - Virtual Infrastructure Deployment <vid:master_index>`
+:ref:`VNF Software Development Kit <vnfsdk-model:master_index>`
+:ref:`vvp/documentation <vvp-documentation:master_index>`
+:ref:`externalapi/nbi <externalapi-nbi:master_index>`
+:ref:`vnfrqts/testcases <vnfrqts-testcases:master_index>`
+:ref:`vnfrqts/usecases <vnfrqts-usecases:master_index>`
+:ref:`aai/event-client <aai-event-client:master_index>`
+:ref:`CCSDK Orchestrator Plugins <ccsdk-platform-plugins:master_index>`
+:ref:`Devtool <integration-devtool:master_index>`
+:ref:`Secret Management Service <aaf-sms:master_index>`
+:ref:`dmaap/datarouter <dmaap-datarouter:master_index>`
+:ref:`dmaap/dbcapi <dmaap-dbcapi:master_index>`
+:ref:`music/distributed-kv-store <music-distributed-kv-store:master_index>`
+:ref:`osa <osa:master_index>`
+:ref:`aaf/certservice <aaf-certservice:master_index>`
