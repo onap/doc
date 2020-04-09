@@ -78,16 +78,6 @@ Common Controller Software Development Kit
    ../../../submodules/ccsdk/apps.git/docs/index
    ../../../submodules/ccsdk/cds.git/docs/index
 
-.. Being consolidated in ccsdk distribution
-   ../../../submodules/ccsdk/platform/blueprints.git/docs/index
-   ../../../submodules/ccsdk/platform/nbapi.git/docs/index
-   ../../../submodules/ccsdk/storage/esaas.git/docs/index
-   ../../../submodules/ccsdk/storage/pgaas.git/docs/index
-   ../../../submodules/ccsdk/sli/adaptors.git/docs/index
-   ../../../submodules/ccsdk/sli/core.git/docs/index
-   ../../../submodules/ccsdk/sli/northbound.git/docs/index
-   ../../../submodules/ccsdk/sli/plugins.git/docs/index
-
 Data Collection, Analysis, and Events
 -------------------------------------
 
@@ -183,10 +173,6 @@ Micro Services Bus
    ../../../submodules/msb/apigateway.git/docs/index
    ../../../submodules/msb/swagger-sdk.git/docs/index
 
-.. Empty folders in this release
-   ../../../submodules/msb/discovery.git/docs/index
-   ../../../submodules/msb/java-sdk.git/docs/index
-
 
 Modeling
 --------
@@ -265,14 +251,6 @@ Service Design & Creation
 
    ../../../submodules/sdc.git/docs/index
 
-.. Empty folders for this release
-   ../../../submodules/sdc/jtosca.git/docs/index
-   ../../../submodules/sdc/sdc-distribution-client.git/docs/index
-   ../../../submodules/sdc/sdc-docker-base.git/docs/index
-   ../../../submodules/sdc/sdc-titan-cassandra.git/docs/index
-   ../../../submodules/sdc/sdc-tosca.git/docs/index
-   ../../../submodules/sdc/sdc-workflow-designer.git/docs/index
-
 Service Orchestration
 ---------------------
 
@@ -291,15 +269,6 @@ Software Defined Network Controller
    :titlesonly:
 
    ../../../submodules/sdnc/oam.git/docs/index
-
-.. Empty folders for this release
-   ../../../submodules/sdnc/adaptors.git/docs/index
-   ../../../submodules/sdnc/architecture.git/docs/index
-   ../../../submodules/sdnc/core.git/docs/index
-   ../../../submodules/sdnc/features.git/docs/index
-   ../../../submodules/sdnc/northbound.git/docs/index
-   ../../../submodules/sdnc/parent.git/docs/index
-   ../../../submodules/sdnc/plugins.git/docs/index
 
 Software Defined Network Controller for Radio (SDN-R)
 -----------------------------------------------------
@@ -337,9 +306,6 @@ Virtual Infrastructure Deployment
 
 
    ../../../submodules/vid.git/docs/index
-
-.. Empty folders for this release
-   ../../../submodules/vid/asdcclient.git/docs/index
 
 VNF Software Development Kit
 ----------------------------
