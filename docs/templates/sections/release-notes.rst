@@ -6,6 +6,12 @@
 <project> Release Notes
 ***********************
 
+.. note::
+   * The release note needs to be updated for each ONAP release
+   * Except the section "Release data" all other sections are optional and should be applied where applicable
+   * Only the current release is to be documented in this document
+   * This note needs to be removed before publishing the final result
+
 Abstract
 ========
 
@@ -21,18 +27,18 @@ Release Data
 ============
 
 +--------------------------------------+--------------------------------------+
-| **Project**                          |                                      |
+| **Project**                          | <project name>                       |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Docker images**                    | make sure you include all docker     |
+| **Docker images**                    |  make sure you include all docker    |
 |                                      |  images including the                |
 |                                      |  release version                     |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release designation**              |                                      |
+| **Release designation**              | <release name followed by version>   |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     |                                      |
+| **Release date**                     | <DD/MM/YYYY>                         |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -41,6 +47,13 @@ New features
 
 <Describe new features or other new additions>
 
+**Bug fixes**
+
+- `CIMAN-65 <https://jira.onap.org/browse/CIMAN-65>`_ and a sentence explaining what this defect is addressing.
+
+**Known Issues**
+
+- `CIMAN-65 <https://jira.onap.org/browse/CIMAN-65>`_ and two to three sentences explaining what this issue is.
 
 Deliverables
 ------------
@@ -59,17 +72,31 @@ Known Limitations, Issues and Workarounds
 System Limitations
 ------------------
 
+Any known sysmtem limitations.
+
 
 Known Vulnerabilities
 ---------------------
+
+Results of know vulnerabilities analysis in used modules.
 
 
 Workarounds
 -----------
 
+Any known workarounds.
+
 
 Security Notes
 --------------
+
+**Fixed Security Issues**
+
+List of security issues fixed in this release including CVEs and OJSI tickets.
+
+**Known Security Issues**
+
+List of new security issues that are left unfixed in this release including CVEs and OJSI tickets.
 
 
 Test Results
