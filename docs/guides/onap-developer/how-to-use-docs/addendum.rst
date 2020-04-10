@@ -102,7 +102,7 @@ When your project is built, Sphinx will generate an index page populated with th
 you created in the source RST.
 
 These are simple cases with simple options. For more information about indexing with Sphinx,
-please see the `official Sphinx documentation <http://www.sphinx-doc.org/en/stable/markup/misc.html#directive-index>`_.
+please see the `official Sphinx documentation <http://www.sphinx-doc.org/en/stable/markup/misc.html>`_.
 
 
 Jenkins Jobs

@@ -52,7 +52,7 @@ Details about discovered and mitigated vulnerabilities are in
 
 ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
 
-- `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge#core-infrastructure-initiative-best-practices-badge>`_
+- `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
 Project specific details are in the :ref:`release notes<doc-releaserepos>` for
@@ -86,9 +86,7 @@ There are 2 ways to report a bug in ONAP.
  * If you don't know you are facing a bug or have a question, post your
    question into the `Ask question <https://wiki.onap.org/display/DW/questions/all>`_.
    You will need a Linux Foundation ID to login and post your question.
-   Get a Linux Foundation Identity using this `quick procedure <https://wiki.onap.org/display/DW/Joining+the+ONAP+Technical+Community#JoiningtheONAPTechnicalCommunity-WhereDoIStart?>`_.
-
-To properly report a bug in Jira, you may want to consider these `recommendations <https://wiki.onap.org/display/DW/Tracking+Issues+with+JIRA#TrackingIssueswithJIRA-RecommendationsforwrittingProperJIRAIssue>`_ to elaborate the issue you are facing.
+   Get a Linux Foundation Identity using this `quick procedure <https://docs.linuxfoundation.org/corporate-learners/creating-a-lf-id>`_.
 
 
 .. Include files referenced by link in the toctree as hidden
