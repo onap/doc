@@ -114,15 +114,15 @@ The follwing sections will focus on the different Design steps:
 
    VNF parameter resolution Design <./parameter_resolution/index.rst>
 
-   Policy Design <../../../submodules/policy/parent.git/docs/design/design.rst>
+:ref:`Policy Design<onap-policy-parent:design-label>`
 
-   VNF LifeCycle Command templating <../../../submodules/appc.git/docs/APPC CDT Guide/APPC CDT Guide.rst>
+:ref:`VNF LifeCycle Command templating<onap-appc:master_index>`
 
-   Workflow Design <../../../submodules/sdc.git/docs/workflow.rst>
+:ref:`Workflow Design<onap-sdc:workflow>`
 
-   Control Loop Design <../../../submodules/sdc.git/docs/dcaedesigner.rst>
+:ref:`Control Loop Design<onap-sdc:dcaedesigner>`
 
-   Control Loop Automation Management <../../../submodules/clamp.git/docs/index.rst>
+:ref:`Control Loop Automation Management<onap-clamp:master_index>`
 
 
 
