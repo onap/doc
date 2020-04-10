@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3d363976_434c9dc5",
+        "filename": "docs/guides/onap-user/design/control-loop/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 3213
+      },
+      "writtenOn": "2020-04-10T21:27:56Z",
+      "side": 1,
+      "message": "There was never a working link to this. please fix.",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 71
+      },
+      "revId": "7b73690e303bfe566a1aa72070453cf5bf2c6162",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "baf527a2_2dd3f8fa",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/uui/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 3213
+      },
+      "writtenOn": "2020-04-10T21:27:56Z",
+      "side": 1,
+      "message": "I think this is wrong as well",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 85
+      },
+      "revId": "7b73690e303bfe566a1aa72070453cf5bf2c6162",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
