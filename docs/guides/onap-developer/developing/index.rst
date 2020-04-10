@@ -18,11 +18,11 @@ Active and Available Inventory
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/aai/aai-common.git/docs/index
-   AAI-esr-gui <../../../submodules/aai/esr-gui.git/docs/index>
-   ../../../submodules/aai/esr-server.git/docs/index
-   ../../../submodules/aai/sparky-be.git/docs/index
-   ../../../submodules/aai/event-client.git/docs/index.rst
+| :ref:`aai aai-common<onap-aai-aai-common:master_index>`
+| :ref:`AAI-esr-gui<onap-aai-esr-gui:master_index>`
+| :ref:`aai esr-server<onap-aai-esr-server:master_index>`
+| :ref:`aai sparky-be<onap-aai-sparky-be:master_index>`
+| :ref:`aai event-clientrst<onap-aai-event-client:master_index>`
 
 
 Application Controller
@@ -32,8 +32,8 @@ Application Controller
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/appc/deployment.git/docs/index
-   ../../../submodules/appc.git/docs/index
+| :ref:`appc deployment<onap-appc-deployment:master_index>`
+| :ref:`appc<onap-appc:master_index>`
 
 Application Authorization Framework
 -----------------------------------
@@ -42,9 +42,9 @@ Application Authorization Framework
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/aaf/authz.git/docs/index
-   Secret Management Service <../../../submodules/aaf/sms.git/docs/index>
-   Certification Service <../../../submodules/aaf/certservice.git/docs/index>
+| :ref:`aaf authz<onap-aaf-authz:master_index>`
+| :ref:`Secret Management Service<onap-aaf-sms:master_index>`
+| :ref:`Certification Service<onap-aaf-certservice:master_index>`
 
 Command Line Interface
 ----------------------
@@ -53,7 +53,7 @@ Command Line Interface
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/cli.git/docs/index
+:ref:`cli<onap-cli:master_index>`
 
 
 Control Loop Automation Management Platform
@@ -63,7 +63,7 @@ Control Loop Automation Management Platform
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/clamp.git/docs/index
+:ref:`clamp<onap-clamp:master_index>`
 
 Common Controller Software Development Kit
 ------------------------------------------
@@ -72,11 +72,11 @@ Common Controller Software Development Kit
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/ccsdk/distribution.git/docs/index
-   ../../../submodules/ccsdk/dashboard.git/docs/index
-   ../../../submodules/ccsdk/platform/plugins.git/docs/index
-   ../../../submodules/ccsdk/apps.git/docs/index
-   ../../../submodules/ccsdk/cds.git/docs/index
+| :ref:`ccsdk distribution<onap-ccsdk-distribution:master_index>`
+| :ref:`ccsdk dashboard<onap-ccsdk-dashboard:master_index>`
+| :ref:`ccsdk platform plugins<onap-ccsdk-platform-plugins:master_index>`
+| :ref:`ccsdk apps<onap-ccsdk-apps:master_index>`
+| :ref:`ccsdk cds<onap-ccsdk-cds:master_index>`
 
 Data Collection, Analysis, and Events
 -------------------------------------
@@ -85,7 +85,7 @@ Data Collection, Analysis, and Events
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/dcaegen2.git/docs/index
+:ref:`dcaegen2<onap-dcaegen2:master_index>`
 
 Data Management as a Platform Data Bus Controller
 -------------------------------------------------
@@ -94,8 +94,8 @@ Data Management as a Platform Data Bus Controller
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/dmaap/dbcapi.git/docs/index
-   ../../../submodules/dmaap/buscontroller.git/docs/index
+| :ref:`dmaap dbcapi<onap-dmaap-dbcapi:master_index>`
+| :ref:`dmaap buscontroller<onap-dmaap-buscontroller:master_index>`
 
 Data Management as a Platform Data Router
 -----------------------------------------
@@ -104,7 +104,7 @@ Data Management as a Platform Data Router
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/dmaap/datarouter.git/docs/index
+:ref:`dmaap datarouter<onap-dmaap-datarouter:master_index>`
 
 Data Management as a Platform Message Router
 --------------------------------------------
@@ -113,7 +113,7 @@ Data Management as a Platform Message Router
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/dmaap/messagerouter/messageservice.git/docs/index
+:ref:`dmaap messagerouter messageservice<onap-dmaap-messagerouter-messageservice:master_index>`
 
 External API Framework
 ----------------------
@@ -122,7 +122,7 @@ External API Framework
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/externalapi/nbi.git/docs/index
+:ref:`externalapi nbi<onap-externalapi-nbi:master_index>`
 
 
 Holmes
@@ -132,8 +132,8 @@ Holmes
    :maxdepth: 2
    :titlesonly:
 
-   Alarm Correlation and Analysis <../../../submodules/holmes/engine-management.git/docs/index>
-   Architecture and APIs <../../../submodules/holmes/rule-management.git/docs/index>
+| :ref:`Alarm Correlation and Analysis<onap-holmes-engine-management:master_index>`
+| :ref:`Architecture and APIs<onap-holmes-rule-management:master_index>`
 
 Integration
 -----------
@@ -142,7 +142,7 @@ Integration
    :maxdepth: 1
    :titlesonly:
 
-   ../../../submodules/integration.git/docs/index
+:ref:`integration<onap-integration:master_index>`
 
 Logging Analytics
 -----------------
@@ -151,7 +151,7 @@ Logging Analytics
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/logging-analytics.git/docs/index
+:ref:`logging-analytics<onap-logging-analytics:master_index>`
 
 Micro Services Bus
 ------------------
@@ -160,8 +160,9 @@ Micro Services Bus
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/msb/apigateway.git/docs/index
-   ../../../submodules/msb/swagger-sdk.git/docs/index
+:ref:`msb apigateway<onap-msb-apigateway:master_index>`
+
+:ref:`msb swagger-sdk<onap-msb-swagger-sdk:master_index>`
 
 
 Modeling
@@ -171,8 +172,9 @@ Modeling
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/modeling/modelspec.git/docs/index
-   ../../../submodules/modeling/etsicatalog.git/docs/index
+:ref:`modeling modelspec<onap-modeling-modelspec:master_index>`
+
+:ref:`modeling etsicatalog<onap-modeling-etsicatalog:master_index>`
 
 MultiVIM Cloud
 --------------
@@ -181,7 +183,7 @@ MultiVIM Cloud
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/multicloud/framework.git/docs/index
+:ref:`multicloud framework<onap-multicloud-framework:master_index>`
 
 Music
 -----
@@ -190,8 +192,9 @@ Music
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/music.git/docs/index
-   ../../../submodules/music/distributed-kv-store.git/docs/index
+:ref:`music<onap-music:master_index>`
+
+:ref:`music distributed-kv-store<onap-music-distributed-kv-store:master_index>`
 
 ONAP Operations Manager
 -----------------------
@@ -200,7 +203,7 @@ ONAP Operations Manager
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/oom.git/docs/index
+:ref:`oom<onap-oom:master_index>`
 
 Optimization Framework
 ----------------------
@@ -209,9 +212,9 @@ Optimization Framework
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/optf/has.git/docs/index
-   ../../../submodules/optf/osdf.git/docs/index
-   ../../../submodules/optf/cmso.git/docs/index
+| :ref:`optf has<onap-optf-has:master_index>`
+| :ref:`optf osdf<onap-optf-osdf:master_index>`
+| :ref:`optf cmso<onap-optf-cmso:master_index>`
 
 Policy Framework
 ----------------
@@ -220,8 +223,9 @@ Policy Framework
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/policy/parent.git/docs/index
-   ../../../submodules/policy/engine.git/docs/index
+:ref:`policy parent<onap-policy-parent:master_index>`
+
+:ref:`policy engine<onap-policy-engine:master_index>`
 
 Portal Platform
 ---------------
@@ -230,7 +234,7 @@ Portal Platform
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/portal.git/docs/index
+:ref:`portal<onap-portal:master_index>`
 
 Service Design & Creation
 -------------------------
@@ -239,7 +243,7 @@ Service Design & Creation
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/sdc.git/docs/index
+:ref:`sdc<onap-sdc:master_index>`
 
 Service Orchestration
 ---------------------
@@ -248,8 +252,9 @@ Service Orchestration
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/so.git/docs/index
-   ../../../submodules/so/libs.git/docs/index
+:ref:`so<onap-so:master_index>`
+
+:ref:`so libs<onap-so-libs:master_index>`
 
 Software Defined Network Controller
 -----------------------------------
@@ -258,7 +263,7 @@ Software Defined Network Controller
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/sdnc/oam.git/docs/index
+:ref:`sdnc oam<onap-sdnc-oam:master_index>`
 
 Software Defined Network Controller for Radio (SDN-R)
 -----------------------------------------------------
@@ -267,7 +272,7 @@ Software Defined Network Controller for Radio (SDN-R)
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/ccsdk/features.git/docs/index
+:ref:`ccsdk features<onap-ccsdk-features:master_index>`
 
 Use Case User Interface
 -----------------------
@@ -276,7 +281,7 @@ Use Case User Interface
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/usecase-ui.git/docs/index
+:ref:`usecase-ui<onap-usecase-ui:master_index>`
 
 Virtual Function Controller
 ---------------------------
@@ -285,7 +290,7 @@ Virtual Function Controller
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/vfc/nfvo/lcm.git/docs/index
+:ref:`vfc nfvo lcm<onap-vfc-nfvo-lcm:master_index>`
 
 Virtual Infrastructure Deployment
 ---------------------------------
@@ -295,7 +300,7 @@ Virtual Infrastructure Deployment
    :titlesonly:
 
 
-   ../../../submodules/vid.git/docs/index
+:ref:`vid<onap-vid:master_index>`
 
 VNF Software Development Kit
 ----------------------------
@@ -304,4 +309,4 @@ VNF Software Development Kit
    :maxdepth: 2
    :titlesonly:
 
-   ../../../submodules/vnfsdk/model.git/docs/index
+:ref:`vnfsdk model<onap-vnfsdk-model:master_index>`
