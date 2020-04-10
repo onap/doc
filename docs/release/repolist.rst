@@ -55,7 +55,6 @@ Project/Components
    vnfrqts/usecases <../submodules/vnfrqts/usecases.git/docs/index>
    aai/event-client <../submodules/aai/event-client.git/docs/index>
    CCSDK Orchestrator Plugins <../submodules/ccsdk/platform/plugins.git/docs/index>
-   Devtool <../submodules/integration/devtool.git/docs/source/index>
    Secret Management Service <../submodules/aaf/sms.git/docs/index>
    dmaap/datarouter <../submodules/dmaap/datarouter.git/docs/index>
    dmaap/dbcapi <../submodules/dmaap/dbcapi.git/docs/index>

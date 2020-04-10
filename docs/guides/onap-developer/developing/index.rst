@@ -115,16 +115,6 @@ Data Management as a Platform Message Router
 
    ../../../submodules/dmaap/messagerouter/messageservice.git/docs/index
 
-Development Tools
------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   ../../../submodules/integration/devtool.git/docs/source/index
-
-
 External API Framework
 ----------------------
 
