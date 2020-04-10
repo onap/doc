@@ -32,7 +32,7 @@ These steps are performed outside SDC.
 onboarding. The requirements are found in the following document.
 
 
-`Heat requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter5/Heat/index.html>`_
+:ref:`Heat requirements<onap-vnfrqts-requirements:master_index>`
 
 #. Put the Heat, ENV, nested Heat, and other files used by get-file in templates
    in a directory on a host, which supports python.
@@ -72,9 +72,9 @@ Validate xNF Package (VNF/PNF)
 
 VNF and PNF packages have to follow the requirements described in:
 
-`VNF and PNF Modeling Requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter5/index.html>`_
+:ref:``VNF and PNF Modeling Requirements<vnfrqts-requirements:master_index>`
 
-`ONAP Management Requirements <../../../../submodules/vnfrqts/requirements.git/docs/Chapter7/index.html>`_
+:ref:``ONAP Management Requirements<vnfrqts-requirements:master_index>`
 
 For Validation of VNF and PNF packages the tools delivered by VNFSDK can be
 used:

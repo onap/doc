@@ -20,7 +20,7 @@ be found in:
    :maxdepth: 2
    :titlesonly:
 
-   ../../submodules/oom.git/docs/oom_user_guide.rst
+:ref:`oom_user_guide<onap-oom:oom_user_guide>`
 
 ONAP Testing and Monitoring
 ---------------------------
@@ -38,7 +38,7 @@ functions
    :maxdepth: 2
    :titlesonly:
 
-   RobotFramework <../../submodules/integration.git/docs/docs_robot.rst>
+:ref:`RobotFramework<onap-integration:docs_robot>`
 
 **Interface Health can be checked via Consul:**
 
@@ -63,7 +63,7 @@ functions
 
    The Consul GUI can be accessed via:
 
-   http://<kubernetes IP>:30270/ui/
+   http://<onap-kubernetes IP>:30270/ui/
 
 **ONAP Log collection is provided by the Logging and Analytics Module:**
 
@@ -71,14 +71,14 @@ functions
    :maxdepth: 2
    :titlesonly:
 
-   Logging&Analytics <../../submodules/logging-analytics.git/docs/index.rst>
+:ref:`Logging & Analytics <onap-logging-analytics:master_index>`
 
 ONAP Backup and Restore
 -----------------------
 
 To Backup ONAP a solution is described in Wiki (Migration to RTD->TBD):
 
-`Backup and Restore Solution <https://wiki.onap.org/display/DW/Backup+and+Restore+Solution%3A+ONAP-OOM>`_
+`Backup and Restore Solution <onap-https://wiki.onap.org/display/DW/Backup+and+Restore+Solution%3A+ONAP-OOM>`_
 
 ONAP Multisite Deployment
 -------------------------
@@ -90,5 +90,5 @@ the MUSIC component:
    :maxdepth: 2
    :titlesonly:
 
-   Multi-Site State Coordination <../../submodules/music.git/docs/index.rst>
+:ref:`Multi-Site State Coordination<onap-music:master_index>`
 

@@ -6,5 +6,5 @@ VNF Validation Documentation
 .. toctree::
    :maxdepth: 2
 
-   ../../../submodules/vvp/documentation.git/docs/index.rst
-   ../../../submodules/vvp/documentation.git/docs/release-notes.rst
+:ref:`vvp documentation<onap-vvp-documentation:master_index>`
+:ref:`vvp documentation release-notes<onap-vvp-documentation:release_notes>`
