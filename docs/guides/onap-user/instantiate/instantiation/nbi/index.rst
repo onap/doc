@@ -16,7 +16,7 @@ Additional info in:
    :maxdepth: 1
    :titlesonly:
 
-   NBI Guide <../../../../../submodules/externalapi/nbi.git/docs/offeredapis/offeredapis.rst>
+:ref:`NBI Guide<externalapi-nbi:offeredapis>`
 
 
 ONAP NBI will convert that request to ONAP SO request.

@@ -16,8 +16,7 @@ manage applications and widgets, and manage user access.
 The Portal SDK for application developers includes bundled tools,
 technologies, and built-in capabilities such as services, APIs, and UI
 controls. Existing applications can migrate to the Portal with the
-provided APIs and libraries. See `ONAP Portal SDK
-Documentation <http://onap.readthedocs.io/en/latest/submodules/portal.git/docs/tutorials/index.html>`__\.
+provided APIs and libraries. :ref:`ONAP Portal SDK Documentation<portal:master_index>`
 
 Access
 ------
@@ -25,7 +24,7 @@ Access
 Access the ONAP Portal using Mozilla Firefox or Google Chrome(win/mac)
 at the provided URL. For example: `https://<hostname:port>/ONAPPORTAL/login.html`.
 
-Access the ONAP portal via the 8989 LoadBalancer documented `here <https://onap.readthedocs.io/en/latest/submodules/oom.git/docs/oom_user_guide.html#accessing-the-onap-portal-using-oom-and-a-kubernetes-cluster>`__
+:ref:`Access the ONAP portal via the 8989 LoadBalancer <oom:onap-on-kubernetes-with-rancher>`
 
 From the Portal, users access applications directly or by function using
 the `Manage menu`.
