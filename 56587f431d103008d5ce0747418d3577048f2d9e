@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "967a071e_5bd89985",
+        "filename": "docs/guides/onap-user/onapportal.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 3213
+      },
+      "writtenOn": "2020-04-10T18:03:29Z",
+      "side": 1,
+      "message": "needs fix.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 106
+      },
+      "revId": "56587f431d103008d5ce0747418d3577048f2d9e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
