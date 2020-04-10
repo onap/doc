@@ -14,9 +14,9 @@ set up an VNF or PNF for ONAP usage.
 .. toctree::
    :maxdepth: 2
 
-   ../../../submodules/vnfrqts/guidelines.git/docs/index.rst
-   ../../../submodules/vnfrqts/requirements.git/docs/index.rst
-   ../../../submodules/vnfrqts/testcases.git/docs/index.rst
-   ../../../submodules/vnfrqts/usecases.git/docs/index.rst
-   ../../../submodules/vnfrqts/requirements.git/docs/release-notes.rst
+:ref:`vnfrqts guidelinesrst<vnfrqts-guidelines:master_index>`
+:ref:`vnfrqts requirementsrst<vnfrqts-requirements:master_index>`
+:ref:`vnfrqts testcasesrst<vnfrqts-testcases:master_index>`
+:ref:`vnfrqts usecasesrst<vnfrqts-usecases:master_index>`
+:ref:`vnfrqts requirementsgit docs release-notesrst<vnfrqts-requirements:release_notes>`
    vnfvalidator.rst

@@ -6,5 +6,5 @@ VNF Validation Documentation
 .. toctree::
    :maxdepth: 2
 
-   ../../../submodules/vvp/documentation.git/docs/index.rst
-   ../../../submodules/vvp/documentation.git/docs/release-notes.rst
+:ref:`vvp documentationrst<vvp-documentation:master_index>`
+:ref:`vvp documentationgit docs release-notesrst<vvp-documentation:release_notes>`

@@ -50,7 +50,7 @@ Creation of Kubernetes cluster is described here:
    :maxdepth: 2
    :titlesonly:
 
-   ../../../../submodules/oom.git/docs/oom_cloud_setup_guide.rst
+:ref:`oomgit docs oom_cloud_setup_guiderst<oom:oom_cloud_setup_guide>`
 
 ONAP installation is described here:
 
@@ -58,8 +58,8 @@ ONAP installation is described here:
    :maxdepth: 2
    :titlesonly:
 
-   ../../../../submodules/oom.git/docs/oom_quickstart_guide.rst
-   ../../../../submodules/oom.git/docs/oom_user_guide.rst
+:ref:`oomgit docs oom_quickstart_guiderst<oom:oom_quickstart_guide>`
+:ref:`oomgit docs oom_user_guiderst<oom:oom_user_guide>`
 
 Alternative way of offline ONAP installation is described here:
 
@@ -67,7 +67,7 @@ Alternative way of offline ONAP installation is described here:
    :maxdepth: 2
    :titlesonly:
 
-   ../../../../submodules/oom/offline-installer.git/docs/index.rst
+:ref:`oom offline-installerrst<oom-offline-installer:master_index>`
 
 .. note::
    Prior to deployment of ONAP, there is no need to download manually any Docker container.

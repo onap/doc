@@ -114,15 +114,15 @@ The follwing sections will focus on the different Design steps:
 
    VNF parameter resolution Design <./parameter_resolution/index.rst>
 
-   Policy Design <../../../submodules/policy/parent.git/docs/design/design.rst>
+:ref:`Policy Design<policy-parent:design-label>`
 
-   VNF LifeCycle Command templating <../../../submodules/appc.git/docs/APPC CDT Guide/APPC CDT Guide.rst>
+:ref:`VNF LifeCycle Command templating<appc:appc_api_guide>`
 
-   Workflow Design <../../../submodules/sdc.git/docs/workflow.rst>
+:ref:`Workflow Design<sdc:workflow>`
 
-   Control Loop Design <../../../submodules/sdc.git/docs/dcaedesigner.rst>
+:ref:`Control Loop Design<sdc:dcaedesigner>`
 
-   Control Loop Automation Management <../../../submodules/clamp.git/docs/index.rst>
+:ref:`Control Loop Automation Management<clamp:master_index>`
 
 
 
