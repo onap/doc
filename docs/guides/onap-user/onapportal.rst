@@ -18,7 +18,7 @@ and UI controls. Existing applications can migrate to the Portal
 with the provided APIs and libraries.
 See Portal SDK_.
 
-.. _SDK: https://docs.onap.org/en/latest/submodules/portal.git/docs/tutorials/portal-sdk/index.html
+:ref:`docs tutorials portal-sdk <portal:master_index>`
 
 Access the ONAP Portal
 ----------------------

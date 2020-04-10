@@ -12,36 +12,35 @@ Project Specific Release Notes
    :maxdepth: 1
    :titlesonly:
 
-   Active and Available Inventory<../submodules/aai/aai-common.git/docs/release-notes.rst>
-   Application Authorization Framework<../submodules/aaf/authz.git/docs/sections/release-notes.rst>
-   Application Controller<../submodules/appc.git/docs/release-notes.rst>
-   Common Controller Software Development Kit<../submodules/ccsdk/distribution.git/docs/release-notes.rst>
-   Command Line Interface<../submodules/cli.git/docs/release-notes.rst>
-   Closed Loop Automation Platform<../submodules/clamp.git/docs/release-notes.rst>
-   Data Collection, Analysis, and Events<../submodules/dcaegen2.git/docs/sections/release-notes.rst>
-   Documentation<../release-notes.rst>
-   DMAAP Message Router (MR) <../submodules/dmaap/messagerouter/messageservice.git/docs/release-notes/release-notes.rst>
-   DMAAP Dmaap Data Router (DR) <../submodules/dmaap/datarouter.git/docs/release-notes.rst>
-   DMAAP Dmaap Bus Controller (BC) <../submodules/dmaap/buscontroller.git/docs/release-notes/release-notes.rst>
-   External API / NorthBound Interface<../submodules/externalapi/nbi.git/docs/releasenotes/releasenotes.rst>
-   Holmes<../submodules/holmes/rule-management.git/docs/release-notes.rst>
-   Integration<../submodules/integration.git/docs/release-notes.rst>
-   Logging Analytics<../submodules/logging-analytics.git/docs/release-notes.rst>
-   Modeling/etsicatalog<../submodules/modeling/etsicatalog.git/docs/release-notes.rst>
-   Micro Services Bus<../submodules/msb/apigateway.git/docs/release-notes.rst>
-   MultiVIM Cloud<../submodules/multicloud/framework.git/docs/Release Notes.rst>
-   Music<../submodules/music.git/docs/release-notes.rst>
-   ONAP Operations Manager<../submodules/oom.git/docs/release-notes.rst>
-   Optimization Framework<../submodules/optf/osdf.git/docs/sections/release-notes.rst>
-   Policy Framework<../submodules/policy/parent.git/docs/release-notes.rst>
-   Portal Platform<../submodules/portal.git/docs/release-notes.rst>
-   Service Design & Creation<../submodules/sdc.git/docs/release-notes.rst>
-   Service Orchestration<../submodules/so.git/docs/release-notes.rst>
-   Software Defined Network Controller<../submodules/sdnc/oam.git/docs/release-notes.rst>
-   Use Case User Interface<../submodules/usecase-ui.git/docs/release-notes.rst>
-   Virtual Function Controller<../submodules/vfc/nfvo/lcm.git/docs/release-notes.rst>
-   Virtual Infrastructure Deployment<../submodules/vid.git/docs/release-notes.rst>
-   VNF Requirements<../submodules/vnfrqts/requirements.git/docs/release-notes.rst>
-   VNF Software Development Kit<../submodules/vnfsdk/model.git/docs/release-notes.rst>
-   VNF Validation Project<../submodules/vvp/documentation.git/docs/release-notes.rst>
+:ref:`Active and Available Inventory<aai-aai-common:release_notes>`
+:ref:`Application Authorization Framework<aaf-authz:release_notes>`
+:ref:`Application Controller<appc:release_notes>`
+:ref:`Common Controller Software Development Kit<ccsdk-distribution:release_notes>`
+:ref:`Command Line Interface<cli:release_notes>`
+:ref:`Closed Loop Automation Platform<clamp:release_notes>`
+:ref:`Data Collection Analysis and Events<dcaegen2:release_notes>`
+:ref:`DMAAP Message Router (MR)<dmaap-messagerouter-messageservice:release_notes>`
+:ref:`DMAAP Dmaap Data Router (DR)<dmaap-datarouter:release_notes>`
+:ref:`DMAAP Dmaap Bus Controller (BC)<dmaap-buscontroller:release_notes>`
+:ref:`External API   NorthBound Interface<externalapi-nbi:release_notes>`
+:ref:`Holmes<holmes-rule-management:release_notes>`
+:ref:`Integration<integration:release_notes>`
+:ref:`Logging Analytics<logging-analytics:release_notes>`
+:ref:`Modeling etsicatalog<modeling-etsicatalog:release_notes>`
+:ref:`Micro Services Bus<msb-apigateway:release_notes>`
+:ref:`MultiVIM Cloud <multicloud:release_notes>`
+:ref:`Music<music:release_notes>`
+:ref:`ONAP Operations Manager<oom:release_notes>`
+:ref:`Optimization Framework<optf-osdf:release_notes>`
+:ref:`Policy Framework<policy-parent:release_notes>`
+:ref:`Portal Platform<portal:release_notes>`
+:ref:`Service Design & Creation<sdc:release_notes>`
+:ref:`Service Orchestration<so:release_notes>`
+:ref:`Software Defined Network Controller<sdnc-oam:release_notes>`
+:ref:`Use Case User Interface<usecase-ui:release_notes>`
+:ref:`Virtual Function Controller<vfc-nfvo-lcm:release_notes>`
+:ref:`Virtual Infrastructure Deployment<vid:release_notes>`
+:ref:`VNF Requirements<vnfrqts-requirements:release_notes>`
+:ref:`VNF Software Development Kit<vnfsdk-model:release_notes>`
+:ref:`VNF Validation Project<vvp-documentation:release_notes>`
 

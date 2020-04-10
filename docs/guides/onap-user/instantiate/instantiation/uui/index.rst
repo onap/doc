@@ -11,4 +11,4 @@ e2eServiceInstance mode via ONAP UUI Portal
    :maxdepth: 1
    :titlesonly:
 
-   ../../../../../submodules/usecase-ui.git/docs/platform/installation/user-guide/index.rst
+:ref:`usecase-ui docs platform installation user-guide<usecase-ui:master_index>`
