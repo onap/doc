@@ -368,7 +368,7 @@ It's pretty common to want to reference another location in the
 ONAP documentation and it's pretty easy to do with
 reStructuredText. This is a quick primer, more information is in the
 `Sphinx section on Cross-referencing arbitrary locations
-<http://www.sphinx-doc.org/en/stable/markup/inline.html#ref-role>`_.
+<http://www.sphinx-doc.org/en/stable/markup/inline.html>`_.
 
 Within a single document, you can reference another section simply by::
 

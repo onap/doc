@@ -20,7 +20,7 @@ Models
    :maxdepth: 1
    :titlesonly:
 
-   Model Specifications <../../../submodules/modeling/modelspec.git/docs/index>
+:ref:`Model Specifications<onap-modeling-modelspec:master_index>`
 
 User Interfaces
 ---------------
@@ -29,13 +29,13 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-   APPC CDT - Application Controller Design Tool  <../../../submodules/appc.git/docs/APPC CDT Guide/APPC CDT Guide.rst>
-   CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/architecture.rst>
-   CLI - Command Line Interface <../../../submodules/cli.git/docs/architecture.rst>
-   PORTAL <../../../submodules/portal.git/docs/platform/architecture.rst>
-   SDC - Service Design and Creation <../../../submodules/sdc.git/docs/architecture.rst>
-   UUI- Usecase UI <../../../submodules/usecase-ui.git/docs/platform/architecture.rst>
-   VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/architecture.rst>
+| :ref:`APPC CDT Application Controller Design Tool<onap-appc:appc_lcm_api_guide>`
+| :ref:`CLAMP - Closed Loop Automation Platform<onap-clamp:architecture>`
+| :ref:`CLI - Command Line Interface<onap-cli:architecture>`
+| :ref:`PORTAL<onap-portal:architecture>`
+| :ref:`SDC - Service Design and Creation<onap-sdc:architecture>`
+| :ref:`UUI- Usecase UI<onap-usecase-ui:architecture>`
+| :ref:`VID - Virtual Infrastructure Deployment<onap-vid:architecture>`
 
 Platform Components
 -------------------
@@ -44,13 +44,13 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
-   APPC - Application Controller <../../../submodules/appc.git/docs/APPC User Guide/APPC User Guide.rst>
-   DCAE - Data Collection Analytics and Events <../../../submodules/dcaegen2.git/docs/sections/architecture.rst>
-   Holmes <../../../submodules/holmes/rule-management.git/docs/platform/architecture.rst>
-   Policy <../../../submodules/policy/engine.git/docs/platform/architecture.rst>
-   SDNC - SDN Controller OAM <../../../submodules/sdnc/oam.git/docs/architecture.rst>
-   SO - Service Orchestrator <../../../submodules/so.git/docs/architecture/architecture.rst>
-   VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/architecture.rst>
+| :ref:`APPC - Application Controller<onap-appc:master_index>`
+| :ref:`DCAE - Data Collection Analytics and Events<onap-dcaegen2:architecture>`
+| :ref:`Holmes<onap-holmes-rule-management:architecture>`
+| :ref:`Policy<onap-policy-engine:architecture>`
+| :ref:`SDNC - SDN Controller OAM<onap-sdnc-oam:architecture>`
+| :ref:`SO - Service Orchestrator<onap-so:architecture>`
+| :ref:`VFC - Virtual Function Controller<onap-vfc-nfvo-lcm:architecture>`
 
 Common Services
 ---------------
@@ -59,16 +59,16 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
-   AAF - Application Authorization Framework <../../../submodules/aaf/authz.git/docs/sections/architecture/index.rst>
-   AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/platform/architecture.rst>
-   AAI ESR <../../../submodules/aai/esr-gui.git/docs/platform/architecture.rst>
-   DMAAP MR - Data Management as a Platform (Message Router)  <../../../submodules/dmaap/messagerouter/messageservice.git/docs/architecture/architecture.rst>
-   ExtAPI - External API/NBI <../../../submodules/externalapi/nbi.git/docs/architecture/architecture.rst>
-   Logging Framework - <../../../submodules/logging-analytics.git/docs/Logging_User_Guide/logging_user_guide.rst>
-   MSB - Microservices Bus <../../../submodules/msb/apigateway.git/docs/platform/architecture.rst>
-   Multi Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-Administrator-Guide.rst>
-   MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/architecture.rst>
-   OOM - ONAP Operations Manager <../../../submodules/oom.git/docs/oom_project_description.rst>
-   OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/architecture.rst>
-   VNF SDK <../../../submodules/vnfsdk/model.git/docs/files/vnfsdk-apis.rst>
+| :ref:`AAF - Application Authorization Framework<onap-aaf-authz:master_index>`
+| :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:architecture>`
+| :ref:`AAI ESR<onap-aai-esr-gui:architecture>`
+| :ref:`DMAAP MR - Data Management as a Platform (Message Router)<onap-dmaap-messagerouter-messageservice:architecture>`
+| :ref:`ExtAPI - External API NBI<onap-externalapi-nbi:architecture>`
+| :ref:`Logging Framework -<onap-logging-analytics:logging_user_guide>`
+| :ref:`MSB - Microservices Bus<onap-msb-apigateway:architecture>`
+| :ref:`Multi Cloud<onap-multicloud-framework:multicloud-administrator-guide>`
+| :ref:`MUSIC - Multi-site State Coordination Service<onap-music:architecture>`
+| :ref:`OOM - ONAP Operations Manager<onap-oom:oom_project_description>`
+| :ref:`OPTF - Optimization Framework<onap-optf-osdf:architecture>`
+| :ref:`VNF SDK<onap-vnfsdk-model:offeredapis>`
 
