@@ -20,10 +20,10 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-   CLAMP - Closed Loop Automation Platform <../../../submodules/clamp.git/docs/index.rst>
-   Portal <../../../submodules/portal.git/docs/platform/offeredapis.rst>
-   SDC - Service Design and Creation <../../../submodules/sdc.git/docs/offeredapis.rst>
-   VID - Virtual Infrastructure Deployment <../../../submodules/vid.git/docs/offeredapis.rst>
+:ref:`CLAMP - Closed Loop Automation Platform<clamp:master_index>`
+:ref:`Portal<portal:offeredapis>`
+:ref:`SDC - Service Design and Creation<sdc:offeredapis>`
+:ref:`VID - Virtual Infrastructure Deployment<vid:offeredapis>`
 
 Platform Components
 -------------------
@@ -32,13 +32,13 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
-   APPC - Application Controller <../../../submodules/appc.git/docs/index.rst>
-   DCAE - Data Collection, Analytics, and Events <../../../submodules/dcaegen2.git/docs/sections/offeredapis.rst>
-   Holmes - Alarm Correlation <../../../submodules/holmes/rule-management.git/docs/platform/offeredapis.rst>
-   Policy <../../../submodules/policy/parent.git/docs/offeredapis.rst>
-   SDNC - SDN Controller <../../../submodules/sdnc/oam.git/docs/offeredapis.rst>
-   SO - Service Orchestration <../../../submodules/so.git/docs/api/offered_consumed_apis.rst>
-   VFC - Virtual Function Controller <../../../submodules/vfc/nfvo/lcm.git/docs/platform/APIs/index.rst>
+:ref:`APPC - Application Controller<appc:master_index>`
+:ref:`DCAE - Data Collection Analytics and Events<dcaegen2:offeredapis>`
+:ref:`Holmes - Alarm Correlation<holmes-rule-management:offeredapis>`
+:ref:`Policy<policy-parent:offeredapis>`
+:ref:`SDNC - SDN Controller<sdnc-oam:offeredapis>`
+:ref:`SO - Service Orchestration<so:offeredapis>`
+:ref:`VFC - Virtual Function Controller<vfc-nfvo-lcm:master_index>`
 
 Common Services
 ---------------
@@ -47,18 +47,18 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
-   AAF - Application Authorization Framework <../../../submodules/aaf/sms.git/docs/api.rst>
-   AAI - Active and Available Inventory <../../../submodules/aai/aai-common.git/docs/AAI REST API Documentation/AAIRESTAPI.rst>
-   AAI ESR - AAI External System Register <../../../submodules/aai/esr-server.git/docs/offeredapis.rst>
-   DMAAP DBC - Data Management as a Platform (Data Bus Controller) <../../../submodules/dmaap/dbcapi.git/docs/api.rst>
-   DMAAP DR - Data Management as a Platform (Data Router) <../../../submodules/dmaap/datarouter.git/docs/index.rst>
-   DMAAP MR - Data Management as a Platform (Message Router) <../../../submodules/dmaap/messagerouter/messageservice.git/docs/offeredapis/offeredapis.rst>
-   ExtAPI- External API/NBI - NorthBound API <../../../submodules/externalapi/nbi.git/docs/offeredapis/offeredapis.rst>
-   Modeling Parsers <../../../submodules/modeling/toscaparsers.git/docs/offeredapis.rst>
-   MSB - Micro Services Bus <../../../submodules/msb/apigateway.git/docs/platform/offeredapis.rst>
-   Multi Cloud <../../../submodules/multicloud/framework.git/docs/MultiCloud-APIv1-Specification.rst>
-   MUSIC - Multi-site State Coordination Service <../../../submodules/music.git/docs/offeredapis.rst>
-   OPTF - Optimization Framework <../../../submodules/optf/osdf.git/docs/sections/offeredapis.rst>
+:ref:`AAF - Application Authorization Framework<aaf-sms:offeredapis>`
+:ref:`AAI - Active and Available Inventory<aai-aai-common:offeredapis>`
+:ref:`AAI ESR - AAI External System Register<aai-esr-server:offeredapis>`
+:ref:`DMAAP DBC - Data Management as a Platform (Data Bus Controller)<dmaap-dbcapi:offeredapis>`
+:ref:`DMAAP DR - Data Management as a Platform (Data Router)<dmaap-datarouter:master_index>`
+:ref:`DMAAP MR - Data Management as a Platform (Message Router)<dmaap-messagerouter-messageservice:offeredapis>`
+:ref:`ExtAPI- External API NBI - NorthBound API<externalapi-nbi:offeredapis>`
+:ref:`Modeling Parsers<modeling-toscaparsers:offeredapis>`
+:ref:`MSB - Micro Services Bus<msb-apigateway:offeredapis>`
+:ref:`Multi Cloud<multicloud-framework:offeredapis>`
+:ref:`MUSIC - Multi-site State Coordination Service<music:offeredapis>`
+:ref:`OPTF - Optimization Framework<optf-osdf:offeredapis>`
 
 SDK
 ---
@@ -67,7 +67,7 @@ SDK
    :maxdepth: 1
    :titlesonly:
 
-   VNF Software Development Kit <../../../submodules/vnfsdk/model.git/docs/files/vnfsdk-apis.rst>
+:ref:`VNF Software Development Kit<vnfsdk-model:offeredapis>`
 
 
 Some ONAP Postman collections
@@ -77,4 +77,4 @@ Some ONAP Postman collections
    :maxdepth: 1
    :titlesonly:
 
-   Some ONAP Postman collections <../../../submodules/integration.git/docs/docs_postman.rst>
+:ref:`Some ONAP Postman collections<integration:docs_postman>`
