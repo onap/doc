@@ -93,6 +93,30 @@
       "revId": "7b73690e303bfe566a1aa72070453cf5bf2c6162",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a4d1be7_e5c2e90c",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/uui/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 3213
+      },
+      "writtenOn": "2020-04-16T16:10:04Z",
+      "side": 1,
+      "message": "The link should point to doc/user-guide/index.rst\nand currently points to doc/index.rst\nSo we need an user_guide anchor that we can point to in usecase-ui/doc/platform/user-guide/index.rst",
+      "parentUuid": "ef67a930_23fa58cb",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 85
+      },
+      "revId": "7b73690e303bfe566a1aa72070453cf5bf2c6162",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
