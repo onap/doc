@@ -69,6 +69,30 @@
       "revId": "7b73690e303bfe566a1aa72070453cf5bf2c6162",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef67a930_23fa58cb",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/uui/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2020-04-16T14:07:06Z",
+      "side": 1,
+      "message": "The issue is that the highlighted link here does not work and we need to know where should this be pointing to. Or else, please let us know if thos should be deleted.",
+      "parentUuid": "2a50e6f8_c4fd7626",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 85
+      },
+      "revId": "7b73690e303bfe566a1aa72070453cf5bf2c6162",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
