@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9de590d5_7df5186e",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-04-20T11:59:51Z",
+      "side": 1,
+      "message": "Do we need this line ? It seems redundant with line7",
+      "revId": "78419c6e4b1dd72d9ab29ad116aa1cd8ce600292",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d814de8f_82979715",
+        "filename": "docs/templates/sections/release-notes.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-04-20T11:59:51Z",
+      "side": 1,
+      "message": "system",
+      "revId": "78419c6e4b1dd72d9ab29ad116aa1cd8ce600292",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
