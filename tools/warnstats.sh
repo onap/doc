@@ -33,6 +33,7 @@
 ###
 ### CHANGELOG (LATEST ON TOP)
 ###
+### 1.6.1 (2020-04-21) - fixed a problem with duplicates in rst filenames
 ### 1.6.0 (2020-04-03) - extended detection of docs pathes in case they are not
 ###                      below the submodules directory
 ### 1.5.0 (2020-03-23) - doc8 test now executed for every rst file. result is
@@ -47,10 +48,10 @@
 ###                      no real onap projects/modules but directories which
 ###                      contain additional documentation in rst format).
 ### 1.3.1 (2020-03-10) - fixed minor typo in usage message
-### 1.3.0 (2020-03-09) - initial release
+### 1.3.0 (2020-03-09) - initially released to the community
 ###
 
-script_version="1.6.0 (2020-04-03)"
+script_version="1.6.1 (2020-04-21)"
 doc8_dir=$(pwd)/doc8_results
 logfile=$1;
 doc8_command="doc8 --verbose"; #add options if required
@@ -217,7 +218,8 @@ do
 
     # extract rst file name from line and do some formatting to use it later as an array name
     #echo "DBUG line: $line";
-    rstfile=$(echo "$line" | grep -oP "[\w -]*\.rst");
+    rstfile=$(echo "$line" | sed -r 's:, other instance in.*::');
+    rstfile=$(echo -e "${rstfile}" | grep -oP "[\w -]*\.rst");
     rstfile=$(echo -e ${rstfile} | tr '[:blank:]' '_');
     #echo "DBUG rst-file: $rstfile";
 
