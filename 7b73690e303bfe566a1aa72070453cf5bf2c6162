@@ -117,6 +117,30 @@
       "revId": "7b73690e303bfe566a1aa72070453cf5bf2c6162",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3b859f82_4c88e947",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/uui/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2020-04-27T17:52:01Z",
+      "side": 1,
+      "message": "It was agreed in today\u0027s PTL to go ahead and merge this change as is. \nThe next steps will be for the teams to approve the new docs in https://wiki.onap.org/display/DW/Docs+migration+tracker and document the errors like this one and any new others and get them resolved in separate cases..",
+      "parentUuid": "3a4d1be7_e5c2e90c",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 85
+      },
+      "revId": "7b73690e303bfe566a1aa72070453cf5bf2c6162",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
