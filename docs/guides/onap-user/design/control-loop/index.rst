@@ -55,7 +55,8 @@ Design a Model
    is available on DCAE.
 
 **Prerequisites:** Create and test a VF
-(see :ref:`VF Creation and Testing <user-guides-service-design>`).
+
+#TODO ADD A LINK TO VF Creation and Testing user-guides-service-design?
 
     #. Create and name a new model
     #. Associate a Service with the model
@@ -264,7 +265,8 @@ With open loop control systems, the action(s) taken by the Policy do
 not affect the output of the system.
 
 For information about creating policy using the Policy Designer,
-see :ref:`Policy Design <user-guides-service-design>`.
+
+#TODO ADD A LINK TO VF Creation and Testing user-guides-service-design?
 
 
 .. |image0| image:: media/DesignModel.png

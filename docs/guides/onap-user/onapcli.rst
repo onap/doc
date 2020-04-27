@@ -7,5 +7,4 @@ ONAP CLI
 .. toctree::
    :maxdepth: 2
 
-   ../../../submodules/cli.git/docs/user_guide.rst
-   ../../../submodules/cli.git/docs/OCLIP.rst
+:ref:`cligit docs user_guiderst<onap-cli:cli_user_guide>`
