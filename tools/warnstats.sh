@@ -33,6 +33,13 @@
 ###
 ### CHANGELOG (LATEST ON TOP)
 ###
+### 1.6.2 (2020-05-14) - fixed a major problem with rst files within one module
+###                      which have the same name (but reside in different
+###                      subdirectories). they were not shown in the result
+###                      list. introduced a crc-number for every file for proper
+###                      identification and to build the index.
+###                    - fixed a problem where the results are showing the link
+###                      to a wrong file due to a regex problem in the script.
 ### 1.6.1 (2020-04-21) - fixed a problem with duplicates in rst filenames
 ### 1.6.0 (2020-04-03) - extended detection of docs pathes in case they are not
 ###                      below the submodules directory
@@ -51,7 +58,7 @@
 ### 1.3.0 (2020-03-09) - initially released to the community
 ###
 
-script_version="1.6.1 (2020-04-21)"
+script_version="1.6.2 (2020-05-14)"
 doc8_dir=$(pwd)/doc8_results
 logfile=$1;
 doc8_command="doc8 --verbose"; #add options if required
@@ -116,6 +123,10 @@ do
     #
     # extract path to local rst file
     #
+
+    # remove problematic text in the original line that causes regex to fail
+    line=$(echo "$line" | sed -r 's:, other instance in.*::');
+
     path_rst=$line;
     path_rst_debug=$line;
     #echo "DBUG      line: $line"
@@ -125,6 +136,13 @@ do
     # grep the rst file path
     path_rst=$(echo "$path_rst" | grep -oP "^(/|docs).*\.rst");
     #echo "DBUG path_rst: $path_rst"
+    # create an unique identifier for the rst file for the case that the rst file name is used multiple times (but in different subdirectories) within one module
+    rst_crc=$(crc32 "$path_rst" 2>/dev/null);
+    #echo "DBUG  rst_crc: $rst_crc"
+    if [[ "$rst_crc" == "" ]] ; then
+      rst_crc="rst_crc_missing"
+    fi
+
     if [[ "$path_rst" == "" ]] ; then
       path_rst="path_to_rst_missing"
       #echo "DBUG       path_rst: $path_rst"
@@ -137,6 +155,7 @@ do
     #
     # extract path to the html version of the local rst file
     #
+
     path_html=$line;
     #echo "DBUG      line: $line"
     # remove problematic text in line that causes regex to fail
@@ -221,7 +240,7 @@ do
     rstfile=$(echo "$line" | sed -r 's:, other instance in.*::');
     rstfile=$(echo -e "${rstfile}" | grep -oP "[\w -]*\.rst");
     rstfile=$(echo -e ${rstfile} | tr '[:blank:]' '_');
-    #echo "DBUG rst-file: $rstfile";
+    #echo "DBUG rstfile: '$rstfile'";
 
     # get the maximum length of the variable entries to adjust table width later on
     if [[ ${#rstfile} -gt "$maxlength_rstfile" ]]; then
@@ -230,16 +249,22 @@ do
     #echo "DBUG maxlength_rstfile=$maxlength_rstfile";
 
     # count the number of warnings for the module/rstfile combination
-    (( rstfile_array[$module | $rstfile]++ ));
+    (( rstfile_array[$module | $rstfile | $rst_crc]++ ));
 
     # count the number of warnings for the single module
     #echo "DBUG $module | $rstfile | $message";
     (( module_array[$module]++ ));
 
     # now we have all the information to fill the html/rst/web (file) path arrays
-    htmlfilepath_array[$module | $rstfile]=$path_html_link;
-     rstfilepath_array[$module | $rstfile]=$path_rst_link;
-         webpath_array[$module | $rstfile]=$path_web_link;
+    htmlfilepath_array[$module | $rstfile | $rst_crc]=$path_html_link;
+     rstfilepath_array[$module | $rstfile | $rst_crc]=$path_rst_link;
+         webpath_array[$module | $rstfile | $rst_crc]=$path_web_link;
+
+    #echo "DBUG -------------------------------------------------------------------";
+    #echo "DBUG               line: $line";
+    #echo "DBUG htmlfilepath_array: $module | $rstfile | $rst_crc = $path_html_link";
+    #echo "DBUG  rstfilepath_array: $module | $rstfile | $rst_crc = $path_rst_link";
+    #echo "DBUG      webpath_array: $module | $rstfile | $rst_crc = $path_web_link";
 
     # extract the warning message and do some formatting
     #message=$(echo "$line" | sed -r 's:^/.+WARNING\:\ ::');
@@ -262,7 +287,7 @@ do
     (( message_short_array[$message_short]++ ))
 
     # check rst files with doc8 and store results
-    doc8_result_path="${doc8_dir}/${module}-${rstfile}.txt";
+    doc8_result_path="${doc8_dir}/${module}-${rstfile}-${rst_crc}.txt";
     #echo "DBUG ---------------------------------------------"
     #echo "DBUG doc8_result_path=\"$doc8_result_path\""
     # doc8 check only if result file does not exists yet AND if rst file is valid (exists)
@@ -278,7 +303,7 @@ do
         #echo "DBUG total_acc_err=$total_acc_err";
     fi
     doc8_result='\e]8;;file:'${doc8_result_path}'\adoc8_('$total_acc_err')\e]8;;\a';
-    doc8_result_array[$module | $rstfile]=$doc8_result;
+    doc8_result_array[$module | $rstfile | $rst_crc]=$doc8_result;
 
 done
 
@@ -384,11 +409,13 @@ do
   w=${webpath_array[$i]}
   d=${doc8_result_array[$i]};
   #echo "DBUG -------------------------------"
-  #echo "DBUG i=$i"
-  #echo "DBUG m=$m"
-  #echo "DBUG n=$n"
-  #echo "DBUG p=$p"
-  #echo -e "DBUG p=$p"
+  #echo "DBUG i = '$i'"
+  #echo "DBUG m = '$m'"
+  #echo "DBUG n = '$n'"
+  #echo "DBUG p = '$p'"
+  #echo -e "DBUG p = '$p'"
+  #echo "DBUG w = '$w'"
+  #echo "DBUG d = '$d'"
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
@@ -406,21 +433,29 @@ do
       #echo "DBUG tmp_mod=\"$tmp_mod\""
   done
 
-  # extend rst name to the max for better readability
-  tmp_rst=$(echo "$m" | sed -r 's:^.+ \| ::');
-  #echo "DBUG tmp_rst=$tmp_rst"
+  # remove crc and extend rst name to the max for better readability
+  #echo "DBUG ******************************************************"
+  #echo "DBUG m = '$m'"
+  tmp_rst=$(echo "$m" | sed -r 's:\| [[:alnum:]_]+$::');
+  #echo "DBUG tmp_rst = '$tmp_rst'"
+  tmp_rst=$(echo "$tmp_rst" | sed -r 's:[[:space:]]$::');
+  #echo "DBUG tmp_rst = '$tmp_rst'"
+  tmp_rst=$(echo "$tmp_rst" | sed -r 's:^.+ \| ::');
+  #echo "DBUG tmp_rst = '$tmp_rst'"
   len_tmp_rst=${#tmp_rst}
+  #echo "DBUG len_tmp_rst = '$len_tmp_rst'"
   to_add="$(($maxlength_rstfile-$len_tmp_rst))"
-  #echo "DBUG to_add=$to_add"
+  #echo "DBUG to_add = '$to_add'"
   while [ $to_add -gt 0 ]; do
       tmp_rst="${tmp_rst} ";
       ((to_add--));
-      #echo "DBUG  to_add=$to_add"
-      #echo "DBUG tmp_rst=\"$tmp_rst\""
+      #echo "DBUG  to_add = '$to_add'"
+      #echo "DBUG tmp_rst = '$tmp_rst'"
   done
 
   # recombine module and rst names
   m="${tmp_mod} | ${tmp_rst}";
+  #echo "DBUG m = '$m'"
 
   # print out to temp file
   echo -e " $m | $r  $p  $w  $d | $n" >>tempoutfile;
@@ -453,6 +488,15 @@ do
   r=${rstfilepath_array[$i]}
   w=${webpath_array[$i]}
   d=${doc8_result_array[$i]};
+  #echo "DBUG -------------------------------"
+  #echo "DBUG i=$i"
+  #echo "DBUG m=$m"
+  #echo "DBUG n=$n"
+  #echo "DBUG p=$p"
+  #echo -e "DBUG p=$p"
+  #echo "DBUG m=$r"
+  #echo "DBUG n=$w"
+  #echo "DBUG p=$d"
   ((nc += n))
   #format counter to have always x digits
   n=$(printf "%05d" $n);
@@ -470,17 +514,24 @@ do
       #echo "DBUG tmp_mod=\"$tmp_mod\""
   done
 
-  # extend rst name to the max for better readability
-  tmp_rst=$(echo "$m" | sed -r 's:^.+ \| ::');
-  #echo "DBUG tmp_rst=$tmp_rst"
+  # remove crc and extend rst name to the max for better readability
+  #echo "DBUG ******************************************************"
+  #echo "DBUG m = '$m'"
+  tmp_rst=$(echo "$m" | sed -r 's:\| [[:alnum:]_]+$::');
+  #echo "DBUG tmp_rst = '$tmp_rst'"
+  tmp_rst=$(echo "$tmp_rst" | sed -r 's:[[:space:]]$::');
+  #echo "DBUG tmp_rst = '$tmp_rst'"
+  tmp_rst=$(echo "$tmp_rst" | sed -r 's:^.+ \| ::');
+  #echo "DBUG tmp_rst = '$tmp_rst'"
   len_tmp_rst=${#tmp_rst}
+  #echo "DBUG len_tmp_rst = '$len_tmp_rst'"
   to_add="$(($maxlength_rstfile-$len_tmp_rst))"
-  #echo "DBUG to_add=$to_add"
+  #echo "DBUG to_add = '$to_add'"
   while [ $to_add -gt 0 ]; do
       tmp_rst="${tmp_rst} ";
       ((to_add--));
-      #echo "DBUG  to_add=$to_add"
-      #echo "DBUG tmp_rst=\"$tmp_rst\""
+      #echo "DBUG  to_add = '$to_add'"
+      #echo "DBUG tmp_rst = '$tmp_rst'"
   done
 
   # recombine module and rst names
