@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2accdd5b_c73327c8",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-05-25T11:35:13Z",
+      "side": 1,
+      "message": "is continuously working",
+      "range": {
+        "startLine": 40,
+        "startChar": 53,
+        "endLine": 40,
+        "endChar": 62
+      },
+      "revId": "8636043b9f4216a852af9be1ea6400c97f2b1da1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "137b0728_04460086",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-05-25T11:35:13Z",
+      "side": 1,
+      "message": "Should we keep \u0027docs.onap.org\u0027 while we migrated to \u0027onap-doc.readthedocs.io\u0027 ?",
+      "revId": "8636043b9f4216a852af9be1ea6400c97f2b1da1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
