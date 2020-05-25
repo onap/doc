@@ -21,21 +21,27 @@ Release Data
 | **Project**                          | Documentation                        |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | El Alto Release                      |
+| **Release name**                     | Frankfurt                            |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | El Alto 5.0.1                        |
+| **Release version**                  | Frankfurt 6.0.0                      |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | October 24 2019                      |
+| **Release date**                     | June 4th 2020                        |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
 New features
 ------------
 
-- No major changes or additions was made during the El Alto release
+- Improved end to end user guides.
+- A refined release note template to be used by all projects in ONAP.  To ensure a common way of how to provide the release
+  notes from a content such a look and feel perspective.
+- In addition the documentation project continuously work with improving processes and tools for documentation. Enabling the
+  community to as easy as possible document all the aspects of the ONAP platform. During the Frankfurt release cycle we have
+  started the work to clean up available content, both on the wiki and readthedocs (docs.onap.org) as well as moving the
+  documentation away from submodules according to the LFN documentation strategy.
 
-All JIRA tickets for the El Alto release can be found `ONAP Documentation Jira`_
+All JIRA tickets for the Frankfurt release can be found `ONAP Documentation Jira`_
 
-.. _`ONAP Documentation Jira`: https://jira.onap.org/browse/DOC-556?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22El%20Alto%20Release%22
+.. _`ONAP Documentation Jira`: https://jira.onap.org/browse/DOC-617?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Frankfurt%20Release%22%20
