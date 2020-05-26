@@ -7,15 +7,15 @@
 VNF and PNF Requirements and Guidelines
 =======================================
 
-The following includes guides and requirements are provided to
+The following includes guides and requirements to
 describe tasks that an VNF or PNF provider of ONAP may need to properly
 set up an VNF or PNF for ONAP usage.
 
 .. toctree::
    :maxdepth: 2
 
-:ref:`vnfrqts guidelines<onap-vnfrqts-guidelines:master_index>`
-:ref:`vnfrqts requirements<onap-vnfrqts-requirements:master_index>`
-:ref:`vnfrqts testcases<onap-vnfrqts-testcases:master_index>`
-:ref:`vnfrqts usecases<onap-vnfrqts-usecases:master_index>`
-:ref:`vnfrqts requirements docs release-notes<onap-vnfrqts-requirements:release_notes>`
+* :ref:`VNF Guidelines<onap-vnfrqts-guidelines:master_index>`
+* :ref:`VNF or PNF Requirements Documentation<onap-vnfrqts-requirements:master_index>`
+* :ref:`VNF Test Case Descriptions<onap-vnfrqts-testcases:master_index>`
+* :ref:`VNF Provider Use Cases<onap-vnfrqts-usecases:master_index>`
+* :ref:`VNFRQTS Project Release Notes<onap-vnfrqts-requirements:release_notes>`
