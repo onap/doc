@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4d812f44_e00ec851",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T15:12:33Z",
+      "side": 1,
+      "message": "* :ref:",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 5
+      },
+      "revId": "2a20c0daae02dbec17c2550d23811a624b733509",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4ceadfb1_3daec32a",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T15:12:33Z",
+      "side": 1,
+      "message": "* :ref:",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 5
+      },
+      "revId": "2a20c0daae02dbec17c2550d23811a624b733509",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "af9eb08d_26cbb4fb",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T15:12:33Z",
+      "side": 1,
+      "message": "* :ref:",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 5
+      },
+      "revId": "2a20c0daae02dbec17c2550d23811a624b733509",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d222355_ad506d7f",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T15:12:33Z",
+      "side": 1,
+      "message": "* :ref:",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 5
+      },
+      "revId": "2a20c0daae02dbec17c2550d23811a624b733509",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "32056e4a_2555350c",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T15:12:33Z",
+      "side": 1,
+      "message": "* :ref:",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 5
+      },
+      "revId": "2a20c0daae02dbec17c2550d23811a624b733509",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
