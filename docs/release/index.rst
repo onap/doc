@@ -4,28 +4,37 @@
 
 .. _release-notes:
 
-El Alto Release Notes
-^^^^^^^^^^^^^^^^^^^^^
+Frankfurt Release Notes
+^^^^^^^^^^^^^^^^^^^^^^^
 
-This page provides the release notes for the ONAP El Alto release. This
-includes details of software versions used, known limitations, and outstanding
+This page provides the release notes for the ONAP Frankfurt release. This
+includes details of software versions, known limitations, and outstanding
 trouble reports.
 
-Release notes are cumulative for the release, meaning this release note for the
-El Alto release will have an entry for each Major, Minor, and
-Maintenance release, if applicable.
+Release notes are cumulative for the release, meaning this release note will
+have an entry for each Major, Minor, and Maintenance release, if applicable.
 
 Each component within the ONAP solution maintains their own component level
 release notes and links to those release notes are provided below.
 Details on the specific items delivered in each releaese by each component is
 maintained in the component specific release notes.
 
-El Alto Major Release 5.0.1
-===========================
+Release data
+============
 
-* Release Name: El Alto
-* Release Version: 5.0.1
-* Release Date: October 24 2019
++--------------------------------------+--------------------------------------+
+| **Project**                          | Open Network Automation Platform     |
+|                                      | (ONAP)                               |
++--------------------------------------+--------------------------------------+
+| **Release name**                     | Frankfurt                            |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release version**                  | Frankfurt 6.0.0                      |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release date**                     | June 4th 2020                        |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
 
 Project Specific Release Notes
 ==============================
@@ -38,8 +47,8 @@ are compatible with a major release are made available.
 
 Documentation
 =============
-ONAP El Alto Release provides a set selection of documents,
-see :ref:`ONAP Home<master_index>`.
+ONAP Frankfurt Release provides a set selection of documents,
+see `onap.org <http://wiki.onap.org/software>`_.
 
 The `developer wiki <http://wiki.onap.org>`_ remains a good source of
 information on meeting plans and notes from committees, project teams and
@@ -62,7 +71,7 @@ each project.
 
 ONAP Maturity Testing Notes
 ===========================
-For El Alto release, ONAP continues to improve in multiple areas of
+For the Frankfurt release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
 The Integration team ran the 72 hours stability testing (100% passing rate)
@@ -73,20 +82,6 @@ Known Issues and Limitations
 ============================
 Known Issues and limitations are documented in each
 :ref:`project Release Notes <doc-releaserepos>`.
-
-.. index:: Reporting Bugs
-
-How to Report a Bug
-===================
-There are 2 ways to report a bug in ONAP.
-
- * In case you are familiar within ONAP, you can directly report a bug by
-   creating a Jira issue at `ONAP Jira <https://jira.onap.org>`_.
-
- * If you don't know you are facing a bug or have a question, post your
-   question into the `Ask question <https://wiki.onap.org/display/DW/questions/all>`_.
-   You will need a Linux Foundation ID to login and post your question.
-   Get a Linux Foundation Identity using this `quick procedure <https://docs.linuxfoundation.org/corporate-learners/creating-a-lf-id>`_.
 
 
 .. Include files referenced by link in the toctree as hidden
