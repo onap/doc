@@ -67,6 +67,29 @@
       "revId": "58d841dc3e7e74bd8d9d947a5a2de91143d17f54",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e2c6f51_8922690f",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T07:54:43Z",
+      "side": 1,
+      "message": "Frankfurt",
+      "range": {
+        "startLine": 75,
+        "startChar": 4,
+        "endLine": 75,
+        "endChar": 19
+      },
+      "revId": "58d841dc3e7e74bd8d9d947a5a2de91143d17f54",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
