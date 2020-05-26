@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "859018df_4efaf366",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T13:48:02Z",
+      "side": 1,
+      "message": "rephrase needed?",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 59
+      },
+      "revId": "18c4a84c8befb84ecc32c841270c471aa95d2c10",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3184063d_7e188ed8",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T13:48:02Z",
+      "side": 1,
+      "message": "VNF Guidelines",
+      "range": {
+        "startLine": 17,
+        "startChar": 8,
+        "endLine": 17,
+        "endChar": 26
+      },
+      "revId": "18c4a84c8befb84ecc32c841270c471aa95d2c10",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b0fcac49_632e64a3",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T13:48:02Z",
+      "side": 1,
+      "message": "VNF or PNF Requirements Documentation",
+      "range": {
+        "startLine": 18,
+        "startChar": 8,
+        "endLine": 18,
+        "endChar": 28
+      },
+      "revId": "18c4a84c8befb84ecc32c841270c471aa95d2c10",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d37d8851_9c675628",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T13:48:02Z",
+      "side": 1,
+      "message": "VNF Test Case Descriptions",
+      "range": {
+        "startLine": 19,
+        "startChar": 8,
+        "endLine": 19,
+        "endChar": 20
+      },
+      "revId": "18c4a84c8befb84ecc32c841270c471aa95d2c10",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7395598b_31e705b6",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T13:48:02Z",
+      "side": 1,
+      "message": "VNF Provider Use Cases",
+      "range": {
+        "startLine": 20,
+        "startChar": 8,
+        "endLine": 20,
+        "endChar": 24
+      },
+      "revId": "18c4a84c8befb84ecc32c841270c471aa95d2c10",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "269d0c5d_cb0775bb",
+        "filename": "docs/guides/onap-provider/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-05-26T13:48:02Z",
+      "side": 1,
+      "message": "VNFRQTS Project Release Notes\nrephrase needed? (VNFRQTS)",
+      "range": {
+        "startLine": 21,
+        "startChar": 8,
+        "endLine": 21,
+        "endChar": 47
+      },
+      "revId": "18c4a84c8befb84ecc32c841270c471aa95d2c10",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
