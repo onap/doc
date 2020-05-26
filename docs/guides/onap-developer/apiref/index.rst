@@ -20,10 +20,10 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-:ref:`CLAMP - Closed Loop Automation Platform<onap-clamp:master_index>`
-:ref:`Portal<onap-portal:offeredapis>`
-:ref:`SDC - Service Design and Creation<onap-sdc:offeredapis>`
-:ref:`VID - Virtual Infrastructure Deployment<onap-vid:offeredapis>`
+* :ref:`CLAMP - Closed Loop Automation Platform<onap-clamp:master_index>`
+* :ref:`Portal<onap-portal:offeredapis>`
+* :ref:`SDC - Service Design and Creation<onap-sdc:offeredapis>`
+* :ref:`VID - Virtual Infrastructure Deployment<onap-vid:offeredapis>`
 
 Platform Components
 -------------------
@@ -32,13 +32,13 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
-:ref:`APPC - Application Controller<onap-appc:appc_lcm_api_guide>`
-:ref:`DCAE - Data Collection Analytics and Events<onap-dcaegen2:offeredapis>`
-:ref:`Holmes - Alarm Correlation<onap-holmes-rule-management:offeredapis>`
-:ref:`Policy<onap-policy-parent:offeredapis>`
-:ref:`SDNC - SDN Controller<onap-sdnc-oam:offeredapis>`
-:ref:`SO - Service Orchestration<onap-so:offeredapis>`
-:ref:`VFC - Virtual Function Controller<onap-vfc-nfvo-lcm:master_index>`
+* :ref:`APPC - Application Controller<onap-appc:appc_lcm_api_guide>`
+* :ref:`DCAE - Data Collection Analytics and Events<onap-dcaegen2:offeredapis>`
+* :ref:`Holmes - Alarm Correlation<onap-holmes-rule-management:offeredapis>`
+* :ref:`Policy<onap-policy-parent:offeredapis>`
+* :ref:`SDNC - SDN Controller<onap-sdnc-oam:offeredapis>`
+* :ref:`SO - Service Orchestration<onap-so:offeredapis>`
+* :ref:`VFC - Virtual Function Controller<onap-vfc-nfvo-lcm:master_index>`
 
 Common Services
 ---------------
@@ -47,18 +47,18 @@ Common Services
    :maxdepth: 1
    :titlesonly:
 
-:ref:`AAF - Application Authorization Framework<onap-aaf-sms:offeredapis>`
-:ref:`AAI - Active and Available Inventory<onap-aai-aai-common:offeredapis>`
-:ref:`AAI ESR - AAI External System Register<onap-aai-esr-server:offeredapis>`
-:ref:`DMAAP DBC - Data Management as a Platform (Data Bus Controller)<onap-dmaap-dbcapi:offeredapis>`
-:ref:`DMAAP DR - Data Management as a Platform (Data Router)<onap-dmaap-datarouter:master_index>`
-:ref:`DMAAP MR - Data Management as a Platform (Message Router)<onap-dmaap-messagerouter-messageservice:offeredapis>`
-:ref:`ExtAPI- External API NBI - NorthBound API<onap-externalapi-nbi:offeredapis>`
-:ref:`Modeling Parsers<onap-modeling-toscaparsers:offeredapis>`
-:ref:`MSB - Micro Services Bus<onap-msb-apigateway:offeredapis>`
-:ref:`Multi Cloud<onap-multicloud-framework:offeredapis>`
-:ref:`MUSIC - Multi-site State Coordination Service<onap-music:offeredapis>`
-:ref:`OPTF - Optimization Framework<onap-optf-osdf:offeredapis>`
+* :ref:`AAF - Application Authorization Framework<onap-aaf-sms:offeredapis>`
+* :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:offeredapis>`
+* :ref:`AAI ESR - AAI External System Register<onap-aai-esr-server:offeredapis>`
+* :ref:`DMAAP DBC - Data Management as a Platform (Data Bus Controller)<onap-dmaap-dbcapi:offeredapis>`
+* :ref:`DMAAP DR - Data Management as a Platform (Data Router)<onap-dmaap-datarouter:master_index>`
+* :ref:`DMAAP MR - Data Management as a Platform (Message Router)<onap-dmaap-messagerouter-messageservice:offeredapis>`
+* :ref:`ExtAPI- External API NBI - NorthBound API<onap-externalapi-nbi:offeredapis>`
+* :ref:`Modeling Parsers<onap-modeling-toscaparsers:offeredapis>`
+* :ref:`MSB - Micro Services Bus<onap-msb-apigateway:offeredapis>`
+* :ref:`Multi Cloud<onap-multicloud-framework:offeredapis>`
+* :ref:`MUSIC - Multi-site State Coordination Service<onap-music:offeredapis>`
+* :ref:`OPTF - Optimization Framework<onap-optf-osdf:offeredapis>`
 
 SDK
 ---
@@ -67,7 +67,7 @@ SDK
    :maxdepth: 1
    :titlesonly:
 
-:ref:`VNF Software Development Kit<onap-vnfsdk-model:offeredapis>`
+* :ref:`VNF Software Development Kit<onap-vnfsdk-model:offeredapis>`
 
 
 Some ONAP Postman collections
@@ -77,4 +77,4 @@ Some ONAP Postman collections
    :maxdepth: 1
    :titlesonly:
 
-:ref:`Some ONAP Postman collections<onap-integration:docs_postman>`
+* :ref:`Some ONAP Postman collections<onap-integration:docs_postman>`
