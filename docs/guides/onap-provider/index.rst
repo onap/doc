@@ -14,8 +14,8 @@ set up an VNF or PNF for ONAP usage.
 .. toctree::
    :maxdepth: 2
 
-:ref:`vnfrqts guidelines<onap-vnfrqts-guidelines:master_index>`
-:ref:`vnfrqts requirements<onap-vnfrqts-requirements:master_index>`
-:ref:`vnfrqts testcases<onap-vnfrqts-testcases:master_index>`
-:ref:`vnfrqts usecases<onap-vnfrqts-usecases:master_index>`
-:ref:`vnfrqts requirements docs release-notes<onap-vnfrqts-requirements:release_notes>`
+* :ref:`vnfrqts guidelines<onap-vnfrqts-guidelines:master_index>`
+* :ref:`vnfrqts requirements<onap-vnfrqts-requirements:master_index>`
+* :ref:`vnfrqts testcases<onap-vnfrqts-testcases:master_index>`
+* :ref:`vnfrqts usecases<onap-vnfrqts-usecases:master_index>`
+* :ref:`vnfrqts requirements docs release-notes<onap-vnfrqts-requirements:release_notes>`
