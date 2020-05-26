@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5b0444cd_c926a791",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-05-26T07:36:39Z",
+      "side": 1,
+      "message": "Missing ^",
+      "revId": "332f7304c578081df9916851e7b8e64c5afe2037",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8fced0dd_58e0f8de",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-05-26T07:36:39Z",
+      "side": 1,
+      "message": "Frankfurt",
+      "revId": "332f7304c578081df9916851e7b8e64c5afe2037",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
