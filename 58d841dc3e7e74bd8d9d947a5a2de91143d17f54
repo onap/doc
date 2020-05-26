@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9338dd4e_b7ca350f",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-05-26T07:07:45Z",
+      "side": 1,
+      "message": "missing ^",
+      "revId": "58d841dc3e7e74bd8d9d947a5a2de91143d17f54",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "62589981_62c59b56",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-05-26T07:07:45Z",
+      "side": 1,
+      "message": "Frankfurt",
+      "revId": "58d841dc3e7e74bd8d9d947a5a2de91143d17f54",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c2b4567_d4cd9244",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-05-26T07:07:45Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "revId": "58d841dc3e7e74bd8d9d947a5a2de91143d17f54",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f5502f08_8df1aa1c",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-05-26T07:07:45Z",
+      "side": 1,
+      "message": "Frankfurt",
+      "revId": "58d841dc3e7e74bd8d9d947a5a2de91143d17f54",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
