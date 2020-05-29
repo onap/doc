@@ -6,6 +6,16 @@
 Setting Up
 ==========
 
+ONAP documentation is stored in git repositories, changes are managed
+with gerrit reviews, and published documents generated when there is a
+change in any source used to build the documentation.
+
+Authors create source for documents in reStructured Text (RST) that is
+rendered to HTML and published on Readthedocs.io.
+The developer Wiki or other web sites can reference these rendered
+documents directly allowing projects to easily maintain current release
+documentation.
+
 Some initial set up is required to connect a project with
 the master document structure and enable automated publishing of
 changes as summarized in the following diagram and description below
@@ -31,12 +41,12 @@ below.
      PA  <--  PR [label = "Merge" ];
      }
 
-Setup project repositories(s)
------------------------------
+Setup project repositories
+--------------------------
 These steps are performed for each project repository that
 provides documentation.
 
-First let's set two variables that will be used in the subsequent steps.
+1. Set two variables that will be used in the subsequent steps.
 Set *reponame* to the project repository you are setting up
 just as it appears in the **Project Name** column of
 the Gerrit projects page.
@@ -48,7 +58,7 @@ login to gerrit or for git clone requests over ssh.
    reponame=
    lfid=
 
-The next step is to add a directory in the doc project where your
+2. Add a directory in the doc project where your
 project will be included as a submodule and at least one reference
 from the doc project to the documentation index in your repository.
 The following sequence will do this over ssh. Please note that the
@@ -90,7 +100,7 @@ place.
    reference on changes and/or the verify job will fail in the step below.
 
 
-The last step is to create a docs directory in your repository with
+3. Create a docs directory in your repository with
 an index.rst file.  The following sequence will complete the minimum
 required over ssh.  As you have time to convert or add new content you
 can update the index and add files under the docs folder.
