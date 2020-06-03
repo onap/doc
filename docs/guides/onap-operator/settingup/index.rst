@@ -14,32 +14,25 @@ Setting Up ONAP
 
 ONAP is deployed using the ONAP Operations Manager (OOM).
 
-The recommended ONAP deployment is based on Kubernetes, Docker containers
-and Helm installer.
+The recommended ONAP deployment can be deployed on a private set of physical
+hosts or VMs (or even a combination of the two) and is based on Kubernetes,
+Docker containers and Helm installer.
+
 
 Requirements
 ------------
 
-The following is the recommended component version.
+OOM requires the following  Software components.
 
-  ===========  =========
-  Software     Version
-  ===========  =========
-  Kubernetes   1.13.5
-  Helm         2.12.3
-  kubectl      1.13.5
-  Docker       18.09.5
-  ===========  =========
+* Kubernetes
+* Helm
+* kubectl
+* Docker
 
-The ONAP full installation is validated with the following footprint:
+The Software versions needed for the specific ONAP release
+as well as the minimum Hardware configuration can be found in the
+:ref:`OOM Cloud Setup Guide<onap-oom:oom_cloud_setup_guide>`
 
-.. csv-table:: Validated installation footprint
-   :widths: 3,5,10
-
-   VM number, VM flavor, VM role
-   12, 16 GB RAM - 8 vCPUs, Running the K8S worker role
-   3, 8 GB RAM - 4 vCPUs, Running the K8S controller role
-   1, 8 GB RAM - 4 vCPUs, Running the shared NFS server for /dockerdata-nfs/
 
 Installation
 ------------
@@ -50,7 +43,9 @@ Creation of Kubernetes cluster is described here:
    :maxdepth: 2
    :titlesonly:
 
-:ref:`oom_cloud_setup_guide<onap-oom:oom_cloud_setup_guide>`
+:ref:`OOM Cloud Setup Guide<onap-oom:oom_cloud_setup_guide>`
+
+:ref:`ONAP on HA Kubernetes Cluster<onap-oom:onap-on-kubernetes-with-rancher>`
 
 ONAP installation is described here:
 
@@ -58,8 +53,9 @@ ONAP installation is described here:
    :maxdepth: 2
    :titlesonly:
 
-:ref:`oom_quickstart_guide<onap-oom:oom_quickstart_guide>`
-:ref:`oom_user_guide<onap-oom:oom_user_guide>`
+:ref:`OOM Quickstart Guide<onap-oom:oom_quickstart_guide>`
+
+:ref:`OOM User Guide<onap-oom:oom_user_guide>`
 
 Alternative way of offline ONAP installation is described here:
 
@@ -67,7 +63,7 @@ Alternative way of offline ONAP installation is described here:
    :maxdepth: 2
    :titlesonly:
 
-:ref:`oom offline-installer<onap-oom-offline-installer:master_index>`
+:ref:`OOM Offline-Installer<onap-oom-offline-installer:master_index>`
 
 .. note::
    Prior to deployment of ONAP, there is no need to download manually any Docker container.
@@ -85,7 +81,8 @@ Kubernetes, access to ONAP components deployed by OOM.
 A NodePort maps an externally reachable port to an internal port of an ONAP
 microservice.
 It should be noted that the use of NodePorts is temporary.
-An alternative solution is currently being scoped for the Dublin Release.
+An alternative solution based on Ingress Controller is currently being
+scoped for the future ONAP release.
 
 More information from official Kubernetes documentation about
 `NodePort <https://kubernetes.io/docs/concepts/services-networking/service/#nodeport>`_.
