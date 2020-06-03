@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "425c4a22_eafc9da6",
+        "filename": "docs/guides/onap-operator/settingup/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 4965
+      },
+      "writtenOn": "2020-06-03T16:58:14Z",
+      "side": 1,
+      "message": "Just one correction. Initial ingress controller support is already in place. We hope that it will become a default deployment option in the G release",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
