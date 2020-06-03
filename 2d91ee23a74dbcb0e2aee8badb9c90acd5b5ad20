@@ -16,6 +16,125 @@
       "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ed5c4dfb_1daa1577",
+        "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-06-03T17:14:38Z",
+      "side": 1,
+      "message": "Not in Frankfurt",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1991d0c_de359d57",
+        "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-06-03T17:14:38Z",
+      "side": 1,
+      "message": "Not in Frankfurt",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b67f1070_c6e5fa64",
+        "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-06-03T17:14:38Z",
+      "side": 1,
+      "message": "Not in Frankfurt",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "85c929f0_1cb5041d",
+        "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-06-03T17:14:38Z",
+      "side": 1,
+      "message": "Not in Frankfurt",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "57ac045b_0a7f43af",
+        "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-06-03T17:14:38Z",
+      "side": 1,
+      "message": "Not in Frankfurt",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2fb7cb04_2f8856a9",
+        "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-06-03T17:14:38Z",
+      "side": 1,
+      "message": "Not in Frankfurt",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "38bf7554_3b55d630",
+        "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-06-03T17:14:38Z",
+      "side": 1,
+      "message": "No more NodePort",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
