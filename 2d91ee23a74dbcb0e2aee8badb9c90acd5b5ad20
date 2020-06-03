@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "bd608674_928f1f99",
+        "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4965
+      },
+      "writtenOn": "2020-06-03T17:20:04Z",
+      "side": 1,
+      "message": "Well technically it can be there is someone enable logging project right? My personal opinion was that it\u0027s better to document too much than too little. Maybe we should have some note that this depends on your deployment configuration?",
+      "parentUuid": "ed5c4dfb_1daa1577",
+      "revId": "2d91ee23a74dbcb0e2aee8badb9c90acd5b5ad20",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f1991d0c_de359d57",
         "filename": "docs/guides/onap-operator/settingup/nodeports.csv",
         "patchSetId": 1
