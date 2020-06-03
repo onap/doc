@@ -1,6 +1,6 @@
 from docs_conf.conf import *
 
-branch = 'latest'
+branch = 'frankfurt'
 doc_url = 'https://onap-doc.readthedocs.io/projects'
 master_doc = 'index'
 
