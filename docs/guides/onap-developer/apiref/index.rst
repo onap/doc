@@ -69,12 +69,3 @@ SDK
 
 * :ref:`VNF Software Development Kit<onap-vnfsdk-model:offeredapis>`
 
-
-Some ONAP Postman collections
------------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-* :ref:`Some ONAP Postman collections<onap-integration:docs_postman>`
