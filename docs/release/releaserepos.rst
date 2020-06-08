@@ -15,12 +15,12 @@ Project Specific Release Notes
 | :ref:`Application Authorization Framework<onap-aaf-authz:release_notes>`
 | :ref:`Application Controller<onap-appc:release_notes>`
 | :ref:`Common Controller Software Development Kit<onap-ccsdk-distribution:release_notes>`
-| :ref:`Command Line Interface<onap-cli:release_notes>`
 | :ref:`Closed Loop Automation Platform<onap-clamp:release_notes>`
 | :ref:`Data Collection Analysis and Events<onap-dcaegen2:release_notes>`
 | :ref:`DMAAP Message Router (MR)<onap-dmaap-messagerouter-messageservice:release_notes>`
 | :ref:`DMAAP Dmaap Data Router (DR)<onap-dmaap-datarouter:release_notes>`
 | :ref:`DMAAP Dmaap Bus Controller (BC)<onap-dmaap-buscontroller:release_notes>`
+| :ref:`Documentation<doc_release_notes>`
 | :ref:`External API   NorthBound Interface<onap-externalapi-nbi:release_notes>`
 | :ref:`Holmes<onap-holmes-rule-management:release_notes>`
 | :ref:`Integration<onap-integration:release_notes>`

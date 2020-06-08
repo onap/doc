@@ -6,7 +6,7 @@
    International License. http://creativecommons.org/licenses/by/4.0
    Copyright 2019 by ONAP and contributors
 
-.. _doc-release-notes:
+.. _doc_release_notes:
 
 Release Notes
 =============
