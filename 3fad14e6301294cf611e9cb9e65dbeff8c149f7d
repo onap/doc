@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c435442f_d2522e54",
+        "filename": "docs/guides/onap-user/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2020-06-08T23:40:18Z",
+      "side": 1,
+      "message": "@Aric, @Sofia, do you guys know how can I make this part of the tree above?\nIt looks kinda wonky right now\nhttps://logs.onap.org/production/vex-yul-ecomp-jenkins-1/rtdv3-global-verify-master/1766/docs/guides/onap-user/index.html\n\nI tried adding it as a continuation of the list but the links did not appeared visible at all.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 72
+      },
+      "revId": "3fad14e6301294cf611e9cb9e65dbeff8c149f7d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
