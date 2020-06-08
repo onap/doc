@@ -2,6 +2,7 @@
    International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) ONAP Project and its contributors
+.. _release_notes:
 
 ***********************
 <project> Release Notes
