@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3883bf89_ca587efb",
+        "filename": "docs/guides/onap-user/index.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-06-08T19:10:15Z",
+      "side": 1,
+      "message": "Verified Use Cases to be consistent with the link towards Integration",
+      "revId": "197b1fb41f06f3a8bb56757001c91d96a270e1f5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
