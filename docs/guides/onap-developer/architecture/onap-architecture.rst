@@ -97,10 +97,11 @@ the open source code.
 ONAP Architecture
 =================
 
-The ONAP architecture consists of a design time and run time functions, as well as functions for
-managing ONAP itself.
+The ONAP architecture consists of a design time and run time functions, as well
+as functions for managing ONAP itself.
 
-**Figure 1 provides a high-level view of the ONAP architecture with its microservices-based platform components.**
+**Figure 1 provides a high-level view of the ONAP architecture with its
+microservices-based platform components.**
 
 |image1|
 
@@ -273,12 +274,12 @@ Orchestration
 The Service Orchestrator (SO) component executes the specified processes by
 automating sequences of activities, tasks, rules and policies needed for
 on-demand creation, modification or removal of network, application or
-infrastructure services and resources, this includes VNFs, CNFs and PNFs. The SO provides
-orchestration at a very high level, with an end-to-end view of the infrastructure, network,
-and applications.
+infrastructure services and resources, this includes VNFs, CNFs and PNFs.
+The SO provides orchestration at a very high level, with an end-to-end view of
+the infrastructure, network, and applications.
 
-One is BroadBand Service (BBS), the second one is Cross Domain and Cross Layer VPN
-(CCVPN).
+One is BroadBand Service (BBS), the second one is Cross Domain and Cross Layer
+VPN (CCVPN).
 
 Virtual Infrastructure Deployment (VID)
 ---------------------------------------
@@ -316,11 +317,12 @@ distributed components and services. Rather than using a single monolithic
 control layer, operators may choose to use multiple distinct controller types
 that manage resources in the execution environment corresponding to their
 assigned controlled domain such as cloud computing resources (network
-configuration (SDN-C) and application (App-C). The App-C and SDN-C also support the
-Virtual Function Controller (VF-C) provides an ETSI NFV compliant NFV-O function that is
-responsible for lifecycle management of virtual services and the associated
-physical COTS server infrastructure. VF-C provides a generic VNFM capability
-but also integrates with external VNFMs and VIMs as part of an NFV MANO stack.
+configuration (SDN-C) and application (App-C). The App-C and SDN-C also support
+the Virtual Function Controller (VF-C) provides an ETSI NFV compliant NFV-O
+function that is responsible for lifecycle management of virtual services and
+the associated physical COTS server infrastructure. VF-C provides a generic
+VNFM capability but also integrates with external VNFMs and VIMs as part of an
+NFV MANO stack.
 
 Inventory
 ---------
@@ -342,8 +344,9 @@ development cycles.
 
 Policy Framework
 ----------------
-The Policy framework provides policy based decision making capability and supports multiple policy
-engines and can distribute policies through policy design capabilities in SDC, simplifying the design process.
+The Policy framework provides policy based decision making capability and
+supports multiple policy engines and can distribute policies through policy
+design capabilities in SDC, simplifying the design process.
 
 Multi Cloud Adaptation
 ----------------------
@@ -424,7 +427,7 @@ requirements of various use cases, guide the development and bring consistency
 among ONAP components and explore a common model to improve the
 interoperability of ONAP.
 
-In the El Alto Release, ONAP supports the following Models:
+ONAP supports the following Models:
 
 - A VNF Descriptor Information Model based on ETSI NFV IFA011 v.2.5.1 with
   appropriate modifications aligned with ONAP requirements
@@ -442,10 +445,6 @@ In the El Alto Release, ONAP supports the following Models:
 - Root model which presents the relationship between different models
 - Business and Interaction model based on TMF specifications
 - VES model based on VES 7.1 specification
-
-In El Alto release, modeling project rename the generic parser into etsi catalog,
-which still provide the parser functionalities, as well as additional package
-management functionalities.
 
 Industry Alignment
 ==================
@@ -619,26 +618,19 @@ Watch videos about the major platform components on
 
 Read about how ONAP can be deployed using containers.
 
-.. |image1| image:: media/ONAP-toplevel.png
-   :width: 6.5in
-   :height: 3.13548in
+.. |image1| image:: media/ONAP-architecture.png
+   :width: 800px
 .. |image2| image:: media/ONAP-fncview.png
-   :width: 6.5in
-   :height: 3.409in
+   :width: 800px
 .. |image3| image:: media/ONAP-closedloop.png
-   :width: 6in
-   :height: 2.6in
+   :width: 800px
 .. |image4| image:: media/ONAP-5G.png
-   :width: 6in
-   :height: 2.6in
+   :width: 800px
 .. |image5| image:: media/ONAP-vcpe.png
-   :width: 6.5in
-   :height: 3.28271in
+   :width: 800px
 .. |image6| image:: media/ONAP-bbs.png
-   :width: 6.5in
-   :height: 3.02431in
+   :width: 800px
 .. |image7| image:: media/ONAP-volte.png
-   :width: 6.5in
-   :height: 3.02431in
+   :width: 800px
 .. |image8| image:: media/ONAP-ccvpn.png
-   :width: 6.5in
+   :width: 800px
