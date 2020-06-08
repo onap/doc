@@ -2,6 +2,8 @@
 .. International License.  http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
+.. index:: User Guides
+
 .. _user-guides:
 
 User Guides
@@ -19,4 +21,9 @@ an instance of ONAP.
    configure/index.rst
    onapcli.rst
 
-:ref:`Verified Use Cases<onap-integration:docs_usecases>`
+Verified Usecases
+-----------------
+In the following page you find all use cases and functional requirements
+which have been officially verified in the actual release by the ONAP community.
+
+* :ref:`Verified Use Cases<onap-integration:docs_usecases>`
