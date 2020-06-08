@@ -21,7 +21,7 @@ Project Specific Release Notes
 | :ref:`DMAAP Message Router (MR)<onap-dmaap-messagerouter-messageservice:release_notes>`
 | :ref:`DMAAP Dmaap Data Router (DR)<onap-dmaap-datarouter:release_notes>`
 | :ref:`DMAAP Dmaap Bus Controller (BC)<onap-dmaap-buscontroller:release_notes>`
-| :ref:`Documentation<onap-doc:release-notes>`
+| :ref:`Documentation<doc-release-notes>`
 | :ref:`External API   NorthBound Interface<onap-externalapi-nbi:release_notes>`
 | :ref:`Integration<onap-integration:release_notes>`
 | :ref:`Modeling etsicatalog<onap-modeling-etsicatalog:release_notes>`
