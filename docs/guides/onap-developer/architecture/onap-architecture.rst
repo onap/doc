@@ -97,10 +97,11 @@ the open source code.
 ONAP Architecture
 =================
 
-The ONAP architecture consists of a design time and run time functions, as well as functions for
-managing ONAP itself.
+The ONAP architecture consists of a design time and run time functions, as well
+as functions for managing ONAP itself.
 
-**Figure 1 provides a high-level view of the ONAP architecture with its microservices-based platform components.**
+**Figure 1 provides a high-level view of the ONAP architecture with its
+microservices-based platform components.**
 
 |image1|
 
@@ -177,7 +178,7 @@ OOM, MSB has a Kube2MSB registrar which can grasp services information from k8s
 metafile and automatically register the services for ONAP components.
 
 In the spirit of leveraging the microservice capabilities, further steps
-towards increased modularity have been taken in the Dublin release. Service
+towards increased modularity have been taken. Service
 Orchestrator (SO) and the controllers have increased its level of modularity.
 
 Portal
@@ -224,7 +225,7 @@ Service Design and Creation (SDC) provides tools, techniques, and repositories
 to define/simulate/certify system assets as well as their associated processes
 and policies. Each asset is categorized into one of four asset groups:
 Resource, Services, Products, or Offers. SDC also supports TOSCA1.3 List type
-definition in Dublin release which provides the ability to design complicated
+definition which provides the ability to design complicated
 service descriptor.
 
 The SDC environment supports diverse users via common services and utilities.
@@ -258,8 +259,8 @@ requiring rewrites of their software code. Policy permits simpler management
 
 Runtime Framework
 =================
-The runtime execution framework executes the rules and policies and othe models
-distributed by the design and creation environment.
+The runtime execution framework executes the rules and policies and other
+models distributed by the design and creation environment.
 
 This allows for the distribution of models and policy among
 various ONAP modules such as the Service Orchestrator (SO), Controllers,
@@ -273,12 +274,12 @@ Orchestration
 The Service Orchestrator (SO) component executes the specified processes by
 automating sequences of activities, tasks, rules and policies needed for
 on-demand creation, modification or removal of network, application or
-infrastructure services and resources, this includes VNFs, CNFs and PNFs. The SO provides
-orchestration at a very high level, with an end-to-end view of the infrastructure, network,
-and applications.
+infrastructure services and resources, this includes VNFs, CNFs and PNFs.
+The SO provides orchestration at a very high level, with an end-to-end view of
+the infrastructure, network, and applications.
 
-One is BroadBand Service (BBS), the second one is Cross Domain and Cross Layer VPN
-(CCVPN).
+One is BroadBand Service (BBS), the second one is Cross Domain and Cross Layer
+VPN (CCVPN).
 
 Virtual Infrastructure Deployment (VID)
 ---------------------------------------
@@ -316,11 +317,12 @@ distributed components and services. Rather than using a single monolithic
 control layer, operators may choose to use multiple distinct controller types
 that manage resources in the execution environment corresponding to their
 assigned controlled domain such as cloud computing resources (network
-configuration (SDN-C) and application (App-C). The App-C and SDN-C also support the
-Virtual Function Controller (VF-C) provides an ETSI NFV compliant NFV-O function that is
-responsible for lifecycle management of virtual services and the associated
-physical COTS server infrastructure. VF-C provides a generic VNFM capability
-but also integrates with external VNFMs and VIMs as part of an NFV MANO stack.
+configuration (SDN-C) and application (App-C). The App-C and SDN-C also support
+the Virtual Function Controller (VF-C) provides an ETSI NFV compliant NFV-O
+function that is responsible for lifecycle management of virtual services and
+the associated physical COTS server infrastructure. VF-C provides a generic
+VNFM capability but also integrates with external VNFMs and VIMs as part of an
+NFV MANO stack.
 
 Inventory
 ---------
@@ -342,8 +344,9 @@ development cycles.
 
 Policy Framework
 ----------------
-The Policy framework provides policy based decision making capability and supports multiple policy
-engines and can distribute policies through policy design capabilities in SDC, simplifying the design process.
+The Policy framework provides policy based decision making capability and
+supports multiple policy engines and can distribute policies through policy
+design capabilities in SDC, simplifying the design process.
 
 Multi Cloud Adaptation
 ----------------------
@@ -424,38 +427,25 @@ requirements of various use cases, guide the development and bring consistency
 among ONAP components and explore a common model to improve the
 interoperability of ONAP.
 
-In the El Alto Release, ONAP supports the following Models:
+ONAP supports various models detailed in
+:ref:`Modeling Documentation<onap-modeling-modelspec:master_index>`.
 
-- A VNF Descriptor Information Model based on ETSI NFV IFA011 v.2.5.1 with
-  appropriate modifications aligned with ONAP requirements
-- A PNF Descriptor Information Model based on ETSI NFV IFA014 v2.5.1
-- A VNF Descriptor TOSCA based Data Model based on IM and ETSI NFV SOL001
-  v 2.5.1 has been implemented by SDC and supported by vCPE use case.
-- VNF Package format leveraging the ETSI NFV SOL004 specification and supported
-  by VNF SDK project
-- A VNF instance model based on ETSI NFV IFA specification and A&AI
-  implementation
-- A Network Service Descriptor (NSD) has been realized by the VFC (using the
-  modelling project parsing capabilities)
-- These models enable ONAP to interoperate with implementations based on
-  standards and improve industry collaboration.
-- Root model which presents the relationship between different models
-- Business and Interaction model based on TMF specifications
-- VES model based on VES 7.1 specification
+The modeling project includes the ETSI catalog component, which provides the
+parser functionalities, as well as additional package management
+functionalities.
 
-In El Alto release, modeling project rename the generic parser into etsi catalog,
-which still provide the parser functionalities, as well as additional package
-management functionalities.
 
 Industry Alignment
 ==================
-ONAP support and collaboration with other standards and opensource communities
+ONAP support and collaboration with other standards and open source communities
 is evident in the architecture.
 
 - MEF and TMF interfaces are used in the External APIs
 - In addition to the ETSI-NFV defined VNFD and NSD models mentioned above, ONAP
   supports the NFVO interfaces (SOL005 between the SO and VFC, SOL003 from
   either the SO or VFC to an external VNFM).
+- Further collaboration includes 5G/ORAN & 3GPP Harmonization, Acumos DCAE
+  Integration, and CNCF Telecom User Group (TUG).
 
 Read this whitepaper for more information: The Progress of ONAP: Harmonizing
 Open Source and Standards.
@@ -464,33 +454,37 @@ ONAP Blueprints
 ===============
 ONAP can support an unlimited number of use cases, within reason. However, to
 provide concrete examples of how to use ONAP to solve real-world problems, the
-community has created a set of blueprints. In addition to helping users rapidly
-adopt the ONAP platform through end-to-end solutions, these blueprints also
-help the community prioritize their work. With the ONAP Dublin release, we
-introduced a new blueprint in the area of residential connectivity: Broadband
-Service. Prior blueprints were vCPE, VoLTE, vFW/vDNS, 5G, and CCVPN. 5G and
-CCVPN underwent feature enhancements during the Dublin release.
+community has created a set of blueprints. In addition to helping users
+rapidly adopt the ONAP platform through end-to-end solutions, these blueprints
+also help the community prioritize their work. With the ONAP Frankfurt release,
+we introduced a new blueprint in the area of optical transport networking
+called Multi-Domain Optical Network Service (MDONS). Prior blueprints were
+vCPE, VoLTE, vFW/vDNS, 5G, and CCVPN. 5G and CCVPN underwent feature
+enhancements during the Frankfurt release.
 
 5G Blueprint
 ------------
-The 5G blueprint is a multi-release effort, with three key initiatives around
-PNF integration, network optimization, and network slicing. The combination of
-eMBB that promises peak data rates of 20 Mbps, uRLLC that guarantees
-sub-millisecond response times and MMTC that can support 0.92 devices per sq.
-ft. brings with it some unique requirements. First, ONAP needs to optimize the
-network around real time and bulk analytics, place VNFs on the correct edge
-cloud, scale and heal services, and provide edge automation. Next, ONAP needs
-to handle end-to-end network slicing. These requirements have led to the three
-above-listed initiatives. Between the Casablanca and Dublin releases, the 5G
-blueprint incorporates PNF integration, edge automation, real-time and bulk
-analytics, homing (VNF placement), scaling and modeling work that will support
-end-to-end network slicing in future releases.
+The 5G blueprint is a multi-release effort, with five key initiatives around
+end-to-end service orchestration, network slicing, PNF/VNF lifecycle management
+, PNF integration, and network optimization. The combination of eMBB that
+promises peak data rates of 20 Mbps, uRLLC that guarantees sub-millisecond
+response times, MMTC that can support 0.92 devices per sq. ft., and network
+slicing brings with it some unique requirements. First ONAP needs to manage the
+lifecycle of a network slice from initial creation/activation all the way to
+deactivation/termination. Next, ONAP needs to optimize the network around real
+time and bulk analytics, place VNFs on the correct edge cloud, scale and heal
+services, and provide edge automation. ONAP also provides self organizing
+network (SON) services such as physical cell ID allocation for new RAN sites.
+These requirements have led to the five above-listed initiatives and have been
+developed in close cooperation with other standards and open source
+organizations such as 3GPP, TM Forum, ETSI, and O-RAN Software Community.
 
 |image4|
 
-**Figure 4. Disaggregated Hybrid RAN**
+**Figure 4. End-to-end 5G Service**
 
-Read the 5G Blueprint to learn more.
+Read the `5G Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2019/07/ONAP_CaseSolution_5G_062519.pdf>`_
+to learn more.
 
 Residential Connectivity Blueprints
 -----------------------------------
@@ -512,7 +506,8 @@ virtual and underlay connectivity.
 
 **Figure 5. ONAP vCPE Architecture**
 
-Read the Residential vCPE Use Case with ONAP blueprint to learn more.
+Read the `Residential vCPE Use Case with ONAP blueprint <https://www.onap.org/wp-content/uploads/sites/20/2018/11/ONAP_CaseSolution_vCPE_112918FNL.pdf>`_
+to learn more.
 
 Broadband Service (BBS)
 .......................
@@ -530,7 +525,8 @@ Access, Edge).
 
 **Figure 6. ONAP BBS Architecture**
 
-Read the Residential Connectivity Blueprint to learn more.
+Read the `Residential Connectivity Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2019/07/ONAP_CaseSolution_BBS_062519.pdf>`_
+to learn more.
 
 Voice over LTE (VoLTE) Blueprint
 --------------------------------
@@ -551,7 +547,14 @@ functionality such as scaling and change management.
 
 **Figure 7. ONAP VoLTE Architecture Open Network Automation Platform**
 
-Read the VoLTE Blueprint to learn more.
+Read the `VoLTE Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2018/11/ONAP_CaseSolution_VoLTE_112918FNL.pdf>`_
+to learn more.
+
+
+Optical Transport Networking (OTN)
+----------------------------------
+Two ONAP blueprints (CCVPN and MDONS) address the OTN use case. CCVPN addresses
+Layers 2 and 3, while MDONS addresses Layers 0 and 1.
 
 CCVPN (Cross Domain and Cross Layer VPN) Blueprint
 --------------------------------------------------
@@ -567,25 +570,39 @@ customers, and an instant and flexible VPN service for SMB companies.
 The CCVPN (Cross Domain and Cross Layer VPN) blueprint is a combination of SOTN
 (Super high-speed Optical Transport Network) and ONAP, which takes advantage of
 the orchestration ability of ONAP, to realize a unified management and
-scheduling of resource and services. It achieves cross-domain orchestration and
-ONAP peering across service providers. In this blueprint, SO is responsible for
-CCVPN end-to-end service orchestration working in collaboration with VF-C and
-SDN-C. SDN-C establishes network connectivity, then the VF-C component
+scheduling of resources and services. It achieves cross-domain orchestration
+and ONAP peering across service providers. In this blueprint, SO is responsible
+for CCVPN end-to-end service orchestration working in collaboration with VF-C
+and SDN-C. SDN-C establishes network connectivity, then the VF-C component
 completes the Network Services and VNF lifecycle management. ONAP peering
-across CSPs uses east-west API which is being aligned with the MEF Interlude
+across CSPs uses an east-west API which is being aligned with the MEF Interlude
 API. The key innovations in this use case are physical network discovery and
 modeling, cross-domain orchestration across multiple physical networks, cross
-operator end-to-end service provisioning and close-loop reroute for
-cross-domain service. The Dublin release added support for dynamic changes
-(branch sites, VNFs) and intelligent service optimization.
+operator end-to-end service provisioning, close-loop reroute for
+cross-domain service, dynamic changes (branch sites, VNFs) and intelligent
+service optimization (including AI/ML). The Frankfurt release adds support for
+end-to-end E-LINE services over optical transport network (OTN)
+network-to-network interface (NNI).
 
-To provide an extension work, many enhancement functions have been added into
-CCVPN blueprint in Dublin release. Multi-sites VPN service, service change and
-close-loop bandwidth adjustment will be realized in Dublin release, other
-functions, like AI Apps, SFC and E-LAN service will be supported in the next
-few releases.
+Read the `CCVPN Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2019/07/ONAP_CaseSolution_CCVPN_062519.pdf>`_
+to learn more.
 
-Read the CCVPN Blueprint to learn more.
+MDONS (Multi-Domain Optical Network Service) Blueprint
+------------------------------------------------------
+While CCVPN addresses the automation of networking layers 2 and 3, it does not
+address layers 0 and 1. Automating these layers is equally important because
+providing an end-to-end service to their customers often requires a manual and
+complex negotiation between CSPs that includes both the business arrangement
+and the actual service design and activation. CSPs may also be structured such
+that they operate multiple networks independently and require similar
+transactions among their own networks and business units in order to provide an
+end-to-end service. The MDONS blueprint created by AT&T, Orange, and Fujitsu
+solves the above problem. MDONS and CCVPN used together can solve the OTN
+automation problem in a comprehensive manner.
+
+|image9|
+
+**Figure 9. ONAP MDONS Architecture**
 
 vFW/vDNS Blueprint
 ------------------
@@ -595,8 +612,56 @@ blueprint consists of 5 VNFs: vFW, vPacketGenerator, vDataSink, vDNS and
 vLoadBalancer. The blueprint exercises most aspects of ONAP, showing VNF
 onboarding, network service creation, service deployment and closed-loop
 automation. The key components involved are SDC, CLAMP, SO, APP-C, DCAE and
-Policy. In the Dublin release, the vFW blueprint has been demonstrated by
-using a mix of a CNF and VNF.
+Policy. In the recent releases, the vFW blueprint has been demonstrated by
+using a mix of a CNF and VNF  and entirely using CNFs.
+
+Verified end to end tests
+=========================
+Use cases
+---------
+Various use cases have been tested for the Release. Detailed information can
+be found in :ref:`Verified Use Cases<onap-integration:docs_usecases>`.
+
+- vFirewall with closed loop
+- vFirewall/vDNS with HPA
+- vFirewall In-Place Software Upgrade with Traffic Distribution
+- vFirewall CNF With CDS
+- Scale Out
+- CCVPN-E LINE over OTN NNI
+- CCVPN - MDONS
+- BBS (Broadband Service)
+- vFirewall CNF with multicloud k8s plugin
+- EdgeXFoundry CNF with multicloud k8s plugin
+- vCPE with Tosca
+- E2E Automation vLB with CDS
+
+Functional requirements
+-----------------------
+Various functional requirements  have been tested for the Release. Detailed
+information can be found in
+:ref:`Verified Use Cases<onap-integration:docs_usecases>`.
+
+- PNF Software Upgrade using direct Netconf Yang interface with PNF
+- PNF Software Upgrade with EM with Ansible
+- PNF Software Upgrade with EM with Netconf
+- VSP Compliance and Validation Check within SDC
+- Enable PNF software version at onboarding
+- xNF communication security enhancements
+- ETSI Alignment SO plugin to support SOL003 to connect to an external VNFM
+- Integration of CDS as an Actor
+- 3rd Party Operational Domain Manager
+- Configuration & persistency
+- 5G functional requirements
+- 5G Realtime PM and High Volume Stream Data Collection
+- 5G PNF Plug and Play
+- 5G Bulk PM
+- 5G OOF and PCI
+- 5G NRM Network Resource Model (Configuration management)
+- 5G NETCONF configuration
+- 5G PNF Pre-Onboarding & Onboarding
+- 5G OOF SON
+- 5G E2E Network Slicing
+- 5G ORAN A1 Adapter (SDNR)
 
 Conclusion
 ==========
@@ -613,32 +678,23 @@ its own.
 
 Resources
 =========
-Watch videos about the major platform components on
-`YouTube <https://www.youtube.com/channel/UCmzybjwmY1te0FHxLFY-Uog>`_ and
-`Youku <https://i.youku.com/i/UNTI4MjA5MDg5Ng==?spm=a2h1n.8251843.0.0>`_.
+See the Resources page on `ONAP.org <https://www.onap.org/resources>`_
 
-Read about how ONAP can be deployed using containers.
-
-.. |image1| image:: media/ONAP-toplevel.png
-   :width: 6.5in
-   :height: 3.13548in
+.. |image1| image:: media/ONAP-architecture.png
+   :width: 800px
 .. |image2| image:: media/ONAP-fncview.png
-   :width: 6.5in
-   :height: 3.409in
+   :width: 800px
 .. |image3| image:: media/ONAP-closedloop.png
-   :width: 6in
-   :height: 2.6in
+   :width: 800px
 .. |image4| image:: media/ONAP-5G.png
-   :width: 6in
-   :height: 2.6in
+   :width: 800px
 .. |image5| image:: media/ONAP-vcpe.png
-   :width: 6.5in
-   :height: 3.28271in
+   :width: 800px
 .. |image6| image:: media/ONAP-bbs.png
-   :width: 6.5in
-   :height: 3.02431in
+   :width: 800px
 .. |image7| image:: media/ONAP-volte.png
-   :width: 6.5in
-   :height: 3.02431in
+   :width: 800px
 .. |image8| image:: media/ONAP-ccvpn.png
-   :width: 6.5in
+   :width: 800px
+.. |image9| image:: media/ONAP-mdons.png
+   :width: 800px
