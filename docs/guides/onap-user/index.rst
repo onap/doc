@@ -18,5 +18,5 @@ an instance of ONAP.
    instantiate/index.rst
    configure/index.rst
    onapcli.rst
-
-:ref:`Verified Use Cases<onap-integration:docs_usecases>`
+   :ref:`Verified Use Cases<onap-integration:docs_usecases>`
+   :ref:`Using ONAP Rest API with Postman<onap-integration:docs_postman>`
