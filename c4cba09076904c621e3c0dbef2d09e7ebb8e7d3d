@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8eef1b40_3e9a5336",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 3967
+      },
+      "writtenOn": "2020-06-09T14:26:26Z",
+      "side": 1,
+      "message": "VNF and PNF",
+      "range": {
+        "startLine": 437,
+        "startChar": 2,
+        "endLine": 437,
+        "endChar": 6
+      },
+      "revId": "c4cba09076904c621e3c0dbef2d09e7ebb8e7d3d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f0a3aa10_bd892b53",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 437,
+      "author": {
+        "id": 3967
+      },
+      "writtenOn": "2020-06-09T14:26:26Z",
+      "side": 1,
+      "message": "SOL004 v2.6.1",
+      "range": {
+        "startLine": 437,
+        "startChar": 45,
+        "endLine": 437,
+        "endChar": 52
+      },
+      "revId": "c4cba09076904c621e3c0dbef2d09e7ebb8e7d3d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f893d61c_691bf990",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 438,
+      "author": {
+        "id": 3967
+      },
+      "writtenOn": "2020-06-09T14:26:26Z",
+      "side": 1,
+      "message": "VNFSDK at pre-onboarding and SDC at onboarding",
+      "range": {
+        "startLine": 438,
+        "startChar": 5,
+        "endLine": 438,
+        "endChar": 20
+      },
+      "revId": "c4cba09076904c621e3c0dbef2d09e7ebb8e7d3d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
