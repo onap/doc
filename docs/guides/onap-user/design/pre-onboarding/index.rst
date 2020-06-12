@@ -72,9 +72,9 @@ Validate xNF Package (VNF/PNF)
 
 VNF and PNF packages have to follow the requirements described in:
 
-:ref:``VNF and PNF Modeling Requirements<vnfrqts-requirements:master_index>`
+:ref:`VNF and PNF Modeling Requirements<vnfrqts-requirements:master_index>`
 
-:ref:``ONAP Management Requirements<vnfrqts-requirements:master_index>`
+:ref:`ONAP Management Requirements<vnfrqts-requirements:master_index>`
 
 For Validation of VNF and PNF packages the tools delivered by VNFSDK can be
 used:
