@@ -17,19 +17,6 @@ Much of the content in this document is derived from similar
 documentation processes used in other Linux Foundation
 Projects including OPNFV and Open Daylight.
 
-
-End to End View
----------------
-ONAP documentation is stored in git repositories, changes are managed
-with gerrit reviews, and published documents generated when there is a
-change in any source used to build the documentation.
-
-Authors create source for documents in reStructured Text (RST) that is
-rendered to HTML and published on Readthedocs.io.
-The developer Wiki or other web sites can reference these rendered
-documents directly allowing projects to easily maintain current release
-documentation.
-
 Why reStructuredText/Sphinx?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
