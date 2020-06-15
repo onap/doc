@@ -113,8 +113,8 @@ These service design activities are built up of the following subtasks:
  b. Creating resources, composing services
  c. Distributing services - Distributing services constitutes of 2 subtasks:
 
- * TOSCA C-SAR package is stored in the Catalog
-   * new service notification is published
+    * TOSCA C-SAR package is stored in the Catalog
+    * new service notification is published
 
 2. **Service orchestration and deployment**
 
@@ -123,7 +123,7 @@ These service design activities are built up of the following subtasks:
   c. Selecting valid cloud region
   d. Service orchestration calling cloud APIs to deploy VNFs
 
-  * The onboarding and instantiation of VNFs in ONAP is represented via
+   * The onboarding and instantiation of VNFs in ONAP is represented via
      the example of onboarding and instantiating a virtual network function
      (VNF), the virtual Firewall (vFirewall). Following the guidelines and
      steps of this example, any other VNF can be similarly onboarded
@@ -164,7 +164,9 @@ is named after a city.
 +----------------------+----------------+----------------------+-----------------------------------------------------------+
 |Release Name          |Release version |Release Date          |Features delivered                                         |
 +======================+================+======================+===========================================================+
-|El Alto               |5.0.1           | 24 October 2019      | :ref:`El Alto Release Notes <release-notes>`              |
+|Frankfurt             |6.0.0           | 11 June 2020         | :ref:`Frankfurt Release Notes<release-notes>`             |
++----------------------+----------------+----------------------+-----------------------------------------------------------+
+|El Alto               |5.0.1           | 24 October 2019      |                                                           |
 +----------------------+----------------+----------------------+-----------------------------------------------------------+
 |Dublin                |4.0.0           | 9 July 2019          |                                                           |
 +----------------------+----------------+----------------------+-----------------------------------------------------------+
