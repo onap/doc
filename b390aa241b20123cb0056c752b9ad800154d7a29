@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a7d66a36_5bfca54d",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 451,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-06-17T06:42:15Z",
+      "side": 1,
+      "message": "This should link to the 2 WP PDFs:\nhttps://www.onap.org/wp-content/uploads/sites/20/2019/04/ONAP_HarmonizingOpenSourceStandards_032719.pdf\nhttps://www.onap.org/wp-content/uploads/sites/20/2020/03/ONAP_HarmonizingOpenSourceStandards_031520.pdf",
+      "range": {
+        "startLine": 450,
+        "startChar": 43,
+        "endLine": 451,
+        "endChar": 26
+      },
+      "revId": "b390aa241b20123cb0056c752b9ad800154d7a29",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
