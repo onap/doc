@@ -96,22 +96,80 @@ is referenced from this structure.
 
 ::
 
-    docs
-    ├── guides
-    │   ├── onap-developer
-    │   │   ├── apiref
-    │   │   ├── architecture
-    │   │   ├── developing
-    │   │   ├── how-to-use-docs
-    │   │   ├── settingup
-    │   │   ├── tutorials
-    │   │   └── use-cases
-    │   ├── onap-provider
-    │   └── onap-user
-    ├── release
-    └── templates
-        ├── collections
-        └── sections
+docs
+├── guides
+│   ├── active-projects
+│   ├── onap-developer
+│   │   ├── apiref
+│   │   ├── architecture
+│   │   │   └── media
+│   │   ├── developing
+│   │   ├── how-to-use-docs
+│   │   ├── tutorials
+│   │   └── use-cases
+│   ├── onap-operator
+│   │   ├── cloud_site
+│   │   │   ├── aws
+│   │   │   ├── azure
+│   │   │   ├── k8s
+│   │   │   ├── openstack
+│   │   │   └── vmware
+│   │   ├── onap-portal-admin
+│   │   │   └── attachments
+│   │   └── settingup
+│   ├── onap-provider
+│   ├── onap-user
+│   │   ├── configure
+│   │   │   ├── change_config
+│   │   │   ├── pnf_connect
+│   │   │   └── vnf_connect
+│   │   ├── design
+│   │   │   ├── control-loop
+│   │   │   │   └── media
+│   │   │   ├── media
+│   │   │   ├── parameter_resolution
+│   │   │   │   └── ubuntu_example
+│   │   │   │       ├── cba-after-enrichment
+│   │   │   │       │   ├── Definitions
+│   │   │   │       │   ├── Templates
+│   │   │   │       │   └── TOSCA-Metadata
+│   │   │   │       ├── cba-before-enrichment
+│   │   │   │       │   ├── Definitions
+│   │   │   │       │   ├── Templates
+│   │   │   │       │   └── TOSCA-Metadata
+│   │   │   │       └── ubuntuCDS_heat
+│   │   │   ├── pre-onboarding
+│   │   │   │   └── media
+│   │   │   ├── resource-onboarding
+│   │   │   │   └── media
+│   │   │   ├── service-design
+│   │   │   │   └── media
+│   │   │   ├── service-distribution
+│   │   │   │   └── media
+│   │   │   └── vfcreation
+│   │   │       └── media
+│   │   ├── instantiate
+│   │   │   ├── instantiation
+│   │   │   │   ├── nbi
+│   │   │   │   ├── pnf_instance
+│   │   │   │   ├── service_instance
+│   │   │   │   ├── so1
+│   │   │   │   ├── so2
+│   │   │   │   ├── uui
+│   │   │   │   ├── vid
+│   │   │   │   ├── virtual_link_instance
+│   │   │   │   └── vnf_instance
+│   │   │   └── pre_instantiation
+│   │   └── onap-portal-user
+│   │       └── attachments
+│   └── overview
+│       └── media
+├── release
+├── templates
+│   ├── collections
+│   └── sections
+└── use-cases
+
 
 Source Files
 ------------
