@@ -7,11 +7,11 @@ Creating Documentation
 .. toctree::
    :maxdepth: 2
 
-   documentation-guide
+   introduction
    style-guide
-   include-documentation
+   setting-up
    api-swagger-guide
-   converting-formats
+   converting-to-rst
    addendum
 
 .. toctree::
