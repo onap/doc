@@ -2,7 +2,7 @@ from docs_conf.conf import *
 
 branch = 'latest'
 stable_branch = 'frankfurt'
-doc_url = 'https://onap-doc.readthedocs.io/projects'
+doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
 linkcheck_ignore = [
