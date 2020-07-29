@@ -79,7 +79,11 @@ VNF and PNF packages have to follow the requirements described in:
 For Validation of VNF and PNF packages the tools delivered by VNFSDK can be
 used:
 
-`VNF Validation Documentation <../../../onap-provider/vnfvalidator.rst>`_
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   ../../../onap-provider/vnfvalidator.rst
 
 Prior to resource onboarding, the Certification Group does the following:
 
