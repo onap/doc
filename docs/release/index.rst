@@ -19,6 +19,16 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each releaese by each component is
 maintained in the component specific release notes.
 
+Frankfurt Releases
+==================
+
+The following releases are available for Frankfurt:
+  - `Frankfurt Mayor Release 6.0.0`_
+  - `Frankfurt Maintenance Release 6.0.1`_
+
+Frankfurt Maintenance Release 6.0.1
+===================================
+
 Release data
 ============
 
@@ -29,7 +39,43 @@ Release data
 | **Release name**                     | Frankfurt                            |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | Frankfurt 6.0.0                      |
+| **Release version**                  | 6.0.1                                |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release date**                     | August 17th 2020                     |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+
+Frankfurt Maintenance Release 6.0.1 delivered a number of fixes and updates
+across the following projects:
+
+- AAF
+- OOM
+- CCSDK
+- CLAMP
+- DCAEGEN2
+- Integration
+- POLICY
+- SDC
+- SO
+- TEST
+
+Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
+
+Frankfurt Mayor Release 6.0.0
+=============================
+
+Release data
+============
+
++--------------------------------------+--------------------------------------+
+| **Project**                          | Open Network Automation Platform     |
+|                                      | (ONAP)                               |
++--------------------------------------+--------------------------------------+
+| **Release name**                     | Frankfurt                            |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release version**                  | 6.0.0                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 | **Release date**                     | June 11th 2020                       |
@@ -41,6 +87,7 @@ Project Specific Release Notes
 ONAP releases are specified by a list of project artifact versions in the
 project repositories and docker container image versions listed in the OOM
 Helm charts.
+
 Each project provides detailed :ref:`release notes<doc-releaserepos>`
 and prepends to these if/when any updated versions the project team believes
 are compatible with a major release are made available.
