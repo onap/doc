@@ -475,6 +475,12 @@ Change directory to doc & install requirements.
    cd doc
    pip install -r etc/requirements.txt
 
+.. warning::
+
+	Just follow the next step (copying conf.py from Doc project to your project) 
+	if that is your intention, otherwise skip it. Currently all projects should already have a conf.py file. 
+	Through the next step, this file and potential extensions in your project get overriden.
+
 Copy the conf.py file to your project folder where RST files have been kept:
 
 .. code-block:: bash
