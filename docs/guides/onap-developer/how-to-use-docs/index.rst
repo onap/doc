@@ -9,6 +9,7 @@ Creating Documentation
 
    documentation-guide
    style-guide
+   setting-up-environment
    include-documentation
    api-swagger-guide
    converting-formats
