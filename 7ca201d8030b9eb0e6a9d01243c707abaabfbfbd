@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a08b06cf_0be39bb1",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-08-07T11:55:46Z",
+      "side": 1,
+      "message": "I think you have 2 options\n1. individual contributor\n2. corporate contributor\nYou are only describing option 1, but not option 2\n\nSo either name the chapter \"Setting up CLA\" and describe the 2 Options or add another chapter \"Setting up CLA as a corporate contributor\"",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 111,
+        "endChar": 43
+      },
+      "revId": "7ca201d8030b9eb0e6a9d01243c707abaabfbfbd",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
