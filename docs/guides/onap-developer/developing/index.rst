@@ -44,7 +44,6 @@ Application Authorization Framework
 
 | :ref:`aaf authz<onap-aaf-authz:master_index>`
 | :ref:`Secret Management Service<onap-aaf-sms:master_index>`
-| :ref:`Certification Service<onap-aaf-certservice:master_index>`
 
 Command Line Interface
 ----------------------
@@ -204,6 +203,7 @@ ONAP Operations Manager
    :titlesonly:
 
 :ref:`oom<onap-oom:master_index>`
+:ref:`oom/platform/cert-service<onap-aaf-certservice:master_index>`
 
 Optimization Framework
 ----------------------
