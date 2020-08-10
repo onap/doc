@@ -32,7 +32,7 @@ These steps are performed outside SDC.
 onboarding. The requirements are found in the following document.
 
 
-:ref:`Heat requirements<onap-vnfrqts-requirements:master_index>`
+:ref:`Heat requirements<onap-vnfrqts-requirements:heat_requirements>`
 
 #. Put the Heat, ENV, nested Heat, and other files used by get-file in templates
    in a directory on a host, which supports python.
