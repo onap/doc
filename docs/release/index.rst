@@ -20,12 +20,70 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each releaese by each component is
 maintained in the component specific release notes.
 
+El Alto Releases
+================
+
+The following releases are available for El Alto:
+  - `El Alto Maintenance Release 5.0.2`_
+  - `El Alto Major Release 5.0.1`_
+
+El Alto Maintenance Release 5.0.2
+=================================
+
+Release data
+============
+
++--------------------------------------+--------------------------------------+
+| **Project**                          | Open Network Automation Platform     |
+|                                      | (ONAP)                               |
++--------------------------------------+--------------------------------------+
+| **Release name**                     | El Alto                              |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release version**                  | 5.0.2                                |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release date**                     | August 24th 2020                     |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+
+Besides renewal of certificates of various components,
+El Alto Maintenance Release 5.0.2 delivered a number of fixes and updates
+across the following projects:
+
+- AAI
+- AAF
+- CCSDK
+- DMaaP
+- DCAEGEN2
+- OOM
+- Policy
+- Portal
+- SDC
+- SO
+
+Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
+
+
 El Alto Major Release 5.0.1
 ===========================
 
-* Release Name: El Alto
-* Release Version: 5.0.1
-* Release Date: October 24 2019
+Release data
+============
+
++--------------------------------------+--------------------------------------+
+| **Project**                          | Open Network Automation Platform     |
+|                                      | (ONAP)                               |
++--------------------------------------+--------------------------------------+
+| **Release name**                     | El Alto                              |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release version**                  | 5.0.1                                |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release date**                     | October 24th 2019                    |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
 
 El Alto features
 ================
