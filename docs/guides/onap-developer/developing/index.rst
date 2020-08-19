@@ -203,7 +203,7 @@ ONAP Operations Manager
    :titlesonly:
 
 | :ref:`oom<onap-oom:master_index>`
-| :ref:`oom/platform/cert-service<onap-oom-certservice:master_index>`
+| :ref:`CMPv2 CertService<onap-oom-certservice:master_index>`
 
 Optimization Framework
 ----------------------
