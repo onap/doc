@@ -47,7 +47,7 @@ Platform Components
 | :ref:`APPC - Application Controller<onap-appc:master_index>`
 | :ref:`DCAE - Data Collection Analytics and Events<onap-dcaegen2:architecture>`
 | :ref:`Holmes<onap-holmes-rule-management:architecture>`
-| :ref:`Policy<onap-policy-engine:architecture>`
+| :ref:`Policy<onap-policy-parent:architecture>`
 | :ref:`SDNC - SDN Controller OAM<onap-sdnc-oam:architecture>`
 | :ref:`SO - Service Orchestrator<onap-so:architecture>`
 | :ref:`VFC - Virtual Function Controller<onap-vfc-nfvo-lcm:architecture>`

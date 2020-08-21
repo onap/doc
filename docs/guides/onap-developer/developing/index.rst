@@ -225,8 +225,6 @@ Policy Framework
 
 :ref:`policy parent<onap-policy-parent:master_index>`
 
-:ref:`policy engine<onap-policy-engine:master_index>`
-
 Portal Platform
 ---------------
 
