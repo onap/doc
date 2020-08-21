@@ -39,7 +39,6 @@ All Active Projects
 | :ref:`onap-vfc-nfvo-lcm <onap-vfc-nfvo-lcm:master_index>`
 | :ref:`onap-vfc-nfvo-driver-vnfm-svnfm <onap-vfc-nfvo-driver-vnfm-svnfm:master_index>`
 | :ref:`onap-holmes-rule-management <onap-holmes-rule-management:master_index>`
-| :ref:`onap-policy-engine <onap-policy-engine:master_index>`
 | :ref:`onap-portal <onap-portal:master_index>`
 | :ref:`onap-cli <onap-cli:master_index>`
 | :ref:`onap-aaf-certservice <onap-aaf-certservice:master_index>`

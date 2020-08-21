@@ -43,7 +43,6 @@ intersphinx_mapping['onap-policy-parent'] = ('{}/onap-policy-parent/en/%s'.forma
 intersphinx_mapping['onap-vfc-nfvo-lcm'] = ('{}/onap-vfc-nfvo-lcm/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-vfc-nfvo-driver-vnfm-svnfm'] = ('{}/onap-vfc-nfvo-driver-vnfm-svnfm/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-holmes-rule-management'] = ('{}/onap-holmes-rule-management/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-policy-engine'] = ('{}/onap-policy-engine/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-portal'] = ('{}/onap-portal/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-cli'] = ('{}/onap-cli/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-oom-certservice'] = ('{}/onap-oom-platform-cert-service/en/%s'.format(doc_url) % branch, None)
