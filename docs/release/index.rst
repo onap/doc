@@ -16,14 +16,14 @@ have an entry for each Major, Minor, and Maintenance release, if applicable.
 
 Each component within the ONAP solution maintains their own component level
 release notes and links to those release notes are provided below.
-Details on the specific items delivered in each releaese by each component is
+Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
 Frankfurt Releases
 ==================
 
 The following releases are available for Frankfurt:
-  - `Frankfurt Mayor Release 6.0.0`_
+  - `Frankfurt Major Release 6.0.0`_
   - `Frankfurt Maintenance Release 6.0.1`_
 
 Frankfurt Maintenance Release 6.0.1
@@ -60,9 +60,11 @@ across the following projects:
 - SO
 - TEST
 
-Details on the specific Jira tickets addressed by each project can be found in the component specific Release Notes. Link can be found below in section `Project Specific Release Notes`_.
+Details on the specific Jira tickets addressed by each project can be found in
+the component specific Release Notes. Link can be found below in section
+`Project Specific Release Notes`_.
 
-Frankfurt Mayor Release 6.0.0
+Frankfurt Major Release 6.0.0
 =============================
 
 Release data
