@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "12e2fcd2_214cf74b",
+        "filename": "docs/guides/onap-user/design/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2020-08-26T19:14:43Z",
+      "side": 1,
+      "message": "I think the issue is that the project name needs to be prefixed by \"onap-\"\nFor example, here is another ref in the docs for this project and is written like this:\n:ref:`onap-vnfrqts-requirements \u003conap-vnfrqts-requirements:genindex\u003e`",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 75
+      },
+      "revId": "7323ab10492a22bb930f3a1ddd91c18dc59847e3",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
