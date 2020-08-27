@@ -22,8 +22,9 @@ Generate Manifest and Package Artifacts
    to create TOSCA based VNF or PNF Onboarding Packages are not described
    here
 
-The for onboarding the zip-file requires besides the HEAT template also a MANIFEST.json file, which describes the content of the package.
-To generate a MANIFEST.json file a script can be used offered by the SDC project:
+The for onboarding the zip-file requires besides the Heat template also a
+MANIFEST.json file, which describes the content of the package. To generate a
+MANIFEST.json file a script can be used offered by the SDC project:
 `generate-manifest.py`_
 
 These steps are performed outside SDC.
@@ -72,9 +73,11 @@ Validate xNF Package (VNF/PNF)
 
 VNF and PNF packages have to follow the requirements described in:
 
-:ref:`VNF and PNF Modeling Requirements<vnfrqts-requirements:tosca_requirements>`
+:ref:`VNF and PNF Modeling Requirements
+<onap-vnfrqts-requirements:tosca_requirements>`
 
-:ref:`ONAP Management Requirements<vnfrqts-requirements:onap_management_requirements>`
+:ref:`ONAP Management Requirements
+<onap-vnfrqts-requirements:onap_management_requirements>`
 
 For Validation of VNF and PNF packages the tools delivered by VNFSDK can be
 used:
