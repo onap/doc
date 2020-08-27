@@ -16,6 +16,24 @@
       "revId": "a71abf18ff96ec85c358ea69267f339a4ee4e81d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "987c38cf_9bad8aac",
+        "filename": "docs/guides/onap-user/design/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-08-27T13:39:25Z",
+      "side": 0,
+      "message": "It is fixed in https://gerrit.onap.org/r/c/doc/+/110699",
+      "parentUuid": "03fd2480_e785a322",
+      "revId": "a71abf18ff96ec85c358ea69267f339a4ee4e81d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
