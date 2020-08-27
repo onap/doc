@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "03fd2480_e785a322",
+        "filename": "docs/guides/onap-user/design/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-08-27T12:39:24Z",
+      "side": 0,
+      "message": "I just checked the created document and have seen, that this link does not work either...",
+      "revId": "a71abf18ff96ec85c358ea69267f339a4ee4e81d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
