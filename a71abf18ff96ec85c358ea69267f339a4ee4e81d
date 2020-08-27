@@ -34,6 +34,24 @@
       "revId": "a71abf18ff96ec85c358ea69267f339a4ee4e81d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "05d26e02_3ef6a147",
+        "filename": "docs/guides/onap-user/design/pre-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2020-08-27T20:11:32Z",
+      "side": 0,
+      "message": "FYI, the verify job shows how the docs will look like before we merge any changes. Is all shown in the logs in a \"docs\" folder. For example, in this case:\nhttps://logs.onap.org/production/vex-yul-ecomp-jenkins-1/rtdv3-global-verify-master/2213/\n\nPlease use these preview to review the expected results.",
+      "parentUuid": "987c38cf_9bad8aac",
+      "revId": "a71abf18ff96ec85c358ea69267f339a4ee4e81d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
