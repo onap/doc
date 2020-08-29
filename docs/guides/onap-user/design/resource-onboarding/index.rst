@@ -39,14 +39,14 @@ Create a License Model [Optional]
 VSPs optionally require a license and entitlements to enable the service
 provider to track the usage.
 
-Note: For interim saving while creating the license model and its components,
-click |image2|
+.. note::
+   For interim saving while creating the license model and its components, click |image2|
 
 **Prerequisites:** To obtain license information, contact the service
 provider's Supply Chain Management (SCM) group.
 
 
-#. From the SDC HOME page, click *ONBOARD*.
+#. From the SDC HOME page, navigate to the ONBOARD Tab.
 
    |image11|
 
@@ -56,7 +56,7 @@ provider's Supply Chain Management (SCM) group.
 
 #. Complete all fields.
 #. Click *Create*.
-#. In the Overview Dialog.
+#. After creation of the VLM, you should be presented with the “Overview” tab of the VLM.
 
    |image13|
 
@@ -73,8 +73,7 @@ provider's Supply Chain Management (SCM) group.
 
    |image14|
 
-#. Click *Submit* to add the license model to the catalog. 
-After filling a comment, press *Commit&Submit*.
+#. Click *Submit* to add the license model to the catalog.After filling a comment, press *Commit&Submit*.
 
    |image15|
 
@@ -91,7 +90,7 @@ otherwise the license key group is optional.
 **Prerequisites:** `Create a License Model`_
 
 #. Select the License Model in the Onboard section of the SDC.
-#. In the Overview click the + behind the *License Key Groups*.
+#. In the Overview click the + inside the License Key Groups OR Navigate to License Key Groups and click on “+ ADD LICENSE KEY GROUP”
 
    |image4|
 
@@ -106,7 +105,7 @@ license key groups (see
 `Create a License Key Group [Optional]`_).
 
 #. Select the License Model in the Onboard section of the SDC.
-#. In the Overview click the + behind the *Entitlement Pools*.
+#. In the Overview click the + sign inside the Entitlement Pools OR Navigate to Entitlement Pools and click on “+ ADD ENTITLEMENT POOL”
 
    |image5|
 
@@ -123,17 +122,17 @@ Create a Feature Group
 * entitlement pools (see `Create an Entitlement Pool`_)
 
 #. Select the License Model in the Onboard section of the SDC.
-#. In the Overview click the + behind the *Feature Groups*.
+#. In the Overview click the + sign inside the Feature Groups OR Navigate to Feature Groups and click on “+ ADD FEATURE GROUP”
 
    |image6|
 
 #. On the General tab, complete all fields.
-#. Click *Entitlement Pools*.
-#. Click *Available Entitlement Pools*.
-#. Select one or more entitlement pools and click the right arrow.
-#. Click *License Key Groups*.
-#. Click *Available License Key Groups*.
-#. Select one or more license key groups and click the right arrow.
+#. Navigate to the *Entitlement Pools*. Tab
+    * In the Available Entitlement Pools, select one or more entitlement pools and click on the “>” sign.
+    * Selected pools should now be seen under the Selected Entitlements Pools.
+#. Navigate to the *License Key Groups*. Tab
+    * In the Available License Key Groups, select one or more license key groups and click on the “>” sign.
+    * Selected pools should now be seen under the Selected License Key Groups.
 #. Click *Save*.
 
 Create a License Agreement
@@ -143,14 +142,15 @@ Create a License Agreement
                    (see `Create a Feature Group`_).
 
 #. Select the License Model in the Onboard section of the SDC.
-#. In the Overview click the + behind the *License Agreements*.
+#. In the Overview click the + sign inside the License Agreements OR Navigate to License Agreements and click on “+ Add FEATURE GROUP”
 
    |image7|
 
 #. On the General tab, complete required fields.
 #. Click *Feature Groups*.
-#. If not selected, click *Available Feature Groups*.
-#. Select one or more groups and click the right arrow.
+#. If not selected, click Available *Feature Groups*.
+    * Select one or more groups in the Available Feature Groups, select one or more feature groups and click on the “>” sign.
+    * Selected feature groups should now be seen under the Selected Feature Groups.
 #. Click *Save*.
 #. Return to step 6 of `Create a License Model`_ to complete the license model.
 
@@ -173,6 +173,9 @@ for VFs/PNFs.
   See :ref:`sdc_onboarding_package_types` for a description
   of the onboarding package types.
 * If the package is a secure package then :ref:`pre-install the corresponding Root Certificate in SDC <doc_guide_user_des_res-onb_pre-install_root_certificate>`.
+
+.. note::
+   Example packages can be found in the SDC project: `example-packages`_
 
 #. From the SDC HOME page, click *ONBOARD*.
 
@@ -212,7 +215,7 @@ for VFs/PNFs.
 
    |image24|
 
-#. Press the Button *Procees to Validation*. After successful validation, SDC
+#. Press the Button *Proceed to Validation*. After successful validation, SDC
    displays the files and a success message. If validation fails, SDC displays
    the errors in the files.
 
@@ -318,7 +321,7 @@ Upload a new onboarding package to a VSP. Afterward, update the VF/PNF and servi
 
    |image24|
 
-#. Press the Button *Procees to Validation*. After successful validation, SDC
+#. Press the Button *Proceed to Validation*. After successful validation, SDC
    displays the files and a success message. If validation fails, SDC displays
    the errors in the files.
 
