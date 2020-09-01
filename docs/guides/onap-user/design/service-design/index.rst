@@ -46,7 +46,7 @@ Create Service
 
    A message displays when Service creation is complete.
 
-#. Click Composition.
+#. Click Composition in the left pane.
 
    |image6|
 
@@ -61,7 +61,7 @@ Create Service
 
    #. Drag to a highlighted element on the canvas.
    #. Select options for Requirements and Capabilities.
-   #. Click Connect.
+   #. Click on Finish.
 
 #. To add artifacts at the service level:
 
@@ -90,8 +90,7 @@ Create Service
      action)
    - **Management Workflow** model service lifecycle workflows for execution
      in SO (see `Create a Management Workflow [optional]`_)
-   - **Network Call Flow** model interactions among VFs (see `Create a
-      Network Callflow [optional]`_)
+   - **Network Call Flow** model interactions among VFs (see `Create a Network Callflow [optional]`_)
    - **Deployment** view HEAT modules in VSPs
    - **Properties Assignment** define or update properties,
      policies and input parameters used during Service instantiation
@@ -138,7 +137,7 @@ format and included in distributed service model.
 #. Click *Add Workflow*.
 #. The *Create New Workflow* box displays.
 #. Complete all fields.
-#. Click Create.
+#. Click Save.
 
    |image7|
 
@@ -201,8 +200,9 @@ the service model.
 
 #. [Optional] Change the order of steps by clicking a step and dragging
    it to the preferred position.
-#. Click *Save*.
-#. Click *Check In* to save changes.
+#. Click *Save*. You will be redirected to the Network Call Flow page.
+#. Go to the General tab and click on *Check In* to save changes.
+#. If needed, certify the service again (see `Certify Service`_).
 
 .. _doc_guide_user_des_ser-para_in:
 
@@ -234,6 +234,7 @@ Select parameters as input fields during Service instantiation.
 #. Click *Declare Input* to add the selected parameter to the
    Service *Input* pane.
 #. Click *Check In* to save changes.
+#. After adding Service Inputs, certify it (see `Certify Service`_).
 
 .. _doc_guide_user_des_ser-upd_serv:
 
