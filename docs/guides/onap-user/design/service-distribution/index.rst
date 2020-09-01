@@ -40,8 +40,9 @@ Distribute Service
 **Steps**
 
 
-#. Sign in to SDC as Developer.
+#. Sign in to SDC as Designer.
 #. From the SDC HOME page, click CATALOG and search for the service.
+   It should read *Waiting For Distribution*.
 #. Select the service that is *Ready for Distribution*.
 
    |image2|
@@ -61,7 +62,7 @@ Monitor Distribution
 
 **Steps**
 
-#. Sign in to SDC as Developer.
+#. Sign in to SDC as Designer.
 #. From the SDC HOME page, click CATALOG and search for the service.
 #. Select the service that is in *Distributed* state.
 #. Click *Distribution* in the left pane.
