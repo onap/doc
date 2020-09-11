@@ -7,6 +7,14 @@
 Converting to RST
 =================
 
+RST format is used for documentation. Other file formats can be converted to RST
+with pandoc.
+
+.. caution::
+
+  Always check the output text after conversion. For the most common errors,
+  see section Fixing the converted document.
+
 Installing pandoc
 -----------------
 
