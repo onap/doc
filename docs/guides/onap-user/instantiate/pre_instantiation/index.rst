@@ -46,7 +46,7 @@ to instantiate a service with SO using GR_API.
 
 ::
 
-  curl -X PUT \
+  curl -k -X PUT \
     https://aai.api.sparky.simpledemo.onap.org:30233/aai/v13/business/owning-entities/owning-entity/8874891f-5120-4b98-b452-46284513958d \
     -H 'Accept: application/json' \
     -H 'Authorization: Basic QUFJOkFBSQ==' \
@@ -61,7 +61,7 @@ to instantiate a service with SO using GR_API.
 
 ::
 
-  curl -X GET \
+  curl -k -X GET \
     https://aai.api.sparky.simpledemo.onap.org:30233/aai/v16/business/owning-entities \
     -H 'Accept: application/json' \
     -H 'Authorization: Basic QUFJOkFBSQ==' \
@@ -75,7 +75,7 @@ To declare the Owning Entity in VID:
 
 ::
 
-  curl -X POST \
+  curl -k -X POST \
     https://vid.api.simpledemo.onap.org:30200/vid/maintenance/category_parameter/owningEntity \
     -H 'Accept-Encoding: gzip, deflate' \
     -H 'Content-Type: application/json' \
@@ -89,7 +89,7 @@ Example for "platform" named "Test_Platform"
 
 ::
 
-  curl -X POST \
+  curl -k -X POST \
     https://vid.api.simpledemo.onap.org:30200/vid/maintenance/category_parameter/platform \
     -H 'Content-Type: application/json' \
     -H 'cache-control: no-cache' \
@@ -101,7 +101,7 @@ Example for "line of business" named "Test_LOB"
 
 ::
 
-  curl -X POST \
+  curl -k -X POST \
   https://vid.api.simpledemo.onap.org:30200/vid/maintenance/category_parameter/lineOfBusiness \
   -H 'Content-Type: application/json' \
   -H 'cache-control: no-cache' \
@@ -113,7 +113,7 @@ Example for "project" named "Test_project"
 
 ::
 
-  curl -X POST \
+  curl -k -X POST \
     https://vid.api.simpledemo.onap.org:30200/vid/maintenance/category_parameter/project \
     -H 'Content-Type: application/json' \
     -H 'cache-control: no-cache' \
