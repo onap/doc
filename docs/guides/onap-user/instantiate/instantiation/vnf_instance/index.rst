@@ -8,9 +8,9 @@ VNF Instantiation
 
 **Pre-requisites**
 
-- the VNF is part of a Service Model (see: Service Design)
+- The VNF is part of a Service Model (see: :ref:`Service Design <doc_guide_user_des_ser-des>`)
 
-   Note: in ONAP SDC tool, VNF is named "VF"
+  .. Note:: In ONAP SDC tool, VNF is named "VF"
 
 
 **Possible methods with ONAP to instantiate a VNF**
