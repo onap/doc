@@ -1,0 +1,3 @@
+[submodule "docs/submodules/ccsdk/oran.git"]
+	path = docs/submodules/ccsdk/oran.git
+	url = ../ccsdk/oran
