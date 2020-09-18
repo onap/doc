@@ -43,8 +43,8 @@ Abbreviations and acronyms
    +  Examples: an MSO component, a LAN, an L3-VPN
 
 
-ONAP terms
-^^^^^^^^^^
+ONAP terminology
+^^^^^^^^^^^^^^^^
 -  AA&I vs AAI: AAI should be used.
 
 -  APP-C vs APPC: APPC should be used.

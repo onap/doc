@@ -8,8 +8,8 @@ Creating Documentation
    :maxdepth: 2
 
    introduction
-   setting-up-environment
    setting-up
+   setting-up-environment
    style-guide
    api-swagger-guide
    converting-to-rst
