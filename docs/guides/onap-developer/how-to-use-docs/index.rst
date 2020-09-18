@@ -8,8 +8,8 @@ Creating Documentation
    :maxdepth: 2
 
    introduction
-   style-guide
    setting-up
+   style-guide
    api-swagger-guide
    converting-to-rst
    addendum

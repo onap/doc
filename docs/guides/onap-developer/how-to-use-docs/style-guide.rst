@@ -67,8 +67,8 @@ Abbreviations and acronyms
    +  Examples: an MSO component, a LAN, an L3-VPN
 
 
-ONAP terms
-^^^^^^^^^^
+ONAP terminology
+^^^^^^^^^^^^^^^^
 -  AA&I vs AAI: AAI should be used.
 
 -  APP-C vs APPC: APPC should be used.
@@ -141,4 +141,3 @@ Needs Directive
    * - R
      - Represents a requirement that must be met by a VNF provider
      - Defined only in the vnfrqts project repositories, may be referenced in any project repository source
-
