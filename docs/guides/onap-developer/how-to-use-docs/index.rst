@@ -8,7 +8,6 @@ Creating Documentation
    :maxdepth: 2
 
    introduction
-   setting-up-environment
    setting-up
    style-guide
    api-swagger-guide
