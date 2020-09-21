@@ -76,6 +76,7 @@ Common Controller Software Development Kit
 | :ref:`ccsdk platform plugins<onap-ccsdk-platform-plugins:master_index>`
 | :ref:`ccsdk apps<onap-ccsdk-apps:master_index>`
 | :ref:`ccsdk cds<onap-ccsdk-cds:master_index>`
+| :ref:`ccsdk oran<onap-ccsdk-oran:master_index>`
 
 Data Collection, Analysis, and Events
 -------------------------------------

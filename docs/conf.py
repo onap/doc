@@ -48,6 +48,7 @@ intersphinx_mapping['onap-cli'] = ('{}/onap-cli/en/%s'.format(doc_url) % branch,
 intersphinx_mapping['onap-oom-certservice'] = ('{}/onap-oom-platform-cert-service/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-cds'] = ('{}/onap-ccsdk-cds/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-apps'] = ('{}/onap-ccsdk-apps/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-ccsdk-oran'] = ('{}/onap-ccsdk-oran/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-sdnc-oam'] = ('{}/onap-sdnc-oam/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-platform-plugins'] = ('{}/onap-ccsdk-platform-plugins/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-dashboard'] = ('{}/onap-ccsdk-dashboard/en/%s'.format(doc_url) % branch, None)
