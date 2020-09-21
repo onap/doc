@@ -44,6 +44,7 @@ All Active Projects
 | :ref:`onap-aaf-certservice <onap-aaf-certservice:master_index>`
 | :ref:`onap-ccsdk-cds <onap-ccsdk-cds:master_index>`
 | :ref:`onap-ccsdk-apps <onap-ccsdk-apps:master_index>`
+| :ref:`onap-ccsdk-oran <onap-ccsdk-oran:master_index>`
 | :ref:`onap-sdnc-oam <onap-sdnc-oam:master_index>`
 | :ref:`onap-ccsdk-platform-plugins <onap-ccsdk-platform-plugins:master_index>`
 | :ref:`onap-ccsdk-dashboard <onap-ccsdk-dashboard:master_index>`
