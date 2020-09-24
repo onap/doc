@@ -8,9 +8,9 @@ Service Instantiation
 
 **Pre-requisites**
 
-- the Service has been designed and distributed (see: Service Design)
+- The Service has been designed and distributed (see: :ref:`Service Design <doc_guide_user_des_ser-des>`)
 - pre-instantiation operations have been performed
-  (see: pre instantiation section)
+  (see: :ref:`pre instantiation section <doc_guide_user_pre_ser-inst>`)
 
 **Possible Tools to perform Service Instantiation**
 
@@ -41,7 +41,7 @@ Service Instantiation
   ONAP will collect and assign all required parameters/values by itself.
 
 
-   Note: **Macro** method is not (yet) available via ONAP VID
+  .. Note:: **Macro** method is not (yet) available via ONAP VID
    nor via extAPI/NBI
 
 With "A La Carte" method
