@@ -295,6 +295,15 @@ release. In this context:
 Creating Restructured Text
 ==========================
 
+ReStructuredText markup conventions
+-----------------------------------
+For detailed information on ReStructuredText and how to best use the format,
+see:
+
+- `ReStructured Text Primer <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`_
+- `ReStructured Text Quick Reference <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_
+
+
 Templates and Examples
 ----------------------
 Templates are available that capture the kinds of information
@@ -477,8 +486,8 @@ Change directory to doc & install requirements.
 
 .. warning::
 
-	Just follow the next step (copying conf.py from Doc project to your project) 
-	if that is your intention, otherwise skip it. Currently all projects should already have a conf.py file. 
+	Just follow the next step (copying conf.py from Doc project to your project)
+	if that is your intention, otherwise skip it. Currently all projects should already have a conf.py file.
 	Through the next step, this file and potential extensions in your project get overriden.
 
 Copy the conf.py file to your project folder where RST files have been kept:

@@ -8,30 +8,6 @@ Style guide
 This style guide is for ONAP documentation contributors, reviewers and
 committers.
 
-Getting started
----------------
-
-When is documentation required?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-All ONAP project contributions should have corresponding documentation.
-This includes all new features and changes to features that impact users.
-
-How do I create ONAP documentation?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ONAP documentation is written in ReStructuredText_ (an easy-to-read,
-what-you-see-is-what-you-get, plain text markup syntax).  The process for
-creating ONAP documentation and what documents are required are
-described in later sections of this Developer Documentation Guide.
-
-.. _ReStructuredText: http://docutils.sourceforge.net/rst.html
-
-ReStructuredText markup conventions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-For detailed information ReStructuredText and how to best use the format, see:
-
-- `ReStructured Text Primer <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`_
-- `ReStructured Text Quick Reference <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_
-
 Writing guidelines
 ------------------
 Following these writing guidelines will keep ONAP documentation
@@ -141,4 +117,3 @@ Needs Directive
    * - R
      - Represents a requirement that must be met by a VNF provider
      - Defined only in the vnfrqts project repositories, may be referenced in any project repository source
-

@@ -17,6 +17,20 @@ Much of the content in this document is derived from similar
 documentation processes used in other Linux Foundation
 Projects including OPNFV and Open Daylight.
 
+When is documentation required?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All ONAP project contributions should have corresponding documentation.
+This includes all new features and changes to features that impact users.
+
+How do I create ONAP documentation?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ONAP documentation is written in ReStructuredText_ (an easy-to-read,
+what-you-see-is-what-you-get, plain text markup syntax).  The process for
+creating ONAP documentation and what documents are required are
+described in later sections of this Developer Documentation Guide.
+
+.. _ReStructuredText: http://docutils.sourceforge.net/rst.html
+
 Why reStructuredText/Sphinx?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
