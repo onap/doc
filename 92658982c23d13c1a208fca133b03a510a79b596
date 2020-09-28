@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "07c115dd_1183c703",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/documentation-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2020-09-28T07:07:39Z",
+      "side": 1,
+      "message": "double space",
+      "range": {
+        "startLine": 28,
+        "startChar": 56,
+        "endLine": 28,
+        "endChar": 58
+      },
+      "revId": "92658982c23d13c1a208fca133b03a510a79b596",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
