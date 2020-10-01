@@ -9,7 +9,8 @@ Creating Documentation
 
    introduction
    style-guide
-   setting-up
+   setting-up-environment
+   include-documentation
    api-swagger-guide
    converting-to-rst
    addendum
