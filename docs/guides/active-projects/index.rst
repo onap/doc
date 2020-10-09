@@ -41,7 +41,6 @@ All Active Projects
 | :ref:`onap-holmes-rule-management <onap-holmes-rule-management:master_index>`
 | :ref:`onap-portal <onap-portal:master_index>`
 | :ref:`onap-cli <onap-cli:master_index>`
-| :ref:`onap-aaf-certservice <onap-aaf-certservice:master_index>`
 | :ref:`onap-ccsdk-cds <onap-ccsdk-cds:master_index>`
 | :ref:`onap-ccsdk-apps <onap-ccsdk-apps:master_index>`
 | :ref:`onap-ccsdk-oran <onap-ccsdk-oran:master_index>`
