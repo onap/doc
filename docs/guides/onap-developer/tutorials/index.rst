@@ -5,17 +5,6 @@ Tutorials
 =========
 
 .. note::
-   Until this section is migrated to gerrit/readthedocs, use the links below.
+   This is an empty document as placeholder for future tutorials.
 
-.. caution::
-   The tutorials may refer to earlier versions of software
-   and have not been certified on the latest Casablanca Release.
-
-* `Automatically Creating a Netconf Mount in APPC from SDNC <https://wiki.onap.org/x/JYUx>`_
-
-* `Clearwater vIMS Onboarding and Instantiation <https://wiki.onap.org/x/RJp9>`_
-
-* `How to use SLI-API for SDNC Model, Directed Graph and Adapter prototyping <https://wiki.onap.org/x/0wCW>`_
-
-* `Setting up a Nexus Proxy <https://wiki.onap.org/x/_y70>`_
 
