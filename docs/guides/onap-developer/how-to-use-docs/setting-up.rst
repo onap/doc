@@ -342,23 +342,52 @@ then add them to your repository docs folder and index.rst.
 Sections
 ++++++++
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
 
-   ../../../templates/sections/*
-
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Sections                                                                                                              |Description                                                                                                                                                                                           |
++======================================================================================================================+======================================================================================================================================================================================================+
+|`Administration <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/administration.rst>`_    | This section is used to describe a software component from the perspective of on-going operation including regular processes and actions that are taken to configure and manage the component.       |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Architecture <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/architecture.rst>`_        | This section is used to describe a software component from a high level view of capability, common usage scenarios, and interactions with other components required in the usage scenarios.          |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Build <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/build.rst>`_                      | This section is used to describe how a software component is built from source into something ready for use either in a run-time environment or to build other components.                           |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Configuration <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/configuration.rst>`_      | This section is used to describe the options a software component offers for configuration.                                                                                                          |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Consumed APIs <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/consumedapis.rst>`_       | This section is used to reference APIs that a software component depends on and uses from other sources.                                                                                             |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Delivery <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/delivery.rst>`_                | This section is used to describe a software component packaging. For a run-time component this might be executable images, containers, etc. For an SDK this might be libraries.                      |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Design <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/design.rst>`_                    | This section is used to describe the internal design structure of a software component.                                                                                                              |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Human interfaces <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/humaninterfaces.rst>`_ |This section is used to describe a software component's command line and graphical user interfaces.                                                                                                   |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Installation <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/installation.rst>`_        | This section is used to describe how a software component is acquired and installed.                                                                                                                 |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Logging <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/logging.rst>`_                  | This section is used to describe the informational or diagnostic messages emitted from a software component and the methods or collecting them.                                                      |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Offered APIs <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/offeredapis.rst>`_         | This section is used to describe the external interfaces offered by a software component                                                                                                             |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`Release notes <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/release-notes.rst>`_      | The release note needs to be updated for each ONAP release                                                                                                                                           |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|`VNF reference <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/sections/vnf-reference.rst>`_      | This section is used to describe Virtual Network Function software                                                                                                                                   |
+|                                                                                                                      |                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Collections
 +++++++++++
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ../../../templates/collections/*
-
-
 
 In addition to these simple templates and examples
 there are many open source projects (e.g. Open Daylight, Open Stack)
@@ -380,6 +409,14 @@ Consider options including filling in a template, identifying existing
 content that can be used as is or easily converted, and use of Sphinx
 directives/extensions to automatically generate restructured text
 from other source you already have.
+
++------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+|Collections                                                                                                                   |Description                                                 |
++==============================================================================================================================+============================================================+
+|`Platform component <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/collections/platform-component.rst>`_ | This collection is used to describe a platform component.  |
++------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+|`SDK <https://gerrit.onap.org/r/gitweb?p=doc.git;a=blob;f=docs/templates/collections/sdk.rst>`_                               | This collection is used to describe an SDK.                |
++------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+
 
 Links and References
 --------------------
