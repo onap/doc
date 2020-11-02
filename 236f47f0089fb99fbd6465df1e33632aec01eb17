@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "19c93a53_d7d7b1c4",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-02T12:26:11Z",
+      "side": 1,
+      "message": "We should not mention societes in the documentation. This is a collaborative work.",
+      "revId": "236f47f0089fb99fbd6465df1e33632aec01eb17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
