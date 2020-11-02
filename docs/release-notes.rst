@@ -10,58 +10,30 @@ Release Notes
 
 This document provides the release notes for the documentation project.
 
-Frankfurt Maintenance Release 6.0.1
-===================================
+Guilin Release
+==============
 
 Release data
 ============
 
 +--------------------------------------+--------------------------------------+
-| **Project**                          | Open Network Automation Platform     |
-|                                      | (ONAP)                               |
-+--------------------------------------+--------------------------------------+
-| **Release name**                     | Frankfurt                            |
+| **Project**                          | Documentation Project                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 6.0.1                                |
+| **Release name**                     | Guilin                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | August 17th 2020                     |
+| **Release version**                  | 7.0.0                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
+
 
 New features
 ------------
 
-- no updates
-
-Frankfurt Release 6.0.0
-=======================
-
-Release Data
-------------
-
-+--------------------------------------+--------------------------------------+
-| **Project**                          | Documentation                        |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release name**                     | Frankfurt                            |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release version**                  | Frankfurt 6.0.0                      |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release date**                     | June 11th 2020                       |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-
-New features
-------------
-
-- Improved end to end user guides.
-- A refined release note template to be used by all projects in ONAP. To ensure
-  a common way of how to provide the release notes from a content such a look
-  and feel perspective.
+- Refined and improved parts of the documentation guide.
+- Continue with improving the user and admin documentation.
+- Minor corrections after the migration.
 - In addition the documentation project is continuously working with improving
   processes and tools for documentation. Enabling the community to as easy as
   possible document all the aspects of the ONAP platform. During the Frankfurt
@@ -73,4 +45,4 @@ New features
 All JIRA tickets for the Frankfurt release can be found
 `ONAP Documentation Jira`_
 
-.. _`ONAP Documentation Jira`: https://jira.onap.org/browse/DOC-617?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Frankfurt%20Release%22%20
+.. _`ONAP Documentation Jira`: https://jira.onap.org/browse/DOC-674?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Guilin%20Release%22
