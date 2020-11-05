@@ -16,11 +16,11 @@ Resource Onboarding
 |image0|
 
 **Steps**
-    * `Create a License Model`_
-    * `Create a License Key Group [Optional]`_
-    * `Create an Entitlement Pool`_
-    * `Create a Feature Group`_
-    * `Create a License Agreement`_
+    * `Create a License Model [Optional]`_
+        * `Create a License Key Group [Optional]`_
+        * `Create an Entitlement Pool`_
+        * `Create a Feature Group`_
+        * `Create a License Agreement`_
     * `Create a Vendor Software Product`_
     * `Update VFCs in a VSP [optional]`_
     * `Update a VSP [optional]`_
@@ -33,8 +33,8 @@ After updating the artifacts in a VSP, also update:
 
 .. _doc_guide_user_des_res-onb_cre-lic:
 
-Create a License Model
-----------------------
+Create a License Model [Optional]
+---------------------------------
 
 VSPs optionally require a license and entitlements to enable the service
 provider to track the usage.

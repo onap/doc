@@ -9,16 +9,15 @@ Design Service
 
 The goal of the design process is to create all artifacts (models)
 that are required to instantiate and manage resources, services,
-and products on the ONAP platform. The design process requires
-input from users with multiple roles.
+and products on the ONAP platform.
 
 Design progresses logically through a series of phases. Each phase:
 
 * is organized into steps that are completed in sequence
 
-* is accessed using a different role with specific responsibilities
-  generates artifacts that are used in other phases of design or when
-  instantiating or monitoring virtual functions.
+* generates artifacts that are used in other phases of design
+
+* is performed by multiple Design components
 
 The following figure show the different phases and tools involved in
 Onboarding, Design and Distribution process.
@@ -41,13 +40,12 @@ Onboarding, Design and Distribution process.
     (b) manual creation and import of artefacts created via external
     tools like the Controller Design Studio (CDS), responsible for the
     Controller Blueprint Design
-    The created VF will pass a testing workflow to be used
-    in a Service Model
+    The created VF Model will be used in a Service Model
 
 **Service Design**
     A Service Model is created as a composition of resources
     (e.g. V(N)Fs, PNFs,...), Policies, Workflows,...
-    The created Service Model will ber certified and handed over to
+    The created Service Model will be certified and handed over to
     the Service Distribution process
 
 **Service Distribution**
@@ -60,8 +58,8 @@ Onboarding, Design and Distribution process.
     The objective is to automate the resolution of resources for instantiation
     and any config provisioning operation, such as day0, day1 or day2
     configuration.
-    The Controller Blueprint archive (CBA) is the overall service design,
-    fully model-driven, intent based package needed to design self service
+    The Controller Blueprint archive (CBA) is a fully model-driven,
+    intent based package needed to design self service
     provisioning and configuration management automation.
     ONAP CDS (Controller Design Studio) is the controller that will process
     the Controller Blueprint archive (CBA) at run-time.
@@ -76,7 +74,7 @@ Onboarding, Design and Distribution process.
 
 **VNF LifeCycle Command templating**
     APPC Controller Design Tool (CDT) is used for self-service onboarding of
-    VNF’s. VNF owners can create templates and other artifacts for APPC
+    VNFs. VNF owners can create templates and other artifacts for APPC
     Configure command (used to apply a post-instantiation configuration)
     as well as other life cycle commands.
 
@@ -85,16 +83,13 @@ Onboarding, Design and Distribution process.
     modify workflows to support Service/Resource change management scenarios
     executed by the Service Orchestrator.
 
-**Control Loop Design**
-    This phase includes the Design of a closed loop template and associate it
-    to a Service. The template represents the theoretical flow of the CL.
-    It generates a deployment artifact that can be ingested by the DCAE in
-    order to create the needed DCAE microservices in runtime.
-    The design is done in the SDC DCAE-DS (Design Studio).
-    The DCAE Design Studio enables to define and configure
-    the monitoring flows of DCAE.
-    The configuration and deployment of a Control Loop will be done with
-    Control Loop Automation Management (CLAMP) tool.
+**DCAE Onboard/Design**
+    This phase includes the Onboarding of DCAE Microservices and their
+    Policy Models, the Service Assurance Design and Distribution to Policy
+    and CLAMP for Closed Loop Automation Management.
+    The DCAE Onboard/Design component contains an own Design Catalog, which is
+    not yet integrated with the SDC Design Catalog to exchange models and
+    artefacts.
 
 The follwing sections will focus on the different Design steps:
 
@@ -120,7 +115,7 @@ The follwing sections will focus on the different Design steps:
 
 :ref:`Workflow Design<onap-sdc:workflow>`
 
-:ref:`Control Loop Design<onap-sdc:dcaedesigner>`
+:ref:`DCAE Onboard/Design<onap-dcaegen2:master_index>`
 
 :ref:`Control Loop Automation Management<onap-clamp:master_index>`
 

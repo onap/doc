@@ -29,8 +29,6 @@ Steps
 
 - `Distribute Service`_
 - `Monitor Distribution`_
-- `Verify that the DCAE Blueprint is Deployed`_
-
 
 .. _doc_guide_user_des_ser-dis-start:
 
@@ -79,16 +77,6 @@ Monitor Distribution
 #. If deploy errors are shown, the reason has to be investigated and the
    Service can be *Redistributed*
 
-.. _doc_guide_user_des_ser-dis-dcae:
-
-Verify that the DCAE Blueprint is Deployed
-------------------------------------------
-
-The DCAE controller requires a blueprint (or guideline) to be available
-at the site on which the first VNF is deployed. This blueprint is a
-management workflow and configuration description for a given VNF, and
-it must be available after completing the service distribution process
-and before beginning the instantiation process.
 
 .. |image1| image:: media/sdc-service-distribution-workflow.png
 .. |image2| image:: media/sdc-service-distribute.png
