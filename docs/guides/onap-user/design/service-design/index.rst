@@ -9,6 +9,8 @@ Service Design
 
 **Goal:** Add models and other artifacts required to create, configure,
 instantiate, and manage services. Validate and certify the services.
+Besides the manual creation of a Service Model, an existing model can
+be imported via a CSAR file
 
 **Tool:** SDC
 
@@ -23,9 +25,10 @@ instantiate, and manage services. Validate and certify the services.
    #. `Create Service`_
    #. `Create a Management Workflow [optional]`_
    #. `Create a Network Callflow [optional]`_
-   #. `Add Service Inputs [optional]`_
+   #. `Manage Service Properties [optional]`_
    #. `Update Service [optional]`_
    #. `Certify Service`_
+   #. `Import Service CSAR [optional]`_
 
 .. _doc_guide_user_des_ser-cre_serv:
 
@@ -206,10 +209,11 @@ the service model.
 
 .. _doc_guide_user_des_ser-para_in:
 
-Add Service Inputs [optional]
------------------------------
+Manage Service Properties [optional]
+------------------------------------
 
-Select parameters as input fields during Service instantiation.
+Add new Service parameters and define as input fields
+during Service instantiation.
 
 
 **Prerequisites:** `Create service`_
@@ -307,6 +311,31 @@ architecture contains uncertified resources.
 #. A Message appears, that the Service is certified.
 
 
+Import Service CSAR [optional]
+------------------------------
+
+Note: This step can be used, when a Service Model already exists
+
+**Steps**
+
+#. From the SDC HOME page, hover over IMPORT and select *IMPORT SERVICE CSAR*.
+
+   |image0|
+
+#. In the File Upload Dialog, select the csar file and press *Open*.
+
+   |image10|
+
+#. In the General section, complete all fields.
+
+   |image11|
+
+#. Click Create.
+
+   A message displays when Service creation is complete.
+
+#. Continue with Service Design steps mentioned above
+
 .. |image0| image:: media/sdc-home.png
 .. |image1| image:: media/sdc-service-workflow.png
 .. |image2| image:: media/design_asdccanvas_connect_elements.png
@@ -317,3 +346,5 @@ architecture contains uncertified resources.
 .. |image7| image:: media/sdc-service-workflow.png
 .. |image8| image:: media/sdc-service-properties.png
 .. |image9| image:: media/sdc-service-properties-input.png
+.. |image10| image:: media/sdc-service-import.png
+.. |image11| image:: media/sdc-service-general-import.png

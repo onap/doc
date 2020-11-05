@@ -300,6 +300,8 @@ POLICY - Policy Framework
      - Description
    * - :ref:`Policy<onap-policy-parent:master_index>`
      - Policy Framework Documentation
+   * - :ref:`Policy Engine<onap-policy-engine:master_index>`
+     - Policy Engine Documentation
 
 PORTAL - Portal Platform
 ------------------------
