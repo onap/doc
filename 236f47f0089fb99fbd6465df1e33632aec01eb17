@@ -16,6 +16,47 @@
       "revId": "236f47f0089fb99fbd6465df1e33632aec01eb17",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d5c3e229_eefa1ab8",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-11-06T14:50:51Z",
+      "side": 1,
+      "message": "I tend to agree to Eric\u0027s comment and would not mention any company. Their contribution is visible in the tickets and changes",
+      "parentUuid": "19c93a53_d7d7b1c4",
+      "revId": "236f47f0089fb99fbd6465df1e33632aec01eb17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9b610928_a0fd9318",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-11-06T14:50:51Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 48,
+        "startChar": 42,
+        "endLine": 48,
+        "endChar": 45
+      },
+      "revId": "236f47f0089fb99fbd6465df1e33632aec01eb17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
