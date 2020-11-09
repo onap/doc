@@ -1,0 +1,9 @@
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Code-Review+1: Andreas Geissler <andreas-geissler@telekom.de>
+Code-Review+2: Sofia Wallin <sofia.wallin@est.tech>
+Code-Review+2: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-by: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-at: Mon, 09 Nov 2020 15:47:38 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/doc/+/114695
+Project: doc
+Branch: refs/heads/master
