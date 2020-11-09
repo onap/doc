@@ -36,13 +36,9 @@ New features
 - Minor corrections after the migration.
 - In addition the documentation project is continuously working with improving
   processes and tools for documentation. Enabling the community to as easy as
-  possible document all the aspects of the ONAP platform. During the Frankfurt
-  release cycle we have started the work to clean up available content, both on
-  the wiki and readthedocs (docs.onap.org) as well as moving the
-  documentation away from submodules according to the LFN documentation
-  strategy.
+  possible document all the aspects of the ONAP platform.
 
-All JIRA tickets for the Frankfurt release can be found
+All JIRA tickets for the Guilin release can be found
 `ONAP Documentation Jira`_
 
 .. _`ONAP Documentation Jira`: https://jira.onap.org/browse/DOC-674?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Guilin%20Release%22
