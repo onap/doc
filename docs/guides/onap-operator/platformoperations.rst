@@ -76,9 +76,16 @@ functions
 ONAP Backup and Restore
 -----------------------
 
-To Backup ONAP a solution is described in Wiki (Migration to RTD->TBD):
+To backup and restore ONAP component specific data bases you can follow the below link:
 
-`Backup and Restore Solution <https://wiki.onap.org/display/DW/Backup+and+Restore+Solution%3A+ONAP-OOM>`_
+.. toctree::
+  :maxdepth: 1
+
+  onap_backup_restore.rst
+
+.. note::
+  Refer to the wiki page for further details:
+  `Lagacy Backup and Restore Solution <https://wiki.onap.org/display/DW/Backup+and+Restore+Solution%3A+ONAP-OOM>`_
 
 ONAP Multisite Deployment
 -------------------------
