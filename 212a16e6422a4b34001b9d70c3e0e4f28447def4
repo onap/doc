@@ -1,0 +1,176 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e4cd70a5_4bf56662",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 6780
+      },
+      "writtenOn": "2020-11-15T15:27:18Z",
+      "side": 1,
+      "message": "You can add a copyright",
+      "range": {
+        "startLine": 1,
+        "startChar": 3,
+        "endLine": 1,
+        "endChar": 8
+      },
+      "revId": "212a16e6422a4b34001b9d70c3e0e4f28447def4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea0b453a_927b3cd4",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 6780
+      },
+      "writtenOn": "2020-11-15T15:27:18Z",
+      "side": 1,
+      "message": "What are these links doing?",
+      "range": {
+        "startLine": 2,
+        "startChar": 2,
+        "endLine": 2,
+        "endChar": 3
+      },
+      "revId": "212a16e6422a4b34001b9d70c3e0e4f28447def4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c52a52ff_c8485ca6",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 6780
+      },
+      "writtenOn": "2020-11-15T15:27:18Z",
+      "side": 1,
+      "message": "These dashes at the end of headlines can be removed right?",
+      "range": {
+        "startLine": 10,
+        "startChar": 48,
+        "endLine": 10,
+        "endChar": 49
+      },
+      "revId": "212a16e6422a4b34001b9d70c3e0e4f28447def4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "268e4ded_4eb3330a",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 6780
+      },
+      "writtenOn": "2020-11-15T15:27:18Z",
+      "side": 1,
+      "message": "If you are using Visual Studio Code you can remove all unnecessary spaces with \"Trailing Spaces\" extension",
+      "revId": "212a16e6422a4b34001b9d70c3e0e4f28447def4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bab3b602_1d299a8e",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 6780
+      },
+      "writtenOn": "2020-11-15T15:27:18Z",
+      "side": 1,
+      "message": "better to create a /media folder",
+      "revId": "212a16e6422a4b34001b9d70c3e0e4f28447def4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ba08e5df_f554ded6",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 6780
+      },
+      "writtenOn": "2020-11-15T15:27:18Z",
+      "side": 1,
+      "message": "Better use image tag and usescaling, e.g.:\n\n.. |toscaModel| image:: media/tosca_model.jpg\n   :width: 500pt",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 17
+      },
+      "revId": "212a16e6422a4b34001b9d70c3e0e4f28447def4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d19f01c_0ac85a60",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 6780
+      },
+      "writtenOn": "2020-11-15T15:27:18Z",
+      "side": 1,
+      "message": "Consider to use code-block tags",
+      "range": {
+        "startLine": 72,
+        "startChar": 3,
+        "endLine": 72,
+        "endChar": 8
+      },
+      "revId": "212a16e6422a4b34001b9d70c3e0e4f28447def4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "85fe00e7_0b5bbbb8",
+        "filename": "docs/guides/onap-operator/platformoperations.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 6780
+      },
+      "writtenOn": "2020-11-15T15:27:18Z",
+      "side": 1,
+      "message": "As far as i remember you wanted to add this guide in the OOM project?",
+      "range": {
+        "startLine": 84,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 2
+      },
+      "revId": "212a16e6422a4b34001b9d70c3e0e4f28447def4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
