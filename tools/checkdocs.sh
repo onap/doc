@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.0 (2020-11-16)"
+script_version="1.1 (2020-11-17)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -196,6 +196,7 @@ fi
 
 today=$(date '+%Y-%m-%d');
 repolist="gerrit-repos-master-"$today".txt";
+unique=$(date +%s)
 
 echo "Retrieving a full list of ONAP repositories (master) from gerrit.onap.org."
 
@@ -567,7 +568,12 @@ do
         # OPTIONAL: USE ALSO GITEXITCODE AS A FILTER CRITERIA ???
 
         # url base
-        url_start="https://docs.onap.org/projects/onap"
+        # important! only doc project needs a different url base
+        if [[ ${reponame} == "doc" ]]; then
+          url_start="https://docs.onap.org"
+        else
+          url_start="https://docs.onap.org/projects/onap"
+        fi
         url_lang="en"
         url_branch=${branch}
 
@@ -581,11 +587,17 @@ do
         url_file="index.html"
 
         # build the full url
-        url="${url_start}-${url_repo}/${url_lang}/${url_branch}/${url_file}"
+        if [[ ${reponame} == "doc" ]]; then
+          # build the full url for the doc project
+          url="${url_start}/${url_lang}/${url_branch}/${url_file}"
+        else
+          # build the full url for the other projects
+          url="${url_start}-${url_repo}/${url_lang}/${url_branch}/${url_file}"
+        fi
         #echo "DBUG: url=$url"
 
         # test accessibility of url
-        curl --head --silent --fail "${url}" >/dev/null
+        curl --head --silent --fail "${url}?${unique}" >/dev/null
         curl_result=$?
 
         # convert numeric results to text
@@ -608,7 +620,7 @@ do
           #echo "DBUG: url=$url"
 
           # test accessibility of url in "master branch" (latest)
-          curl --head --silent --fail "${url}" >/dev/null
+          curl --head --silent --fail "${url}?${unique}" >/dev/null
           curl_result=$?
           # denote result as a value from "master" branch (latest)
           url="(${url})"
