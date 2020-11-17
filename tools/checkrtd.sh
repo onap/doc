@@ -1,7 +1,9 @@
 #!/bin/bash
 #set -x # uncomment for bash script debugging
 
+# branch, e.g. "master" or "guilin"
 branch=$1
+# logfile produced by checkdocs that contains the list of links
 file_to_process=$2
 
 #
@@ -11,6 +13,7 @@ file_to_process=$2
  url_start="https://docs.onap.org/projects/onap"
   url_lang="en"
 url_branch=${branch}
+unique=$(date +%s)
 
 # "master" docs are available as "latest" in read-the-docs
 if [ "${url_branch}" = "master" ]; then
@@ -40,19 +43,22 @@ do
   url="${url_start}-${url_repo}/${url_lang}/${url_branch}/${url_file}"
 
   # check with curl if html page is accessible (no content check!)
-  curl --head --silent --fail "${url}" >/dev/null
+  # to prevent (server side) cached results a unique element is added to the request
+  curl --head --silent --fail "${url}?${unique}" >/dev/null
   curl_result=$?
 
   # "0" and "22" are expected as a curl result
   if [ "${curl_result}" = "0" ]; then
-    curl_result="ok   "
+    curl_result="accessible"
   elif [ "${curl_result}" = "22" ]; then
-    curl_result="ERROR"
+    curl_result="NOT ACCESSIBLE"
   fi
 
-  echo -e "DBUG:       ${line}"
-  echo -e "DBUG: ${curl_result} ${url}"
-  echo " "
+  #echo -e "DBUG:       ${line}"
+  #echo -e "DBUG: ${curl_result} ${url}"
+  #echo " "
+
+  echo "${line},${url},${curl_result}"
 
   ((i++))
 done
