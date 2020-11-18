@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.1 (2020-11-17)"
+script_version="1.2 (2020-11-18)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -72,8 +72,10 @@ fullcommand="${command} ${arguments}"
 # print usage
 function usage() {
   echo "                                                           "
+  echo " checkdocs.sh Version ${script_version}"
+  echo "                                                           "
   echo " USAGE:                                                    "
-  echo "  ./checkdocs.sh                                           "
+  echo "  ./checkdocs.sh <arguments>                               "
   echo "                                                           "
   echo " ARGUMENTS:                                                "
   echo "  -u|--user username                                       "

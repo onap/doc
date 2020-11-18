@@ -27,6 +27,7 @@ for line in "${array[@]}"
 do
 
   reponame=$(echo ${line} | cut -d "[" -f2 | cut -d "]" -f1)
+  #reponame="[${reponame}]"
   #echo "DBUG: reponame=${reponame}"
 
   # example line: [dmaap/messagerouter/messageservice]/docs/release-notes/release-notes.rst
@@ -41,7 +42,12 @@ do
   # warning: path does not always contain "docs"!
   # line:   [dmaap/messagerouter/messageservice]/docs/release-notes/release-notes.rst
   # output:                                           release-notes/release-notes.html
-  url_file=$(echo ${line} | sed -r 's/^.+\]//' | sed -r 's/^.*docs\///' | sed -r 's/\.rst$/\.html/' )
+  url_file=$(echo ${line} | sed -r 's/^.+\]//' | sed -r 's/^.*\/docs\///' | sed -r 's/\.rst$/\.html/' )
+
+  #echo "DBUG:     line = ${line}"
+  #echo "DBUG: url_file = ${url_file}"
+  #echo "DBUG: url_repo = ${url_repo}"
+  #echo "DBUG: reponame = ${reponame}"
 
   # build the full url
   if [[ ${reponame} == "doc" ]]; then
@@ -53,7 +59,8 @@ do
     url_start="https://docs.onap.org/projects/onap"
     url="${url_start}-${url_repo}/${url_lang}/${url_branch}/${url_file}"
   fi
-  #echo "DBUG: url=$url"
+
+  #echo "DBUG:      url = $url"
 
   # check with curl if html page is accessible (no content check!)
   # to prevent (server side) cached results a unique element is added to the request
