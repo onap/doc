@@ -16,6 +16,24 @@
       "revId": "38d6443c7c25e31f461f4711c5ba96d57987a6ce",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7f24dc5b_74cedb79",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-11-18T10:58:17Z",
+      "side": 1,
+      "message": "I wanted to keep it in Sync with our page https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#, but I can also sort it in the list.\nI just see a difference between \"components\" as part of the ONAP Platform and Projects, which support ONAP, like the Integration, Modelling, but maybe you are right...",
+      "parentUuid": "6e62cf6f_76820f92",
+      "revId": "38d6443c7c25e31f461f4711c5ba96d57987a6ce",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
