@@ -4,10 +4,10 @@
 
 .. _release-notes:
 
-Frankfurt Release Notes
-^^^^^^^^^^^^^^^^^^^^^^^
+Guilin Release Notes
+^^^^^^^^^^^^^^^^^^^^
 
-This page provides the release notes for the ONAP Frankfurt release. This
+This page provides the release notes for the ONAP Guilin release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
@@ -19,53 +19,14 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-Frankfurt Releases
-==================
+Guilin Releases
+===============
 
-The following releases are available for Frankfurt:
-  - `Frankfurt Major Release 6.0.0`_
-  - `Frankfurt Maintenance Release 6.0.1`_
+The following releases are available for Guilin:
+  - `Guilin Major Release 7.0.0`_
 
-Frankfurt Maintenance Release 6.0.1
-===================================
-
-Release data
-============
-
-+--------------------------------------+--------------------------------------+
-| **Project**                          | Open Network Automation Platform     |
-|                                      | (ONAP)                               |
-+--------------------------------------+--------------------------------------+
-| **Release name**                     | Frankfurt                            |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release version**                  | 6.0.1                                |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release date**                     | August 17th 2020                     |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-
-Frankfurt Maintenance Release 6.0.1 delivered a number of fixes and updates
-across the following projects:
-
-- AAF
-- OOM
-- CCSDK
-- CLAMP
-- DCAEGEN2
-- Integration
-- POLICY
-- SDC
-- SO
-- TEST
-
-Details on the specific Jira tickets addressed by each project can be found in
-the component specific Release Notes. Link can be found below in section
-`Project Specific Release Notes`_.
-
-Frankfurt Major Release 6.0.0
-=============================
+Guilin Major Release 7.0.0
+==========================
 
 Release data
 ============
@@ -74,15 +35,40 @@ Release data
 | **Project**                          | Open Network Automation Platform     |
 |                                      | (ONAP)                               |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | Frankfurt                            |
+| **Release name**                     | Guilin                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 6.0.0                                |
+| **Release version**                  | 7.0.0                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | June 11th 2020                       |
+| **Release date**                     | December 3rd 2020                    |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
+
+Guilin Features
+===============
+ONAP Gulin focusses on:
+
+* 5G network automation and services such as network slicing through RAN, core and transport
+* deepening O-RAN Software Community integration along with other leading SDOs
+* seamless orchestration of CNFs, VNFs and PNFs
+* and bringing several new ONAP Blueprint and docs updates.
+
+5G Network Slicing
+------------------
+In the industry evolution toward 5G networks, Guilin expands upon the end-to-end network slicing introduced with Frankfurt with the addition of RAN, core, and transport through Network Slice Subnet Management Function (NSSMF) which completes functionality with the Communication Service Management Function (CSMF) and Network Slice Management Function (NSMF) components. In addition to the NSSMF included in Guilin, ONAP supports an external RAN NSSMF. Next, the RAN domain also has initial support for a simple closed control loop and machine learning (ML) for intelligent slicing.
+
+ONAP/O-RAN Alignment
+--------------------
+The release also marks greater ONAP + O-RAN Software Community harmonization by adding  support for the A1 interface (O-RAN A1-AP v1.1), adding to the existing O1 support. ONAP can now manage multiple A1 targets with different versions and includes a A1 Policy Management Service that interacts with the Near Real-Time RICs policy instances and provides a transient cache for these policies. 
+
+CNF, VNF and PNF integration
+----------------------------
+Guilin contains a large number of new features classified into design time, run time, and ONAP operations to optimize the self-serve control loop and dashboard, make it easier to reuse existing models, make xNF pre-onboarding and onboarding easier, speed up UI development, and more. For Documentation (Usability), ONAP documentation made improvements such as setting up ONAP, Platform Operations, Service Design and Deployment, and User Guides. Specific to cloud native, The Service Design & Creation (SDC) project, the unified design time tool, now supports Helm types to natively support Cloud Native Network Functions (CNF).
+
+Enhancements in ONAP Blueprints
+-------------------------------
+Other enhancements to the ONAP Blueprints includes a new Standard Defined VNF Event Stream (VES) event for Fault Management (FM) / Performance Management (PM) Data Collection, the first use of Machine Learning in Self-Organizing Networks (SON), and greater support for 5G RAN Wireless Network Resource Model (NRM) with Service Modeling and Definition and Intent Based Network supporting intent-drive 5G slice creation.
 
 Project Specific Release Notes
 ==============================
@@ -96,8 +82,8 @@ are compatible with a major release are made available.
 
 Documentation
 =============
-ONAP Frankfurt Release provides a set selection of documents,
-see `ONAP Documentation <https://docs.onap.org/en/frankfurt/index.html>`_.
+ONAP Guilin Release provides a set selection of documents,
+see `ONAP Documentation <https://docs.onap.org/en/guilin/index.html>`_.
 
 The `developer wiki <http://wiki.onap.org>`_ remains a good source of
 information on meeting plans and notes from committees, project teams and
@@ -113,6 +99,8 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
+In the Guilin release, 24% projects pass the CII badge, 52% projects pass 75% of the CII silver badge tests (next badge up from the vanilla CII badge), 5% projects pass 84% of the CII silver badge tests, and 20% pass the entirety of the silver CII badge.
+
 Project specific details are in the :ref:`release notes<doc-releaserepos>` for
 each project.
 
@@ -120,12 +108,16 @@ each project.
 
 ONAP Maturity Testing Notes
 ===========================
-For the Frankfurt release, ONAP continues to improve in multiple areas of
+For the Guilin release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
-The Integration team ran the 72 hours stability testing (100% passing rate)
-and full resilience testing (99.4% passing rate) at ONAP OpenLabs. More details
-in :ref:`ONAP Maturity Testing Notes <integration-s3p>`
+In Guilin the Integration team focussed in
+
+- Automating ONAP Testing to improve the overall quality
+- Adding security and E2E tests
+- Integrated new ONAP Python SDK in E2E testing
+
+More details in :ref:`ONAP Integration Project<onap-integration:master_index>`
 
 Known Issues and Limitations
 ============================
