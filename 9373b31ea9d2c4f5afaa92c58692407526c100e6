@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "11a243fc_2104635a",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2020-11-19T12:01:23Z",
+      "side": 1,
+      "message": "Date should be removed.",
+      "revId": "9373b31ea9d2c4f5afaa92c58692407526c100e6",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
