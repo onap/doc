@@ -39,6 +39,7 @@ Platform Components
 * :ref:`SDNC - SDN Controller<onap-sdnc-oam:offeredapis>`
 * :ref:`SO - Service Orchestration<onap-so:offeredapis>`
 * :ref:`VFC - Virtual Function Controller<onap-vfc-nfvo-lcm:master_index>`
+* :ref:`CDS - Controller Design Studio<onap-ccsdk-cds:offeredapis>`
 
 Common Services
 ---------------
