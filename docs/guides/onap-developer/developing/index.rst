@@ -361,7 +361,7 @@ SO - Service Orchestration
    * - :ref:`SO<onap-so:master_index>`
      - Service Orchestration Architecture, APIs and Guides
    * - :ref:`SO Libraries<onap-so-libs:master_index>`
-     - Service Orchestration Build (To be deleted ?)
+     - ONAP SO/libs Documentation
 
 UUI - Use Case User Interface
 -----------------------------
