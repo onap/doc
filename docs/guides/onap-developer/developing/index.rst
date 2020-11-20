@@ -48,9 +48,9 @@ AAF - Application Authorization Framework
 
    * - Document
      - Description
-   * - :ref:`AAF<onap-aaf-authz:master_index>`
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
      - AAF Architecture, APIs and Guides
-   * - :ref:`Secret Management Service<onap-aaf-sms:master_index>`
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
      - Secret Management Service Architecture and API
 
 AAI - Active and Available Inventory
@@ -64,14 +64,12 @@ AAI - Active and Available Inventory
      - Description
    * - :ref:`AAI<onap-aai-aai-common:master_index>`
      - AAI Architecture, APIs and Guides
-   * - :ref:`ESR<onap-aai-esr-gui:master_index>`
-     - External System Registry GUI Documentation (to be removed ?)
-   * - :ref:`ESR<onap-aai-esr-server:master_index>`
-     - External System Registry Server Documentation (to be removed ?)
-   * - :ref:`AAI Inventory UI<onap-aai-sparky-be:master_index>`
-     - Sparky - AAI Inventory UI Documentation (to be removed ?)
-   * - :ref:`AAI Event Client<onap-aai-event-client:master_index>`
-     - AAI Event Client Documentation (to be removed ?)
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
+     - External System Registry GUI Documentation
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
+     - External System Registry Server Documentation
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
+     - Sparky - AAI Inventory UI Documentation
 
 APPC - Application Controller
 -----------------------------
@@ -82,9 +80,9 @@ APPC - Application Controller
 
    * - Document
      - Description
-   * - :ref:`APPC<onap-appc:master_index>`
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
      - APPC Architecture, APIs and Guides
-   * - :ref:`APPC Deployment<onap-appc-deployment:master_index>`
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
      - APPC Deployment Documentation
 
 CCSDK - Common Controller Software Development Kit
@@ -98,12 +96,6 @@ CCSDK - Common Controller Software Development Kit
      - Description
    * - :ref:`Distribution<onap-ccsdk-distribution:master_index>`
      - TOSCA Orchestration Plugin, Directed Graph Support
-   * - :ref:`Dashboard<onap-ccsdk-dashboard:master_index>`
-     - Common Controller Dashboard (To be removed ?)
-   * - :ref:`Platform Plugins<onap-ccsdk-platform-plugins:master_index>`
-     - Platform Plugins (To be removed ?)
-   * - :ref:`APPS<onap-ccsdk-apps:master_index>`
-     - Apps optside ODL (To be removed ?)
 
 CDS - Controller Design Studio
 ------------------------------
@@ -206,8 +198,8 @@ LOGGING - Centralized Logging
 
    * - Document
      - Description
-   * - :ref:`Logging<onap-logging-analytics:master_index>`
-     - ONAP Centralized Logging Documentation (to be deleted ?)
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
+     - ONAP Centralized Logging Documentation
 
 MSB - Microservices Bus
 -----------------------
@@ -242,10 +234,10 @@ MUSIC - ONAP Multi-Site Integration
 
    * - Document
      - Description
-   * - :ref:`MUSIC<onap-music:master_index>`
-     - MUSIC Architecture and Guides (To be deleted ?)
-   * - :ref:`Distributed KV Store<onap-music:master_index>`
-     - MUSIC Distribute KV Store Documents (To be deleted ?)
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
+     - MUSIC Architecture and Guides
+   * - (in Maintenance) Documentation can be found in previous ONAP releases
+     - MUSIC Distribute KV Store Documents
 
 OOF - Optimization Framework
 ----------------------------
@@ -360,8 +352,6 @@ SO - Service Orchestration
      - Description
    * - :ref:`SO<onap-so:master_index>`
      - Service Orchestration Architecture, APIs and Guides
-   * - :ref:`SO Libraries<onap-so-libs:master_index>`
-     - Service Orchestration Build (To be deleted ?)
 
 UUI - Use Case User Interface
 -----------------------------
