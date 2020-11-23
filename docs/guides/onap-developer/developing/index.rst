@@ -48,10 +48,8 @@ AAF - Application Authorization Framework
 
    * - Document
      - Description
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) `AAF (Frankfurt) <https://docs.onap.org/projects/onap-aaf-authz/en/frankfurt/>`_
      - AAF Architecture, APIs and Guides
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
-     - Secret Management Service Architecture and API
 
 AAI - Active and Available Inventory
 ------------------------------------
@@ -64,11 +62,11 @@ AAI - Active and Available Inventory
      - Description
    * - :ref:`AAI<onap-aai-aai-common:master_index>`
      - AAI Architecture, APIs and Guides
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) `ESR GUI (Latest) <https://docs.onap.org/projects/onap-aai-esr-gui/en/latest/>`_
      - External System Registry GUI Documentation
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) `ESR Server (Latest) <https://docs.onap.org/projects/onap-aai-esr-server/en/latest/>`_
      - External System Registry Server Documentation
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) :ref:`Model<onap-aai-sparky-be:master_index>`
      - Sparky - AAI Inventory UI Documentation
 
 APPC - Application Controller
@@ -80,9 +78,9 @@ APPC - Application Controller
 
    * - Document
      - Description
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) `APPC (Frankfurt) <https://docs.onap.org/projects/onap-appc/en/frankfurt/>`_
      - APPC Architecture, APIs and Guides
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) `APPC Deployment (Frankfurt) <https://docs.onap.org/projects/onap-appc-deployment/en/frankfurt/>`_
      - APPC Deployment Documentation
 
 CCSDK - Common Controller Software Development Kit
@@ -198,7 +196,7 @@ LOGGING - Centralized Logging
 
    * - Document
      - Description
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) `LOGGING (Latest) <https://docs.onap.org/projects/onap-logging-analytics/en/latest/>`_
      - ONAP Centralized Logging Documentation
 
 MSB - Microservices Bus
@@ -234,9 +232,9 @@ MUSIC - ONAP Multi-Site Integration
 
    * - Document
      - Description
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) `MUSIC (Frankfurt) <https://docs.onap.org/projects/onap-music/en/frankfurt/>`_
      - MUSIC Architecture and Guides
-   * - (in Maintenance) Documentation can be found in previous ONAP releases
+   * - (in Maintenance) `MUSIC KV (Frankfurt) <https://docs.onap.org/projects/onap-music-distributed-kv-store/en/frankfurt/>`_
      - MUSIC Distribute KV Store Documents
 
 OOF - Optimization Framework
@@ -352,6 +350,8 @@ SO - Service Orchestration
      - Description
    * - :ref:`SO<onap-so:master_index>`
      - Service Orchestration Architecture, APIs and Guides
+   * - :ref:`SO Libraries<onap-so-libs:master_index>`
+     - ONAP SO/libs Documentation
 
 UUI - Use Case User Interface
 -----------------------------
