@@ -26,4 +26,5 @@ Verified Use Cases
 In the following page you find all use cases and functional requirements
 which have been officially verified in the actual release by the ONAP community.
 
-* :ref:`Verified Use Cases<onap-integration:docs_usecases>`
+* :ref:`Guilin Use Cases<onap-integration:docs_usecases_release>`
+* :ref:`Deprecated Use Cases<onap-integration:docs_usecases>`
