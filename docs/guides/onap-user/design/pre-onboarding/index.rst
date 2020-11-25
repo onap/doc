@@ -114,4 +114,4 @@ No VF functionality testing is performed at this stage.
 
 
 .. _generate-manifest.py: https://git.onap.org/sdc/tree/openecomp-be/tools/scripts/generate-manifest.py
-.. _example-packages: https://git.onap.org/sdc/tree/test-apis-ci/sdc-api-tests/chef-repo/cookbooks/sdc-api-tests/files/default/Files
+.. _example-packages: https://git.onap.org/sdc/tree/integration-tests/src/test/resources/Files/VNFs
