@@ -264,7 +264,7 @@ OOM - ONAP Operations Manager
      - Description
    * - :ref:`OOM<onap-oom:master_index>`
      - ONAP Operations Manager Documentation
-   * - :ref:`OOM Certification Service<onap-oom-certservice:master_index>`
+   * - :ref:`OOM Certification Service<onap-oom-platform-cert-service:master_index>`
      - ONAP CMPv2 certification support
 
 ORAN - Open-RAN Support in ONAP
