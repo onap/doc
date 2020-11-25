@@ -85,7 +85,7 @@ AAI - Active and Available Inventory
      - External System Registry GUI Documentation
    * - (in Maintenance) `ESR Server (Latest) <https://docs.onap.org/projects/onap-aai-esr-server/en/latest/>`_
      - External System Registry Server Documentation
-   * - (in Maintenance) :ref:`Model<onap-aai-sparky-be:master_index>`
+   * - (in Maintenance) :ref:`AAI UI<onap-aai-sparky-be:master_index>`
      - Sparky - AAI Inventory UI Documentation
 >>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
 
@@ -370,7 +370,7 @@ SDNC - Software Defined Network Controller
 
    * - Document
      - Description
-   * - :ref:`SDCN<onap-sdnc-oam:master_index>`
+   * - :ref:`SDNC<onap-sdnc-oam:master_index>`
      - SDNC Architecture, APIs and Guides
 
 SDNR - Software Defined Network Controller for Radio
@@ -382,7 +382,7 @@ SDNR - Software Defined Network Controller for Radio
 
    * - Document
      - Description
-   * - :ref:`SDNR<onap-ccsdk-features:master_index>`
+   * - :ref:`SDN-R<onap-ccsdk-features:master_index>`
      - SDN-R Documentation (part of CCSDK)
 
 SO - Service Orchestration
