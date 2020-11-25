@@ -1,0 +1,333 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b2ab2681_2af67d3a",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "missing license",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6cc3022f_589fd9fd",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "use bullet list",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cf1d871d_2a6b425a",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "use list",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3d29714a_40320402",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "60588a1f_8324152a",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6084db82_5d22c032",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "353db8d4_6cb92fdc",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": ": to be deleted",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "27d79a96_f379a431",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing spaces",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fadb2df4_87de20fe",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "28c80eaa_e500bd73",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3953e7a4_1290d5b0",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0be3e5d3_455cd201",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a7e101dc_b28e1bba",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "range": {
+        "startLine": 161,
+        "startChar": 0,
+        "endLine": 161,
+        "endChar": 1
+      },
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91be39d4_11ee85ce",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4b0a91f3_e2992d6b",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d998b5ed_8483b49b",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 467,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "10ad2e11_e88c254f",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fc19b984_c63d28e0",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 708,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a3d7d96f_ecb011c9",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 751,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-25T13:18:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "0f6fa7ca547f34be8d76f4d0bf796192769d4a42",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
