@@ -35,7 +35,7 @@ Create a VF/PNF by VSP import
 
 **Steps**
 
-#. From the SDC HOME page, click the *Import VSP*
+#. From the SDC HOME page, hover over *Import*, then click on *IMPORT VSP*
 
    |image2|
 
@@ -94,7 +94,7 @@ Create a VF/PNF manually
 
 **Steps**
 
-#. From the SDC HOME page, click the *ADD VF* or *ADD PNF*
+#. From the SDC HOME page, hover over *Add*, then click on *ADD VF* or *ADD PNF*.
 
    |image2|
 
@@ -160,7 +160,7 @@ Update a VF/PNF [optional]
 
 **Steps**
 
-#. From the SDC HOME page, click *CATALOG* and search for the VF/PNF.
+#. From the SDC HOME page, click *CATALOG* and search for the VF/PNF, click on selected VF/PNF to update.
 
 #. In the General section, click *Check Out*.
    The *VSP* field is displays.
@@ -173,7 +173,8 @@ Update a VF/PNF [optional]
    |image4|
 
 #. Click *Update VSP*
-   A progress bar displays.|image5|
+   A progress bar displays.
+   |image5|
 
 #. Click *Deployment Artifact* to edit, upload, or delete associated [Optional]
    deployment artifacts.
@@ -206,7 +207,9 @@ Certify VF/PNF
 **Steps**
 
 #. When a VF/PNF is ready for certification,
-   click *CATALOG* and search for the checked-in VF/PNF.
+   On the SDC HOME page, click *CATALOG* and search for the checked-in VF/PNF.
+   Bottom half of the VN/PNF will say “In Design Check In”.
+
 #. Click the VF/PNF and click *Certify*.
 
    |image7|
