@@ -16,7 +16,7 @@ Project Specific Release Notes
 | :ref:`Project: VNF Requirements<onap-vnfrqts-requirements:release_notes>`
 | :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:release_notes>`
 | :ref:`CCSDK - Common Controller Software Development Kit<onap-ccsdk-distribution:release_notes>`
-| :ref:`CLAMP - Closed Loop Automation Platform<onap-clamp:release_notes>`
+| :ref:`CLAMP - Control Loop Automation Platform<onap-clamp:release_notes>`
 | :ref:`CLI - Command Line Interface<onap-cli:release_notes>`
 | :ref:`DCAE - Data Collection Analysis and Events<onap-dcaegen2:release_notes>`
 | :ref:`DMAAP - Message Router (MR)<onap-dmaap-messagerouter-messageservice:release_notes>`
