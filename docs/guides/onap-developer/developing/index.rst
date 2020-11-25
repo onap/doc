@@ -48,17 +48,10 @@ AAF - Application Authorization Framework
 
    * - Document
      - Description
-<<<<<<< HEAD   (2d25f5 Merge "Update release notes list to Guilin release Update Mu)
    * - :ref:`AAF<onap-aaf-authz:master_index>`
-=======
-   * - (in Maintenance) `AAF (Frankfurt) <https://docs.onap.org/projects/onap-aaf-authz/en/frankfurt/>`_
->>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
      - AAF Architecture, APIs and Guides
-<<<<<<< HEAD   (2d25f5 Merge "Update release notes list to Guilin release Update Mu)
    * - :ref:`Secret Management Service<onap-aaf-sms:master_index>`
      - Secret Management Service Architecture and API
-=======
->>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
 
 AAI - Active and Available Inventory
 ------------------------------------
@@ -71,7 +64,6 @@ AAI - Active and Available Inventory
      - Description
    * - :ref:`AAI<onap-aai-aai-common:master_index>`
      - AAI Architecture, APIs and Guides
-<<<<<<< HEAD   (2d25f5 Merge "Update release notes list to Guilin release Update Mu)
    * - :ref:`ESR<onap-aai-esr-gui:master_index>`
      - External System Registry GUI Documentation (to be removed ?)
    * - :ref:`ESR<onap-aai-esr-server:master_index>`
@@ -80,14 +72,6 @@ AAI - Active and Available Inventory
      - Sparky - AAI Inventory UI Documentation (to be removed ?)
    * - :ref:`AAI Event Client<onap-aai-event-client:master_index>`
      - AAI Event Client Documentation (to be removed ?)
-=======
-   * - (in Maintenance) `ESR GUI (Latest) <https://docs.onap.org/projects/onap-aai-esr-gui/en/latest/>`_
-     - External System Registry GUI Documentation
-   * - (in Maintenance) `ESR Server (Latest) <https://docs.onap.org/projects/onap-aai-esr-server/en/latest/>`_
-     - External System Registry Server Documentation
-   * - (in Maintenance) :ref:`Model<onap-aai-sparky-be:master_index>`
-     - Sparky - AAI Inventory UI Documentation
->>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
 
 APPC - Application Controller
 -----------------------------
@@ -98,17 +82,9 @@ APPC - Application Controller
 
    * - Document
      - Description
-<<<<<<< HEAD   (2d25f5 Merge "Update release notes list to Guilin release Update Mu)
    * - :ref:`APPC<onap-appc:master_index>`
-=======
-   * - (in Maintenance) `APPC (Frankfurt) <https://docs.onap.org/projects/onap-appc/en/frankfurt/>`_
->>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
      - APPC Architecture, APIs and Guides
-<<<<<<< HEAD   (2d25f5 Merge "Update release notes list to Guilin release Update Mu)
    * - :ref:`APPC Deployment<onap-appc-deployment:master_index>`
-=======
-   * - (in Maintenance) `APPC Deployment (Frankfurt) <https://docs.onap.org/projects/onap-appc-deployment/en/frankfurt/>`_
->>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
      - APPC Deployment Documentation
 
 CCSDK - Common Controller Software Development Kit
@@ -230,13 +206,8 @@ LOGGING - Centralized Logging
 
    * - Document
      - Description
-<<<<<<< HEAD   (2d25f5 Merge "Update release notes list to Guilin release Update Mu)
    * - :ref:`Logging<onap-logging-analytics:master_index>`
      - ONAP Centralized Logging Documentation (to be deleted ?)
-=======
-   * - (in Maintenance) `LOGGING (Latest) <https://docs.onap.org/projects/onap-logging-analytics/en/latest/>`_
-     - ONAP Centralized Logging Documentation
->>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
 
 MSB - Microservices Bus
 -----------------------
@@ -271,17 +242,10 @@ MUSIC - ONAP Multi-Site Integration
 
    * - Document
      - Description
-<<<<<<< HEAD   (2d25f5 Merge "Update release notes list to Guilin release Update Mu)
    * - :ref:`MUSIC<onap-music:master_index>`
      - MUSIC Architecture and Guides (To be deleted ?)
    * - :ref:`Distributed KV Store<onap-music:master_index>`
      - MUSIC Distribute KV Store Documents (To be deleted ?)
-=======
-   * - (in Maintenance) `MUSIC (Frankfurt) <https://docs.onap.org/projects/onap-music/en/frankfurt/>`_
-     - MUSIC Architecture and Guides
-   * - (in Maintenance) `MUSIC KV (Latest) <https://docs.onap.org/projects/onap-music-distributed-kv-store/en/latest/>`_
-     - MUSIC Distribute KV Store Documents
->>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
 
 OOF - Optimization Framework
 ----------------------------
@@ -397,11 +361,7 @@ SO - Service Orchestration
    * - :ref:`SO<onap-so:master_index>`
      - Service Orchestration Architecture, APIs and Guides
    * - :ref:`SO Libraries<onap-so-libs:master_index>`
-<<<<<<< HEAD   (2d25f5 Merge "Update release notes list to Guilin release Update Mu)
      - Service Orchestration Build (To be deleted ?)
-=======
-     - ONAP SO/libs Documentation
->>>>>>> CHANGE (8787af Added links to older release docs for maintained components)
 
 UUI - Use Case User Interface
 -----------------------------
