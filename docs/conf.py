@@ -1,6 +1,6 @@
 from docs_conf.conf import *
 
-branch = 'guilin'
+branch = 'latest'
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
