@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "584ec954_79a700c1",
+        "filename": "docs/guides/onap-developer/developing/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-26T11:53:04Z",
+      "side": 1,
+      "message": "Link KO",
+      "revId": "f36a7ded24acf572c0eab8242ab8f8c24484eb7e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f5e6db45_656efec6",
+        "filename": "docs/guides/onap-developer/developing/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-26T11:53:04Z",
+      "side": 1,
+      "message": "Link KO",
+      "revId": "f36a7ded24acf572c0eab8242ab8f8c24484eb7e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84a41053_4ceca138",
+        "filename": "docs/guides/onap-developer/developing/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-26T11:53:04Z",
+      "side": 1,
+      "message": "Link KO",
+      "revId": "f36a7ded24acf572c0eab8242ab8f8c24484eb7e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a151b1d7_4106a31a",
+        "filename": "docs/guides/onap-developer/developing/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 353,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2020-11-26T11:53:04Z",
+      "side": 1,
+      "message": "Link KO",
+      "revId": "f36a7ded24acf572c0eab8242ab8f8c24484eb7e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
