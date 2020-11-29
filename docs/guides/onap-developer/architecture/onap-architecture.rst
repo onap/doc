@@ -103,8 +103,8 @@ as functions for managing ONAP itself.
 **Figure 1 provides a high-level view of the ONAP architecture with its
 microservices-based platform components.**
 
-|image1|
-
+.. raw:: html
+    :file: media/onap_interactive.svg
 
 Figure 2 below, provides a simplified functional view of the architecture,
 which highlights the role of a few key components:
@@ -681,7 +681,7 @@ Resources
 =========
 See the Resources page on `ONAP.org <https://www.onap.org/resources>`_
 
-.. |image1| image:: media/ONAP-architecture.png
+.. |image1| image:: media/onap_interactive.svg
    :width: 800px
 .. |image2| image:: media/ONAP-fncview.png
    :width: 800px

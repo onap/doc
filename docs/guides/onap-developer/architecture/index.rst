@@ -14,4 +14,5 @@ ONAP Architecture
    :maxdepth: 2
 
    onap-architecture.rst
-   references.rst
+   onap-projets-architecture.rst
+   components.rst

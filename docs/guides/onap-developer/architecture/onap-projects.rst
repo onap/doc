@@ -10,8 +10,8 @@
    As more information is provided by each project in a docs/architecture.rst
    file, it will appear here.   Show source to see the references in each grouping.
 
-References
-==========
+Projects architecture
+=====================
 
 Models
 ------
