@@ -1,3 +1,7 @@
+.. This work is licensed under a Creative Commons Attribution 4.0
+.. International License.  http://creativecommons.org/licenses/by/4.0
+.. Copyright ONAP Community
+
 |image2017-10-27_15-56-53.png|
 
 ONAP Portal for Administrators
@@ -25,7 +29,8 @@ Access
 Access the ONAP Portal using Mozilla Firefox or Google Chrome(win/mac)
 at the provided URL. For example: `https://<hostname:port>/ONAPPORTAL/login.html`.
 
-:ref:`Access the ONAP portal via the 8989 LoadBalancer documented `here<onap-oom:onap-on-kubernetes-with-rancher>`
+Access the ONAP portal via the 8989 LoadBalancer documented
+:ref:` here<onap-oom:onap-on-kubernetes-with-rancher>`
 
 From the Portal, users access applications directly or by function using
 the `Manage menu`.
@@ -59,8 +64,8 @@ Admin Tasks
 
 From the ONAP Portal, administrators:
 
--  access the same functionality accessible to users (see `ONAP Portal
-   for users <onap-#PAGE_1018759>`__)
+-  access the same functionality accessible to users
+   (see :ref:`ONAP Portal for users<onap_portal_users>`)
 
 -  manage users and application admins
 
@@ -73,8 +78,6 @@ Administrators see the following menu when accessing the ONAP Portal:
 |image2017-10-27_14-14-37.png|
 
 Left menu descriptions:
-
-.. _PAGE_1018764:
 
 Admins Menu
 -----------
