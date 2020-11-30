@@ -2,7 +2,7 @@
    International License. http://creativecommons.org/licenses/by/4.0
 
 
-.. _release-notes:
+.. _onap-release-notes:
 
 Guilin Release Notes
 ^^^^^^^^^^^^^^^^^^^^

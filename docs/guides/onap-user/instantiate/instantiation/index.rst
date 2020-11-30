@@ -2,7 +2,6 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2019 ONAP Contributors.  All rights reserved.
 
-
 Declare PNF instances:
 
 .. toctree::
@@ -17,21 +16,12 @@ Instantiate a Service
 
    Instantiate a Service <./service_instance/index.rst>
 
-
 Instantiate a VNF:
 
 .. toctree::
    :maxdepth: 1
 
     Instantiate a VNF <./vnf_instance/index.rst>
-
-Configure a VNF:
-
-.. toctree::
-   :maxdepth: 1
-
-    Configure a VNF <./vnf_configure/index.rst>
-
 
 Instantiate a Virtual Link:
 
