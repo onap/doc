@@ -16,3 +16,5 @@ Instantiation includes the following topics:
    Pre-instantiation operations <./pre_instantiation/index.rst>
 
    Instantiation operation(s) <./instantiation/index.rst>
+
+   Instantiation via Use-Case UI portal <./instantiation/uui/index.rst>
