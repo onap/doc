@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cac8d8e7_5ec5df95",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/templates.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 865
+      },
+      "writtenOn": "2020-11-30T16:35:11Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this file refer sections from new path:\ndocs/guides/onap-developer/how-to-use-docs/templates/",
+      "revId": "ab0c78bb275b345eb5e995a40a90e633980d7bca",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
