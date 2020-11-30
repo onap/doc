@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98e12417_ea475a28",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-11-30T07:57:36Z",
+      "side": 1,
+      "message": "Why is this again \"guilin\" and not \"latest\" as you are chainging the master branch ?",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 17
+      },
+      "revId": "0a7dc447e0fef949fae94cae11ec1b32af8b8240",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
