@@ -49,26 +49,51 @@ Guilin Features
 ===============
 ONAP Gulin focusses on:
 
-* 5G network automation and services such as network slicing through RAN, core and transport
+* 5G network automation and services such as network slicing through RAN, core
+  and transport
 * deepening O-RAN Software Community integration along with other leading SDOs
 * seamless orchestration of CNFs, VNFs and PNFs
 * and bringing several new ONAP Blueprint and docs updates.
 
 5G Network Slicing
 ------------------
-In the industry evolution toward 5G networks, Guilin expands upon the end-to-end network slicing introduced with Frankfurt with the addition of RAN, core, and transport through Network Slice Subnet Management Function (NSSMF) which completes functionality with the Communication Service Management Function (CSMF) and Network Slice Management Function (NSMF) components. In addition to the NSSMF included in Guilin, ONAP supports an external RAN NSSMF. Next, the RAN domain also has initial support for a simple closed control loop and machine learning (ML) for intelligent slicing.
+In the industry evolution toward 5G networks, Guilin expands upon the
+end-to-end network slicing introduced with Frankfurt with the addition of RAN,
+core, and transport through Network Slice Subnet Management Function (NSSMF)
+which completes functionality with the Communication Service Management
+Function (CSMF) and Network Slice Management Function (NSMF) components. In
+addition to the NSSMF included in Guilin, ONAP supports an external RAN NSSMF.
+Next, the RAN domain also has initial support for a simple closed control loop
+and machine learning (ML) for intelligent slicing.
 
 ONAP/O-RAN Alignment
 --------------------
-The release also marks greater ONAP + O-RAN Software Community harmonization by adding  support for the A1 interface (O-RAN A1-AP v1.1), adding to the existing O1 support. ONAP can now manage multiple A1 targets with different versions and includes a A1 Policy Management Service that interacts with the Near Real-Time RICs policy instances and provides a transient cache for these policies. 
+The release also marks greater ONAP + O-RAN Software Community harmonization by
+adding  support for the A1 interface (O-RAN A1-AP v1.1), adding to the existing
+O1 support. ONAP can now manage multiple A1 targets with different versions and
+includes a A1 Policy Management Service that interacts with the Near Real-Time
+RICs policy instances and provides a transient cache for these policies.
 
 CNF, VNF and PNF integration
 ----------------------------
-Guilin contains a large number of new features classified into design time, run time, and ONAP operations to optimize the self-serve control loop and dashboard, make it easier to reuse existing models, make xNF pre-onboarding and onboarding easier, speed up UI development, and more. For Documentation (Usability), ONAP documentation made improvements such as setting up ONAP, Platform Operations, Service Design and Deployment, and User Guides. Specific to cloud native, The Service Design & Creation (SDC) project, the unified design time tool, now supports Helm types to natively support Cloud Native Network Functions (CNF).
+Guilin contains a large number of new features classified into design time,
+run time, and ONAP operations to optimize the self-serve control loop and
+dashboard, make it easier to reuse existing models, make xNF pre-onboarding and
+onboarding easier, speed up UI development, and more. For Documentation
+(Usability), ONAP documentation made improvements such as setting up ONAP,
+Platform Operations, Service Design and Deployment, and User Guides. Specific
+to cloud native, The Service Design & Creation (SDC) project, the unified
+design time tool, now supports Helm types to natively support Cloud Native
+Network Functions (CNF).
 
 Enhancements in ONAP Blueprints
 -------------------------------
-Other enhancements to the ONAP Blueprints includes a new Standard Defined VNF Event Stream (VES) event for Fault Management (FM) / Performance Management (PM) Data Collection, the first use of Machine Learning in Self-Organizing Networks (SON), and greater support for 5G RAN Wireless Network Resource Model (NRM) with Service Modeling and Definition and Intent Based Network supporting intent-drive 5G slice creation.
+Other enhancements to the ONAP Blueprints includes a new Standard Defined VNF
+Event Stream (VES) event for Fault Management (FM) / Performance Management
+(PM) Data Collection, the first use of Machine Learning in Self-Organizing
+Networks (SON), and greater support for 5G RAN Wireless Network Resource Model
+(NRM) with Service Modeling and Definition and Intent Based Network supporting
+intent-drive 5G slice creation.
 
 Project Specific Release Notes
 ==============================
@@ -99,7 +124,11 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
-In the Guilin release, 24% projects pass the CII badge, 52% projects pass 75% of the CII silver badge tests (next badge up from the vanilla CII badge), 5% projects pass 84% of the CII silver badge tests, and 20% pass the entirety of the silver CII badge.
+In the Guilin release,
+
+- 100% projets passed 90% of the CII badge
+- 85% projects passed the CII badge
+- 11% projets passed the CII Silver badge
 
 Project specific details are in the :ref:`release notes<doc-releaserepos>` for
 each project.
