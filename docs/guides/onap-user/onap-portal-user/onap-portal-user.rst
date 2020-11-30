@@ -1,3 +1,8 @@
+.. This work is licensed under a Creative Commons Attribution 4.0
+.. International License.  http://creativecommons.org/licenses/by/4.0
+.. ONAP community
+.. _onap_portal_users:
+
 |image2017-10-27_15-56-53.png|
 
 ONAP Portal for Users
@@ -16,7 +21,8 @@ manage applications and widgets, and manage user access.
 The Portal SDK for application developers includes bundled tools,
 technologies, and built-in capabilities such as services, APIs, and UI
 controls. Existing applications can migrate to the Portal with the
-provided APIs and libraries. :ref:`ONAP Portal SDK Documentation<onap-portal:master_index>`
+provided APIs and libraries.
+:ref:`ONAP Portal SDK Documentation<onap-portal:master_index>`
 
 Access
 ------
@@ -24,7 +30,8 @@ Access
 Access the ONAP Portal using Mozilla Firefox or Google Chrome(win/mac)
 at the provided URL. For example: `https://<hostname:port>/ONAPPORTAL/login.html`.
 
-:ref:`Access the ONAP portal via the 8989 LoadBalancer <onap-oom:onap-on-kubernetes-with-rancher>`
+:ref:`Access the ONAP portal via the 8989 LoadBalancer
+<onap-oom:onap-on-kubernetes-with-rancher>`
 
 From the Portal, users access applications directly or by function using
 the `Manage menu`.
