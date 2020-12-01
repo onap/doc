@@ -26,7 +26,6 @@ Project Specific Release Notes
 | :ref:`EXTAPI - External API NorthBound Interface<onap-externalapi-nbi:release_notes>`
 | :ref:`HOLMES - Rule Management<onap-holmes-rule-management:release_notes>`
 | :ref:`MODELING - Modeling ETSI catalog<onap-modeling-etsicatalog:release_notes>`
-| :ref:`MSB - Micro Services Bus<onap-msb-apigateway:release_notes>`
 | :ref:`MULTICLOUD - MultiCloud Framework<onap-multicloud-framework:release_notes>`
 | :ref:`OOF - Optimization Framework<onap-optf-osdf:release_notes>`
 | :ref:`OOM - ONAP Operations Manager<onap-oom:release_notes>`
