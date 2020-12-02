@@ -47,7 +47,7 @@ Release data
 
 Guilin Features
 ===============
-ONAP Gulin focusses on:
+ONAP Guilin focusses on:
 
 * 5G network automation and services such as network slicing through RAN, core
   and transport
@@ -95,6 +95,95 @@ Networks (SON), and greater support for 5G RAN Wireless Network Resource Model
 (NRM) with Service Modeling and Definition and Intent Based Network supporting
 intent-drive 5G slice creation.
 
+Functional Requirements
+-----------------------
+The following requirements have been introduced in the Guilin Release:
+
+CNF Integration
+...............
+
+- ONAP CNF orchestration - Enhancements
+
+Lifecycle Management
+....................
+
+- Policy Based Filtering
+- Bulk PM / PM Data Control Extension
+- Support xNF Software Upgrade in association to schema updates
+- Configuration & Persistency Service
+
+Security
+........
+
+- CMPv2 Enhancements
+
+Standard alignment
+..................
+
+- ETSI-Alignment for Guilin and Honolulu
+- ONAP/3GPP & O-RAN Alignment-Standards Defined Notifications over VES
+- Extend ORAN A1 Adapter and add A1 Policy Management
+
+NFV testing Automatic Platform
+...............................
+
+- Test Result Auto Analysis & Certification
+- Test Task Auto Execution
+- Test Environment Auto Deploy
+- Test Topology Auto Design
+
+Non-Functional Requirements
+---------------------------
+The following 'non-functional' requirements have been introduced in the Guilin
+Release:
+
+Best Practice
+.............
+
+- ONAP shall use STDOUT for logs collection
+- IPv4/IPv6 dual stack support in ONAP (Guilin)
+- Containers must crash properly when a failure occurs
+- Containers must have no more than one main process
+- Application config should be fully prepared before starting the
+  application container
+- No root (superuser) access to database from application container
+
+Code Quality
+............
+
+- Each ONAP project shall improve its CII Badging score by improving input
+  validation and documenting it in their CII Badging site
+- Each ONAP project shall define code coverage improvements and achieve at
+  least 55% code coverage
+
+Documentation
+.............
+
+- Apply common Swagger style and documentation generation tools to create
+  robust ONAP API documentation
+
+Security
+........
+
+- ONAP must complete update of the Python language (from 2.7 -> 3.8)
+- ONAP must complete update of the java language (from v8 -> v11)
+- All containers must run as non-root user
+- Continue hardcoded passwords removal
+- Flow management must be activated for ONAP.
+- Each project will update the vulnerable direct dependencies in their code
+  base
+
+Tests
+.....
+
+- More tests integrated in CI/CD but enhancements expected in Honolulu
+- ONAP shall increase the number of Docker Benchmark tests
+
+Others
+......
+
+- ONAP to support Multi - tenancy
+
 Project Specific Release Notes
 ==============================
 ONAP releases are specified by a list of project artifact versions in the
@@ -126,9 +215,9 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 
 In the Guilin release,
 
-- 100% projets passed 90% of the CII badge
+- 100% projects passed 90% of the CII badge
 - 85% projects passed the CII badge
-- 11% projets passed the CII Silver badge
+- 11% projects passed the CII Silver badge
 
 Project specific details are in the :ref:`release notes<doc-releaserepos>` for
 each project.
