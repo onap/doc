@@ -5,6 +5,8 @@
 
 .. _doc-releaserepos:
 
+:orphan:
+
 Project Specific Release Notes
 ++++++++++++++++++++++++++++++
 

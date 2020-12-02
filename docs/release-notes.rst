@@ -5,6 +5,8 @@
 
 .. _doc_release_notes:
 
+:orphan:
+
 Release Notes
 =============
 
