@@ -127,8 +127,7 @@ These service design activities are built up of the following subtasks:
      the example of onboarding and instantiating a virtual network function
      (VNF), the virtual Firewall (vFirewall). Following the guidelines and
      steps of this example, any other VNF can be similarly onboarded
-     and instantiated to ONAP. See :ref:`virtual Firewall Onboarding and
-     Instantiating <vfirewall_usecase>` examples.
+     and instantiated to ONAP.
 
   e. Controllers applying configuration on VNFs
 
@@ -164,7 +163,9 @@ is named after a city.
 +----------------------+----------------+----------------------+-----------------------------------------------------------+
 |Release Name          |Release version |Release Date          |Features delivered                                         |
 +======================+================+======================+===========================================================+
-|Frankfurt             |6.0.0           | 11 June 2020         | :ref:`Frankfurt Release Notes<release-notes>`             |
+|Guilin                |7.0.0           | 3 Deember 2020       |                                                           |
++----------------------+----------------+----------------------+-----------------------------------------------------------+
+|Frankfurt             |6.0.0           | 11 June 2020         |                                                           |
 +----------------------+----------------+----------------------+-----------------------------------------------------------+
 |El Alto               |5.0.1           | 24 October 2019      |                                                           |
 +----------------------+----------------+----------------------+-----------------------------------------------------------+

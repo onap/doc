@@ -91,35 +91,27 @@ Onboarding, Design and Distribution process.
     not yet integrated with the SDC Design Catalog to exchange models and
     artefacts.
 
-The follwing sections will focus on the different Design steps:
+The following sections focus on the different Design steps:
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
    Pre-Onboarding <./pre-onboarding/index.rst>
-
    Resource-Onboarding <./resource-onboarding/index.rst>
-
    VF Creation and Testing <./vfcreation/index.rst>
-
    Service Design <./service-design/index.rst>
-
    Service Distribution <./service-distribution/index.rst>
-
    VNF parameter resolution Design <./parameter_resolution/index.rst>
+   Control Loop Design <./control-loop/index.rst>
 
-:ref:`Policy Design<onap-policy-parent:design-label>`
+The following section provide links to the projects:
 
-:ref:`VNF LifeCycle Command templating<onap-appc:master_index>`
-
-:ref:`Workflow Design<onap-sdc:workflow>`
-
-:ref:`DCAE Onboard/Design<onap-dcaegen2:master_index>`
-
-:ref:`Control Loop Automation Management<onap-clamp:master_index>`
-
-
+- :ref:`Policy Design<onap-policy-parent:design-label>`
+- :ref:`VNF LifeCycle Command templating<onap-appc:master_index>`
+- :ref:`Workflow Design<onap-sdc:workflow>`
+- :ref:`DCAE Onboard/Design<onap-dcaegen2:master_index>`
+- :ref:`Control Loop Automation Management<onap-clamp:master_index>`
 
 .. |image1| image:: media/Design-Overview.png
 
