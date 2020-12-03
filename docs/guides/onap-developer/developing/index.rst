@@ -154,8 +154,6 @@ DMAAP - Data Management as a Platform
      - Description
    * - :ref:`Bus Controller<onap-dmaap-buscontroller:master_index>`
      - Bus Controller Documentation
-   * - :ref:`Bus Controller API<onap-dmaap-dbcapi:master_index>`
-     - Bus Controller API Documentation
    * - :ref:`Data Router<onap-dmaap-datarouter:master_index>`
      - Data Router Documentation
    * - :ref:`Message Router<onap-dmaap-messagerouter-messageservice:master_index>`
@@ -350,8 +348,6 @@ SO - Service Orchestration
      - Description
    * - :ref:`SO<onap-so:master_index>`
      - Service Orchestration Architecture, APIs and Guides
-   * - :ref:`SO Libraries<onap-so-libs:master_index>`
-     - ONAP SO/libs Documentation
 
 UUI - Use Case User Interface
 -----------------------------
