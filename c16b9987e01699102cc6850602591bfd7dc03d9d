@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e257384b_c230ae83",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1215
+      },
+      "writtenOn": "2020-12-03T07:19:09Z",
+      "side": 1,
+      "message": "not introduced in Guilin..as PNF plug\u0026Play, documentation already existed in Frankfurt for these requirements",
+      "revId": "c16b9987e01699102cc6850602591bfd7dc03d9d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
