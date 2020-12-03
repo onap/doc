@@ -350,8 +350,6 @@ SO - Service Orchestration
      - Description
    * - :ref:`SO<onap-so:master_index>`
      - Service Orchestration Architecture, APIs and Guides
-   * - :ref:`SO Libraries<onap-so-libs:master_index>`
-     - ONAP SO/libs Documentation
 
 UUI - Use Case User Interface
 -----------------------------
