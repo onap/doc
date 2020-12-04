@@ -186,7 +186,7 @@ Others
 
 .. important::
    Some non-functional requirements are not fully finalized. Please, check details
-   on the :ref:`Integration<onap-integration>`
+   on the :ref:`Integration<onap-integration:release_non_functional_requirements>`
 
 
 Project Specific Release Notes
