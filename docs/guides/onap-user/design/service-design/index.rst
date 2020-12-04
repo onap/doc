@@ -93,12 +93,11 @@ Create Service
      action)
    - **Management Workflow** model service lifecycle workflows for execution
      in SO (see `Create a Management Workflow [optional]`_)
-   - **Network Call Flow** model interactions among VFs (see `Create a
-      Network Callflow [optional]`_)
+   - **Network Call Flow** model interactions among VFs (see
+     `Create a Network Callflow [optional]`_)
    - **Deployment** view HEAT modules in VSPs
    - **Properties Assignment** define or update properties,
-     policies and input parameters used during Service instantiation
-     (see `Add Service Inputs [optional]`_).
+     policies and input parameters used during Service instantiation.
    - **Monitoring** ...
 
 #. Click *Check In* to save changes.
@@ -284,8 +283,7 @@ updated (see step 4).
 #. [Optional] Click *Network Callflow* to edit the interactions among VFs
    that comprise the service (see `Create a Network Callflow [optional]`_).
 #. [Optional] Click *Properties Assignement* to select parameters as
-   input fields during Service instantiation
-   (see `Add Service Inputs [optional]`_).
+   input fields during Service instantiation.
 #. Click *Check In* to save changes.
 #. After updating a service and configuring optional fields, certify it
    (see `Certify Service`_).
