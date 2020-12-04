@@ -87,7 +87,7 @@ Create a License Key Group [Optional]
 If required by the resource model, create one or more license key groups;
 otherwise the license key group is optional.
 
-**Prerequisites:** `Create a License Model`_
+**Prerequisites:** `Create a License Model [Optional]`_
 
 #. Select the License Model in the Onboard section of the SDC.
 #. In the Overview click the + inside the License Key Groups OR Navigate to License Key Groups and click on “+ ADD LICENSE KEY GROUP”
@@ -152,7 +152,7 @@ Create a License Agreement
     * Select one or more groups in the Available Feature Groups, select one or more feature groups and click on the “>” sign.
     * Selected feature groups should now be seen under the Selected Feature Groups.
 #. Click *Save*.
-#. Return to step 6 of `Create a License Model`_ to complete the license model.
+#. Return to step 6 of `Create a License Model [Optional]`_ to complete the license model.
 
 .. _doc_guide_user_des_res-onb_cre-vsp:
 
@@ -167,7 +167,7 @@ for VFs/PNFs.
 
 **Prerequisites:**
 
-* `Create a License Model`_
+* `Create a License Model [Optional]`_
 * VNF HEAT package or VNF/PNF CSAR/Zip package is available.
 
   See :ref:`sdc_onboarding_package_types` for a description
@@ -175,7 +175,7 @@ for VFs/PNFs.
 * If the package is a secure package then :ref:`pre-install the corresponding Root Certificate in SDC <doc_guide_user_des_res-onb_pre-install_root_certificate>`.
 
 .. note::
-   Example packages can be found in the SDC project: `example-packages`_
+   Example packages can be found in the SDC project: :ref:`SDC Packages<onap-sdc:sdc_onboarding_package_types>`
 
 #. From the SDC HOME page, click *ONBOARD*.
 
