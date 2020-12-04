@@ -13,9 +13,9 @@ Project Specific Release Notes
 .. toctree::
    :maxdepth: 1
 
-| :ref:`Project: Integration<onap-integration:release_notes>`
-| :ref:`Project: Model Specification<onap-modeling-modelspec:release_notes>`
-| :ref:`Project: VNF Requirements<onap-vnfrqts-requirements:release_notes>`
+| :ref:`Integration<onap-integration:release_notes>`
+| :ref:`Model Specification<onap-modeling-modelspec:release_notes>`
+| :ref:`VNF Requirements<onap-vnfrqts-requirements:release_notes>`
 | :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:release_notes>`
 | :ref:`CCSDK - Common Controller Software Development Kit<onap-ccsdk-distribution:release_notes>`
 | :ref:`CLAMP - Control Loop Automation Platform<onap-clamp:release_notes>`
