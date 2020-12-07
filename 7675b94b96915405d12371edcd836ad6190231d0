@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e3941ea6_4f95fece",
+        "filename": "docs/guides/onap-user/design/service-design/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 4857
+      },
+      "writtenOn": "2020-12-07T07:58:06Z",
+      "side": 1,
+      "message": "please remove trailing whitespace",
+      "revId": "7675b94b96915405d12371edcd836ad6190231d0",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
