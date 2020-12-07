@@ -2,6 +2,8 @@
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2020 ONAP community
 
+.. _templates:
+
 Templates
 =========
 
