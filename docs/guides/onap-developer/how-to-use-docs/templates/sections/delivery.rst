@@ -4,41 +4,49 @@
 Delivery
 ========
 
-.. note::
-   * This section is used to describe a software component packaging.
-     For a run-time component this might be executable images, containers, etc.
-     For an SDK this might be libraries.
+..
+   * This section is used to describe the delivery of a software component.
+     For a run-time component, this might be executable images, containers, etc.
+     For an SDK, this might be libraries.
 
    * This section is typically provided for a platform-component and sdk;
-     and referenced in developer and user guides
-   
-   * This note must be removed after content has been added.
+     and referenced in developer and user guides.
 
-Example use of a block diagram.
+Process
+-------
+..
+  If needed, describe the steps of the delivery pictured on the block diagram.
 
 .. blockdiag::
-   
-
-   blockdiag layers {
-   orientation = portrait
-   a -> m;
-   b -> n;
-   c -> x;
-   m -> y;
-   m -> z;
-   group l1 {
-	color = blue;
-	x; y; z;
-	}
-   group l2 {
-	color = yellow;
-	m; n; 
-	}
-   group l3 {
-	color = orange;
-	a; b; c;
-	}
-
-   }
 
 
+    blockdiag layers {
+      orientation = portrait
+      a -> m;
+      b -> n;
+      c -> x;
+      m -> y;
+      m -> z;
+      group l1 {
+        shape = line;
+        color = "#07819B";
+        x; y; z;
+        }
+    group l2 {
+      shape = line;
+      color = "#1a3d6f";
+      m; n;
+    }
+    group l3 {
+      shape = line;
+      color = "#5dbeba";
+      a; b; c;
+    }
+
+    }
+
+Deliverables
+------------
+
+..
+  List the deliverables in the package here.
