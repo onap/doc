@@ -4,24 +4,59 @@
 Configuration
 =============
 
-.. note::
-   * This section is used to describe the options a software component offers for configuration.
+..
+   * This section is used to describe the options a software component offers
+      for configuration.
 
    * Configuration is typically: provided for platform-component and sdk projects;
      and referenced in developer and user guides.
-   
-   * This note must be removed after content has been added.
 
 
+Pre-requisites
+--------------
 
-Example ...
+..
+  List here any dependencies and pre-requisites, e.g. component has to be
+  deployed, necessary connections have been established, etc.
 
-You can provide the following in ``basic.conf``
 
-``host=ADDRESS``
-  The address of the host
+Editing the configuration file
+------------------------------
 
-``port=PORT``
-  The port used for signaling
+..
+  Describe the parameters and their values included in the config file.
 
-  Optional. Default: ``8080``
+
+Configuration steps
+-------------------
+
+..
+  Add the necessary steps to configure the component, including all options/
+  alternatives.
+  Provide examples (screenshots for GUI, commands for CLI) wherever possible.
+
+#. Add the configuration.
+
+Example command:
+
+.. code-block:: bash
+
+   example command <parameter>
+
+Example screenshot:
+
+.. figure:: https://www.onap.org/wp-content/uploads/sites/20/2017/02/logo_onap_2017.png
+  :alt: Example image
+  :width: 50 %
+
+#. Validate the configuration.
+
+.. code-block:: bash
+
+   example command to validate the configuration
+
+Output for successful execution:
+
+.. code-block:: bash
+
+   Example output

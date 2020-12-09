@@ -19,5 +19,5 @@ Platform Component
    ../sections/installation.rst
    ../sections/configuration.rst
    ../sections/administration.rst
-   ../sections/humaninterfaces.rst
+   ../sections/userinterfaces.rst
    ../sections/release-notes.rst
