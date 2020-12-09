@@ -4,10 +4,28 @@
 Design
 ======
 
-.. note::
-   * This section is used to describe the internal design structure of a software component.
+..
+   * This section is used to describe the internal design structure of a
+   software component.
 
    * This section is typically provided: for a platform-component and sdk; and
      referenced in developer guides.
 
-   * This note must be removed after content has been added.
+
+Design principles
+-----------------
+
+..
+  List the basic principles of the component and best practices, as well.
+
+Static design
+-------------
+
+..
+ Description of classes, objects, etc.
+
+Dynamic view
+------------
+
+..
+  Communication/interaction of objects when implementing the use cases.
