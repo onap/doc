@@ -5,10 +5,6 @@ branch = 'latest'
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
-linkcheck_ignore = [
-    'http://localhost',
-]
-
 intersphinx_mapping = {}
 
 intersphinx_mapping['onap-oom-offline-installer'] = (
@@ -95,6 +91,8 @@ intersphinx_mapping['onap-aaf-authz'] = ('{}/onap-aaf-authz/en/%s'.format(doc_ur
 
 
 linkcheck_ignore = [
+    'http://localhost',
+    'https://example.com',
     'about:config',
     # this URL is not directly reachable and must be configured in the system hosts file.
     'https://portal.api.simpledemo.onap.org:30225/ONAPPORTAL/login.htm',
