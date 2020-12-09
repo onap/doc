@@ -104,6 +104,7 @@ The following sections focus on the different Design steps:
    Service Distribution <./service-distribution/index.rst>
    VNF parameter resolution Design <./parameter_resolution/index.rst>
    Control Loop Design <./control-loop/index.rst>
+   Instructions for control loop design <./control-loop-design-steps/cl_design_instructions.rst>
 
 The following section provide links to the projects:
 
