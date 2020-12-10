@@ -16,6 +16,24 @@
       "revId": "41124927741a8c2ad3481461f9e640ac583380cb",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "903cde4b_86dfe2d0",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2020-12-10T12:59:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ab1ac2d_862dbb9d",
+      "revId": "41124927741a8c2ad3481461f9e640ac583380cb",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
