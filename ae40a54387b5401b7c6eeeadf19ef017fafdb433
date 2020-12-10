@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "4d3b7c1b_23f92bb1",
+        "filename": "docs/guides/onap-operator/platformoperations.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2020-12-10T13:39:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e7cdc7bc_e7302d07",
+      "range": {
+        "startLine": 79,
+        "startChar": 46,
+        "endLine": 79,
+        "endChar": 56
+      },
+      "revId": "ae40a54387b5401b7c6eeeadf19ef017fafdb433",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2d811f79_99c25f19",
         "filename": "docs/guides/onap-operator/platformoperations.rst",
         "patchSetId": 4
@@ -45,6 +69,30 @@
       "revId": "ae40a54387b5401b7c6eeeadf19ef017fafdb433",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d55a3d6b_f2829778",
+        "filename": "docs/guides/onap-operator/platformoperations.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2020-12-10T13:39:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d811f79_99c25f19",
+      "range": {
+        "startLine": 88,
+        "startChar": 4,
+        "endLine": 88,
+        "endChar": 5
+      },
+      "revId": "ae40a54387b5401b7c6eeeadf19ef017fafdb433",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
