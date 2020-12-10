@@ -22,6 +22,30 @@
       "revId": "ba47a034539a1c58a65de3d6c42c22d91132ab82",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bdbe0a11_91730e89",
+        "filename": "docs/guides/onap-user/design/control-loop-design-steps/cl_design_instructions.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2020-12-10T11:02:00Z",
+      "side": 1,
+      "message": "Thanks Vijay, updated with the latest blueprint.",
+      "parentUuid": "2f452501_793002de",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 90
+      },
+      "revId": "ba47a034539a1c58a65de3d6c42c22d91132ab82",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
