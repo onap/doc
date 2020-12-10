@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e7cdc7bc_e7302d07",
+        "filename": "docs/guides/onap-operator/platformoperations.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-12-10T13:20:44Z",
+      "side": 1,
+      "message": "databases",
+      "range": {
+        "startLine": 79,
+        "startChar": 46,
+        "endLine": 79,
+        "endChar": 56
+      },
+      "revId": "ae40a54387b5401b7c6eeeadf19ef017fafdb433",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d811f79_99c25f19",
+        "filename": "docs/guides/onap-operator/platformoperations.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2020-12-10T13:20:44Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 88,
+        "startChar": 4,
+        "endLine": 88,
+        "endChar": 5
+      },
+      "revId": "ae40a54387b5401b7c6eeeadf19ef017fafdb433",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
