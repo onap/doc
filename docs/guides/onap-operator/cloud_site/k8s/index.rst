@@ -1,6 +1,6 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
 .. International License.  http://creativecommons.org/licenses/by/4.0
-.. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
+.. Copyright 2017 AT&T Intellectual Property.  All rights reserved. Modifications 2020 Nokia Networks
 
 
 Adding a Kubernetes (K8S) Cloud Site to ONAP
@@ -49,66 +49,6 @@ Then modify the data in the MariaDB:
   mysql --user=so_admin --password=so_Admin123
   USE catalogdb
   INSERT INTO cloud_sites(ID, REGION_ID, IDENTITY_SERVICE_ID, CLOUD_VERSION, CLLI, ORCHESTRATOR) values("K8S_Cloud_Region_Name", "K8S_Cloud_Region_Name", "DEFAULT_KEYSTONE", "2.5", "My_Complex", "multicloud");
-
-ONAP SO VNF Adapter Rest API endpoint version shall be set to version "v2"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-in a unix terminal:
-
-to find the right config map name:
-
-::
-
-  kubectl -n onap get configmap | grep so-so-bpmn-infra-app-configmap
-
-
-to edit and change the configmap:
-
-::
-
-  kubectl -n onap edit configmap onap-so-so-bpmn-infra-app-configmap
-
-in the section "vnf", modify the rest endpoint:
-
-::
-
-           vnf:
-             endpoint: http://so-openstack-adapter.onap:8087/services/VnfAdapter
-             rest:
-  -            endpoint: http://so-openstack-adapter.onap:8087/services/rest/v1/vnfs
-  +            endpoint: http://so-openstack-adapter.onap:8087/services/rest/v2/vnfs
-           volume-groups:
-             rest:
-               endpoint: http://so-openstack-adapter.onapg:8087/services/rest/v1/volume-groups
-
-
-Having modified the configmap, it is necessary to delete the pod bpmn-infra in
-order it takes the modification into account.
-
-to find the right pod name:
-
-::
-
-  kubectl get po -n onap |grep bpmn-infra
-
-
-You need to find the pod that is similar to the following pod id:
-
-"onap-so-so-bpmn-infra-79fdf6f9d5-t8qr4"
-
-
-to delete the pod:
-
-::
-
-  kubectl -n onap delete onap-so-so-bpmn-infra-79fdf6f9d5-t8qr4
-
-
-Then, wait for the pod to restart. To check:
-
-::
-
-  kubectl -n onap get po | grep so-so
 
 STEP 2 : Declare the new cloud site in AAI
 ------------------------------------------
