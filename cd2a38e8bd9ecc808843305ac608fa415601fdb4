@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ebeb440b_05de1457",
+        "filename": "docs/guides/onap-developer/architecture/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-01-06T13:51:26Z",
+      "side": 1,
+      "message": "RST is not existing.\nIf you wanted to refer to onap-projects.rst file I think a link to /docs/guides/onap-developer/developing/index.rst would be better",
+      "revId": "cd2a38e8bd9ecc808843305ac608fa415601fdb4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e25c74e9_e1af3fdd",
+        "filename": "docs/guides/onap-developer/architecture/media/onap_components_interactive.svg",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-01-06T13:51:26Z",
+      "side": 1,
+      "message": "All links need to be updated to the \"media\" PNGs",
+      "range": {
+        "startLine": 39,
+        "startChar": 19,
+        "endLine": 39,
+        "endChar": 68
+      },
+      "revId": "cd2a38e8bd9ecc808843305ac608fa415601fdb4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
