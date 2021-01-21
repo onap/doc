@@ -7,4 +7,4 @@ ONAP CLI
 .. toctree::
    :maxdepth: 2
 
-:ref:`cligit docs user_guiderst<onap-cli:cli_user_guide>`
+:ref:`ONAP CLI userguide<onap-cli:cli_user_guide>`
