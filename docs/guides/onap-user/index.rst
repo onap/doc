@@ -21,6 +21,7 @@ an instance of ONAP.
    configure/index.rst
    onapcli.rst
    vFW Design Tutorial <./vfw-design-tutorial/index.rst>
+   vFW Deployment Tutorial <./vfw-deployment-tutorial/index.rst>
 
 Verified Use Cases
 ------------------
