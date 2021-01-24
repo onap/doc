@@ -20,6 +20,7 @@ an instance of ONAP.
    instantiate/index.rst
    configure/index.rst
    onapcli.rst
+   vFW Design Tutorial <./vfw-design-tutorial/index.rst>
 
 Verified Use Cases
 ------------------
