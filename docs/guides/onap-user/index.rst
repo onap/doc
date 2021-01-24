@@ -30,12 +30,17 @@ Component User Guides
 
    onap-portal-user/onap-portal-user.rst
    onapcli.rst
-
+   
 For other ONAP components please review the individual
 document sets in :ref:`doc_onap-developer_guide_projects`
 
 Tutorials
 ---------
+
+.. toctree::
+   :maxdepth: 1
+
+   vFW Design Tutorial <./vfw-design-tutorial/index.rst>   
 
 Verified Use Cases
 ------------------
