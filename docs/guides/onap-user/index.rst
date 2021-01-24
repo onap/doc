@@ -41,6 +41,7 @@ Tutorials
    :maxdepth: 1
 
    vFW Design Tutorial <./vfw-design-tutorial/index.rst>
+   vFW Deployment Tutorial <./vfw-deployment-tutorial/index.rst>
 
 Verified Use Cases
 ------------------
