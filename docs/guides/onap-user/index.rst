@@ -37,6 +37,11 @@ document sets in :ref:`doc_onap-developer_guide_projects`
 Tutorials
 ---------
 
+.. toctree::
+   :maxdepth: 1
+
+   vFW Design Tutorial <./vfw-design-tutorial/index.rst>
+
 Verified Use Cases
 ------------------
 In the following page you find all use cases and functional requirements
