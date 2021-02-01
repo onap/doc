@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7fcc17a6_c1e55277",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b81f94fa_c8f4d7df",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e1fd2013_542824c7",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "78e717fa_b5a6ee40",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7263c902_b51bbc99",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c736a92_29438b73",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3cb2b20a_0fbdeeb5",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecb43d96_3d5e243b",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "51fc57b8_265e081f",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf9cefd9_efdf6d5b",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2f36a635_10c493c4",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4db49e35_e525a29e",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:54:27Z",
+      "side": 1,
+      "message": "trailing white-space",
+      "revId": "30344a19a7e0ce0d2eaa8a315fc2a7b0361c078b",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
