@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "f03c3770_99b72e2e",
+        "filename": "docs/guides/onap-user/vfw-design-tutorial/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-02-01T12:52:55Z",
+      "side": 1,
+      "message": "You are right, only the DESIGNER role is used (cs0008)",
+      "parentUuid": "210bb7ba_e5e5b0bf",
+      "revId": "edc816d0c80893be0cb70024d8e30c28f2675206",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3a426a04_2845720b",
         "filename": "docs/guides/onap-user/vfw-design-tutorial/index.rst",
         "patchSetId": 5
