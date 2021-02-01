@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "210bb7ba_e5e5b0bf",
+        "filename": "docs/guides/onap-user/vfw-design-tutorial/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:46:06Z",
+      "side": 1,
+      "message": "Do we need all these roles ?\nOnly cs0008 is used in this tutorial",
+      "revId": "edc816d0c80893be0cb70024d8e30c28f2675206",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a426a04_2845720b",
+        "filename": "docs/guides/onap-user/vfw-design-tutorial/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-01T07:46:06Z",
+      "side": 1,
+      "message": "Trailing white-space",
+      "revId": "edc816d0c80893be0cb70024d8e30c28f2675206",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
