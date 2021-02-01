@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "30dedc68_fbea3605",
+        "filename": "docs/guides/onap-user/vfw-design-tutorial/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-01T17:33:01Z",
+      "side": 1,
+      "message": "Agree, removed other users and kept only the users required for Design \u0026 Deployment.\nThanks",
+      "parentUuid": "f03c3770_99b72e2e",
+      "revId": "edc816d0c80893be0cb70024d8e30c28f2675206",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a426a04_2845720b",
         "filename": "docs/guides/onap-user/vfw-design-tutorial/index.rst",
         "patchSetId": 5
@@ -51,6 +69,24 @@
       "revId": "edc816d0c80893be0cb70024d8e30c28f2675206",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d417846_c6d5b331",
+        "filename": "docs/guides/onap-user/vfw-design-tutorial/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-01T17:33:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a426a04_2845720b",
+      "revId": "edc816d0c80893be0cb70024d8e30c28f2675206",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
