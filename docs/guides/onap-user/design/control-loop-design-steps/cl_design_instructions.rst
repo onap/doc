@@ -39,9 +39,11 @@ https://git.onap.org/dcaegen2/platform/blueprints/tree/blueprints/k8s-tcagen2-cl
 
   - Click on the VF, as in the picture below the ‘vsp_pg 0’ is selected.
   - Click on ‘DEPLOYMENT ARTIFACTS’  and then click on “Add Artifact”.
+
   |image3|
 
   - Fill the details and in the type select DCAE_INVENTORY_BLUEPRINT, then click on Done as in the picture shown below.
+
   |image4|
 
 5. After uploading the DCAE artifact to the SDC Service, attach the policy model to the Service. From the left drop down, select TCA policy under Policies, and click on the Add policy.
