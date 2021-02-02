@@ -89,6 +89,20 @@ intersphinx_mapping['onap-vnfrqts-guidelines'] = ('{}/onap-vnfrqts-guidelines/en
 intersphinx_mapping['onap-vnfrqts-testcases'] = ('{}/onap-vnfrqts-testcases/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-vnfrqts-usecases'] = ('{}/onap-vnfrqts-usecases/en/%s'.format(doc_url) % branch, None)
 
+linkcheck_ignore = [
+   'about:config',
+   # this URL is not directly reachable and must be configured in the system hosts file.
+   'https://portal.api.simpledemo.onap.org:30225/ONAPPORTAL/login.htm',
+   # anchor issues
+   'https://docs.onap.org/projects/onap-integration/en/guilin/docs_usecases_release.html#.*',
+   'https://docs.linuxfoundation.org/docs/communitybridge/easycla/contributors/contribute-to-a-gerrit-project#.*',
+   'https://docs.onap.org/projects/onap-integration/en/guilin/docs_robot.html#docs-robot',
+   'https://docs.onap.org/projects/onap-integration/en/guilin/docs_usecases_release.html#docs-usecases-release',
+   'https://docs.onap.org/projects/onap-integration/en/guilin/docs_usecases.html#docs-usecases',
+   'https://docs.onap.org/projects/onap-integration/en/guilin/usecases/release_non_functional_requirements.html#release-non-functional-requirements',
+]
+
+
 html_last_updated_fmt = '%d-%b-%y %H:%M'
 
 def setup(app):
