@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cb7b5998_0b976436",
+        "filename": "docs/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-02T14:57:05Z",
+      "side": 1,
+      "message": "Why do we ignore these links ?",
+      "revId": "f9ae0e899d5afa001c1978cb882a5675979a52c9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
