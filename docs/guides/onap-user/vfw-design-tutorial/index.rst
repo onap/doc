@@ -96,8 +96,12 @@ Let us start by creating the VLM
 
 2. Create Vendor Software Product (VSP)
 
-Prerequisite: Download VNF Heat package from gerrit (git clone "https://gerrit.onap.org/r/demo") and copy
-the required HEAT package & use it while upload the package
+Prerequisite: Download VNF Heat package from gerrit
+
+.. code: bash
+   git clone "https://gerrit.onap.org/r/demo"
+
+and copy the required HEAT package & use it while upload the package
 
  A. Go to SDC Home → ONBOARD → WORKSPACE  → CREATE NEW VSP (complete all the fields, click on Network Package
  checkbox then click create)
