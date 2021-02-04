@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "11e39c8a_7b6863b0",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-04T04:51:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d91ef213_679f3319",
+      "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7003312c_706e870d",
         "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
         "patchSetId": 3
@@ -33,6 +51,24 @@
       "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "da96f163_cdb857f6",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-04T04:51:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7003312c_706e870d",
+      "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "4b02045a_1fc4ed4b",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-04T04:51:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fcdf2289_309d2892",
+      "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a4cfe321_07f54f99",
         "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
         "patchSetId": 3
@@ -67,6 +121,24 @@
       "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d2d40d8a_455914e1",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-04T04:51:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4cfe321_07f54f99",
+      "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "d955cebe_8cb0535e",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-04T04:51:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e564472_6f947fda",
+      "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7909311e_2c94417f",
         "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
         "patchSetId": 3
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "3326439a_6c211071",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-04T04:51:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7909311e_2c94417f",
+      "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b6ae4147_b9041547",
         "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
         "patchSetId": 3
@@ -118,6 +226,24 @@
       "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4aa7dff6_cd419824",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-04T04:51:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b6ae4147_b9041547",
+      "revId": "fe2fe9fdf26b427697c7291d580237b575979154",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
