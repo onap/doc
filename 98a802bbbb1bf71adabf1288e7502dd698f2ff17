@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5325b5ae_bbfca9e3",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-02-05T13:34:56Z",
+      "side": 1,
+      "message": "There is a warning in the Build-Log:\n14:16:28 /w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/vfwcl-design-tutorial/index.rst:153: WARNING: Unexpected indentation.\n\nI think you need to have a blank line between 152 and 153",
+      "revId": "98a802bbbb1bf71adabf1288e7502dd698f2ff17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ba0632fe_3112ddef",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-02-05T13:34:56Z",
+      "side": 1,
+      "message": "There is a warning in the Build-Log:\n14:16:28 /w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/vfwcl-design-tutorial/index.rst:154: WARNING: Enumerated list ends without a blank line; unexpected unindent.\n\nI think you need to have a blank line between 153 and 154",
+      "revId": "98a802bbbb1bf71adabf1288e7502dd698f2ff17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "397b95fc_e038b0bd",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-02-05T13:34:56Z",
+      "side": 1,
+      "message": "14:16:28 /w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/vfwcl-design-tutorial/index.rst:164: WARNING: Enumerated list ends without a blank line; unexpected unindent.\n\nI think you need to have a blank line between 163 and 164",
+      "revId": "98a802bbbb1bf71adabf1288e7502dd698f2ff17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
