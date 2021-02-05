@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2097cc2d_159df14e",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-02-05T13:09:25Z",
+      "side": 1,
+      "message": "compared to your 1st version the intents in the POST command content are missing.\nIt would be better readable, if the intentation would be there.",
+      "range": {
+        "startLine": 189,
+        "startChar": 3,
+        "endLine": 189,
+        "endChar": 7
+      },
+      "revId": "77b51ba6cf20c943fc6f388217e26f0ad19c0300",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
