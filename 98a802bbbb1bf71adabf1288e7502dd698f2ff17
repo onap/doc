@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "713be546_081ab7f4",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-06T15:30:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5325b5ae_bbfca9e3",
+      "revId": "98a802bbbb1bf71adabf1288e7502dd698f2ff17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba0632fe_3112ddef",
         "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
         "patchSetId": 6
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "76058ea6_e97ee1b7",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-06T15:30:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba0632fe_3112ddef",
+      "revId": "98a802bbbb1bf71adabf1288e7502dd698f2ff17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "397b95fc_e038b0bd",
         "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
         "patchSetId": 6
@@ -50,6 +86,24 @@
       "revId": "98a802bbbb1bf71adabf1288e7502dd698f2ff17",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d6086950_d7efb3a5",
+        "filename": "docs/guides/onap-user/vfwcl-design-tutorial/index.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-06T15:30:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "397b95fc_e038b0bd",
+      "revId": "98a802bbbb1bf71adabf1288e7502dd698f2ff17",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
