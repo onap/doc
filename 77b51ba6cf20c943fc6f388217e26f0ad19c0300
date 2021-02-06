@@ -22,6 +22,30 @@
       "revId": "77b51ba6cf20c943fc6f388217e26f0ad19c0300",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5072e5cc_d16ed56a",
+        "filename": "docs/guides/onap-user/vfw-deployment-tutorial/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 6721
+      },
+      "writtenOn": "2021-02-06T16:06:05Z",
+      "side": 1,
+      "message": "Hi Andreas, \nWith indentation, getting tab spaces between the lines. So removed the indentation compare to 1st version to avoid the tab spaces.",
+      "parentUuid": "2097cc2d_159df14e",
+      "range": {
+        "startLine": 189,
+        "startChar": 3,
+        "endLine": 189,
+        "endChar": 7
+      },
+      "revId": "77b51ba6cf20c943fc6f388217e26f0ad19c0300",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
