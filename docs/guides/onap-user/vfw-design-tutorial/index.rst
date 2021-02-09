@@ -230,64 +230,45 @@ It will take you to the setup page
  |image16|
 
 
-.. |image8| image:: media/image8.png
-.. |image21| image:: media/image21.png
-.. |image35| image:: media/image35.png
-.. |image34| image:: media/image34.png
-.. |image15| image:: media/image15.png
-.. |image38| image:: media/image38.png
-.. |image5| image:: media/image5.png
-.. |image40| image:: media/image40.png
-.. |image27| image:: media/image27.png
-.. |image32| image:: media/image32.png
-.. |image9| image:: media/image9.png
-.. |image7| image:: media/image7.png
-.. |image22| image:: media/image22.png
-.. |image20| image:: media/image20.png
-.. |image24| image:: media/image24.png
-.. |image37| image:: media/image37.png
-.. |image25| image:: media/image25.png
-.. |image17| image:: media/image17.png
+.. |image1| image:: media/image1.png
+.. |image2| image:: media/image2.png
 .. |image3| image:: media/image3.png
-.. |image13| image:: media/image13.png
-.. |image39| image:: media/image39.png
-.. |image43| image:: media/image43.png
-.. |image29| image:: media/image29.png
+.. |image5| image:: media/image5.png
+.. |image6| image:: media/image6.png
+.. |image7| image:: media/image7.png
+.. |image8| image:: media/image8.png
+.. |image9| image:: media/image9.png
 .. |image10| image:: media/image10.png
 .. |image11| image:: media/image11.png
-.. |image31| image:: media/image31.png
-.. |image44| image:: media/image44.png
-.. |image19| image:: media/image19.png
-.. |image41| image:: media/image41.png
-.. |image14| image:: media/image14.png
-.. |image26| image:: media/image26.png
-.. |image1| image:: media/image1.png
-.. |image33| image:: media/image33.png
-.. |image2| image:: media/image2.png
-.. |image23| image:: media/image23.png
-.. |image36| image:: media/image36.png
-.. |image6| image:: media/image6.png
-.. |image28| image:: media/image28.png
-.. |image31| image:: media/image31.png
-.. |image18| image:: media/image18.png
-.. |image30| image:: media/image30.png
 .. |image12| image:: media/image12.png
-.. |image41| image:: media/image41.png
+.. |image13| image:: media/image13.png
+.. |image14| image:: media/image14.png
+.. |image15| image:: media/image15.png
 .. |image16| image:: media/image16.png
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.. |image17| image:: media/image17.png
+.. |image18| image:: media/image18.png
+.. |image19| image:: media/image19.png
+.. |image20| image:: media/image20.png
+.. |image21| image:: media/image21.png
+.. |image22| image:: media/image22.png
+.. |image23| image:: media/image23.png
+.. |image24| image:: media/image24.png
+.. |image25| image:: media/image25.png
+.. |image26| image:: media/image26.png
+.. |image27| image:: media/image27.png
+.. |image28| image:: media/image28.png
+.. |image29| image:: media/image29.png
+.. |image30| image:: media/image30.png
+.. |image31| image:: media/image31.png
+.. |image32| image:: media/image32.png
+.. |image33| image:: media/image33.png
+.. |image34| image:: media/image34.png
+.. |image35| image:: media/image35.png
+.. |image36| image:: media/image36.png
+.. |image37| image:: media/image37.png
+.. |image38| image:: media/image38.png
+.. |image39| image:: media/image39.png
+.. |image40| image:: media/image40.png
+.. |image41| image:: media/image41.png
+.. |image43| image:: media/image43.png
+.. |image44| image:: media/image44.png

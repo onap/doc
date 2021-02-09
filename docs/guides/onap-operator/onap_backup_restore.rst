@@ -581,7 +581,7 @@ Creating dummy file in APPC PV
 
 
 Creating backup using velero
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
@@ -636,7 +636,7 @@ Simulating disaster by deleting APPC
 
 
 Restoration using velero
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
