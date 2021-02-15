@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fc886abb_0083b322",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-02-15T10:46:31Z",
+      "side": 1,
+      "message": "Hi, there are 2 entries for onap-aaf-authz (frankfurt + master), which should not happen, I guess",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 98
+      },
+      "revId": "aff9fad80aeca4c9208223e71f41171ced54a152",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
