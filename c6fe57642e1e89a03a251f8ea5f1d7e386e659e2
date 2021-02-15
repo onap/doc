@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3763ff21_a38a1f2f",
+        "filename": "etc/requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1201
+      },
+      "writtenOn": "2021-02-15T13:42:27Z",
+      "side": 1,
+      "message": "I would rather prefer an up-to-date sphinxcontrib-needs",
+      "revId": "c6fe57642e1e89a03a251f8ea5f1d7e386e659e2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
