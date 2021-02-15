@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d5545a3a_5e88567c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1201
+      },
+      "writtenOn": "2021-02-15T13:39:10Z",
+      "side": 1,
+      "message": "s/calld/called/g",
+      "revId": "a753227e715bd0d9f35b9f8969c0b1944f0df9df",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "241620cd_c1d931b3",
+        "filename": "docs/tox.ini",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1201
+      },
+      "writtenOn": "2021-02-15T13:39:10Z",
+      "side": 0,
+      "message": "Always set py3 versions.",
+      "revId": "e63cee60d9a795945d927823b58cf8835e979067",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
