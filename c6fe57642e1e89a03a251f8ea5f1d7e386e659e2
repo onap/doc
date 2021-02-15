@@ -16,6 +16,24 @@
       "revId": "c6fe57642e1e89a03a251f8ea5f1d7e386e659e2",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7ee07860_241e2a5d",
+        "filename": "etc/requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-02-15T13:55:36Z",
+      "side": 1,
+      "message": "I woud prefer too but I\u0027ve got no solution for the moment and I\u0027ve placed the emergency somewhere else.\nThe gate is KO because of that and many other things.\n\nNote this relation chain is merged on master, this is just a branch sync...\nPlease feel free to propose a solution on top of it if you have one.",
+      "parentUuid": "3763ff21_a38a1f2f",
+      "revId": "c6fe57642e1e89a03a251f8ea5f1d7e386e659e2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
