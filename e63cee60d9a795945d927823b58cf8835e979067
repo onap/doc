@@ -16,6 +16,24 @@
       "revId": "e63cee60d9a795945d927823b58cf8835e979067",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ae3cbf2c_6e316ed0",
+        "filename": "docs/tox.ini",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-02-15T13:47:02Z",
+      "side": 0,
+      "message": "I agree\nthis file is removed here\nI assumed you wanted to comment another change such as 117685",
+      "parentUuid": "241620cd_c1d931b3",
+      "revId": "e63cee60d9a795945d927823b58cf8835e979067",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
