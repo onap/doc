@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a3f4de10_0e6ad63b",
+        "filename": "docs/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1201
+      },
+      "writtenOn": "2021-02-15T13:57:22Z",
+      "side": 1,
+      "message": "strictly forbidden.\nCould you please run pylint on this file?",
+      "revId": "75ac0028765966e1c55bc8788a50306afc37d963",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
