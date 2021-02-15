@@ -22,6 +22,30 @@
       "revId": "aff9fad80aeca4c9208223e71f41171ced54a152",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b778fd89_1d39db00",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-02-15T13:21:15Z",
+      "side": 1,
+      "message": "Hi, yes this is not needed. I forgot to remove it.\n\nNote that there were also 2 entries for onap-logging-analytics already present.\nI assumed here the intention of the author was to link the latest version of onap-aaf-authz but I may be wrong.",
+      "parentUuid": "fc886abb_0083b322",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 98
+      },
+      "revId": "aff9fad80aeca4c9208223e71f41171ced54a152",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
