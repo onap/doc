@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "08fe2d19_3bc80922",
+        "filename": "tox.ini",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-02-18T13:42:09Z",
+      "side": 1,
+      "message": "\u0027-\u0027 : is it necessary ?",
+      "range": {
+        "startLine": 31,
+        "startChar": 11,
+        "endLine": 31,
+        "endChar": 12
+      },
+      "revId": "ec1fb9229d6a505112677be97a8ea0c04cb7af16",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
