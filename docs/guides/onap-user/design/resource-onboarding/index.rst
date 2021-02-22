@@ -191,11 +191,12 @@ for VFs/PNFs.
 
    |image22|
 
-   .. note::
-     A warning is displayed under License Agreement if the VSP does not have
-     an associated license.
+#. Click *Internal* in the software product details section.
 
-#. Click *General* in the left section.
+   .. note::
+     Under License Agreement, there is a choice between internal or external license.
+     If internal is selected then after redirect to general tab, select licenses details.
+     If external is selected then in general tab licenses details are disabled.
 
 #. For the defined Vendor, select a licensing version, a license agreement,
    and one or more feature groups.
