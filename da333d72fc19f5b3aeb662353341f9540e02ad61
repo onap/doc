@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "74d8e46c_21467c53",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/templates/index.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-03-02T18:46:23Z",
+      "side": 1,
+      "message": "Not wrong but it would make more sense adding this copyright notice to the other files added rather than to the table of contents.",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 23
+      },
+      "revId": "da333d72fc19f5b3aeb662353341f9540e02ad61",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "407845fb_6561517f",
+        "filename": "docs/tox.ini",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-03-02T18:46:23Z",
+      "side": 1,
+      "message": "this file should not be added since there is already another similar tox.ini file at the project root folder.",
+      "revId": "da333d72fc19f5b3aeb662353341f9540e02ad61",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
