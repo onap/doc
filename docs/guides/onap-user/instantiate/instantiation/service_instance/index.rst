@@ -60,4 +60,5 @@ With "Macro" method
 .. toctree::
    :maxdepth: 1
 
+      using ONAP VID Portal  <https://docs.onap.org/projects/onap-vid/en/latest/instantiatemacro.html>
       using ONAP SO REST API <../so2/index.rst>
