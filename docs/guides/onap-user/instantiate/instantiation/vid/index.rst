@@ -10,4 +10,14 @@ A La Carte mode Service Instantiation via ONAP VID Portal
    :maxdepth: 1
    :titlesonly:
 
-:ref:`vidgit docs instantiaterst<onap-vid:instantiate>`
+:ref:`Instantiate Service, VNF, VF modules and Network<onap-vid:instantiate>`
+
+
+Macro mode Service Instantiation via ONAP VID Portal
+=========================================================
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+:ref:`Instantiate Service, “Macro” mode (PNF example)<onap-vid:instantiatemacro>`

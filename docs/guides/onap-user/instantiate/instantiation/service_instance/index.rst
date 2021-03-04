@@ -41,8 +41,10 @@ Service Instantiation
   ONAP will collect and assign all required parameters/values by itself.
 
 
-  .. Note:: **Macro** method is not (yet) available via ONAP VID
-   nor via extAPI/NBI
+.. Note::
+   VID supports the "macro" flow orchestration in a ModernUI, which can be enabled by the system operator.
+
+   **Macro** method is not (yet) available via extAPI/NBI.
 
 With "A La Carte" method
 ------------------------
@@ -60,4 +62,5 @@ With "Macro" method
 .. toctree::
    :maxdepth: 1
 
+      using ONAP VID Portal  <../vid/index.rst>
       using ONAP SO REST API <../so2/index.rst>
