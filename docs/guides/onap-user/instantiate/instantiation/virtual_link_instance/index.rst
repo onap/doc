@@ -44,7 +44,7 @@ With "A La Carte" method
 .. toctree::
    :maxdepth: 1
 
-   using ONAP VID Portal <../vid/index.rst>
+   using ONAP VID Portal <../vid1/index.rst>
    using ONAP SO REST API <../so1/index.rst>
 
 With "Macro" method
