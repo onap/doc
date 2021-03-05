@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9974c70c_1cdb8339",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/service_instance/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-03-05T14:03:01Z",
+      "side": 1,
+      "message": "ModernUI \u003d\u003e What do you mean ?",
+      "revId": "a2097cf51c958f87b238d14ed73bc08cd1444534",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8d4b0a7a_3952dabd",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/service_instance/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-03-05T14:03:01Z",
+      "side": 1,
+      "message": "Please avoid hardlink \u003d\u003e Use intersphinx link instead",
+      "revId": "a2097cf51c958f87b238d14ed73bc08cd1444534",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
