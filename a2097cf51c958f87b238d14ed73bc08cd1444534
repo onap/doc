@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "c6b660d7_92112688",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/service_instance/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 5597
+      },
+      "writtenOn": "2021-03-05T15:20:17Z",
+      "side": 1,
+      "message": "Let me answer.\nVID team has been working for a couple years on a new UI, which is triggered, when certain conditions are met (works a kind of pop-up). Example: macro flows with BB workflows. That UI is called \"ModernUI\". Have You noticed \"Instantiation Status\" in recent VID versions? --\u003e ModernUI\n\nThe availability and functionality of \"ModernUI\" is controlled by VID feature flags, being a part of VID configuration, and stored in the VID container.\n\nWe`re looking at enabling that ModernUI in VID permanently.\nI have an open MR targeting that activity: https://gerrit.onap.org/r/c/vid/+/117980 \n\nYou can try and give a +1, if You like that one.",
+      "parentUuid": "9974c70c_1cdb8339",
+      "revId": "a2097cf51c958f87b238d14ed73bc08cd1444534",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8d4b0a7a_3952dabd",
         "filename": "docs/guides/onap-user/instantiate/instantiation/service_instance/index.rst",
         "patchSetId": 2
