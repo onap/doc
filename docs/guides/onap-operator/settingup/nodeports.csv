@@ -60,3 +60,7 @@ NodePort,Component,Service name,targetPort,Port
 30492,DMAAP,message-router-kafka-2,9091,9091
 30494,DMAAP,dmaap-dr-node-external,8443,8443
 30497,CDS,cds-ui,3000,3000
+32100,Prometheus Stack PaaS,prometheus-stack-grafana-expose,3000,3000
+32200,Prometheus Stack PaaS,prometheus-stack-kube-prom-prometheus-expose,9090,9090
+32300,Prometheus Stack PaaS,prometheus-stack-kube-prom-alertmanager-expose,9093,9093
+
