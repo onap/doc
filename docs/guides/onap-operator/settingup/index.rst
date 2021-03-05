@@ -6,6 +6,7 @@
 .. Modifications Copyright 2018 Amdocs
 .. Modifications Copyright 2018 Huawei
 .. Modifications Copyright 2019 Orange
+.. Modifications Copyright 2021 Nokia
 
 Setting Up ONAP
 ===============
@@ -46,6 +47,14 @@ Creation of Kubernetes cluster is described here:
 :ref:`OOM Cloud Setup Guide<onap-oom:oom_cloud_setup_guide>`
 
 :ref:`ONAP on HA Kubernetes Cluster<onap-oom:onap-on-kubernetes-with-rancher>`
+
+Some ONAP functionalities require optional PaaS components described here:
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+:ref:`ONAP PaaS set-up (optional)<onap-oom:oom_setup_paas>`
 
 ONAP installation is described here:
 
