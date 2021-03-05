@@ -60,3 +60,4 @@ NodePort,Component,Service name,targetPort,Port
 30492,DMAAP,message-router-kafka-2,9091,9091
 30494,DMAAP,dmaap-dr-node-external,8443,8443
 30497,CDS,cds-ui,3000,3000
+
