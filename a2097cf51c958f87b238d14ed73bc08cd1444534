@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "384a4614_188b8e9d",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/service_instance/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 6726
+      },
+      "writtenOn": "2021-03-08T09:22:42Z",
+      "side": 1,
+      "message": "I think that Damian\u0027s answer explains the concept of \"ModernUI\".",
+      "parentUuid": "c6b660d7_92112688",
+      "revId": "a2097cf51c958f87b238d14ed73bc08cd1444534",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8d4b0a7a_3952dabd",
         "filename": "docs/guides/onap-user/instantiate/instantiation/service_instance/index.rst",
         "patchSetId": 2
@@ -51,6 +69,24 @@
       "revId": "a2097cf51c958f87b238d14ed73bc08cd1444534",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d868a11a_301f91a1",
+        "filename": "docs/guides/onap-user/instantiate/instantiation/service_instance/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 6726
+      },
+      "writtenOn": "2021-03-08T09:22:42Z",
+      "side": 1,
+      "message": "According to the advice, an intersphinx link was used to fix problem with hardlink. \nThe file structure has been changed to follow the convention used for other components (ex. \"ONAP SO REST API\")",
+      "parentUuid": "8d4b0a7a_3952dabd",
+      "revId": "a2097cf51c958f87b238d14ed73bc08cd1444534",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
