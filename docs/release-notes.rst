@@ -12,11 +12,36 @@ Release Notes
 
 This document provides the release notes for the documentation project.
 
-Guilin Release
-==============
+Guilin Releases
+===============
 
-Release data
-============
+The following releases are available for Guilin:
+  - `Guilin Maintenance Release 7.0.1`_
+  - `Guilin Major Release 7.0.0`_
+
+Guilin Maintenance Release 7.0.1
+================================
+
++--------------------------------------+--------------------------------------+
+| **Project**                          | Documentation Project                |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release name**                     | Guilin Maintenance Release           |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release version**                  | 7.0.1                                |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+
+
+New features
+------------
+
+- Restructured the user guides section and added new tutorials
+
+
+Guilin Major Release 7.0.0
+==========================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Documentation Project                |
