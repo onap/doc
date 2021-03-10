@@ -3,11 +3,11 @@
 .. Copyright 2019 ONAP Contributors.  All rights reserved.
 
 
-A La Carte mode Service Instantiation via ONAP VID Portal
+Macro mode Service Instantiation via ONAP VID Portal
 =========================================================
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
-:ref:`vidgit docs instantiaterst<onap-vid:instantiate>`
+:ref:`Instantiate Service, “Macro” mode (PNF example)<onap-vid:instantiatemacro>`
