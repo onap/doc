@@ -39,7 +39,7 @@ Guilin Maintenance Release 7.0.1
 | **Release version**                  | 7.0.1                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | February 28th 2021                   |
+| **Release date**                     | March 11th 2021                      |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -49,9 +49,8 @@ New Features
 Guilin Maintenance Release 7.0.1 delivered a number of fixes and updates
 across the following projects:
 
- - AAI         - bug fixes
- - OOM         - bug fixes
- - CCSDK       - bug fixes
+ - AAI         - bug fixes and certificate update
+ - CCSDK       - bug fixes and certificate update
  - DCAEGEN2    - bug fixes
  - DMaaP       - bug fixes
  - DOC         - restructure user guides section and added tutorials
