@@ -1,6 +1,6 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
 .. International License. http://creativecommons.org/licenses/by/4.0
-.. Copyright © 2017-2020 Aarna Networks, Inc.
+.. Copyright 2017-2020 Aarna Networks, Inc.
 
 .. Links
 .. Github web page to download the latest version of velero open source tool
@@ -10,6 +10,13 @@
 
 Backup and Restore Solution
 ###########################
+
+.. warning::
+    This description is not covering the Backup & Restore procedure of the full
+    ONAP platform, but gives examples for the usage of Velero.
+    The ONAP community will focus on Disaster Recovery including B&R
+    in the coming releases.
+
 
 Problem Statement and Requirement (User Story)
 ==============================================
@@ -855,7 +862,7 @@ Disaster recovery
 
 Using Schedules and Restore-Only Mode
 
-If you periodically back up your cluster’s resources, you are able to return to a previous state in case of some unexpected mishap, such as a service outage.
+If you periodically back up your cluster resources, you are able to return to a previous state in case of some unexpected mishap, such as a service outage.
 
 Cluster migration
 ~~~~~~~~~~~~~~~~~
