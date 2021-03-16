@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "036c8de0_5734aa59",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1215
+      },
+      "writtenOn": "2021-03-16T12:24:10Z",
+      "side": 1,
+      "message": "?? to be removed",
+      "revId": "80bec70774a9de2b49a67255673b362060d05eff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "31b995a7_7d26da82",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1215
+      },
+      "writtenOn": "2021-03-16T12:24:10Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "80bec70774a9de2b49a67255673b362060d05eff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "565f6dcb_fb498915",
+        "filename": "docs/guides/onap-operator/onap_backup_restore.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 865,
+      "author": {
+        "id": 1215
+      },
+      "writtenOn": "2021-03-16T12:24:10Z",
+      "side": 1,
+      "message": "??? ?",
+      "revId": "80bec70774a9de2b49a67255673b362060d05eff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
