@@ -80,7 +80,7 @@ intersphinx_mapping['onap-sdc-sdc-distribution-client'] = (
     '{}/onap-sdc-sdc-distribution-client/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-sdc-sdc-docker-base'] = ('{}/onap-sdc-sdc-docker-base/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-sdc'] = ('{}/onap-sdc/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-clamp'] = ('{}/onap-clamp/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-policy-clamp'] = ('{}/onap-policy-clamp/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-event-client'] = ('{}/onap-aai-event-client/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-sparky-be'] = ('{}/onap-aai-sparky-be/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-esr-gui'] = ('{}/onap-aai-esr-gui/en/%s'.format(doc_url) % branch, None)

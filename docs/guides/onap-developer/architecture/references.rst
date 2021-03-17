@@ -30,7 +30,7 @@ User Interfaces
    :titlesonly:
 
 | :ref:`APPC CDT Application Controller Design Tool<onap-appc:appc_lcm_api_guide>`
-| :ref:`CLAMP - Closed Loop Automation Platform<onap-clamp:architecture>`
+| :ref:`CLAMP - Closed Loop Automation Platform<onap-policy-clamp:architecture>`
 | :ref:`CLI - Command Line Interface<onap-cli:architecture>`
 | :ref:`PORTAL<onap-portal:architecture>`
 | :ref:`SDC - Service Design and Creation<onap-sdc:architecture>`
