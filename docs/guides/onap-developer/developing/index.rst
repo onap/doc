@@ -116,7 +116,7 @@ CLAMP - Control Loop Automation Management Platform
 
    * - Document
      - Description
-   * - :ref:`CLAMP <onap-clamp:master_index>`
+   * - :ref:`CLAMP <onap-policy-clamp:master_index>`
      - CLAMP Architecture and Guides
 
 CLI - Command Line Interface
