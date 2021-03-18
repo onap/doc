@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c59d86e1_610374e9",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 705,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-03-18T12:46:16Z",
+      "side": 1,
+      "message": "There should not be a reference to a Wiki instructions.\nInstead the instructions should be part of this tutorial",
+      "range": {
+        "startLine": 704,
+        "startChar": 0,
+        "endLine": 705,
+        "endChar": 69
+      },
+      "revId": "144928012e1cdc231be7fcd1474140a499b497cc",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
