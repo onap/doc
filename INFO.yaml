@@ -46,6 +46,11 @@ committers:
       company: 'Deutsche Telekom'
       id: 'andreasgeissler'
       timezone: 'Germany/Cologne'
+    - name: 'Thomas Kulik'
+      email: 'thomas.kulik@telekom.de'
+      company: 'Deutsche Telekom'
+      id: 'thomaskulik'
+      timezone: 'Germany/Cologne'
 tsc:
     approval: 'https://lists.onap.org/pipermail/onap-tsc'
     changes:
