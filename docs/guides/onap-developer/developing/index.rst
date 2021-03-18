@@ -66,7 +66,7 @@ AAI - Active and Available Inventory
      - External System Registry GUI Documentation
    * - (in Maintenance) `ESR Server (Latest) <https://docs.onap.org/projects/onap-aai-esr-server/en/latest/>`_
      - External System Registry Server Documentation
-   * - (in Maintenance) :ref:`AAI UI<onap-aai-sparky-be:master_index>`
+   * - :ref:`AAI UI<onap-aai-sparky-be:master_index>`
      - Sparky - AAI Inventory UI Documentation
 
 APPC - Application Controller
@@ -130,6 +130,18 @@ CLI - Command Line Interface
      - Description
    * - :ref:`CLI <onap-cli:master_index>`
      - CLI Documentation
+
+CPS - Configuration Persistence Service
+---------------------------------------
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Document
+     - Description
+   * - :ref:`CPS <onap-cps:master_index>`
+     - CPS Documentation
 
 DCAE - Data Collection, Analysis and Events
 -------------------------------------------
