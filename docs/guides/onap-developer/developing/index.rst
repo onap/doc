@@ -131,6 +131,18 @@ CLI - Command Line Interface
    * - :ref:`CLI <onap-cli:master_index>`
      - CLI Documentation
 
+CPS - Configuration Persistence Service
+---------------------------------------
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Document
+     - Description
+   * - :ref:`CPS <onap-cps:master_index>`
+     - CPS Documentation
+
 DCAE - Data Collection, Analysis and Events
 -------------------------------------------
 
