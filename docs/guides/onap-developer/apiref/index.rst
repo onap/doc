@@ -51,6 +51,7 @@ Common Services
 * :ref:`AAF - Application Authorization Framework<onap-aaf-sms:offeredapis>`
 * :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:offeredapis>`
 * :ref:`AAI ESR - AAI External System Register<onap-aai-esr-server:offeredapis>`
+* :ref:`CPS - Configuration Persistence Service<onap-cps:design>`
 * :ref:`DMAAP DBC - Data Management as a Platform (Data Bus Controller)<onap-dmaap-dbcapi:offeredapis>`
 * :ref:`DMAAP DR - Data Management as a Platform (Data Router)<onap-dmaap-datarouter:master_index>`
 * :ref:`DMAAP MR - Data Management as a Platform (Message Router)<onap-dmaap-messagerouter-messageservice:offeredapis>`
