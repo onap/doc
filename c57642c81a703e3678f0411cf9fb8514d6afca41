@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b5e2161_71e3c637",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-03-23T11:35:31Z",
+      "side": 1,
+      "message": "Please do not use submodules links as they are not used anymore.\nI think the line needs to be removed.\nWe have also the link to the security notes added in the release notes (https://docs.onap.org/en/latest/release/index.html#security-notes)",
+      "revId": "c57642c81a703e3678f0411cf9fb8514d6afca41",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
