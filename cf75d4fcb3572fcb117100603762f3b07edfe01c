@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a2f7301b_73df9539",
+        "filename": "docs/guides/onap-operator/settingup/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-03-23T11:52:28Z",
+      "side": 1,
+      "message": "looks good, \nbut the toctree unfortunately does not work with :ref: \nBut this is the same with the sections before and below.",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 0
+      },
+      "revId": "cf75d4fcb3572fcb117100603762f3b07edfe01c",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
