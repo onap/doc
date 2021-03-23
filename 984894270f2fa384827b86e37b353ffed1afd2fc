@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "29d43773_e1df9cbf",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-03-23T12:01:28Z",
+      "side": 1,
+      "message": "We don\u0027t use any submodules anymore, so this has to be removed",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 168,
+        "endChar": 39
+      },
+      "revId": "984894270f2fa384827b86e37b353ffed1afd2fc",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
