@@ -47,7 +47,7 @@
 ### curl -s https://git.onap.org/ | grep "^<tr><td class='toplevel-repo'><a title='" | sed -r "s:^<tr><td class='toplevel-repo'><a title='::" | sed -r "s:'.*::"
 ###
 ### remove branchname from the line
-### cat frankfurt_gerritclone.log | sed 's:frankfurt|::'
+### cat frankfurt_repoclone.log | sed 's:frankfurt|::'
 ###
 ### list only image names
 ### cat master_dockerimagesfull.log | grep image | sed -r 's:image\:::' | sed -r 's:^ +::' | sed '/^[[:space:]]*$/d'
@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.2 (2020-11-18)"
+script_version="1.4 (2021/03/24)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -79,7 +79,7 @@ function usage() {
   echo "                                                           "
   echo " ARGUMENTS:                                                "
   echo "  -u|--user username                                       "
-  echo "  linux foundation username used to clone ONAP Gerrit repos"
+  echo "  linux foundation username used to clone ONAP repositories"
   echo "                                                           "
   echo "  -b|--branches branch1,branch2,branch3                    "
   echo "  list of branches to be cloned. master is automatically   "
@@ -164,7 +164,7 @@ if [[ $branches_csv == *"master"* ]]; then
   usage
   exit -1
 fi
-# clone master first, the the other branches
+# clone master first, then the other branches
 branches_csv="master,${branches_csv}"
 
 # create the branches array by readinging in the values from the variable
@@ -207,10 +207,11 @@ echo "Retrieving a full list of ONAP repositories (master) from gerrit.onap.org.
 # "| awk '{if(NR>1)print}'" filters the first line of the response so that jq will work again (thx marek)
 curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d' >./$repolist
 
-# process the created repolist
-# only active projects will be cloned in case the requested branch of the project exists
-echo "Accessing gerrit.onap.org with username \"${lfusername}\"."
-echo "Start cloning of repositories."
+# process the created repolist and try to clone the projects from the mirror
+
+source="git://cloud.onap.org/mirror"
+echo "Using \"${source}\" as the source and username \"${lfusername}\" for cloning the repositories."
+echo "Start cloning of repositories ..."
 
 for branch in "${branches[@]}"
 do
@@ -249,10 +250,12 @@ do
       echo $reponame
       echo $repostate
 
-      if [[ $repostate == "ACTIVE" ]]; then
-        echo "Cloning \"${branch}\" branch of ACTIVE project ${reponame}..."
+      if [[ $repostate == "ACTIVE" ]] || [[ $repostate == "READ_ONLY" ]]; then
+        echo "Cloning \"${branch}\" branch of \"${repostate}\" project ${reponame}..."
 
-        git clone --branch ${branch} --recurse-submodules ssh://${lfusername}@gerrit.onap.org:29418/$reponame ./$reponame
+        # previously used:   git clone --branch ${branch} --recurse-submodules ssh://${lfusername}@gerrit.onap.org:29418/$reponame ./$reponame
+        # clone script Jess: git clone "git://cloud.onap.org/mirror/${i}" "${LOCALNAME}"
+        git clone --branch ${branch} --recurse-submodules ${source}/${reponame} ./${reponame}
         gitexitcode=$?
 
         if [[ ! ${gitexitcode} == "0" ]]; then
@@ -261,13 +264,13 @@ do
           errormsg="cloned"
         fi
 
-        # gerritclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
-        echo "${gitexitcode}|${reponame}|${repostate}|${errormsg}" | tee -a ${branch}_gerritclone.log
+        # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
+        echo "${gitexitcode}|${reponame}|${repostate}|${errormsg}" | tee -a ${branch}_repoclone.log
 
-      elif [[ $repostate == "READ_ONLY" ]]; then
-        echo "-|${reponame}|${repostate}|ignored" | tee -a ${branch}_gerritclone.log
+      #elif [[ $repostate == "READ_ONLY" ]]; then
+        #echo "-|${reponame}|${repostate}|ignored" | tee -a ${branch}_repoclone.log
       else
-        echo "-|${reponame}|unknown repo state \"${repostate}\"|-" | tee -a ${branch}_gerritclone.log
+        echo "-|${reponame}|unknown repo state \"${repostate}\"|-" | tee -a ${branch}_repoclone.log
       fi
 
       # examine repo
@@ -414,13 +417,13 @@ do
   # csv column #4: clone message
   #
 
-  readarray -t array < ./${branch}_gerritclone.log;
+  readarray -t array < ./${branch}_repoclone.log;
   i=0
   csv[i]="${csv[i]},${branch_upper} clone message"
   ((i++))
   for line in "${array[@]}"
   do
-    # gerritclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
+    # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
     errormsg=$(echo $line | awk -F "|" '{print $4}');
     csv[i]="${csv[i]},${errormsg}"
     ((i++))
@@ -430,20 +433,20 @@ do
   unset errormsg
 
   #
-  # csv column #5: RELEASE component (yes|no|maybe)
+  # csv column #5: RELEASE component (yes|maybe|unknown)
   # to be filled with values of the planned release config file maintained by
   # the onap release manager
   #
 
-  # gerritclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
-  readarray -t array < ./${branch}_gerritclone.log;
+  # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
+  readarray -t array < ./${branch}_repoclone.log;
   i=0
   csv[i]="${csv[i]},${branch_upper} component"
   ((i++))
   for line in "${array[@]}"
   do
 
-    # gerritclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
+    # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
     gitexitcode=$(echo $line | awk -F "|" '{print $1}');
        reponame=$(echo $line | awk -F "|" '{print $2}');
       repostate=$(echo $line | awk -F "|" '{print $3}');
@@ -451,10 +454,13 @@ do
 
     if [[ ${repostate} == "ACTIVE" && ${gitexitcode} == "0" ]]; then
       releasecomponent="yes"
-    elif [[ ${repostate} == "ACTIVE" && ${gitexitcode} == "128" ]]; then
+    elif [ ${repostate} == "ACTIVE" ]; then
+    #elif [[ ${repostate} == "ACTIVE" && ${gitexitcode} == "128" ]]; then
       releasecomponent="maybe"
+    elif [[ ${repostate} == "READ_ONLY" && ${gitexitcode} == "0" ]]; then
+      releasecomponent="yes"
     elif [ ${repostate} == "READ_ONLY" ]; then
-      releasecomponent="no"
+      releasecomponent="maybe"
     else
       releasecomponent="unknown"
     fi
@@ -541,13 +547,13 @@ do
   # csv column #11: index.html url
   #
 
-  readarray -t array < ./${branch}_gerritclone.log;
+  readarray -t array < ./${branch}_repoclone.log;
   i=0
   csv[i]="${csv[i]},index.html@RTD,index.html url"
   ((i++))
   for line in "${array[@]}"
   do
-    # gerritclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
+    # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
     gitexitcode=$(echo $line | awk -F "|" '{print $1}');
        reponame=$(echo $line | awk -F "|" '{print $2}');
       repostate=$(echo $line | awk -F "|" '{print $3}');
@@ -556,7 +562,7 @@ do
             url=""
     curl_result=""
 
-    # this routine works only with release "frankfurt" and later because
+    # this script works only with release "frankfurt" and later because
     # earlier releases are using submodule structure for documentation files
     if echo "$branch" | grep -q '^[abcde]'; then
       curl_result="unsupported release"
@@ -564,8 +570,7 @@ do
     else
 
       # we are working on "frankfurt" branch or later ...
-      # only if repostate IS ACTIVE a curl test is required
-      if [[ ${repostate} == "ACTIVE" ]]; then
+      if [[ ${repostate} == "ACTIVE" ]] || [[ ${repostate} == "READ_ONLY" ]]; then
 
         # OPTIONAL: USE ALSO GITEXITCODE AS A FILTER CRITERIA ???
 
@@ -638,7 +643,7 @@ do
 
         fi
       else
-        # repostate IS NOT ACTIVE - no curl test required
+        # repostate IS NOT ACTIVE OR READ_ONLY - no curl test required
         curl_result="-"
         url="-"
       fi
@@ -675,16 +680,19 @@ do
     if [ -d ./${line} ] ; then
       # if yes, check if repo name appears in the branch releasenotes.log
       relnote=$(find "./${line}" -type f | grep 'release.*note.*.rst' | wc -l);
+      #echo "DBUG: relnote=${relnote}"
       # repo dir DOES NOT exist in this branch - so check if repo dir exists in MASTER branch
     elif [ -d ../master/${line} ] ; then
       # if yes, check if repo name appears in the MASTER releasenotes.log
       # count release notes files in MASTER branch (in repo root and its subdirectories)
       relnote=$(find "../master/${line}" -type f | grep 'release.*note.*.rst' | wc -l);
+      #echo "DBUG: relnote=${relnote}"
       # put results in round brackets to show that this is MASTER data
       relnote=$(echo ${relnote} | sed -r s:${relnote}:\(${relnote}\):)
     else
       relnote="-"
     fi
+    #echo "DBUG: relnote=${relnote}"
 
     line="${csv[i]},${relnote}"
     csv[i]=${line}
