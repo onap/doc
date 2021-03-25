@@ -83,10 +83,6 @@ To backup and restore ONAP component specific databases you can follow the below
 
   onap_backup_restore.rst
 
-.. note::
-  Refer to the wiki page for further details:
-  `Legacy Backup and Restore Solution <https://wiki.onap.org/display/DW/Backup+and+Restore+Solution%3A+ONAP-OOM>`_
-
 ONAP Multisite Deployment
 -------------------------
 
