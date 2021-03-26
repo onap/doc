@@ -161,7 +161,7 @@ to delete the pod:
 
 ::
 
-  kubectl -n onap delete onap-so-so-bpmn-infra-79fdf6f9d5-t8qr4
+  kubectl -n onap delete po onap-so-so-bpmn-infra-79fdf6f9d5-t8qr4
 
 
 Then, wait for the pod to restart. To check:
