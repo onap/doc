@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.4 (2021/03/24)"
+script_version="1.5 (2021/03/29)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -238,7 +238,7 @@ do
     devcounter=$((devcounter+1))
   fi
 
-  if [[ $devcounter -lt "11" ]]; then
+  if [[ $devcounter -lt "50" ]]; then
 
       if [[ $devmode == "TRUE" ]]; then
         echo "INFO: devmode! counter=${devcounter}"
@@ -293,6 +293,9 @@ do
 
         printf "\nindex.rst files:\n"
         find ./$reponame -type f -name index.rst | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_indexrst.log
+
+        printf "\nINFO.yaml files:\n"
+        find ./$reponame -type f -name INFO.yaml | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_infoyaml.log
 
       fi
 
@@ -433,7 +436,43 @@ do
   unset errormsg
 
   #
-  # csv column #5: RELEASE component (yes|maybe|unknown)
+  # csv column #5: lifecycle state
+  # extracted from the INFO.yaml
+  #
+
+  readarray -t array < ./${repolist};
+  i=0
+  csv[i]="${csv[i]},project lifecycle state"
+  ((i++))
+  for line in "${array[@]}"
+  do
+    reponame=$(echo $line | awk -F "|" '{print $1}');
+    if [ -f ./${reponame}/INFO.yaml ] ; then
+      # check if repo/branch has a INFO.yaml
+      lifecycleproject=$(grep '^project: ' ./${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
+      lifecyclestate=$(grep '^lifecycle_state: ' ./${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
+    elif [ ${branch} != "master" ] && [ -f ../master/${reponame}/INFO.yaml ] ; then
+      # if current branch is not master AND if info.yaml not found in the current repo/branch THAN use INFO.yaml of repo/master if available
+      #echo "DBUG: branch=${branch} - checking master for INFO.yaml"
+      lifecycleproject=$(grep '^project: ' ../master/${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
+      lifecyclestate=$(grep '^lifecycle_state: ' ../master/${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
+      lifecyclestate="(${lifecyclestate})"
+    else
+      lifecyclestate="INFO.yaml not found"
+    fi
+    #echo "DBUG: working dir is ...";pwd
+    #echo "DBUG: lifecycleproject=${lifecycleproject}"
+    #echo "DBUG:   lifecyclestate=${lifecyclestate}"
+    csv[i]="${csv[i]},${lifecyclestate}"
+    ((i++))
+  done
+  unset array
+  unset i
+  unset lifecycleproject
+  unset lifecyclestate
+
+  #
+  # csv column #6: RELEASE component (yes|maybe|unknown)
   # to be filled with values of the planned release config file maintained by
   # the onap release manager
   #
@@ -477,10 +516,10 @@ do
   unset releasecomponent
 
   #
-  # csv column #6: docs (at repo root directory only; no recursive search!)
-  # csv column #7: conf.py
-  # csv column #8: tox.ini
-  # csv column #9: index.rst
+  # csv column #7:  docs (at repo root directory only; no recursive search!)
+  # csv column #8:  conf.py
+  # csv column #9:  tox.ini
+  # csv column #10: index.rst
   #
   # columns are filled with values from requested branch.
   # if data is not available values from master branch are used.
@@ -543,8 +582,8 @@ do
   unset docs
 
   #
-  # csv column #10: index.html@RTD accessibility check
-  # csv column #11: index.html url
+  # csv column #11: index.html@RTD accessibility check
+  # csv column #12: index.html url
   #
 
   readarray -t array < ./${branch}_repoclone.log;
@@ -657,7 +696,7 @@ do
   done
 
   #
-  # csv column #12: release notes
+  # csv column #13: release notes
   #
 
   readarray -t array < ../${repolist};
