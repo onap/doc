@@ -48,8 +48,8 @@ AAF - Application Authorization Framework
 
    * - Document
      - Description
-   * - (in Maintenance) `AAF (Frankfurt) <https://docs.onap.org/projects/onap-aaf-authz/en/frankfurt/>`_
-     - AAF Architecture, APIs and Guides
+   * - :ref:`AAF(Frankfurt)<onap-aaf-authz:master_index>`
+     - (unmaintained) AAF Architecture, APIs and Guides
 
 AAI - Active and Available Inventory
 ------------------------------------
@@ -62,10 +62,10 @@ AAI - Active and Available Inventory
      - Description
    * - :ref:`AAI<onap-aai-aai-common:master_index>`
      - AAI Architecture, APIs and Guides
-   * - (in Maintenance) `ESR GUI (Latest) <https://docs.onap.org/projects/onap-aai-esr-gui/en/latest/>`_
-     - External System Registry GUI Documentation
-   * - (in Maintenance) `ESR Server (Latest) <https://docs.onap.org/projects/onap-aai-esr-server/en/latest/>`_
-     - External System Registry Server Documentation
+   * - :ref:`ESR GUI (Latest)<onap-aai-esr-gui:master_index>`
+     - (unmaintained) External System Registry GUI Documentation
+   * - :ref:`ESR Server (Latest)<onap-aai-esr-server:master_index>`
+     - (unmaintained) External System Registry Server Documentation
    * - :ref:`AAI UI<onap-aai-sparky-be:master_index>`
      - Sparky - AAI Inventory UI Documentation
 
@@ -78,10 +78,10 @@ APPC - Application Controller
 
    * - Document
      - Description
-   * - (in Maintenance) `APPC (Frankfurt) <https://docs.onap.org/projects/onap-appc/en/frankfurt/>`_
-     - APPC Architecture, APIs and Guides
-   * - (in Maintenance) `APPC Deployment (Frankfurt) <https://docs.onap.org/projects/onap-appc-deployment/en/frankfurt/>`_
-     - APPC Deployment Documentation
+   * - :ref:`APPC (Frankfurt)<onap-appc:master_index>`
+     - (unmaintained) APPC Architecture, APIs and Guides
+   * - :ref:`APPC Deployment (Frankfurt)<onap-appc-deployment:master_index>`
+     - (unmaintained) APPC Deployment Documentation
 
 CCSDK - Common Controller Software Development Kit
 --------------------------------------------------
@@ -155,8 +155,8 @@ DCAE - Data Collection, Analysis and Events
    * - :ref:`DCAE<onap-dcaegen2:master_index>`
      - DCAE Architecture and Guides
 
-DMAAP - Data Management as a Platform
--------------------------------------
+DMAAP - Data Movement as a Platform
+-----------------------------------
 
 .. list-table::
    :widths: 20 80
@@ -206,8 +206,8 @@ LOGGING - Centralized Logging
 
    * - Document
      - Description
-   * - (in Maintenance) `LOGGING (Latest) <https://docs.onap.org/projects/onap-logging-analytics/en/latest/>`_
-     - ONAP Centralized Logging Documentation
+   * - :ref:`LOGGING (Latest)<onap-logging-analytics:master_index>`
+     - (unmaintained) ONAP Centralized Logging Documentation
 
 MSB - Microservices Bus
 -----------------------
@@ -242,10 +242,10 @@ MUSIC - ONAP Multi-Site Integration
 
    * - Document
      - Description
-   * - (in Maintenance) `MUSIC (Frankfurt) <https://docs.onap.org/projects/onap-music/en/frankfurt/>`_
-     - MUSIC Architecture and Guides
-   * - (in Maintenance) `MUSIC KV (Latest) <https://docs.onap.org/projects/onap-music-distributed-kv-store/en/latest/>`_
-     - MUSIC Distribute KV Store Documents
+   * - :ref:`MUSIC (Frankfurt)<onap-music:master_index>`
+     - (unmaintained) MUSIC Architecture and Guides
+   * - :ref:`MUSIC KV (Latest)<onap-music-distributed-kv-store:master_index>`
+     - (unmaintained) MUSIC Distribute KV Store Documents
 
 OOF - Optimization Framework
 ----------------------------
@@ -276,6 +276,9 @@ OOM - ONAP Operations Manager
      - ONAP Operations Manager Documentation
    * - :ref:`OOM Certification Service<onap-oom-platform-cert-service:master_index>`
      - ONAP CMPv2 certification support
+   * - :ref:`OOM Offline Installer<onap-oom-offline-installer:master_index>`
+     - OOM Offline Installer
+
 
 ORAN - Open-RAN Support in ONAP
 -------------------------------
