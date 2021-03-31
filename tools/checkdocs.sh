@@ -19,7 +19,7 @@
 ### checkdocs.sh
 ###
 ### AUTHOR(S):
-### Thomas Kulik, Deutsche Telekom AG, 2020
+### Thomas Kulik, Deutsche Telekom AG, 2020 - 2021
 ###
 ### DESCRIPTION:
 ### Retrieves a full list of ONAP repos from gerrit inluding their state.
@@ -46,7 +46,7 @@
 ### create repo list
 ### curl -s https://git.onap.org/ | grep "^<tr><td class='toplevel-repo'><a title='" | sed -r "s:^<tr><td class='toplevel-repo'><a title='::" | sed -r "s:'.*::"
 ###
-### remove branchname from the line
+### remove branchname from the line:
 ### cat frankfurt_repoclone.log | sed 's:frankfurt|::'
 ###
 ### list only image names
@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.5 (2021/03/29)"
+script_version="1.6 (2021/03/30)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -523,7 +523,7 @@ do
   #
   # columns are filled with values from requested branch.
   # if data is not available values from master branch are used.
-  # to identify master branch values, data is put into brackets "(...)"
+  # to identify master branch values, data is put into round brackets "(...)"
   #
 
   readarray -t array < ./${repolist};
@@ -554,12 +554,31 @@ do
       docs="${docs},-"
     fi
 
-    # tox.ini
-    if [ -f ./${line}/docs/tox.ini ] ; then
+    # tox.ini (check docs dir and also check project root dir)
+    if [ -f ./${line}/docs/tox.ini ] || [ -f ./${line}/tox.ini ]; then
       docs="${docs},tox.ini"
-    elif [ -f ../master/${line}/docs/tox.ini ] ; then
-      docs="${docs},(tox.ini)"
+      # tox.ini @ branch/docs dir
+      if [ -f ./${line}/docs/tox.ini ] ; then
+        docs="${docs} @docs"
+      fi
+      # tox.ini @ branch/project root dir
+      if [ -f ./${line}/tox.ini ] ; then
+        docs="${docs} @root"
+      fi
+    elif [ -f ../master/${line}/docs/tox.ini ] || [ -f ../master/${line}/tox.ini ]; then
+      docs="${docs},(tox.ini"
+      # tox.ini @ master/docs dir
+      if [ -f ../master/${line}/docs/tox.ini ] ; then
+        docs="${docs} @docs"
+      fi
+      # tox.ini @ master/project root dir
+      if [ -f ../master/${line}/tox.ini ] ; then
+        docs="${docs} @root"
+      fi   
+      # just add a round bracket at the end of the value
+      docs="${docs})"
     else
+      # no tox.ini found in docs or root dir
       docs="${docs},-"
     fi
 
