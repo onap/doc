@@ -313,8 +313,8 @@ PORTAL - Portal Platform
 
    * - Document
      - Description
-   * - :ref:`Portal<onap-portal:master_index>`
-     - ONAP Portal Platform Documentation
+   * - :ref:`Portal (Guilin)<onap-portal:master_index>`
+     - (unmaintained) ONAP Portal Platform Documentation
 
 SDC - Service Design & Creation
 -------------------------------
