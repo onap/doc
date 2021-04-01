@@ -48,7 +48,7 @@ AAF - Application Authorization Framework
 
    * - Document
      - Description
-   * - :ref:`AAF (Frankfurt)<onap-aaf-authz:master_index>`
+   * - :ref:`AAF (Latest)<onap-aaf-authz:master_index>`
      - (unmaintained) AAF Architecture, APIs and Guides
 
 AAI - Active and Available Inventory
