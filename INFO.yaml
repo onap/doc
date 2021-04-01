@@ -49,7 +49,7 @@ committers:
     - name: 'Thomas Kulik'
       email: 'thomas.kulik@telekom.de'
       company: 'Deutsche Telekom'
-      id: 'thomaskulik'
+      id: 'thmsdt'
       timezone: 'Germany/Cologne'
 tsc:
     approval: 'https://lists.onap.org/pipermail/onap-tsc'
