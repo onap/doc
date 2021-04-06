@@ -4,11 +4,11 @@ project_creation_date: '2017-06-14'
 lifecycle_state: 'Incubation'
 project_category: ''
 project_lead: &onap_doc_ptl
-    name: 'Sofia Wallin'
-    email: 'sofia.wallin@est.tech'
-    id: 'sofiawallin'
-    company: 'Ericsson Software Technology'
-    timezone: 'Europe/Stockholm'
+    name: 'Thomas Kulik'
+    email: 'thomas.kulik@telekom.de'
+    id: 'thmsdt'
+    company: 'Deutsche Telekom'
+    timezone: 'Europe/Berlin'
 primary_contact: *onap_doc_ptl
 issue_tracking:
     type: 'jira'
@@ -45,12 +45,12 @@ committers:
       email: 'andreas-geissler@telekom.de'
       company: 'Deutsche Telekom'
       id: 'andreasgeissler'
-      timezone: 'Germany/Cologne'
+      timezone: 'Germany/Berlin'
     - name: 'Thomas Kulik'
       email: 'thomas.kulik@telekom.de'
       company: 'Deutsche Telekom'
       id: 'thmsdt'
-      timezone: 'Germany/Cologne'
+      timezone: 'Germany/Berlin'
 tsc:
     approval: 'https://lists.onap.org/pipermail/onap-tsc'
     changes:
