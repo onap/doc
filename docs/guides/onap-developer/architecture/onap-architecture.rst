@@ -3,6 +3,8 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017-2018 Huawei Technologies Co., Ltd.
 .. Copyright 2019 ONAP Contributors
+.. Copyright 2020 ONAP Contributors
+.. Copyright 2021 ONAP Contributors
 
 .. _ONAP-architecture:
 
@@ -414,10 +416,10 @@ capabilities with the introduction of adaptive policy execution.
 Shared Services
 ===============
 ONAP provides a set of operational services for all ONAP components including
-activity logging, reporting, common data layer, access control, secret and
+activity logging, reporting, common data layer, configuration persistence, access control, secret and
 credential management, resiliency, and software lifecycle management.
 
-These services provide access management and security enforcement, data backup,
+These services provide access management and security enforcement, data backup, configuration persistence,
 restoration and recovery. They support standardized VNF interfaces and
 guidelines.
 
@@ -425,6 +427,14 @@ Operating in a virtualized environment introduces new security challenges and
 opportunities. ONAP provides increased security by embedding access controls in
 each ONAP platform component, augmented by analytics and policy components
 specifically designed for the detection and mitigation of security violations.
+
+Configuration Persistence Service (CPS)
+---------------------------------------
+The Configuration Persistence Service (CPS) provides storage for real-time run-time configuration
+and operational parameters that need to be used by ONAP.
+In R8, Honolulu, the CPS is a stand-alone component, and its details in
+:ref:`CPS - Configuration Persistence Service<onap-cps:architecture>`.
+
 
 ONAP Modeling
 =============
