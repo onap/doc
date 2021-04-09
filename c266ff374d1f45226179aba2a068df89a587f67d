@@ -34,6 +34,24 @@
       "revId": "c266ff374d1f45226179aba2a068df89a587f67d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "acbe37c6_ffe05e96",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/templates/sections/administration.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 4897
+      },
+      "writtenOn": "2021-04-09T10:47:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "280c0861_052ee78c",
+      "revId": "c266ff374d1f45226179aba2a068df89a587f67d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
