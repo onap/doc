@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.6 (2021/03/30)"
+script_version="1.7 (2021-04-12)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -104,6 +104,45 @@ function InterruptedScript {
     rm $lockfile
   fi
   exit 0
+}
+
+# function to parse wiki (project) lifecycle state information
+# call:   getwikilifecyclestate "projectname"
+# result: $return_from_getwikilifecyclestate
+# because bash supports only returning numeric values a variable $return_from_getwikilifecyclestate is used
+
+function getwikilifecyclestate {
+
+  local requested=$1
+  local wikiline=""
+  local wikirepo=""
+  local wikistate=""
+
+  return_from_getwikilifecyclestate=""
+   
+  for wikiline in "${wikiplsarray[@]}"
+  do
+  
+     wikirepo=$(echo $wikiline | awk -F ";" '{print $1}');
+    wikistate=$(echo $wikiline | awk -F ";" '{print $2}');
+    
+    #echo "DBUG: getwikilifecyclestate  wikiline = \"${wikiline}\"";
+    #echo "DBUG: getwikilifecyclestate  wikirepo = \"${wikirepo}\""
+    #echo "DBUG: getwikilifecyclestate wikistate = \"${wikistate}\""
+
+    if [[ ${wikirepo} == ${requested} ]]; then
+      return_from_getwikilifecyclestate=${wikistate}
+      #echo "DBUG: getwikilifecyclestate     wikirepo = \"${wikirepo}\""
+      #echo "DBUG: getwikilifecyclestate    requested = \"${requested}\""
+      #echo "DBUG: return_from_getwikilifecyclestate  = \"${return_from_getwikilifecyclestate}\"";
+      return 0;
+    fi
+
+  done
+
+  #echo "DBUG: getwikilifecyclestate requested \"${requested}\" NOT FOUND in list"
+  return_from_getwikilifecyclestate=""
+
 }
 
 ###
@@ -189,7 +228,40 @@ echo " "
 echo "checkdocs.sh Version ${script_version}"
 echo " "
 
+#
+# read in wiki (project) lifecycle state
+# always use the lastest available file (derived from date in filename e.g. wiki_lifecycle_state_210409.txt)
+# format is <reponame abbrev>;<state>;<reponame full>
+#
+
+wikiplsfile=$(ls | sed -nr '/wiki_lifecycle_state_[0-9]{6}.txt/Ip' | tail -1);
+
+if [[ $wikiplsfile == "" ]]; then
+  echo "ERROR: wiki_lifecycle_state_yymmdd.txt missing"
+  exit -1
+fi
+
+echo "Using \"${wikiplsfile}\" as the source for wiki (project) lifecycle state information."
+
+readarray -t wikiplsarray < ./${wikiplsfile};
+i=0
+((i++))
+for line in "${wikiplsarray[@]}"
+do
+   wikiplsrepo=$(echo $line | awk -F ";" '{print $1}');
+  wikiplsstate=$(echo $line | awk -F ";" '{print $2}');
+  #echo "DBUG: wikipls line=\"${line}\"";
+  #echo "DBUG: wikipls ${wikiplsrepo}=${wikiplsstate}"
+  ((i++))
+done
+unset i
+unset wikiplsrepo
+unset wikiplsstate
+
+#
 # curl must be installed
+#
+
 if ! command -v curl &> /dev/null
 then
   echo "ERROR: curl command could not be found"
@@ -202,9 +274,12 @@ unique=$(date +%s)
 
 echo "Retrieving a full list of ONAP repositories (master) from gerrit.onap.org."
 
+#
 # retrieve the full repolist from gerrit
 # workaround because of the (wrong?) response of gerrit.onap.org which makes jq command fail
 # "| awk '{if(NR>1)print}'" filters the first line of the response so that jq will work again (thx marek)
+#
+
 curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d' >./$repolist
 
 # process the created repolist and try to clone the projects from the mirror
@@ -436,17 +511,43 @@ do
   unset errormsg
 
   #
-  # csv column #5: lifecycle state
-  # extracted from the INFO.yaml
+  # csv column #5: latest branch
   #
 
   readarray -t array < ./${repolist};
   i=0
-  csv[i]="${csv[i]},project lifecycle state"
+  csv[i]="${csv[i]},latest branch"
   ((i++))
   for line in "${array[@]}"
   do
     reponame=$(echo $line | awk -F "|" '{print $1}');
+    latestbranch=$(git ls-remote -q --heads "${source}/${reponame}" | sed 's/^.*heads\///' | sed -nr '/^master$|^amsterdam$|^beijing$|^casablanca$|^dublin$|^elalto$|^frankfurt$|^guilin$|^honolulu$|^istanbul$/Ip' | tail -2 | head -1);
+    #echo "DBUG:     reponame=${reponame}"
+    #echo "DBUG: latestbranch=${latestbranch}"
+    echo "latest available branch for repo \"${reponame}\" is \"${latestbranch}\""
+    csv[i]="${csv[i]},${latestbranch}"
+    ((i++))
+  done
+  unset array
+  unset i
+  unset reponame
+  unset latestbranch
+  
+  #
+  # csv column #6: INFO.yaml LC state (project lifecycle state based on INFO.yaml / per repo)
+  # csv column #7: WIKI LC state (project lifecycle state based on ONAP Dev Wiki / per project)
+  # csv column #8: LC state match shows a "match" if both LC states match
+  #
+
+  readarray -t array < ./${repolist};
+  i=0
+  csv[i]="${csv[i]},INFO.yaml LC state,WIKI LC state,LC state match"
+  ((i++))
+  for line in "${array[@]}"
+  do
+    reponame=$(echo $line | awk -F "|" '{print $1}');
+     project=$(echo $reponame | sed 's:/.*$::')
+
     if [ -f ./${reponame}/INFO.yaml ] ; then
       # check if repo/branch has a INFO.yaml
       lifecycleproject=$(grep '^project: ' ./${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
@@ -460,19 +561,35 @@ do
     else
       lifecyclestate="INFO.yaml not found"
     fi
+      
+    getwikilifecyclestate ${project}
+    # returns value in ${return_from_getwikilifecyclestate}
+
     #echo "DBUG: working dir is ...";pwd
-    #echo "DBUG: lifecycleproject=${lifecycleproject}"
-    #echo "DBUG:   lifecyclestate=${lifecyclestate}"
-    csv[i]="${csv[i]},${lifecyclestate}"
+    #echo "DBUG:   lifecycleproject=${lifecycleproject}"
+    #echo "DBUG:     lifecyclestate=${lifecyclestate}"
+    #echo "DBUG: wikilifecyclestate=${return_from_getwikilifecyclestate}"
+
+    #check if YAML.info LC state is not empty _AND_ if WIKI LC state is not empty _AND_ if YAML.info LC state contains WIKI LC state
+    if [[ ${lifecyclestate} != "" ]] && [[ ${return_from_getwikilifecyclestate} != "" ]] && [[ ${lifecyclestate} == *"${return_from_getwikilifecyclestate}"* ]]; then
+      lcstatesmatch="match"
+    else
+      lcstatesmatch=""
+    fi 
+
+    csv[i]="${csv[i]},${lifecyclestate},${return_from_getwikilifecyclestate},${lcstatesmatch}"
     ((i++))
   done
   unset array
   unset i
+  unset reponame
+  unset project
   unset lifecycleproject
   unset lifecyclestate
+  unset lcstatesmatch
 
   #
-  # csv column #6: RELEASE component (yes|maybe|unknown)
+  # csv column #9: RELEASE component (yes|maybe|unknown)
   # to be filled with values of the planned release config file maintained by
   # the onap release manager
   #
@@ -516,10 +633,10 @@ do
   unset releasecomponent
 
   #
-  # csv column #7:  docs (at repo root directory only; no recursive search!)
-  # csv column #8:  conf.py
-  # csv column #9:  tox.ini
-  # csv column #10: index.rst
+  # csv column #10: docs (at repo root directory only; no recursive search!)
+  # csv column #11: conf.py
+  # csv column #12: tox.ini
+  # csv column #13: index.rst
   #
   # columns are filled with values from requested branch.
   # if data is not available values from master branch are used.
@@ -601,8 +718,8 @@ do
   unset docs
 
   #
-  # csv column #11: index.html@RTD accessibility check
-  # csv column #12: index.html url
+  # csv column #14: index.html@RTD accessibility check
+  # csv column #15: index.html url
   #
 
   readarray -t array < ./${branch}_repoclone.log;
@@ -715,7 +832,7 @@ do
   done
 
   #
-  # csv column #13: release notes
+  # csv column #16: release notes
   #
 
   readarray -t array < ../${repolist};
@@ -778,6 +895,7 @@ do
   datadir=${branch}_data
   mkdir $datadir
   cp $repolist $datadir
+  cp $wikiplsfile $datadir
   cp ${branch}_table.csv $datadir
   cp ${branch}_*.log $datadir
   zip -r ${datadir}.zip $datadir
