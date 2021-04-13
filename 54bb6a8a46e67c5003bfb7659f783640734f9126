@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baf6337e_1e2ed743",
+        "filename": "docs/guides/onap-developer/index.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-04-13T10:57:38Z",
+      "side": 1,
+      "message": "This entry should not be added in the docs/guides/onap-developer/index.rst, but in the file\n/docs/guides/onap-developer/how-to-use-docs/index.rst, as these are templates for the documentation guide.",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 33
+      },
+      "revId": "54bb6a8a46e67c5003bfb7659f783640734f9126",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
