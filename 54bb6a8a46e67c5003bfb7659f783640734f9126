@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "7390a8b8_92429b36",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/templates/index.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-04-13T14:12:52Z",
+      "side": 1,
+      "message": "trailing blanks",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 3
+      },
+      "revId": "54bb6a8a46e67c5003bfb7659f783640734f9126",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "baf6337e_1e2ed743",
         "filename": "docs/guides/onap-developer/index.rst",
         "patchSetId": 10
@@ -19,6 +42,23 @@
         "endLine": 23,
         "endChar": 33
       },
+      "revId": "54bb6a8a46e67c5003bfb7659f783640734f9126",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f5877c0f_c5c21bea",
+        "filename": "tox.ini",
+        "patchSetId": 10
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-04-13T14:12:52Z",
+      "side": 1,
+      "message": "git and sh are not useful inwhiteleist externals here",
       "revId": "54bb6a8a46e67c5003bfb7659f783640734f9126",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
