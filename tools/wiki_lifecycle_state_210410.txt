@@ -26,7 +26,7 @@ sdc;mature;Service Design & Creation Project
 sdnc;mature;Software Defined Network Controller Project
 so;mature;Service Orchestrator Project
 university;incubation;ONAP University Project
-uui;mature;Usecase UI Project
+usecase-ui;mature;Usecase UI Project
 vfc;mature;Virtual Function Controller Project
 vid;incubation;Virtual Infrastructure Deployment Project
 vnfrqts;incubation;VNF Requirements Project
