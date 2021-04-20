@@ -18,7 +18,7 @@ modeling;mature;Modeling Project
 msb;incubation;Microservices Bus Project
 multicloud;mature;Multi VIM/Cloud Project
 music;unmaintained;MUSIC Project
-oof;mature;Optimization Framework Project
+optf;mature;Optimization Framework Project
 oom;incubation;ONAP Operations Manager Project
 policy;mature;Policy Framework Project
 portal;unmaintained;Portal Platform Project
