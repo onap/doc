@@ -1,7 +1,7 @@
 from docutils.parsers.rst import directives
 from docs_conf.conf import *
 
-branch = 'latest'
+branch = 'honolulu'
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
@@ -11,7 +11,7 @@ linkcheck_ignore = [
 
 intersphinx_mapping = {}
 
-# Latest (change to branch)
+# Honolulu
 intersphinx_mapping['onap-aai-aai-common'] = ('{}/onap-aai-aai-common/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-sparky-be'] = ('{}/onap-aai-sparky-be/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-cds'] = ('{}/onap-ccsdk-cds/en/%s'.format(doc_url) % branch, None)
@@ -72,48 +72,48 @@ intersphinx_mapping['onap-music'] = ('{}/onap-music/en/%s'.format(doc_url) % bra
 branch = 'latest'
 intersphinx_mapping['onap-aaf-authz'] = ('{}/onap-aaf-authz/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aaf-sms'] = ('{}/onap-aaf-sms/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-aai-event-client'] = ('{}/onap-aai-event-client/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-aai-event-client'] = ('{}/onap-aai-event-client/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-esr-gui'] = ('{}/onap-aai-esr-gui/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-esr-server'] = ('{}/onap-aai-esr-server/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-ccsdk-apps'] = ('{}/onap-ccsdk-apps/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-ccsdk-dashboard'] = ('{}/onap-ccsdk-dashboard/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-ccsdk-platform-plugins'] = (
-    '{}/onap-ccsdk-platform-plugins/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-ccsdk-apps'] = ('{}/onap-ccsdk-apps/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-ccsdk-dashboard'] = ('{}/onap-ccsdk-dashboard/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-ccsdk-platform-plugins'] = (
+#    '{}/onap-ccsdk-platform-plugins/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-logging-analytics'] = ('{}/onap-logging-analytics/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-logging-analytics-pomba-pomba-audit-common'] = (
-    '{}/onap-logging-analytics-pomba-pomba-audit-common/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-logging-analytics-pomba-pomba-audit-common'] = (
+#    '{}/onap-logging-analytics-pomba-pomba-audit-common/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-modeling-toscaparsers'] = (
     '{}/onap-modeling-toscaparsers/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-msb-discovery'] = ('{}/onap-msb-discovery/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-msb-java-sdk'] = ('{}/onap-msb-java-sdk/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-msb-swagger-sdk'] = ('{}/onap-msb-swagger-sdk/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-multicloud-azure'] = ('{}/onap-multicloud-azure/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-multicloud-k8s'] = ('{}/onap-multicloud-k8s/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-msb-discovery'] = ('{}/onap-msb-discovery/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-msb-java-sdk'] = ('{}/onap-msb-java-sdk/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-msb-swagger-sdk'] = ('{}/onap-msb-swagger-sdk/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-multicloud-azure'] = ('{}/onap-multicloud-azure/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-multicloud-k8s'] = ('{}/onap-multicloud-k8s/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-music-distributed-kv-store'] = (
     '{}/onap-music-distributed-kv-store/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-oparent-cia'] = ('{}/onap-oparent-cia/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-oparent-cia'] = ('{}/onap-oparent-cia/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-osa'] = ('{}/onap-osa/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-sdc-sdc-distribution-client'] = (
-    '{}/onap-sdc-sdc-distribution-client/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-sdc-sdc-workflow-designer'] = (
-    '{}/onap-sdc-sdc-workflow-designer/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-sdc-sdc-tosca'] = ('{}/onap-sdc-sdc-tosca/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-sdc-sdc-docker-base'] = ('{}/onap-sdc-sdc-docker-base/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-so-libs'] = ('{}/onap-so-libs/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-vfc-nfvo-driver-vnfm-svnfm'] = (
-    '{}/onap-vfc-nfvo-driver-vnfm-svnfm/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-sdc-sdc-distribution-client'] = (
+#    '{}/onap-sdc-sdc-distribution-client/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-sdc-sdc-workflow-designer'] = (
+#    '{}/onap-sdc-sdc-workflow-designer/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-sdc-sdc-tosca'] = ('{}/onap-sdc-sdc-tosca/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-sdc-sdc-docker-base'] = ('{}/onap-sdc-sdc-docker-base/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-so-libs'] = ('{}/onap-so-libs/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-vfc-nfvo-driver-vnfm-svnfm'] = (
+#    '{}/onap-vfc-nfvo-driver-vnfm-svnfm/en/%s'.format(doc_url) % branch, None)
 
 linkcheck_ignore = [
     'about:config',
     # this URL is not directly reachable and must be configured in the system hosts file.
     'https://portal.api.simpledemo.onap.org:30225/ONAPPORTAL/login.htm',
     # anchor issues
-    'https://docs.onap.org/projects/onap-integration/en/latest/docs_usecases_release.html#.*',
+    'https://docs.onap.org/projects/onap-integration/en/honolulu/docs_usecases_release.html#.*',
     'https://docs.linuxfoundation.org/docs/communitybridge/easycla/contributors/contribute-to-a-gerrit-project#.*',
-    'https://docs.onap.org/projects/onap-integration/en/latest/docs_robot.html#docs-robot',
-    'https://docs.onap.org/projects/onap-integration/en/latest/docs_usecases_release.html#docs-usecases-release',
-    'https://docs.onap.org/projects/onap-integration/en/latest/docs_usecases.html#docs-usecases',
-    'https://docs.onap.org/projects/onap-integration/en/latest/usecases/release_non_functional_requirements.html#release-non-functional-requirements',
+    'https://docs.onap.org/projects/onap-integration/en/honolulu/docs_robot.html#docs-robot',
+    'https://docs.onap.org/projects/onap-integration/en/honolulu/docs_usecases_release.html#docs-usecases-release',
+    'https://docs.onap.org/projects/onap-integration/en/honolulu/docs_usecases.html#docs-usecases',
+    'https://docs.onap.org/projects/onap-integration/en/honolulu/usecases/release_non_functional_requirements.html#release-non-functional-requirements',
 ]
 
 
