@@ -4,10 +4,10 @@
 
 .. _onap-release-notes:
 
-Guilin Release Notes
-^^^^^^^^^^^^^^^^^^^^
+Honolulu Release Notes
+^^^^^^^^^^^^^^^^^^^^^^
 
-This page provides the release notes for the ONAP Guilin release. This
+This page provides the release notes for the ONAP Honolulu release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
@@ -19,173 +19,144 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-Guilin Releases
-===============
+Honolulu Releases
+=================
 
-The following releases are available for Guilin:
-  - `Guilin Maintenance Release 7.0.1`_
-  - `Guilin Major Release 7.0.0`_
+The following releases are available for Honolulu:
+  - `Honolulu Major Release 8.0.0`_
 
-Guilin Maintenance Release 7.0.1
-================================
-
-+--------------------------------------+--------------------------------------+
-| **Project**                          | Open Network Automation Platform     |
-|                                      | (ONAP)                               |
-+--------------------------------------+--------------------------------------+
-| **Release name**                     | Guilin Maintenance Release           |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release version**                  | 7.0.1                                |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release date**                     | March 11th 2021                      |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-
-New Features
-============
-
-Guilin Maintenance Release 7.0.1 delivered a number of fixes and updates
-across the following projects:
-
- - AAI         - bug fixes and certificate update
- - CCSDK       - bug fixes and certificate update
- - DCAEGEN2    - bug fixes
- - DMaaP       - bug fixes
- - DOC         - restructure user guides section and added tutorials
- - Integration - new docker for robot framework
- - Music       - certificate update
- - MSB         - bug fixes
- - OOM         - docker improvement
- - SDNC        - bug fixes
- - SO          - bug fixes
- - VID         - certificate update
-
-Details on the specific Jira tickets addressed by each project can be found in
-the component specific Release Notes: :ref:`release notes<doc-releaserepos>`
-
-
-Guilin Major Release 7.0.0
-==========================
+Honolulu Major Release 8.0.0
+============================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Open Network Automation Platform     |
 |                                      | (ONAP)                               |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | Guilin                               |
+| **Release name**                     | Honolulu                             |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 7.0.0                                |
+| **Release version**                  | 8.0.0                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | December 3rd 2020                    |
+| **Release date**                     | April xx  2021                       |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
-Guilin Features
-===============
-ONAP Guilin focusses on:
+Honolulu Features
+=================
+ONAP Honolulu focusses on:
 
-* 5G network automation and services such as network slicing through RAN, core
-  and transport
-* deepening O-RAN Software Community integration along with other leading SDOs
-* seamless orchestration of CNFs, VNFs and PNFs
-* and bringing several new ONAP Blueprint and docs updates.
-
-5G Network Slicing
-------------------
-In the industry evolution toward 5G networks, Guilin expands upon the
-end-to-end network slicing introduced with Frankfurt with the addition of RAN,
-core, and transport through Network Slice Subnet Management Function (NSSMF)
-which completes functionality with the Communication Service Management
-Function (CSMF) and Network Slice Management Function (NSMF) components. In
-addition to the NSSMF included in Guilin, ONAP supports an external RAN NSSMF.
-Next, the RAN domain also has initial support for a simple closed control loop
-and machine learning (ML) for intelligent slicing.
-
-ONAP/O-RAN Alignment
---------------------
-The release also marks greater ONAP + O-RAN Software Community harmonization by
-adding  support for the A1 interface (O-RAN A1-AP v1.1), adding to the existing
-O1 support. ONAP can now manage multiple A1 targets with different versions and
-includes a A1 Policy Management Service that interacts with the Near Real-Time
-RICs policy instances and provides a transient cache for these policies.
-
-CNF, VNF and PNF integration
-----------------------------
-Guilin contains a large number of new features classified into design time,
-run time, and ONAP operations to optimize the self-serve control loop and
-dashboard, make it easier to reuse existing models, make xNF pre-onboarding and
-onboarding easier, speed up UI development, and more. For Documentation
-(Usability), ONAP documentation made improvements such as setting up ONAP,
-Platform Operations, Service Design and Deployment, and User Guides. Specific
-to cloud native, The Service Design & Creation (SDC) project, the unified
-design time tool, now supports Helm types to natively support Cloud Native
-Network Functions (CNF).
-
-Enhancements in ONAP Blueprints
--------------------------------
-Other enhancements to the ONAP Blueprints includes a new Standard Defined VNF
-Event Stream (VES) event for Fault Management (FM) / Performance Management
-(PM) Data Collection, the first use of Machine Learning in Self-Organizing
-Networks (SON), and greater support for 5G RAN Wireless Network Resource Model
-(NRM) with Service Modeling and Definition and Intent Based Network supporting
-intent-drive 5G slice creation. The Cross Domain and Cross Layer VPN (CC-VPN)
-includes transport slicing and the MDONS (Multi-Domain Optical Network Service
-) has been extended.
+* Cloud Native Function (CNF) support with  with seamless configuration of Helm
+  based CNFs and K8s resources
+* End-to-end 5G network slicing with three network slicing components for RAN,
+  core, and transport
+* Introducing a new component: Configuration Persistence Service (CPS) to store
+  persistent configuation data
+* Modularity to pick and choose the components needed for specific use case
+* Improving integration with many SDOs
 
 Functional Requirements
 -----------------------
-The following requirements have been introduced in the Guilin Release:
 
-xNF Integration
-...............
+Increased Cloud Native Functionality
+....................................
+The Honolulu release has important updates to support cloud native network
+functions (CNF). The functionality includes configuration of Helm based CNFs
+and seamless day 1, 2 operations. The Configuration API allows a user to
+create, modify and delete Kubernetes (K8s) resource templates and their base
+parameters and the Profile API allows for sophisticated day 0 configuration.
+The Query API gathers filtered status of the CNF and the HealthCheck API
+executes dedicated health check jobs to verify the status of a CNF. This new
+functionality is implemented in the Controller Design Studio (CDS) component
+using dedicated templates called Controller Blueprint Archives (CBA).
+In addition, there is Swagger documentation for the API of the K8s plugin
+component in the MutliCloud project.
 
-- ONAP CNF orchestration - Enhancements
-- Extension of PNF Pre-onboarding/onboarding
-- Enhancements for PNF Plug & Play'
-- xNF License Management
+Deeper 5G Support
+.................
+There is a significant set of new functionality around end-to-end 5G network
+slicing in the Honolulu release. This release includes three internal Network
+Slice Subnet Management Function (NSSMF) components for RAN, core, and
+transport domains. External NSSMFs continue to be supported for RAN and core.
+Next, slice optimization continues to be an area of ongoing effort with closed
+loop automation and intelligent slicing testing. There are also enhancements in
+NST, NSI, and NSSI selection in the OOF project and A&AI includes schema
+changes to accommodate network and transport slicing.
 
-Lifecycle Management
-....................
+In addition, the ExtAPI project now included Enhanced Service Ordering for
+additional service types and the UUI graphical user interface has improved
+slicing support. The VID graphical user has support for PNF plug-and-play
+allowing operators to interact with PNFs via VID. In addition, there is better
+compliance to standards such as 3GPP TS28.540/541 5G NRM driven xNF models in
+ONAP. Finally the OOF SON functionality supports offline trained ML-models
+providing additional inputs for Physical Cell Identity (PCI) optimization.
+DCAE includes a new KPI microservice.
 
-- Policy Based Filtering
-- CLAMP Deployment of Native policies
-- Bulk PM / PM Data Control Extension
-- Support xNF Software Upgrade in association to schema updates
-- Configuration & Persistency Service
+Configuration Persistence Service
+.................................
+Another key 5G related initiative is the new Configuration Persistence Service
+(CPS) module that allows ONAP projects to store persistent state defined by
+YANG models, deploy YANG models at runtime, and share access to configuration
+management data.
 
-Security
-........
+Further O-RAN Integration
+.........................
+A key enhancement in the Honolulu release was increased support for the O-RAN
+A1 standard that is implemented in the CCSDK and SDN-C projects. The O-RAN A1
+interface provides a flexible way for RAN operators to manage wide area RAN
+network optimization reducing capex investment needs. Both the enhanced A1
+interface controller and A1 policy capabilities are now usable in ONAP with a
+Near-Real-Time Radio Intelligent Controller (nRTRIC). This functionality is
+also used downstream in O-RAN-Source Community (OSC) Non-RealTime RIC
+(NONRTRIC) project, strengthening alignment between ONAP & OSC. In addition,
+the DCAE project includes VES 7.2 integration that improves integration with
+both O-RAN and 3GPP. Finally, there is a new CPS interface to query RAN
+configuration data.
 
-- CMPv2 Enhancements
+Expanded Modularity
+...................
+Modularity has been an important topic in ONAP to allow users to pick and
+choose the components they need for their specific use case and Honolulu
+continues to advance modularity. DCAE now simplifies microservice deployment
+via Helm charts.
 
-Standard alignment
-..................
+Service Design
+..............
 
-- ETSI-Alignment for Guilin
-- ONAP/3GPP & O-RAN Alignment-Standards Defined Notifications over VES
-- Extend ORAN A1 Adapter and add A1 Policy Management
+- Includes increased support for ETSI standards such as SOL001, SOL004, and
+  SOL007 and allows users to choose unlicensed or externally licensed xNFs.
+- Vendor License Model is now optional
+- SDC distribution status report enhanced
 
-NFV testing Automatic Platform
-...............................
+Inventory
+.........
 
-- Test Result Auto Analysis & Certification
-- Test Task Auto Execution
-- Test Environment Auto Deploy
-- Test Topology Auto Design
+- A&AI includes support for multi tenancy.
+- Model updates for CCVPN Transport Slicing and Network Slicing
+- GraphGraph POC enhanced for schema visualization and visual model generation
+- Sparky UI updates including Browse, Specialized Search, BYOQ, and BYOQ
+  Builder Views
+
+ONAP Operations Manager
+.......................
+
+- Portal-Cassandra image updated to Bitnami, supporting IPv4/IPv6 Dual Stack
+- CMPv2 external issuer implemented which extends Cert-Manager with ability to
+  enroll X.509 certificates from CMPv2 servers
+- New version for MariaDB Galera using Bitnami image, supporting IPv4/IPv6 Dual
+  Stack
+- Support of Helm v3.4 and Helm v3.5
 
 Non-Functional Requirements
 ---------------------------
-The following 'non-functional' requirements have been introduced in the Guilin
-Release:
+The following 'non-functional' requirements are followed in the
+Honolulu Release:
 
 Best Practice
 .............
 
 - ONAP shall use STDOUT for logs collection
-- IPv4/IPv6 dual stack support in ONAP (Guilin)
+- IPv4/IPv6 dual stack support in ONAP
 - Containers must crash properly when a failure occurs
 - Containers must have no more than one main process
 - Application config should be fully prepared before starting the
@@ -203,8 +174,8 @@ Code Quality
 Security
 ........
 
-- ONAP must complete update of the Python language (from 2.7 -> 3.8)
-- ONAP must complete update of the java language (from v8 -> v11)
+- Python language 3.8
+- Java language v11
 - All containers must run as non-root user
 - Continue hardcoded passwords removal
 - Flow management must be activated for ONAP.
@@ -214,13 +185,8 @@ Security
 Tests
 .....
 
-- More tests integrated in CI/CD but enhancements expected in Honolulu
-- ONAP shall increase the number of Docker Benchmark tests
-
-Others
-......
-
-- ONAP to support Multi - tenancy
+- New E2E tests
+- New IPv4/Ipv6 daily CI chain
 
 .. important::
    Some non-functional requirements are not fully finalized. Please, check details
@@ -239,8 +205,8 @@ are compatible with a major release are made available.
 
 Documentation
 =============
-ONAP Guilin Release provides a set selection of documents,
-see `ONAP Documentation <https://docs.onap.org/en/guilin/index.html>`_.
+ONAP Honolulu Release provides a set selection of documents,
+see :ref:`ONAP Documentation<master_index>`.
 
 The `developer wiki <http://wiki.onap.org>`_ remains a good source of
 information on meeting plans and notes from committees, project teams and
@@ -256,7 +222,7 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
-In the Guilin release,
+In the Honolulu release,
 
 - 100% projects passed 90% of the CII badge
 - 85% projects passed the CII badge
@@ -269,14 +235,13 @@ each project.
 
 ONAP Maturity Testing Notes
 ===========================
-For the Guilin release, ONAP continues to improve in multiple areas of
+For the Honolulu release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
-In Guilin the Integration team focussed in
+In Honolulu the Integration team focussed in
 
 - Automating ONAP Testing to improve the overall quality
 - Adding security and E2E tests
-- Integrated new ONAP Python SDK in E2E testing
 
 More details in :ref:`ONAP Integration Project<onap-integration:master_index>`
 
