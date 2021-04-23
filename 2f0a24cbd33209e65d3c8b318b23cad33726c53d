@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "854f85cf_eedfc7d1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-04-23T13:01:41Z",
+      "side": 1,
+      "message": "I can\u0027t see any difference here.\nHave you committed your changes in your local branch after pushing it ?",
+      "parentUuid": "36d5c1ba_753e618f",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 53
+      },
+      "revId": "2f0a24cbd33209e65d3c8b318b23cad33726c53d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8b7edfeb_579c8b25",
         "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
         "patchSetId": 1
