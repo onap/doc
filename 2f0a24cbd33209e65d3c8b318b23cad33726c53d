@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b7edfeb_579c8b25",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-23T06:38:44Z",
+      "side": 1,
+      "message": "Bad indentation. Remove 2 white-spaces.",
+      "revId": "2f0a24cbd33209e65d3c8b318b23cad33726c53d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b7ee9e0c_e8cc023f",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-23T06:38:44Z",
+      "side": 1,
+      "message": "Bad indentation. Remove 2 white-spaces.",
+      "revId": "2f0a24cbd33209e65d3c8b318b23cad33726c53d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d443d4a_26150468",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-23T06:38:44Z",
+      "side": 1,
+      "message": "Bad indentation. Remove 2 white-spaces.",
+      "revId": "2f0a24cbd33209e65d3c8b318b23cad33726c53d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "85a9f08c_8fe0657e",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-23T06:38:44Z",
+      "side": 1,
+      "message": "Bad indentation. Remove 2 white-spaces.",
+      "revId": "2f0a24cbd33209e65d3c8b318b23cad33726c53d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
