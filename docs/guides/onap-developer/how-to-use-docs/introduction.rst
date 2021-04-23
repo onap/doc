@@ -208,3 +208,19 @@ files:
 When there are subsequent, significant contributions to a source file
 from a different contributor, a new copyright line may be appended
 after the last existing copyright line.
+
+Read The Docs URLs
+------------------
+
+When referencing versions of documentation a Read The Docs the following
+URL conventions should be used
+
+ +----------------------------------+----------------------------------------+
+ | URL                              | To Refer to                            |
+ +==================================+========================================+
+ | docs.onap.org                    | Most recent approved named release     |
+ +----------------------------------+----------------------------------------+
+ | docs.onap.org/en/latest          | Latest master branch all projects      |
+ +----------------------------------+----------------------------------------+
+ | docs.onap.org/en/*named release* | An approved name release eg. amsterdam |
+ +----------------------------------+----------------------------------------+
