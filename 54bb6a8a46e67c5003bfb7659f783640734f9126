@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "a02389d5_61647764",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/templates/index.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 4897
+      },
+      "writtenOn": "2021-04-23T10:29:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7390a8b8_92429b36",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 3
+      },
+      "revId": "54bb6a8a46e67c5003bfb7659f783640734f9126",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baf6337e_1e2ed743",
         "filename": "docs/guides/onap-developer/index.rst",
         "patchSetId": 10
@@ -62,6 +86,24 @@
       "revId": "54bb6a8a46e67c5003bfb7659f783640734f9126",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c01d1e31_79fd25f9",
+        "filename": "tox.ini",
+        "patchSetId": 10
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 4897
+      },
+      "writtenOn": "2021-04-23T10:29:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5877c0f_c5c21bea",
+      "revId": "54bb6a8a46e67c5003bfb7659f783640734f9126",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
