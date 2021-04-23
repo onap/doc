@@ -114,22 +114,27 @@ microservices-based platform components.**
 Figure 2 below, provides a simplified functional view of the architecture,
 which highlights the role of a few key components:
 
-#. Design time environment for onboarding services and resources into ONAP and
-   designing required services.
-#. External API provides northbound interoperability for the ONAP Platform and
-   Multi-VIM/Cloud provides cloud interoperability for the ONAP workloads.
+#. ONAP Design time environment provides onboarding services and resources
+   into ONAP and designing required services.
+#. External API provides northbound interoperability for the ONAP Platform.
+#. ONAP Runtime environment provides a model- and policy-driven orchestration
+   and conrol framework for an automated instantiation and configuration of
+   services and resources. Multi-VIM/Cloud provides cloud interoperability for
+   the ONAP workloads. Analytic framework that closely monitors the service
+   behavior handles close loop management for handling healing, scaling and
+   update dynamically.
 #. OOM provides the ability to manage cloud-native installation and deployments
    to Kubernetes-managed cloud environments.
 #. ONAP Shared Services provides shared capabilities for ONAP modules. The ONAP
    Optimization Framework (OOF) provides a declarative, policy-driven approach
    for creating and running optimization applications like Homing/Placement,
-   and Change Management Scheduling Optimization.
-#. ONAP shared utilities provide utilities for the support of the ONAP
-   components.
-#. Information Model and framework utilities continue to evolve to harmonize
-   the topology, workflow, and policy models from a number of SDOs including
-   ETSI NFV MANO, ETSI/3GPP, O-RAN, TM Forum SID, ONF Core, OASIS TOSCA, IETF,
-   and MEF.
+   and Change Management Scheduling Optimization. ONAP shared utilities provide
+   utilities for the support of the ONAP components.
+
+Information Model and framework utilities continue to evolve to harmonize
+the topology, workflow, and policy models from a number of SDOs including
+ETSI NFV MANO, ETSI/3GPP, O-RAN, TM Forum SID, ONF Core, OASIS TOSCA, IETF,
+and MEF.
 
 |image2|
 
