@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d0b0313c_2a51b698",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-04-23T13:58:26Z",
+      "side": 1,
+      "message": "If you need to restart from scratch, you are not forced to abandon your change in Gerrit.\nOnce ready locally, you just have to copy/paste (or replace your new change-Id by) the change-Id here in the commit message of your new commit.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 52
+      },
+      "revId": "78beaf2f7c0e734852ed5229d6898ea28466c9d8",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
