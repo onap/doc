@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "551cf2f3_284a2fad",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2085
+      },
+      "writtenOn": "2021-04-23T13:20:15Z",
+      "side": 1,
+      "message": "OK. I need to it again. Strange",
+      "parentUuid": "854f85cf_eedfc7d1",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 53
+      },
+      "revId": "2f0a24cbd33209e65d3c8b318b23cad33726c53d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8b7edfeb_579c8b25",
         "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
         "patchSetId": 1
