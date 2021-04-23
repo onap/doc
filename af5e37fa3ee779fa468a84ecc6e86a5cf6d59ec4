@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f6d3218_fdae7df8",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/templates/sections/administration.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-23T10:43:12Z",
+      "side": 1,
+      "message": "Bad link. Please provide a valid URL",
+      "revId": "af5e37fa3ee779fa468a84ecc6e86a5cf6d59ec4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
