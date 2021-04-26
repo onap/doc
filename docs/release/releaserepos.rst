@@ -18,7 +18,11 @@ Project Specific Release Notes
 | :ref:`VNF Requirements<onap-vnfrqts-requirements:release_notes>`
 | :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:release_notes>`
 | :ref:`CCSDK - Common Controller Software Development Kit<onap-ccsdk-distribution:release_notes>`
+<<<<<<< HEAD   (1f8ab1 Fix architecture func diagram)
 | :ref:`CLAMP - Control Loop Automation Platform<onap-policy-clamp:release_notes>`
+=======
+| :ref:`CCSDK/ORAN - Open-RAN Support in ONAP<onap-ccsdk-oran:release_notes>`
+>>>>>>> CHANGE (c7b798 Moved CLAMP (not part of the release) to "Migrated Projects")
 | :ref:`CLI - Command Line Interface<onap-cli:release_notes>`
 | :ref:`CPS - Configuration Persistance Service<onap-cps:release_notes>`
 | :ref:`DCAE - Data Collection Analysis and Events<onap-dcaegen2:release_notes>`
@@ -43,3 +47,26 @@ Project Specific Release Notes
 | :ref:`VID - Virtual Infrastructure Deployment<onap-vid:release_notes>`
 | :ref:`VNFSDK - VNF Software Development Kit<onap-vnfsdk-model:release_notes>`
 | :ref:`VVP - VNF Validation Project<onap-vvp-documentation:release_notes>`
+<<<<<<< HEAD   (1f8ab1 Fix architecture func diagram)
+=======
+
+Migrated Projects
+-----------------
+
+.. toctree::
+   :maxdepth: 1
+
+| :ref:`CLAMP - Control Loop Automation Platform<onap-policy-clamp:release_notes>`
+
+Unmaintained Projects
+---------------------
+
+.. toctree::
+   :maxdepth: 1
+
+| :ref:`AAF - Application Authorization Framework<onap-aaf-authz:release_notes>`
+| :ref:`AAI/ESR - External System Registry<onap-aai-esr-server:master_index>`
+| :ref:`APPC - Application Controller<onap-appc:release_notes>`
+| :ref:`MUSIC - ONAP Multi-Site Integration<onap-music:release_notes>`
+| :ref:`PORTAL - Portal Platform<onap-portal:release_notes>`
+>>>>>>> CHANGE (c7b798 Moved CLAMP (not part of the release) to "Migrated Projects")
