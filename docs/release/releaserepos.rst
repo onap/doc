@@ -22,7 +22,6 @@ Maintained Projects
 | :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:release_notes>`
 | :ref:`CCSDK - Common Controller Software Development Kit<onap-ccsdk-distribution:release_notes>`
 | :ref:`CCSDK/ORAN - Open-RAN Support in ONAP<onap-ccsdk-oran:release_notes>`
-| :ref:`CLAMP - Control Loop Automation Platform<onap-policy-clamp:release_notes>`
 | :ref:`CLI - Command Line Interface<onap-cli:release_notes>`
 | :ref:`CPS - Configuration Persistence Service<onap-cps:release_notes>`
 | :ref:`DCAE - Data Collection Analysis and Events<onap-dcaegen2:release_notes>`
@@ -47,6 +46,14 @@ Maintained Projects
 | :ref:`VID - Virtual Infrastructure Deployment<onap-vid:release_notes>`
 | :ref:`VNFSDK - VNF Software Development Kit<onap-vnfsdk-model:release_notes>`
 | :ref:`VVP - VNF Validation Project<onap-vvp-documentation:release_notes>`
+
+Migrated Projects
+-----------------
+
+.. toctree::
+   :maxdepth: 1
+
+| :ref:`CLAMP - Control Loop Automation Platform<onap-policy-clamp:release_notes>`
 
 Unmaintained Projects
 ---------------------
