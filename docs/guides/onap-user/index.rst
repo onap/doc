@@ -43,6 +43,7 @@ Tutorials
    vFW Design Tutorial <./vfw-design-tutorial/index.rst>
    vFW Deployment Tutorial <./vfw-deployment-tutorial/index.rst>
    vFWCL Design Tutorial <./vfwcl-design-tutorial/index.rst>
+   vFWCL Deployment Tutorial <./vfwcl-deployment-tutorial/index.rst>
 
 Verified Use Cases
 ------------------
