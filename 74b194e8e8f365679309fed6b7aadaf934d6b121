@@ -1,0 +1,242 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "46b70d0e_f6ebc9fb",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "should be updated to 2021",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1ff37c56_9079d108",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "To be removed",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1f88b052_f0384143",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "20e1eb53_528ba934",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 847,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "558227e0_6058ad6f",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 853,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f7980576_bdd4f266",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1057,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "954ae687_701d40d6",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1061,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b7f62c47_f66d75df",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1288,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e1c5c472_0626439e",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1342,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "11a431a5_f129790e",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1357,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d1874912_e22eba81",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1365,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "blank lines to be removed",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "875f8124_da86ca67",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1369,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "white-space to delete",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "554890de_b8e09efd",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1370,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "blank lines to be removed",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "16b2d734_2699f021",
+        "filename": "docs/guides/onap-user/vfwcl-deployment-tutorial/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1398,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-04-29T13:12:42Z",
+      "side": 1,
+      "message": "blank lines to be removed",
+      "revId": "74b194e8e8f365679309fed6b7aadaf934d6b121",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
