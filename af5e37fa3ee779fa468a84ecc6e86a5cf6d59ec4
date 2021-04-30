@@ -16,6 +16,24 @@
       "revId": "af5e37fa3ee779fa468a84ecc6e86a5cf6d59ec4",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "490aff56_a456d4eb",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/templates/sections/administration.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 4897
+      },
+      "writtenOn": "2021-04-30T10:42:27Z",
+      "side": 1,
+      "message": "Hi,\nthe link works for me, could you please elaborate on what the problem is? Should it be a real Linux Foundation, etc page, not just an example? Thanks!\nAndi",
+      "parentUuid": "9f6d3218_fdae7df8",
+      "revId": "af5e37fa3ee779fa468a84ecc6e86a5cf6d59ec4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
