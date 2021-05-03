@@ -14,7 +14,6 @@ Creating Documentation
    api-swagger-guide
    templates
    converting-to-rst
-   addendum
 
 .. toctree::
    :hidden:
