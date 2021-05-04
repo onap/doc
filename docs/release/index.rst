@@ -39,7 +39,7 @@ Guilin Maintenance Release 7.0.1
 | **Release version**                  | 7.0.1                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | March 11th 2021                      |
+| **Release date**                     | April 19th 2021                      |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -52,11 +52,10 @@ across the following projects:
  - AAI         - bug fixes and certificate update
  - CCSDK       - bug fixes and certificate update
  - DCAEGEN2    - bug fixes
- - DMaaP       - bug fixes
+ - DMaaP       - bug fixes and certificate update
  - DOC         - restructure user guides section and added tutorials
  - Integration - new docker for robot framework
  - Music       - certificate update
- - MSB         - bug fixes
  - OOM         - docker improvement
  - SDNC        - bug fixes
  - SO          - bug fixes
