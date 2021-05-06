@@ -5,10 +5,6 @@ branch = 'latest'
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
-linkcheck_ignore = [
-    'http://localhost',
-]
-
 intersphinx_mapping = {}
 
 # Latest (change to branch)
@@ -104,6 +100,8 @@ intersphinx_mapping['onap-vfc-nfvo-driver-vnfm-svnfm'] = (
     '{}/onap-vfc-nfvo-driver-vnfm-svnfm/en/%s'.format(doc_url) % branch, None)
 
 linkcheck_ignore = [
+    'http://localhost',
+    'https://example.com',
     'about:config',
     # this URL is not directly reachable and must be configured in the system hosts file.
     'https://portal.api.simpledemo.onap.org:30225/ONAPPORTAL/login.htm',
