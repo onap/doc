@@ -31,12 +31,12 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | functionalities of ONAP. Basic guidelines on license details, limitations and                 |
  |                                                                                 | security references support understanding the solution.                                       |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`ONAP Architecture <ONAP-architecture>`                                    | The ONAP architecture and its functional elements are described in details                    |
+ | :ref:`ONAP Architecture <ONAP-architecture>`                                    | The ONAP Architecture and its functional elements are described in details                    |
  |                                                                                 | here. We can learn how the two main frameworks, namely the Design-time                        |
  |                                                                                 | framework and the Run-time framework cooperate and how the Microservices,                     |
  |                                                                                 | Common services and the ONAP Portal support the certain functions.                            |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`ONAP components and functionalities <doc_onap-developer_guide_projects>`  | The ONAP components and functionalities are described in details here.                        |
+ | :ref:`ONAP Components and Functionalities <doc_onap-developer_guide_projects>`  | The ONAP Components and Functionalities are described in details here.                        |
  |                                                                                 | We can learn what functionalities ONAP provides and how the certain components in ONAP        |
  |                                                                                 | operate together.                                                                             |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
@@ -49,6 +49,10 @@ Please find some guidance here on the content of ONAP documentation:
  | :ref:`Developer Guides <ONAP_developer_guides>`                                 | Developers contributing to the ONAP development can find crucial information                  |
  |                                                                                 | in the Developer Guides. The reader can search among the developers’ topics                   |
  |                                                                                 | in alphabetical order.                                                                        |
+ +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+ | :ref:`Documentation Guides <ONAP_documentation_guides>`                         | People interested in the creation of ONAP documentation can find crucial information          |
+ |                                                                                 | in the ONAP Documentation Guide. Currently some content resides also in the Developer Guide.  |
+ |                                                                                 | This is subject to be reviewed, updated and migrated to the ONAP Documenation Guide.          |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`VNF/PNF Requirements and Guidelines <vnf_pnf_reqs>`                       | Harmonized VNF and PNF requirements and reduced customization of onboarding VNFs              |
  |                                                                                 | and PNFs can accelerate the optimal usage of this ONAP environment. The guidelines            |
@@ -71,4 +75,5 @@ Please find some guidance here on the content of ONAP documentation:
    guides/onap-operator/index
    guides/onap-user/index
    guides/onap-developer/index
+   guides/onap-documentation/index
    guides/onap-provider/index
