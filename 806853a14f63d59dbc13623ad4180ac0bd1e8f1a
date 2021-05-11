@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "bbe85654_a8c679ab",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7e12b059_4a58d8f9",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7f0f3e63_5c767bc1",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 10
@@ -30,6 +48,24 @@
       "writtenOn": "2021-05-11T06:57:00Z",
       "side": 1,
       "message": "Why did you introduce this section ? \nInformation seems redundant with git versioning",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9ab2104_46fe48e8",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7f0f3e63_5c767bc1",
       "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "e09ae47e_6efd86b9",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "This is only to explain how to fill the additional lines below. In general you are right. Docs delivered with a specific release should have been reviewed and updated to reflect the current state in the release.  But we know that this is not done in every case ... frankly said.\nAnd \"yes\", this info can be retrieved from git ... but as a reader i like to know if the doc is up-to-date or not. If we would have a process in place that prevents outdated docs to be published with a new release than we do not neet this information in the header. I think we should propose something to the PTL / TSC ...",
+      "parentUuid": "d2614bb5_8d791450",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "71e99539_4356901e",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 10
@@ -64,6 +118,24 @@
       "writtenOn": "2021-05-11T06:57:00Z",
       "side": 1,
       "message": "Why adding such lines ?",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fe1d5257_57ccf4bc",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "see above comment",
+      "parentUuid": "71e99539_4356901e",
       "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "0e110982_413a273d",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6f1bed23_1d90d0fc",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "42d560bf_6dc56fcd",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 10
@@ -101,6 +191,24 @@
       "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a0075a3b_66ee2da9",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "42d560bf_6dc56fcd",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "32403344_d5035194",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "not sure ... but it is not a recommendation ... it is just a description how i did it. But i will add a comment ..",
+      "parentUuid": "e6d31e67_4ae29213",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b842aeed_d44731e9",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 10
@@ -135,6 +261,24 @@
       "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f9d657f_f1feb8c5",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "you are right.  will add a note and change the title",
+      "parentUuid": "b842aeed_d44731e9",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "8c840106_fb107baa",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "not sure what you like me to do here?",
+      "parentUuid": "567767f7_4f2d8ef3",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8f5ce986_9b443abf",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 10
@@ -169,6 +331,24 @@
       "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4793e80f_06d91649",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "good idea - but i have to learn about the packages myself first\nwill do this in an upcoming version, ok?\nadded to the backlog",
+      "parentUuid": "8f5ce986_9b443abf",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -195,6 +375,30 @@
     },
     {
       "key": {
+        "uuid": "ec360b54_a40b84a8",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d39b83de_2c19400d",
+      "range": {
+        "startLine": 248,
+        "startChar": 14,
+        "endLine": 248,
+        "endChar": 21
+      },
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6f2b7e49_ee24006b",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 10
@@ -209,6 +413,24 @@
       "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eabbe637_46fbb3ea",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "well, can move it at least a little bit closer to the section of cloning repo/starting vsc. done",
+      "parentUuid": "6f2b7e49_ee24006b",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -229,6 +451,24 @@
     },
     {
       "key": {
+        "uuid": "cf4a8b77_a23eb243",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "good idea, will do it in an upcoming version (see backlog and above comment)",
+      "parentUuid": "997fd1ba_87f0c378",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2b38cbf0_e41cbe77",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 10
@@ -243,6 +483,24 @@
       "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "785f7e5a_68d5893a",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 631,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-05-11T14:10:28Z",
+      "side": 1,
+      "message": "let\u0027s do this after we have implemented such a process for the doc team. until then a would understand this section in the document as a \"Known Bugs / Open Issues\" section. If you like i can rename it accordingly ...",
+      "parentUuid": "2b38cbf0_e41cbe77",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
