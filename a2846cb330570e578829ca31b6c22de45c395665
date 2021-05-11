@@ -1,0 +1,153 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b4e8e238_7fcb199b",
+        "filename": "docs/guides/onap-documentation/index.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-11T19:19:07Z",
+      "side": 1,
+      "message": "really ?",
+      "range": {
+        "startLine": 3,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 22
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0551b5e1_c4c053c4",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-11T19:19:07Z",
+      "side": 1,
+      "message": "is",
+      "range": {
+        "startLine": 69,
+        "startChar": 73,
+        "endLine": 69,
+        "endChar": 76
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "72123462_0d350686",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-11T19:19:07Z",
+      "side": 1,
+      "message": "I do appreciate this warning .",
+      "range": {
+        "startLine": 180,
+        "startChar": 60,
+        "endLine": 180,
+        "endChar": 61
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef8e42ae_03298d03",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-11T19:19:07Z",
+      "side": 1,
+      "message": "apt install -y for coherency\n\nthis can also be concatenated\nsudo apt install -y python3-pip build-essential libssl-dev libffi-dev python3-dev python3-venv",
+      "range": {
+        "startLine": 213,
+        "startChar": 12,
+        "endLine": 213,
+        "endChar": 15
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ff76484d_c6e9cb18",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-11T19:19:07Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "593119d8_afa9e300",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-11T19:19:07Z",
+      "side": 1,
+      "message": "why not apt install git-review ?",
+      "range": {
+        "startLine": 235,
+        "startChar": 2,
+        "endLine": 235,
+        "endChar": 26
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e4f265b6_f4a7ee25",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 594,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-11T19:19:07Z",
+      "side": 1,
+      "message": "nice section.",
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
