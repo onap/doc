@@ -1,0 +1,248 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7e12b059_4a58d8f9",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "Why not using the standard text for the License ?",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7f0f3e63_5c767bc1",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "Why did you introduce this section ? \nInformation seems redundant with git versioning",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d2614bb5_8d791450",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "A document in a release should apply for the current release. If this document is available for previous release, we should cherry-pick to previous releases.",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "71e99539_4356901e",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "Why adding such lines ?",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f1bed23_1d90d0fc",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "every ONAP project under one docs directory",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "42d560bf_6dc56fcd",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "comfortable: we should avoid such word.",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e6d31e67_4ae29213",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "Do we need 8 GB. I believe that 4GB should be enough",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b842aeed_d44731e9",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "Python3 is installed with Ubuntu 20.04",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "567767f7_4f2d8ef3",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "Python\nThese commands are used to get the last Python3 version",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8f5ce986_9b443abf",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "We should add a table explaining the package role",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d39b83de_2c19400d",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "add a comma after guide",
+      "range": {
+        "startLine": 248,
+        "startChar": 14,
+        "endLine": 248,
+        "endChar": 21
+      },
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f2b7e49_ee24006b",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "I will move this part in the VSC configuration",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "997fd1ba_87f0c378",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 430,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "Add a column to explain the role of each extension",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2b38cbf0_e41cbe77",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 631,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-05-11T06:57:00Z",
+      "side": 1,
+      "message": "We should keep this backlog in JIRA ticket. Not in the documentation",
+      "revId": "806853a14f63d59dbc13623ad4180ac0bd1e8f1a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
