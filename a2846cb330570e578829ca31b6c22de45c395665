@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "2b08143e_5248ffac",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-12T15:39:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0551b5e1_c4c053c4",
+      "range": {
+        "startLine": 69,
+        "startChar": 73,
+        "endLine": 69,
+        "endChar": 76
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "72123462_0d350686",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 12
@@ -94,6 +118,30 @@
     },
     {
       "key": {
+        "uuid": "839fe606_89e385ee",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-12T15:39:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ef8e42ae_03298d03",
+      "range": {
+        "startLine": 213,
+        "startChar": 12,
+        "endLine": 213,
+        "endChar": 15
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff76484d_c6e9cb18",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 12
@@ -108,6 +156,24 @@
       "revId": "a2846cb330570e578829ca31b6c22de45c395665",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fffa89b6_76b6df3a",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-12T15:39:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff76484d_c6e9cb18",
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
@@ -131,6 +197,30 @@
       "revId": "a2846cb330570e578829ca31b6c22de45c395665",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d34e6758_14d9d2f7",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-12T15:39:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "593119d8_afa9e300",
+      "range": {
+        "startLine": 235,
+        "startChar": 2,
+        "endLine": 235,
+        "endChar": 26
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     },
     {
       "key": {
