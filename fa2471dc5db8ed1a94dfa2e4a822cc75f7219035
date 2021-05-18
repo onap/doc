@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "51c10eea_0934f43f",
+        "filename": "docs/guides/onap-user/design/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 5597
+      },
+      "writtenOn": "2021-05-18T16:35:04Z",
+      "side": 1,
+      "message": "Let`s simplify this part:\n\"This validation feature is enabled by default, and checks, if the chart can be deployed by running helm template command. Helm v3 libraries are used for validation.\"\n\nI think, this would be enough in the user documentation, and we won`t have to change it each time, we update the Helm client version.",
+      "revId": "fa2471dc5db8ed1a94dfa2e4a822cc75f7219035",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "843360b9_d6b55262",
+        "filename": "docs/guides/onap-user/design/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 5597
+      },
+      "writtenOn": "2021-05-18T16:35:04Z",
+      "side": 1,
+      "message": "we`ll need some link to be provided \"here\" ;) I`ll guess, we`ll need to publish the SDC doc first to make this link working.",
+      "range": {
+        "startLine": 226,
+        "startChar": 90,
+        "endLine": 226,
+        "endChar": 94
+      },
+      "revId": "fa2471dc5db8ed1a94dfa2e4a822cc75f7219035",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4073347b_864d0528",
+        "filename": "docs/guides/onap-user/design/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 5597
+      },
+      "writtenOn": "2021-05-18T16:35:04Z",
+      "side": 1,
+      "message": "We can remove this part. \nThese settings are something we`ll control in SDC configuration files, which are not really something, we expect the human system operator to touch.",
+      "revId": "fa2471dc5db8ed1a94dfa2e4a822cc75f7219035",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3b770db8_3e04f5fb",
+        "filename": "docs/guides/onap-user/design/resource-onboarding/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 5597
+      },
+      "writtenOn": "2021-05-18T16:35:04Z",
+      "side": 1,
+      "message": "We can remove this from the user-guide.\nWe could add this to the overall SDC documentation.",
+      "revId": "fa2471dc5db8ed1a94dfa2e4a822cc75f7219035",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
