@@ -1,6 +1,6 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
 .. International License. http://creativecommons.org/licenses/by/4.0
-.. Copyright 2019 ONAP Contributors. All rights reserved.
+.. Copyright 2019-2021 ONAP Contributors. All rights reserved.
 
 .. _doc_guide_user_des_res-onb:
 
@@ -220,9 +220,25 @@ for VFs/PNFs.
    displays the files and a success message. If validation fails, SDC displays
    the errors in the files.
 
+   In case the SDC Helm Validator is enabled in SDC configuration file and the
+   onboarding package is a CNF which contains any helm charts listed in MANIFEST.json
+   and marked as type=HELM, there will be an attempt to make a request to the Helm Validator
+   for each chart, to check its validity. More information on Helm Validator can be found :ref:`here<sdc_helm_validator>`.
+
+   This validation feature is enabled by default, and checks, if the chart can be deployed by
+   running helm template command. Helm v3 libraries are used for validation.
+
    Example Heat errors:
 
    |image9|
+
+   Example helm chart validation warnings:
+
+   |image27|
+
+   Example helm chart validation errors (which caused the *Submit* button to be disabled)
+
+   |image28|
 
 #. Click *Submit* to add the VSP to the catalog.
 
@@ -326,9 +342,25 @@ Upload a new onboarding package to a VSP. Afterward, update the VF/PNF and servi
    displays the files and a success message. If validation fails, SDC displays
    the errors in the files.
 
+   In case the SDC Helm Validator is enabled in SDC configuration file and the
+   onboarding package is a CNF which contains any helm charts listed in MANIFEST.json
+   and marked as type=HELM, there will be an attempt to make a request to the Helm Validator
+   for each chart, to check its validity. More information on Helm Validator can be found :ref:`here<sdc_helm_validator>`.
+
+   This validation feature is enabled by default, and checks, if the chart can be deployed by
+   running helm template command. Helm v3 libraries are used for validation.
+
    Example Heat errors:
 
    |image9|
+
+   Example helm chart validation warnings:
+
+   |image27|
+
+   Example helm chart validation errors (which caused the *Submit* button to be disabled)
+
+   |image28|
 
 #. Click *Submit* to add the new VSP version to the catalog.
     After filling a comment, press *Commit&Submit* and the
@@ -409,3 +441,7 @@ the *cert* block in the following values file::
 .. |image25| image:: media/sdro-vsp-version.png
 
 .. |image26| image:: media/sdro-vsp-version-dialog.png
+
+.. |image27| image:: media/sdro-design-onboardcnf-helm-validator-warnings.png
+
+.. |image28| image:: media/sdro-design-onboardcnf-helm-validator-errors.png
