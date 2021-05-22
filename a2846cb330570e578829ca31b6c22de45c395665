@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "b948c746_537910c0",
+        "filename": "docs/guides/onap-documentation/index.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-05-22T14:31:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b4e8e238_7fcb199b",
+      "range": {
+        "startLine": 3,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 22
+      },
+      "revId": "a2846cb330570e578829ca31b6c22de45c395665",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0551b5e1_c4c053c4",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 12
