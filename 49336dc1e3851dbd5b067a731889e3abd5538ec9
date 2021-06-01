@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8c9e5c27_3698b944",
+        "filename": "tools/getrsttitle.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-06-01T17:40:04Z",
+      "side": 1,
+      "message": "licence missing",
+      "revId": "49336dc1e3851dbd5b067a731889e3abd5538ec9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5d9c0087_241d620a",
+        "filename": "tools/getrsttitle.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-06-01T17:40:04Z",
+      "side": 1,
+      "message": "No need to keep these lines in comment",
+      "revId": "49336dc1e3851dbd5b067a731889e3abd5538ec9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "be0c1554_e7949bc9",
+        "filename": "tools/getrsttitle.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-06-01T17:40:04Z",
+      "side": 1,
+      "message": "white space to be removed",
+      "revId": "49336dc1e3851dbd5b067a731889e3abd5538ec9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea2efa40_40202011",
+        "filename": "tools/getrsttitle.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-06-01T17:40:04Z",
+      "side": 1,
+      "message": "comments to be removed",
+      "revId": "49336dc1e3851dbd5b067a731889e3abd5538ec9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "47275927_acd986e9",
+        "filename": "tools/getrsttitle.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-06-01T17:40:04Z",
+      "side": 1,
+      "message": "tab to be removed",
+      "revId": "49336dc1e3851dbd5b067a731889e3abd5538ec9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "98cf7dde_baad40a5",
+        "filename": "tools/getrsttitle.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-06-01T17:40:04Z",
+      "side": 1,
+      "message": "why keeping these comments ?",
+      "revId": "49336dc1e3851dbd5b067a731889e3abd5538ec9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e02e90d5_548e864f",
+        "filename": "tools/wiki_lifecycle_state_210517.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-06-01T17:40:04Z",
+      "side": 1,
+      "message": "Avoid name file with the date...When we change the file content, we should change the name",
+      "revId": "49336dc1e3851dbd5b067a731889e3abd5538ec9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
