@@ -71,3 +71,4 @@ target/
 
 #MacOs
 .DS_Store
+.vscode/settings.json

@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.7 (2021-04-12)"
+script_version="1.9 (2021-05-31)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -366,8 +366,11 @@ do
         printf "\nconf.py files:\n"
         find ./$reponame -type f -name conf.py | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_confpy.log
 
-        printf "\nindex.rst files:\n"
-        find ./$reponame -type f -name index.rst | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_indexrst.log
+        printf "\nindex.rst files (all):\n"
+        find ./$reponame -type f -name index.rst | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_indexrst_all.log
+
+        printf "\nindex.rst files (docs root directory):\n"
+        find ./$reponame -type f -name index.rst | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | grep ']/docs/index.rst' | tee -a ${branch}_indexrst_docs_root.log
 
         printf "\nINFO.yaml files:\n"
         find ./$reponame -type f -name INFO.yaml | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_infoyaml.log
@@ -380,6 +383,12 @@ do
     gitexitcode=""
 
   done <${repolist}
+
+  # get (first) title for a rst file
+  drawline
+  python3 ../getrsttitle.py ${branch}_rstfiles.log | tee ${branch}_rstfiles_titles.log
+  drawline
+  python3 ../getrsttitle.py ${branch}_indexrst_docs_root.log | tee ${branch}_indexrst_docs_root_titles.log
 
   # examine repos
   drawline
@@ -637,6 +646,7 @@ do
   # csv column #11: conf.py
   # csv column #12: tox.ini
   # csv column #13: index.rst
+  # csv column #14: first title in index.rst
   #
   # columns are filled with values from requested branch.
   # if data is not available values from master branch are used.
@@ -645,7 +655,7 @@ do
 
   readarray -t array < ./${repolist};
   i=0
-  csv[$i]="${csv[i]},docs,conf.py,tox.ini,index.rst"
+  csv[$i]="${csv[i]},docs,conf.py,tox.ini,index.rst,first title in index.rst"
   ((i++))
   for line in "${array[@]}"
   do
@@ -699,13 +709,16 @@ do
       docs="${docs},-"
     fi
 
-    # index.rst
+    # index.rst, first title in index.rst
+    indexrsttitle=""
     if [ -f ./${line}/docs/index.rst ] ; then
-      docs="${docs},index.rst"
+      indexrsttitle=$(cat ${branch}_indexrst_docs_root_titles.log | grep -F '['${line}']/docs/index.rst,' | awk -F "," '{print $2}');
+      docs="${docs},index.rst,${indexrsttitle}"
     elif [ -f ../master/${line}/docs/index.rst ] ; then
-      docs="${docs},(index.rst)"
+      indexrsttitle=$(cat ../master/master_indexrst_docs_root_titles.log | grep -F '['${line}']/docs/index.rst,' | awk -F "," '{print $2}');
+      docs="${docs},(index.rst),(${indexrsttitle})"
     else
-      docs="${docs},-"
+      docs="${docs},-,-"
     fi
 
     #echo "DBUG: docs=${docs}"
@@ -718,8 +731,8 @@ do
   unset docs
 
   #
-  # csv column #14: index.html@RTD accessibility check
-  # csv column #15: index.html url
+  # csv column #15: index.html@RTD accessibility check
+  # csv column #16: index.html url
   #
 
   readarray -t array < ./${branch}_repoclone.log;
@@ -832,7 +845,7 @@ do
   done
 
   #
-  # csv column #16: release notes
+  # csv column #17: release notes
   #
 
   readarray -t array < ../${repolist};
