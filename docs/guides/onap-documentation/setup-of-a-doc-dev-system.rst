@@ -42,7 +42,7 @@ Release Relevance
    8.0.0 (Honolulu) - 1.0.0 (Amsterdam)
 
 Last Review/Update
-   none
+   06/02/2021
 
 Initial Release
    05/12/2021
@@ -59,20 +59,20 @@ Author (Company)
 Introduction
 ============
 
-Formal ONAP documentation uses the reStructuredText markup language and the
-files have an ``.rst`` extension. They are part of almost every ONAP project
-and can be found in the ``docs`` directory. The files are automatically
-processed and you find the final ONAP documentation build hosted on
-`ReadTheDocs <https://docs.onap.org>`__.
-
 This guide provides a detailed description to set up a system suitable to
-create, check and preview documentation locally. The targeted readership is
+create, check and preview documentation locally. The targeted readership are
 beginners and people interested in creating documentation.
 
 The guide describes the setup of a development system from scratch using the
 Ubuntu Desktop version installed in a virtual machine. It includes all required
 steps and also some optional ones that may ease your daily work with this
 development system. Feel free to adapt it to your needs.
+
+In general, formal ONAP documentation uses the reStructuredText markup language
+and the files have an ``.rst`` extension. They are part of almost every ONAP
+project and can be found in the ``docs`` directory. The files are automatically
+processed and you find the final ONAP documentation build hosted on
+`ReadTheDocs <https://docs.onap.org>`__.
 
 -------------------------------------------------------------------------------
 
@@ -296,6 +296,7 @@ your terminal has changed. Now it starts with ``(onapdocs)``.
    pip3 install sphinxcontrib-swaggerdoc
    pip3 install sphinxcontrib-plantuml
    pip3 install lfdocs-conf
+   pip3 install pylint
 
    which sphinx-build
 
@@ -431,17 +432,17 @@ Press :guilabel:`Install` if you have found the required extension.
 
 Please install ...
 
-+--------------------+-----------------------------------------+
-| Python             | ms-python.python                        |
-+--------------------+-----------------------------------------+
-| reStructuredText   | lextudio.restructuredtext               |
-+--------------------+-----------------------------------------+
-| Code Spell Checker | streetsidesoftware.code-spell-checker   |
-+--------------------+-----------------------------------------+
-| Prettier           | esbenp.prettier-vscode                  |
-+--------------------+-----------------------------------------+
-| GitLens            | eamodio.gitlens                         |
-+--------------------+-----------------------------------------+
++-----------------------+-----------------------------------------+
+| Python                | ms-python.python                        |
++-----------------------+-----------------------------------------+
+| reStructuredText      | lextudio.restructuredtext               |
++-----------------------+-----------------------------------------+
+| Code Spell Checker    | streetsidesoftware.code-spell-checker   |
++-----------------------+-----------------------------------------+
+| Prettier              | esbenp.prettier-vscode                  |
++-----------------------+-----------------------------------------+
+| GitLens               | eamodio.gitlens                         |
++-----------------------+-----------------------------------------+
 
 Configure reStructuredText extension
 ------------------------------------
@@ -543,8 +544,8 @@ your system first.
 Optional VSC Configuration
 ==========================
 
-Ruler
------
+Add Ruler
+---------
 
 To add a ruler that indicates the line end at 79 characters, open
 :guilabel:`File` > :guilabel:`Preferences` > :guilabel:`Settings` and enter
@@ -557,6 +558,15 @@ the value ``79``. The result should look like this:
     "editor.rulers": [
         79
     ]
+
+Disable Synchronized Scrolling of Editor and Preview
+----------------------------------------------------
+
+To disable the synchronized scrolling of editor and preview, open
+:guilabel:`File` > :guilabel:`Preferences` > :guilabel:`Settings` and
+search for ``Restructuredtext › Preview: Scroll``. Then uncheck
+:guilabel:`Restructuredtext › Preview: Scroll Editor With Preview` and
+:guilabel:`Restructuredtext › Preview: Scroll Preview With Editor`
 
 -------------------------------------------------------------------------------
 
@@ -572,13 +582,13 @@ Firefox Add-ons
 Open :guilabel:`Add-Ons and Themes`, then search and install the following
 add-ons:
 
-+----------------------------+-------------------------------+
-| I don't care about cookies | Get rid of cookie warnings.   |
-+----------------------------+-------------------------------+
-| UBlock Origin              | A wide-spectrum blocker.      |
-+----------------------------+-------------------------------+
-| LastPass Password Manager  | Used in the Linux Foundation. |
-+----------------------------+-------------------------------+
++------------------------------+-------------------------------+
+| I don't care about cookies   | Get rid of cookie warnings.   |
++------------------------------+-------------------------------+
+| UBlock Origin                | A wide-spectrum blocker.      |
++------------------------------+-------------------------------+
+| LastPass Password Manager    | Used in the Linux Foundation. |
++------------------------------+-------------------------------+
 
 ReText Editor
 -------------
@@ -597,6 +607,16 @@ Helpful Resources
 This is a collection of helpful resources if you want to extend and deepen your
 knowledge.
 
+Documentation
+-------------
+
+- `Write The Docs: Documentation Guide <https://www.writethedocs.org/guide>`__
+
+Git
+---
+
+- `How To Install Git on Ubuntu 20.04 <https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04>`__
+
 Python
 ------
 
@@ -606,6 +626,12 @@ Python
 - `Getting Started with Python in VS Code <https://code.visualstudio.com/docs/python/python-tutorial>`__
 - `Linux Foundation Docs Conf <https://pypi.org/project/lfdocs-conf/>`__
 
+ReadTheDocs Sphinx Theme
+------------------------
+
+- `ReadTheDocs Sphinx Theme (Recommended Reading!) <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`__
+- `ReadTheDocs Sphinx Theme Configuration <https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html>`__
+
 reStructuredText
 ----------------
 
@@ -614,11 +640,10 @@ reStructuredText
 - `reStructuredText and Sphinx Cheat Sheet II <https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html>`__
 - `Online reStructuredText Editor <http://rst.ninjs.org/#>`__
 
-ReadTheDocs Sphinx Theme
-------------------------
+Ubuntu
+------
 
-- `ReadTheDocs Sphinx Theme (highly recommended) <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`__
-- `ReadTheDocs Sphinx Theme Configuration <https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html>`__
+- `Virtualized Ubuntu Desktop Edition <https://linuxconfig.org/ubuntu-20-04-system-requirements>`__
 
 Visual Studio Code (VSC)
 ------------------------
@@ -626,16 +651,6 @@ Visual Studio Code (VSC)
 - `VSC Basic Editing <https://code.visualstudio.com/docs/editor/codebasics>`__
 - `Code Formatting with Prettier in Visual Studio Code <https://www.digitalocean.com/community/tutorials/code-formatting-with-prettier-in-visual-studio-code>`__
 - `VSC Icons <https://github.com/microsoft/vscode-icons>`__
-
-Git
----
-
-- `How To Install Git on Ubuntu 20.04 <https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04>`__
-
-Documentation
--------------
-
-- `Write The Docs: Documentation Guide <https://www.writethedocs.org/guide>`__
 
 -------------------------------------------------------------------------------
 
