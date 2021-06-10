@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.9 (2021-05-31)"
+script_version="1.10 (2021-06-10)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -119,13 +119,13 @@ function getwikilifecyclestate {
   local wikistate=""
 
   return_from_getwikilifecyclestate=""
-   
+
   for wikiline in "${wikiplsarray[@]}"
   do
-  
+
      wikirepo=$(echo $wikiline | awk -F ";" '{print $1}');
     wikistate=$(echo $wikiline | awk -F ";" '{print $2}');
-    
+
     #echo "DBUG: getwikilifecyclestate  wikiline = \"${wikiline}\"";
     #echo "DBUG: getwikilifecyclestate  wikirepo = \"${wikirepo}\""
     #echo "DBUG: getwikilifecyclestate wikistate = \"${wikistate}\""
@@ -142,6 +142,55 @@ function getwikilifecyclestate {
 
   #echo "DBUG: getwikilifecyclestate requested \"${requested}\" NOT FOUND in list"
   return_from_getwikilifecyclestate=""
+
+}
+
+# function to parse release partizipation information
+# call:   getrpinfo "projectname"
+# result: $return_from_getrpinfo
+# because bash supports only returning numeric values a variable $return_from_getrpinfo is used
+
+function getrpinfo {
+
+  local requested=$1
+
+  # clean up first
+  local rpdetails=""
+  local rpline=""
+  local rprepo=""
+  local rpproject=""
+  local current_branch_starting_letter=""
+        return_from_getrpinfo=""
+
+  # finds first matching line in the array using grep (currently every line shows the same partizipation for the project (NOT repository!) )
+  # this is much faster then looping line by line
+     rpline=$(IFS=$'\n'; echo "${rparray[*]}" | grep -m 1 ";${requested};");
+     rpline=$(echo ${rpline} | tr -d '^M')
+     rprepo=$(echo ${rpline} | awk -F ";" '{print $1}');
+  rpproject=$(echo ${rpline} | awk -F ";" '{print $2}');
+  # concatenate details to do an easy grep later on to find out if or if not the project/repo has partizipated to a release
+  rpdetails=$(echo ${rpline} | awk -F ";" '{print "-" $3 "-" $4 "-" $5 "-" $6 "-" $7 "-" $8 "-" $9 "-" $10 "-" $11 "-" $12 "-"}');
+
+  # result will be e.g. "-g" and this avoids false positives with the "m" release
+  # (because "m" is also used to indicate the maintenance release, e.g. "gm")
+  current_branch_starting_letter="-${branch:0:1}"
+
+  #echo "DBUG: getrpinfo ****************************";
+  #echo "DBUG: getrpinfo requested = \"${requested}\"";
+  #echo "DBUG: getrpinfo rpproject = \"${rpproject}\"";
+  #echo "DBUG: getrpinfo rpdetails = \"${rpdetails}\"";
+  #echo "DBUG:      current branch = \"${branch}\"";
+  #echo "DBUG:     starting_letter = \"${current_branch_starting_letter}\"";
+
+  # check
+  if [[ ${rpproject} = ${requested} ]] && [[ "${rpdetails}" == *"${current_branch_starting_letter}"* ]]; then
+    return_from_getrpinfo="project partizipated"
+    #echo "DBUG:  getrpinfo return = \"${return_from_getrpinfo}\"";
+    return 0;
+  fi
+
+  #echo "DBUG: getrpinfo requested \"${requested}\" NOT FOUND in list"
+  return_from_getrpinfo=""
 
 }
 
@@ -235,28 +284,32 @@ echo " "
 #
 
 wikiplsfile=$(ls | sed -nr '/wiki_lifecycle_state_[0-9]{6}.txt/Ip' | tail -1);
-
 if [[ $wikiplsfile == "" ]]; then
   echo "ERROR: wiki_lifecycle_state_yymmdd.txt missing"
   exit -1
 fi
-
 echo "Using \"${wikiplsfile}\" as the source for wiki (project) lifecycle state information."
-
 readarray -t wikiplsarray < ./${wikiplsfile};
-i=0
-((i++))
-for line in "${wikiplsarray[@]}"
-do
-   wikiplsrepo=$(echo $line | awk -F ";" '{print $1}');
-  wikiplsstate=$(echo $line | awk -F ";" '{print $2}');
-  #echo "DBUG: wikipls line=\"${line}\"";
-  #echo "DBUG: wikipls ${wikiplsrepo}=${wikiplsstate}"
-  ((i++))
-done
-unset i
-unset wikiplsrepo
-unset wikiplsstate
+
+#
+# read in release_partizipation_YYMMDD.csv file
+# always use the latest available file (derived from date in filename e.g. release_partizipation_210409.csv)
+# format is: $1=repository;$2=project;$3=g;$4=gm;$5=h;$6=hm;$7=i;$8=im;$9=j;$10=jm;$11=k;$12=km;;;;
+# example: "g"  = project partizipated to the (g)uilin release
+#          "gm" = project partizipated to the (g)uilin (m)aintenance release
+# file may contain windows control charaters at end of line (^M)
+#
+
+rpfile=$(ls | sed -nr '/release_partizipation_[0-9]{6}.csv/Ip' | tail -1);
+if [[ $rpfile == "" ]]; then
+  echo "ERROR: release_partizipation_yymmdd.csv missing"
+  exit -1
+fi
+echo "Using \"${rpfile}\" as the source for release partizipation information."
+readarray -t rparray < ./${rpfile};
+# remove first line
+rparray=("${rparray[@]:1}")
+# printf '%s\n' "${rparray[@]}"
 
 #
 # curl must be installed
@@ -358,7 +411,7 @@ do
         find ./$reponame -type f -name *.rst | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_rstfiles.log
 
         printf "\nrelease notes rst:\n"
-        find ./$reponame -type f | grep 'release.*note.*.rst' | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_releasenotes.log
+        find ./$reponame -type f | grep '.*release.*note.*.rst' | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_releasenotes.log
 
         printf "\ntox.ini files:\n"
         find ./$reponame -type f -name tox.ini | sed -r 's:./::' | sed -r s:${reponame}:[${reponame}]: | tee -a ${branch}_toxini.log
@@ -541,7 +594,7 @@ do
   unset i
   unset reponame
   unset latestbranch
-  
+
   #
   # csv column #6: INFO.yaml LC state (project lifecycle state based on INFO.yaml / per repo)
   # csv column #7: WIKI LC state (project lifecycle state based on ONAP Dev Wiki / per project)
@@ -562,7 +615,7 @@ do
       lifecycleproject=$(grep '^project: ' ./${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
       lifecyclestate=$(grep '^lifecycle_state: ' ./${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
     elif [ ${branch} != "master" ] && [ -f ../master/${reponame}/INFO.yaml ] ; then
-      # if current branch is not master AND if info.yaml not found in the current repo/branch THAN use INFO.yaml of repo/master if available
+      # IF current branch is not master AND if info.yaml not found in the current repo/branch THAN use INFO.yaml of repo/master if available
       #echo "DBUG: branch=${branch} - checking master for INFO.yaml"
       lifecycleproject=$(grep '^project: ' ../master/${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
       lifecyclestate=$(grep '^lifecycle_state: ' ../master/${reponame}/INFO.yaml | awk -F ":" '{print $2}' | sed 's:^ ::' | sed "s:'::g" | tr '[:upper:]' '[:lower:]' | sed 's/\r$//')
@@ -570,7 +623,7 @@ do
     else
       lifecyclestate="INFO.yaml not found"
     fi
-      
+
     getwikilifecyclestate ${project}
     # returns value in ${return_from_getwikilifecyclestate}
 
@@ -584,7 +637,7 @@ do
       lcstatesmatch="match"
     else
       lcstatesmatch=""
-    fi 
+    fi
 
     csv[i]="${csv[i]},${lifecyclestate},${return_from_getwikilifecyclestate},${lcstatesmatch}"
     ((i++))
@@ -601,7 +654,7 @@ do
   # csv column #9: RELEASE component (yes|maybe|unknown)
   # to be filled with values of the planned release config file maintained by
   # the onap release manager
-  #
+  # NOR FUNCTIONAL YET
 
   # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
   readarray -t array < ./${branch}_repoclone.log;
@@ -617,18 +670,21 @@ do
       repostate=$(echo $line | awk -F "|" '{print $3}');
        errormsg=$(echo $line | awk -F "|" '{print $4}');
 
-    if [[ ${repostate} == "ACTIVE" && ${gitexitcode} == "0" ]]; then
-      releasecomponent="yes"
-    elif [ ${repostate} == "ACTIVE" ]; then
-    #elif [[ ${repostate} == "ACTIVE" && ${gitexitcode} == "128" ]]; then
-      releasecomponent="maybe"
-    elif [[ ${repostate} == "READ_ONLY" && ${gitexitcode} == "0" ]]; then
-      releasecomponent="yes"
-    elif [ ${repostate} == "READ_ONLY" ]; then
-      releasecomponent="maybe"
-    else
-      releasecomponent="unknown"
-    fi
+    #if [[ ${repostate} == "ACTIVE" && ${gitexitcode} == "0" ]]; then
+    #  releasecomponent="yes"
+    #elif [ ${repostate} == "ACTIVE" ]; then
+    ##elif [[ ${repostate} == "ACTIVE" && ${gitexitcode} == "128" ]]; then
+    #  releasecomponent="maybe"
+    #elif [[ ${repostate} == "READ_ONLY" && ${gitexitcode} == "0" ]]; then
+    #  releasecomponent="yes"
+    #elif [ ${repostate} == "READ_ONLY" ]; then
+    #  releasecomponent="maybe"
+    #else
+    #  releasecomponent="unknown"
+    #fi
+
+    # not functional yet!
+    releasecomponent=""
 
     csv[i]="${csv[i]},${releasecomponent}"
     ((i++))
@@ -642,11 +698,52 @@ do
   unset releasecomponent
 
   #
-  # csv column #10: docs (at repo root directory only; no recursive search!)
-  # csv column #11: conf.py
-  # csv column #12: tox.ini
-  # csv column #13: index.rst
-  # csv column #14: first title in index.rst
+  # csv column #10: RELEASE partizipation
+  #
+
+  # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
+  readarray -t array < ./${branch}_repoclone.log;
+  i=0
+  csv[i]="${csv[i]},${branch_upper} partizipation"
+  ((i++))
+  echo "INFO: determine release partizipation for project ..."
+  for line in "${array[@]}"
+  do
+
+    # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
+    gitexitcode=$(echo $line | awk -F "|" '{print $1}');
+       reponame=$(echo $line | awk -F "|" '{print $2}');
+      repostate=$(echo $line | awk -F "|" '{print $3}');
+       errormsg=$(echo $line | awk -F "|" '{print $4}');
+    projectname=$(echo $reponame | sed 's:/.*$::')
+
+    if [[ $branch == "master" ]]; then
+      return_from_getrpinfo="";
+    else
+      #echo "DBUG: calling getrpinfo for projectname ${projectname}"
+      getrpinfo ${projectname}
+    fi
+
+    csv[i]="${csv[i]},${return_from_getrpinfo}"
+    ((i++))
+
+  done
+
+  unset array
+  unset i
+  unset gitexitcode
+  unset reponame
+  unset repostate
+  unset errormsg
+  unset projectname
+  unset return_from_getrpinfo
+
+  #
+  # csv column #11: docs (at repo root directory only; no recursive search!)
+  # csv column #12: conf.py
+  # csv column #13: tox.ini
+  # csv column #14: index.rst
+  # csv column #15: first title in index.rst
   #
   # columns are filled with values from requested branch.
   # if data is not available values from master branch are used.
@@ -701,7 +798,7 @@ do
       # tox.ini @ master/project root dir
       if [ -f ../master/${line}/tox.ini ] ; then
         docs="${docs} @root"
-      fi   
+      fi
       # just add a round bracket at the end of the value
       docs="${docs})"
     else
@@ -712,10 +809,10 @@ do
     # index.rst, first title in index.rst
     indexrsttitle=""
     if [ -f ./${line}/docs/index.rst ] ; then
-      indexrsttitle=$(cat ${branch}_indexrst_docs_root_titles.log | grep -F '['${line}']/docs/index.rst,' | awk -F "," '{print $2}');
+      indexrsttitle=$(cat ${branch}_indexrst_docs_root_titles.log | grep -F '['${line}']/docs/index.rst,' | awk -F "," '{print $4}');
       docs="${docs},index.rst,${indexrsttitle}"
     elif [ -f ../master/${line}/docs/index.rst ] ; then
-      indexrsttitle=$(cat ../master/master_indexrst_docs_root_titles.log | grep -F '['${line}']/docs/index.rst,' | awk -F "," '{print $2}');
+      indexrsttitle=$(cat ../master/master_indexrst_docs_root_titles.log | grep -F '['${line}']/docs/index.rst,' | awk -F "," '{print $4}');
       docs="${docs},(index.rst),(${indexrsttitle})"
     else
       docs="${docs},-,-"
@@ -731,8 +828,8 @@ do
   unset docs
 
   #
-  # csv column #15: index.html@RTD accessibility check
-  # csv column #16: index.html url
+  # csv column #16: index.html@RTD accessibility check
+  # csv column #17: index.html url
   #
 
   readarray -t array < ./${branch}_repoclone.log;
@@ -845,7 +942,7 @@ do
   done
 
   #
-  # csv column #17: release notes
+  # csv column #18: release notes
   #
 
   readarray -t array < ../${repolist};
@@ -867,7 +964,7 @@ do
     # check if repo dir exists in this branch
     if [ -d ./${line} ] ; then
       # if yes, check if repo name appears in the branch releasenotes.log
-      relnote=$(find "./${line}" -type f | grep 'release.*note.*.rst' | wc -l);
+      relnote=$(find "./${line}" -type f | grep '.*release.*note.*.rst' | wc -l);
       #echo "DBUG: relnote=${relnote}"
       # repo dir DOES NOT exist in this branch - so check if repo dir exists in MASTER branch
     elif [ -d ../master/${line} ] ; then
@@ -908,7 +1005,8 @@ do
   datadir=${branch}_data
   mkdir $datadir
   cp $repolist $datadir
-  cp $wikiplsfile $datadir
+  cp ../$wikiplsfile $datadir
+  cp ../$rpfile $datadir
   cp ${branch}_table.csv $datadir
   cp ${branch}_*.log $datadir
   zip -r ${datadir}.zip $datadir
