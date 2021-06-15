@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "12fcee7e_c0563abb",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-06-15T07:29:44Z",
+      "side": 1,
+      "message": "Please move to unmaintained (https://wiki.onap.org/display/Meetings/TSC+2021-05-27)",
+      "range": {
+        "startLine": 29,
+        "startChar": 8,
+        "endLine": 29,
+        "endChar": 15
+      },
+      "revId": "574fbc8e948d5c69b9d85cd248d1a00937419356",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "18d92f95_91fccf42",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2679
+      },
+      "writtenOn": "2021-06-15T07:29:44Z",
+      "side": 1,
+      "message": "Please move to unmaintained (https://wiki.onap.org/display/Meetings/TSC+2021-05-27)",
+      "revId": "574fbc8e948d5c69b9d85cd248d1a00937419356",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
