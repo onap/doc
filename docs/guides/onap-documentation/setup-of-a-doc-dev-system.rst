@@ -42,7 +42,7 @@ Release Relevance
    8.0.0 (Honolulu) - 1.0.0 (Amsterdam)
 
 Last Review/Update
-   06/02/2021
+   06/16/2021
 
 Initial Release
    05/12/2021
@@ -639,6 +639,11 @@ reStructuredText
 - `reStructuredText and Sphinx Cheat Sheet I <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`__
 - `reStructuredText and Sphinx Cheat Sheet II <https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html>`__
 - `Online reStructuredText Editor <http://rst.ninjs.org/#>`__
+
+Sphinx
+------
+
+- `Sphinx Documentation Generator <https://https://www.sphinx-doc.org/en/master/>`__
 
 Ubuntu
 ------
