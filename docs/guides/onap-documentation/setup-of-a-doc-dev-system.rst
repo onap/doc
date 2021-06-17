@@ -42,7 +42,7 @@ Release Relevance
    8.0.0 (Honolulu) - 1.0.0 (Amsterdam)
 
 Last Review/Update
-   06/02/2021
+   06/17/2021
 
 Initial Release
    05/12/2021
@@ -322,8 +322,8 @@ installed applications are up to date.
 
 -------------------------------------------------------------------------------
 
-Clone example repo and start VSC (no LF account)
-================================================
+Clone example repo (no LF account)
+==================================
 
 Clone repo
 ----------
@@ -336,23 +336,10 @@ Linux Foundation (LF) account with ...
    cd ~/environments/onapdocs
    git clone --branch master https://git.onap.org/doc/ ./doc
 
-Start VSC
----------
-
-Start VSC in the ``doc`` repo directory with ...
-
-.. code-block:: bash
-
-   cd doc
-   code .
-
-.. tip:: ``~/environments/onapdocs/doc`` is now your ``${workspaceFolder}``
-   because you have started VSC (``code``) from here!
-
 -------------------------------------------------------------------------------
 
-Clone example repo and start VSC (LF account used)
-==================================================
+Clone example repo (LF account used)
+====================================
 
 Prerequisite configuration
 --------------------------
@@ -386,18 +373,22 @@ Clone repo
    cd ~/environments/onapdocs
    git clone --recurse-submodules ssh://<GIT-USER>@gerrit.onap.org:29418/doc
 
-Start VSC
----------
+-------------------------------------------------------------------------------
 
-Start VSC in the ``doc`` repo directory with ...
+Start VSC in the correct directory
+==================================
+
+Start VSC (always) in the ``docs`` directory of your repository. For the
+``doc`` repository used in this example do this with ...
 
 .. code-block:: bash
 
    cd doc
+   cd docs
    code .
 
-.. tip:: ``~/environments/onapdocs/doc`` is now your ``${workspaceFolder}``
-   because you have started VSC (``code``) from here!
+.. tip:: ``~/environments/onapdocs/doc/docs`` is now your
+   ``${workspaceFolder}`` because you have started VSC (``code .``) from here!
 
 -------------------------------------------------------------------------------
 
@@ -485,6 +476,10 @@ Select :guilabel:`View` > :guilabel:`Explorer`. Alternatively you can use the
 |FileExpl| symbol in the upper left corner. Expand the ``docs`` folder by
 clicking on the ``>`` symbol. Select the file ``index.rst``. The code shows up
 in the right pane window of VSC.
+
+Alternatively you can open this guide and see how it looks in the
+reStructuredText format. It can be found in ``docs/guides/onap-documentation``
+and is named ``setup-of-a-doc-dev-system.rst``.
 
 Problem Window
 --------------
@@ -639,6 +634,11 @@ reStructuredText
 - `reStructuredText and Sphinx Cheat Sheet I <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`__
 - `reStructuredText and Sphinx Cheat Sheet II <https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html>`__
 - `Online reStructuredText Editor <http://rst.ninjs.org/#>`__
+
+Sphinx
+------
+
+- `Sphinx Documentation Generator <https://www.sphinx-doc.org/en/master/>`__
 
 Ubuntu
 ------
