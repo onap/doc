@@ -7,6 +7,9 @@
 Open Network Automation Platform Overview
 =========================================
 
+.. raw:: html
+  :file: media/archmap-reworked-058-links.svg
+
 The Open Network Automation Platform (ONAP) project addresses the
 rising need for a **common automation platform for telecommunication, cable,
 and cloud service providers**—and their solution providers— that enables the
