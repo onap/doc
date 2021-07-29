@@ -69,7 +69,7 @@ Installing git-review
 
     pip install git-review
 
-.. note:: If you don’t have pip installed already, follow the `installation documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py>`_ for pip.
+.. note:: If you don’t have pip installed already, follow the `installation documentation <https://pip.pypa.io/en/stable/installation/>`_ for pip.
 
 Setting up gerrit
 ~~~~~~~~~~~~~~~~~
