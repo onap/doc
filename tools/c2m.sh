@@ -58,10 +58,13 @@
 ###
 ### CHANGELOG (LATEST ON TOP)
 ###
+### 1.2.0 (2021-08-02) Corrections to http/https proxy handling and support to
+###                    get Confluence credentials from env variables instead of
+###                    directly from the code.
 ### 1.1.0 (2020-03-10) added support for http/https proxy and anonymous wiki
 ###                    access. thx to eric, nicolas and sylvain (orange, france)
 ###                    confluence2md jar file now has to be in the same path as
-###                    c2m. 
+###                    c2m.
 ### 1.0.0 (2020-03-09) initial release
 ###
 
@@ -104,13 +107,22 @@
 ### some initial variables
 ###
 
-script_version="1.1.0 (2020-03-10)"
+script_version="1.2.0 (2021-08-02)"
 
-          user="*****";        # replace ***** with your wiki login name
-        passwd="*****";        # replace ***** with your wiki password
-   credentials="${user}":"${passwd}";
-        server="https://wiki.onap.org";
-    rst_editor="retext --preview";
+if [[ -z "$CONFLUENCE_USERNAME" || -z "$CONFLUENCE_PASSWORD" ]]
+then
+    echo "Mandatory environment variables:"
+    echo "  CONFLUENCE_USERNAME: Confluence username"
+    echo "  CONFLUENCE_PASSWORD: Confluence password."
+    echo "Be aware! Setting bash debuging on will print credentials."
+    exit
+fi
+
+user="${CONFLUENCE_USERNAME}";
+passwd="${CONFLUENCE_PASSWORD}";
+credentials="${user}":"${passwd}";
+server="https://wiki.onap.org";
+rst_editor="retext --preview";
 
 # remove credentials for those using anonymous access
 test "${credentials}" = "*****:*****" && credentials=""
@@ -205,12 +217,27 @@ function pull_pages_from_wiki {
   #out_file="${page_title}-id${page_id}";
   out_file="${page_title}";
 
-  # set proxy for those who need
-  test -n "${http_proxy}" && proxy="$(echo $http_proxy |sed -e 's,http://,-Dhttp.proxyHost=,' -e 's/:/ -Dhttp.proxyPort=/' -e 's:/$::')"
-  test -n "${https_proxy}" && proxy="$proxy $(echo $https_proxy |sed -e 's,http://,-Dhttps.proxyHost=,' -e 's/:/ -Dhttps.proxyPort=/' -e 's:/$::')"
+  # set proxy if needed  
+  if [[ -v http_proxy && ! -z "$http_proxy" ]]; then
+    proxy_to_parse="${http_proxy/http:\/\//""}";
+    echo "http_proxy is set to \"${proxy_to_parse}\"";
+  elif [[ -v https_proxy && ! -z "$https_proxy" ]]; then
+    proxy_to_parse="${https_proxy/https:\/\//""}";
+    echo "https_proxy is set to \"${proxy_to_parse}\"";
+  fi
 
+  if [[ $proxy_to_parse =~ ^([\.0-9]+) ]]; then
+    java_options=" -Dhttp.proxyHost=${BASH_REMATCH[1]}"
+    echo "${java_options}"
+  fi
+  if [[ $proxy_to_parse =~ .*:([0-9]+) ]]; then
+    java_options="${java_options} -Dhttps.proxyPort=${BASH_REMATCH[1]}"
+    echo "${java_options}"
+  fi
+
+  # TODO: -depth
   # pull pages from wiki and convert to markdown (as a source for conversion by pandoc)
-  java $proxy -jar "${basedir}"/confluence2md-2.1-fat.jar +H true +T false +RootPageTitle false +FootNotes true -maxHeaderDepth 7 -depth $depth -v true -o ${out_file}.md -u "${credentials}" -server $server $page_id
+  java $java_options -jar "${basedir}"/confluence2md-2.1-fat.jar +H true +T false +RootPageTitle false +FootNotes true -maxHeaderDepth 7 -depth $depth -v true -o ${out_file}.md -u "${credentials}" -server $server $page_id
 }
 
 ###
@@ -282,7 +309,7 @@ done
 # the main loop reads the page_array line by line and processes the content
 for line in "${page_array[@]}"
 do
-
+    echo "INFO - bupp $line"
     # cut out values from the current line (delimiter is now the "|") and assign them to the correct variables
     hierarchy=$(echo $line | cut -f1 -d\|)
       page_id=$(echo $line | cut -f2 -d\|)
@@ -314,7 +341,7 @@ do
     echo "INFO page_id    = \"$page_id\""
     echo "INFO page_title = \"$page_title\""
     echo "INFO depth      = \"$depth\""
-
+           
     # create working directory - done for every! "hierarchy 0" entry of page_list
     if [ "$hierarchy" == "0" ]
     then
