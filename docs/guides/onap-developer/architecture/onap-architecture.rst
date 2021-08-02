@@ -99,19 +99,23 @@ Further, ONAP comes with a functional architecture with component definitions
 and interfaces, which provides a force of industry alignment in addition to
 the open source code.
 
-ONAP Architecture
-=================
+Architecture Overview
+=====================
 
 The ONAP architecture consists of a design time and run time functions, as well
 as functions for managing ONAP itself.
 
-**Figure 1 provides a high-level view of the ONAP architecture with its
+.. tip:: Use the interactive features of the below ONAP Architecture Overview.
+   Hover with your mouse over an element in the figure for a short description.
+   Click the element to get forwarded to a more detailed description.
+
+.. raw:: html
+   :file: media/onap-architecture-overview-r9-istanbul-interactive-path.svg
+
+**Figure 1: Interactive high-level view of the ONAP architecture with its
 microservices-based platform components.**
 
-|image1|
-
-
-Figure 2 below, provides a simplified functional view of the architecture,
+The figure below provides a simplified functional view of the architecture,
 which highlights the role of a few key components:
 
 #. ONAP Design time environment provides onboarding services and resources

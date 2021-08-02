@@ -1,0 +1,64 @@
+ONAP ARCHITECTURE OVERVIEW NOTES
+
+Version 0.9, 2021-07-19
+
+This file contains information about how the map and its interactive functions were realized in Inkscape and how it can be maintained.
+
+The map was designed in Inkscape 1.1 running on Ubuntu 20.04.
+
+The following fonts, styles and spacings are used: 
+sans-serif, bold, 18 pt
+sans-serif, bold, 9 pt
+sans-serif, normal, 18 pt
+sans-serif, normal, 9 pt
+spacing between baselines: 1,05 lines
+spacing between letters: -0,35 px
+spacing between words: -1,00 px
+
+Drawing: Rectangles have a stroke (width 2 or 4 mm). To avoid that the stroke rezizes in case you rezize the single rectangle, have a look at the Inkscape button "When scaling objects, scale the stroke width by the same proportion" and turn it off! But turn it on, if you like to scale the complete (grouped) map because you need it in a smaler size.
+
+Rezising: If you need to resize a grouped object (with a label) do not resize the full group because then also the label will resized and distorted. Select only the form you want to resize in the "Objects" window. Then rezize it according your needs. You do not have to ungroup label/form for this action!
+
+Text Alignment: Do not align text in a rectangle manually! Create a rectangle which has a stroke (2 mm, 4 mm) in the same color as the box, create text, format text, select both, box and text and choose menu "Text - Flow into Frame". Thats it! The stroke acts as a border.
+
+Open the "Objects" window (Objects - Objects) and use it as your central point to select objects. Try to avoid ungrouping objects.
+
+Open the "Objects Properties" window (Objects - Objects Properties) to see and change properties of the object.
+
+Text to Path: To avoid display problems caused of missing fonts you should release the map only when all characters are rendered as pathes. To do so, do all changes in the "master file" of this map. Save it, select all elemets (STRG-A) and choose "Path - Objects to Path" and save it again with a new name (e.g. map-path.svg). All character are now converted to pathes - and are not editable via the text edit tool anymore! But the map is expected to be rendered on every target system in the same way. Path conversion can not be undone - so store the "master file" carefully. Unfortunately the label-text in the map can not be searched anymore.
+
+Group the rectangle and the label first, then add the link. Otherwise the link is used only for the rectangle or the label and mouseover will not work properly.
+
+If you have added a link to a group, ungrouping deletes the link without a warning! Do not ungroup unless you are aware of what you will loose!
+
+Grouping / Link: To add a link to an object, first check that label and form are grouped before you add a link. Select the grouped object and use "Create Link" of the Context Menu. Now a new element/group is created. Rename it to something meaningful in the "Objects" window. Then use the "Objects attributes" window to add the link for this new element in the field "Href".
+See also:
+https://inkscape.org/doc/tutorials/tips/tutorial-tips.html
+https://www.petercollingridge.co.uk/tutorials/svg/interactive/
+
+Mouseover Text: Add mouseover-text to the field "Title:" in the "Objects attributes" window.
+
+Keep the structure of map elements clear and maintainable by using groups and proper labels for all of the objects. The name of an element or group must be changed manually in the "Objects" window.
+Example elements and structure:
++---designtime                     group that groups all designtime elements (visible and non-visible) of the map (not visible, manually created for reasons of clarity)
+    +--- ...                       other elements
+    +---designtime.link            group were values for interactivity (e.g. link, text, opacy effects) are assigned to (created by inkscape when you choose "Create Link")
+        +---designtime             group for the label and rectangle (not visible, manually created, required to have interactivity for both elements - rectangle and label)
+            +---designtime.label   label on top of the rectangle (visible, manually created)
+            +---designtime.form    rectangle for the architecture element (visible, manually created)
+
+Interactive Links and Tooltip Text in "Object Attributes":
+Href:
+https://docs.onap.org/
+Title:
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Mouse-Over Effect in "Object Properties" at "Interactivity":
+onmouseover:
+style.opacity = 0.6;
+onmouseout:
+style.opacity = 1.0;
+
+NOT USED - Links in "Object Properties / Interactivity":
+onlick:
+window.open("https://docs.onap.org/","_blank");
