@@ -8,7 +8,7 @@
 <!-- Copyright (C) 2021 Deutsche Telekom AG                                       -->
 
 <svg
-   sodipodi:docname="onap-architecture-overview-r9-istanbul-interactive.svg"
+   sodipodi:docname="onap-architecture-overview-r9-latest-interactive.svg"
    inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
    id="svg5"
    version="1.1"
@@ -30,15 +30,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1"
-     inkscape:cx="642"
-     inkscape:cy="510"
-     inkscape:window-width="2405"
-     inkscape:window-height="2043"
-     inkscape:window-x="1417"
-     inkscape:window-y="42"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer4"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="680.74997"
+     inkscape:cy="508.24997"
+     inkscape:window-width="3768"
+     inkscape:window-height="2096"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4419"
      height="190mm"
      showborder="true"
      inkscape:showpageshadow="true"
@@ -110,9 +110,9 @@
            inkscape:label="unmaintained.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan3869"><tspan
+             id="tspan5133"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0.2645835 -0.26458463"
-               id="tspan3867">Unmaintained ONAP Component</tspan></tspan></text>
+               id="tspan5131">Unmaintained ONAP Component</tspan></tspan></text>
       </g>
       <g
          id="g4786-5"
@@ -136,9 +136,9 @@
            inkscape:label="onapcomponents.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan3873"><tspan
+             id="tspan5137"><tspan
                dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458272 0 0.2645829 -0.26458272 0 0 0 0.2645835 -0.26458272"
-               id="tspan3871">Entirety of ONAP Components</tspan></tspan></text>
+               id="tspan5135">Entirety of ONAP Components</tspan></tspan></text>
       </g>
       <g
          id="g4770"
@@ -162,7 +162,7 @@
            transform="matrix(1.00026,0,0,1,-0.0728097,0)"><tspan
              x="279"
              y="237.80913"
-             id="tspan3875">Operations</tspan></text>
+             id="tspan5139">Operations</tspan></text>
       </g>
       <g
          id="g4776"
@@ -186,9 +186,9 @@
            transform="matrix(1.00026,0,0,1,-0.0602911,0)"><tspan
              x="231.00195"
              y="237.80913"
-             id="tspan3879"><tspan
+             id="tspan5143"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0.26458231 -0.26458272"
-               id="tspan3877">Orchestration &amp; Management</tspan></tspan></text>
+               id="tspan5141">Orchestration &amp; Management</tspan></tspan></text>
       </g>
       <g
          id="g4765"
@@ -211,7 +211,7 @@
            inkscape:label="design.label"><tspan
              x="183"
              y="237.80913"
-             id="tspan3881">Design</tspan></text>
+             id="tspan5145">Design</tspan></text>
       </g>
       <g
          id="g4781"
@@ -234,7 +234,7 @@
            inkscape:label="legend.label"><tspan
              x="3.0039062"
              y="237.86187"
-             id="tspan3883">LEGEND</tspan></text>
+             id="tspan5147">LEGEND</tspan></text>
       </g>
     </g>
     <g
@@ -255,7 +255,7 @@
          style="display:inline"
          transform="matrix(0.99999999,0,0,0.98486333,4.8571664e-6,2.4208863)">
         <rect
-           style="display:inline;fill:#e7e6e6;fill-opacity:1;stroke:#e7e6e6;stroke-width:4.03062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="display:inline;fill:#ffebc8;fill-opacity:1;stroke:#ffebc8;stroke-width:4.03062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="rect88-7"
            width="241.99524"
            height="66.064819"
@@ -271,10 +271,10 @@
            inkscape:label="managedenvironment.label"><tspan
              x="82.003906"
              y="165.55381"
-             id="tspan3887"><tspan
+             id="tspan5151"><tspan
                dx="0 0 0 0 0 0 0 0.26458254 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-               id="tspan3885">Managed Environment</tspan></tspan></text>
+               id="tspan5149">Managed Environment</tspan></tspan></text>
       </g>
       <g
          id="g29902"
@@ -286,7 +286,7 @@
            inkscape:label="connection"
            style="display:inline">
           <path
-             style="fill:none;stroke:#8c8c8c;stroke-width:1.13039;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:none;stroke:#ffc878;stroke-width:1.13039;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              d="M 115,224.47985 H 230"
              id="path85372"
              inkscape:label="connection.form" />
@@ -325,7 +325,7 @@
              class="cls-1"
              d="m 247.70767,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.32797,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.84799 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 4.3081111,4.3081111 0 0 0 -3.07707,-4.14009 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
              id="path5346-0"
-             style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#8c8c8c;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
+             style="display:inline;opacity:0.9;fill:#ffffff;fill-opacity:1;stroke:#ffc878;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
              inkscape:label="publiccloud.form" />
           <text
              xml:space="preserve"
@@ -353,7 +353,7 @@
              class="cls-1"
              d="m 176.9781,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.32797,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.84799 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 A 4.3081111,4.3081111 0 0 0 183.3121,220 a 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
              id="path5346-7"
-             style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#8c8c8c;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
+             style="display:inline;opacity:0.9;fill:#ffffff;fill-opacity:1;stroke:#ffc878;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
              inkscape:label="privatedccloud.form" />
           <text
              xml:space="preserve"
@@ -381,7 +381,7 @@
              class="cls-1"
              d="m 106.24851,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.327968,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.847988 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 4.3081111,4.3081111 0 0 0 -3.07707,-4.14009 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
              id="path5346"
-             style="fill:#ffffff;fill-opacity:1;stroke:#8c8c8c;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
+             style="opacity:0.9;fill:#ffffff;fill-opacity:1;stroke:#ffc878;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
              inkscape:label="privateedgecloud.form" />
           <text
              xml:space="preserve"
@@ -411,7 +411,7 @@
            inkscape:label="hypervisoroslayer"
            style="display:inline">
           <rect
-             style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#ffc878;fill-opacity:1;stroke:#ffc878;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect13557-1-3-5-7"
              width="174"
              height="6"
@@ -420,23 +420,23 @@
              inkscape:label="hypervisorosslayer.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-7);display:inline;opacity:0.4;fill:#000001;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="169.20685"
              y="14.447855"
              id="text1436-17"
              inkscape:label="hypervisoroslayer.label"><tspan
                x="86.003906"
                y="197.80913"
-               id="tspan3891"><tspan
+               id="tspan5155"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan3889">Hypervisor / OS Layer</tspan></tspan></text>
+                 id="tspan5153">Hypervisor / OS Layer</tspan></tspan></text>
         </g>
         <g
            id="g4413"
            inkscape:label="openstack">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93219;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect47709-0-3-6-9-4-4"
              width="28.000004"
              height="4.0000005"
@@ -452,13 +452,13 @@
              inkscape:label="openstack.label"><tspan
                x="135.00391"
                y="198.49163"
-               id="tspan3893">OpenStack</tspan></text>
+               id="tspan5157">OpenStack</tspan></text>
         </g>
         <g
            id="g4408"
            inkscape:label="commercialvim">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93218;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect47709-0-3-6-9-4-1"
              width="28.000002"
              height="4.0000005"
@@ -474,15 +474,15 @@
              inkscape:label="commercialvim.label"><tspan
                x="167.00391"
                y="198.49163"
-               id="tspan3897"><tspan
+               id="tspan5161"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
-                 id="tspan3895">Commercial VIM</tspan></tspan></text>
+                 id="tspan5159">Commercial VIM</tspan></tspan></text>
         </g>
         <g
            id="g4396"
            inkscape:label="kubernetes">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93218;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect47709-0-3-6-9-4"
              width="28.000002"
              height="4.0000005"
@@ -498,13 +498,13 @@
              inkscape:label="kubernetes.label"><tspan
                x="199.00391"
                y="198.49163"
-               id="tspan3899">Kubernetes</tspan></text>
+               id="tspan5163">Kubernetes</tspan></text>
         </g>
         <g
            id="g4402"
            inkscape:label="publiccloud">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93218;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect47709-0-3-6-9-4-8"
              width="28.000002"
              height="4.0000005"
@@ -520,9 +520,9 @@
              inkscape:label="publiccloud.label"><tspan
                x="231.00391"
                y="198.49163"
-               id="tspan3903"><tspan
+               id="tspan5167"><tspan
                  dx="0 0 0 0 0 0 0.2645829 -0.26458272"
-                 id="tspan3901">Public Cloud</tspan></tspan></text>
+                 id="tspan5165">Public Cloud</tspan></tspan></text>
         </g>
       </g>
       <g
@@ -533,7 +533,7 @@
            id="g4425"
            inkscape:label="networkfunktionlayer">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#ffc878;fill-opacity:1;stroke:#ffc878;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect13557-1-3-5-1"
              width="210"
              height="6"
@@ -542,36 +542,36 @@
              inkscape:label="networkfunctionlayer.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-1);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-1);fill:#000001;fill-opacity:1;stroke:none;stroke-width:0.264583;opacity:0.4"
              x="166.66481"
              y="10.079004"
              id="text1436-96"
              inkscape:label="networkfunktionlayer.label"><tspan
                x="86.003906"
                y="185.80913"
-               id="tspan3907"><tspan
+               id="tspan5171"><tspan
                  dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan3905">Network Function Layer</tspan></tspan></text>
+                 id="tspan5169">Network Function Layer</tspan></tspan></text>
         </g>
         <g
            id="g2995"
            inkscape:label="pnf">
           <rect
-             style="display:inline;fill:#8c8c8c;fill-opacity:1;stroke:#e7e6e6;stroke-width:0.15;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="display:inline;fill:#ffc878;fill-opacity:1;stroke:#ffebc8;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="rect13557-1-3-5-7-3"
              width="20"
              height="20.000002"
-             x="264.00476"
-             y="183"
+             x="263.74023"
+             y="183.26459"
              inkscape:label="pnf.form" />
           <rect
-             style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect47709-0-3-6-9-4-8-3"
              width="13.999999"
              height="14.000005"
-             x="267.00476"
-             y="186"
+             x="266.74023"
+             y="186.26459"
              inkscape:label="pnf.form" />
           <text
              xml:space="preserve"
@@ -579,16 +579,17 @@
              x="270.71011"
              y="176.48337"
              id="text1436-447-86-8"
-             inkscape:label="pnf.label"><tspan
-               x="267.00391"
-               y="188.49163"
-               id="tspan3909">PNF</tspan></text>
+             inkscape:label="pnf.label"
+             transform="translate(-0.26458332,0.26458332)"><tspan
+               x="266.74023"
+               y="188.7553"
+               id="tspan5173">PNF</tspan></text>
         </g>
         <g
            id="g2907"
            inkscape:label="vnf">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93218;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect47709-0-3-6-9-7"
              width="28.000002"
              height="4.000001"
@@ -604,7 +605,7 @@
              inkscape:label="vnf.label"><tspan
                x="199.00391"
                y="186.49163"
-               id="tspan3911">VNF</tspan></text>
+               id="tspan5175">VNF</tspan></text>
         </g>
       </g>
       <g
@@ -616,7 +617,7 @@
            inkscape:label="externalsystems"
            style="display:inline">
           <rect
-             style="display:inline;fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="display:inline;fill:#ffc878;fill-opacity:1;stroke:#ffc878;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="rect13557-1-3-5"
              width="174"
              height="5.9999952"
@@ -625,23 +626,23 @@
              inkscape:label="externalsystems.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;opacity:0.4"
              x="168.25383"
              y="9.1546545"
              id="text1436-631"
              inkscape:label="externalsystems.label"><tspan
                x="86.003906"
                y="173.80913"
-               id="tspan3915"><tspan
+               id="tspan5179"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan3913">External Systems</tspan></tspan></text>
+                 id="tspan5177">External Systems</tspan></tspan></text>
         </g>
         <g
            id="g4437"
            inkscape:label="thirdpartycontrollers">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect47709-0-3-6-9"
              width="31"
              height="4.000001"
@@ -657,15 +658,15 @@
              inkscape:label="thirdpartycontrollers.label"><tspan
                x="135.00391"
                y="174.49163"
-               id="tspan3919"><tspan
+               id="tspan5183"><tspan
                  dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
-                 id="tspan3917">3rd Party Controllers</tspan></tspan></text>
+                 id="tspan5181">3rd Party Controllers</tspan></tspan></text>
         </g>
         <g
            id="g4442"
            inkscape:label="svnfm">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93218;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect47709-0-3-6-9-7-6"
              width="28.000002"
              height="4.000001"
@@ -681,13 +682,13 @@
              inkscape:label="svnfm.label"><tspan
                x="199.00391"
                y="174.49163"
-               id="tspan3921">sVNFM</tspan></text>
+               id="tspan5185">sVNFM</tspan></text>
         </g>
         <g
            id="g4447"
            inkscape:label="ems">
           <rect
-             style="font-variation-settings:normal;display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93218;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;display:inline;opacity:0.8;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
              id="rect47709-0-3-6-9-7-9"
              width="28.000004"
              height="4.000001"
@@ -703,7 +704,7 @@
              inkscape:label="ems.label"><tspan
                x="231.00391"
                y="174.49163"
-               id="tspan3923">EMS</tspan></text>
+               id="tspan5187">EMS</tspan></text>
         </g>
       </g>
     </g>
@@ -739,7 +740,7 @@
            inkscape:label="utilities"
            style="display:inline">
           <rect
-             style="display:inline;fill:#e7e6e6;fill-opacity:1;stroke:#e7e6e6;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="display:inline;fill:#dae3f3;fill-opacity:1;stroke:#dae3f3;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="rect88-3"
              width="60"
              height="69.000008"
@@ -755,9 +756,9 @@
              inkscape:label="utilities.label"><tspan
                x="12.003906"
                y="161.61826"
-               id="tspan3927"><tspan
+               id="tspan5191"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                 id="tspan3925">Utilities</tspan></tspan></text>
+                 id="tspan5189">Utilities</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -777,7 +778,7 @@
              inkscape:label="onapsharedutilities"
              style="display:inline">
             <rect
-               style="display:inline;fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               style="display:inline;fill:#beb450;fill-opacity:1;stroke:#beb450;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                id="rect34206-3"
                width="52"
                height="29.999998"
@@ -793,10 +794,10 @@
                inkscape:label="onapsharedutilities.label"><tspan
                  x="16.003906"
                  y="173.80913"
-                 id="tspan3931"><tspan
+                 id="tspan5195"><tspan
                    dx="0 0 0 0 0.26458302 -0.26458284 0 0 0 0 0 0.26458207 -0.26458189"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan3929">ONAP Shared Utilities</tspan></tspan></text>
+                   id="tspan5193">ONAP Shared Utilities</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -811,7 +812,7 @@
              inkscape:label="toscaparser"
              style="display:inline">
             <rect
-               style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+               style="font-variation-settings:normal;display:inline;opacity:0.6;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
                id="rect47709-1-8-0"
                width="50"
                height="3.9999995"
@@ -827,9 +828,9 @@
                inkscape:label="toscaparser.label"><tspan
                  x="17.003906"
                  y="198.80913"
-                 id="tspan3935"><tspan
+                 id="tspan5199"><tspan
                    dx="0 0 0 0 0 0.26458302 -0.26458368"
-                   id="tspan3933">TOSCA Parser</tspan></tspan></text>
+                   id="tspan5197">TOSCA Parser</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -844,7 +845,7 @@
              inkscape:label="modelutilities"
              style="display:inline">
             <rect
-               style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+               style="font-variation-settings:normal;display:inline;opacity:0.6;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
                id="rect47709-1-1"
                width="50"
                height="3.9999995"
@@ -860,9 +861,9 @@
                inkscape:label="modelutilities.label"><tspan
                  x="17.003906"
                  y="190.80913"
-                 id="tspan3939"><tspan
+                 id="tspan5203"><tspan
                    dx="0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan3937">Model Utilities</tspan></tspan></text>
+                   id="tspan5201">Model Utilities</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -877,7 +878,7 @@
              inkscape:label="ccsdk"
              style="display:inline">
             <rect
-               style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               style="display:inline;opacity:0.6;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                id="rect47709-19"
                width="50"
                height="3.9999995"
@@ -893,9 +894,9 @@
                inkscape:label="ccsdk.label"><tspan
                  x="17.003906"
                  y="182.80913"
-                 id="tspan3943"><tspan
+                 id="tspan5207"><tspan
                    dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0 0.26458433 -0.26458272 0 0 0.26458469 -0.26458272"
-                   id="tspan3941">Common Controller SDK (CCSDK)</tspan></tspan></text>
+                   id="tspan5205">Common Controller SDK (CCSDK)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -916,7 +917,7 @@
            inkscape:label="manageonap"
            style="display:inline">
           <rect
-             style="display:inline;fill:#bdd7ee;fill-opacity:1;stroke:#bdd7ee;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="display:inline;fill:#dae3f3;fill-opacity:1;stroke:#dae3f3;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="rect41609"
              width="152"
              height="9.9999971"
@@ -932,10 +933,10 @@
              inkscape:label="manageonap.label"><tspan
                x="172"
                y="57.551855"
-               id="tspan3947"><tspan
+               id="tspan5211"><tspan
                  dx="0 0 0 0 0 0 0.26458302 -0.2645826"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan3945">Manage ONAP</tspan></tspan></text>
+                 id="tspan5209">Manage ONAP</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -965,9 +966,9 @@
              inkscape:label="oom.label"><tspan
                x="265"
                y="55.742725"
-               id="tspan3951"><tspan
+               id="tspan5215"><tspan
                  dx="0 0 0 0 0.26458302 -0.26458272 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0.26458243 -0.26458272"
-                 id="tspan3949">ONAP Operation Manager (OOM)</tspan></tspan></text>
+                 id="tspan5213">ONAP Operation Manager (OOM)</tspan></tspan></text>
         </g>
       </a>
     </g>
@@ -987,7 +988,7 @@
            id="g1272"
            inkscape:label="designtime">
           <rect
-             style="display:inline;fill:#e7e6e6;fill-opacity:1;stroke:#e7e6e6;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="display:inline;fill:#dae3f3;fill-opacity:1;stroke:#dae3f3;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="rect88"
              width="60"
              height="98.000008"
@@ -1003,9 +1004,9 @@
              inkscape:label="designtime.label"><tspan
                x="12"
                y="57.551855"
-               id="tspan3955"><tspan
+               id="tspan5219"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan3953">Design-Time</tspan></tspan></text>
+                 id="tspan5217">Design-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1041,16 +1042,16 @@
                inkscape:label="sdc.label"><tspan
                  x="16"
                  y="92.742725"
-                 id="tspan3959"><tspan
+                 id="tspan5223"><tspan
                    dx="0 0 0 0 0 0 0 0.26458231 -0.26458284 0 0 0 0 0 0.26458278 -0.2645838 0.26458398 -0.2645838 0 0 0 0 0 0 0 0.26458088"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan3957">Service Design &amp; Creation
+                   id="tspan5221">Service Design &amp; Creation
 </tspan></tspan><tspan
                  x="16"
                  y="96.711475"
-                 id="tspan3963"><tspan
+                 id="tspan5227"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan3961">(SDC)</tspan></tspan></text>
+                   id="tspan5225">(SDC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1082,7 +1083,7 @@
                inkscape:label="catalog.label"><tspan
                  x="17"
                  y="143.74272"
-                 id="tspan3965">Catalog</tspan></text>
+                 id="tspan5229">Catalog</tspan></text>
           </g>
         </a>
         <a
@@ -1112,9 +1113,9 @@
                inkscape:label="dcaedesignstudio.label"><tspan
                  x="17"
                  y="135.74272"
-                 id="tspan3969"><tspan
+                 id="tspan5233"><tspan
                    dx="0 0 0 0 0.26458326 -0.26458272 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan3967">DCAE Design Studio</tspan></tspan></text>
+                   id="tspan5231">DCAE Design Studio</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1144,9 +1145,9 @@
                inkscape:label="controllerdesignstudio.label"><tspan
                  x="17"
                  y="127.74272"
-                 id="tspan3973"><tspan
+                 id="tspan5237"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458469 -0.26458272"
-                   id="tspan3971">Controller Design Studio (CDS)</tspan></tspan></text>
+                   id="tspan5235">Controller Design Studio (CDS)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1176,9 +1177,9 @@
                inkscape:label="workflowdesigner.label"><tspan
                  x="17"
                  y="119.74272"
-                 id="tspan3977"><tspan
+                 id="tspan5241"><tspan
                    dx="0 0 0 0 0 0.092604198 -0.0926046 0 0.2645835 -0.26458272"
-                   id="tspan3975">Workflow Designer</tspan></tspan></text>
+                   id="tspan5239">Workflow Designer</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1208,9 +1209,9 @@
                inkscape:label="xnfonboarding.label"><tspan
                  x="17"
                  y="111.74272"
-                 id="tspan3981"><tspan
+                 id="tspan5245"><tspan
                    dx="0 0 0 0.26458278 -0.2645832"
-                   id="tspan3979">xNF Onboarding</tspan></tspan></text>
+                   id="tspan5243">xNF Onboarding</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1243,9 +1244,9 @@
                sodipodi:insensitive="true"><tspan
                  x="17"
                  y="103.74272"
-                 id="tspan3985"><tspan
+                 id="tspan5249"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan3983">Service/xNF Design</tspan></tspan></text>
+                   id="tspan5247">Service/xNF Design</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1280,10 +1281,10 @@
                inkscape:label="vnfvalidation.label"><tspan
                  x="16"
                  y="74.742725"
-                 id="tspan3989"><tspan
+                 id="tspan5253"><tspan
                    dx="0 0 0 0.26458326 -0.26458332"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan3987">VNF Validation</tspan></tspan></text>
+                   id="tspan5251">VNF Validation</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1315,9 +1316,9 @@
                inkscape:label="vnfsdk.label"><tspan
                  x="36"
                  y="79.742725"
-                 id="tspan3993"><tspan
+                 id="tspan5257"><tspan
                    dx="0 0 0 0.26458326 -0.2645832"
-                   id="tspan3991">VNF SDK</tspan></tspan></text>
+                   id="tspan5255">VNF SDK</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1348,7 +1349,7 @@
                inkscape:label="vvp.label"><tspan
                  x="17"
                  y="79.742725"
-                 id="tspan3995">VVP</tspan></text>
+                 id="tspan5259">VVP</tspan></text>
           </g>
         </a>
       </g>
@@ -1383,9 +1384,9 @@
              inkscape:label="runtime.label"><tspan
                x="78"
                y="57.551855"
-               id="tspan3999"><tspan
+               id="tspan5263"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan3997">Run-Time</tspan></tspan></text>
+                 id="tspan5261">Run-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1420,10 +1421,10 @@
                inkscape:label="sharedservices.label"><tspan
                  x="268"
                  y="92.742725"
-                 id="tspan4003"><tspan
+                 id="tspan5267"><tspan
                    dx="0 0 0 0 0 0 0.26458302 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan4001">Shared Services</tspan></tspan></text>
+                   id="tspan5265">Shared Services</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1453,9 +1454,9 @@
                inkscape:label="cps.label"><tspan
                  x="269"
                  y="143.74272"
-                 id="tspan4007"><tspan
+                 id="tspan5271"><tspan
                    dx="0 0 0 0 0.092604198 -0.092604123 0 0.2645829 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458463 0 0 0 0 0 0 0.26458541 -0.26458272"
-                   id="tspan4005">Config. Persistence Service (CPS)</tspan></tspan></text>
+                   id="tspan5269">Config. Persistence Service (CPS)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1485,9 +1486,9 @@
                inkscape:label="music.label"><tspan
                  x="269"
                  y="135.74272"
-                 id="tspan4011"><tspan
+                 id="tspan5275"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0 0 0 0.2645835 -0.26458272"
-                   id="tspan4009">Multi-Site State (MUSIC)</tspan></tspan></text>
+                   id="tspan5273">Multi-Site State (MUSIC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1517,9 +1518,9 @@
                inkscape:label="pomba.label"><tspan
                  x="269"
                  y="127.74272"
-                 id="tspan4015"><tspan
+                 id="tspan5279"><tspan
                    dx="0 0 0 0 0 0.26458278 -0.2645832"
-                   id="tspan4013">Audit (POMBA)</tspan></tspan></text>
+                   id="tspan5277">Audit (POMBA)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1549,7 +1550,7 @@
                inkscape:label="logging.label"><tspan
                  x="269"
                  y="119.74272"
-                 id="tspan4017">Logging</tspan></text>
+                 id="tspan5281">Logging</tspan></text>
           </g>
         </a>
         <a
@@ -1579,9 +1580,9 @@
                inkscape:label="oof.label"><tspan
                  x="269"
                  y="111.74272"
-                 id="tspan4021"><tspan
+                 id="tspan5285"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
-                   id="tspan4019">Optimization Framework (OOF)</tspan></tspan></text>
+                   id="tspan5283">Optimization Framework (OOF)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1611,9 +1612,9 @@
                inkscape:label="aaf.label"><tspan
                  x="269"
                  y="103.74272"
-                 id="tspan4025"><tspan
+                 id="tspan5289"><tspan
                    dx="0 0 0 0 0 0.26458338 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458463 0 0 0 0 0 0 0 0 0.26458004 -0.26458272"
-                   id="tspan4023">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
+                   id="tspan5287">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1645,23 +1646,23 @@
              inkscape:label="vfc.label"><tspan
                x="233"
                y="123.42522"
-               id="tspan4033"><tspan
+               id="tspan5297"><tspan
                  dx="0 0 0 0 0 0 0 0.26458314"
-                 id="tspan4027">Virtual </tspan><tspan
+                 id="tspan5291">Virtual </tspan><tspan
                  dx="-0.26458272"
-                 id="tspan4029">Functio</tspan><tspan
+                 id="tspan5293">Functio</tspan><tspan
                  dx="0 0.26458278"
-                 id="tspan4031">n
+                 id="tspan5295">n
 </tspan></tspan><tspan
                x="233"
                y="126.75897"
-               id="tspan4037"><tspan
+               id="tspan5301"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan4035">Controller
+                 id="tspan5299">Controller
 </tspan></tspan><tspan
                x="233"
                y="130.09272"
-               id="tspan4039">(VFC)</tspan></text>
+               id="tspan5303">(VFC)</tspan></text>
         </g>
       </a>
       <a
@@ -1691,19 +1692,19 @@
              inkscape:label="appc.label"><tspan
                x="206"
                y="123.42522"
-               id="tspan4043"><tspan
+               id="tspan5307"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278"
-                 id="tspan4041">Application
+                 id="tspan5305">Application
 </tspan></tspan><tspan
                x="206"
                y="126.75897"
-               id="tspan4047"><tspan
+               id="tspan5311"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan4045">Controller
+                 id="tspan5309">Controller
 </tspan></tspan><tspan
                x="206"
                y="130.09272"
-               id="tspan4049">(APPC)</tspan></text>
+               id="tspan5313">(APPC)</tspan></text>
         </g>
       </a>
       <a
@@ -1734,19 +1735,19 @@
              inkscape:label="sdnc.label"><tspan
                x="183"
                y="123.42522"
-               id="tspan4053"><tspan
+               id="tspan5317"><tspan
                  dx="0 0 0 0.26458326"
-                 id="tspan4051">SDN
+                 id="tspan5315">SDN
 </tspan></tspan><tspan
                x="183"
                y="126.75897"
-               id="tspan4057"><tspan
+               id="tspan5321"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan4055">Controller
+                 id="tspan5319">Controller
 </tspan></tspan><tspan
                x="183"
                y="130.09272"
-               id="tspan4059">(SDNC)</tspan></text>
+               id="tspan5323">(SDNC)</tspan></text>
         </g>
       </a>
       <a
@@ -1776,19 +1777,19 @@
              inkscape:label="cds.label"><tspan
                x="158"
                y="123.42522"
-               id="tspan4063"><tspan
+               id="tspan5327"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan4061">Controller
+                 id="tspan5325">Controller
 </tspan></tspan><tspan
                x="158"
                y="126.75897"
-               id="tspan4067"><tspan
+               id="tspan5331"><tspan
                  dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458278"
-                 id="tspan4065">Design Studio
+                 id="tspan5329">Design Studio
 </tspan></tspan><tspan
                x="158"
                y="130.09272"
-               id="tspan4069">(CDS)</tspan></text>
+               id="tspan5333">(CDS)</tspan></text>
         </g>
       </a>
       <a
@@ -1818,24 +1819,24 @@
              inkscape:label="infrastructureadaption.label"><tspan
                x="120"
                y="123.42522"
-               id="tspan4073"><tspan
+               id="tspan5337"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2645835"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan4071">Infrastructure 
+                 id="tspan5335">Infrastructure 
 </tspan></tspan><tspan
                x="120"
                y="126.75897"
-               id="tspan4077"><tspan
+               id="tspan5341"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458278"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan4075">Adaption
+                 id="tspan5339">Adaption
 </tspan></tspan><tspan
                x="120"
                y="130.09272"
-               id="tspan4081"><tspan
+               id="tspan5345"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458326 -0.26458272 0.2645835 -0.26458463"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan4079">(Multi-VIM / Cloud)</tspan></tspan></text>
+                 id="tspan5343">(Multi-VIM / Cloud)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1869,19 +1870,19 @@
                inkscape:label="dcae.label"><tspan
                  x="81"
                  y="123.42522"
-                 id="tspan4085"><tspan
+                 id="tspan5349"><tspan
                    dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0 0 0 0.26458386"
-                   id="tspan4083">Data Collection, 
+                   id="tspan5347">Data Collection, 
 </tspan></tspan><tspan
                  x="81"
                  y="126.75897"
-                 id="tspan4089"><tspan
+                 id="tspan5353"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0.26458421 -0.26458463 0 0 0 0 0 0.26458243"
-                   id="tspan4087">Analytics &amp; Events
+                   id="tspan5351">Analytics &amp; Events
 </tspan></tspan><tspan
                  x="81"
                  y="130.09272"
-                 id="tspan4091">(DCAE)</tspan></text>
+                 id="tspan5355">(DCAE)</tspan></text>
           </g>
         </a>
         <a
@@ -1911,7 +1912,7 @@
                inkscape:label="collectors.label"><tspan
                  x="83"
                  y="143.42522"
-                 id="tspan4093">Collectors</tspan></text>
+                 id="tspan5357">Collectors</tspan></text>
           </g>
         </a>
         <a
@@ -1942,11 +1943,11 @@
                inkscape:label="correllationholmes.label"><tspan
                  x="83"
                  y="135.74272"
-                 id="tspan4099">Correlation<tspan
+                 id="tspan5363">Correlation<tspan
    dx="0.26458278"
-   id="tspan4095"> </tspan><tspan
+   id="tspan5359"> </tspan><tspan
    dx="-0.26458272"
-   id="tspan4097">(Holmes)</tspan></tspan></text>
+   id="tspan5361">(Holmes)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1978,9 +1979,9 @@
              inkscape:label="dmaap.label"><tspan
                x="171.00391"
                y="107.49163"
-               id="tspan4103"><tspan
+               id="tspan5367"><tspan
                  dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0.26458243 -0.26458272 0.26458159 -0.26458272 0 0 0 0 0 0 0 0.26458541 -0.26458272"
-                 id="tspan4101">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
+                 id="tspan5365">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -2010,9 +2011,9 @@
              inkscape:label="msb.label"><tspan
                x="81"
                y="107.49163"
-               id="tspan4107"><tspan
+               id="tspan5371"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0.26458243 -0.26458272"
-                 id="tspan4105">Microservice Bus (MSB)</tspan></tspan></text>
+                 id="tspan5369">Microservice Bus (MSB)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -2046,15 +2047,15 @@
                inkscape:label="aai.label"><tspan
                  x="195"
                  y="91.425224"
-                 id="tspan4111"><tspan
+                 id="tspan5375"><tspan
                    dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835"
-                   id="tspan4109">Active &amp; Available
+                   id="tspan5373">Active &amp; Available
 </tspan></tspan><tspan
                  x="195"
                  y="94.758972"
-                 id="tspan4115"><tspan
+                 id="tspan5379"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458272"
-                   id="tspan4113">Inventory (AAI)</tspan></tspan></text>
+                   id="tspan5377">Inventory (AAI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2084,16 +2085,16 @@
                inkscape:label="esr.label"><tspan
                  x="225"
                  y="93.425224"
-                 id="tspan4121"><tspan
+                 id="tspan5385"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458314"
-                   id="tspan4117">External </tspan><tspan
+                   id="tspan5381">External </tspan><tspan
                    dx="-0.26458368 0 0 0 0 0 0.2645835"
-                   id="tspan4119">System </tspan></tspan><tspan
+                   id="tspan5383">System </tspan></tspan><tspan
                  x="225"
                  y="96.758972"
-                 id="tspan4125"><tspan
+                 id="tspan5389"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458368"
-                   id="tspan4123">Register (ESR)</tspan></tspan></text>
+                   id="tspan5387">Register (ESR)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -2125,9 +2126,9 @@
              inkscape:label="so.label"><tspan
                x="147"
                y="91.742725"
-               id="tspan4129"><tspan
+               id="tspan5393"><tspan
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                 id="tspan4127">Service Orchestration (SO)</tspan></tspan></text>
+                 id="tspan5391">Service Orchestration (SO)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -2161,13 +2162,13 @@
                inkscape:label="policyframework.label"><tspan
                  x="81"
                  y="91.742725"
-                 id="tspan4133"><tspan
+                 id="tspan5397"><tspan
                    dx="0 0 0 0 0 0 0.2645829"
-                   id="tspan4131">Policy
+                   id="tspan5395">Policy
 </tspan></tspan><tspan
                  x="81"
                  y="95.711475"
-                 id="tspan4135">Framework</tspan></text>
+                 id="tspan5399">Framework</tspan></text>
           </g>
         </a>
         <a
@@ -2197,15 +2198,15 @@
                inkscape:label="clamp.label"><tspan
                  x="111"
                  y="93.425224"
-                 id="tspan4139"><tspan
+                 id="tspan5403"><tspan
                    dx="0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0.2645835 -0.26458272 0 0 0 0 0 0.26458386"
-                   id="tspan4137">Closed Loop Autom.
+                   id="tspan5401">Closed Loop Autom.
 </tspan></tspan><tspan
                  x="111"
                  y="96.758972"
-                 id="tspan4143"><tspan
+                 id="tspan5407"><tspan
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458272"
-                   id="tspan4141">Platform (CLAMP)</tspan></tspan></text>
+                   id="tspan5405">Platform (CLAMP)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -2240,9 +2241,9 @@
                inkscape:label="interfaces.label"><tspan
                  x="59"
                  y="74.742725"
-                 id="tspan4147"><tspan
+                 id="tspan5411"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-                   id="tspan4145">Interfaces</tspan></tspan></text>
+                   id="tspan5409">Interfaces</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2272,7 +2273,7 @@
                inkscape:label="cli.label"><tspan
                  x="219"
                  y="79.742725"
-                 id="tspan4149">CLI</tspan></text>
+                 id="tspan5413">CLI</tspan></text>
           </g>
         </a>
         <a
@@ -2302,9 +2303,9 @@
                inkscape:label="externalapis.label"><tspan
                  x="180"
                  y="79.742725"
-                 id="tspan4153"><tspan
+                 id="tspan5417"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan4151">External APIs</tspan></tspan></text>
+                   id="tspan5415">External APIs</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2334,9 +2335,9 @@
                inkscape:label="usecaseui.label"><tspan
                  x="140"
                  y="79.742725"
-                 id="tspan4157"><tspan
+                 id="tspan5421"><tspan
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0.26458314 -0.26458272"
-                   id="tspan4155">Use-Case UI (UUI)</tspan></tspan></text>
+                   id="tspan5419">Use-Case UI (UUI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2366,9 +2367,9 @@
                inkscape:label="omdashboardvid.label"><tspan
                  x="100"
                  y="79.742725"
-                 id="tspan4161"><tspan
+                 id="tspan5425"><tspan
                    dx="0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458159 -0.26458272"
-                   id="tspan4159">O&amp;M Dashboard (VID)</tspan></tspan></text>
+                   id="tspan5423">O&amp;M Dashboard (VID)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2398,7 +2399,7 @@
                inkscape:label="portal.label"><tspan
                  x="60"
                  y="79.742725"
-                 id="tspan4163">Portal</tspan></text>
+                 id="tspan5427">Portal</tspan></text>
           </g>
         </a>
       </g>
@@ -2416,7 +2417,7 @@
          style="display:inline"
          inkscape:label="nbi">
         <rect
-           style="display:inline;fill:#e7e6e6;fill-opacity:1;stroke:#e7e6e6;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="display:inline;fill:#dae3f3;fill-opacity:1;stroke:#dae3f3;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="rect88-7-1"
            width="314"
            height="11.999999"
@@ -2432,10 +2433,10 @@
            inkscape:label="nbi.label"><tspan
              x="10"
              y="47.553809"
-             id="tspan4167"><tspan
+             id="tspan5431"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0.26458254 -0.2645826 0 0 0 0 0 0 0 0 0.26458493 -0.2645826 0 0 0 0 0.26457849 -0.2645826 0 0 0 0 0 0 0.26458469 -0.2645826 0 0 0 0.26458779 -0.2645826 0 0 0.26459685 -0.2645826 0 0 0.26457873 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-               id="tspan4165">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
+               id="tspan5429">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
       </g>
     </a>
     <path
@@ -2450,7 +2451,8 @@
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
        xlink:href="https://docs.onap.org/en/latest/guides/overview/overview.html#onap-release-information"
-       xlink:title="ONAP Release 9 »Istanbul«">
+       xlink:title="ONAP Release 9 »Istanbul«"
+       style="display:none">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;opacity:0.8;fill:#313032;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -2526,43 +2528,43 @@
              id="polygon1157" />
           <polygon
              class="st86"
-             points="79.61,112.78 127.88,142.91 177.28,112.08 129,81.95 "
+             points="127.88,142.91 177.28,112.08 129,81.95 79.61,112.78 "
              id="polygon1159" />
           <polygon
              class="st129"
-             points="129,81.95 82.34,52.84 32.97,83.67 79.61,112.78 "
+             points="82.34,52.84 32.97,83.67 79.61,112.78 129,81.95 "
              id="polygon1161" />
           <polygon
              class="st129"
-             points="177.28,112.08 223.92,82.97 175.64,52.84 129,81.95 "
+             points="223.92,82.97 175.64,52.84 129,81.95 177.28,112.08 "
              id="polygon1163" />
           <polygon
              class="st130"
-             points="175.64,52.84 129,23.73 82.34,52.84 129,81.95 "
+             points="129,23.73 82.34,52.84 129,81.95 175.64,52.84 "
              id="polygon1165" />
           <polygon
              class="st131"
-             points="79.61,112.78 32.97,141.9 81.24,172.02 127.88,142.91 "
+             points="32.97,141.9 81.24,172.02 127.88,142.91 79.61,112.78 "
              id="polygon1167" />
           <polygon
              class="st126"
-             points="32.97,141.9 79.61,112.78 32.97,83.67 29.62,85.74 29.62,139.81 "
+             points="29.62,85.74 29.62,139.81 32.97,141.9 79.61,112.78 32.97,83.67 "
              id="polygon1169" />
           <polygon
              class="st131"
-             points="223.92,141.2 177.28,112.08 127.88,142.91 174.21,171.83 173.7,172.56 "
+             points="174.21,171.83 173.7,172.56 223.92,141.2 177.28,112.08 127.88,142.91 "
              id="polygon1171" />
           <polygon
              class="st126"
-             points="223.92,141.2 226.85,139.38 226.85,84.8 223.92,82.97 177.28,112.08 "
+             points="223.92,82.97 177.28,112.08 223.92,141.2 226.85,139.38 226.85,84.8 "
              id="polygon1173" />
           <polygon
              class="st132"
-             points="173.7,172.56 174.21,171.83 127.88,142.91 81.24,172.02 127.88,201.14 "
+             points="81.24,172.02 127.88,201.14 173.7,172.56 174.21,171.83 127.88,142.91 "
              id="polygon1175" />
           <polygon
              class="st126"
-             points="79.61,112.78 129,81.95 177.28,112.08 127.88,142.91 "
+             points="129,81.95 177.28,112.08 127.88,142.91 79.61,112.78 "
              id="polygon1177"
              style="display:inline" />
         </g>
