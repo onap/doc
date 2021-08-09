@@ -105,12 +105,12 @@ Architecture Overview
 The ONAP architecture consists of a design time and run time functions, as well
 as functions for managing ONAP itself.
 
-.. tip:: Use the interactive features of the below ONAP Architecture Overview.
+   Note: Use the interactive features of the below ONAP Architecture Overview.
    Hover with your mouse over an element in the figure for a short description.
    Click the element to get forwarded to a more detailed description.
 
 .. raw:: html
-   :file: media/onap-architecture-overview-r9-istanbul-interactive-path.svg
+   :file: media/onap-architecture-overview-r9-latest-interactive-path.svg
 
 **Figure 1: Interactive high-level view of the ONAP architecture with its
 microservices-based platform components.**

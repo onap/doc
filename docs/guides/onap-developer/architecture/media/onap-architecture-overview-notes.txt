@@ -25,7 +25,13 @@ Open the "Objects" window (Objects - Objects) and use it as your central point t
 
 Open the "Objects Properties" window (Objects - Objects Properties) to see and change properties of the object.
 
-Text to Path: To avoid display problems caused of missing fonts you should release the map only when all characters are rendered as pathes. To do so, do all changes in the "master file" of this map. Save it, select all elemets (STRG-A) and choose "Path - Objects to Path" and save it again with a new name (e.g. map-path.svg). All character are now converted to pathes - and are not editable via the text edit tool anymore! But the map is expected to be rendered on every target system in the same way. Path conversion can not be undone - so store the "master file" carefully. Unfortunately the label-text in the map can not be searched anymore.
+Naming conventions (example for r9 istanbul release):
+onap-architecture-overview-r9-latest-interactive.svg        (editable version in 'latest'/'master' branch'; release info hidden on map)
+onap-architecture-overview-r9-latest-interactive-path.svg   ('pathed' version in 'latest'/'master' branch'; release info hidden on map; referenced in r9 'latest' documentation files)
+onap-architecture-overview-r9-istanbul-interactive.svg      (editable version in 'istanbul' branch'; release info visible on map)
+onap-architecture-overview-r9-istanbul-interactive-path.svg ('pathed' version in 'istanbul' branch'; release info visible on map; referenced in r9 'istanbul' documentation files)
+
+Text to Path: To avoid display problems caused of missing fonts you should release the map only when all characters are rendered as pathes. To do so, open the "master file" of this map and save it with a new name (please note the naming conventions). Then select all elemets (STRG-A) and choose "Path - Objects to Path" and save it again using the new name. All character are now converted to pathes - and are not editable via the text edit tool anymore! But the map is expected to be rendered on every target system in the same way. Path conversion can not be undone - so store the "master file" carefully. Unfortunately the label-text in the map can not be searched anymore.
 
 Group the rectangle and the label first, then add the link. Otherwise the link is used only for the rectangle or the label and mouseover will not work properly.
 
