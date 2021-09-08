@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#set -x # uncomment for bash script debugging
-
+set -x # uncomment for bash script debugging
+echo "c2m -------------------------------------------------------------"
 ### ============================================================================
 ### Licensed under the Apache License, Version 2.0 (the "License");
 ### you may not use this file except in compliance with the License.
@@ -122,7 +122,7 @@ user="${CONFLUENCE_USERNAME}";
 passwd="${CONFLUENCE_PASSWORD}";
 credentials="${user}":"${passwd}";
 server="https://wiki.onap.org";
-rst_editor="retext --preview";
+[ -z "$rst_editor" ] && rst_editor="retext --preview";
 
 # remove credentials for those using anonymous access
 test "${credentials}" = "*****:*****" && credentials=""
@@ -169,10 +169,13 @@ fi
 
 function create_working_dir {
 
+  base_dir="output"
+  [ ! -d $base_dir ] && mkdir $base_dir
+
   # compose name for working directory
   #working_dir="${page_id}-${page_title}";
   #working_dir="${page_title}-id${page_id}";
-  working_dir="${page_title}";
+  working_dir="${base_dir}/${page_title}";
   echo "INFO ***************************************************************************"
   echo "INFO working directory \"$working_dir\" will be created"
 
@@ -225,19 +228,21 @@ function pull_pages_from_wiki {
     proxy_to_parse="${https_proxy/https:\/\//""}";
     echo "https_proxy is set to \"${proxy_to_parse}\"";
   fi
-
+  
+  #java_options="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang.annotation=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED"
+  
   if [[ $proxy_to_parse =~ ^([\.0-9]+) ]]; then
-    java_options=" -Dhttp.proxyHost=${BASH_REMATCH[1]}"
+    java_options="${java_options} -Dhttps.proxyHost=${BASH_REMATCH[1]} -Dhttp.proxyHost=${BASH_REMATCH[1]}"
     echo "${java_options}"
   fi
   if [[ $proxy_to_parse =~ .*:([0-9]+) ]]; then
-    java_options="${java_options} -Dhttps.proxyPort=${BASH_REMATCH[1]}"
+    java_options="${java_options} -Dhttps.proxyPort=${BASH_REMATCH[1]} -Dhttp.proxyPort=${BASH_REMATCH[1]}"
     echo "${java_options}"
   fi
 
   # TODO: -depth
   # pull pages from wiki and convert to markdown (as a source for conversion by pandoc)
-  java $java_options -jar "${basedir}"/confluence2md-2.1-fat.jar +H true +T false +RootPageTitle false +FootNotes true -maxHeaderDepth 7 -depth $depth -v true -o ${out_file}.md -u "${credentials}" -server $server $page_id
+  java $java_options -jar $basedir/confluence2md-2.1-fat.jar +H true +T false +RootPageTitle false +FootNotes true -maxHeaderDepth 7 -depth $depth -v true -o ${out_file}.md -u "${credentials}" -server $server $page_id
 }
 
 ###
