@@ -225,13 +225,15 @@ function pull_pages_from_wiki {
     proxy_to_parse="${https_proxy/https:\/\//""}";
     echo "https_proxy is set to \"${proxy_to_parse}\"";
   fi
-
+  
+  #java_options="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.lang.annotation=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED"
+  
   if [[ $proxy_to_parse =~ ^([\.0-9]+) ]]; then
-    java_options=" -Dhttp.proxyHost=${BASH_REMATCH[1]}"
+    java_options="${java_options} -Dhttps.proxyHost=${BASH_REMATCH[1]} -Dhttp.proxyHost=${BASH_REMATCH[1]}"
     echo "${java_options}"
   fi
   if [[ $proxy_to_parse =~ .*:([0-9]+) ]]; then
-    java_options="${java_options} -Dhttps.proxyPort=${BASH_REMATCH[1]}"
+    java_options="${java_options} -Dhttps.proxyPort=${BASH_REMATCH[1]} -Dhttp.proxyPort=${BASH_REMATCH[1]}"
     echo "${java_options}"
   fi
 
