@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "edf8d35b_7a231d26",
+        "filename": "tools/Dockerfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-09-09T12:40:45Z",
+      "side": 1,
+      "message": "Java8 is not recommended by ONAP",
+      "revId": "5839c6a0799acf98104c6f8059ac29b7439ad1d8",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c4253a0e_5b2d581e",
+        "filename": "tools/build-c2m.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-09-09T12:40:45Z",
+      "side": 1,
+      "message": "build_env arg is missing. As a result, DockerFile is always using \"no_proxy\"",
+      "revId": "5839c6a0799acf98104c6f8059ac29b7439ad1d8",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
