@@ -23,7 +23,44 @@ Honolulu Releases
 =================
 
 The following releases are available for Honolulu:
+  - `Honolulu Maintenance Release 8.0.1`_
   - `Honolulu Major Release 8.0.0`_
+
+Honolulu Maintenance Release 8.0.1
+==================================
+
++--------------------------------------+--------------------------------------+
+| **Project**                          | Open Network Automation Platform     |
+|                                      | (ONAP)                               |
++--------------------------------------+--------------------------------------+
+| **Release name**                     | Honolulu Maintenance Release         |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release version**                  | 8.0.1                                |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release date**                     | September 16th 2021                  |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+
+New Features
+============
+
+Honolulu Maintenance Release 8.0.1 delivered a number of fixes and updates
+across the following projects:
+
+ - SO          - bugfixes and support for transport slicing usecase
+ - CDS         - fix BluePrint* classes renaming
+ - MULTICLOUD  - update of k8s plugin to support helm3
+ - OOM         - fixes for common helmchart templates and product charts 
+ - POLICY      - new versions of Policy Framework components
+ - DCAE        - new version of the policy-handler and dashboard
+ - OOF         - use new AAI schema version (v21)
+ - CCSDK       - fix fault and pnf-registration event losses
+
+Details on the specific Jira tickets addressed by each project can be found in
+the component specific Release Notes: :ref:`release notes<doc-releaserepos>`
+
 
 Honolulu Major Release 8.0.0
 ============================
