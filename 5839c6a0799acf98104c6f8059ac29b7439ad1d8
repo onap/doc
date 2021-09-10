@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "2f032fb6_bec8f822",
+        "filename": "tools/Dockerfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2693
+      },
+      "writtenOn": "2021-09-10T08:07:20Z",
+      "side": 1,
+      "message": "confluence2md requires Java 8. This is the reason for putting the whole thing to a container.",
+      "parentUuid": "edf8d35b_7a231d26",
+      "revId": "5839c6a0799acf98104c6f8059ac29b7439ad1d8",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c4253a0e_5b2d581e",
         "filename": "tools/build-c2m.sh",
         "patchSetId": 1
@@ -33,6 +51,24 @@
       "revId": "5839c6a0799acf98104c6f8059ac29b7439ad1d8",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c1a2ac77_11709f7e",
+        "filename": "tools/build-c2m.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 2693
+      },
+      "writtenOn": "2021-09-10T08:07:20Z",
+      "side": 1,
+      "message": "Yep, thanks. Corrected now.",
+      "parentUuid": "c4253a0e_5b2d581e",
+      "revId": "5839c6a0799acf98104c6f8059ac29b7439ad1d8",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
