@@ -191,196 +191,209 @@ You will get a status complete dialog message
 
  .. code-block::
 
-   curl -k -X POST \
-   https://sdnc.api.simpledemo.onap.org:30267/restconf/operations/VNF-API:preload-vnf-topology-operation \
-   -H 'Accept: application/json' \
+   curl -k -X  POST https://sdnc.api.simpledemo.onap.org:30267/restconf/operations/GENERIC-RESOURCE-API:preload-vf-module-topology-operation \
+   -H 'Accept:    application/json' \
    -H 'Authorization: Basic YWRtaW46S3A4Yko0U1hzek0wV1hsaGFrM2VIbGNzZTJnQXc4NHZhb0dHbUp2VXkyVQ==' \
    -H 'Content-Type: application/json' \
-   -H 'X-FromAppId: API client' \
-   -H 'X-TransactionId: 0a3f6713-ba96-4971-a6f8-c2da85a3176e' \
+   -H 'X-   FromAppId: API client' \
    -H 'cache-control: no-cache' \
-   -d '{
-    "input": {
-    "request-information": {
-    "notification-url": "onap.org",
-    "order-number": "1",
-    "order-version": "1",
-    "request-action": "PreloadVNFRequest",
-    "request-id": "test"
-    },
-    "sdnc-request-header": {
-    "svc-action": "reserve",
-    "svc-notification-url": "http:\/\/onap.org:8080\/adapters\/rest\/SDNCNotify",
-    "svc-request-id": "test"
-    },
-    "vnf-topology-information": {
-    "vnf-assignments": {
-    "availability-zones": [],
-    "vnf-networks": [],
-    "vnf-vms": []
-    },
-    "vnf-parameters": [{
-    "vnf-parameter-name": "vfw_image_name",
-    "vnf-parameter-value": "ubuntu-14-04-cloud-amd6"
-    },
-    {
-    "vnf-parameter-name": "vfw_flavor_name",
-    "vnf-parameter-value": "m1.medium"
-    },
-    {
-    "vnf-parameter-name": "vfw_name_0",
-    "vnf-parameter-value": "zdfw1fwl01fwl01"
-    },
-    {
-    "vnf-parameter-name": "vfw_int_unprotected_private_ip_0",
-    "vnf-parameter-value": "192.168.10.101"
-    },
-    {
-    "vnf-parameter-name": "vfw_int_protected_private_ip_0",
-    "vnf-parameter-value": "192.168.20.101"
-    },
-    {
-    "vnf-parameter-name": "vfw_onap_private_ip_0",
-    "vnf-parameter-value": "10.0.100.5"
-    },
-    {
-    "vnf-parameter-name": "vfw_int_protected_private_floating_ip",
-    "vnf-parameter-value": "192.168.10.200"
-    },
-    {
-    "vnf-parameter-name": "vpg_int_unprotected_private_ip_0",
-    "vnf-parameter-value": "192.168.10.201"
-    },
-    {
-    "vnf-parameter-name": "vpg_image_name",
-    "vnf-parameter-value": "ubuntu-14-04-cloud-amd6"
-    },
-    {
-    "vnf-parameter-name": "vpg_flavor_name",
-    "vnf-parameter-value": "m1.medium"
-    },
-    {
-    "vnf-parameter-name": "vpg_name_0",
-    "vnf-parameter-value": "zdfw1fwl01pgn01"
-    },
-    {
-    "vnf-parameter-name": "vpg_onap_private_ip_0",
-    "vnf-parameter-value": "10.0.100.6"
-    },
-    {
-    "vnf-parameter-name": "vsn_image_name",
-    "vnf-parameter-value": "ubuntu-14-04-cloud-amd6"
-    },
-    {
-    "vnf-parameter-name": "vsn_flavor_name",
-    "vnf-parameter-value": "m1.medium"
-    },
-    {
-    "vnf-parameter-name": "vsn_name_0",
-    "vnf-parameter-value": "zdfw1fwl01snk01"
-    },
-    {
-    "vnf-parameter-name": "vsn_int_protected_private_ip_0",
-    "vnf-parameter-value": "192.168.20.251"
-    },
-    {
-    "vnf-parameter-name": "vsn_onap_private_ip_0",
-    "vnf-parameter-value": "10.0.100.7"
-    },
-    {
-    "vnf-parameter-name": "public_net_id",
-    "vnf-parameter-value": "07e85197-0f0a-45ca-8a6e-8eee47cec56b"
-    },
-    {
-    "vnf-parameter-name": "unprotected_private_net_id",
-    "vnf-parameter-value": "zdfw1fwl01_unprotected"
-    },
-    {
-    "vnf-parameter-name": "unprotected_private_net_cidr",
-    "vnf-parameter-value": "192.168.10.0/24"
-    },
-    {
-    "vnf-parameter-name": "protected_private_net_id",
-    "vnf-parameter-value": "zdfw1fwl01_protected"
-    },
-    {
-    "vnf-parameter-name": "protected_private_net_cidr",
-    "vnf-parameter-value": "192.168.20.0/24"
-    },
-    {
-    "vnf-parameter-name": "onap_private_net_id",
-    "vnf-parameter-value": "OAM_NETWORK"
-    },
-    {
-    "vnf-parameter-name": "onap_private_subnet_id",
-    "vnf-parameter-value": "OAM_SUBNET"
-    },
-    {
-    "vnf-parameter-name": "onap_private_net_cidr",
-    "vnf-parameter-value": "10.0.0.0/16"
-    },
-    {
-    "vnf-parameter-name": "vfw_name",
-    "vnf-parameter-value": "vFW_demo_VNF"
-    },
-    {
-    "vnf-parameter-name": "vnf_id:",
-    "vnf-parameter-value": "vFirewall_demo_app"
-    },
-    {
-    "vnf-parameter-name": "vf_module_id:",
-    "vnf-parameter-value": "vFirewall"
-    },
-    {
-    "vnf-parameter-name": "dcae_collector_ip",
-    "vnf-parameter-value": "10.43.134.33"
-    },
-    {
-    "vnf-parameter-name": "dcae_collector_port",
-    "vnf-parameter-value": "30417"
-    },
-    {
-    "vnf-parameter-name": "demo_artifacts_version",
-    "vnf-parameter-value": "1.6.0-SNAPSHOT"
-    },
-    {
-    "vnf-parameter-name": "install_script_version",
-    "vnf-parameter-value": "1.6.0-SNAPSHOT"
-    },
-    {
-    "vnf-parameter-name": "key_name",
-    "vnf-parameter-value": "vfw_key"
-    },
-    {
-    "vnf-parameter-name": "pub_key",
-    "vnf-parameter-value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCofPKCypUIALLlSAa/INJZpnz6dPnTKuKkqO5Wxkv35PnHpXVmKit1iXNcy85+ceoMUrMre8O7SjIhdRklnOckW68WmkM9A+pFIFhxoKRfO0WR2/qZyXxM9WuQ5ESdXuBj5ydx7XlWWDtGTWF3wWxrFwob2EkWm+EXFrx18bNs8OqJF+1DDJfjLcC8kKgCwSKNcuRelDSBBaIrIDROdHi1r2AbdL/REZ4sprUTICVAhezX9mPowMX8Mr3ZuTxV9HpU43nlxfWxm9vDstyhiUMpYYCOWUfA/Gzxz/F1pli9L4MfpDsiwGaJtnnQ3vWiYRPZBTv+6h1miYlw4Fm7vJq9 aarna-onap"
-    },
-    {
-    "vnf-parameter-name": "cloud_env",
-    "vnf-parameter-value": "openstack"
-    },
-    {
-    "vnf-parameter-name": "sec_group",
-    "vnf-parameter-value": "default"
-    },
-    {
-    "vnf-parameter-name": "nexus_artifact_repo",
-    "vnf-parameter-value": "https://nexus.onap.org"
-    }
-    ],
-    "vnf-topology-identifier": {
-    "generic-vnf-name": "vFW_demo_VNF",
-    "generic-vnf-type": "vFW_demo_service/vFW_demo 0",
-    "service-type": "f7c80167-ed06-48ef-a991-61b43196f98f",
-    "vnf-name": "lfn_vf_module",
-    "vnf-type": "VfwDemo..base_vfw..module-0"
-    }
-    }
-    }
-   }'
+   -d @vFW_sdnc_VF_preload.json
+
+   Below is the json file payload content
+   cat vFW_sdnc_VF_preload.json
+   {
+        "input": {
+                "request-information": {
+                        "notification-url": "onap.org",
+                        "order-number": "1",
+                        "order-version": "1",
+                        "request-action": "PreloadVfModuleRequest",
+                        "request-id": "test"
+                },
+                "sdnc-request-header": {
+                        "svc-action": "reserve",
+                        "svc-notification-url": "http:\/\/onap.org:8080\/adapters\/rest\/SDNCNotify",
+                        "svc-request-id": "test"
+                },
+                "preload-vf-module-topology-information": {
+                        "vnf-resource-assignments": {
+                                "availability-zones": {
+                                        "availability-zone": [
+                                                "nova"
+                                        ],
+                                        "max-count": "1"
+                                },
+                                "vnf-networks": {
+                                        "vnf-network": []
+                                }
+                        },
+                        "vf-module-topology": {
+                                "vf-module-topology-identifier": {
+                                        "vf-module-name": "lfn_vf_module"
+                                },
+                                "vf-module-parameters": {
+                                        "param":[{
+                                                "name": "vfw_image_name",
+                                                "value": "ubuntu-14-04-cloud-amd6"
+                                        },
+                                        {
+                                                "name": "vfw_flavor_name",
+                                                "value": "m1.medium"
+                                        },
+                                        {
+                                                "name": "vfw_name_0",
+                                                "value": "zdfw1fwl01fwl09"
+                                        },
+                                        {
+                                                "name": "vfw_int_unprotected_private_ip_0",
+                                                "value": "192.168.10.109"
+                                        },
+                                        {
+                                                "name": "vfw_int_protected_private_ip_0",
+                                                "value": "192.168.20.109"
+                                        },
+                                        {
+                                                "name": "vfw_onap_private_ip_0",
+                                                "value": "10.10.10.15"
+                                        },
+                                        {
+                                                "name": "vfw_int_protected_private_floating_ip",
+                                                "value": "192.168.10.209"
+                                        },
+                                        {
+                                                "name": "vpg_int_unprotected_private_ip_0",
+                                                "value": "192.168.10.209"
+                                        },
+                                        {
+                                                "name": "vpg_image_name",
+                                                "value": "ubuntu-14-04-cloud-amd6"
+                                        },
+                                        {
+                                                "name": "vpg_flavor_name",
+                                                "value": "m1.medium"
+                                        },
+                                        {
+                                                "name": "vpg_name_0",
+                                                "value": "zdfw1fwl01pgn09"
+                                        },
+                                        {
+                                                "name": "vpg_onap_private_ip_0",
+                                                "value": "10.10.10.16"
+                                        },
+                                        {
+                                                "name": "vsn_image_name",
+                                                "value": "ubuntu-14-04-cloud-amd6"
+                                        },
+                                        {
+                                                "name": "vsn_flavor_name",
+                                                "value": "m1.medium"
+                                        },
+                                        {
+                                                "name": "vsn_name_0",
+                                                "value": "zdfw1fwl01snk09"
+                                        },
+                                        {
+                                                "name": "vsn_int_protected_private_ip_0",
+                                                "value": "192.168.20.251"
+                                        },
+                                        {
+                                                "name": "vsn_onap_private_ip_0",
+                                                "value": "10.10.10.17"
+                                        },
+                                        {
+                                                "name": "public_net_id",
+                                                "value": "9af666a2-73db-4dd4-bdad-a5dd82f6fddc"
+                                        },
+                                        {
+                                                "name": "unprotected_private_net_id",
+                                                "value": "zdfw1fwl09_unprotected"
+                                        },
+                                        {
+                                                "name": "unprotected_private_net_cidr",
+                                                "value": "192.168.10.0/24"
+                                        },
+                                        {
+                                                "name": "protected_private_net_id",
+                                                "value": "zdfw1fwl09_protected"
+                                        },
+                                        {
+                                                "name": "protected_private_net_cidr",
+                                                "value": "192.168.20.0/24"
+                                        },
+                                        {
+                                                "name": "onap_private_net_id",
+                                                "value": "OAM_NETWORK"
+                                        },
+                                        {
+                                                "name": "onap_private_subnet_id",
+                                                "value": "OAM_SUBNET"
+                                        },
+                                        {
+                                                "name": "onap_private_net_cidr",
+                                                "value": "10.10.10.0/24"
+                                        },
+                                        {
+                                                "name": "vfw_name",
+                                                "value": "vFW_demo_VNF"
+                                        },
+                                        {
+                                                "name": "vnf_id:",
+                                                "value": "vFirewall_demo_app"
+                                        },
+                                        {
+                                                "name": "vf_module_id:",
+                                                "value": "vFirewall"
+                                        },
+                                        {
+                                                "name": "dcae_collector_ip",
+                                                "value": "127.0.0.1"
+                                        },
+                                        {
+                                                "name": "dcae_collector_port",
+                                                "value": "30235"
+                                        },
+                                        {
+                                                "name": "demo_artifacts_version",
+                                                "value": "1.6.0-SNAPSHOT"
+                                        },
+                                        {
+                                                "name": "install_script_version",
+                                                "value": "1.6.0-SNAPSHOT"
+                                        },
+                                        {
+                                                "name": "key_name",
+                                                "value": "vfw_key"
+                                        },
+                                        {
+                                                "name": "pub_key",
+                                                "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD1Bv4Vb3RzfKoW3R6j+bk4fqCVkrHSqnK2Xo1A2139jGm6wvUocQznaawoL5kfqTATPOl1kwi6EvWgy+aVV7UmELdm2nFPUErcPT8B73hfFImpNkz6q93TCmx4lJNz+5k6nemUn+K4fz7a1ggLYahTOTzJsNBffaVE7LA/ahGxzK7zVqWrdO0hoJAxnENp46qEtrQk3PIoWn4MRy2xj4hnnLFETWxYcktIdV6YQzJUlK/wZOWrGdkPdnjLaIO84ZxjPedxgGl1BOuUKAWqlC0g9I1Q9tcCrBnahVFLt3ibloFcLSEl1zrzYtJtF2w1i/SDBSpqxIr68TEo7/FPfAP1"
+                                        },
+                                        {
+                                                "name": "cloud_env",
+                                                "value": "openstack"
+                                        },
+                                        {
+                                                "name": "sec_group",
+                                                "value": "default"
+                                        },
+                                        {
+                                                "name": "nexus_artifact_repo",
+                                                "value": "https://nexus.onap.org"
+                                        }
+
+                                ]
+                        }
+                },
+                "vnf-topology-identifier-structure": {
+                        "vnf-name": "vFW_demo_VNF",
+                        "vnf-type": "vFW_demo_service/vFW_demo 0"
+                }
+        }
+     }
+   }
 
    Output looks somthing like below
-   {"output":{"svc-request-id":"test","response-code":"200","ack-final-indicator":"Y"}}
+   {"output":{"response-message":"success","ack-final-indicator":"Y","svc-request-id":"test","response-code":"200"}}
 
  E. Now click on Add VF-Module with the same name as updated through SDNC preload, click on SDN-C Preload
  check box then press confirm
@@ -417,67 +430,52 @@ You will get a status complete dialog message
 
  .. code-block::
 
-   curl -k -X POST \
-   https://sdnc.api.simpledemo.onap.org:30267/restconf/operations/VNF-API:preload-network-topology-operation \
-   -H 'Accept: application/json' \
+   curl -k -X  POST https://sdnc.api.simpledemo.onap.org:30267/restconf/operations/GENERIC-RESOURCE-API:preload-network-topology-operation \
+   -H 'Accept:      application/json' \
    -H 'Authorization: Basic YWRtaW46S3A4Yko0U1hzek0wV1hsaGFrM2VIbGNzZTJnQXc4NHZhb0dHbUp2VXkyVQ==' \
    -H 'Content-Type: application/json' \
-   -H 'X-FromAppId: API client' \
-   -H 'X-TransactionId: 0a3f6713-ba96-4971-a6f8-c2da85a3176e' \
+   -H 'X-     FromAppId: API client' \
    -H 'cache-control: no-cache' \
-   -d '{
-   "input": {
-    "request-information": {
-    "request-id": "postman001",
-    "notification-url": "http://so.onap.org",
-    "order-number": "postman001",
-    "request-sub-action": "SUPP",
-    "request-action": "PreloadNetworkRequest",
-    "source": "postman",
-    "order-version": "1.0"
-    },
-    "network-topology-information": {
-    "network-policy": [],
-    "route-table-reference": [],
-    "vpn-bindings": [],
-    "network-topology-identifier": {
-        "network-role": "integration_test_net",
-        "network-technology": "neutron",
-        "service-type": "vFW_demo_service",
-        "network-name": "lfn_nwt_001",
-        "network-type": "Generic NeutronNet"
-    },
-    "provider-network-information": {
-        "is-external-network": "false",
-        "is-provider-network": "false",
-        "is-shared-network": "false"
-    },
-    "subnets": [
-        {
-        "subnet-name": "test-subnet-001",
-        "subnet-role": "OAM",
-        "start-address": "10.0.0.11",
-        "cidr-mask": "16",
-        "ip-version": "4",
-        "dhcp-enabled": "Y",
-        "dhcp-start-address": "",
-        "dhcp-end-address": "",
-        "gateway-address": "10.0.0.1",
-        "host-routes":[]
-        }
-            ]
-    },
-    "sdnc-request-header": {
-    "svc-action": "reserve",
-    "svc-notification-url": "http://so.onap.org",
-    "svc-request-id": "postman001"
-     }
-    }
+   -d @vFW_sdnc_Network_preload.json
+
+   Below is the json file payload content
+   cat vFW_sdnc_Network_preload.json
+
+   {
+	"input": {
+		"preload-network-topology-information": {
+			"network-policy": [],
+			"route-table-reference": [],
+			"vpn-bindings": [],
+			"network-topology-identifier-structure": {
+				"network-role": "integration_test_net",
+				"network-technology": "neutron",
+				"network-name": "lfn_nwt_001",
+				"network-type": "Generic NeutronNet"
+			},
+			"is-external-network": false,
+			"is-shared-network": false,
+			"is-provider-network": false,
+			"physical-network-name": "Not Aplicable",
+			"subnets": [{
+				"cidr-mask": "24",
+				"dhcp-enabled": "N",
+				"gateway-address": "10.10.10.1",
+				"ip-version": "4",
+				"start-address": "10.10.10.20",
+				"subnet-name": "test-subnet-005"
+			}]
+		},
+		"sdnc-request-header": {
+			"svc-request-id": "test",
+			"svc-notification-url": "http:\/\/onap.org:8080\/adapters\/rest\/SDNCNotify",
+			"svc-action": "reserve"
+		}
+	}
    }
-   '
 
    Output looks something like below
-   {"output":{"svc-request-id":"postman001","response-code":"200","ack-final-indicator":"Y"}}
+   {"output":{"response-message":"success","ack-final-indicator":"Y","svc-request-id":"test","response-code":"200"}}
 
  C. Click on “Add Network” and select the Network you want to instantiate in the list
 
