@@ -12,7 +12,6 @@ Creating Documentation
    setting-up-environment
    style-guide
    api-swagger-guide
-   templates
    converting-to-rst
 
 .. toctree::

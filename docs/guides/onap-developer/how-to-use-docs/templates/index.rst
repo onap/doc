@@ -2,10 +2,12 @@
 .. International License.  http://creativecommons.org/licenses/by/4.0
 .. Copyright 2021 ONAP contributors, Nokia
 
-
+.. _templates:
 
 Templates
 =========
+
+This section provides templates for the projects
 
 .. toctree::
    :maxdepth: 2
