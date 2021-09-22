@@ -5,4 +5,4 @@ sphinxcontrib-nwdiag
 sphinxcontrib-seqdiag
 sphinxcontrib-swaggerdoc
 sphinxcontrib-plantuml
-lfdocs-conf
+lfdocs-conf==0.7.2
