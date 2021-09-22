@@ -1,3 +1,4 @@
+Sphinx==4.2.0
 sphinx_rtd_theme
 sphinxcontrib-blockdiag
 sphinxcontrib-needs<0.6.0
