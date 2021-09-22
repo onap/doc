@@ -1,4 +1,6 @@
+Sphinx==4.2.0
 sphinx_rtd_theme
+sphinx_bootstrap_theme
 sphinxcontrib-blockdiag
 sphinxcontrib-needs<0.6.0
 sphinxcontrib-nwdiag
