@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ddc69b79_0d5dc5f9",
+        "filename": "etc/requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-09-23T21:05:45Z",
+      "side": 1,
+      "message": "I think \u003e\u003d 0.7.5 or ~\u003d 0.7.5 is preferable here than forcing a specific version.\nAlso true for other imports below if it is possible.\n\nIf not, I think it should be clearly stated in the commit message.",
+      "range": {
+        "startLine": 1,
+        "startChar": 11,
+        "endLine": 1,
+        "endChar": 13
+      },
+      "revId": "2c6936be0b2c349930c21d88a705512eb2ec30bd",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
