@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "37fceaa4_52f6ad4e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-09-24T08:55:42Z",
+      "side": 1,
+      "message": "I think a minium version with a \u003e\u003d or a ~\u003d should be enforced rather than enforcing the version itself with \u003d\u003d",
+      "range": {
+        "startLine": 12,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 9
+      },
+      "revId": "8f08b3e86378bf621c33bca235df7c5c1774af64",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "325239e8_0a62e7fb",
+        "filename": "etc/requirements.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2021-09-24T08:55:42Z",
+      "side": 1,
+      "message": "can we use \u003e\u003d or at least ~\u003d insteaf of \u003d\u003d in all the requirements here and below ?",
+      "range": {
+        "startLine": 2,
+        "startChar": 13,
+        "endLine": 2,
+        "endChar": 15
+      },
+      "revId": "8f08b3e86378bf621c33bca235df7c5c1774af64",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
