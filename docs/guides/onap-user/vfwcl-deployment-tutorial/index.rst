@@ -1290,9 +1290,12 @@ The below instructions can be used for this configuration
       # sudo ip route add 169.254.169.254 via 10.10.10.11 dev eth3
 - Verify that the metadata service is accessible by issuing the following command
 
-  - curl http://169.254.169.254
+  .. code-block::
 
-3. The events generated from this program will trigger the vFW CL flow.
+      curl http://169.254.169.254
+
+
+1. The events generated from this program will trigger the vFW CL flow.
 In a successful deployment of the vFW CL, the graphs look as in the screenshot below.
 We can see that the bars are shorter and more uniform as compared to vFW deployment without the CL
 
