@@ -88,7 +88,7 @@ intersphinx_mapping['onap-aaf-authz'] = ('{}/onap-aaf-authz/en/%s'.format(doc_ur
 html_last_updated_fmt = '%d-%b-%y %H:%M'
 
 def setup(app):
-    app.add_stylesheet("css/ribbon_onap.css")
+    app.add_css_file("css/ribbon_onap.css")
 
 
 from docutils.parsers.rst import directives
