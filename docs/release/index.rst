@@ -107,7 +107,7 @@ executes dedicated health check jobs to verify the status of a CNF. This new
 functionality is implemented in the Controller Design Studio (CDS) component
 using dedicated templates called Controller Blueprint Archives (CBA).
 In addition, there is Swagger documentation for the API of the K8s plugin
-component in the MutliCloud project.
+component in the MultiCloud project.
 
 Deeper 5G Support
 .................
