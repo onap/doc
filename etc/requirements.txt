@@ -1,8 +1,8 @@
-sphinx_rtd_theme
-sphinxcontrib-blockdiag
-sphinxcontrib-needs<0.6.0
-sphinxcontrib-nwdiag
-sphinxcontrib-seqdiag
-sphinxcontrib-swaggerdoc
-sphinxcontrib-plantuml
 lfdocs-conf
+sphinxcontrib-blockdiag  # BSD
+sphinxcontrib-needs
+sphinxcontrib.plantuml
+sphinxcontrib-nwdiag  # BSD
+sphinxcontrib-seqdiag # BSD
+sphinxcontrib-swaggerdoc
+sphinx-rtd-theme

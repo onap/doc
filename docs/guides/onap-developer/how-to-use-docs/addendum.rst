@@ -48,7 +48,7 @@ Here is an example source rst file :
 Writing RST Markdown
 --------------------
 
-See http://sphinx-doc.org/rest.html .
+See https://www.sphinx-doc.org/en/1.4.9/rest.html .
 
 **Hint:**
 You can add html content that only appears in html output by using the
