@@ -15,6 +15,7 @@ intersphinx_mapping['onap-ccsdk-distribution'] = ('{}/onap-ccsdk-distribution/en
 intersphinx_mapping['onap-ccsdk-oran'] = ('{}/onap-ccsdk-oran/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-cli'] = ('{}/onap-cli/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-cps'] = ('{}/onap-cps/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-cps-ncmp-dmi-plugin'] = ('{}/onap-cps-ncmp-dmi-plugin/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-dcaegen2'] = ('{}/onap-dcaegen2/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-dmaap-messagerouter-messageservice'] = (
     '{}/onap-dmaap-messagerouter-messageservice/en/%s'.format(doc_url) % branch, None)
