@@ -142,6 +142,8 @@ CPS - Configuration Persistence Service
      - Description
    * - :ref:`CPS <onap-cps:master_index>`
      - CPS Documentation
+   * - :ref:`CPS <onap-cps-ncmp-dmi-plugin:master_index>`
+     - DMI Plugin Documentation
 
 DCAE - Data Collection, Analysis and Events
 -------------------------------------------
