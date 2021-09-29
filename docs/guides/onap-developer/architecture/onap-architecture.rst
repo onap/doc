@@ -122,7 +122,7 @@ which highlights the role of a few key components:
    into ONAP and designing required services.
 #. External API provides northbound interoperability for the ONAP Platform.
 #. ONAP Runtime environment provides a model- and policy-driven orchestration
-   and conrol framework for an automated instantiation and configuration of
+   and control framework for an automated instantiation and configuration of
    services and resources. Multi-VIM/Cloud provides cloud interoperability for
    the ONAP workloads. Analytic framework that closely monitors the service
    behavior handles close loop management for handling healing, scaling and
@@ -423,8 +423,9 @@ capabilities with the introduction of adaptive policy execution.
 Shared Services
 ===============
 ONAP provides a set of operational services for all ONAP components including
-activity logging, reporting, common data layer, configuration, persistence, access control,
-secret and credential management, resiliency, and software lifecycle management.
+activity logging, reporting, common data layer, configuration, persistence,
+access control, secret and credential management, resiliency, and software
+lifecycle management.
 
 These services provide access management and security enforcement, data backup,
 configuration persistence, restoration and recovery. They support standardized
@@ -437,8 +438,8 @@ specifically designed for the detection and mitigation of security violations.
 
 Configuration Persistence Service (CPS)
 ---------------------------------------
-The Configuration Persistence Service (CPS) provides storage for real-time run-time configuration
-and operational parameters that need to be used by ONAP.
+The Configuration Persistence Service (CPS) provides storage for real-time
+run-time configuration and operational parameters that need to be used by ONAP.
 In R8, Honolulu, the CPS is a stand-alone component, and its details in
 :ref:`CPS - Configuration Persistence Service<onap-cps:architecture>`.
 
