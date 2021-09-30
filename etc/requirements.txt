@@ -1,6 +1,6 @@
 lfdocs-conf
 sphinxcontrib-blockdiag  # BSD
-sphinxcontrib-needs
+sphinxcontrib-needs<=0.5.6
 sphinxcontrib.plantuml
 sphinxcontrib-nwdiag  # BSD
 sphinxcontrib-seqdiag # BSD
