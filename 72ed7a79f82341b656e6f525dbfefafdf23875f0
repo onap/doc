@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "40ecb934_48ae9fe0",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-10-05T12:55:05Z",
+      "side": 1,
+      "message": "I am not sure that is valid for old release when we used submodules",
+      "revId": "72ed7a79f82341b656e6f525dbfefafdf23875f0",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e940b390_918c61d1",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-10-05T12:55:05Z",
+      "side": 1,
+      "message": "why using pylint ?",
+      "revId": "72ed7a79f82341b656e6f525dbfefafdf23875f0",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
