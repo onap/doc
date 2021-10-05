@@ -39,10 +39,10 @@ Setup of a Documentation Development System
    #########################################################################
 
 Release Relevance
-   8.0.0 (Honolulu) - 1.0.0 (Amsterdam)
+   9.0.0 (Istanbul) - 6.0.0 (Frankfurt)
 
 Last Review/Update
-   06/17/2021
+   10/05/2021
 
 Initial Release
    05/12/2021
@@ -74,6 +74,10 @@ project and can be found in the ``docs`` directory. The files are automatically
 processed and you find the final ONAP documentation build hosted on
 `ReadTheDocs <https://docs.onap.org>`__.
 
+Beginning with the 'Frankfurt' release of ONAP, the documentation structure has
+changed and the support of submodules was removed. Although large parts of this
+guide are valid for earlier releases, the relevance has been limited.
+
 -------------------------------------------------------------------------------
 
 VM Configuration
@@ -85,9 +89,9 @@ VM Configuration
 Ubuntu Image
 ------------
 
-+----------------------------------------+
-| ubuntu-20.04.2.0-desktop-amd64.iso     |
-+----------------------------------------+
++--------------------------------------+
+| ubuntu-20.04.3-desktop-amd64.iso     |
++--------------------------------------+
 
 Please check what image must be used for your type of hardware.
 
@@ -288,17 +292,12 @@ your terminal has changed. Now it starts with ``(onapdocs)``.
 .. code-block:: bash
 
    pip3 install wheel
-   pip3 install sphinx_rtd_theme
-   pip3 install sphinxcontrib-blockdiag
-   pip3 install sphinxcontrib-needs
-   pip3 install sphinxcontrib-nwdiag
-   pip3 install sphinxcontrib-seqdiag
-   pip3 install sphinxcontrib-swaggerdoc
-   pip3 install sphinxcontrib-plantuml
    pip3 install lfdocs-conf
-   pip3 install pylint
 
    which sphinx-build
+
+.. note:: The ``lfdocs-conf`` package requires multiple, additional libraries.
+          They are loaded automatically.
 
 .. tip:: Remember the path
    ``/home/<USER>/environments/onapdocs/bin/sphinx-build``, you need it later
@@ -314,8 +313,8 @@ desktop search function :guilabel:`Show Applications` (the |ShowApp| symbol in
 the bottom left corner) to find the required applications.
 
 Open :guilabel:`Ubuntu Software` > :guilabel:`Development`, select
-:guilabel:`Visual Studio Code` and press :guilabel:`Install` to install the
-integrated development environment (IDE).
+:guilabel:`code` (Visual Studio Code) and press :guilabel:`Install` to install
+the integrated development environment (IDE).
 
 Open :guilabel:`Ubuntu Software` > :guilabel:`Updates` to ensure that your
 installed applications are up to date.
@@ -386,6 +385,8 @@ Start VSC (always) in the ``docs`` directory of your repository. For the
    cd doc
    cd docs
    code .
+
+.. important:: Don't forget the ``.`` (dot) when you start Visual Studio Code.
 
 .. tip:: ``~/environments/onapdocs/doc/docs`` is now your
    ``${workspaceFolder}`` because you have started VSC (``code .``) from here!
@@ -463,6 +464,8 @@ Only in case the preview creates an error message, try ...
    ``${workspaceFolder}/docs``
 
 Close the :guilabel:`Extension Settings` window.
+
+Close VSC and start it again with the ``code .`` command.
 
 -------------------------------------------------------------------------------
 
