@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "e67f6e67_2ed1262e",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-10-05T13:31:18Z",
+      "side": 1,
+      "message": "Yep, the clone section for ElAlto and previous releases require submodules",
+      "parentUuid": "e749a567_3b2ab7d9",
+      "revId": "72ed7a79f82341b656e6f525dbfefafdf23875f0",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e940b390_918c61d1",
         "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
         "patchSetId": 1
