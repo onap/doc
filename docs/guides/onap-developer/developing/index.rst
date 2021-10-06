@@ -132,6 +132,8 @@ CPS - Configuration Persistence Service
      - CPS Global Documentation
    * - :ref:`CPS DMI Plugin<onap-cps-ncmp-dmi-plugin:master_index>`
      - DMI Plugin Documentation
+   * - :ref:`CPS Temporal<onap-cps-cps-temporal:master_index>`
+     - Temporal Documentation
 
 DCAE - Data Collection, Analysis and Events
 -------------------------------------------
