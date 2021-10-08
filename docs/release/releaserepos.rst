@@ -51,7 +51,7 @@ Migrated Projects
 .. toctree::
    :maxdepth: 1
 
-| :ref:`CLAMP - Control Loop Automation Platform<onap-policy-clamp:release_notes>`
+| :ref:`CLAMP - Control Loop Automation Platform<onap-policy-parent:clamp-pre-migration-release-notes>`
 
 Unmaintained Projects
 ---------------------
