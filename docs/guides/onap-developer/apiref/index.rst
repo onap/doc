@@ -20,7 +20,7 @@ User Interfaces
    :maxdepth: 1
    :titlesonly:
 
-* :ref:`CLAMP - Closed Loop Automation Platform<onap-policy-clamp:master_index>`
+* :ref:`CLAMP - Closed Loop Automation Platform<onap-policy-parent:clamp-label>`
 * :ref:`Portal<onap-portal:offeredapis>`
 * :ref:`SDC - Service Design and Creation<onap-sdc:offeredapis>`
 * :ref:`VID - Virtual Infrastructure Deployment<onap-vid:offeredapis>`
