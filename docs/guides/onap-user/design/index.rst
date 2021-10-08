@@ -112,7 +112,7 @@ The following section provide links to the projects:
 - :ref:`VNF LifeCycle Command templating<onap-appc:master_index>`
 - :ref:`Workflow Design<onap-sdc:workflow>`
 - :ref:`DCAE Onboard/Design<onap-dcaegen2:master_index>`
-- :ref:`Control Loop Automation Management<onap-policy-clamp:master_index>`
+- :ref:`Control Loop Automation Management<onap-policy-parent:clamp-label>`
 
 .. |image1| image:: media/Design-Overview.png
 
