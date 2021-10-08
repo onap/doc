@@ -107,18 +107,6 @@ CDS - Controller Design Studio
    * - :ref:`CDS<onap-ccsdk-cds:master_index>`
      - Controller Design Studio Architecture and Guides (part of CCSDK)
 
-CLAMP - Control Loop Automation Management Platform
----------------------------------------------------
-
-.. list-table::
-   :widths: 20 80
-   :header-rows: 1
-
-   * - Document
-     - Description
-   * - :ref:`CLAMP <onap-policy-clamp:master_index>`
-     - CLAMP Architecture and Guides
-
 CLI - Command Line Interface
 ----------------------------
 
