@@ -22,6 +22,30 @@
       "revId": "54b5ac70d46db20e6a812a479e234cda2eb4909d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0cce7a34_1890fae9",
+        "filename": "etc/requirements.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-10-14T07:38:33Z",
+      "side": 1,
+      "message": "https://pypi.org/project/funcparserlib/1.0.0a0/",
+      "parentUuid": "ec7c9e11_a5a66576",
+      "range": {
+        "startLine": 17,
+        "startChar": 20,
+        "endLine": 17,
+        "endChar": 22
+      },
+      "revId": "54b5ac70d46db20e6a812a479e234cda2eb4909d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
