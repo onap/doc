@@ -1,0 +1,34 @@
+PROJECT;WIKI STATE;WIKI NAME
+aaf;unmaintained;Application Authorization Framework Project
+aai;mature;Active and Available Inventory Project
+appc;unmaintained;Application Controller Project
+ccsdk;mature;Common Controller SDK Project
+ci-management;incubation;CI-Management
+clamp;incubation;CLAMP Project
+cli;incubation;Command Line Interface Project
+cps;incubation;Configuration Persistence Service Project
+dcaegen2;mature;Data Collection Analytics and Events Project
+dmaap;mature;Data Movement as a Platform Project
+doc;incubation;Documentation Project
+externalapi;unmaintained;External API Framework Project
+holmes;incubation;Holmes Project
+integration;incubation;Integration Project
+logging-analytics;unmaintained;Logging Enhancements Project
+modeling;mature;Modeling Project
+msb;incubation;Microservices Bus Project
+multicloud;mature;Multi VIM/Cloud Project
+music;unmaintained;MUSIC Project
+oof;mature;Optimization Framework Project
+oom;incubation;ONAP Operations Manager Project
+policy;mature;Policy Framework Project
+portal;unmaintained;Portal Platform Project
+sdc;mature;Service Design & Creation Project
+sdnc;mature;Software Defined Network Controller Project
+so;mature;Service Orchestrator Project
+university;incubation;ONAP University Project
+usecase-ui;mature;Usecase UI Project
+vfc;mature;Virtual Function Controller Project
+vid;unmaintained;Virtual Infrastructure Deployment Project
+vnfrqts;incubation;VNF Requirements Project
+vnfsdk;incubation;VNF SDK Project
+vvp;incubation;VNF Validation Program Project

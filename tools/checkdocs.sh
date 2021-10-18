@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.10 (2021-06-10)"
+script_version="1.11 (2021-10-18)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -182,16 +182,41 @@ function getrpinfo {
   #echo "DBUG:      current branch = \"${branch}\"";
   #echo "DBUG:     starting_letter = \"${current_branch_starting_letter}\"";
 
-  # check
-  if [[ ${rpproject} = ${requested} ]] && [[ "${rpdetails}" == *"${current_branch_starting_letter}"* ]]; then
-    return_from_getrpinfo="project partizipated"
-    #echo "DBUG:  getrpinfo return = \"${return_from_getrpinfo}\"";
-    return 0;
-  fi
+  ## check if PROJECT has partizipated to INITIAL release
+  #if [[ ${rpproject} = ${requested} ]] && [[ "${rpdetails}" == *"${current_branch_starting_letter}-"* ]]; then
+  #  return_from_getrpinfo="project | ${current_branch_starting_letter:1:1}"
+  #  # check ADDITIONALLY if PROJECT has ALSO partizipated to MAINTENANCE release
+  #  if [[ "${rpdetails}" == *"${current_branch_starting_letter}m-"* ]]; then
+  #    return_from_getrpinfo="${return_from_getrpinfo} | ${current_branch_starting_letter:1:1}m"
+  #    #echo "DBUG:  getrpinfo return = \"${return_from_getrpinfo}\"";
+  #  fi
+  #  return 0;
+  ## check if PROJECT has ONLY partizipated to MAINTENANCE release
+  #elif [[ ${rpproject} = ${requested} ]] && [[ "${rpdetails}" == *"${current_branch_starting_letter:1:1}m-"* ]]; then
+  #  return_from_getrpinfo="project | ${current_branch_starting_letter:1:1}m"
+  #  #echo "DBUG:  getrpinfo return = \"${return_from_getrpinfo}\"";
+  #  return 0;
+  #fi
 
+  # check if requested PROJECT was found in the array of partizipating projects
+  if [[ ${rpproject} = ${requested} ]]; then
+    # check if PROJECT has partizipated to INITIAL release
+    if [[ "${rpdetails}" == *"${current_branch_starting_letter}-"* ]]; then
+      return_from_getrpinfo="project | ${current_branch_starting_letter:1:1}"
+      # check ADDITIONALLY if PROJECT has ALSO partizipated to MAINTENANCE release
+      if [[ "${rpdetails}" == *"${current_branch_starting_letter}m-"* ]]; then
+      return_from_getrpinfo="${return_from_getrpinfo} ${current_branch_starting_letter:1:1}m"
+      #echo "DBUG:  getrpinfo return = \"${return_from_getrpinfo}\"";
+      fi
+      return 0;
+    elif [[ "${rpdetails}" == *"${current_branch_starting_letter:1:1}m-"* ]]; then
+      return_from_getrpinfo="project | ${current_branch_starting_letter:1:1}m"
+      #echo "DBUG:  getrpinfo return = \"${return_from_getrpinfo}\"";
+      return 0;
+    fi
+  fi
   #echo "DBUG: getrpinfo requested \"${requested}\" NOT FOUND in list"
   return_from_getrpinfo=""
-
 }
 
 ###
@@ -309,7 +334,7 @@ echo "Using \"${rpfile}\" as the source for release partizipation information."
 readarray -t rparray < ./${rpfile};
 # remove first line
 rparray=("${rparray[@]:1}")
-# printf '%s\n' "${rparray[@]}"
+#printf '%s\n' "${rparray[@]}" #DBUG ONLY
 
 #
 # curl must be installed
@@ -654,7 +679,7 @@ do
   # csv column #9: RELEASE component (yes|maybe|unknown)
   # to be filled with values of the planned release config file maintained by
   # the onap release manager
-  # NOR FUNCTIONAL YET
+  # NOT FUNCTIONAL YET
 
   # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
   readarray -t array < ./${branch}_repoclone.log;
