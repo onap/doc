@@ -1,7 +1,7 @@
 from docs_conf.conf import *
 
 # Change the line below from 'latest' to '<Name_of_the_new_ONAP_Release>' after
-# you have create the new branch for the 'doc' project.
+# you have create the new branch for your project.
 branch = 'latest'
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
@@ -11,7 +11,7 @@ intersphinx_mapping = {}
 #
 # Mapping to 'latest' if this files is used in 'latest' (master) branch.
 # Changed to '<Name_of_the_new_ONAP_Release>' after you have create the new
-# branch for the 'doc' project.
+# branch for your project.
 #
 
 # Latest | <Name_of_the_new_ONAP_Release>
@@ -31,6 +31,7 @@ intersphinx_mapping['onap-dmaap-messagerouter-messageservice'] = (
 intersphinx_mapping['onap-dmaap-buscontroller'] = ('{}/onap-dmaap-buscontroller/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-dmaap-datarouter'] = ('{}/onap-dmaap-datarouter/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-dmaap-dbcapi'] = ('{}/onap-dmaap-dbcapi/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-externalapi-nbi'] = ('{}/onap-externalapi-nbi/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-holmes-engine-management'] = (
     '{}/onap-holmes-engine-management/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-holmes-rule-management'] = (
@@ -44,16 +45,17 @@ intersphinx_mapping['onap-oom'] = ('{}/onap-oom/en/%s'.format(doc_url) % branch,
 intersphinx_mapping['onap-oom-offline-installer'] = ('{}/onap-oom-offline-installer/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-oom-platform-cert-service'] = (
     '{}/onap-oom-platform-cert-service/en/%s'.format(doc_url) % branch, None)
-#intersphinx_mapping['onap-optf-cmso'] = ('{}/onap-optf-cmso/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-optf-cmso'] = ('{}/onap-optf-cmso/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-optf-osdf'] = ('{}/onap-optf-osdf/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-optf-has'] = ('{}/onap-optf-has/en/%s'.format(doc_url) % branch, None)
-#intersphinx_mapping['onap-policy-clamp'] = ('{}/onap-policy-clamp/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-policy-clamp'] = ('{}/onap-policy-clamp/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-policy-parent'] = ('{}/onap-policy-parent/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-sdc'] = ('{}/onap-sdc/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-sdnc-oam'] = ('{}/onap-sdnc-oam/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-so'] = ('{}/onap-so/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-usecase-ui'] = ('{}/onap-usecase-ui/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-vfc-nfvo-lcm'] = ('{}/onap-vfc-nfvo-lcm/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-vid'] = ('{}/onap-vid/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-vnfrqts-guidelines'] = ('{}/onap-vnfrqts-guidelines/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-vnfrqts-requirements'] = ('{}/onap-vnfrqts-requirements/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-vnfrqts-testcases'] = ('{}/onap-vnfrqts-testcases/en/%s'.format(doc_url) % branch, None)
@@ -66,11 +68,6 @@ intersphinx_mapping['onap-vvp-documentation'] = ('{}/onap-vvp-documentation/en/%
 # of the new ONAP release but have not created a branch for it.
 # This can happen e.g. for 'unmaintained' (but still required) projects.
 #
-
-# Honolulu
-branch = 'honolulu'
-intersphinx_mapping['onap-vid'] = ('{}/onap-vid/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-externalapi-nbi'] = ('{}/onap-externalapi-nbi/en/%s'.format(doc_url) % branch, None)
 
 # Guilin
 branch = 'guilin'
@@ -92,8 +89,8 @@ branch = 'latest'
 intersphinx_mapping['onap-aaf-authz'] = ('{}/onap-aaf-authz/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aaf-sms'] = ('{}/onap-aaf-sms/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-event-client'] = ('{}/onap-aai-event-client/en/%s'.format(doc_url) % branch, None)
-#intersphinx_mapping['onap-aai-esr-gui'] = ('{}/onap-aai-esr-gui/en/%s'.format(doc_url) % branch, None)
-#intersphinx_mapping['onap-aai-esr-server'] = ('{}/onap-aai-esr-server/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-aai-esr-gui'] = ('{}/onap-aai-esr-gui/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-aai-esr-server'] = ('{}/onap-aai-esr-server/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-apps'] = ('{}/onap-ccsdk-apps/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-dashboard'] = ('{}/onap-ccsdk-dashboard/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-platform-plugins'] = (
