@@ -1,7 +1,7 @@
 from docs_conf.conf import *
 
 # Change the line below from 'latest' to '<Name_of_the_new_ONAP_Release>' after
-# you have create the new branch for the 'doc' project.
+# you have create the new branch for your project.
 branch = 'latest'
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
@@ -11,7 +11,7 @@ intersphinx_mapping = {}
 #
 # Mapping to 'latest' if this files is used in 'latest' (master) branch.
 # Changed to '<Name_of_the_new_ONAP_Release>' after you have create the new
-# branch for the 'doc' project.
+# branch for your project.
 #
 
 # Latest | <Name_of_the_new_ONAP_Release>
