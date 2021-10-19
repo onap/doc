@@ -62,10 +62,6 @@ AAI - Active and Available Inventory
      - Description
    * - :ref:`AAI<onap-aai-aai-common:master_index>`
      - AAI Architecture, APIs and Guides
-   * - :ref:`ESR GUI (Latest)<onap-aai-esr-gui:master_index>`
-     - (unmaintained) External System Registry GUI Documentation
-   * - :ref:`ESR Server (Latest)<onap-aai-esr-server:master_index>`
-     - (unmaintained) External System Registry Server Documentation
    * - :ref:`AAI UI<onap-aai-sparky-be:master_index>`
      - Sparky - AAI Inventory UI Documentation
 
@@ -172,8 +168,8 @@ EXTAPI - External API Framework/NBI
 
    * - Document
      - Description
-   * - :ref:`EXTAPI<onap-externalapi-nbi:master_index>`
-     - External API Framework Documentation
+   * - :ref:`EXTAPI (Honolulu)<onap-externalapi-nbi:master_index>`
+     - (unmaintained) External API Framework Documentation
 
 HOLMES - Holmes Alarm Correlation and Analysis
 ----------------------------------------------
@@ -252,8 +248,6 @@ OOF - Optimization Framework
      - ONAP policy-driven placement optimizing service documentation
    * - :ref:`Optimization Service Design Framework<onap-optf-osdf:master_index>`
      - Optimization Service Design Framework documentation
-   * - :ref:`Change Management Schedule Optimization<onap-optf-cmso:master_index>`
-     - Change Management Schedule Optimization documentation
 
 OOM - ONAP Operations Manager
 -----------------------------
@@ -389,8 +383,8 @@ VID - Virtual Infrastructure Deployment
 
    * - Document
      - Description
-   * - :ref:`VID<onap-vid:master_index>`
-     - Virtual Infrastructure Deployment Architecture, APIs and Guides
+   * - :ref:`VID (Honolulu)<onap-vid:master_index>`
+     - (unmaintained) Virtual Infrastructure Deployment Architecture, APIs and Guides
 
 VNFSDK - VNF Software Development Kit
 -------------------------------------
