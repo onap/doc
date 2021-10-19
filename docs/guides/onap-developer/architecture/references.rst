@@ -61,7 +61,6 @@ Common Services
 
 | :ref:`AAF - Application Authorization Framework<onap-aaf-authz:master_index>`
 | :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:architecture>`
-| :ref:`AAI ESR<onap-aai-esr-gui:architecture>`
 | :ref:`CPS - Configuration Persistence Service<onap-cps:architecture>`
 | :ref:`DMAAP MR - Data Management as a Platform (Message Router)<onap-dmaap-messagerouter-messageservice:architecture>`
 | :ref:`ExtAPI - External API NBI<onap-externalapi-nbi:architecture>`
