@@ -60,7 +60,6 @@ Unmaintained Projects
    :maxdepth: 1
 
 | :ref:`AAF - Application Authorization Framework<onap-aaf-authz:release_notes>`
-| :ref:`AAI/ESR - External System Registry<onap-aai-esr-server:master_index>`
 | :ref:`APPC - Application Controller<onap-appc:release_notes>`
 | :ref:`EXTAPI - External API NorthBound Interface<onap-externalapi-nbi:release_notes>`
 | :ref:`MUSIC - ONAP Multi-Site Integration<onap-music:release_notes>`
