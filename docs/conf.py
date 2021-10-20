@@ -2,7 +2,7 @@ from docs_conf.conf import *
 
 # Change the line below from 'latest' to '<Name_of_the_new_ONAP_Release>' after
 # you have create the new branch for the 'doc' project.
-branch = 'latest'
+branch = 'istanbul'
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
