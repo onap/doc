@@ -1,0 +1,9 @@
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Code-Review+2: Thomas Kulik <thomas.kulik@telekom.de>
+Code-Review-1: Eric Debeau <eric.debeau@orange.com>
+Code-Review+2: Andreas Geissler <andreas-geissler@telekom.de>
+Submitted-by: Andreas Geissler <andreas-geissler@telekom.de>
+Submitted-at: Wed, 20 Oct 2021 06:52:26 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/doc/+/125103
+Project: doc
+Branch: refs/heads/istanbul
