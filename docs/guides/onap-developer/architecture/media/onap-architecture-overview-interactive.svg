@@ -8,7 +8,7 @@
 <!-- Copyright (C) 2021 Deutsche Telekom AG                                       -->
 
 <svg
-   sodipodi:docname="onap-architecture-overview-interactive.svg"
+   sodipodi:docname="onap-architecture-overview-r9-latest-interactive.svg"
    inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
    id="svg5"
    version="1.1"
@@ -31,8 +31,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.4142136"
-     inkscape:cx="669.98366"
-     inkscape:cy="525.73388"
+     inkscape:cx="669.98364"
+     inkscape:cy="525.73387"
      inkscape:window-width="3264"
      inkscape:window-height="1818"
      inkscape:window-x="230"
@@ -110,9 +110,9 @@
            inkscape:label="unmaintained.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan1827"><tspan
+             id="tspan7675"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0.2645835 -0.26458463"
-               id="tspan1825">Unmaintained ONAP Component</tspan></tspan></text>
+               id="tspan7673">Unmaintained ONAP Component</tspan></tspan></text>
       </g>
       <g
          id="g4786-5"
@@ -136,9 +136,9 @@
            inkscape:label="onapcomponents.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan1831"><tspan
+             id="tspan7679"><tspan
                dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458272 0 0.2645829 -0.26458272 0 0 0 0.2645835 -0.26458272"
-               id="tspan1829">Entirety of ONAP Components</tspan></tspan></text>
+               id="tspan7677">Entirety of ONAP Components</tspan></tspan></text>
       </g>
       <g
          id="g4770"
@@ -162,7 +162,7 @@
            transform="matrix(1.00026,0,0,1,-0.0728097,0)"><tspan
              x="279"
              y="237.80913"
-             id="tspan1833">Operations</tspan></text>
+             id="tspan7681">Operations</tspan></text>
       </g>
       <g
          id="g4776"
@@ -186,9 +186,9 @@
            transform="matrix(1.00026,0,0,1,-0.0602911,0)"><tspan
              x="231.00195"
              y="237.80913"
-             id="tspan1837"><tspan
+             id="tspan7685"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0.26458231 -0.26458272"
-               id="tspan1835">Orchestration &amp; Management</tspan></tspan></text>
+               id="tspan7683">Orchestration &amp; Management</tspan></tspan></text>
       </g>
       <g
          id="g4765"
@@ -211,7 +211,7 @@
            inkscape:label="design.label"><tspan
              x="183"
              y="237.80913"
-             id="tspan1839">Design</tspan></text>
+             id="tspan7687">Design</tspan></text>
       </g>
       <g
          id="g4781"
@@ -234,9 +234,9 @@
            inkscape:label="colorlegend.label"><tspan
              x="7.0039062"
              y="237.86187"
-             id="tspan1843"><tspan
+             id="tspan7691"><tspan
                dx="0 0 0 0 0 0.26458338 -0.2645832"
-               id="tspan1841">Color Legend:</tspan></tspan></text>
+               id="tspan7689">Color Legend:</tspan></tspan></text>
       </g>
     </g>
     <g
@@ -273,10 +273,10 @@
            inkscape:label="managedenvironment.label"><tspan
              x="82.003906"
              y="165.55381"
-             id="tspan1847"><tspan
+             id="tspan7695"><tspan
                dx="0 0 0 0 0 0 0 0.26458254 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-               id="tspan1845">Managed Environment</tspan></tspan></text>
+               id="tspan7693">Managed Environment</tspan></tspan></text>
       </g>
       <g
          id="g29902"
@@ -429,10 +429,10 @@
              inkscape:label="hypervisoroslayer.label"><tspan
                x="86.003906"
                y="197.80913"
-               id="tspan1851"><tspan
+               id="tspan7699"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1849">Hypervisor / OS Layer</tspan></tspan></text>
+                 id="tspan7697">Hypervisor / OS Layer</tspan></tspan></text>
         </g>
         <g
            id="g4413"
@@ -454,7 +454,7 @@
              inkscape:label="openstack.label"><tspan
                x="135.00391"
                y="198.49163"
-               id="tspan1853">OpenStack</tspan></text>
+               id="tspan7701">OpenStack</tspan></text>
         </g>
         <g
            id="g4408"
@@ -476,9 +476,9 @@
              inkscape:label="commercialvim.label"><tspan
                x="167.00391"
                y="198.49163"
-               id="tspan1857"><tspan
+               id="tspan7705"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
-                 id="tspan1855">Commercial VIM</tspan></tspan></text>
+                 id="tspan7703">Commercial VIM</tspan></tspan></text>
         </g>
         <g
            id="g4396"
@@ -500,7 +500,7 @@
              inkscape:label="kubernetes.label"><tspan
                x="199.00391"
                y="198.49163"
-               id="tspan1859">Kubernetes</tspan></text>
+               id="tspan7707">Kubernetes</tspan></text>
         </g>
         <g
            id="g4402"
@@ -522,9 +522,9 @@
              inkscape:label="publiccloud.label"><tspan
                x="231.00391"
                y="198.49163"
-               id="tspan1863"><tspan
+               id="tspan7711"><tspan
                  dx="0 0 0 0 0 0 0.2645829 -0.26458272"
-                 id="tspan1861">Public Cloud</tspan></tspan></text>
+                 id="tspan7709">Public Cloud</tspan></tspan></text>
         </g>
       </g>
       <g
@@ -551,10 +551,10 @@
              inkscape:label="networkfunktionlayer.label"><tspan
                x="86.003906"
                y="185.80913"
-               id="tspan1867"><tspan
+               id="tspan7715"><tspan
                  dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1865">Network Function Layer</tspan></tspan></text>
+                 id="tspan7713">Network Function Layer</tspan></tspan></text>
         </g>
         <g
            id="g2995"
@@ -585,7 +585,7 @@
              transform="translate(-0.26458332,0.26458332)"><tspan
                x="266.74023"
                y="188.7553"
-               id="tspan1869">PNF</tspan></text>
+               id="tspan7717">PNF</tspan></text>
         </g>
         <g
            id="g2907"
@@ -607,7 +607,7 @@
              inkscape:label="vnf.label"><tspan
                x="199.00391"
                y="186.49163"
-               id="tspan1871">VNF</tspan></text>
+               id="tspan7719">VNF</tspan></text>
         </g>
       </g>
       <g
@@ -635,10 +635,10 @@
              inkscape:label="externalsystems.label"><tspan
                x="86.003906"
                y="173.80913"
-               id="tspan1875"><tspan
+               id="tspan7723"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1873">External Systems</tspan></tspan></text>
+                 id="tspan7721">External Systems</tspan></tspan></text>
         </g>
         <g
            id="g4437"
@@ -660,9 +660,9 @@
              inkscape:label="thirdpartycontrollers.label"><tspan
                x="135.00391"
                y="174.49163"
-               id="tspan1879"><tspan
+               id="tspan7727"><tspan
                  dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
-                 id="tspan1877">3rd Party Controllers</tspan></tspan></text>
+                 id="tspan7725">3rd Party Controllers</tspan></tspan></text>
         </g>
         <g
            id="g4442"
@@ -684,7 +684,7 @@
              inkscape:label="svnfm.label"><tspan
                x="199.00391"
                y="174.49163"
-               id="tspan1881">sVNFM</tspan></text>
+               id="tspan7729">sVNFM</tspan></text>
         </g>
         <g
            id="g4447"
@@ -706,7 +706,7 @@
              inkscape:label="ems.label"><tspan
                x="231.00391"
                y="174.49163"
-               id="tspan1883">EMS</tspan></text>
+               id="tspan7731">EMS</tspan></text>
         </g>
       </g>
     </g>
@@ -715,7 +715,7 @@
        inkscape:label="onapborder.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
-       xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/architecture/index.html"
+       xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/architecture/index.html"
        xlink:title="The ONAP architecture consists of functions for the design-time, run-time, for managing ONAP itself and additional utilities.">
       <path
          id="rect55176"
@@ -734,7 +734,7 @@
          inkscape:label="utilities.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/architecture/onap-architecture.html#id1"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/architecture/onap-architecture.html#id1"
          xlink:title="ONAP utilities provide support of the ONAP components."
          style="display:inline">
         <g
@@ -758,9 +758,9 @@
              inkscape:label="utilities.label"><tspan
                x="12.003906"
                y="161.61826"
-               id="tspan1887"><tspan
+               id="tspan7735"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                 id="tspan1885">Utilities</tspan></tspan></text>
+                 id="tspan7733">Utilities</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -772,7 +772,7 @@
            inkscape:label="onapsharedutilities.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/architecture/onap-architecture.html#id1"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/architecture/onap-architecture.html#id1"
            xlink:title="ONAP shared utilities provide support of the ONAP components."
            style="display:inline">
           <g
@@ -796,10 +796,10 @@
                inkscape:label="onapsharedutilities.label"><tspan
                  x="16.003906"
                  y="173.80913"
-                 id="tspan1891"><tspan
+                 id="tspan7739"><tspan
                    dx="0 0 0 0 0.26458302 -0.26458284 0 0 0 0 0 0.26458207 -0.26458189"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1889">ONAP Shared Utilities</tspan></tspan></text>
+                   id="tspan7737">ONAP Shared Utilities</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -807,7 +807,7 @@
            inkscape:label="toscaparser.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-modeling-etsicatalog/en/istanbul/"
+           xlink:href="https://docs.onap.org/projects/onap-modeling-etsicatalog/en/latest/"
            xlink:title="[TO BE REVISED] etsicatalog provides package management service and parser service by Micro Service. It can be used to store packages distributed by the SDC, and can be consumed by other projects or components such as UUI, VFC, etc. It also includes a TOSCA parser service.">
           <g
              id="g1268"
@@ -830,9 +830,9 @@
                inkscape:label="toscaparser.label"><tspan
                  x="17.003906"
                  y="198.80913"
-                 id="tspan1895"><tspan
+                 id="tspan7743"><tspan
                    dx="0 0 0 0 0 0.26458302 -0.26458368"
-                   id="tspan1893">TOSCA Parser</tspan></tspan></text>
+                   id="tspan7741">TOSCA Parser</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -840,7 +840,7 @@
            inkscape:label="modelutilities.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-modeling-etsicatalog/en/istanbul/"
+           xlink:href="https://docs.onap.org/projects/onap-modeling-etsicatalog/en/latest/"
            xlink:title="[TO BE REVISED] The unified model-driven approach uses models as sources of data for generating processes/codes and following workflows (not code development as source). This way, the system can be more flexible and future proof, easy to update and use for cross-platform solutions since the “only” thing needed is a model update and manipulation through engine.">
           <g
              id="g1274"
@@ -863,9 +863,9 @@
                inkscape:label="modelutilities.label"><tspan
                  x="17.003906"
                  y="190.80913"
-                 id="tspan1899"><tspan
+                 id="tspan7747"><tspan
                    dx="0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan1897">Model Utilities</tspan></tspan></text>
+                   id="tspan7745">Model Utilities</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -879,7 +879,7 @@
          inkscape:label="manageonap.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/istanbul/guides/onap-operator/index.html#operations-and-administration-guides"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-operator/index.html#operations-and-administration-guides"
          xlink:title="Management capabilities for the Open Network Automation Platform itself.">
         <g
            id="g1266"
@@ -902,10 +902,10 @@
              inkscape:label="manageonap.label"><tspan
                x="172"
                y="57.551855"
-               id="tspan1903"><tspan
+               id="tspan7751"><tspan
                  dx="0 0 0 0 0 0 0.26458302 -0.2645826"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1901">Manage ONAP</tspan></tspan></text>
+                 id="tspan7749">Manage ONAP</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -913,7 +913,7 @@
          inkscape:label="oom.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/developing/index.html#oom-onap-operations-manager"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#oom-onap-operations-manager"
          xlink:title="The ONAP Operations Manager (OOM) is responsible for lifecycle management of the ONAP platform itself. OOM provides the ability to manage cloud-native installations and deployments of ONAP to Kubernetes-managed cloud environments."
          transform="translate(-3.9999979,0.06724192)">
         <g
@@ -936,9 +936,9 @@
              inkscape:label="oom.label"><tspan
                x="267.00391"
                y="55.742725"
-               id="tspan1907"><tspan
+               id="tspan7755"><tspan
                  dx="0 0 0 0 0.26458302 -0.26458272 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0.26458243 -0.26458272"
-                 id="tspan1905">ONAP Operation Manager (OOM)</tspan></tspan></text>
+                 id="tspan7753">ONAP Operation Manager (OOM)</tspan></tspan></text>
         </g>
       </a>
     </g>
@@ -951,7 +951,7 @@
          inkscape:label="designtime.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/architecture/onap-architecture.html#design-time-framework"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/architecture/onap-architecture.html#design-time-framework"
          xlink:title="The Design-time framework is a comprehensive development environment with tools, techniques and repositories for defining/describing resources, services, and products."
          style="display:inline">
         <g
@@ -974,9 +974,9 @@
              inkscape:label="designtime.label"><tspan
                x="12"
                y="57.551855"
-               id="tspan1911"><tspan
+               id="tspan7759"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan1909">Design-Time</tspan></tspan></text>
+                 id="tspan7757">Design-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -988,7 +988,7 @@
            inkscape:label="sdc.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-sdc/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-sdc/en/latest/index.html"
            xlink:title="Service Design &amp; Creation (SDC) provides a well-structured organization of visual design and testing tools, templates and catalogs to model and create resources, and services. The output of the SDC is a set of models which drives the orchestration. In addition, it provides process workflow support for talking to the VNF/PNF or other resources and services through the process steps design, test and deploy."
            style="display:inline">
           <g
@@ -1012,16 +1012,16 @@
                inkscape:label="sdc.label"><tspan
                  x="16"
                  y="92.742725"
-                 id="tspan1915"><tspan
+                 id="tspan7763"><tspan
                    dx="0 0 0 0 0 0 0 0.26458231 -0.26458284 0 0 0 0 0 0.26458278 -0.2645838 0.26458398 -0.2645838 0 0 0 0 0 0 0 0.26458088"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1913">Service Design &amp; Creation
+                   id="tspan7761">Service Design &amp; Creation
 </tspan></tspan><tspan
                  x="16"
                  y="96.711475"
-                 id="tspan1919"><tspan
+                 id="tspan7767"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1917">(SDC)</tspan></tspan></text>
+                   id="tspan7765">(SDC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1029,7 +1029,7 @@
            inkscape:label="catalog.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-sdc/en/istanbul/architecture.html"
+           xlink:href="https://docs.onap.org/projects/onap-sdc/en/latest/architecture.html"
            xlink:title="The key output of SDC is a set of models containing descriptions of asset capabilities and instructions to manage them. These models are stored in the SDC Master Reference Catalog for the entire enterprise to use.">
           <g
              id="g4060"
@@ -1053,7 +1053,7 @@
                inkscape:label="catalog.label"><tspan
                  x="17"
                  y="143.74272"
-                 id="tspan1921">Catalog</tspan></text>
+                 id="tspan7769">Catalog</tspan></text>
           </g>
         </a>
         <a
@@ -1061,7 +1061,7 @@
            inkscape:label="dcaedesignstudio.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/istanbul/sections/design-components/DCAE-MOD/DCAE-MOD-Architecture.html"
+           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/latest/sections/design-components/DCAE-MOD/DCAE-MOD-Architecture.html"
            xlink:title="Data Collection, Analytics and Events (DCAE) Design Studio enables to define and configure the monitoring flows of DCAE.">
           <g
              id="g4055"
@@ -1083,9 +1083,9 @@
                inkscape:label="dcaedesignstudio.label"><tspan
                  x="17"
                  y="135.74272"
-                 id="tspan1925"><tspan
+                 id="tspan7773"><tspan
                    dx="0 0 0 0 0.26458326 -0.26458272 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan1923">DCAE Design Studio</tspan></tspan></text>
+                   id="tspan7771">DCAE Design Studio</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1093,7 +1093,7 @@
            inkscape:label="controllerdesignstudio.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-ccsdk-cds/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-ccsdk-cds/en/latest/index.html"
            xlink:title="The design-time part of the Controller Design Studio (CDS) – the CDS Designer UI – is a framework to automate the resolution of resources for instantiation and any config provisioning operation, such as day0, day1, or day2 configuration. A designer can define what actions are required for a given service, along with anything comprising the action. Its content is driven from a catalog of reusable data dictionary and component, delivering a reusable and simplified self-service experience. CDS modeling is mainly based on the TOSCA standard, using JSON as a representation. CDS is part of CCSDK.">
           <g
              id="g4049"
@@ -1115,9 +1115,9 @@
                inkscape:label="controllerdesignstudio.label"><tspan
                  x="17"
                  y="127.74272"
-                 id="tspan1929"><tspan
+                 id="tspan7777"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458469 -0.26458272"
-                   id="tspan1927">Controller Design Studio (CDS)</tspan></tspan></text>
+                   id="tspan7775">Controller Design Studio (CDS)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1125,7 +1125,7 @@
            inkscape:label="workflowdesigner.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-sdc/en/istanbul/workflow.html"
+           xlink:href="https://docs.onap.org/projects/onap-sdc/en/latest/workflow.html"
            xlink:title="Workflow Designer allows a user to design a workflow, save it, and attach it to a SDC service as an artifact. Workflow Designer also manages the definitions of activities, which can be later used as parts of the designed workflows.">
           <g
              id="g4043"
@@ -1147,9 +1147,9 @@
                inkscape:label="workflowdesigner.label"><tspan
                  x="17"
                  y="119.74272"
-                 id="tspan1933"><tspan
+                 id="tspan7781"><tspan
                    dx="0 0 0 0 0 0.092604198 -0.0926046 0 0.2645835 -0.26458272"
-                   id="tspan1931">Workflow Designer</tspan></tspan></text>
+                   id="tspan7779">Workflow Designer</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1157,7 +1157,7 @@
            inkscape:label="xnfonboarding.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/istanbul/Chapter7/VNF-On-boarding-and-package-management.html"
+           xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/latest/Chapter7/VNF-On-boarding-and-package-management.html"
            xlink:title="The VNF provider must provide VNF packages that include a rich set of recipes, management and functional interfaces, policies, configuration parameters, and infrastructure requirements that can be utilized by the ONAP Design module to onboard and catalog these resources.">
           <g
              id="g4037"
@@ -1179,9 +1179,9 @@
                inkscape:label="xnfonboarding.label"><tspan
                  x="17"
                  y="111.74272"
-                 id="tspan1937"><tspan
+                 id="tspan7785"><tspan
                    dx="0 0 0 0.26458278 -0.2645832"
-                   id="tspan1935">xNF Onboarding</tspan></tspan></text>
+                   id="tspan7783">xNF Onboarding</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1189,7 +1189,7 @@
            inkscape:label="servicexnfdesign.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-user/design/index.html"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-user/design/index.html"
            xlink:title="The goal of the design process is to create all artifacts (models) that are required to instantiate and manage resources, services, and products on the ONAP platform."
            style="display:inline">
           <g
@@ -1214,9 +1214,9 @@
                sodipodi:insensitive="true"><tspan
                  x="17"
                  y="103.74272"
-                 id="tspan1941"><tspan
+                 id="tspan7789"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan1939">Service/xNF Design</tspan></tspan></text>
+                   id="tspan7787">Service/xNF Design</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1229,7 +1229,7 @@
            inkscape:label="vnfvalidation.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-provider/index.html#vnf-and-pnf-requirements-and-guidelines"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-provider/index.html#vnf-and-pnf-requirements-and-guidelines"
            xlink:title="Ensures that a network function (e.g. CNF, PNF, VNF) fits all ONAP guidelines and requirements.">
           <g
              id="g4456"
@@ -1251,10 +1251,10 @@
                inkscape:label="vnfvalidation.label"><tspan
                  x="16"
                  y="74.742725"
-                 id="tspan1945"><tspan
+                 id="tspan7793"><tspan
                    dx="0 0 0 0.26458326 -0.26458332"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1943">VNF Validation</tspan></tspan></text>
+                   id="tspan7791">VNF Validation</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1262,7 +1262,7 @@
            inkscape:label="vnfsdk.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vnfsdk-model/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-vnfsdk-model/en/latest/index.html"
            xlink:title="The Virtual Network Function Software Development Kit (VNF SDK) provides the functionality to create VNF and PNF packages, test VNF and VNF ONAP compliance, and provides market place functionality to store VNF and PNF packages.">
           <g
              id="g4467"
@@ -1286,9 +1286,9 @@
                inkscape:label="vnfsdk.label"><tspan
                  x="36"
                  y="79.742725"
-                 id="tspan1949"><tspan
+                 id="tspan7797"><tspan
                    dx="0 0 0 0.26458326 -0.2645832"
-                   id="tspan1947">VNF SDK</tspan></tspan></text>
+                   id="tspan7795">VNF SDK</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1296,7 +1296,7 @@
            inkscape:label="vvp.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vvp-documentation/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-vvp-documentation/en/latest/index.html"
            xlink:title="The VNF Validation Platform (VVP) provides the functionality to validate that a VNF Heat package is compliant with the ONAP VNF Heat Template Requirements from the ONAP VNF Requirements (VNFRQTS) project.">
           <g
              id="g4461"
@@ -1319,7 +1319,7 @@
                inkscape:label="vvp.label"><tspan
                  x="17"
                  y="79.742725"
-                 id="tspan1951">VVP</tspan></text>
+                 id="tspan7799">VVP</tspan></text>
           </g>
         </a>
       </g>
@@ -1333,7 +1333,7 @@
          inkscape:label="runtime.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/architecture/onap-architecture.html#runtime-framework"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/architecture/onap-architecture.html#runtime-framework"
          xlink:title="The Run-time execution framework executes the rules and policies and other models distributed by the design and creation environment.">
         <g
            id="g10932"
@@ -1354,9 +1354,9 @@
              inkscape:label="runtime.label"><tspan
                x="78"
                y="57.551855"
-               id="tspan1955"><tspan
+               id="tspan7803"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan1953">Run-Time</tspan></tspan></text>
+                 id="tspan7801">Run-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1369,7 +1369,7 @@
            inkscape:label="sharedservices.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/architecture/onap-architecture.html#shared-services"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/architecture/onap-architecture.html#shared-services"
            xlink:title="ONAP provides a set of operational services for all ONAP components including activity logging, reporting, common data layer, configuration, persistence, access control, secret and credential management, resiliency, and software lifecycle management."
            style="display:inline">
           <g
@@ -1392,10 +1392,10 @@
                inkscape:label="sharedservices.label"><tspan
                  x="268"
                  y="92.742725"
-                 id="tspan1959"><tspan
+                 id="tspan7807"><tspan
                    dx="0 0 0 0 0 0 0.26458302 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1957">Shared Services</tspan></tspan></text>
+                   id="tspan7805">Shared Services</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1403,7 +1403,7 @@
            inkscape:label="cps.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-cps/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-cps/en/latest/index.html"
            xlink:title="The Configuration Persistence Service (CPS) provides storage for real-time run-time configuration and operational parameters that need to be used by ONAP.">
           <g
              id="g1929"
@@ -1425,9 +1425,9 @@
                inkscape:label="cps.label"><tspan
                  x="269"
                  y="143.74272"
-                 id="tspan1963"><tspan
+                 id="tspan7811"><tspan
                    dx="0 0 0 0 0.092604198 -0.092604123 0 0.2645829 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458463 0 0 0 0 0 0 0.26458541 -0.26458272"
-                   id="tspan1961">Config. Persistence Service (CPS)</tspan></tspan></text>
+                   id="tspan7809">Config. Persistence Service (CPS)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1435,7 +1435,7 @@
            inkscape:label="music.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/developing/index.html#music-onap-multi-site-integration"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#music-onap-multi-site-integration"
            xlink:title="Multi-Site State (MUSIC) provides a multi-site state coordination/management service (MUSIC) with a rich suite of recipes that each ONAP component can simply configure and use for their state-management needs.">
           <g
              id="g1935"
@@ -1457,9 +1457,9 @@
                inkscape:label="music.label"><tspan
                  x="269"
                  y="135.74272"
-                 id="tspan1967"><tspan
+                 id="tspan7815"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0 0 0 0.2645835 -0.26458272"
-                   id="tspan1965">Multi-Site State (MUSIC)</tspan></tspan></text>
+                   id="tspan7813">Multi-Site State (MUSIC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1467,7 +1467,7 @@
            inkscape:label="logging.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-logging-analytics/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-logging-analytics/en/latest/index.html"
            xlink:title="Logging provides the capability to capture information required to operate, troubleshoot and report on the performance of the ONAP platform.">
           <g
              id="g1917"
@@ -1490,12 +1490,12 @@
                inkscape:label="logging.label"><tspan
                  x="269"
                  y="119.74272"
-                 id="tspan1969">Logging</tspan></text>
+                 id="tspan7817">Logging</tspan></text>
           </g>
         </a>
         <a
            id="a9774"
-           target="https://docs.onap.org/en/istanbul/guides/onap-developer/developing/index.html#holmes-holmes-alarm-correlation-and-analysis"
+           target="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#holmes-holmes-alarm-correlation-and-analysis"
            xlink:title="Holmes provides the capability to analyze the relationship among different alarms (e.g. root cause, correlation)."
            inkscape:label="holmes.link"
            transform="matrix(0.98199866,0,0,0.99751057,5.3420785,0.29116366)"
@@ -1521,10 +1521,10 @@
                inkscape:label="holmes.label"><tspan
                  x="268.49609"
                  y="119.77007"
-                 id="tspan1973"><tspan
+                 id="tspan7821"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
                    style="baseline-shift:baseline;shape-inside:url(#rect47709-1-2);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                   id="tspan1971">Correlation (Holmes)</tspan></tspan></text>
+                   id="tspan7819">Correlation (Holmes)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1532,7 +1532,7 @@
            inkscape:label="oof.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/developing/index.html#oof-optimization-framework"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#oof-optimization-framework"
            xlink:title="The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer.">
           <g
              id="g1912"
@@ -1554,9 +1554,9 @@
                inkscape:label="oof.label"><tspan
                  x="269"
                  y="111.74272"
-                 id="tspan1977"><tspan
+                 id="tspan7825"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
-                   id="tspan1975">Optimization Framework (OOF)</tspan></tspan></text>
+                   id="tspan7823">Optimization Framework (OOF)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1564,7 +1564,7 @@
            inkscape:label="aaf.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-aaf-authz/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-aaf-authz/en/latest/index.html"
            xlink:title="The Application Authorization Framework (AAF) provides the services for authentication, authorization and certificate management to the ONAP components. It provides the services to the ONAP components to manage the lifecycle of authentication and authorization elements such as permissions, roles and credentials.">
           <g
              id="g1906"
@@ -1586,9 +1586,9 @@
                inkscape:label="aaf.label"><tspan
                  x="269"
                  y="103.74272"
-                 id="tspan1981"><tspan
+                 id="tspan7829"><tspan
                    dx="0 0 0 0 0 0.26458338 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458463 0 0 0 0 0 0 0 0 0.26458004 -0.26458272"
-                   id="tspan1979">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
+                   id="tspan7827">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1597,7 +1597,7 @@
          inkscape:label="vfc.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-vfc-nfvo-lcm/en/istanbul/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-vfc-nfvo-lcm/en/latest/index.html"
          xlink:title="The Virtual Function Controller (VFC) leverages the ETSI NFV MANO Architecture and information model as a reference and implements the full life cycle management and FCAPS of VNF and NS."
          transform="translate(-1.9952368,0.06725276)">
         <g
@@ -1621,23 +1621,23 @@
              inkscape:label="vfc.label"><tspan
                x="233"
                y="123.42522"
-               id="tspan1989"><tspan
+               id="tspan7837"><tspan
                  dx="0 0 0 0 0 0 0 0.26458314"
-                 id="tspan1983">Virtual </tspan><tspan
+                 id="tspan7831">Virtual </tspan><tspan
                  dx="-0.26458272"
-                 id="tspan1985">Functio</tspan><tspan
+                 id="tspan7833">Functio</tspan><tspan
                  dx="0 0.26458278"
-                 id="tspan1987">n
+                 id="tspan7835">n
 </tspan></tspan><tspan
                x="233"
                y="126.75897"
-               id="tspan1993"><tspan
+               id="tspan7841"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan1991">Controller
+                 id="tspan7839">Controller
 </tspan></tspan><tspan
                x="233"
                y="130.09272"
-               id="tspan1995">(VFC)</tspan></text>
+               id="tspan7843">(VFC)</tspan></text>
         </g>
       </a>
       <a
@@ -1645,7 +1645,7 @@
          inkscape:label="appc.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/developing/index.html#appc-application-controller"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#appc-application-controller"
          xlink:title="The ONAP Controller Family (SDNC/APPC) configures and maintains the health of Layer 1-7 network functions (VNF, PNF, CNFs) and network services throughout their lifecycle. Both provide similar services (application level configuration using NetConf, Chef, Ansible, RestConf) and life cycle management functions (e.g. stop, resume, health check, etc.). APPC is being used mainly for Layer 4-7 network functions."
          transform="translate(-4.9952365,0.06725276)">
         <g
@@ -1668,19 +1668,19 @@
              inkscape:label="appc.label"><tspan
                x="206"
                y="123.42522"
-               id="tspan1999"><tspan
+               id="tspan7847"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278"
-                 id="tspan1997">Application
+                 id="tspan7845">Application
 </tspan></tspan><tspan
                x="206"
                y="126.75897"
-               id="tspan2003"><tspan
+               id="tspan7851"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan2001">Controller
+                 id="tspan7849">Controller
 </tspan></tspan><tspan
                x="206"
                y="130.09272"
-               id="tspan2005">(APPC)</tspan></text>
+               id="tspan7853">(APPC)</tspan></text>
         </g>
       </a>
       <g
@@ -1688,7 +1688,7 @@
          inkscape:label="ccsdk">
         <a
            id="a67340"
-           xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/latest/index.html"
            xlink:title="The Common Controller Software Development Kit (CCSDK) provides a common set of reusable code that can be used across multiple controllers. For example, the SDN-C , APP-C, DCAE, ONAP Operations Manager and ONAP controller can reuse common pieces from this framework."
            inkscape:label="ccsdk.link"
            onmouseover="style.opacity = 0.6;"
@@ -1715,23 +1715,23 @@
                inkscape:label="ccsdk.label"><tspan
                  x="183.24023"
                  y="123.66546"
-                 id="tspan2009"><tspan
+                 id="tspan7857"><tspan
                    dx="0 0 0 0 0 0 0.26458278"
-                   id="tspan2007">Common
+                   id="tspan7855">Common
 </tspan></tspan><tspan
                  x="183.24023"
                  y="126.99921"
-                 id="tspan2013"><tspan
+                 id="tspan7861"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0.26458278"
-                   id="tspan2011">Controller SDK </tspan></tspan><tspan
+                   id="tspan7859">Controller SDK </tspan></tspan><tspan
                  x="183.24023"
                  y="130.33295"
-                 id="tspan2015">(CCSDK)</tspan></text>
+                 id="tspan7863">(CCSDK)</tspan></text>
           </g>
         </a>
         <a
            id="a66950"
-           xlink:href="https://docs.onap.org/projects/onap-sdnc-oam/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-sdnc-oam/en/latest/index.html"
            xlink:title="The ONAP Controller Family (SDNC/APPC) configures and maintains the health of Layer 1-7 network functions (VNF, PNF, CNFs) and network services throughout their lifecycle. Both provide similar services (application level configuration using NetConf, Chef, Ansible, RestConf, etc.) and life cycle management functions (e.g. stop, resume, health check). SDNC is being used mainly for Layer 1-3 network elements."
            inkscape:label="sdnc.link"
            transform="translate(-11.995236,0.06725276)"
@@ -1757,15 +1757,15 @@
                inkscape:label="sdnc.label"><tspan
                  x="185"
                  y="136.42522"
-                 id="tspan2019"><tspan
+                 id="tspan7867"><tspan
                    dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0 0 0 0 0 0.26458433"
                    style="baseline-shift:baseline;shape-inside:url(#rect13557-6);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                   id="tspan2017">SDN Controller </tspan></tspan><tspan
+                   id="tspan7865">SDN Controller </tspan></tspan><tspan
                  x="185"
                  y="139.75898"
-                 id="tspan2023"><tspan
+                 id="tspan7871"><tspan
                    style="baseline-shift:baseline;shape-inside:url(#rect13557-6);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                   id="tspan2021">(SDNC)</tspan></tspan></text>
+                   id="tspan7869">(SDNC)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1774,7 +1774,7 @@
          inkscape:label="cds.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-ccsdk-cds/en/istanbul/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-ccsdk-cds/en/latest/index.html"
          xlink:title="The run-time part of the Controller Design Studio (CDS) enables operators and ISPs to implement/operate hybrid network (CNF, PNF, VNF, Whitebox, etc.). The components are able to process and execute the design-time model intent defined by the users to support the lifecycle management. Included are a Self Service API, a TOSCA Workflow Engine, a Resource &amp; Template API, a Southbound Adapter, a Python Executor and a Kotlin Executor."
          transform="translate(-16.995236,0.06725276)">
         <g
@@ -1797,19 +1797,19 @@
              inkscape:label="cds.label"><tspan
                x="158"
                y="123.42522"
-               id="tspan2027"><tspan
+               id="tspan7875"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan2025">Controller
+                 id="tspan7873">Controller
 </tspan></tspan><tspan
                x="158"
                y="126.75897"
-               id="tspan2031"><tspan
+               id="tspan7879"><tspan
                  dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458278"
-                 id="tspan2029">Design Studio
+                 id="tspan7877">Design Studio
 </tspan></tspan><tspan
                x="158"
                y="130.09272"
-               id="tspan2033">(CDS)</tspan></text>
+               id="tspan7881">(CDS)</tspan></text>
         </g>
       </a>
       <a
@@ -1817,7 +1817,7 @@
          inkscape:label="infrastructureadaption.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-multicloud-framework/en/istanbul/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-multicloud-framework/en/latest/index.html"
          xlink:title="MultiCloud provides mediation capabilities to connect to different infrastructure providers (VM based, Container based). It has capabilities to discover and register infrastructure resource information. Also it relays FCAPS data from infrastructure to DCAE."
          transform="translate(-8.9952356,0.06725276)">
         <g
@@ -1840,23 +1840,23 @@
              inkscape:label="infrastructureadaption.label"><tspan
                x="120"
                y="123.42522"
-               id="tspan2037"><tspan
+               id="tspan7885"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2645835"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan2035">Infrastructure 
+                 id="tspan7883">Infrastructure 
 </tspan></tspan><tspan
                x="120"
                y="126.75897"
-               id="tspan2041"><tspan
+               id="tspan7889"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458278"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan2039">Adaption
+                 id="tspan7887">Adaption
 </tspan></tspan><tspan
                x="120"
                y="130.09272"
-               id="tspan2045"><tspan
+               id="tspan7893"><tspan
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan2043">(Multi-VIM/Cloud)</tspan></tspan></text>
+                 id="tspan7891">(Multi-VIM/Cloud)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1868,7 +1868,7 @@
            inkscape:label="dcae.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/latest/index.html"
            xlink:title="Data Collection, Analytics &amp; Events (DCAE) gathers performance, usage, and configuration data from the managed environment.">
           <g
              id="g1451"
@@ -1890,22 +1890,22 @@
                inkscape:label="dcae.label"><tspan
                  x="81"
                  y="123.42522"
-                 id="tspan2049"><tspan
+                 id="tspan7897"><tspan
                    dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0 0 0 0.26458386"
-                   id="tspan2047">Data Collection, 
+                   id="tspan7895">Data Collection, 
 </tspan></tspan><tspan
                  x="81"
                  y="126.75897"
-                 id="tspan2053"><tspan
+                 id="tspan7901"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0.26458421"
-                   id="tspan2051">Analytics &amp; </tspan></tspan><tspan
+                   id="tspan7899">Analytics &amp; </tspan></tspan><tspan
                  x="81"
                  y="130.09272"
-                 id="tspan2059"><tspan
+                 id="tspan7907"><tspan
                    dx="0 0 0 0 0 0 0.26458338"
-                   id="tspan2055">Events </tspan><tspan
+                   id="tspan7903">Events </tspan><tspan
                    dx="-0.26458368"
-                   id="tspan2057">(DCAE)</tspan></tspan></text>
+                   id="tspan7905">(DCAE)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1913,7 +1913,7 @@
            inkscape:label="collectors.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/istanbul/sections/services/serviceindex.html#collectors"
+           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/latest/sections/services/serviceindex.html#collectors"
            xlink:title="The collection layer provides the various data collectors that are needed to collect the instrumentation that is available from the cloud infrastructure. Included are both physical and virtual elements.">
           <g
              id="g1442"
@@ -1935,7 +1935,7 @@
                inkscape:label="collectors.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan2061">Collectors</tspan></text>
+                 id="tspan7909">Collectors</tspan></text>
           </g>
         </a>
       </g>
@@ -1944,7 +1944,7 @@
          inkscape:label="dmaap.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/developing/index.html#dmaap-data-movement-as-a-platform"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#dmaap-data-movement-as-a-platform"
          xlink:title="Data Movement as a Platform (DMaaP) is a component that provides data movement services that transports and processes data from any source to any target.">
         <g
            id="g7029"
@@ -1967,9 +1967,9 @@
              inkscape:label="dmaap.label"><tspan
                x="171.00391"
                y="107.49163"
-               id="tspan2065"><tspan
+               id="tspan7913"><tspan
                  dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0.26458243 -0.26458272 0.26458159 -0.26458272 0 0 0 0 0 0 0 0.26458541 -0.26458272"
-                 id="tspan2063">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
+                 id="tspan7911">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -1977,7 +1977,7 @@
          inkscape:label="msb.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-msb-apigateway/en/istanbul/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-msb-apigateway/en/latest/index.html"
          xlink:title="The Microservice Bus (MSB) provides service registration, discovery and communication services for microservices as well as a gateway for internal and external communication for the services.">
         <g
            id="g7023"
@@ -1999,9 +1999,9 @@
              inkscape:label="msb.label"><tspan
                x="81"
                y="107.49163"
-               id="tspan2069"><tspan
+               id="tspan7917"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0.26458243 -0.26458272"
-                 id="tspan2067">Microservice Bus (MSB)</tspan></tspan></text>
+                 id="tspan7915">Microservice Bus (MSB)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -2013,7 +2013,7 @@
            inkscape:label="aai.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/developing/index.html#aai-active-and-available-inventory"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#aai-active-and-available-inventory"
            xlink:title="The Active and Available Inventory (AAI) provides real-time views of the resources and services in managed by and their relationships.">
           <g
              id="g7008"
@@ -2035,9 +2035,9 @@
                inkscape:label="aai.label"><tspan
                  x="195"
                  y="91.425224"
-                 id="tspan2073"><tspan
+                 id="tspan7921"><tspan
                    dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0 0 0 0 0 0.26458243 -0.26458272"
-                   id="tspan2071">Active &amp; Available Inventory (AAI)</tspan></tspan></text>
+                   id="tspan7919">Active &amp; Available Inventory (AAI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2045,7 +2045,7 @@
            inkscape:label="esr.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/developing/index.html#aai-active-and-available-inventory"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#aai-active-and-available-inventory"
            xlink:title="The External System Register (ESR) provides capabilities to manage external systems (e.g. register, test, update status in AAI).">
           <g
              id="g7017"
@@ -2067,13 +2067,13 @@
                inkscape:label="esr.label"><tspan
                  x="197.00391"
                  y="97.491631"
-                 id="tspan2081"><tspan
+                 id="tspan7929"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458314"
-                   id="tspan2075">External </tspan><tspan
+                   id="tspan7923">External </tspan><tspan
                    dx="-0.26458368 0 0 0 0 0 0.2645835"
-                   id="tspan2077">System </tspan><tspan
+                   id="tspan7925">System </tspan><tspan
                    dx="-0.26458272 0 0 0 0 0 0 0 0.26458243 -0.26458463"
-                   id="tspan2079">Register (ESR)</tspan></tspan></text>
+                   id="tspan7927">Register (ESR)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -2082,7 +2082,7 @@
          inkscape:label="so.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-so/en/istanbul/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-so/en/latest/index.html"
          xlink:title="The Service Orchestration (SO) component is in charge of orchestration of network services and resources. It is based on the use of BPMN to document the Workflows.">
         <g
            id="g6985"
@@ -2105,9 +2105,9 @@
              inkscape:label="so.label"><tspan
                x="147"
                y="91.742725"
-               id="tspan2085"><tspan
+               id="tspan7933"><tspan
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                 id="tspan2083">Service Orchestration (SO)</tspan></tspan></text>
+                 id="tspan7931">Service Orchestration (SO)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -2119,7 +2119,7 @@
            inkscape:label="policyframework.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-policy-parent/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-policy-parent/en/latest/index.html"
            xlink:title="Policy Core Functions provide a logically centralized environment for the creation and management of policies, including conditional rules (e.g. create and validate policies/rules, identify overlaps, resolve conflicts, derive additional policies as needed).">
           <g
              id="g6163"
@@ -2141,11 +2141,11 @@
                inkscape:label="policyframework.label"><tspan
                  x="81"
                  y="91.742725"
-                 id="tspan2091"><tspan
+                 id="tspan7939"><tspan
                    dx="0 0 0 0 0 0 0.2645829"
-                   id="tspan2087">Policy </tspan><tspan
+                   id="tspan7935">Policy </tspan><tspan
                    dx="-0.26458272"
-                   id="tspan2089">Framework</tspan></tspan></text>
+                   id="tspan7937">Framework</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2153,7 +2153,7 @@
            inkscape:label="clamp.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-policy-clamp/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-policy-clamp/en/latest/index.html"
            xlink:title="The Closed Loop Automation Platform (CLAMP) provides the capability to manage runtime control loops.">
           <g
              id="g6171"
@@ -2175,9 +2175,9 @@
                inkscape:label="clamp.label"><tspan
                  x="83.003906"
                  y="97.491631"
-                 id="tspan2095"><tspan
+                 id="tspan7943"><tspan
                    dx="0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0.2645835 -0.26458272 0 0 0 0 0 0.26458386 -0.26458272 0 0 0 0 0 0 0 0.26458541 -0.26458272"
-                   id="tspan2093">Closed Loop Autom. Platform (CLAMP)</tspan></tspan></text>
+                   id="tspan7941">Closed Loop Autom. Platform (CLAMP)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -2191,7 +2191,7 @@
            inkscape:label="interfaces.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/istanbul/guides/onap-developer/architecture/references.html#user-interfaces"
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/architecture/references.html#user-interfaces"
            xlink:title="Various ONAP components provide also a user interface.">
           <g
              id="g5413"
@@ -2213,9 +2213,9 @@
                inkscape:label="interfaces.label"><tspan
                  x="59"
                  y="74.742725"
-                 id="tspan2099"><tspan
+                 id="tspan7947"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-                   id="tspan2097">Interfaces</tspan></tspan></text>
+                   id="tspan7945">Interfaces</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2223,7 +2223,7 @@
            inkscape:label="cli.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-cli/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-cli/en/latest/index.html"
            xlink:title="The Command Line Interface (CLI) provides commands to operate ONAP during design and run-time for network service functionalities. It also provides the 'Open Command Platform' which helps to orchestrate the commands from YAML and helps in agile automation.">
           <g
              id="g5407"
@@ -2245,7 +2245,7 @@
                inkscape:label="cli.label"><tspan
                  x="219"
                  y="79.742725"
-                 id="tspan2101">CLI</tspan></text>
+                 id="tspan7949">CLI</tspan></text>
           </g>
         </a>
         <a
@@ -2253,7 +2253,7 @@
            inkscape:label="externalapis.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-externalapi-nbi/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-externalapi-nbi/en/latest/index.html"
            xlink:title="External API exposes ONAPs capabilities through TMF standardized interfaces. It enables ONAP to hide the internal API.">
           <g
              id="g5402"
@@ -2275,9 +2275,9 @@
                inkscape:label="externalapis.label"><tspan
                  x="180"
                  y="79.742725"
-                 id="tspan2105"><tspan
+                 id="tspan7953"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan2103">External APIs</tspan></tspan></text>
+                   id="tspan7951">External APIs</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2285,7 +2285,7 @@
            inkscape:label="usecaseui.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-usecase-ui/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-usecase-ui/en/latest/index.html"
            xlink:title="Usecase User Interface (UUI) is an application portal which provides the ability to manage ONAP service instances. It allows customers to create, delete and update service instances, as well as to monitor the alarms and performance of these instances.">
           <g
              id="g5396"
@@ -2307,9 +2307,9 @@
                inkscape:label="usecaseui.label"><tspan
                  x="140"
                  y="79.742725"
-                 id="tspan2109"><tspan
+                 id="tspan7957"><tspan
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0.26458314 -0.26458272"
-                   id="tspan2107">Use-Case UI (UUI)</tspan></tspan></text>
+                   id="tspan7955">Use-Case UI (UUI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2317,7 +2317,7 @@
            inkscape:label="omdashboardvid.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vid/en/istanbul/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-vid/en/latest/index.html"
            xlink:title="Virtual Infrastructure Deployment (VID) is a UI interface that allows the operations and network infrastructure engineers to orchestrate and change configurations related to the infrastructure expansion and maintenance.">
           <g
              id="g5390"
@@ -2339,9 +2339,9 @@
                inkscape:label="omdashboardvid.label"><tspan
                  x="100"
                  y="79.742725"
-                 id="tspan2113"><tspan
+                 id="tspan7961"><tspan
                    dx="0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458159 -0.26458272"
-                   id="tspan2111">O&amp;M Dashboard (VID)</tspan></tspan></text>
+                   id="tspan7959">O&amp;M Dashboard (VID)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2371,7 +2371,7 @@
                inkscape:label="portal.label"><tspan
                  x="60"
                  y="79.742725"
-                 id="tspan2115">Portal</tspan></text>
+                 id="tspan7963">Portal</tspan></text>
           </g>
         </a>
       </g>
@@ -2381,7 +2381,7 @@
        inkscape:label="nbi.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
-       xlink:href="https://docs.onap.org/projects/onap-externalapi-nbi/en/istanbul/architecture/architecture.html#introduction"
+       xlink:href="https://docs.onap.org/projects/onap-externalapi-nbi/en/latest/architecture/architecture.html#introduction"
        xlink:title="The Northbound Interface (NBI) provides a set of API that can be used by external systems as OSS or BSS for example. These APIs are based on TMF API.">
       <g
          id="g2903"
@@ -2405,10 +2405,10 @@
            inkscape:label="nbi.label"><tspan
              x="10"
              y="47.553809"
-             id="tspan2119"><tspan
+             id="tspan7967"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0.26458254 -0.2645826 0 0 0 0 0 0 0 0 0.26458493 -0.2645826 0 0 0 0 0.26457849 -0.2645826 0 0 0 0 0 0 0.26458469 -0.2645826 0 0 0 0.26458779 -0.2645826 0 0 0.26459685 -0.2645826 0 0 0.26457873 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-               id="tspan2117">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
+               id="tspan7965">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
       </g>
     </a>
     <path
@@ -2422,9 +2422,9 @@
        inkscape:label="releaseinfo.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
-       xlink:href="https://docs.onap.org/en/istanbul/guides/overview/overview.html#onap-release-information"
+       xlink:href="https://docs.onap.org/en/latest/guides/overview/overview.html#onap-release-information"
        xlink:title="ONAP Release 9 »Istanbul«"
-       style="display:inline"
+       style="display:none"
        transform="translate(-3.3759646,4.8850003e-4)">
       <text
          xml:space="preserve"
@@ -2444,7 +2444,7 @@
        inkscape:label="onaplogo.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
-       xlink:href="https://docs.onap.org/en/istanbul/guides/overview/overview.html"
+       xlink:href="https://docs.onap.org/en/latest/guides/overview/overview.html"
        xlink:title="The Open Network Automation Platform (ONAP) is a comprehensive platform for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. The open source project ONAP is hosted by the Linux Foundation.">
       <g
          id="g1241"
@@ -2484,60 +2484,60 @@
            inkscape:label="logografics">
           <polygon
              class="st127"
-             points="7.16,149.91 7.16,217.11 114.85,217.11 "
+             points="114.85,217.11 7.16,149.91 7.16,217.11 "
              id="polygon1151"
              style="display:inline" />
           <polygon
              class="st128"
-             points="244.95,149.68 136.86,217.11 244.95,217.11 "
+             points="244.95,217.11 244.95,149.68 136.86,217.11 "
              id="polygon1153" />
           <polygon
              class="st128"
-             points="7.16,77.45 112.49,11.74 7.16,11.74 "
+             points="7.16,11.74 7.16,77.45 112.49,11.74 "
              id="polygon1155" />
           <polygon
              class="st128"
-             points="141.76,11.74 244.95,76.13 244.95,11.74 "
+             points="244.95,11.74 141.76,11.74 244.95,76.13 "
              id="polygon1157" />
           <polygon
              class="st86"
-             points="129,81.95 79.61,112.78 127.88,142.91 177.28,112.08 "
+             points="177.28,112.08 129,81.95 79.61,112.78 127.88,142.91 "
              id="polygon1159" />
           <polygon
              class="st129"
-             points="79.61,112.78 129,81.95 82.34,52.84 32.97,83.67 "
+             points="32.97,83.67 79.61,112.78 129,81.95 82.34,52.84 "
              id="polygon1161" />
           <polygon
              class="st129"
-             points="129,81.95 177.28,112.08 223.92,82.97 175.64,52.84 "
+             points="175.64,52.84 129,81.95 177.28,112.08 223.92,82.97 "
              id="polygon1163" />
           <polygon
              class="st130"
-             points="129,81.95 175.64,52.84 129,23.73 82.34,52.84 "
+             points="82.34,52.84 129,81.95 175.64,52.84 129,23.73 "
              id="polygon1165" />
           <polygon
              class="st131"
-             points="127.88,142.91 79.61,112.78 32.97,141.9 81.24,172.02 "
+             points="81.24,172.02 127.88,142.91 79.61,112.78 32.97,141.9 "
              id="polygon1167" />
           <polygon
              class="st126"
-             points="29.62,139.81 32.97,141.9 79.61,112.78 32.97,83.67 29.62,85.74 "
+             points="29.62,85.74 29.62,139.81 32.97,141.9 79.61,112.78 32.97,83.67 "
              id="polygon1169" />
           <polygon
              class="st131"
-             points="173.7,172.56 223.92,141.2 177.28,112.08 127.88,142.91 174.21,171.83 "
+             points="174.21,171.83 173.7,172.56 223.92,141.2 177.28,112.08 127.88,142.91 "
              id="polygon1171" />
           <polygon
              class="st126"
-             points="177.28,112.08 223.92,141.2 226.85,139.38 226.85,84.8 223.92,82.97 "
+             points="223.92,82.97 177.28,112.08 223.92,141.2 226.85,139.38 226.85,84.8 "
              id="polygon1173" />
           <polygon
              class="st132"
-             points="127.88,201.14 173.7,172.56 174.21,171.83 127.88,142.91 81.24,172.02 "
+             points="81.24,172.02 127.88,201.14 173.7,172.56 174.21,171.83 127.88,142.91 "
              id="polygon1175" />
           <polygon
              class="st126"
-             points="127.88,142.91 79.61,112.78 129,81.95 177.28,112.08 "
+             points="177.28,112.08 127.88,142.91 79.61,112.78 129,81.95 "
              id="polygon1177"
              style="display:inline" />
         </g>
