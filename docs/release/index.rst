@@ -4,10 +4,10 @@
 
 .. _onap-release-notes:
 
-Honolulu Release Notes
+Istanbul Release Notes
 ^^^^^^^^^^^^^^^^^^^^^^
 
-This page provides the release notes for the ONAP Honolulu release. This
+This page provides the release notes for the ONAP Istanbul release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
@@ -19,68 +19,31 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-Honolulu Releases
+Istanbul Releases
 =================
 
 The following releases are available for Honolulu:
-  - `Honolulu Maintenance Release 8.0.1`_
-  - `Honolulu Major Release 8.0.0`_
+  - `Istanbul Major Release 9.0.0`_
 
-Honolulu Maintenance Release 8.0.1
-==================================
-
-+--------------------------------------+--------------------------------------+
-| **Project**                          | Open Network Automation Platform     |
-|                                      | (ONAP)                               |
-+--------------------------------------+--------------------------------------+
-| **Release name**                     | Honolulu Maintenance Release         |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release version**                  | 8.0.1                                |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release date**                     | September 30th 2021                  |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-
-New Features
-============
-
-Honolulu Maintenance Release 8.0.1 delivered a number of fixes and updates
-across the following projects:
-
- - SO          - bugfixes and support for transport slicing usecase
- - CDS         - fix BluePrint* classes renaming
- - MULTICLOUD  - update of k8s plugin to support Helm3
- - OOM         - fixes for common Helm chart templates and product charts
- - POLICY      - new versions of Policy Framework components
- - DCAE        - new version of the policy-handler and dashboard
- - OOF         - use new AAI schema version (v21)
- - CCSDK       - fix fault and pnf-registration event losses
-
-Details on the specific Jira tickets addressed by each project can be found in
-the component specific Release Notes: :ref:`release notes<doc-releaserepos>`
-
-
-Honolulu Major Release 8.0.0
+Istanbul Major Release 9.0.0
 ============================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Open Network Automation Platform     |
 |                                      | (ONAP)                               |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | Honolulu                             |
+| **Release name**                     | Istanbul                             |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 8.0.0                                |
+| **Release version**                  | 9.0.0                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | May 11th  2021                       |
+| **Release date**                     | October ??  2021                     |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
-Honolulu Features
-=================
+Istanbul Features TO BE DONE
+============================
 ONAP Honolulu focusses on:
 
 * Cloud Native Function (CNF) support with  with seamless configuration of Helm
