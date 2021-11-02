@@ -2,7 +2,7 @@ from docs_conf.conf import *
 
 # Change the line below from 'latest' to '<Name_of_the_new_ONAP_Release>' after
 # you have create the new branch for the 'doc' project.
-branch = 'latest'
+branch = 'istanbul'
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
@@ -14,14 +14,14 @@ intersphinx_mapping = {}
 # branch for the 'doc' project.
 #
 
-# Latest | <Name_of_the_new_ONAP_Release>
+# Istanbul
 intersphinx_mapping['onap-aai-aai-common'] = ('{}/onap-aai-aai-common/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-sparky-be'] = ('{}/onap-aai-sparky-be/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-cds'] = ('{}/onap-ccsdk-cds/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-features'] = ('{}/onap-ccsdk-features/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-distribution'] = ('{}/onap-ccsdk-distribution/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-oran'] = ('{}/onap-ccsdk-oran/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-cli'] = ('{}/onap-cli/en/%s'.format(doc_url) % branch, None)
+# enable later and remove duplicated cli entry at 'latest' # intersphinx_mapping['onap-cli'] = ('{}/onap-cli/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-cps'] = ('{}/onap-cps/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-cps-ncmp-dmi-plugin'] = ('{}/onap-cps-ncmp-dmi-plugin/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-cps-cps-temporal'] = ('{}/onap-cps-cps-temporal/en/%s'.format(doc_url) % branch, None)
@@ -30,7 +30,7 @@ intersphinx_mapping['onap-dmaap-messagerouter-messageservice'] = (
     '{}/onap-dmaap-messagerouter-messageservice/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-dmaap-buscontroller'] = ('{}/onap-dmaap-buscontroller/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-dmaap-datarouter'] = ('{}/onap-dmaap-datarouter/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-dmaap-dbcapi'] = ('{}/onap-dmaap-dbcapi/en/%s'.format(doc_url) % branch, None)
+# enable later and remove duplicated cli entry at 'honolulu' # intersphinx_mapping['onap-dmaap-dbcapi'] = ('{}/onap-dmaap-dbcapi/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-holmes-engine-management'] = (
     '{}/onap-holmes-engine-management/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-holmes-rule-management'] = (
@@ -69,6 +69,7 @@ intersphinx_mapping['onap-vvp-documentation'] = ('{}/onap-vvp-documentation/en/%
 
 # Honolulu
 branch = 'honolulu'
+intersphinx_mapping['onap-dmaap-dbcapi'] = ('{}/onap-dmaap-dbcapi/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-vid'] = ('{}/onap-vid/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-externalapi-nbi'] = ('{}/onap-externalapi-nbi/en/%s'.format(doc_url) % branch, None)
 
@@ -98,6 +99,7 @@ intersphinx_mapping['onap-ccsdk-apps'] = ('{}/onap-ccsdk-apps/en/%s'.format(doc_
 intersphinx_mapping['onap-ccsdk-dashboard'] = ('{}/onap-ccsdk-dashboard/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-platform-plugins'] = (
     '{}/onap-ccsdk-platform-plugins/en/%s'.format(doc_url) % branch, None)
+intersphinx_mapping['onap-cli'] = ('{}/onap-cli/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-logging-analytics'] = ('{}/onap-logging-analytics/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-logging-analytics-pomba-pomba-audit-common'] = (
     '{}/onap-logging-analytics-pomba-pomba-audit-common/en/%s'.format(doc_url) % branch, None)
