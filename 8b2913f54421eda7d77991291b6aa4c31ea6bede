@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f8eebb86_0d724879",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-11-02T12:42:49Z",
+      "side": 1,
+      "message": "Istanbul",
+      "revId": "8b2913f54421eda7d77991291b6aa4c31ea6bede",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c3b609a4_4a3d86d5",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-11-02T12:42:49Z",
+      "side": 1,
+      "message": "Istanbul",
+      "revId": "8b2913f54421eda7d77991291b6aa4c31ea6bede",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "62f07fb1_4a62220e",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-11-02T12:42:49Z",
+      "side": 1,
+      "message": "Lines 49 to 193 to be removed",
+      "revId": "8b2913f54421eda7d77991291b6aa4c31ea6bede",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
