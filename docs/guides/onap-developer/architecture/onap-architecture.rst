@@ -3,6 +3,8 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017-2018 Huawei Technologies Co., Ltd.
 .. Copyright 2019 ONAP Contributors
+.. Copyright 2020 ONAP Contributors
+.. Copyright 2021 ONAP Contributors
 
 .. _ONAP-architecture:
 
@@ -27,7 +29,8 @@ in some cases, upgrading on-premises customer equipment. Many are seeking to
 exploit SDN and NFV to improve service velocity, simplify equipment
 interoperability and integration, and to reduce overall CapEx and OpEx costs.
 In addition, the current, highly fragmented management landscape makes it
-difficult to monitor and guarantee service-level agreements (SLAs).
+difficult to monitor and guarantee service-level agreements (SLAs). These
+challenges are still very real now as ONAP creates its eighth release.
 
 ONAP is addressing these challenges by developing global and massive scale
 (multi-site and multi-VIM) automation capabilities for physical, virtual, and
@@ -159,6 +162,8 @@ following best practice building rules to optimize their image size. To reduce
 the ONAP footprint, a first effort to use a shared database has been initiated
 with a Cassandra and mariadb-galera clusters.
 
+ONAP Operations Manager (OOM)
+-----------------------------
 The ONAP Operations Manager (OOM) is responsible for orchestrating the
 end-to-end lifecycle management and monitoring of ONAP components. OOM uses
 Kubernetes to provide CPU efficiency and platform deployment. In addition, OOM
@@ -183,6 +188,12 @@ container management system and Consul to provide the following functionality:
 OOM supports a wide variety of cloud infrastructures to suit your individual
 requirements.
 
+Starting with the Istanbul-R9, as a PoC, OOM provides Service Mesh-based
+mTLS (mutual TLS) between ONAP components to secure component communications,
+by leveraging Istio. The goal is to substitute AAF functionalities.
+
+Microservices Bus (MSB)
+-----------------------
 Microservices Bus (MSB) provides fundamental microservices support including
 service registration/ discovery, external API gateway, internal API gateway,
 client software development kit (SDK), and Swagger SDK. When integrating with
@@ -199,13 +210,12 @@ ONAP delivers a single, consistent user experience to both design time and
 runtime environments, based on the user’s role. Role changes are configured
 within a single ONAP instance.
 
-This user experience is managed by the ONAP
-Portal, which provides access to design, analytics and operational control/
-administration functions via a shared, role-based menu or dashboard. The portal
-architecture provides web-based capabilities such as application onboarding and
-management, centralized access management through the Authentication and
-Authorization Framework (AAF), and dashboards, as well as hosted application
-widgets.
+This user experience is managed by the ONAP Portal, which provides access to
+design, analytics and operational control/administration functions via a
+shared, role-based menu or dashboard. The portal architecture provides
+web-based capabilities such as application onboarding and management,
+centralized access management through the Authentication and Authorization
+Framework (AAF), and dashboards, as well as hosted application widgets.
 
 The portal provides an SDK to enable multiple development teams to adhere to
 consistent UI development requirements by taking advantage of built-in
@@ -218,9 +228,9 @@ recipes for corrective/remedial action) using the ONAP Design Framework Portal.
 
 Design Time Framework
 =====================
-The design time framework is a comprehensive development environment with tools
-, techniques, and repositories for defining/ describing resources, services,
-and products.
+The design time framework is a comprehensive development environment with
+tools, techniques, and repositories for defining/ describing resources,
+services, and products.
 
 The design time framework facilitates reuse of models, further improving
 efficiency as more and more models become available. Resources, services,
@@ -233,11 +243,13 @@ specifications (i.e., ‘recipes’) and policies are geographically distributed
 optimize performance and maximize autonomous behavior in federated cloud
 environments.
 
+Service Design and Creation (SDC)
+---------------------------------
 Service Design and Creation (SDC) provides tools, techniques, and repositories
 to define/simulate/certify system assets as well as their associated processes
 and policies. Each asset is categorized into one of four asset groups: Resource
 , Services, Products, or Offers. SDC supports the onboarding of Network
-Services packages (ETSI SOL 0007 ), CNF packages (Helm), VNF packages (Heat or
+Services packages (ETSI SOL 0007), CNF packages (Helm), VNF packages (Heat or
 ETSI SOL004) and PNF packages (ETSI SOL004). SDC also includes some
 capabilities to model 5G network slicing using the standard properties (Slice
 Profile, Service Template).
@@ -271,6 +283,15 @@ technical behaviors of components in which those policies are used, without
 requiring rewrites of their software code. Policy permits simpler
 management / control of complex mechanisms via abstraction.
 
+VNF SDK
+-------
+VND SDK provides the functionality to create VNF/PNF packages, test VNF packages
+and VNF ONAP compliance and store VNF/PNF packages and upload to/from a marketplace.
+
+VVP
+---
+VVP provides validation for the VNF Heat package.
+
 Runtime Framework
 =================
 The runtime execution framework executes the rules and policies and other
@@ -286,10 +307,14 @@ Orchestration
 The Service Orchestrator (SO) component executes the specified processes by
 automating sequences of activities, tasks, rules and policies needed for
 on-demand creation, modification or removal of network, application or
-infrastructure services and resources, this includes VNFs, CNFs and PNFs.
+infrastructure services and resources, this includes VNFs, CNFs and PNFs,
+by conforming to industry standards such as ETSI, TMF.
 The SO provides orchestration at a very high level, with an end-to-end view
 of the infrastructure, network, and applications. Examples of this include
 BroadBand Service (BBS) and Cross Domain and Cross Layer VPN (CCVPN).
+The SO is modular and hierarchical to handle services and multi-level
+resources and Network Slicing, by leveraging pluggable adapters and delegating
+orchestration operations to NFVO (SO NFVO, VFC), VNFM, CNF Manager, NSMF, NSSMF.
 
 Virtual Infrastructure Deployment (VID)
 ---------------------------------------
@@ -333,6 +358,37 @@ the associated physical COTS server infrastructure. VF-C provides a generic
 VNFM capability but also integrates with external VNFMs and VIMs as part of an
 NFV MANO stack.
 
+ONAP has two application level configuration and lifecycle management modules
+called SDN-C and App-C. Both provide similar services (application level
+configuration using NetConf, Chef, Ansible, RestConf, etc.) and lifecycle
+management functions (e.g., stop, resume, health check, etc.).
+They share common code from CCSDK repo. However, there are some differences
+between these two modules (SDN-C uses CDS only for onboarding and
+configuration / LCM flow design, whereas App-C uses CDT for the LCM functions
+for self service to provide artifacts storing in App-C Database).
+SDN-C has been used mainly for Layer1-3 network elements and App-C is
+being used for Layer4-7 network functions. This is a very loose
+distinction and we expect that over time we will get better alignment and
+have common repository for controller code supporting application level configuration
+and lifecycle management of all network elements (physical or virtual, layer 1-7).
+Because of these overlaps, we have documented SDN-C and App-C together.
+ONAP Controller Family (SDN-C / App-C) configures and maintains the health of L1-7
+Network Function (VNF, PNF, CNF) and network services throughout their lifecycle:
+
+- Configures Network Functions (VNF/PNF)
+- Provides programmable network application management platform:
+
+  - Behavior patterns programmed via models and policies
+  - Standards based models & protocols for multi-vendor implementation
+  - Extensible SB adapters such as Netconf, Ansible, Rest API, etc.
+  - Operation control, version management, software updates, etc.
+- Local source of truth
+  - Manages inventory within its scope
+  - Manages and stores state of NFs
+  - Supports Configuration Audits
+
+Controller Design Studio (CDS)
+------------------------------
 The Controller Design Studio (CDS) community in ONAP has contributed a
 framework to automate the resolution of resources for instantiation and any
 config provisioning operation, such as day0, day1 or day2 configuration. The
@@ -373,25 +429,30 @@ design capabilities in SDC, simplifying the design process.
 Multi Cloud Adaptation
 ----------------------
 Multi-VIM/Cloud provides and infrastructure adaptation layer for VIMs/Clouds
-and K8s  clusters in exposing advanced hardware platform awareness and cloud
+and K8s clusters in exposing advanced hardware platform awareness and cloud
 agnostic intent capabilities, besides standard capabilities, which are used by
 OOF and other components for enhanced cloud selection and SO/VF-C for cloud
 agnostic workload deployment. The K8s plugin is in charge to deploy the CNF on
 the Kubernetes clusters using Kubernetes API.
 
-Closed Control Loop Automation
-==============================
+Data Collection Analytics and Events (DCAE)
+-------------------------------------------
+DCAE provides the capability to collect events, and host analytics applications
+(DCAE Services)
+
+Closed Control Loop Automation Management Platform (CLAMP)
+----------------------------------------------------------
 Closed loop control is provided by cooperation among a number of design-time
 and run-time elements. The Runtime loop starts with data collectors from Data
 Collection, Analytics and Events (DCAE). ONAP includes the following collectors
-: VES (VNF Event Streaming)  for events, HV-VES for high-volume events, SNMP
+: VES (VNF Event Streaming) for events, HV-VES for high-volume events, SNMP
 for SNMP traps, File Collector to receive files, and RESTCONF Collector to
 collect the notifications. After data collection/verification phase, data are
 moved through the loop of micro-services like Homes for event detection, Policy
 for determining actions, and finally, controllers and orchestrators to
 implement actions CLAMP is used to monitor the loops themselves. DCAE also
 includes a number of specialized micro-services to support some use-cases such
-as the Slice Analysis or SON-Handler.  Some dedicated event processor modules
+as the Slice Analysis or SON-Handler. Some dedicated event processor modules
 transform collected data (SNMP, 3GPP XML, RESTCONF) to VES format and push the
 various data onto data lake. CLAMP, Policy and DCAE all have design time
 aspects to support the creation of the loops.
@@ -408,6 +469,10 @@ Collectively, they provide FCAPS (Fault Configuration Accounting Performance
 Security) functionality. DCAE collects performance, usage, and configuration
 data; provides computation of analytics; aids in troubleshooting; and publishes
 events, data and analytics (e.g., to policy, orchestration, and the data lake).
+Another component, Holmes, connects to DCAE and provides alarm correlation
+for ONAP, new data collection capabilities with High Volume VES, and bulk
+performance management support.
+
 Working with the Policy Framework and CLAMP, these components detect problems
 in the network and identify the appropriate remediation. In some cases, the
 action will be automatic, and they will notify Service Orchestrator or one of
@@ -416,9 +481,39 @@ they will raise an alarm but require human intervention before executing the
 change. The policy framework is extended to support additional policy decision
 capabilities with the introduction of adaptive policy execution.
 
+Starting with the Honolulu-R8 and concluding in the Istanbul-R9 release, the CLAMP
+component was successfully integrated into the Policy component initially as a PoC in the
+Honolulu-R8 release and then as a fully integrated component within the Policy component
+in Istanbul-R9 release.
+CLAMP's functional role to provision Policy has been enhanced to support provisioning
+of policies outside of the context of a Control Loop and therefore act as a
+Policy UI. In the Istanbul release the CLAMP integration was officially released.
+
 |image3|
 
 **Figure 3: ONAP Closed Control Loop Automation**
+
+Virtual Function Controller (VFC)
+---------------------------------
+VFC provides the NFVO capability to manage the lifecycle of network service and VNFs,
+by conforming to ETSI NFV specification.
+
+Data Movement as a Platform (DMaaP)
+-----------------------------------
+DMaaP provides data movement service such as message routing and data routing.
+
+Use Case UI (UUI)
+-----------------
+UUI provides the capability to instantiate the blueprint User Cases and
+visualize the state.
+
+CLI
+---
+ONAP CLI provides a command line interface for access to ONAP.
+
+External APIs
+-------------
+External APIs provide services to expose the capability of ONAP.
 
 Shared Services
 ===============
@@ -440,7 +535,7 @@ Configuration Persistence Service (CPS)
 ---------------------------------------
 The Configuration Persistence Service (CPS) provides storage for real-time
 run-time configuration and operational parameters that need to be used by ONAP.
-In R8, Honolulu, the CPS is a stand-alone component, and its details in
+Since Honolulu-R8, the CPS is a stand-alone component, and its details in
 :ref:`CPS - Configuration Persistence Service<onap-cps:architecture>`.
 
 ONAP Modeling
