@@ -51,4 +51,4 @@ In the following page you find all use cases and functional requirements
 which have been officially verified in the actual release by the ONAP community.
 
 * :ref:`Current Use Cases<onap-integration:docs_usecases_release>`
-* :ref:`Deprecated Use Cases<onap-integration:docs_usecases>`
+* :ref:`Deprecated Use Cases<onap-integration:deprecated_usecases>`
