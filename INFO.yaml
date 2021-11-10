@@ -51,6 +51,11 @@ committers:
       company: 'Deutsche Telekom'
       id: 'thmsdt'
       timezone: 'Germany/Berlin'
+    - name: 'Cédric Ollivier'
+      email: 'cedric.ollivier@orange.com'
+      company: 'Orange'
+      id: 'ollivier'
+      timezone: 'Europe/Paris'
 tsc:
     approval: 'https://lists.onap.org/pipermail/onap-tsc'
     changes:
