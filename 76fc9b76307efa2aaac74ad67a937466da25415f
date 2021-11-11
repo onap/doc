@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6dc6aacd_8a10f4f8",
+        "filename": "docs/guides/onap-developer/architecture/onap-architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 2085
+      },
+      "writtenOn": "2021-11-11T14:58:26Z",
+      "side": 1,
+      "message": "will change it to eighth.",
+      "parentUuid": "503f5994_e3896303",
+      "range": {
+        "startLine": 33,
+        "startChar": 55,
+        "endLine": 33,
+        "endChar": 61
+      },
+      "revId": "76fc9b76307efa2aaac74ad67a937466da25415f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2190ea2e_58f9ad7f",
         "filename": "docs/guides/overview/overview.rst",
         "patchSetId": 1
