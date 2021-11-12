@@ -23,7 +23,7 @@
 ###
 ### DESCRIPTION:
 ### Retrieves a full list of ONAP repos from gerrit inluding their state.
-### Clones all active repos of the ONAP master branch plus other requested ONAP
+### Clones all repos of the ONAP master branch plus other requested ONAP
 ### branches. Then the script does some docs related analyses depending on the
 ### clone results. It creates logfiles containing filtered results. In addition
 ### a table.csv is created which can be used to import it in a spreadsheed.
@@ -58,7 +58,7 @@
 ### SHORT: curl -s 'https://gerrit.onap.org/r/projects/?d' | awk '{if(NR>1)print}' | jq -c '.[] | {id, state}' | sed -r 's:%2F:/:g; s:["{}]::g; s:id\:::; s:,state\::|:; /All-Projects/d; /All-Users/d'
 ###
 
-script_version="1.11 (2021-10-18)"
+script_version="1.12 (2021-11-12)"
 
 # save command for the restart with logging enabled
 command=$0
@@ -217,6 +217,57 @@ function getrpinfo {
   fi
   #echo "DBUG: getrpinfo requested \"${requested}\" NOT FOUND in list"
   return_from_getrpinfo=""
+}
+
+function find_repo_in_confpy {
+
+  local search_term=$1
+  local search_term_line_number=""
+  local confpy_branch_entries=""
+  local confpy_line_number=""
+  local confpy_branch_name=""
+  local idx=""
+  
+  return_from_find_repo_in_confpy=""
+  search_term="'${search_term}'"
+
+  search_term_line_number=$(cat ./doc/docs/conf.py | grep -n '^intersphinx_mapping\[' | grep -m 1 ${search_term} | sed 's/:.*//')
+  #echo "DBUG: search_term is ............... ${search_term}"
+  #echo "DBUG: search_term_line_number is ... ${search_term_line_number}"
+  
+  # nothing (or multiple entries) found - return
+  if [[ ${search_term_line_number} == "" ]]; then
+    #echo "DBUG: search_term_line_number is empty - returning"
+    return_from_find_repo_in_confpy=""
+    return 0;
+  fi
+  
+  readarray -t confpy_branch_entries <<< "$(cat ./doc/docs/conf.py | grep -n '^branch = ' | sed 's/branch = //' | sed s/\'//g)"
+  
+  #echo "DBUG: confpy_branch_entries"
+  #printf -- "%s\n" "${confpy_branch_entries[@]}"
+  #for confpy_branch_entry in ${confpy_branch_entries[@]}
+  #do
+  #    confpy_line_number=$(echo $confpy_branch_entry | awk -F ":" '{print $1}');
+  #    confpy_branch_name=$(echo $confpy_branch_entry | awk -F ":" '{print $2}');
+  #    echo "DBUG: ${confpy_branch_name} entries are below line ${confpy_line_number}"
+  #done
+  
+  # search in the list of branches in reverse order
+  for (( idx=${#confpy_branch_entries[@]}-1 ; idx>=0 ; idx-- ))
+  do
+      #echo "DBUG: working entry is ${confpy_branch_entries[idx]}"
+      confpy_line_number=$(echo ${confpy_branch_entries[idx]} | awk -F ":" '{print $1}');
+      confpy_branch_name=$(echo ${confpy_branch_entries[idx]} | awk -F ":" '{print $2}');
+      #echo "DBUG: ${confpy_branch_name} entries are below line ${confpy_line_number}"
+  
+      if (( ${search_term_line_number} > ${confpy_line_number} )); then
+        #echo "DBUG: search_term_line_number is greater than confpy_line_number"
+        #echo "DBUG: ${search_term} found in ${confpy_branch_name} section"
+        return_from_find_repo_in_confpy=${confpy_branch_name}
+        return 0;
+      fi
+  done
 }
 
 ###
@@ -676,10 +727,41 @@ do
   unset lcstatesmatch
 
   #
-  # csv column #9: RELEASE component (yes|maybe|unknown)
+  # csv column #9: intersphinx
+  # intersphinx mappings in conf.py
+  # provided is the branch used for linking the repository
+  #
+
+  readarray -t array < ./${repolist};
+  i=0
+  csv[i]="${csv[i]},intersphinx"
+  ((i++))
+  for line in "${array[@]}"
+  do
+    reponame=$(echo $line | awk -F "|" '{print $1}');
+    project=$(echo $reponame | sed 's:/.*$::')
+    #echo "DBUG: reponame=${reponame}"
+    #echo "DBUG:  project=${project}"
+    #echo "DBUG:        i=${i}"
+    reponame=$(echo ${reponame} | sed -r 's/\//-/g')
+    search_repo="onap-${reponame}"
+    #echo "DBUG: search_repo=${search_repo}"
+    find_repo_in_confpy ${search_repo}
+    csv[i]="${csv[i]},${return_from_find_repo_in_confpy}"
+    ((i++))
+  done
+  unset array
+  unset i
+  unset reponame
+  unset project
+  unset return_from_find_repo_in_confpy
+
+  #
+  # csv column #10: RELEASE component (yes|maybe|unknown)
   # to be filled with values of the planned release config file maintained by
   # the onap release manager
   # NOT FUNCTIONAL YET
+  #
 
   # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
   readarray -t array < ./${branch}_repoclone.log;
@@ -723,7 +805,7 @@ do
   unset releasecomponent
 
   #
-  # csv column #10: RELEASE partizipation
+  # csv column #11: RELEASE partizipation
   #
 
   # repoclone.log format:  $1=gitexitcode|$2=reponame|$3=repostate|$4=errormsg
@@ -764,11 +846,11 @@ do
   unset return_from_getrpinfo
 
   #
-  # csv column #11: docs (at repo root directory only; no recursive search!)
-  # csv column #12: conf.py
-  # csv column #13: tox.ini
-  # csv column #14: index.rst
-  # csv column #15: first title in index.rst
+  # csv column #12: docs (at repo root directory only; no recursive search!)
+  # csv column #13: conf.py
+  # csv column #14: tox.ini
+  # csv column #15: index.rst
+  # csv column #16: first title in index.rst
   #
   # columns are filled with values from requested branch.
   # if data is not available values from master branch are used.
@@ -853,8 +935,8 @@ do
   unset docs
 
   #
-  # csv column #16: index.html@RTD accessibility check
-  # csv column #17: index.html url
+  # csv column #17: index.html@RTD accessibility check
+  # csv column #18: index.html url
   #
 
   readarray -t array < ./${branch}_repoclone.log;
@@ -967,7 +1049,7 @@ do
   done
 
   #
-  # csv column #18: release notes
+  # csv column #19: release notes
   #
 
   readarray -t array < ../${repolist};
