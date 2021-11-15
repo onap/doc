@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2f446b72_cee6c5b2",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 167
+      },
+      "writtenOn": "2021-11-15T20:15:20Z",
+      "side": 1,
+      "message": "There is an alternative text that is going to the Istanbul webpage. It is a bit more high level than this. I think it might be better to use this instead:\n- Intent based networking (IBN) simplifies interaction and network configuration by Control-Loop and Smart AI.\n- Alignment with O-RAN Strategy to enable new RAN use cases\n- Continued Cloud Native evolution with a rich feature set for CNF orchestration capabilities\n- Next level of functionality for 5G use cases including Network Slicing, Performance management, SON, and CCVPN\n- A second generation of control loop automation architecture\n- New Network Function lifecycle management features based on real-life use cases\n- New functionality for complex network configuration management\n- Flexibility in resource onboarding with choice of modeling including SDC AID, ETSI SOL001\n- Software quality and security improvements based on deployment experience",
+      "revId": "fdf95f382cc0d07fc0f981bc7c01636e58c3af26",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
