@@ -96,7 +96,7 @@ already in place. It is planned to become a default deployment option in the
 Guilin release.
 
 More information from official Kubernetes documentation about
-`NodePort <https://kubernetes.io/docs/concepts/services-networking/service/#nodeport>`_.
+`NodePort <https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport>`_.
 
 The following table lists all the NodePorts used by ONAP.
 
