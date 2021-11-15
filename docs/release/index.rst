@@ -4,10 +4,10 @@
 
 .. _onap-release-notes:
 
-Honolulu Release Notes
+Istanbul Release Notes
 ^^^^^^^^^^^^^^^^^^^^^^
 
-This page provides the release notes for the ONAP Honolulu release. This
+This page provides the release notes for the ONAP Istanbul release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
@@ -19,175 +19,142 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-Honolulu Releases
-=================
-
-The following releases are available for Honolulu:
-  - `Honolulu Maintenance Release 8.0.1`_
-  - `Honolulu Major Release 8.0.0`_
-
-Honolulu Maintenance Release 8.0.1
-==================================
-
-+--------------------------------------+--------------------------------------+
-| **Project**                          | Open Network Automation Platform     |
-|                                      | (ONAP)                               |
-+--------------------------------------+--------------------------------------+
-| **Release name**                     | Honolulu Maintenance Release         |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release version**                  | 8.0.1                                |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release date**                     | September 30th 2021                  |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-
-New Features
-============
-
-Honolulu Maintenance Release 8.0.1 delivered a number of fixes and updates
-across the following projects:
-
- - SO          - bugfixes and support for transport slicing usecase
- - CDS         - fix BluePrint* classes renaming
- - MULTICLOUD  - update of k8s plugin to support Helm3
- - OOM         - fixes for common Helm chart templates and product charts
- - POLICY      - new versions of Policy Framework components
- - DCAE        - new version of the policy-handler and dashboard
- - OOF         - use new AAI schema version (v21)
- - CCSDK       - fix fault and pnf-registration event losses
-
-Details on the specific Jira tickets addressed by each project can be found in
-the component specific Release Notes: :ref:`release notes<doc-releaserepos>`
-
-
-Honolulu Major Release 8.0.0
+Istanbul Major Release 9.0.0
 ============================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Open Network Automation Platform     |
 |                                      | (ONAP)                               |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | Honolulu                             |
+| **Release name**                     | Istanbul                             |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 8.0.0                                |
+| **Release version**                  | 9.0.0                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | May 11th  2021                       |
+| **Release date**                     | November 15th  2021                  |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
-Honolulu Features
+Istanbul Features
 =================
-ONAP Honolulu focusses on:
+ONAP Istanbul focusses on:
 
-* Cloud Native Function (CNF) support with  with seamless configuration of Helm
-  based CNFs and K8s resources
-* End-to-end 5G network slicing with three network slicing components for RAN,
-  core, and transport
-* Introducing a new component: Configuration Persistence Service (CPS) to store
-  persistent configuation data
-* Modularity to pick and choose the components needed for specific use case
-* Improving integration with many SDOs
+- Intent based networking (IBN) simplifies interaction and network
+  configuration by Control-Loop and Smart AI.
+- Alignment with O-RAN Strategy to enable new RAN use cases
+- Continued Cloud Native evolution with a rich feature set for CNF
+  orchestration capabilities
+- Next level of functionality for 5G use cases including Network Slicing,
+  Performance management, SON, and CCVPN
+- A second generation of control loop automation architecture
+- New Network Function lifecycle management features based on real-life use
+  cases
+- New functionality for complex network configuration management
+- Flexibility in resource onboarding with choice of modeling including SDC AID,
+  ETSI SOL001
+- Software quality and security improvements based on deployment experience
 
 Functional Requirements
 -----------------------
 
 Increased Cloud Native Functionality
 ....................................
-The Honolulu release has important updates to support cloud native network
-functions (CNF). The functionality includes configuration of Helm based CNFs
-and seamless day 1, 2 operations. The Configuration API allows a user to
-create, modify and delete Kubernetes (K8s) resource templates and their base
-parameters and the Profile API allows for sophisticated day 0 configuration.
-The Query API gathers filtered status of the CNF and the HealthCheck API
-executes dedicated health check jobs to verify the status of a CNF. This new
-functionality is implemented in the Controller Design Studio (CDS) component
-using dedicated templates called Controller Blueprint Archives (CBA).
-In addition, there is Swagger documentation for the API of the K8s plugin
-component in the MultiCloud project.
+Information about created CNF resources in k8s cluster are now available. This
+information can be utilized later on i.e. in closed-loop context. CNF
+Healthcheck Workflow in SO will let to monitor the status of CNF deployed into
+k8s cluster and whether it is healthy or not. Further changes in k8splugin
+related to Helm specification support allow for the better and more reliable
+deployment of complex CNFs defined as a Helm package. ONAP now supports
+Helm 3.5 package specification.
 
-Deeper 5G Support
-.................
-There is a significant set of new functionality around end-to-end 5G network
-slicing in the Honolulu release. This release includes three internal Network
-Slice Subnet Management Function (NSSMF) components for RAN, core, and
-transport domains. External NSSMFs continue to be supported for RAN and core.
-Next, slice optimization continues to be an area of ongoing effort with closed
-loop automation and intelligent slicing testing. There are also enhancements in
-NST, NSI, and NSSI selection in the OOF project and A&AI includes schema
-changes to accommodate network and transport slicing.
-
-In addition, the ExtAPI project now included Enhanced Service Ordering for
-additional service types and the UUI graphical user interface has improved
-slicing support. The VID graphical user has support for PNF plug-and-play
-allowing operators to interact with PNFs via VID. In addition, there is better
-compliance to standards such as 3GPP TS28.540/541 5G NRM driven xNF models in
-ONAP. Finally the OOF SON functionality supports offline trained ML-models
-providing additional inputs for Physical Cell Identity (PCI) optimization.
-DCAE includes a new KPI microservice.
-
-Configuration Persistence Service
-.................................
-Another key 5G related initiative is the new Configuration Persistence Service
-(CPS) module that allows ONAP projects to store persistent state defined by
-YANG models, deploy YANG models at runtime, and share access to configuration
-management data.
-
-Further O-RAN Integration
-.........................
-A key enhancement in the Honolulu release was increased support for the O-RAN
-A1 standard that is implemented in the CCSDK and SDN-C projects. The O-RAN A1
-interface provides a flexible way for RAN operators to manage wide area RAN
-network optimization reducing capex investment needs. Both the enhanced A1
-interface controller and A1 policy capabilities are now usable in ONAP with a
-Near-Real-Time Radio Intelligent Controller (nRTRIC). This functionality is
-also used downstream in O-RAN-Source Community (OSC) Non-RealTime RIC
-(NONRTRIC) project, strengthening alignment between ONAP & OSC. In addition,
-the DCAE project includes VES 7.2 integration that improves integration with
-both O-RAN and 3GPP. Finally, there is a new CPS interface to query RAN
-configuration data.
-
-Expanded Modularity
+E2E Network Slicing
 ...................
-Modularity has been an important topic in ONAP to allow users to pick and
-choose the components they need for their specific use case and Honolulu
-continues to advance modularity. DCAE now simplifies microservice deployment
-via Helm charts.
+
+- Support for NSMF (Network Slice Management Function) based TN
+  (Transport Network) slices in which NSMF is responsible for TN-FH (FrontHaul)
+  and TN-MH (MidHaul) allocation
+- RAN NSSMF (Network Slice Subnet Management Function) integration with CPS
+  (Configuration Persistence Service) and handled closed loop impacts
+- POC on A1-interface for closed loop updates
+- KPI Monitoring enhancements
+
+Intent-based networking
+.......................
+The Intent Based Networking (IBN) use case includes the development of an
+intent framework that contains intent modeling, intent translation, intent
+execution and intent decision making. The intent UI is implemented in UUI
+and the components of the intent framework interact with many components of
+ONAP including SO, A&AI, Policy, DCAE, and CDS.
+
+Control Loop evolutions
+.......................
+
+- CLAMP functionality is merged into Policy Framework project
+- Control Loops can be defined and described in Metadata using TOSCA. Control
+  loops can run on the fly on any component that implements  a *participant*
+  API. Control Loops can be commissioned into Policy/CLAMP, they can be
+  parameterized, initiated on arbitrary participants, activated and monitored
+- Policy Handling Improvements: Support delta policies in PDPs
+- CLAMP Client Policy and TOSCA Handling
+- Policy Handling Improvements
+- System Attribute Improvements
+
+Fault management
+................
+
+- Updates in fault management reporting and fault handling to be in line with
+  VES 7.2, 3GPP and smoother future alignment with O1 for OOF-SON
+- Performance Management data collection control provides 5G network operators
+  with a dynamic and more efficient way to configure performance measurement
+  collection on a selected subset of PNFs/VNFs in the network and complements
+  the existing PM data collection and processing capabilities in ONAP/DCAE
+- Simplified deployment for DCAE services via Helm
+- Reduction on ONAP/DCAE footprint under transformation initiative by
+  deprecating Cloudify based platform components and Consul
+- VES 7.2.1 integration for HV_VES enables ONAP, 3GPP, ORAN alignment
+- Enhancements for Network Slicing, Bulk PM, OOF-SON usecases
+
+Extended O-RAN Integration
+..........................
+
+- Improvements for managing A1 Policies and terminating the A1 interface for
+  A1 Policies
+- A1 Adapter and A1 Policy Managements Enhancements
+
+Controllers
+...........
+
+- SDN-C is based on OpenDaylight major release upgrade (Silicon)
+- Enhancements to CCVPN, Network Slicing, and ONAP A1 Interface
 
 Service Design
 ..............
 
-- Includes increased support for ETSI standards such as SOL001, SOL004, and
-  SOL007 and allows users to choose unlicensed or externally licensed xNFs.
-- Vendor License Model is now optional
-- SDC distribution status report enhanced
+- SDC can be used for onboarding resources and designing services with models
+  other than SDC AID
 
 Inventory
 .........
 
-- A&AI includes support for multi tenancy.
-- Model updates for CCVPN Transport Slicing and Network Slicing
-- GraphGraph POC enhanced for schema visualization and visual model generation
-- Sparky UI updates including Browse, Specialized Search, BYOQ, and BYOQ
-  Builder Views
+- Model updates as part of CCVPN Transport Slicing Feature
+- Model updates as part of Smart Intent Guarantee based on IBN Feature
+- Model updates as part of CNF Orchestration Feature
 
 ONAP Operations Manager
 .......................
 
-- Portal-Cassandra image updated to Bitnami, supporting IPv4/IPv6 Dual Stack
-- CMPv2 external issuer implemented which extends Cert-Manager with ability to
-  enroll X.509 certificates from CMPv2 servers
-- New version for MariaDB Galera using Bitnami image, supporting IPv4/IPv6 Dual
-  Stack
-- Support of Helm v3.4 and Helm v3.5
+- IPv4 / IPv6 dual stack support in ONAP: support for Kubernetes 1.20+
+  DualStack networking properties in ONAP K8S Service spec properties.
+  Upgraded EJBCA CMP v2 server to version 7.x
+- CMPv2 enhancements: certificate update implemented using Key Update Request
+  (KUR) and Certificate Request (CR) CMPv2 messages
 
 Non-Functional Requirements
 ---------------------------
+
 The following 'non-functional' requirements are followed in the
-Honolulu Release:
+Istanbul Release:
 
 Best Practice
 .............
@@ -215,20 +182,28 @@ Security
 - Java language v11
 - All containers must run as non-root user
 - Continue hardcoded passwords removal
-- Flow management must be activated for ONAP.
+- Flow management must be activated for ONAP
 - Each project will update the vulnerable direct dependencies in their code
   base
+
+Documentation
+.............
+
+- Interactive architecture map including short description and link to detailed
+  documentation for every architecture building block
+- Changes in the Sphinx configuration for all contributing projects
+- Guide to set up a documentation development environment with preview function
 
 Tests
 .....
 
-- New E2E tests
-- New IPv4/Ipv6 daily CI chain
+- New E2E tests: basic_cnf
+- New tests: CPS healthcheck
+- Stability tests: basic_vm and basic_onboard
 
 .. important::
    Some non-functional requirements are not fully finalized. Please, check details
    on the :ref:`Integration<onap-integration:release_non_functional_requirements>`
-
 
 Project Specific Release Notes
 ==============================
@@ -242,7 +217,7 @@ are compatible with a major release are made available.
 
 Documentation
 =============
-ONAP Honolulu Release provides a set selection of documents,
+ONAP Istanbul Release provides a set selection of documents,
 see :ref:`ONAP Documentation<master_index>`.
 
 The `developer wiki <http://wiki.onap.org>`_ remains a good source of
@@ -259,7 +234,7 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
-In the Honolulu release,
+In the Istanbul release,
 
 - 100% projects passed 90% of the CII badge
 - 85% projects passed the CII badge
@@ -272,10 +247,10 @@ each project.
 
 ONAP Maturity Testing Notes
 ===========================
-For the Honolulu release, ONAP continues to improve in multiple areas of
+For the Istanbul release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
-In Honolulu the Integration team focussed in
+In Istanbul the Integration team focussed in
 
 - Automating ONAP Testing to improve the overall quality
 - Adding security and E2E tests
@@ -286,6 +261,3 @@ Known Issues and Limitations
 ============================
 Known Issues and limitations are documented in each
 :ref:`project Release Notes <doc-releaserepos>`.
-
-
-.. Include files referenced by link in the toctree as hidden
