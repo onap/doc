@@ -20,6 +20,7 @@ telecommunication, cable, and cloud service providers—and their solution
 providers—to deliver differentiated network services on demand, profitably and
 competitively, while leveraging existing investments.
 
+<<<<<<< HEAD   (0e795a Add Istanbul release in overview section)
 The challenge that ONAP meets is to help operators of telecommunication
 networks to keep up with the scale and cost of manual changes required to
 implement new service offerings, from installing new data center equipment to,
@@ -28,6 +29,16 @@ exploit SDN and NFV to improve service velocity, simplify equipment
 interoperability and integration, and to reduce overall CapEx and OpEx costs.
 In addition, the current, highly fragmented management landscape makes it
 difficult to monitor and guarantee service-level agreements (SLAs).
+=======
+The challenge that ONAP meets is to help network operators keep up with the scale
+and cost of manual changes required to implement new service offerings, from
+installing new data center equipment to, in some cases, upgrading on-premises
+customer equipment. Many are seeking to exploit SDN and NFV to improve service
+velocity, simplify equipment interoperability and integration, and to reduce
+overall CapEx and OpEx costs. In addition, the current, highly fragmented management
+landscape makes it difficult to monitor and guarantee service-level agreements (SLAs).
+These challenges are still very real now as ONAP creates its eighth release.
+>>>>>>> CHANGE (24b81f Sync up ONAP overall architecture)
 
 ONAP is addressing these challenges by developing global and massive scale
 (multi-site and multi-VIM) automation capabilities for physical, virtual, and
@@ -41,10 +52,10 @@ Controllers, as well as legacy equipment (PNF). The Service Design & Creation
 (SDC) project also offers seamless orchestration of CNFs. ONAP’s consolidated
 xNF requirements publication enables commercial development of ONAP-compliant
 xNFs. This approach allows network and cloud operators to optimize their
-physical and virtual infrastructure for cost and performance; at the same time,
-ONAP’s use of standard models reduces integration and deployment costs of
-heterogeneous equipment. All this is achieved while minimizing management
-fragmentation.
+physical, virtual and cloud native infrastructure for cost and performance;
+at the same time, ONAP’s use of standard models reduces integration and
+deployment costs of heterogeneous equipment. All this is achieved while
+minimizing management fragmentation.
 
 The ONAP platform allows end-user organizations and their network/cloud
 providers to collaboratively instantiate network elements and services in a
@@ -83,8 +94,8 @@ The ONAP Platform enables service/resource independent capabilities for design,
 creation and lifecycle management, in accordance with the following
 foundational principles:
 
-- Ability to dynamically introduce full service lifecycle orchestration (design
-  , provisioning and operation) and service API for new services and
+- Ability to dynamically introduce full service lifecycle orchestration (design,
+  provisioning and operation) and service API for new services and
   technologies without the need for new platform software releases or without
   affecting operations for the existing services
 - Scalability and distribution to support a large number of services and large
@@ -125,8 +136,8 @@ which highlights the role of a few key components:
    and control framework for an automated instantiation and configuration of
    services and resources. Multi-VIM/Cloud provides cloud interoperability for
    the ONAP workloads. Analytic framework that closely monitors the service
-   behavior handles close loop management for handling healing, scaling and
-   update dynamically.
+   behavior handles closed control loop management for handling healing, scaling
+   and update dynamically.
 #. OOM provides the ability to manage cloud-native installation and deployments
    to Kubernetes-managed cloud environments.
 #. ONAP Shared Services provides shared capabilities for ONAP modules. The ONAP
@@ -155,15 +166,15 @@ also want to select a portion of the ONAP components to integrate into their
 own systems. And the platform needs to be highly reliable, scalable, secure
 and easy to manage. To achieve all these goals, ONAP is designed as a
 microservices-based system, with all components released as Docker containers
-following best practice building rules to optimize their image size. To reduce
-the ONAP footprint, a first effort to use a shared database has been initiated
-with a Cassandra and mariadb-galera clusters.
+following best practice building rules to optimize their image size. Numerous
+optimizations such as shared databases and the use of standardized lightweight
+container operating systems reduce the overall ONAP footprint.
 
 The ONAP Operations Manager (OOM) is responsible for orchestrating the
 end-to-end lifecycle management and monitoring of ONAP components. OOM uses
-Kubernetes to provide CPU efficiency and platform deployment. In addition, OOM
-helps enhance ONAP platform maturity by providing scalability and resiliency
-enhancements to the components it manages.
+Kubernetes with IPv4 and IPv6 support to provide CPU efficiency and platform
+deployment. In addition, OOM helps enhance ONAP platform maturity by providing
+scalability and resiliency enhancements to the components it manages.
 
 OOM is the lifecycle manager of the ONAP platform and uses the Kubernetes
 container management system and Consul to provide the following functionality:
@@ -237,16 +248,23 @@ Service Design and Creation (SDC) provides tools, techniques, and repositories
 to define/simulate/certify system assets as well as their associated processes
 and policies. Each asset is categorized into one of four asset groups: Resource
 , Services, Products, or Offers. SDC supports the onboarding of Network
+<<<<<<< HEAD   (0e795a Add Istanbul release in overview section)
 Services packages (ETSI SOL 0007 ), CNF packages (Helm), VNF packages (Heat or
 ETSI SOL004) and PNF packages (ETSI SOL004). SDC also includes some
 capabilities to model 5G network slicing using the standard properties (Slice
 Profile, Service Template).
+=======
+Services packages (ETSI SOL007 with ETSI SOL001), CNF packages (Helm),
+VNF packages (Heat or ETSI SOL004) and PNF packages (ETSI SOL004). SDC also
+includes some capabilities to model 5G network slicing using the standard
+properties (Slice Profile, Service Template).
+>>>>>>> CHANGE (24b81f Sync up ONAP overall architecture)
 
 The SDC environment supports diverse users via common services and utilities.
 Using the design studio, product and service designers onboard/extend/retire
 resources, services and products. Operations, Engineers, Customer Experience
 Managers, and Security Experts create workflows, policies and methods to
-implement Closed control Loop Automation/Control and manage elastic
+implement Closed Control Loop Automation/Control and manage elastic
 scalability.
 
 To support and encourage a healthy VNF ecosystem, ONAP provides a set of VNF
@@ -256,7 +274,7 @@ integrate these tools in their CI/CD environments to package VNFs and upload
 them to the validation engine. Once tested, the VNFs can be onboarded through
 SDC. In addition, the testing capability of VNFSDK is being utilized at the LFN
 Compliance Verification Program to work towards ensuring a highly consistent
-approach to VNF verification.
+approach to VNF verification. ONAP supports onboarding of CNFs and PNFs as well.
 
 The Policy Creation component deals with policies; these are rules, conditions,
 requirements, constraints, attributes, or needs that must be provided,
@@ -290,6 +308,38 @@ infrastructure services and resources, this includes VNFs, CNFs and PNFs.
 The SO provides orchestration at a very high level, with an end-to-end view
 of the infrastructure, network, and applications. Examples of this include
 BroadBand Service (BBS) and Cross Domain and Cross Layer VPN (CCVPN).
+<<<<<<< HEAD   (0e795a Add Istanbul release in overview section)
+=======
+The SO is modular and hierarchical to handle services and multi-level
+resources and Network Slicing, by leveraging pluggable adapters and delegating
+orchestration operations to NFVO (SO NFVO, VFC), VNFM, CNF Manager, NSMF
+(Network Slice Management Function), NSSMF (Network Slice Subnet Management
+Function).
+Starting from the Guilin release, the SO provides CNF orchestration support
+through integration of CNF adapter in ONAP SO:
+
+- Support for provisioning CNFs using an external K8S Manager
+- Support the Helm-based orchestration
+- Leverage the CNF Adapter to interact with the K8S Plugin in MultiCloud
+- Bring in the advantage of the K8S orchestrator and
+- Set stage for the Cloud Native scenarios
+
+3GPP (TS 28.801) defines three layer slice management function which include:
+
+- CSMF (Communication Service Management Function)
+- NSMF (Network Slice Management Function)
+- NSSMF (Network Slice Subnet Management Function)
+
+To realize the three layers, CSMF, NSMF and/or NSSMF are realized within ONAP,
+or use the external CSMF, NSMF or NSSMF. For ONAP-based network slice management,
+different choices can be made as follows. among them, ONAP orchestration currently
+supports options #1 and #4.
+
+|image3|
+
+**Figure 3: ONAP Network Slicing Support Options**
+
+>>>>>>> CHANGE (24b81f Sync up ONAP overall architecture)
 
 Virtual Infrastructure Deployment (VID)
 ---------------------------------------
@@ -311,12 +361,12 @@ service specific constraints.
 ONAP Multi-VIM/Cloud (MC) and several other ONAP components such as Policy, SO,
 A&AI etc. play an important role in enabling “Policy-driven Performance/
 Security-Aware Adaptive Workload Placement/ Scheduling” across cloud sites
-through OOF-HAS. OOF-HAS uses Hardware Platform Awareness (HPA), cloud agnostic
-Intent capabilities, and real-time capacity checks provided by ONAP MC to
-determine the optimal VIM/Cloud instances, which can deliver the required
-performance SLAs, for workload (VNF etc.) placement and scheduling (Homing).
-Operators now realize the true value of virtualization through fine grained
-optimization of cloud resources while delivering performance and security SLAs.
+through OOF-HAS. OOF-HAS uses cloud agnostic Intent capabilities, and real-time
+capacity checks provided by ONAP MC to determine the optimal VIM/Cloud instances,
+which can deliver the required performance SLAs, for workload (VNF etc.)
+placement and scheduling (Homing). Operators now realize the true value of
+virtualization through fine grained optimization of cloud resources while
+delivering performance and security SLAs.
 
 Controllers
 -----------
@@ -325,13 +375,12 @@ and execute the configuration, real-time policies, and control the state of
 distributed components and services. Rather than using a single monolithic
 control layer, operators may choose to use multiple distinct controller types
 that manage resources in the execution environment corresponding to their
-assigned controlled domain such as cloud computing resources (network
-configuration (SDN-C) and application (App-C). The App-C and SDN-C also support
-the Virtual Function Controller (VF-C) provides an ETSI NFV compliant NFV-O
-function that is responsible for lifecycle management of virtual services and
-the associated physical COTS server infrastructure. VF-C provides a generic
-VNFM capability but also integrates with external VNFMs and VIMs as part of an
-NFV MANO stack.
+assigned controlled domain such as cloud computing resources (SDN-C).
+The Virtual Function Controller (VF-C) and SO NFVO provide an ETSI NFV compliant
+NFV-O function that is responsible for lifecycle management of virtual services
+and the associated physical COTS server infrastructure. VF-C provides a generic
+VNFM capability, and both VF-C and SO NFVO integrate with external VNFMs and
+VIMs as part of an NFV MANO stack.
 
 The Controller Design Studio (CDS) community in ONAP has contributed a
 framework to automate the resolution of resources for instantiation and any
@@ -342,7 +391,7 @@ design time this configuration file (configlet) to a PNF/VNF/CNF during the
 design phase. CDS removes dependence on code releases and the delays they cause
 and puts the control of services into the hands of the service providers. Users
 can change a model and its parameters with great flexibility to fetch data from
-external systems (e.g. IPAM) that is required in real deployments. This makes
+external systems (e.g., IPAM) that is required in real deployments. This makes
 service providers more responsive to their customers and able to deliver
 products that more closely match the needs of those customers.
 
@@ -373,11 +422,19 @@ design capabilities in SDC, simplifying the design process.
 Multi Cloud Adaptation
 ----------------------
 Multi-VIM/Cloud provides and infrastructure adaptation layer for VIMs/Clouds
+<<<<<<< HEAD   (0e795a Add Istanbul release in overview section)
 and K8s  clusters in exposing advanced hardware platform awareness and cloud
 agnostic intent capabilities, besides standard capabilities, which are used by
 OOF and other components for enhanced cloud selection and SO/VF-C for cloud
 agnostic workload deployment. The K8s plugin is in charge to deploy the CNF on
 the Kubernetes clusters using Kubernetes API.
+=======
+and K8s clusters in exposing advanced cloud agnostic intent capabilities,
+besides standard capabilities, which are used by OOF and other components
+for enhanced cloud selection and SO/VF-C for cloud agnostic workload
+deployment. The K8s plugin is in charge of deploying CNFs on the Kubernetes
+clusters using Kubernetes APIs.
+>>>>>>> CHANGE (24b81f Sync up ONAP overall architecture)
 
 Closed Control Loop Automation
 ==============================
@@ -386,17 +443,27 @@ and run-time elements. The Runtime loop starts with data collectors from Data
 Collection, Analytics and Events (DCAE). ONAP includes the following collectors
 : VES (VNF Event Streaming)  for events, HV-VES for high-volume events, SNMP
 for SNMP traps, File Collector to receive files, and RESTCONF Collector to
-collect the notifications. After data collection/verification phase, data are
-moved through the loop of micro-services like Homes for event detection, Policy
+collect the notifications. After data collection/verification phase, data move
+through the loop of micro-services like Homes for event detection, Policy
 for determining actions, and finally, controllers and orchestrators to
+<<<<<<< HEAD   (0e795a Add Istanbul release in overview section)
 implement actions CLAMP is used to monitor the loops themselves. DCAE also
 includes a number of specialized micro-services to support some use-cases such
 as the Slice Analysis or SON-Handler.  Some dedicated event processor modules
 transform collected data (SNMP, 3GPP XML, RESTCONF) to VES format and push the
 various data onto data lake. CLAMP, Policy and DCAE all have design time
 aspects to support the creation of the loops.
+=======
+implement actions. The Policy framework is also used to monitor the loops
+themselves and manage their lifecycle. DCAE also includes a number of
+specialized micro-services to support some use-cases such as the Slice Analysis
+or SON-Handler. Some dedicated event processor modules transform collected data
+(SNMP, 3GPP XML, RESTCONF) to VES format and push the various data into data lake.
+CLAMP, Policy and DCAE all have design time aspects to support the creation
+of the loops.
+>>>>>>> CHANGE (24b81f Sync up ONAP overall architecture)
 
-We refer to this automation pattern as “closed control loop automation” in that
+We refer to this automation pattern as “Closed Control loop automation” in that
 it provides the necessary automation to proactively respond to network and
 service conditions without human intervention. A high-level schematic of the
 “closed control loop automation” and the various phases within the service
@@ -408,6 +475,7 @@ Collectively, they provide FCAPS (Fault Configuration Accounting Performance
 Security) functionality. DCAE collects performance, usage, and configuration
 data; provides computation of analytics; aids in troubleshooting; and publishes
 events, data and analytics (e.g., to policy, orchestration, and the data lake).
+<<<<<<< HEAD   (0e795a Add Istanbul release in overview section)
 Working with the Policy Framework and CLAMP, these components detect problems
 in the network and identify the appropriate remediation. In some cases, the
 action will be automatic, and they will notify Service Orchestrator or one of
@@ -415,10 +483,36 @@ the controllers to take action. In other cases, as configured by the operator,
 they will raise an alarm but require human intervention before executing the
 change. The policy framework is extended to support additional policy decision
 capabilities with the introduction of adaptive policy execution.
+=======
+Another component, Holmes, connects to DCAE and provides alarm correlation
+for ONAP, new data collection capabilities with High Volume VES, and bulk
+performance management support.
 
+Working with the Policy Framework (and embedded CLAMP), these components
+detect problems in the network and identify the appropriate remediation.
+In some cases, the action will be automatic, and they will notify the
+Service Orchestrator or one of the controllers to take action.
+In other cases, as configured by the operator, they will raise an alarm
+but require human intervention before executing the change. The policy
+framework is extended to support additional policy decision capabilities
+with the introduction of adaptive policy execution.
+>>>>>>> CHANGE (24b81f Sync up ONAP overall architecture)
+
+<<<<<<< HEAD   (0e795a Add Istanbul release in overview section)
 |image3|
+=======
+Starting with the Honolulu-R8 and concluding in the Istanbul-R9 release, the CLAMP
+component was successfully integrated into the Policy component initially as a PoC in the
+Honolulu-R8 release and then as a fully integrated component within the Policy component
+in Istanbul-R9 release.
+CLAMP's functional role to provision Policy has been enhanced to support provisioning
+of policies outside of the context of a Control Loop and therefore act as a
+Policy UI. In the Istanbul release the CLAMP integration was officially released.
 
-**Figure 3: ONAP Closed Control Loop Automation**
+|image4|
+>>>>>>> CHANGE (24b81f Sync up ONAP overall architecture)
+
+**Figure 4: ONAP Closed Control Loop Automation**
 
 Shared Services
 ===============
@@ -440,7 +534,12 @@ Configuration Persistence Service (CPS)
 ---------------------------------------
 The Configuration Persistence Service (CPS) provides storage for real-time
 run-time configuration and operational parameters that need to be used by ONAP.
+<<<<<<< HEAD   (0e795a Add Istanbul release in overview section)
 In R8, Honolulu, the CPS is a stand-alone component, and its details in
+=======
+Several services ranging from SDN-C, DCAE and the network slicing use case
+utilize CPS for these purposes. Its details in
+>>>>>>> CHANGE (24b81f Sync up ONAP overall architecture)
 :ref:`CPS - Configuration Persistence Service<onap-cps:architecture>`.
 
 ONAP Modeling
@@ -502,12 +601,24 @@ These requirements have led to the five above-listed initiatives and have been
 developed in close cooperation with other standards and open source
 organizations such as 3GPP, TM Forum, ETSI, and O-RAN Software Community.
 
-|image4|
+|image5|
 
-**Figure 4. End-to-end 5G Service**
+**Figure 5. End-to-end 5G Service**
 
 Read the `5G Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2019/07/ONAP_CaseSolution_5G_062519.pdf>`_
 to learn more.
+
+A related activity outside of ONAP is called the 5G Super Blueprint where
+multiple Linux Foundation projects are collaborating to demonstrate an
+end-to-end 5G network. In the short-term, this blueprint will showcase
+thre major projects: ONAP, Anuket (K8S NFVI), and Magma (LTE/5GC).
+
+|image6|
+
+**Figure 6. 5G Super Blueprint Initial Integration Activity**
+
+In the long-term, the 5G Super Blueprint will integrate O-RAN-SC and LF Edge
+projects as well.
 
 Residential Connectivity Blueprints
 -----------------------------------
@@ -525,9 +636,9 @@ subscriber at a significantly lower cost to the operator. In this blueprint,
 ONAP supports complex orchestration and management of open source VNFs and both
 virtual and underlay connectivity.
 
-|image5|
+|image7|
 
-**Figure 5. ONAP vCPE Architecture**
+**Figure 7. ONAP vCPE Architecture**
 
 Read the `Residential vCPE Use Case with ONAP blueprint <https://www.onap.org/wp-content/uploads/sites/20/2018/11/ONAP_CaseSolution_vCPE_112918FNL.pdf>`_
 to learn more.
@@ -543,9 +654,9 @@ deployment, lifecycle management, and service assurance of broadband services.
 It further shows how ONAP can orchestrate services across different locations
 (e.g. Central Office, Core) and technology domains (e.g. Access, Edge).
 
-|image6|
+|image8|
 
-**Figure 6. ONAP BBS Architecture**
+**Figure 8. ONAP BBS Architecture**
 
 Read the `Residential Connectivity Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2019/07/ONAP_CaseSolution_BBS_062519.pdf>`_
 to learn more.
@@ -566,9 +677,9 @@ component completes the Network Services and VNF lifecycle management
 blueprint also shows advanced functionality such as scaling and change
 management.
 
-|image7|
+|image9|
 
-**Figure 7. ONAP VoLTE Architecture Open Network Automation Platform**
+**Figure 9. ONAP VoLTE Architecture Open Network Automation Platform**
 
 Read the `VoLTE Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2018/11/ONAP_CaseSolution_VoLTE_112918FNL.pdf>`_
 to learn more.
@@ -585,9 +696,9 @@ high-speed OTN (Optical Transport Networks) across carrier networks. They also
 want to provide a high-speed, flexible and intelligent service for high-value
 customers, and an instant and flexible VPN service for SMB companies.
 
-|image8|
+|image10|
 
-**Figure 8. ONAP CCVPN Architecture**
+**Figure 10. ONAP CCVPN Architecture**
 
 The CCVPN (Cross Domain and Cross Layer VPN) blueprint is a combination of SOTN
 (Super high-speed Optical Transport Network) and ONAP, which takes advantage of
@@ -598,11 +709,12 @@ for CCVPN end-to-end service orchestration working in collaboration with VF-C
 and SDN-C. SDN-C establishes network connectivity, then the VF-C component
 completes the Network Services and VNF lifecycle management. ONAP peering
 across CSPs uses an east-west API which is being aligned with the MEF Interlude
-API. The key innovations in this use case are physical network discovery and
-modeling, cross-domain orchestration across multiple physical networks, cross
-operator end-to-end service provisioning, close-loop reroute for cross-domain
-service, dynamic changes (branch sites, VNFs) and intelligent service
-optimization (including AI/ML).
+API. CCVPN, in conjunction with the IBN use case, offers intent based cloud
+leased line service. The key innovations in this use case are physical network
+discovery and modeling, cross-domain orchestration across multiple physical
+networks, cross operator end-to-end service provisioning, close-loop reroute
+for cross-domain service, dynamic changes (branch sites, VNFs) and intelligent
+service optimization (including AI/ML).
 
 Read the `CCVPN Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2019/07/ONAP_CaseSolution_CCVPN_062519.pdf>`_
 to learn more.
@@ -620,9 +732,31 @@ end-to-end service. The MDONS blueprint created by AT&T, Orange, and Fujitsu
 solves the above problem. MDONS and CCVPN used together can solve the OTN
 automation problem in a comprehensive manner.
 
-|image9|
+|image11|
 
-**Figure 9. ONAP MDONS Architecture**
+**Figure 11. ONAP MDONS Architecture**
+
+Intent Based Network (IBN) Use Case
+-----------------------------------
+Intent technology can reduce the complexity of management without getting into
+the intricate details of the underlying network infrastructure and contribute
+to efficient network management. This use case performs a valuable business
+function that can further reduce the operating expenses (OPEX) of network
+management by shifting the paradigm from complex procedural operations to
+declarative intent-driven operations
+
+|image12|
+
+**Figure 12. ONAP Intent-Based Networking Use Case**
+
+3GPP 28.812, Intent driven Management Service (Intent driven MnS), defines
+some key concepts that are used by this initiative. The Intent Based Networking
+(IBN) use case includes the development of an intent decision making. This use
+case has initially been shown for a smart warehouse, where the intent is to
+increase the output volume of automated guided vehicles (AVG) and the network
+simply scales in response. The intent UI is implemented in UUI and the
+components of the intent framework interact with many components of ONAP
+including SO, A&AI, Policy, DCAE and CDS.
 
 vFW/vDNS Blueprint
 ------------------
@@ -647,7 +781,6 @@ and automated use cases can be found here:
 - E2E Network Slicing
 - 5G OOF (ONAP Optimization Framework) SON (Self-Organized Network)
 - CCVPN-Transport Slicing
-- MDONS (Multi-Domain Optical Network Service)
 
 Functional requirements
 -----------------------
@@ -705,17 +838,23 @@ See the Resources page on `ONAP.org <https://www.onap.org/resources>`_
    :width: 800px
 .. |image2| image:: media/ONAP-fncview.png
    :width: 800px
-.. |image3| image:: media/ONAP-closedloop.png
+.. |image3| image:: media/ONAP-NetworkSlicingOptions.png
    :width: 800px
-.. |image4| image:: media/ONAP-5G.png
+.. |image4| image:: media/ONAP-closedloop.png
    :width: 800px
-.. |image5| image:: media/ONAP-vcpe.png
+.. |image5| image:: media/ONAP-5G.png
    :width: 800px
-.. |image6| image:: media/ONAP-bbs.png
+.. |image6| image:: media/ONAP-5GSuperBP-Integration.png
    :width: 800px
-.. |image7| image:: media/ONAP-volte.png
+.. |image7| image:: media/ONAP-vcpe.png
    :width: 800px
-.. |image8| image:: media/ONAP-ccvpn.png
+.. |image8| image:: media/ONAP-bbs.png
    :width: 800px
-.. |image9| image:: media/ONAP-mdons.png
+.. |image9| image:: media/ONAP-volte.png
+   :width: 800px
+.. |image10| image:: media/ONAP-ccvpn.png
+   :width: 800px
+.. |image11| image:: media/ONAP-mdons.png
+   :width: 800px
+.. |image12| image:: media/ONAP-IntentBasedNetworking.png
    :width: 800px
