@@ -7,6 +7,10 @@ linkcheck_ignore = [
     'http://localhost',
 ]
 
+exclude_patterns = [
+    '.tox'
+]
+
 intersphinx_mapping = {}
 
 html_last_updated_fmt = '%d-%b-%y %H:%M'
