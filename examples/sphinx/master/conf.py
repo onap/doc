@@ -1,10 +1,14 @@
 from docs_conf.conf import *
 
-branch = 'istanbul'
+branch = 'latest'
 master_doc = 'index'
 
 linkcheck_ignore = [
     'http://localhost',
+]
+
+exclude_patterns = [
+    '.tox'
 ]
 
 intersphinx_mapping = {}
