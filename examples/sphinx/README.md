@@ -3,64 +3,38 @@
 Examples files for a working (basic) configuration of sphinx.
 To be used by all ONAP projects (except 'doc' project).
 Extend them to reflect the needs in your project.
-Please note the different pathes, the files are located in!
 
-## FILE: tox.ini_MASTER
+We provide two directories:
+- **master**: Contains configuration files used in the **development branch**.
+- **istanbul**: Contains configuration files used in the **release branch**
+   (e.g.'istanbul'). **Important**: You need to change the 'istanbul' entries
+   in the files! Replace them with the name of the new release branch.
 
-##### USE:
-in MASTER branch of your repository
-##### PATH:
-{project}/docs
-##### TODO:
-remove _MASTER from filename
+The additional directories named *_static* and *images* and the file
+*index.rst* are required to make the examples buildable. In the respective
+directory you can execute the '*tox -e docs*' command and the build starts. 
 
-## FILE: tox.ini_NEWBRANCH
+## FILE: conf.py
+##### DESCRIPTION:
+The “build configuration file” contains (almost) all configuration needed to
+customize Sphinx input and output behavior.
 
-##### USE:
-in 'NEWBRANCH' of your repository
-##### PATH:
-{project}/docs
-##### TODO:
-remove _NEWBRANCH from filename
 
-update release name in the following lines:
-```
--chttps://git.onap.org/doc/plain/etc/upper-constraints.os.txt?h=istanbul
--chttps://git.onap.org/doc/plain/etc/upper-constraints.onap.txt?h=istanbul
-```
+## FILE: conf.yaml
+##### DESCRIPTION:
+todo
 
-## FILE: conf.py_MASTER
-
-##### USE:
-in MASTER branch of your repository
-##### PATH:
-{project}/docs
-##### TODO:
-remove _MASTER from filename
-
-## FILE: conf.py_NEWBRANCH
-
-##### USE:
-in 'NEWBRANCH' of your repository
-##### PATH:
-{project}/docs
-##### TODO:
-remove _NEWBRANCH from filename
 
 ## FILE: requirements-docs.txt
+##### DESCRIPTION:
+todo
 
-##### USE:
-in both, MASTER branch and 'NEWBRANCH' of your repository
-##### PATH:
-{project}/docs
-##### TODO:
-–
 
 ## FILE: .readthedocs.yaml
+##### DESCRIPTION:
+todo
 
-##### USE:
-in both, MASTER branch and 'NEWBRANCH' of your repository
-##### PATH:
-{project}
-##### TODO:
-–
+
+## FILE: tox.ini
+##### DESCRIPTION:
+todo
