@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "395d427c_d2b05a2f",
+        "filename": "examples/sphinx/cheatsheet.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2021-11-23T09:53:54Z",
+      "side": 1,
+      "message": "I think, using a .txt file (not formatted in RST markup language) as an example is misleading. Let\u0027s use a small \u0027true\u0027 rst example",
+      "revId": "f290ea8ed188e75a2b22d0355dc374dbdc0b9a1f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
