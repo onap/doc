@@ -44,7 +44,7 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | its management, monitoring and other operational tasks (integration, user management,...)     |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`User Guides <user-guides>`                                                | The User Guides focus on tasks to administer Services using ONAP, covering Service Design,    |
- |                                                                                 | instantiation and their management using control loops                                        |
+ |                                                                                 | instantiation and their management using control loops.                                       |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`Developer Guides <ONAP_developer_guides>`                                 | Developers contributing to the ONAP development can find crucial information                  |
  |                                                                                 | in the Developer Guides. The reader can search among the developers’ topics                   |

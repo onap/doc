@@ -23,7 +23,6 @@ User Interfaces
 * :ref:`CLAMP - Closed Loop Automation Platform<onap-policy-parent:clamp-label>`
 * :ref:`Portal<onap-portal:offeredapis>`
 * :ref:`SDC - Service Design and Creation<onap-sdc:offeredapis>`
-* :ref:`VID - Virtual Infrastructure Deployment<onap-vid:offeredapis>`
 
 Platform Components
 -------------------
@@ -69,4 +68,3 @@ SDK
    :titlesonly:
 
 * :ref:`VNF Software Development Kit<onap-vnfsdk-model:offeredapis>`
-
