@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "679b6265_be18b7da",
+        "filename": "examples/sphinx/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2021-12-01T08:34:22Z",
+      "side": 1,
+      "message": "remaining whitespace",
+      "revId": "da380bc0e8af1b8e64e0310379e94625163c52f2",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
