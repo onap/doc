@@ -82,16 +82,3 @@ To backup and restore ONAP component specific databases you can follow the below
   :maxdepth: 1
 
   onap_backup_restore.rst
-
-ONAP Multisite Deployment
--------------------------
-
-ONAP Multisite deployment, coordination and management is supported by
-the MUSIC component:
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-:ref:`Multi-Site State Coordination<onap-music:master_index>`
-
