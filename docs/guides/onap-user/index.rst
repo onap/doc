@@ -34,21 +34,11 @@ Component User Guides
 For other ONAP components please review the individual
 document sets in :ref:`doc_onap-developer_guide_projects`
 
-Tutorials
----------
-
-.. toctree::
-   :maxdepth: 1
-
-   vFW Design Tutorial <./vfw-design-tutorial/index.rst>
-   vFW Deployment Tutorial <./vfw-deployment-tutorial/index.rst>
-   vFWCL Design Tutorial <./vfwcl-design-tutorial/index.rst>
-   vFWCL Deployment Tutorial <./vfwcl-deployment-tutorial/index.rst>
-
 Verified Use Cases
 ------------------
 In the following page you find all use cases and functional requirements
-which have been officially verified in the actual release by the ONAP community.
+which have been officially verified in the actual release by the ONAP
+community.
 
 * :ref:`Current Use Cases<onap-integration:docs_usecases_release>`
 * :ref:`Deprecated Use Cases<onap-integration:docs_usecases>`
