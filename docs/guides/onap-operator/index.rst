@@ -6,7 +6,7 @@
 
 Operations and Administration Guides
 ====================================
-The following guides are provided to describe tasks that an adminitrator and
+The following guides are provided to describe tasks that an administrator and
 operator of ONAP need to perform when installing, monitoring and operating
 an instance of ONAP.
 
@@ -16,4 +16,3 @@ an instance of ONAP.
    settingup/index.rst
    platformoperations.rst
    cloud_site/index.rst
-   onap-portal-admin/onap-portal-admin.rst
