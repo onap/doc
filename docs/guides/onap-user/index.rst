@@ -28,7 +28,6 @@ Component User Guides
 .. toctree::
    :maxdepth: 1
 
-   onap-portal-user/onap-portal-user.rst
    onapcli.rst
 
 For other ONAP components please review the individual
