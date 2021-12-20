@@ -37,8 +37,8 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | Common services and the ONAP Portal support the certain functions.                            |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Components and Functionalities <doc_onap-developer_guide_projects>`  | The ONAP Components and Functionalities are described in details here.                        |
- |                                                                                 | We can learn what functionalities ONAP provides and how the certain components in ONAP        |
- |                                                                                 | operate together.                                                                             |
+ |                                                                                 | We can learn what functionalities ONAP provides and how the certain components in             |
+ |                                                                                 | ONAP operate together.                                                                        |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`Operations and Adminstration Guides <operation_guides>`                   | ONAP Platform operation and adminstration cover the configuration and installation of ONAP,   |
  |                                                                                 | its management, monitoring and other operational tasks (integration, user management,...)     |
