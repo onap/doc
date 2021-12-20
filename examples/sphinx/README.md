@@ -19,6 +19,8 @@ directory you can execute the '*tox -e docs*' command and the build starts.
 #### DESCRIPTION:
 The “build configuration file” contains (almost) all configuration needed to
 customize Sphinx input and output behavior.
+#### PATH:
+{project}/docs/conf.py
 #### SEE ALSO:
 
 https://docs.releng.linuxfoundation.org/projects/lfdocs-conf/en/latest/config.html
@@ -29,6 +31,8 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html
 ## conf.yaml
 #### DESCRIPTION:
 Required to customize lfdocs-conf behavior.
+#### PATH:
+{project}/docs/conf.yaml
 ##### SEE ALSO:
 
 https://docs.releng.linuxfoundation.org/projects/lfdocs-conf/en/latest/config.html
@@ -37,15 +41,19 @@ https://docs.releng.linuxfoundation.org/projects/lfdocs-conf/en/latest/config.ht
 ## requirements-docs.txt
 ##### DESCRIPTION:
 Contains the required libraries to be used by Sphinx.
-
+#### PATH:
+{project}/etc/requirements-docs.txt
 ---
 ## .readthedocs.yaml
 ##### DESCRIPTION:
 Required to customize the ReadTheDocs input and output behavior. **Important:** This file is located in your {project} root directory (e.g. *doc/.readthedocs.yaml*).
-
+#### PATH:
+{project}/.readthedocs.yaml
 ---
 ## tox.ini
 ##### DESCRIPTION:
 Required to customize different tox environments.
+#### PATH:
+{project}/tox.ini
 ##### SEE ALSO:
 https://tox.wiki/en/latest/config.html
