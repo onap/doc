@@ -19,6 +19,30 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
+Istanbul Maintenance Release 9.1.0
+==================================
+
++--------------------------------------+--------------------------------------+
+| **Project**                          | Open Network Automation Platform     |
+|                                      | (ONAP)                               |
++--------------------------------------+--------------------------------------+
+| **Release name**                     | Istanbul                             |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release version**                  | 9.1.0                                |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+| **Release date**                     | February 17th, 2022                  |
+|                                      |                                      |
++--------------------------------------+--------------------------------------+
+
+Maintenance Release #1 Features
+-------------------------------
+ONAP Istanbul Maintenance Release #1 focusses on:
+
+- fixing log4j vulnerabilities in AAI, CPS, DCAEGEN2, DMAAP, POLICY, SDNC
+  and VNFSDK 
+
 Istanbul Major Release 9.0.0
 ============================
 
@@ -32,12 +56,12 @@ Istanbul Major Release 9.0.0
 | **Release version**                  | 9.0.0                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | November 15th  2021                  |
+| **Release date**                     | November 15th, 2021                  |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
-Istanbul Features
-=================
+Main Release Features
+---------------------
 ONAP Istanbul focusses on:
 
 - Intent based networking (IBN) simplifies interaction and network
