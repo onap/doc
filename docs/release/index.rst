@@ -19,7 +19,7 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-Istanbul Maintenance Release 9.1.0
+Istanbul Maintenance Release 9.0.1
 ==================================
 
 +--------------------------------------+--------------------------------------+
@@ -29,7 +29,7 @@ Istanbul Maintenance Release 9.1.0
 | **Release name**                     | Istanbul                             |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 9.1.0                                |
+| **Release version**                  | 9.0.1                                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 | **Release date**                     | February 17th, 2022                  |
