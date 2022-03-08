@@ -38,10 +38,12 @@ Istanbul Maintenance Release 9.0.1
 
 Features
 --------
-ONAP Istanbul Maintenance Release 1 focusses on:
+ONAP Istanbul Maintenance Release 1:
 
-- fixing log4j vulnerabilities in AAI, CPS, DCAEGEN2, DMAAP, POLICY, SDNC
-  and VNFSDK 
+- Log4j vulnerabilities in direct dependencies were removed from A&AI, DMAAP,
+  SDNC and VNFSDK.
+- Log4j vulnerabilities introduced by transitive dependencies
+  are still in A&AI, CCSDK, DCAE, DMAAP, MULTICLOUD, SDNC, SO, VNFSDK.
 
 Istanbul Major Release 9.0.0
 ============================
