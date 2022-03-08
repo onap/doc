@@ -636,7 +636,12 @@ reStructuredText
 - `reStructuredText Directives <https://docutils.sourceforge.io/docs/ref/rst/directives.html>`__
 - `reStructuredText and Sphinx Cheat Sheet I <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`__
 - `reStructuredText and Sphinx Cheat Sheet II <https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html>`__
-- `Online reStructuredText Editor <http://rst.ninjs.org/#>`__
+
+
+..
+  currently unavailable
+  - `Online reStructuredText Editor <http://rst.ninjs.org/#>`__
+
 
 Sphinx
 ------
