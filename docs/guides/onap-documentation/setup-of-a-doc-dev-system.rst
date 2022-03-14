@@ -39,10 +39,10 @@ Setup of a Documentation Development System
    #########################################################################
 
 Release Relevance
-   9.0.0 (Istanbul) - 6.0.0 (Frankfurt)
+   10.0.0 (Jakarta) - 6.0.0 (Frankfurt)
 
 Last Review/Update
-   10/05/2021
+   14/03/2022
 
 Initial Release
    05/12/2021
@@ -397,6 +397,10 @@ Disable Telemetry of VSC
 ========================
 
 In case you want to disable telemetry functionality of Visual Studio Code, open
+:guilabel:`File` > :guilabel:`Preferences` > :guilabel:`Telemetry Settings` and
+turn it ``off`` in the selection field.
+
+In an older version of VSC you alternatively need to open
 :guilabel:`File` > :guilabel:`Preferences` > :guilabel:`Settings` and
 search for ``telemetry``. Then uncheck
 :guilabel:`Telemetry: Enable Crash Reporter` and
@@ -424,17 +428,23 @@ Press :guilabel:`Install` if you have found the required extension.
 
 Please install ...
 
-+-----------------------+-----------------------------------------+
-| Python                | ms-python.python                        |
-+-----------------------+-----------------------------------------+
-| reStructuredText      | lextudio.restructuredtext               |
-+-----------------------+-----------------------------------------+
-| Code Spell Checker    | streetsidesoftware.code-spell-checker   |
-+-----------------------+-----------------------------------------+
-| Prettier              | esbenp.prettier-vscode                  |
-+-----------------------+-----------------------------------------+
-| GitLens               | eamodio.gitlens                         |
-+-----------------------+-----------------------------------------+
++--------------------------------------+---------------------------------------+---------+
+| Python                               | ms-python.python                      | latest  |
++--------------------------------------+---------------------------------------+---------+
+| reStructuredText                     | lextudio.restructuredtext             | 169.0.0 |
++--------------------------------------+---------------------------------------+---------+
+| reStructuredText Syntax highlighting | trond-snekvik.simple-rst              | latest  |
++--------------------------------------+---------------------------------------+---------+
+| Code Spell Checker                   | streetsidesoftware.code-spell-checker | latest  |
++--------------------------------------+---------------------------------------+---------+
+| Prettier                             | esbenp.prettier-vscode                | latest  |
++--------------------------------------+---------------------------------------+---------+
+| GitLens                              | eamodio.gitlens                       | latest  |
++--------------------------------------+---------------------------------------+---------+
+
+.. note:: Use the reStructuredText extension version 169.0.0 or lower to
+   avoid problems with the preview. You need to downgrade after the initial
+   installation.
 
 Configure reStructuredText extension
 ------------------------------------
@@ -659,6 +669,7 @@ Visual Studio Code (VSC)
 - `VSC Basic Editing <https://code.visualstudio.com/docs/editor/codebasics>`__
 - `Code Formatting with Prettier in Visual Studio Code <https://www.digitalocean.com/community/tutorials/code-formatting-with-prettier-in-visual-studio-code>`__
 - `VSC Icons <https://github.com/microsoft/vscode-icons>`__
+- `reStructuredText Extension <https://docs.restructuredtext.net/>`__
 
 -------------------------------------------------------------------------------
 
@@ -688,6 +699,7 @@ for one of the upcoming releases.
  - evaluate ``snooty`` and describe functionality (build in? not a extension?)
  - add a table explaining the role of installed packages/extensions in every
    section
+ - update instructions to enable use of latest reStructuredText VSC extension
 
 ..
    #########################################################################
