@@ -59,7 +59,7 @@ Unmaintained Projects
 .. toctree::
    :maxdepth: 1
 
-| :ref:`AAF - Application Authorization Framework<onap-aaf-authz:release_notes>`
+.. | :ref:`AAF - Application Authorization Framework<onap-aaf-authz:release_notes>`
 | :ref:`APPC - Application Controller<onap-appc:release_notes>`
 | :ref:`EXTAPI - External API NorthBound Interface<onap-externalapi-nbi:release_notes>`
 | :ref:`MUSIC - ONAP Multi-Site Integration<onap-music:release_notes>`
