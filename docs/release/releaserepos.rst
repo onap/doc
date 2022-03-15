@@ -45,23 +45,23 @@ Maintained Projects
 | :ref:`VNFSDK - VNF Software Development Kit<onap-vnfsdk-model:release_notes>`
 | :ref:`VVP - VNF Validation Project<onap-vvp-documentation:release_notes>`
 
-Migrated Projects
------------------
-
-.. toctree::
-   :maxdepth: 1
-
-| :ref:`CLAMP - Control Loop Automation Platform<onap-policy-parent:clamp-label>`
-
-Unmaintained Projects
----------------------
-
-.. toctree::
-   :maxdepth: 1
-
-| :ref:`AAF - Application Authorization Framework<onap-aaf-authz:release_notes>`
-| :ref:`APPC - Application Controller<onap-appc:release_notes>`
-| :ref:`EXTAPI - External API NorthBound Interface<onap-externalapi-nbi:release_notes>`
-| :ref:`MUSIC - ONAP Multi-Site Integration<onap-music:release_notes>`
-| :ref:`PORTAL - Portal Platform<onap-portal:release_notes>`
-| :ref:`VID - Virtual Infrastructure Deployment<onap-vid:release_notes>`
+.. Migrated Projects
+.. -----------------
+..
+.. .. t o c t r e e : :
+..    :maxdepth: 1
+..
+.. | :ref:`CLAMP - Control Loop Automation Platform<onap-policy-parent:clamp-label>`
+..
+.. Unmaintained Projects
+.. ---------------------
+..
+.. .. t o c t r e e : :
+..    :maxdepth: 1
+..
+.. | :ref:`AAF - Application Authorization Framework<onap-aaf-authz:release_notes>`
+.. | :ref:`APPC - Application Controller<onap-appc:release_notes>`
+.. | :ref:`EXTAPI - External API NorthBound Interface<onap-externalapi-nbi:release_notes>`
+.. | :ref:`MUSIC - ONAP Multi-Site Integration<onap-music:release_notes>`
+.. | :ref:`PORTAL - Portal Platform<onap-portal:release_notes>`
+.. | :ref:`VID - Virtual Infrastructure Deployment<onap-vid:release_notes>`
