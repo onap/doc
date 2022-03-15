@@ -65,14 +65,6 @@ functions
 
    <kubernetes IP>:30270/ui/
 
-**ONAP Log collection is provided by the Logging and Analytics Module:**
-
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-:ref:`Logging & Analytics <onap-logging-analytics:master_index>`
-
 ONAP Backup and Restore
 -----------------------
 
