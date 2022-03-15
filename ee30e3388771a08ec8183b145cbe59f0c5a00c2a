@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ffe5066_dc418398",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2022-03-15T16:09:32Z",
+      "side": 1,
+      "message": "Why .. ?",
+      "revId": "ee30e3388771a08ec8183b145cbe59f0c5a00c2a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
