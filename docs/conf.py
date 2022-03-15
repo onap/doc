@@ -77,18 +77,18 @@ intersphinx_mapping['onap-vid'] = ('{}/onap-vid/en/%s'.format(doc_url) % branch,
 #/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/vid2/index.rst:13: WARNING: undefined label: onap-vid:instantiatemacro
 ##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:67: WARNING: undefined label: onap-vid:release_notes
 
-## Guilin
+##Guilin
 ##branch = 'guilin'
 
 ##intersphinx_mapping['onap-portal'] = ('{}/onap-portal/en/%s'.format(doc_url) % branch, None)
 ##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:66: WARNING: undefined label: onap-portal:release_notes
 
-# Frankfurt
-branch = 'frankfurt'
+##Frankfurt
+##branch = 'frankfurt'
 
-intersphinx_mapping['onap-appc'] = ('{}/onap-appc/en/%s'.format(doc_url) % branch, None)
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/architecture/references.rst:33: WARNING: undefined label: onap-appc:appc_lcm_api_guide
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/design/index.rst:112: WARNING: undefined label: onap-appc:master_index
+##intersphinx_mapping['onap-appc'] = ('{}/onap-appc/en/%s'.format(doc_url) % branch, None)
+##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/architecture/references.rst:33: WARNING: undefined label: onap-appc:appc_lcm_api_guide
+##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/design/index.rst:112: WARNING: undefined label: onap-appc:master_index
 ##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:63: WARNING: undefined label: onap-appc:release_notes
 
 ##intersphinx_mapping['onap-appc-deployment'] = ('{}/onap-appc-deployment/en/%s'.format(doc_url) % branch, None)
