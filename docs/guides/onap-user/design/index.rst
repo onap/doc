@@ -109,7 +109,6 @@ The following sections focus on the different Design steps:
 The following section provide links to the projects:
 
 - :ref:`Policy Design<onap-policy-parent:design-label>`
-- :ref:`VNF LifeCycle Command templating<onap-appc:master_index>`
 - :ref:`Workflow Design<onap-sdc:workflow>`
 - :ref:`DCAE Onboard/Design<onap-dcaegen2:master_index>`
 - :ref:`Control Loop Automation Management<onap-policy-parent:clamp-label>`

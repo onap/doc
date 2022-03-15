@@ -87,7 +87,7 @@ intersphinx_mapping['onap-vid'] = ('{}/onap-vid/en/%s'.format(doc_url) % branch,
 branch = 'frankfurt'
 
 intersphinx_mapping['onap-appc'] = ('{}/onap-appc/en/%s'.format(doc_url) % branch, None)
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/architecture/references.rst:33: WARNING: undefined label: onap-appc:appc_lcm_api_guide
+##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/architecture/references.rst:33: WARNING: undefined label: onap-appc:appc_lcm_api_guide
 #/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/design/index.rst:112: WARNING: undefined label: onap-appc:master_index
 ##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:63: WARNING: undefined label: onap-appc:release_notes
 
