@@ -6,8 +6,4 @@
 A La Carte mode Service Instantiation via ONAP VID Portal
 =========================================================
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-:ref:`Instantiate Service, VNF, VF modules and Network<onap-vid:instantiate>`
+.. warning:: The ONAP :strong:`vid` project is :strong:`unmaintained`.

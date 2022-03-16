@@ -4,10 +4,6 @@
 
 
 Macro mode Service Instantiation via ONAP VID Portal
-=========================================================
+====================================================
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-:ref:`Instantiate Service, “Macro” mode (PNF example)<onap-vid:instantiatemacro>`
+.. warning:: The ONAP :strong:`vid` project is :strong:`unmaintained`.

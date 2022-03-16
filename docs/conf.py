@@ -6,12 +6,11 @@ master_doc = 'index'
 intersphinx_mapping = {}
 
 #
-# Mapping to 'latest' if this files is used in 'latest' (master) branch.
-# Changed to '<Name_of_the_new_ONAP_Release>' after you have create the new
-# branch for the 'doc' project.
+# Map to 'latest' if this file is used in 'latest' (master) 'doc' branch.
+# Change to {releasename} after you have created the new 'doc' branch.
 #
 
-# Latest
+# latest|{releasename}
 branch = 'latest'
 intersphinx_mapping['onap-aai-aai-common'] = ('{}/onap-aai-aai-common/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-sparky-be'] = ('{}/onap-aai-sparky-be/en/%s'.format(doc_url) % branch, None)
@@ -59,90 +58,15 @@ intersphinx_mapping['onap-vnfsdk-model'] = ('{}/onap-vnfsdk-model/en/%s'.format(
 intersphinx_mapping['onap-vvp-documentation'] = ('{}/onap-vvp-documentation/en/%s'.format(doc_url) % branch, None)
 
 #
-# Mapping to an older version of documentation for those projects who are part
-# of the new ONAP release but have not created a branch for it.
-# This can happen e.g. for 'unmaintained' (but still required) projects.
-#
-
-# Honolulu
-branch = 'honolulu'
-# consolidated to dmaap/buscontroller # intersphinx_mapping['onap-dmaap-dbcapi'] = ('{}/onap-dmaap-dbcapi/en/%s'.format(doc_url) % branch, None)
-
-intersphinx_mapping['onap-externalapi-nbi'] = ('{}/onap-externalapi-nbi/en/%s'.format(doc_url) % branch, None)
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/nbi/index.rst:19: WARNING: undefined label: onap-externalapi-nbi:offeredapis
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/nbi/index.rst:19:undefined label: onap-externalapi-nbi:offeredapis
-##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:64: WARNING: undefined label: onap-externalapi-nbi:release_notes
-
-intersphinx_mapping['onap-vid'] = ('{}/onap-vid/en/%s'.format(doc_url) % branch, None)
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/vid1/index.rst:13: WARNING: undefined label: onap-vid:instantiate
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/vid2/index.rst:13: WARNING: undefined label: onap-vid:instantiatemacro
-##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:67: WARNING: undefined label: onap-vid:release_notes
-
-##Guilin
-##branch = 'guilin'
-
-##intersphinx_mapping['onap-portal'] = ('{}/onap-portal/en/%s'.format(doc_url) % branch, None)
-##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:66: WARNING: undefined label: onap-portal:release_notes
-
-##Frankfurt
-##branch = 'frankfurt'
-
-##intersphinx_mapping['onap-appc'] = ('{}/onap-appc/en/%s'.format(doc_url) % branch, None)
-##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/architecture/references.rst:33: WARNING: undefined label: onap-appc:appc_lcm_api_guide
-##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/design/index.rst:112: WARNING: undefined label: onap-appc:master_index
-##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:63: WARNING: undefined label: onap-appc:release_notes
-
-##intersphinx_mapping['onap-appc-deployment'] = ('{}/onap-appc-deployment/en/%s'.format(doc_url) % branch, None)
-
-##intersphinx_mapping['onap-music'] = ('{}/onap-music/en/%s'.format(doc_url) % branch, None)
-##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:65: WARNING: undefined label: onap-music:release_notes
-
-#
-# Mapping to 'latest' (master) version of documentation for those projects who
+# Pinned to 'latest' (master) version of documentation for those projects who
 # are part of the new ONAP release but never have created a branch.
 #
 
-# Latest
 branch = 'latest'
-
+# exception for the SecCom repo
 intersphinx_mapping['onap-osa'] = ('{}/onap-osa/en/%s'.format(doc_url) % branch, None)
-#exception for the seccom repo? currently there is only the 'latest' branch
 
-##intersphinx_mapping['onap-aaf-authz'] = ('{}/onap-aaf-authz/en/%s'.format(doc_url) % branch, None)
-##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:62: WARNING: undefined label: onap-aaf-authz:release_notes
-
-##intersphinx_mapping['onap-aaf-sms'] = ('{}/onap-aaf-sms/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-aai-event-client'] = ('{}/onap-aai-event-client/en/%s'.format(doc_url) % branch, None)
-#intersphinx_mapping['onap-aai-esr-gui'] = ('{}/onap-aai-esr-gui/en/%s'.format(doc_url) % branch, None)
-#intersphinx_mapping['onap-aai-esr-server'] = ('{}/onap-aai-esr-server/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-ccsdk-dashboard'] = ('{}/onap-ccsdk-dashboard/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-ccsdk-platform-plugins'] = ('{}/onap-ccsdk-platform-plugins/en/%s'.format(doc_url) % branch, None)
-
-##intersphinx_mapping['onap-logging-analytics'] = ('{}/onap-logging-analytics/en/%s'.format(doc_url) % branch, None)
-##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-operator/platformoperations.rst:74: WARNING: undefined label: onap-logging-analytics:master_index
-
-##intersphinx_mapping['onap-logging-analytics-pomba-pomba-audit-common'] = ('{}/onap-logging-analytics-pomba-pomba-audit-common/en/%s'.format(doc_url) % branch, None)
-
-intersphinx_mapping['onap-modeling-toscaparsers'] = ('{}/onap-modeling-toscaparsers/en/%s'.format(doc_url) % branch, None)
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/apiref/index.rst:53:undefined label: onap-modeling-toscaparsers:offeredapis
-
-##intersphinx_mapping['onap-msb-discovery'] = ('{}/onap-msb-discovery/en/%s'.format(doc_url) % branch, None)
-##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/developing/index.rst:157: WARNING: undefined label: onap-msb-discovery:master_index
-
-##intersphinx_mapping['onap-msb-java-sdk'] = ('{}/onap-msb-java-sdk/en/%s'.format(doc_url) % branch, None)
-##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/developing/index.rst:159: WARNING: undefined label: onap-msb-java-sdk:master_index
-
-##intersphinx_mapping['onap-multicloud-azure'] = ('{}/onap-multicloud-azure/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-music-distributed-kv-store'] = ('{}/onap-music-distributed-kv-store/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-oparent-cia'] = ('{}/onap-oparent-cia/en/%s'.format(doc_url) % branch, None)
-
-##intersphinx_mapping['onap-sdc-sdc-distribution-client'] = ('{}/onap-sdc-sdc-distribution-client/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-sdc-sdc-workflow-designer'] = ('{}/onap-sdc-sdc-workflow-designer/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-sdc-sdc-tosca'] = ('{}/onap-sdc-sdc-tosca/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-sdc-sdc-docker-base'] = ('{}/onap-sdc-sdc-docker-base/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-so-libs'] = ('{}/onap-so-libs/en/%s'.format(doc_url) % branch, None)
-##intersphinx_mapping['onap-vfc-nfvo-driver-vnfm-svnfm'] = ('{}/onap-vfc-nfvo-driver-vnfm-svnfm/en/%s'.format(doc_url) % branch, None)
-
+# Linkcheck
 linkcheck_ignore = [
     'http://localhost',
     'https://example.com',
