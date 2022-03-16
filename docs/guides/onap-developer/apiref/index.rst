@@ -50,10 +50,11 @@ Common Services
 * :ref:`DMAAP DBC - Data Management as a Platform (Data Bus Controller)<onap-dmaap-buscontroller:offeredapis>`
 * :ref:`DMAAP DR - Data Management as a Platform (Data Router)<onap-dmaap-datarouter:master_index>`
 * :ref:`DMAAP MR - Data Management as a Platform (Message Router)<onap-dmaap-messagerouter-messageservice:offeredapis>`
-* :ref:`Modeling Parsers<onap-modeling-toscaparsers:offeredapis>`
 * :ref:`MSB - Micro Services Bus<onap-msb-apigateway:offeredapis>`
 * :ref:`Multi Cloud<onap-multicloud-framework:offeredapis>`
 * :ref:`OPTF - Optimization Framework<onap-optf-osdf:offeredapis>`
+
+.. * :ref:`Modeling Parsers<onap-modeling-toscaparsers:offeredapis>`
 
 SDK
 ---
@@ -63,4 +64,3 @@ SDK
    :titlesonly:
 
 * :ref:`VNF Software Development Kit<onap-vnfsdk-model:offeredapis>`
-
