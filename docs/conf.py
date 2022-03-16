@@ -64,18 +64,19 @@ intersphinx_mapping['onap-vvp-documentation'] = ('{}/onap-vvp-documentation/en/%
 # This can happen e.g. for 'unmaintained' (but still required) projects.
 #
 
-# Honolulu
-branch = 'honolulu'
-# consolidated to dmaap/buscontroller # intersphinx_mapping['onap-dmaap-dbcapi'] = ('{}/onap-dmaap-dbcapi/en/%s'.format(doc_url) % branch, None)
+##Honolulu
+##branch = 'honolulu'
 
-intersphinx_mapping['onap-externalapi-nbi'] = ('{}/onap-externalapi-nbi/en/%s'.format(doc_url) % branch, None)
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/nbi/index.rst:19: WARNING: undefined label: onap-externalapi-nbi:offeredapis
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/nbi/index.rst:19:undefined label: onap-externalapi-nbi:offeredapis
+##consolidated to dmaap/buscontroller # intersphinx_mapping['onap-dmaap-dbcapi'] = ('{}/onap-dmaap-dbcapi/en/%s'.format(doc_url) % branch, None)
+
+##intersphinx_mapping['onap-externalapi-nbi'] = ('{}/onap-externalapi-nbi/en/%s'.format(doc_url) % branch, None)
+##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/nbi/index.rst:19: WARNING: undefined label: onap-externalapi-nbi:offeredapis
+##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/nbi/index.rst:19:undefined label: onap-externalapi-nbi:offeredapis
 ##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:64: WARNING: undefined label: onap-externalapi-nbi:release_notes
 
-intersphinx_mapping['onap-vid'] = ('{}/onap-vid/en/%s'.format(doc_url) % branch, None)
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/vid1/index.rst:13: WARNING: undefined label: onap-vid:instantiate
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/vid2/index.rst:13: WARNING: undefined label: onap-vid:instantiatemacro
+##intersphinx_mapping['onap-vid'] = ('{}/onap-vid/en/%s'.format(doc_url) % branch, None)
+##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/vid1/index.rst:13: WARNING: undefined label: onap-vid:instantiate
+##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-user/instantiate/instantiation/vid2/index.rst:13: WARNING: undefined label: onap-vid:instantiatemacro
 ##/w/workspace/rtdv3-global-verify-master/docs/release/releaserepos.rst:67: WARNING: undefined label: onap-vid:release_notes
 
 ##Guilin
@@ -123,8 +124,8 @@ intersphinx_mapping['onap-osa'] = ('{}/onap-osa/en/%s'.format(doc_url) % branch,
 
 ##intersphinx_mapping['onap-logging-analytics-pomba-pomba-audit-common'] = ('{}/onap-logging-analytics-pomba-pomba-audit-common/en/%s'.format(doc_url) % branch, None)
 
-intersphinx_mapping['onap-modeling-toscaparsers'] = ('{}/onap-modeling-toscaparsers/en/%s'.format(doc_url) % branch, None)
-#/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/apiref/index.rst:53:undefined label: onap-modeling-toscaparsers:offeredapis
+##intersphinx_mapping['onap-modeling-toscaparsers'] = ('{}/onap-modeling-toscaparsers/en/%s'.format(doc_url) % branch, None)
+##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/apiref/index.rst:53:undefined label: onap-modeling-toscaparsers:offeredapis
 
 ##intersphinx_mapping['onap-msb-discovery'] = ('{}/onap-msb-discovery/en/%s'.format(doc_url) % branch, None)
 ##/w/workspace/rtdv3-global-verify-master/docs/guides/onap-developer/developing/index.rst:157: WARNING: undefined label: onap-msb-discovery:master_index
