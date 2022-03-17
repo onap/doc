@@ -72,12 +72,6 @@ Onboarding, Design and Distribution process.
     provides some policy models that are implemented and pre-loaded when
     installing ONAP.
 
-**VNF LifeCycle Command templating**
-    APPC Controller Design Tool (CDT) is used for self-service onboarding of
-    VNFs. VNF owners can create templates and other artifacts for APPC
-    Configure command (used to apply a post-instantiation configuration)
-    as well as other life cycle commands.
-
 **Workflow Design**
     The purpose of the Workflow Designer is to enable designers to define or
     modify workflows to support Service/Resource change management scenarios
@@ -102,9 +96,9 @@ The following sections focus on the different Design steps:
    VF Creation and Testing <./vfcreation/index.rst>
    Service Design <./service-design/index.rst>
    Service Distribution <./service-distribution/index.rst>
-   VNF parameter resolution Design <./parameter_resolution/index.rst>
+   VNF Parameter Resolution Design <./parameter_resolution/index.rst>
    Control Loop Design <./control-loop/index.rst>
-   Instructions for control loop design <./control-loop-design-steps/cl_design_instructions.rst>
+   Instructions for Control Loop Design <./control-loop-design-steps/cl_design_instructions.rst>
 
 The following section provide links to the projects:
 
