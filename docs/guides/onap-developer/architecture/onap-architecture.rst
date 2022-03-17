@@ -208,7 +208,7 @@ controllers have increased its level of modularity.
 Portal
 ======
 
-.. important:: PORTAL is an unmaintained ONAP component!
+.. warning:: The ONAP :strong:`portal` project is :strong:`unmaintained`.
 
 ONAP delivers a single, consistent user experience to both design time and
 runtime environments, based on the user’s role. Role changes are configured
@@ -351,7 +351,7 @@ orchestration currently supports options #1 and #4.
 Virtual Infrastructure Deployment (VID)
 ---------------------------------------
 
-.. important:: VID is an unmaintained ONAP component!
+.. warning:: The ONAP :strong:`vid` project is :strong:`unmaintained`.
 
 The Virtual Infrastructure Deployment (VID) application enables users to
 instantiate infrastructure services from SDC, along with their associated
@@ -392,7 +392,7 @@ virtual services and the associated physical COTS server infrastructure. VF-C
 provides a generic VNFM capability, and both VF-C and SO NFVO integrate with
 external VNFMs and VIMs as part of an NFV MANO stack.
 
-.. important:: APP-C is an unmaintained ONAP component!
+.. warning:: The ONAP :strong:`appc` project is :strong:`unmaintained`.
 
 ONAP has two application level configuration and lifecycle management modules
 called SDN-C and App-C. Both provide similar services (application level
@@ -554,14 +554,14 @@ ONAP CLI provides a command line interface for access to ONAP.
 External APIs
 -------------
 
-.. important:: EXTERNALAPI is an unmaintained ONAP component!
+.. warning:: The ONAP :strong:`externalapi` project is :strong:`unmaintained`.
 
 External APIs provide services to expose the capability of ONAP.
 
 Shared Services
 ===============
 
-.. important:: LOGGING is an unmaintained ONAP component!
+.. warning:: The ONAP :strong:`logging` project is :strong:`unmaintained`.
 
 ONAP provides a set of operational services for all ONAP components including
 activity logging, reporting, common data layer, configuration, persistence,
