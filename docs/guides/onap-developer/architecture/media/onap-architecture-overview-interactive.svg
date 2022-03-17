@@ -9,7 +9,7 @@
 
 <svg
    sodipodi:docname="onap-architecture-overview-interactive.svg"
-   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
    id="svg5"
    version="1.1"
    viewBox="0 0 324.00477 237.0196"
@@ -31,14 +31,14 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.4142136"
-     inkscape:cx="669.27655"
-     inkscape:cy="525.73388"
+     inkscape:cx="534.92627"
+     inkscape:cy="532.80495"
      inkscape:window-width="3264"
      inkscape:window-height="1818"
-     inkscape:window-x="230"
+     inkscape:window-x="231"
      inkscape:window-y="120"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g1896"
+     inkscape:current-layer="g6143"
      height="190mm"
      showborder="true"
      inkscape:showpageshadow="true"
@@ -110,9 +110,9 @@
            inkscape:label="unmaintained.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan1827"><tspan
+             id="tspan24710"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0.2645835 -0.26458463"
-               id="tspan1825">Unmaintained ONAP Component</tspan></tspan></text>
+               id="tspan24708">Unmaintained ONAP Component</tspan></tspan></text>
       </g>
       <g
          id="g4786-5"
@@ -136,9 +136,9 @@
            inkscape:label="onapcomponents.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan1831"><tspan
+             id="tspan24714"><tspan
                dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458272 0 0.2645829 -0.26458272 0 0 0 0.2645835 -0.26458272"
-               id="tspan1829">Entirety of ONAP Components</tspan></tspan></text>
+               id="tspan24712">Entirety of ONAP Components</tspan></tspan></text>
       </g>
       <g
          id="g4770"
@@ -162,7 +162,7 @@
            transform="matrix(1.00026,0,0,1,-0.0728097,0)"><tspan
              x="279"
              y="237.80913"
-             id="tspan1833">Operations</tspan></text>
+             id="tspan24716">Operations</tspan></text>
       </g>
       <g
          id="g4776"
@@ -186,9 +186,9 @@
            transform="matrix(1.00026,0,0,1,-0.0602911,0)"><tspan
              x="231.00195"
              y="237.80913"
-             id="tspan1837"><tspan
+             id="tspan24720"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0.26458231 -0.26458272"
-               id="tspan1835">Orchestration &amp; Management</tspan></tspan></text>
+               id="tspan24718">Orchestration &amp; Management</tspan></tspan></text>
       </g>
       <g
          id="g4765"
@@ -211,7 +211,7 @@
            inkscape:label="design.label"><tspan
              x="183"
              y="237.80913"
-             id="tspan1839">Design</tspan></text>
+             id="tspan24722">Design</tspan></text>
       </g>
       <g
          id="g4781"
@@ -234,9 +234,9 @@
            inkscape:label="colorlegend.label"><tspan
              x="7.0039062"
              y="237.86187"
-             id="tspan1843"><tspan
+             id="tspan24726"><tspan
                dx="0 0 0 0 0 0.26458338 -0.2645832"
-               id="tspan1841">Color Legend:</tspan></tspan></text>
+               id="tspan24724">Color Legend:</tspan></tspan></text>
       </g>
     </g>
     <g
@@ -273,10 +273,10 @@
            inkscape:label="managedenvironment.label"><tspan
              x="82.003906"
              y="165.55381"
-             id="tspan1847"><tspan
+             id="tspan24730"><tspan
                dx="0 0 0 0 0 0 0 0.26458254 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-               id="tspan1845">Managed Environment</tspan></tspan></text>
+               id="tspan24728">Managed Environment</tspan></tspan></text>
       </g>
       <g
          id="g29902"
@@ -429,10 +429,10 @@
              inkscape:label="hypervisoroslayer.label"><tspan
                x="86.003906"
                y="197.80913"
-               id="tspan1851"><tspan
+               id="tspan24734"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1849">Hypervisor / OS Layer</tspan></tspan></text>
+                 id="tspan24732">Hypervisor / OS Layer</tspan></tspan></text>
         </g>
         <g
            id="g4413"
@@ -454,7 +454,7 @@
              inkscape:label="openstack.label"><tspan
                x="135.00391"
                y="198.49163"
-               id="tspan1853">OpenStack</tspan></text>
+               id="tspan24736">OpenStack</tspan></text>
         </g>
         <g
            id="g4408"
@@ -476,9 +476,9 @@
              inkscape:label="commercialvim.label"><tspan
                x="167.00391"
                y="198.49163"
-               id="tspan1857"><tspan
+               id="tspan24740"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
-                 id="tspan1855">Commercial VIM</tspan></tspan></text>
+                 id="tspan24738">Commercial VIM</tspan></tspan></text>
         </g>
         <g
            id="g4396"
@@ -500,7 +500,7 @@
              inkscape:label="kubernetes.label"><tspan
                x="199.00391"
                y="198.49163"
-               id="tspan1859">Kubernetes</tspan></text>
+               id="tspan24742">Kubernetes</tspan></text>
         </g>
         <g
            id="g4402"
@@ -522,9 +522,9 @@
              inkscape:label="publiccloud.label"><tspan
                x="231.00391"
                y="198.49163"
-               id="tspan1863"><tspan
+               id="tspan24746"><tspan
                  dx="0 0 0 0 0 0 0.2645829 -0.26458272"
-                 id="tspan1861">Public Cloud</tspan></tspan></text>
+                 id="tspan24744">Public Cloud</tspan></tspan></text>
         </g>
       </g>
       <g
@@ -551,10 +551,10 @@
              inkscape:label="networkfunktionlayer.label"><tspan
                x="86.003906"
                y="185.80913"
-               id="tspan1867"><tspan
+               id="tspan24750"><tspan
                  dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1865">Network Function Layer</tspan></tspan></text>
+                 id="tspan24748">Network Function Layer</tspan></tspan></text>
         </g>
         <g
            id="g2995"
@@ -585,7 +585,7 @@
              transform="translate(-0.26458332,0.26458332)"><tspan
                x="266.74023"
                y="188.7553"
-               id="tspan1869">PNF</tspan></text>
+               id="tspan24752">PNF</tspan></text>
         </g>
         <g
            id="g2907"
@@ -607,7 +607,7 @@
              inkscape:label="vnf.label"><tspan
                x="199.00391"
                y="186.49163"
-               id="tspan1871">VNF</tspan></text>
+               id="tspan24754">VNF</tspan></text>
         </g>
       </g>
       <g
@@ -635,10 +635,10 @@
              inkscape:label="externalsystems.label"><tspan
                x="86.003906"
                y="173.80913"
-               id="tspan1875"><tspan
+               id="tspan24758"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1873">External Systems</tspan></tspan></text>
+                 id="tspan24756">External Systems</tspan></tspan></text>
         </g>
         <g
            id="g4437"
@@ -660,9 +660,9 @@
              inkscape:label="thirdpartycontrollers.label"><tspan
                x="135.00391"
                y="174.49163"
-               id="tspan1879"><tspan
+               id="tspan24762"><tspan
                  dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
-                 id="tspan1877">3rd Party Controllers</tspan></tspan></text>
+                 id="tspan24760">3rd Party Controllers</tspan></tspan></text>
         </g>
         <g
            id="g4442"
@@ -684,7 +684,7 @@
              inkscape:label="svnfm.label"><tspan
                x="199.00391"
                y="174.49163"
-               id="tspan1881">sVNFM</tspan></text>
+               id="tspan24764">sVNFM</tspan></text>
         </g>
         <g
            id="g4447"
@@ -706,7 +706,7 @@
              inkscape:label="ems.label"><tspan
                x="231.00391"
                y="174.49163"
-               id="tspan1883">EMS</tspan></text>
+               id="tspan24766">EMS</tspan></text>
         </g>
       </g>
     </g>
@@ -758,9 +758,9 @@
              inkscape:label="utilities.label"><tspan
                x="12.003906"
                y="161.61826"
-               id="tspan1887"><tspan
+               id="tspan24770"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                 id="tspan1885">Utilities</tspan></tspan></text>
+                 id="tspan24768">Utilities</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -796,10 +796,10 @@
                inkscape:label="onapsharedutilities.label"><tspan
                  x="16.003906"
                  y="173.80913"
-                 id="tspan1891"><tspan
+                 id="tspan24774"><tspan
                    dx="0 0 0 0 0.26458302 -0.26458284 0 0 0 0 0 0.26458207 -0.26458189"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1889">ONAP Shared Utilities</tspan></tspan></text>
+                   id="tspan24772">ONAP Shared Utilities</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -814,7 +814,7 @@
              inkscape:label="toscaparser"
              style="display:inline">
             <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#b9b699;fill-opacity:1;stroke:#b9b699;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
                id="rect47709-1-8-0"
                width="50"
                height="3.9999995"
@@ -830,9 +830,9 @@
                inkscape:label="toscaparser.label"><tspan
                  x="17.003906"
                  y="198.80913"
-                 id="tspan1895"><tspan
+                 id="tspan24778"><tspan
                    dx="0 0 0 0 0 0.26458302 -0.26458368"
-                   id="tspan1893">TOSCA Parser</tspan></tspan></text>
+                   id="tspan24776">TOSCA Parser</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -863,9 +863,44 @@
                inkscape:label="modelutilities.label"><tspan
                  x="17.003906"
                  y="190.80913"
-                 id="tspan1899"><tspan
+                 id="tspan24782"><tspan
                    dx="0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan1897">Model Utilities</tspan></tspan></text>
+                   id="tspan24780">Model Utilities</tspan></tspan></text>
+          </g>
+        </a>
+        <a
+           id="a5460-6"
+           inkscape:label="ccsdk.link"
+           onmouseover="style.opacity = 0.6;"
+           onmouseout="style.opacity = 1.0;"
+           xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/latest/index.html"
+           xlink:title="The Common Controller Software Development Kit (CCSDK) provides a common set of reusable code that can be used across multiple controllers. For example, the SDN-C , APP-C, DCAE, ONAP Operations Manager and ONAP controller can reuse common pieces from this framework."
+           style="display:inline"
+           transform="translate(2.0000041,-8.000001)">
+          <g
+             id="g1274-1"
+             inkscape:label="ccsdk"
+             style="display:inline">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#b9b699;fill-opacity:1;stroke:#b9b699;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-1-1-5"
+               width="50"
+               height="3.9999995"
+               x="15.004762"
+               y="188"
+               inkscape:label="ccsdk.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-1-5);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="168.51738"
+               y="11.404485"
+               id="text1436-30-9"
+               inkscape:label="ccsdk.label"><tspan
+                 x="15.003906"
+                 y="190.80913"
+                 id="tspan24786"><tspan
+                   dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0 0.26458433 -0.26458272 0 0 0.26458469 -0.26458272"
+                   id="tspan24784">Common Controller SDK (CCSDK)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -902,10 +937,10 @@
              inkscape:label="manageonap.label"><tspan
                x="172"
                y="57.551855"
-               id="tspan1903"><tspan
+               id="tspan24790"><tspan
                  dx="0 0 0 0 0 0 0.26458302 -0.2645826"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1901">Manage ONAP</tspan></tspan></text>
+                 id="tspan24788">Manage ONAP</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -936,9 +971,9 @@
              inkscape:label="oom.label"><tspan
                x="267.00391"
                y="55.742725"
-               id="tspan1907"><tspan
+               id="tspan24794"><tspan
                  dx="0 0 0 0 0.26458302 -0.26458272 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0.26458243 -0.26458272"
-                 id="tspan1905">ONAP Operation Manager (OOM)</tspan></tspan></text>
+                 id="tspan24792">ONAP Operation Manager (OOM)</tspan></tspan></text>
         </g>
       </a>
     </g>
@@ -974,9 +1009,9 @@
              inkscape:label="designtime.label"><tspan
                x="12"
                y="57.551855"
-               id="tspan1911"><tspan
+               id="tspan24798"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan1909">Design-Time</tspan></tspan></text>
+                 id="tspan24796">Design-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1012,16 +1047,16 @@
                inkscape:label="sdc.label"><tspan
                  x="16"
                  y="92.742725"
-                 id="tspan1915"><tspan
+                 id="tspan24802"><tspan
                    dx="0 0 0 0 0 0 0 0.26458231 -0.26458284 0 0 0 0 0 0.26458278 -0.2645838 0.26458398 -0.2645838 0 0 0 0 0 0 0 0.26458088"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1913">Service Design &amp; Creation
+                   id="tspan24800">Service Design &amp; Creation
 </tspan></tspan><tspan
                  x="16"
                  y="96.711475"
-                 id="tspan1919"><tspan
+                 id="tspan24806"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1917">(SDC)</tspan></tspan></text>
+                   id="tspan24804">(SDC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1053,7 +1088,7 @@
                inkscape:label="catalog.label"><tspan
                  x="17"
                  y="143.74272"
-                 id="tspan1921">Catalog</tspan></text>
+                 id="tspan24808">Catalog</tspan></text>
           </g>
         </a>
         <a
@@ -1083,9 +1118,9 @@
                inkscape:label="dcaedesignstudio.label"><tspan
                  x="17"
                  y="135.74272"
-                 id="tspan1925"><tspan
+                 id="tspan24812"><tspan
                    dx="0 0 0 0 0.26458326 -0.26458272 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan1923">DCAE Design Studio</tspan></tspan></text>
+                   id="tspan24810">DCAE Design Studio</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1115,9 +1150,9 @@
                inkscape:label="controllerdesignstudio.label"><tspan
                  x="17"
                  y="127.74272"
-                 id="tspan1929"><tspan
+                 id="tspan24816"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458469 -0.26458272"
-                   id="tspan1927">Controller Design Studio (CDS)</tspan></tspan></text>
+                   id="tspan24814">Controller Design Studio (CDS)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1147,9 +1182,9 @@
                inkscape:label="workflowdesigner.label"><tspan
                  x="17"
                  y="119.74272"
-                 id="tspan1933"><tspan
+                 id="tspan24820"><tspan
                    dx="0 0 0 0 0 0.092604198 -0.0926046 0 0.2645835 -0.26458272"
-                   id="tspan1931">Workflow Designer</tspan></tspan></text>
+                   id="tspan24818">Workflow Designer</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1179,9 +1214,9 @@
                inkscape:label="xnfonboarding.label"><tspan
                  x="17"
                  y="111.74272"
-                 id="tspan1937"><tspan
+                 id="tspan24824"><tspan
                    dx="0 0 0 0.26458278 -0.2645832"
-                   id="tspan1935">xNF Onboarding</tspan></tspan></text>
+                   id="tspan24822">xNF Onboarding</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1214,9 +1249,9 @@
                sodipodi:insensitive="true"><tspan
                  x="17"
                  y="103.74272"
-                 id="tspan1941"><tspan
+                 id="tspan24828"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan1939">Service/xNF Design</tspan></tspan></text>
+                   id="tspan24826">Service/xNF Design</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1251,10 +1286,10 @@
                inkscape:label="vnfvalidation.label"><tspan
                  x="16"
                  y="74.742725"
-                 id="tspan1945"><tspan
+                 id="tspan24832"><tspan
                    dx="0 0 0 0.26458326 -0.26458332"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1943">VNF Validation</tspan></tspan></text>
+                   id="tspan24830">VNF Validation</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1286,9 +1321,9 @@
                inkscape:label="vnfsdk.label"><tspan
                  x="36"
                  y="79.742725"
-                 id="tspan1949"><tspan
+                 id="tspan24836"><tspan
                    dx="0 0 0 0.26458326 -0.2645832"
-                   id="tspan1947">VNF SDK</tspan></tspan></text>
+                   id="tspan24834">VNF SDK</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1319,7 +1354,7 @@
                inkscape:label="vvp.label"><tspan
                  x="17"
                  y="79.742725"
-                 id="tspan1951">VVP</tspan></text>
+                 id="tspan24838">VVP</tspan></text>
           </g>
         </a>
       </g>
@@ -1354,9 +1389,9 @@
              inkscape:label="runtime.label"><tspan
                x="78"
                y="57.551855"
-               id="tspan1955"><tspan
+               id="tspan24842"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan1953">Run-Time</tspan></tspan></text>
+                 id="tspan24840">Run-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1392,10 +1427,10 @@
                inkscape:label="sharedservices.label"><tspan
                  x="268"
                  y="92.742725"
-                 id="tspan1959"><tspan
+                 id="tspan24846"><tspan
                    dx="0 0 0 0 0 0 0.26458302 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1957">Shared Services</tspan></tspan></text>
+                   id="tspan24844">Shared Services</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1425,9 +1460,9 @@
                inkscape:label="cps.label"><tspan
                  x="269"
                  y="143.74272"
-                 id="tspan1963"><tspan
+                 id="tspan24850"><tspan
                    dx="0 0 0 0 0.092604198 -0.092604123 0 0.2645829 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458463 0 0 0 0 0 0 0.26458541 -0.26458272"
-                   id="tspan1961">Config. Persistence Service (CPS)</tspan></tspan></text>
+                   id="tspan24848">Config. Persistence Service (CPS)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1457,9 +1492,9 @@
                inkscape:label="music.label"><tspan
                  x="269"
                  y="135.74272"
-                 id="tspan1967"><tspan
+                 id="tspan24854"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0 0 0 0.2645835 -0.26458272"
-                   id="tspan1965">Multi-Site State (MUSIC)</tspan></tspan></text>
+                   id="tspan24852">Multi-Site State (MUSIC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1490,42 +1525,7 @@
                inkscape:label="logging.label"><tspan
                  x="269"
                  y="119.74272"
-                 id="tspan1969">Logging</tspan></text>
-          </g>
-        </a>
-        <a
-           id="a9774"
-           target=""
-           xlink:title="Holmes provides the capability to analyze the relationship among different alarms (e.g. root cause, correlation)."
-           inkscape:label="holmes.link"
-           transform="matrix(0.98199866,0,0,0.99751057,5.3420785,0.29116366)"
-           style="stroke-width:1.01037"
-           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#holmes-holmes-alarm-correlation-and-analysis">
-          <g
-             id="g9692"
-             inkscape:label="holmes"
-             style="stroke-width:1.01037">
-            <rect
-               style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#66c1be;fill-opacity:1;stroke:#66c1be;stroke-width:2.06198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
-               id="rect2269"
-               width="50.891266"
-               height="3.9527702"
-               x="268.49597"
-               y="116.96048"
-               inkscape:label="holmes.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect2269);shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.267329;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               x="204.00476"
-               y="19"
-               id="text4187"
-               inkscape:label="holmes.label"><tspan
-                 x="268.49609"
-                 y="119.77007"
-                 id="tspan1973"><tspan
-                   dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                   style="baseline-shift:baseline;shape-inside:url(#rect47709-1-2);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                   id="tspan1971">Correlation (Holmes)</tspan></tspan></text>
+                 id="tspan24856">Logging</tspan></text>
           </g>
         </a>
         <a
@@ -1534,7 +1534,8 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#oof-optimization-framework"
-           xlink:title="The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer.">
+           xlink:title="The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer."
+           transform="translate(4.0004481e-8,7.9999997)">
           <g
              id="g1912"
              inkscape:label="oof">
@@ -1555,9 +1556,9 @@
                inkscape:label="oof.label"><tspan
                  x="269"
                  y="111.74272"
-                 id="tspan1977"><tspan
+                 id="tspan24860"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
-                   id="tspan1975">Optimization Framework (OOF)</tspan></tspan></text>
+                   id="tspan24858">Optimization Framework (OOF)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1566,7 +1567,8 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/projects/onap-aaf-authz/en/latest/index.html"
-           xlink:title="The Application Authorization Framework (AAF) provides the services for authentication, authorization and certificate management to the ONAP components. It provides the services to the ONAP components to manage the lifecycle of authentication and authorization elements such as permissions, roles and credentials.">
+           xlink:title="The Application Authorization Framework (AAF) provides the services for authentication, authorization and certificate management to the ONAP components. It provides the services to the ONAP components to manage the lifecycle of authentication and authorization elements such as permissions, roles and credentials."
+           transform="translate(3.998908e-8,7.9999998)">
           <g
              id="g1906"
              inkscape:label="aaf">
@@ -1587,9 +1589,9 @@
                inkscape:label="aaf.label"><tspan
                  x="269"
                  y="103.74272"
-                 id="tspan1981"><tspan
+                 id="tspan24864"><tspan
                    dx="0 0 0 0 0 0.26458338 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458463 0 0 0 0 0 0 0 0 0.26458004 -0.26458272"
-                   id="tspan1979">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
+                   id="tspan24862">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1622,23 +1624,23 @@
              inkscape:label="vfc.label"><tspan
                x="233"
                y="123.42522"
-               id="tspan1989"><tspan
+               id="tspan24872"><tspan
                  dx="0 0 0 0 0 0 0 0.26458314"
-                 id="tspan1983">Virtual </tspan><tspan
+                 id="tspan24866">Virtual </tspan><tspan
                  dx="-0.26458272"
-                 id="tspan1985">Functio</tspan><tspan
+                 id="tspan24868">Functio</tspan><tspan
                  dx="0 0.26458278"
-                 id="tspan1987">n
+                 id="tspan24870">n
 </tspan></tspan><tspan
                x="233"
                y="126.75897"
-               id="tspan1993"><tspan
+               id="tspan24876"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan1991">Controller
+                 id="tspan24874">Controller
 </tspan></tspan><tspan
                x="233"
                y="130.09272"
-               id="tspan1995">(VFC)</tspan></text>
+               id="tspan24878">(VFC)</tspan></text>
         </g>
       </a>
       <a
@@ -1669,107 +1671,65 @@
              inkscape:label="appc.label"><tspan
                x="206"
                y="123.42522"
-               id="tspan1999"><tspan
+               id="tspan24882"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278"
-                 id="tspan1997">Application
+                 id="tspan24880">Application
 </tspan></tspan><tspan
                x="206"
                y="126.75897"
-               id="tspan2003"><tspan
+               id="tspan24886"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan2001">Controller
+                 id="tspan24884">Controller
 </tspan></tspan><tspan
                x="206"
                y="130.09272"
-               id="tspan2005">(APPC)</tspan></text>
+               id="tspan24888">(APPC)</tspan></text>
         </g>
       </a>
-      <g
-         id="g67338"
-         inkscape:label="ccsdk">
-        <a
-           id="a67340"
-           xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/latest/index.html"
-           xlink:title="The Common Controller Software Development Kit (CCSDK) provides a common set of reusable code that can be used across multiple controllers. For example, the SDN-C , APP-C, DCAE, ONAP Operations Manager and ONAP controller can reuse common pieces from this framework."
-           inkscape:label="ccsdk.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;">
-          <g
-             id="g8543"
-             inkscape:label="ccsdk"
-             transform="matrix(1.0188988,0,0,1.0188988,-15.699403,-2.4639167)"
-             style="stroke-width:0.981452">
-            <rect
-               style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:1.9629;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-               id="rect13557-6"
-               width="25.517748"
-               height="25.517748"
-               x="183.24113"
-               y="121.17387"
-               inkscape:label="ccsdk.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.259675"
-               x="175.28391"
-               y="10.248323"
-               id="text1436-447-6"
-               inkscape:label="ccsdk.label"><tspan
-                 x="183.24023"
-                 y="123.66546"
-                 id="tspan2009"><tspan
-                   dx="0 0 0 0 0 0 0.26458278"
-                   id="tspan2007">Common
+      <a
+         id="a67340"
+         xlink:href="https://docs.onap.org/projects/onap-sdnc-oam/en/latest/index.html"
+         xlink:title="The ONAP Controller Family (SDNC/APPC) configures and maintains the health of Layer 1-7 network functions (VNF, PNF, CNFs) and network services throughout their lifecycle. Both provide similar services (application level configuration using NetConf, Chef, Ansible, RestConf, etc.) and life cycle management functions (e.g. stop, resume, health check). SDNC is being used mainly for Layer 1-3 network elements."
+         inkscape:label="sdnc.link"
+         onmouseover="style.opacity = 0.6;"
+         onmouseout="style.opacity = 1.0;"
+         style="display:inline">
+        <g
+           id="g8543"
+           inkscape:label="sdnc"
+           transform="matrix(1.0188988,0,0,1.0188988,-15.699403,-2.4639167)"
+           style="stroke-width:0.981452">
+          <rect
+             style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:1.9629;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             id="rect13557-6"
+             width="25.517748"
+             height="25.517748"
+             x="183.24113"
+             y="121.17387"
+             inkscape:label="sdnc.form" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.259675"
+             x="175.28391"
+             y="10.248323"
+             id="text1436-447-6"
+             inkscape:label="sdnc.label"><tspan
+               x="183.24023"
+               y="123.66546"
+               id="tspan24892"><tspan
+                 dx="0 0 0 0.26458326"
+                 id="tspan24890">SDN
 </tspan></tspan><tspan
-                 x="183.24023"
-                 y="126.99921"
-                 id="tspan2013"><tspan
-                   dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0.26458278"
-                   id="tspan2011">Controller SDK </tspan></tspan><tspan
-                 x="183.24023"
-                 y="130.33295"
-                 id="tspan2015">(CCSDK)</tspan></text>
-          </g>
-        </a>
-        <a
-           id="a66950"
-           xlink:href="https://docs.onap.org/projects/onap-sdnc-oam/en/latest/index.html"
-           xlink:title="The ONAP Controller Family (SDNC/APPC) configures and maintains the health of Layer 1-7 network functions (VNF, PNF, CNFs) and network services throughout their lifecycle. Both provide similar services (application level configuration using NetConf, Chef, Ansible, RestConf, etc.) and life cycle management functions (e.g. stop, resume, health check). SDNC is being used mainly for Layer 1-3 network elements."
-           inkscape:label="sdnc.link"
-           transform="translate(-11.995236,0.06725276)"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;">
-          <g
-             id="g66948"
-             inkscape:label="sdnc">
-            <rect
-               style="font-variation-settings:normal;opacity:0.4;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
-               id="rect28278"
-               width="21.999998"
-               height="10.999999"
-               x="185"
-               y="133.93274"
-               inkscape:label="sdnc.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect28278);shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               x="189"
-               y="138.93274"
-               id="text33155"
-               inkscape:label="sdnc.label"><tspan
-                 x="185"
-                 y="136.42522"
-                 id="tspan2019"><tspan
-                   dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0 0 0 0 0 0.26458433"
-                   style="baseline-shift:baseline;shape-inside:url(#rect13557-6);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                   id="tspan2017">SDN Controller </tspan></tspan><tspan
-                 x="185"
-                 y="139.75898"
-                 id="tspan2023"><tspan
-                   style="baseline-shift:baseline;shape-inside:url(#rect13557-6);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                   id="tspan2021">(SDNC)</tspan></tspan></text>
-          </g>
-        </a>
-      </g>
+               x="183.24023"
+               y="126.99921"
+               id="tspan24896"><tspan
+                 dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
+                 id="tspan24894">Controller </tspan></tspan><tspan
+               x="183.24023"
+               y="130.33295"
+               id="tspan24898">(SDNC)</tspan></text>
+        </g>
+      </a>
       <a
          id="a4435"
          inkscape:label="cds.link"
@@ -1798,19 +1758,19 @@
              inkscape:label="cds.label"><tspan
                x="158"
                y="123.42522"
-               id="tspan2027"><tspan
+               id="tspan24902"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan2025">Controller
+                 id="tspan24900">Controller
 </tspan></tspan><tspan
                x="158"
                y="126.75897"
-               id="tspan2031"><tspan
+               id="tspan24906"><tspan
                  dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458278"
-                 id="tspan2029">Design Studio
+                 id="tspan24904">Design Studio
 </tspan></tspan><tspan
                x="158"
                y="130.09272"
-               id="tspan2033">(CDS)</tspan></text>
+               id="tspan24908">(CDS)</tspan></text>
         </g>
       </a>
       <a
@@ -1841,23 +1801,23 @@
              inkscape:label="infrastructureadaption.label"><tspan
                x="120"
                y="123.42522"
-               id="tspan2037"><tspan
+               id="tspan24912"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2645835"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan2035">Infrastructure 
+                 id="tspan24910">Infrastructure 
 </tspan></tspan><tspan
                x="120"
                y="126.75897"
-               id="tspan2041"><tspan
+               id="tspan24916"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458278"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan2039">Adaption
+                 id="tspan24914">Adaption
 </tspan></tspan><tspan
                x="120"
                y="130.09272"
-               id="tspan2045"><tspan
+               id="tspan24920"><tspan
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan2043">(Multi-VIM/Cloud)</tspan></tspan></text>
+                 id="tspan24918">(Multi-VIM/Cloud)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1891,22 +1851,22 @@
                inkscape:label="dcae.label"><tspan
                  x="81"
                  y="123.42522"
-                 id="tspan2049"><tspan
+                 id="tspan24924"><tspan
                    dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0 0 0 0.26458386"
-                   id="tspan2047">Data Collection, 
+                   id="tspan24922">Data Collection, 
 </tspan></tspan><tspan
                  x="81"
                  y="126.75897"
-                 id="tspan2053"><tspan
+                 id="tspan24928"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0.26458421"
-                   id="tspan2051">Analytics &amp; </tspan></tspan><tspan
+                   id="tspan24926">Analytics &amp; </tspan></tspan><tspan
                  x="81"
                  y="130.09272"
-                 id="tspan2059"><tspan
+                 id="tspan24934"><tspan
                    dx="0 0 0 0 0 0 0.26458338"
-                   id="tspan2055">Events </tspan><tspan
+                   id="tspan24930">Events </tspan><tspan
                    dx="-0.26458368"
-                   id="tspan2057">(DCAE)</tspan></tspan></text>
+                   id="tspan24932">(DCAE)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1936,7 +1896,7 @@
                inkscape:label="collectors.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan2061">Collectors</tspan></text>
+                 id="tspan24936">Collectors</tspan></text>
           </g>
         </a>
       </g>
@@ -1968,9 +1928,9 @@
              inkscape:label="dmaap.label"><tspan
                x="171.00391"
                y="107.49163"
-               id="tspan2065"><tspan
+               id="tspan24940"><tspan
                  dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0.26458243 -0.26458272 0.26458159 -0.26458272 0 0 0 0 0 0 0 0.26458541 -0.26458272"
-                 id="tspan2063">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
+                 id="tspan24938">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -2000,84 +1960,48 @@
              inkscape:label="msb.label"><tspan
                x="81"
                y="107.49163"
-               id="tspan2069"><tspan
+               id="tspan24944"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0.26458243 -0.26458272"
-                 id="tspan2067">Microservice Bus (MSB)</tspan></tspan></text>
+                 id="tspan24942">Microservice Bus (MSB)</tspan></tspan></text>
         </g>
       </a>
-      <g
-         id="g7000"
-         inkscape:label="aai"
-         style="display:inline">
-        <a
-           id="a4515"
-           inkscape:label="aai.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#aai-active-and-available-inventory"
-           xlink:title="The Active and Available Inventory (AAI) provides real-time views of the resources and services in managed by and their relationships.">
-          <g
-             id="g7008"
-             inkscape:label="aai">
-            <rect
-               style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-               id="rect13557-2-7"
-               width="61.999992"
-               height="11.999999"
-               x="195"
-               y="88.932762"
-               inkscape:label="aai.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-7);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="170.64124"
-               y="9.4206228"
-               id="text1436-15"
-               inkscape:label="aai.label"><tspan
-                 x="195"
-                 y="91.425224"
-                 id="tspan2073"><tspan
-                   dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0 0 0 0 0 0.26458243 -0.26458272"
-                   id="tspan2071">Active &amp; Available Inventory (AAI)</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a4524"
-           inkscape:label="esr.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#aai-active-and-available-inventory"
-           xlink:title="The External System Register (ESR) provides capabilities to manage external systems (e.g. register, test, update status in AAI).">
-          <g
-             id="g7017"
-             inkscape:label="esr">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
-               id="rect47709-1-7-9-5-9"
-               width="58"
-               height="3.932765"
-               x="197.00476"
-               y="95"
-               inkscape:label="esr.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-5-9);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="177.53957"
-               y="17.883644"
-               id="text1436-76"
-               inkscape:label="esr.label"><tspan
-                 x="197.00391"
-                 y="97.491631"
-                 id="tspan2081"><tspan
-                   dx="0 0 0 0 0 0 0 0 0.26458314"
-                   id="tspan2075">External </tspan><tspan
-                   dx="-0.26458368 0 0 0 0 0 0.2645835"
-                   id="tspan2077">System </tspan><tspan
-                   dx="-0.26458272 0 0 0 0 0 0 0 0.26458243 -0.26458463"
-                   id="tspan2079">Register (ESR)</tspan></tspan></text>
-          </g>
-        </a>
-      </g>
+      <a
+         id="a4515"
+         inkscape:label="aai.link"
+         onmouseover="style.opacity = 0.6;"
+         onmouseout="style.opacity = 1.0;"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#aai-active-and-available-inventory"
+         xlink:title="The Active and Available Inventory (AAI) provides real-time views of the resources and services in managed by and their relationships.">
+        <g
+           id="g7008"
+           inkscape:label="aai">
+          <rect
+             style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             id="rect13557-2-7"
+             width="41"
+             height="11.999999"
+             x="216.00476"
+             y="89"
+             inkscape:label="aai.form" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-7);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="170.64124"
+             y="9.4206228"
+             id="text1436-15"
+             inkscape:label="aai.label"><tspan
+               x="216.00391"
+               y="91.491631"
+               id="tspan24948"><tspan
+                 dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835"
+                 id="tspan24946">Active &amp; Available </tspan></tspan><tspan
+               x="216.00391"
+               y="94.825379"
+               id="tspan24952"><tspan
+                 dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458272"
+                 id="tspan24950">Inventory (AAI)</tspan></tspan></text>
+        </g>
+      </a>
       <a
          id="a4534"
          inkscape:label="so.link"
@@ -2092,10 +2016,10 @@
           <rect
              style="font-variation-settings:normal;display:inline;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect13557-2-6"
-             width="44"
+             width="41"
              height="11.999998"
-             x="147"
-             y="88.932762"
+             x="171.00476"
+             y="89"
              inkscape:label="so.form" />
           <text
              xml:space="preserve"
@@ -2104,11 +2028,52 @@
              y="18.677187"
              id="text1436-49"
              inkscape:label="so.label"><tspan
-               x="147"
-               y="91.742725"
-               id="tspan2085"><tspan
-                 dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                 id="tspan2083">Service Orchestration (SO)</tspan></tspan></text>
+               x="171.00391"
+               y="91.809131"
+               id="tspan24956"><tspan
+                 dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278"
+                 id="tspan24954">Service Orchestration
+</tspan></tspan><tspan
+               x="171.00391"
+               y="95.777881"
+               id="tspan24958">(SO)</tspan></text>
+        </g>
+      </a>
+      <a
+         id="a4102"
+         inkscape:label="holmes.link"
+         onmouseover="style.opacity = 0.6;"
+         onmouseout="style.opacity = 1.0;"
+         xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/developing/index.html#holmes-holmes-alarm-correlation-and-analysis"
+         xlink:title="Holmes provides the capability to analyze the relationship among different alarms (e.g. root cause, correlation)."
+         transform="translate(-44.999997)">
+        <g
+           id="g4100"
+           inkscape:label="holmes"
+           style="display:inline">
+          <rect
+             style="font-variation-settings:normal;display:inline;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             id="rect4092"
+             width="41"
+             height="11.999998"
+             x="171.00476"
+             y="89"
+             inkscape:label="holmes.form" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect4092);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="174.04448"
+             y="18.677187"
+             id="text4098"
+             inkscape:label="holmes.label"><tspan
+               x="171.00391"
+               y="91.809131"
+               id="tspan24962"><tspan
+                 dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.2645835"
+                 id="tspan24960">Correlation Engine </tspan></tspan><tspan
+               x="171.00391"
+               y="95.777881"
+               id="tspan24964">(Holmes)</tspan></text>
         </g>
       </a>
       <g
@@ -2128,7 +2093,7 @@
             <rect
                style="fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                id="rect13557-2"
-               width="62"
+               width="41"
                height="11.999998"
                x="81"
                y="88.932762"
@@ -2142,11 +2107,11 @@
                inkscape:label="policyframework.label"><tspan
                  x="81"
                  y="91.742725"
-                 id="tspan2091"><tspan
+                 id="tspan24970"><tspan
                    dx="0 0 0 0 0 0 0.2645829"
-                   id="tspan2087">Policy </tspan><tspan
+                   id="tspan24966">Policy </tspan><tspan
                    dx="-0.26458272"
-                   id="tspan2089">Framework</tspan></tspan></text>
+                   id="tspan24968">Framework</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2162,7 +2127,7 @@
             <rect
                style="opacity:1;fill:#66c1be;fill-opacity:1;stroke:#66c1be;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                id="rect47709-1-7-9-5-9-1"
-               width="58.000004"
+               width="37"
                height="4"
                x="83.004768"
                y="95"
@@ -2176,9 +2141,7 @@
                inkscape:label="clamp.label"><tspan
                  x="83.003906"
                  y="97.491631"
-                 id="tspan2095"><tspan
-                   dx="0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0.2645835 -0.26458272 0 0 0 0 0 0.26458386 -0.26458272 0 0 0 0 0 0 0 0.26458541 -0.26458272"
-                   id="tspan2093">Closed Loop Autom. Platform (CLAMP)</tspan></tspan></text>
+                 id="tspan24972">CLAMP</tspan></text>
           </g>
         </a>
       </g>
@@ -2214,9 +2177,9 @@
                inkscape:label="interfaces.label"><tspan
                  x="59"
                  y="74.742725"
-                 id="tspan2099"><tspan
+                 id="tspan24976"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-                   id="tspan2097">Interfaces</tspan></tspan></text>
+                   id="tspan24974">Interfaces</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2246,7 +2209,7 @@
                inkscape:label="cli.label"><tspan
                  x="219"
                  y="79.742725"
-                 id="tspan2101">CLI</tspan></text>
+                 id="tspan24978">CLI</tspan></text>
           </g>
         </a>
         <a
@@ -2276,9 +2239,9 @@
                inkscape:label="externalapis.label"><tspan
                  x="180"
                  y="79.742725"
-                 id="tspan2105"><tspan
+                 id="tspan24982"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan2103">External APIs</tspan></tspan></text>
+                   id="tspan24980">External APIs</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2308,9 +2271,9 @@
                inkscape:label="usecaseui.label"><tspan
                  x="140"
                  y="79.742725"
-                 id="tspan2109"><tspan
+                 id="tspan24986"><tspan
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0.26458314 -0.26458272"
-                   id="tspan2107">Use-Case UI (UUI)</tspan></tspan></text>
+                   id="tspan24984">Use-Case UI (UUI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2340,9 +2303,9 @@
                inkscape:label="omdashboardvid.label"><tspan
                  x="100"
                  y="79.742725"
-                 id="tspan2113"><tspan
+                 id="tspan24990"><tspan
                    dx="0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458159 -0.26458272"
-                   id="tspan2111">O&amp;M Dashboard (VID)</tspan></tspan></text>
+                   id="tspan24988">O&amp;M Dashboard (VID)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2372,7 +2335,7 @@
                inkscape:label="portal.label"><tspan
                  x="60"
                  y="79.742725"
-                 id="tspan2115">Portal</tspan></text>
+                 id="tspan24992">Portal</tspan></text>
           </g>
         </a>
       </g>
@@ -2387,10 +2350,10 @@
       <g
          id="g2903"
          transform="translate(0.9999988,-6.9351787)"
-         style="display:inline"
+         style="display:inline;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
          inkscape:label="nbi">
         <rect
-           style="display:inline;fill:#dae3f3;fill-opacity:1;stroke:#dae3f3;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="display:inline;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="rect88-7-1"
            width="310.00476"
            height="11.999999"
@@ -2399,17 +2362,17 @@
            inkscape:label="nbi.form" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect88-7-1);shape-padding:0;shape-margin:0;inline-size:0;display:inline;opacity:0.4;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect88-7-1);shape-padding:0;shape-margin:0;inline-size:0;display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
            x="-54.620338"
            y="90.044426"
            id="text1436-447-86-87"
            inkscape:label="nbi.label"><tspan
              x="10"
              y="47.553809"
-             id="tspan2119"><tspan
+             id="tspan24996"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0.26458254 -0.2645826 0 0 0 0 0 0 0 0 0.26458493 -0.2645826 0 0 0 0 0.26457849 -0.2645826 0 0 0 0 0 0 0.26458469 -0.2645826 0 0 0 0.26458779 -0.2645826 0 0 0.26459685 -0.2645826 0 0 0.26457873 -0.2645826"
-               style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-               id="tspan2117">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
+               style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);stop-color:#000000;stop-opacity:1"
+               id="tspan24994">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
       </g>
     </a>
     <path
@@ -2424,7 +2387,7 @@
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
        xlink:href="https://docs.onap.org/en/latest/guides/overview/overview.html#onap-release-information"
-       xlink:title="ONAP Release 9 »Istanbul«"
+       xlink:title="ONAP Release 10 »Jakarta«"
        style="display:none"
        transform="translate(-3.3759646,4.8850003e-4)">
       <text
@@ -2436,9 +2399,9 @@
          inkscape:label="releaseinfo.label"><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:end;text-anchor:end;fill:#313032;fill-opacity:1;stroke-width:0.264583"
-           x="329.87402"
+           x="329.87405"
            y="27.894917"
-           id="tspan5723">RELEASE 9 »ISTANBUL«</tspan></text>
+           id="tspan5723">RELEASE 10 »JAKARTA«</tspan></text>
     </a>
     <a
        id="a4602"
@@ -2485,60 +2448,60 @@
            inkscape:label="logografics">
           <polygon
              class="st127"
-             points="7.16,149.91 7.16,217.11 114.85,217.11 "
+             points="7.16,217.11 114.85,217.11 7.16,149.91 "
              id="polygon1151"
              style="display:inline" />
           <polygon
              class="st128"
-             points="244.95,149.68 136.86,217.11 244.95,217.11 "
+             points="136.86,217.11 244.95,217.11 244.95,149.68 "
              id="polygon1153" />
           <polygon
              class="st128"
-             points="7.16,77.45 112.49,11.74 7.16,11.74 "
+             points="112.49,11.74 7.16,11.74 7.16,77.45 "
              id="polygon1155" />
           <polygon
              class="st128"
-             points="141.76,11.74 244.95,76.13 244.95,11.74 "
+             points="244.95,76.13 244.95,11.74 141.76,11.74 "
              id="polygon1157" />
           <polygon
              class="st86"
-             points="129,81.95 79.61,112.78 127.88,142.91 177.28,112.08 "
+             points="79.61,112.78 127.88,142.91 177.28,112.08 129,81.95 "
              id="polygon1159" />
           <polygon
              class="st129"
-             points="79.61,112.78 129,81.95 82.34,52.84 32.97,83.67 "
+             points="129,81.95 82.34,52.84 32.97,83.67 79.61,112.78 "
              id="polygon1161" />
           <polygon
              class="st129"
-             points="129,81.95 177.28,112.08 223.92,82.97 175.64,52.84 "
+             points="177.28,112.08 223.92,82.97 175.64,52.84 129,81.95 "
              id="polygon1163" />
           <polygon
              class="st130"
-             points="129,81.95 175.64,52.84 129,23.73 82.34,52.84 "
+             points="175.64,52.84 129,23.73 82.34,52.84 129,81.95 "
              id="polygon1165" />
           <polygon
              class="st131"
-             points="127.88,142.91 79.61,112.78 32.97,141.9 81.24,172.02 "
+             points="79.61,112.78 32.97,141.9 81.24,172.02 127.88,142.91 "
              id="polygon1167" />
           <polygon
              class="st126"
-             points="29.62,139.81 32.97,141.9 79.61,112.78 32.97,83.67 29.62,85.74 "
+             points="79.61,112.78 32.97,83.67 29.62,85.74 29.62,139.81 32.97,141.9 "
              id="polygon1169" />
           <polygon
              class="st131"
-             points="173.7,172.56 223.92,141.2 177.28,112.08 127.88,142.91 174.21,171.83 "
+             points="177.28,112.08 127.88,142.91 174.21,171.83 173.7,172.56 223.92,141.2 "
              id="polygon1171" />
           <polygon
              class="st126"
-             points="177.28,112.08 223.92,141.2 226.85,139.38 226.85,84.8 223.92,82.97 "
+             points="226.85,139.38 226.85,84.8 223.92,82.97 177.28,112.08 223.92,141.2 "
              id="polygon1173" />
           <polygon
              class="st132"
-             points="127.88,201.14 173.7,172.56 174.21,171.83 127.88,142.91 81.24,172.02 "
+             points="174.21,171.83 127.88,142.91 81.24,172.02 127.88,201.14 173.7,172.56 "
              id="polygon1175" />
           <polygon
              class="st126"
-             points="127.88,142.91 79.61,112.78 129,81.95 177.28,112.08 "
+             points="79.61,112.78 129,81.95 177.28,112.08 127.88,142.91 "
              id="polygon1177"
              style="display:inline" />
         </g>
