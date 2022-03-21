@@ -1,5 +1,3 @@
-from docs_conf.conf import *
-
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
