@@ -1,4 +1,6 @@
 lfdocs-conf
+sphinx>=4.2.0  # BSD
+sphinx-rtd-theme>=1.0.0  # MIT
 autopep8
 sphinxcontrib-spelling
 pylint
