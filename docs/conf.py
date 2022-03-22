@@ -1,9 +1,11 @@
-from docs_conf.conf import *
-
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
 intersphinx_mapping = {}
+
+extensions = [
+    'sphinxcontrib.blockdiag', 'sphinxcontrib.seqdiag',
+    'sphinxcontrib.swaggerdoc', 'sphinx.ext.graphviz']
 
 #
 # Map to 'latest' if this file is used in 'latest' (master) 'doc' branch.
