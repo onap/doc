@@ -1,9 +1,24 @@
-from docs_conf.conf import *
+project = "onap"
+release = "master"
+version = "master"
 
-doc_url = 'https://docs.onap.org/projects'
-master_doc = 'index'
+author: "Open Network Automation Platform"
+# yamllint disable-line rule:line-length
+copyright: "ONAP. Licensed under Creative Commons Attribution 4.0 International License."
 
-intersphinx_mapping = {}
+pygments_style = "sphinx"
+html_theme = "sphinx_rtd_theme"
+html_theme_options = {
+  "style_nav_header_background": "white",
+  "sticky_navigation": "False" }
+html_logo = "_static/logo_onap_2017.png"
+html_favicon = "_static/favicon.ico"
+html_static_path = ["_static"]
+html_show_sphinx = False
+
+extensions = [
+    'sphinx.ext.intersphinx','sphinxcontrib.blockdiag',
+    'sphinxcontrib.seqdiag', 'sphinxcontrib.swaggerdoc', 'sphinx.ext.graphviz']
 
 #
 # Map to 'latest' if this file is used in 'latest' (master) 'doc' branch.
@@ -11,6 +26,9 @@ intersphinx_mapping = {}
 #
 
 # latest|{releasename}
+intersphinx_mapping = {}
+doc_url = 'https://docs.onap.org/projects'
+master_doc = 'index'
 branch = 'latest'
 intersphinx_mapping['onap-aai-aai-common'] = ('{}/onap-aai-aai-common/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-sparky-be'] = ('{}/onap-aai-sparky-be/en/%s'.format(doc_url) % branch, None)
