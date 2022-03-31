@@ -39,10 +39,10 @@ Setup of a Documentation Development System
    #########################################################################
 
 Release Relevance
-   10.0.0 (Jakarta) - 6.0.0 (Frankfurt)
+   10.x.x (Jakarta) - 6.x.x (Frankfurt)
 
 Last Review/Update
-   14/03/2022
+   31/03/2022
 
 Initial Release
    05/12/2021
@@ -442,7 +442,7 @@ Please install ...
 | GitLens                              | eamodio.gitlens                       | latest  |
 +--------------------------------------+---------------------------------------+---------+
 
-.. note:: Use the reStructuredText extension version 169.0.0 or lower to
+.. warning:: Use the reStructuredText extension version 169.0.0 or lower to
    avoid problems with the preview. You need to downgrade after the initial
    installation.
 
@@ -619,6 +619,7 @@ Documentation
 -------------
 
 - `Write The Docs: Documentation Guide <https://www.writethedocs.org/guide>`__
+- `Techwriter Documatt Blog <https://techwriter.documatt.com/>`__
 
 Git
 ---
@@ -633,6 +634,12 @@ Python
 - `Using Python environments in VS Code <https://code.visualstudio.com/docs/python/environments>`__
 - `Getting Started with Python in VS Code <https://code.visualstudio.com/docs/python/python-tutorial>`__
 - `Linux Foundation Docs Conf <https://pypi.org/project/lfdocs-conf/>`__
+
+ReadTheDocs
+-----------
+
+- `Documentation <https://docs.readthedocs.io/en/stable/>`__
+- `GitHub <https://github.com/readthedocs/readthedocs.org/>`__
 
 ReadTheDocs Sphinx Theme
 ------------------------
