@@ -16,19 +16,19 @@ Istanbul Releases
 =================
 
 The following releases are available for Istanbul:
-  - `Istanbul Major Release 9.0.0`_
+  - `Jakarta Major Release 10.0.0`_
 
-Istanbul Major Release 9.0.0
+Jakarta Major Release 10.0.0
 ============================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Documentation Project                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | Istanbul                             |
+| **Release name**                     | Jakarta                              |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 9.0.0                                |
+| **Release version**                  | 10.0.0                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -36,25 +36,19 @@ Istanbul Major Release 9.0.0
 New features
 ------------
 
-- Interactive architecture map incl. short description and link to detailed
-  documentation for every architecture building block. The interactive
-  architecture map can act as a starting point to easily gain knowledge about
-  ONAP components.
-- Changes in the sphinx configuration for all contributing projects. The
-  updated sphinx configuration can avoid problems in the documentation build
-  process caused by changes in required libraries.
-- Guide to set up a documentation development environment with preview function
-  . The guide eases the process of documentation creation and validation by
-  providing step-by-step instructions on a beginner level.
-
-
-- Refined and improved parts of the documentation guide.
-- Continue with improving the user and admin documentation.
-- In addition the documentation project is continuously improving processes and
-  tools for documentation. We are enabling the community to document all
-  aspects of the ONAP platform.
+- Documentation cleaned up. Chapters which include unmaintained projects were
+  removed to avoid misunderstandings at the readership.
+- Projects (repositories) which do not create a stable release branch are no
+  longer included in the release documentation. This should help to improve the
+  release management process.
+- Beginning with this release we are providing example configuration files for
+  setting up a proper process of documentation creation. Please check the 'doc'
+  repository.
+- The Interactive Architecture Overview was updated. Learn about the ONAP
+  architecture in an intuitive way.
+- The guide to set up a development system for documentation was updated.
 
 All JIRA tickets for the Istanbul release can be found
 `ONAP Documentation Jira`_
 
-.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Istanbul%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
+.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Jakarta%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
