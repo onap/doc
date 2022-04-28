@@ -10,37 +10,118 @@
 Project Specific Release Notes
 ++++++++++++++++++++++++++++++
 
-Maintained Projects
--------------------
-
 .. toctree::
    :maxdepth: 1
 
-| :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:release_notes>`
-| :ref:`CCSDK - Common Controller Software Development Kit<onap-ccsdk-distribution:release_notes>`
-| :ref:`CCSDK/ORAN - Open-RAN Support in ONAP<onap-ccsdk-oran:release_notes>`
-| :ref:`CLI - Command Line Interface<onap-cli:release_notes>`
-| :ref:`CPS - Configuration Persistence Service<onap-cps:release_notes>`
-| :ref:`DCAE - Data Collection Analysis and Events<onap-dcaegen2:release_notes>`
-| :ref:`DMAAP - Bus Controller (BC)<onap-dmaap-buscontroller:release_notes>`
-| :ref:`DMAAP - Data Router (DR)<onap-dmaap-datarouter:release_notes>`
-| :ref:`DMAAP - Message Router (MR)<onap-dmaap-messagerouter-messageservice:release_notes>`
-| :ref:`DOC - Documentation<doc_release_notes>`
-| :ref:`HOLMES - Rule Management<onap-holmes-rule-management:release_notes>`
-| :ref:`INT - Integration<onap-integration:release_notes>`
-| :ref:`MODELING - Model Specification<onap-modeling-modelspec:release_notes>`
-| :ref:`MODELING - Modeling ETSI catalog<onap-modeling-etsicatalog:release_notes>`
-| :ref:`MSB - Microservices Bus<onap-msb-apigateway:release_notes>`
-| :ref:`MULTICLOUD - MultiCloud Framework<onap-multicloud-framework:release_notes>`
-| :ref:`OOF - Optimization Framework<onap-optf-osdf:release_notes>`
-| :ref:`OOM - Certification Service<onap-oom-platform-cert-service:release_notes>`
-| :ref:`OOM - ONAP Operations Manager<onap-oom:release_notes>`
-| :ref:`POLICY- Policy Framework<onap-policy-parent:release_notes>`
-| :ref:`SDC - Service Design & Creation<onap-sdc:release_notes>`
-| :ref:`SDNC - Software Defined Network Controller<onap-sdnc-oam:release_notes>`
-| :ref:`SO - Service Orchestration<onap-so:release_notes>`
-| :ref:`UUI - Use Case User Interface<onap-usecase-ui:release_notes>`
-| :ref:`VFC - Virtual Function Controller<onap-vfc-nfvo-lcm:release_notes>`
-| :ref:`VNFRQT - VNF Requirements<onap-vnfrqts-requirements:release_notes>`
-| :ref:`VNFSDK - VNF Software Development Kit<onap-vnfsdk-model:release_notes>`
-| :ref:`VVP - VNF Validation Project<onap-vvp-documentation:release_notes>`
+-------------------------------------------------------------------------------
+
+AAI - Active and Available Inventory
+------------------------------------
+- :ref:`aai/common <onap-aai-aai-common:release_notes>`
+
+CCSDK - Common Controller Software Development Kit
+--------------------------------------------------
+- :ref:`ccsdk/cds <onap-ccsdk-cds:release_notes>`
+- :ref:`ccsdk/distribution <onap-ccsdk-distribution:release_notes>`
+- :ref:`ccsdk/oran <onap-ccsdk-oran:release_notes>`
+
+CLI - Command Line Interface
+----------------------------
+- :ref:`cli <onap-cli:release_notes>`
+
+CPS - Configuration Persistence Service
+---------------------------------------
+- :ref:`cps <onap-cps:release_notes>`
+- :ref:`cps/ncmp-dmi-plugin <onap-cps-ncmp-dmi-plugin:release_notes>`
+
+
+.. - :ref:`cps/cps-temporal <onap-cps-cps-temporal:release_notes>`
+
+
+DCAE Gen.2 - Data Collection, Analysis and Events
+-------------------------------------------------
+- :ref:`dcaegen2 <onap-dcaegen2:release_notes>`
+
+DMAAP - Data Movement As A Platform
+-----------------------------------
+- :ref:`dmaap/buscontroller <onap-dmaap-buscontroller:release_notes>`
+- :ref:`dmaap/datarouter <onap-dmaap-datarouter:release_notes>`
+- :ref:`dmaap/messagerouter/messageservice <onap-dmaap-messagerouter-messageservice:release_notes>`
+
+DOC - Documentation
+-------------------
+- :ref:`doc <doc_release_notes>`
+
+HOLMES - Holmes
+---------------
+- :ref:`holmes/rule-management <onap-holmes-rule-management:release_notes>`
+
+INT - Integration
+-----------------
+- :ref:`integration <onap-integration:release_notes>`
+
+MODELING - Modeling
+-------------------
+- :ref:`modeling/etsicatalog <onap-modeling-etsicatalog:release_notes>`
+- :ref:`modeling/modelspec <onap-modeling-modelspec:release_notes>`
+
+MSB - Microservices Bus
+-----------------------
+- :ref:`msb/apigateway <onap-msb-apigateway:release_notes>`
+
+MULTICLOUD - Multi Cloud
+------------------------
+- :ref:`multicloud/framework <onap-multicloud-framework:release_notes>`
+
+OOF - Optimization Framework
+----------------------------
+- :ref:`optf/osdf <onap-optf-osdf:release_notes>`
+
+OOM - ONAP Operations Manager
+-----------------------------
+- :ref:`oom <onap-oom:release_notes>`
+- :ref:`oom/platform/cert-service <onap-oom-platform-cert-service:release_notes>`
+
+
+.. OSA - ONAP Security Advisories
+.. ------------------------------
+.. - :ref:`osa <onap-osa:release_notes>`
+
+
+POLICY - Policy Framework
+-------------------------
+- :ref:`policy/parent <onap-policy-parent:release_notes>`
+
+SDC - Service Design & Creation
+-------------------------------
+- :ref:`sdc <onap-sdc:release_notes>`
+
+SDNC - Software Defined Network Controller
+------------------------------------------
+- :ref:`sdnc/oam <onap-sdnc-oam:release_notes>`
+
+SO - Service Orchestration
+--------------------------
+- :ref:`so <onap-so:release_notes>`
+
+UUI - Use Case User Interface
+-----------------------------
+- :ref:`usecase-ui <onap-usecase-ui:release_notes>`
+
+VFC - Virtual Function Controller
+---------------------------------
+- :ref:`vfc/nfvo/lcm <onap-vfc-nfvo-lcm:release_notes>`
+
+VNFRQTS - VNF Requirements
+--------------------------
+- :ref:`vnfrqts/requirements <onap-vnfrqts-requirements:release_notes>`
+- :ref:`vnfrqts/testcases <onap-vnfrqts-testcases:release_notes>`
+- :ref:`vnfrqts/usecases <onap-vnfrqts-usecases:release_notes>`
+
+VNFSDK - VNF Software Development Kit
+-------------------------------------
+- :ref:`vnfsdk/model <onap-vnfsdk-model:release_notes>`
+
+VVP - VNF Validation Project
+----------------------------
+- :ref:`vvp/documentation <onap-vvp-documentation:release_notes>`
