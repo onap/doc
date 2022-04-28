@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "52515abb_8b73ce0d",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1201
+      },
+      "writtenOn": "2022-04-28T13:58:55Z",
+      "side": 1,
+      "message": "This label doesn\u0027t work",
+      "revId": "23c30fd9cf9e1d31b3b737990f81547e43495780",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
