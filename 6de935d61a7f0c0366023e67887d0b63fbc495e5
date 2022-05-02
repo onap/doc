@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "54e2ced1_3c9a1a14",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1201
+      },
+      "writtenOn": "2022-05-02T12:27:51Z",
+      "side": 1,
+      "message": "$ python3 -m sphinx.ext.intersphinx https://docs.onap.org/projects/onap-cps-cps-temporal/en/jakarta/objects.inv\nstd:doc\n\tcontent/admin-guide                      CPS Temporal Admin Guide                : content/admin-guide.html\n\tcontent/architecture                     CPS Temporal Architecture               : content/architecture.html\n\tcontent/deployment                       CPS Temporal Deployment                 : content/deployment.html\n\tcontent/design                           CPS Temporal Design                     : content/design.html\n\tcontent/modeling                         CPS Temporal Modeling                   : content/modeling.html\n\tcontent/overview                         CPS Temporal Overview                   : content/overview.html\n\tcontent/release-notes                    CPS Temporal Release Notes              : content/release-notes.html\n\tindex                                    CPS Temporal Documentation              : index.html\nstd:label\n\tcredentials                              Credentials                             : content/deployment.html#credentials\n\tgenindex                                 Index                                   : genindex.html\n\tmaster_index                             CPS Temporal Documentation              : index.html#master-index\n\tmodindex                                 Module Index                            : py-modindex.html\n\tpy-modindex                              Python Module Index                     : py-modindex.html\n\tsearch                                   Search Page                             : search.html",
+      "revId": "6de935d61a7f0c0366023e67887d0b63fbc495e5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
