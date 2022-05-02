@@ -30,10 +30,10 @@ MANIFEST.json file a script can be used offered by the SDC project:
 These steps are performed outside SDC.
 
 **Prerequisites:** Obtain Heat/ENV files and other files required for
-onboarding. The requirements are found in the following document.
+onboarding. The requirements are found in the following document: ONAP VNF
+Requirements -> Heat Requirements.
 
-
-:ref:`Heat requirements<onap-vnfrqts-requirements:heat_requirements>`
+.. warning:: ONAP VNF Requirements (vnfrqts) are no longer maintained!
 
 #. Put the Heat, ENV, nested Heat, and other files used by get-file in templates
    in a directory on a host, which supports python.
@@ -71,22 +71,15 @@ Example packages can be found in the SDC poject: `example-packages`_
 Validate xNF Package (VNF/PNF)
 ------------------------------
 
-VNF and PNF packages have to follow the requirements described in:
+VNF and PNF packages have to follow the requirements described in "VNF and PNF
+Modeling Requirements -> TOSCA Requirements" and "ONAP Management
+Requirements".
 
-:ref:`VNF and PNF Modeling Requirements
-<onap-vnfrqts-requirements:tosca_requirements>`
+.. warning:: ONAP VNF Requirements (vnfrqts) are no longer maintained!
 
-:ref:`ONAP Management Requirements
-<onap-vnfrqts-requirements:onap_management_requirements>`
 
 For Validation of VNF and PNF packages the tools delivered by VNFSDK can be
-used:
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   ../../../onap-provider/vnfvalidator.rst
+used.
 
 Prior to resource onboarding, the Certification Group does the following:
 

@@ -54,10 +54,6 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | in the ONAP Documentation Guide. Currently some content resides also in the Developer Guide.  |
  |                                                                                 | This is subject to be reviewed, updated and migrated to the ONAP Documenation Guide.          |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`VNF/PNF Requirements and Guidelines <vnf_pnf_reqs>`                       | Harmonized VNF and PNF requirements and reduced customization of onboarding VNFs              |
- |                                                                                 | and PNFs can accelerate the optimal usage of this ONAP environment. The guidelines            |
- |                                                                                 | on VNF/PNF requirements facilitates synchronized and aligned activities for all participants. |
- +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Security <onap-security>`                                            | The current state of ONAP Security is described here. We can learn about discovered and fixed |
  |                                                                                 | vulnerabilities.                                                                              |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
