@@ -80,11 +80,9 @@ OOM - ONAP Operations Manager
 - :ref:`oom/platform/cert-service <onap-oom-platform-cert-service:release_notes>`
 
 
-
 .. OSA - ONAP Security Advisories
 .. ------------------------------
 .. - :ref:`osa <onap-osa:release_notes>`
-
 
 
 POLICY - Policy Framework
@@ -111,16 +109,6 @@ VFC - Virtual Function Controller
 ---------------------------------
 - :ref:`vfc/nfvo/lcm <onap-vfc-nfvo-lcm:release_notes>`
 
-VNFRQTS - VNF Requirements
---------------------------
-- :ref:`vnfrqts/requirements <onap-vnfrqts-requirements:release_notes>`
-- :ref:`vnfrqts/testcases <onap-vnfrqts-testcases:release_notes>`
-- :ref:`vnfrqts/usecases <onap-vnfrqts-usecases:release_notes>`
-
 VNFSDK - VNF Software Development Kit
 -------------------------------------
 - :ref:`vnfsdk/model <onap-vnfsdk-model:release_notes>`
-
-VVP - VNF Validation Project
-----------------------------
-- :ref:`vvp/documentation <onap-vvp-documentation:release_notes>`

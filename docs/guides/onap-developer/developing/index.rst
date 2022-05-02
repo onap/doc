@@ -288,15 +288,3 @@ VNFSDK - VNF Software Development Kit
      - Documentation
    * - :ref:`vnfsdk/model<onap-vnfsdk-model:master_index>`
      - VNF SDK, User Guides
-
-VVP - VNF Validation Platform
------------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`vvp/documentation<onap-vvp-documentation:master_index>`
-     - VNF Validation Platform
