@@ -16,6 +16,24 @@
       "revId": "23c30fd9cf9e1d31b3b737990f81547e43495780",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "afccca61_e8c33770",
+        "filename": "docs/release/releaserepos.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2022-05-02T13:03:01Z",
+      "side": 1,
+      "message": "i know... but why?! i checked conf.py, the file itself and also the ref?! any idea?",
+      "parentUuid": "52515abb_8b73ce0d",
+      "revId": "23c30fd9cf9e1d31b3b737990f81547e43495780",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
