@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b24a2b1_315d0c9e",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2022-05-03T13:32:00Z",
+      "side": 1,
+      "message": "We should keep Jakarta here",
+      "revId": "605dc1cc1af6274bf2d20aaf63125e709f0b5048",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8c03681_70a5ad02",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 269
+      },
+      "writtenOn": "2022-05-03T13:32:00Z",
+      "side": 1,
+      "message": "Change Istanbul by Jakarta",
+      "revId": "605dc1cc1af6274bf2d20aaf63125e709f0b5048",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
