@@ -24,8 +24,11 @@ Please find some guidance here on the content of ONAP documentation:
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | Main documentation areas                                                        | Description                                                                                   |
  +=================================================================================+===============================================================================================+
- | :ref:`Release Notes <onap-release-notes>`                                       | The Release Notes besides providing the basic information on the main release, also           |
- |                                                                                 | presents link to the release information of each, specific ONAP component.                    |
+ | :ref:`Release Notes <onap-release-notes>`                                       | The Release Notes are providing general information about the ONAP release and recent changes,|
+ |                                                                                 | feature enhancements, or bug fixes.                                                           |
+ +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+ | :ref:`Project Specific Release Notes <doc-releaserepos>`                        | The Project Specific Release Notes are providing information about recent changes, feature    |
+ |                                                                                 | enhancements, or bug fixes on a component level.                                              |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Overview <overview>`                                                 | ONAP Overview provides generic and high-level guidance on the mission and main                |
  |                                                                                 | functionalities of ONAP. Basic guidelines on license details, limitations and                 |
@@ -65,6 +68,7 @@ Please find some guidance here on the content of ONAP documentation:
 
    Home <self>
    release/index
+   release/releaserepos
    guides/overview/index
    guides/onap-developer/architecture/index
    guides/onap-developer/developing/index
