@@ -4,10 +4,13 @@
 
 .. _onap-release-notes:
 
-Istanbul Release Notes
-^^^^^^^^^^^^^^^^^^^^^^
+Jakarta Release Notes
+^^^^^^^^^^^^^^^^^^^^^
 
-This page provides the release notes for the ONAP Istanbul release. This
+.. warning:: Work in progress - Release notes are currently processed.
+
+
+This page provides the release notes for the ONAP Jakarta release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
