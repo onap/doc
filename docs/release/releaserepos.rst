@@ -73,6 +73,7 @@ MULTICLOUD - Multi Cloud
 OOF - Optimization Framework
 ----------------------------
 - :ref:`optf/osdf <onap-optf-osdf:release_notes>`
+- :ref:`optf/has <onap-optf-has:release_notes>`
 
 OOM - ONAP Operations Manager
 -----------------------------
