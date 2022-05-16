@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d25b2dbc_305841ff",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2022-05-16T07:42:47Z",
+      "side": 1,
+      "message": "I am not completely sure this is the right solution\n\nAs fat as I know, \"rsa\" is already the default parameter of openssh (though I am not sure about this for openssh-portable implementation - cf rmark below). And sha1 used to be very popular and enabled by default in the past.\nIf prior version 8.7 only supports rsa SHA1, this might not fix the issue.\nShouldn\u0027t it be \"ssh-keygen -t rsa-sha2-256\" rahter ?",
+      "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "550256db_f0a42c6f",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2022-05-16T07:42:47Z",
+      "side": 1,
+      "message": "I think we must be more precise about the versions and OS affected.\nSHA-1 might be the default behavior for older versions.\n\nI guess these recommendations are indeed for \"portable openSSH\" present by default on Windows systems since Windows 11.\nOther implementations might not be impacted (for example the one shipped with cygwin also intended for Windows)\nMore details about this at  https://www.openssh.com/portable.html",
+      "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
