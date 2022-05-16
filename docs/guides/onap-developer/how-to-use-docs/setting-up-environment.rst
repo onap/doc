@@ -79,11 +79,21 @@ Setting SSH keys
 
 1. Generate SSH keys.
 
-.. code-block:: bash
+    For OpenSSH 8.7 or older version:
 
-    ssh-keygen -t rsa
+    .. code-block:: bash
 
-Your public key is now available as .ssh/id_rsa.pub in your home folder.
+       ssh-keygen -t rsa
+
+    For OpenSSH 8.8:
+
+    .. code-block:: bash
+
+        ssh-keygen -t ed25519
+
+    .. note:: OpenSSH disables RSA signatures using the SHA-1 hash algorithm by default. If you're using Git For Windows 2.33.1, please notice because Git For Windows 2.33.1 comes with OpenSSH 8.8. To solve this issue, you can either specify the algorithm for ssh algorithm generation as is mentioned above, or config the ~/.ssh/config to enable RSA/SHA1.
+
+    Your public key is now available as .ssh/id_rsa.pub in your home folder.
 
 2. Print the generated key to the terminal and copy it.
 
