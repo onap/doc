@@ -79,11 +79,26 @@ Setting SSH keys
 
 1. Generate SSH keys.
 
-.. code-block:: bash
+    For OpenSSH 8.7 or older versions:
 
-    ssh-keygen -t rsa
+    .. code-block:: bash
 
-Your public key is now available as .ssh/id_rsa.pub in your home folder.
+       ssh-keygen -t rsa
+
+    For OpenSSH 8.8 or later versions, either use ed25519 or ECDSA algorithm to generate ssh keys:
+
+    .. code-block:: bash
+
+        ssh-keygen -t ed25519
+    or
+
+    .. code-block:: bash
+
+        ssh-keygen -t ECDSA
+
+    .. note:: OpenSSH 8.8+ disables RSA signatures using the SHA-1 hash algorithm by default, which may cause authentication problem when pull/push code. You can either specify the encrypt algorithm or re-enable the RSA/SHA1 in ~/.ssh/config file to solve the issue. For more information, please refer to `OpenSSH Release Notes <https://www.openssh.com/releasenotes.html>`_.
+
+    Your public key is now available as .ssh/id_rsa.pub in your home folder.
 
 2. Print the generated key to the terminal and copy it.
 
