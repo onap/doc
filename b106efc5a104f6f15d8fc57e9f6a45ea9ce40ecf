@@ -16,6 +16,24 @@
       "revId": "b106efc5a104f6f15d8fc57e9f6a45ea9ce40ecf",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "00cddf22_07c57bb5",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2022-05-17T19:04:36Z",
+      "side": 1,
+      "message": "more details at https://man.openbsd.org/ssh-keygen.1",
+      "parentUuid": "5f090093_1a64d463",
+      "revId": "b106efc5a104f6f15d8fc57e9f6a45ea9ce40ecf",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
