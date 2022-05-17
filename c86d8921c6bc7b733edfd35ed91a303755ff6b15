@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "301b21a9_1efc41a8",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 8040
+      },
+      "writtenOn": "2022-05-17T06:53:52Z",
+      "side": 1,
+      "message": "https://www.openssh.com/releasenotes.html",
+      "parentUuid": "06325a09_c7a30851",
+      "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "550256db_f0a42c6f",
         "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
         "patchSetId": 1
