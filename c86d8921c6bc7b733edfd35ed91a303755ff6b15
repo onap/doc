@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "06325a09_c7a30851",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 8040
+      },
+      "writtenOn": "2022-05-17T06:49:58Z",
+      "side": 1,
+      "message": "Right, RSA is the default parameter. But since openssh 8.8, it disabled the rsa signature using sha1 for the high cost of hash collision reason. Thank you for your reply. I doubled checked the openssh release notes, for 8.7 and prior version, they won\u0027t be affected. Based on the issue, basically there can be two ways. One is to re-enable the rsa-sha1 in ~/.ssh/config file, where openssh offical release notes points it and but didn\u0027t suggest. And another way is switching the algorithm to ECDSA or Ed25519, which is suggested by the offical release notes.",
+      "parentUuid": "d25b2dbc_305841ff",
+      "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "550256db_f0a42c6f",
         "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2022-05-16T07:42:47Z",
       "side": 1,
       "message": "I think we must be more precise about the versions and OS affected.\nSHA-1 might be the default behavior for older versions.\n\nI guess these recommendations are indeed for \"portable openSSH\" present by default on Windows systems since Windows 11.\nOther implementations might not be impacted (for example the one shipped with cygwin also intended for Windows)\nMore details about this at  https://www.openssh.com/portable.html",
+      "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2883164_449c05e4",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 8040
+      },
+      "writtenOn": "2022-05-17T06:49:58Z",
+      "side": 1,
+      "message": "Sorry for the misunderstanding here. I think it\u0027s not the OS reason, it\u0027s only the openssh reason. Initially, i pointed it out here because if someone is using win10 and download git,  \"git for windows 2.33.2\" will be matched and installed for user by default. \"Git for windows 2.33.2\" uses openssh 8.8. Openssh 8.8 is the key point leads to the problem here. \n\nGood suggestion. I\u0027ll rearrange my words and make it clear what will affects.",
+      "parentUuid": "550256db_f0a42c6f",
       "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
