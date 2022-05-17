@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f090093_1a64d463",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2022-05-17T18:58:17Z",
+      "side": 1,
+      "message": "With ecdsa or ed25519, the public key generated won\u0027t be in .ssh/id_rsa.pub \u003d\u003e vote -1",
+      "revId": "b106efc5a104f6f15d8fc57e9f6a45ea9ce40ecf",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}

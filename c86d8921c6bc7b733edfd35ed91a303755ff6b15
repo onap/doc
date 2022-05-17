@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "9f08789d_a64fd909",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2022-05-17T18:58:17Z",
+      "side": 1,
+      "message": "OK I think we must be more clear that sha-1 has security issues in that case.\n\ned25519 is supported supported since OpenSSH 6.5\nAnd with openssh version 8.2 present on most linux distros today like with openssh 8.8, the ssh-keygen default still points to \"rsa\" that points itself to “rsa-sha2-512\" (based on SHA2 and not SHA1). Both are not concerned.\nSo I don\u0027t understand the point of the recommendation above.\n\nI guess this issue affects mainly \"Git for windows 2.33.2\" because it still uses an old version of ssh-keygen configuration. But there are probably plenty of similar cases.\n\nTo be more generic, what about simply telling that some implementations such as \"Git for windows 2.33.2\" still uses an old configurtation of ssh-keygen?\nIn that case they generate by default RSA-SHA1 key pairs no more supported and\nwe recommand to use use ecdsa or ed25519 key pairs.",
+      "parentUuid": "301b21a9_1efc41a8",
+      "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "550256db_f0a42c6f",
         "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
         "patchSetId": 1
@@ -87,6 +105,24 @@
       "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "38f8990c_0b12caa9",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2022-05-17T18:58:17Z",
+      "side": 1,
+      "message": "OK thx for the clarification, it makes more sense to me now.",
+      "parentUuid": "a2883164_449c05e4",
+      "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
