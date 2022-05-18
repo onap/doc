@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "cd0c8b2e_f126bf56",
+        "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 8040
+      },
+      "writtenOn": "2022-05-18T03:25:26Z",
+      "side": 1,
+      "message": "Ack. Thanks for replying. Worth thinking about it. I\u0027ll go and verify it on linux.",
+      "parentUuid": "9f08789d_a64fd909",
+      "revId": "c86d8921c6bc7b733edfd35ed91a303755ff6b15",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "550256db_f0a42c6f",
         "filename": "docs/guides/onap-developer/how-to-use-docs/setting-up-environment.rst",
         "patchSetId": 1
