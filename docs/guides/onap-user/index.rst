@@ -24,11 +24,6 @@ E2E User Guides
 Component User Guides
 ---------------------
 
-.. toctree::
-   :maxdepth: 1
-
-   onapcli.rst
-
 For other ONAP components please review the individual
 document sets in :ref:`doc_onap-developer_guide_projects`
 

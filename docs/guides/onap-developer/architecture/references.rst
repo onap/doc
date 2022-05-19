@@ -14,15 +14,6 @@
 References
 ==========
 
-Models
-------
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-:ref:`Model Specifications<onap-modeling-modelspec:master_index>`
-
 User Interfaces
 ---------------
 
@@ -31,7 +22,6 @@ User Interfaces
    :titlesonly:
 
 | :ref:`Policy/CLAMP - Closed Loop Automation Platform<onap-policy-parent:clamp-label>`
-| :ref:`CLI - Command Line Interface<onap-cli:architecture>`
 | :ref:`SDC - Service Design and Creation<onap-sdc:architecture>`
 | :ref:`UUI- Usecase UI<onap-usecase-ui:architecture>`
 
@@ -63,4 +53,3 @@ Common Services
 | :ref:`Multi Cloud<onap-multicloud-framework:multicloud-administrator-guide>`
 | :ref:`OOM - ONAP Operations Manager<onap-oom:oom_project_description>`
 | :ref:`OPTF - Optimization Framework<onap-optf-osdf:architecture>`
-| :ref:`VNF SDK<onap-vnfsdk-model:offeredapis>`

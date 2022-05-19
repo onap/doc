@@ -203,4 +203,4 @@ Linux Foundation.
 
 ONAP Source Code is licensed under the `Apache Version 2 License <http://www.apache.org/licenses/LICENSE-2.0>`_.
 ONAP Documentation is licensed under the `Creative Commons Attribution 4.0
-International License <http://creativecommons.org/licenses/by/4.0>`_.
+International License <https://creativecommons.org/licenses/by/4.0>`_.
