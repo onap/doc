@@ -54,11 +54,3 @@ Common Services
 * :ref:`Multi Cloud<onap-multicloud-framework:offeredapis>`
 * :ref:`OPTF - Optimization Framework<onap-optf-osdf:offeredapis>`
 
-SDK
----
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-* :ref:`VNF Software Development Kit<onap-vnfsdk-model:offeredapis>`

@@ -597,9 +597,6 @@ requirements of various use cases, guide the development and bring consistency
 among ONAP components and explore a common model to improve the
 interoperability of ONAP.
 
-ONAP supports various models detailed in
-:ref:`Modeling Documentation<onap-modeling-modelspec:master_index>`.
-
 The modeling project includes the ETSI catalog component, which provides the
 parser functionalities, as well as additional package management
 functionalities.
