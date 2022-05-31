@@ -46,19 +46,6 @@ CCSDK - Common Controller Software Development Kit
    * - :ref:`ccsdk/oran<onap-ccsdk-oran:master_index>`
      - O-RAN Support in ONAP
 
-
-CLI - Command Line Interface
-----------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`cli<onap-cli:master_index>`
-     - CLI
-
 CPS - Configuration Persistence Service
 ---------------------------------------
 
@@ -138,8 +125,6 @@ MOD - Modeling
 
    * - Component
      - Documentation
-   * - :ref:`modeling/modelspec<onap-modeling-modelspec:master_index>`
-     - Model Specification
    * - :ref:`modeling/etsicatalog<onap-modeling-etsicatalog:master_index>`
      - ETSI Runtime Catalog
 
@@ -186,8 +171,6 @@ OOM - ONAP Operations Manager
      - Documentation
    * - :ref:`oom<onap-oom:master_index>`
      - ONAP Operations Manager
-   * - :ref:`oom/platform/cert-service<onap-oom-platform-cert-service:master_index>`
-     - ONAP CMPv2 Certification Support
    * - :ref:`oom/offline-installer<onap-oom-offline-installer:master_index>`
      - OOM Offline Installer
 
@@ -277,14 +260,3 @@ VFC - Virtual Function Controller
    * - :ref:`vfc/nfvo/lcm<onap-vfc-nfvo-lcm:master_index>`
      - Virtual Function Controller Architecture, APIs and Guides
 
-VNFSDK - VNF Software Development Kit
--------------------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`vnfsdk/model<onap-vnfsdk-model:master_index>`
-     - VNF SDK, User Guides
