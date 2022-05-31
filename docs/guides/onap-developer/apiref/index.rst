@@ -61,4 +61,4 @@ SDK
    :maxdepth: 1
    :titlesonly:
 
-* :ref:`VNF Software Development Kit<onap-vnfsdk-model:offeredapis>`
+.. * :ref:`VNF Software Development Kit<onap-vnfsdk-model:offeredapis>`
