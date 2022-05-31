@@ -57,10 +57,6 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | in the ONAP Documentation Guide. Currently some content resides also in the Developer Guide.  |
  |                                                                                 | This is subject to be reviewed, updated and migrated to the ONAP Documenation Guide.          |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`ONAP Security <onap-security>`                                            | The current state of ONAP Security is described here. We can learn about discovered and fixed |
- |                                                                                 | vulnerabilities.                                                                              |
- +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-
 
 .. toctree::
    :maxdepth: 1
