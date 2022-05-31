@@ -253,10 +253,8 @@ The `developer wiki <http://wiki.onap.org>`_ remains a good source of
 information on meeting plans and notes from committees, project teams and
 community events.
 
-Security Notes
-==============
-Details about discovered and mitigated vulnerabilities are in
-:ref:`ONAP Security <onap-osa:onap-security>`
+CII Best Practice
+=================
 
 ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
 

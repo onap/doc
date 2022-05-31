@@ -24,7 +24,7 @@ Please find some guidance here on the content of ONAP documentation:
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | Main documentation areas                                                        | Description                                                                                   |
  +=================================================================================+===============================================================================================+
- | :ref:`Release Notes <onap-release-notes>`                                       | The Release Notes are providing general information about the ONAP release and recent changes,|
+ | :ref:`ONAP Release Notes <onap-release-notes>`                                  | The Release Notes are providing general information about the ONAP release and recent changes,|
  |                                                                                 | feature enhancements, or bug fixes.                                                           |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`Project Specific Release Notes <doc-releaserepos>`                        | The Project Specific Release Notes are providing information about recent changes, feature    |
@@ -57,10 +57,6 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | in the ONAP Documentation Guide. Currently some content resides also in the Developer Guide.  |
  |                                                                                 | This is subject to be reviewed, updated and migrated to the ONAP Documenation Guide.          |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`ONAP Security <onap-security>`                                            | The current state of ONAP Security is described here. We can learn about discovered and fixed |
- |                                                                                 | vulnerabilities.                                                                              |
- +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-
 
 .. toctree::
    :maxdepth: 1
