@@ -25,10 +25,6 @@ CCSDK - Common Controller Software Development Kit
 - :ref:`ccsdk/distribution <onap-ccsdk-distribution:release_notes>`
 - :ref:`ccsdk/oran <onap-ccsdk-oran:release_notes>`
 
-CLI - Command Line Interface
-----------------------------
-- :ref:`cli <onap-cli:release_notes>`
-
 CPS - Configuration Persistence Service
 ---------------------------------------
 - :ref:`cps <onap-cps:release_notes>`
@@ -60,7 +56,6 @@ INT - Integration
 MODELING - Modeling
 -------------------
 - :ref:`modeling/etsicatalog <onap-modeling-etsicatalog:release_notes>`
-- :ref:`modeling/modelspec <onap-modeling-modelspec:release_notes>`
 
 MSB - Microservices Bus
 -----------------------
@@ -78,13 +73,6 @@ OOF - Optimization Framework
 OOM - ONAP Operations Manager
 -----------------------------
 - :ref:`oom <onap-oom:release_notes>`
-- :ref:`oom/platform/cert-service <onap-oom-platform-cert-service:release_notes>`
-
-
-.. OSA - ONAP Security Advisories
-.. ------------------------------
-.. - :ref:`osa <onap-osa:release_notes>`
-
 
 POLICY - Policy Framework
 -------------------------
@@ -109,7 +97,3 @@ UUI - Use Case User Interface
 VFC - Virtual Function Controller
 ---------------------------------
 - :ref:`vfc/nfvo/lcm <onap-vfc-nfvo-lcm:release_notes>`
-
-VNFSDK - VNF Software Development Kit
--------------------------------------
-- :ref:`vnfsdk/model <onap-vnfsdk-model:release_notes>`
