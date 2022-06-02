@@ -7,9 +7,6 @@
 Jakarta Release Notes
 ^^^^^^^^^^^^^^^^^^^^^
 
-.. warning:: Work in progress - Release notes are currently processed.
-
-
 This page provides the release notes for the ONAP Jakarta release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
@@ -22,168 +19,185 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-Istanbul Maintenance Release 9.0.1
-==================================
-
-+--------------------------------------+--------------------------------------+
-| **Project**                          | Open Network Automation Platform     |
-|                                      | (ONAP)                               |
-+--------------------------------------+--------------------------------------+
-| **Release name**                     | Istanbul                             |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release version**                  | 9.0.1                                |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| **Release date**                     | February 17th, 2022                  |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-
-Features
---------
-ONAP Istanbul Maintenance Release 1:
-
-- Log4j vulnerabilities in direct dependencies were removed from A&AI, DMAAP,
-  SDNC and VNFSDK.
-- Log4j vulnerabilities introduced by transitive dependencies
-  are still in A&AI, CCSDK, DCAE, DMAAP, MULTICLOUD, SDNC, SO, VNFSDK.
-
-Istanbul Major Release 9.0.0
+Jakarta Major Release 10.0.0
 ============================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Open Network Automation Platform     |
 |                                      | (ONAP)                               |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | Istanbul                             |
+| **Release name**                     | Jakarta                              |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 9.0.0                                |
+| **Release version**                  | 10.0.0                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | November 15th, 2021                  |
+| **Release date**                     | June 9th, 2022                       |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
 Features
 --------
-ONAP Istanbul focusses on:
+ONAP Jakarta focusses on:
 
-- Intent based networking (IBN) simplifies interaction and network
-  configuration by Control-Loop and Smart AI.
-- Alignment with O-RAN Strategy to enable new RAN use cases
-- Continued Cloud Native evolution with a rich feature set for CNF
-  orchestration capabilities
-- Next level of functionality for 5G use cases including Network Slicing,
-  Performance management, SON, and CCVPN
-- A second generation of control loop automation architecture
+- Security enhancements in the A&AI, CCSDK, MSB, and MultiCloud projects,
+  reducing log4j vulnerability and removing most GPLv3 dependencies
+- Deepened O-RAN integration in the OOF SON and CCSDK projects with O-RAN O1
+  models and the O-RAN AI Policy interface (consumed downstream by the O-RAN
+  Software community)
+- Enabling a richer set of day-2 configuration for Cloud-Native Network
+  Functions (CNF) through CDS API extensions
+- Intent based networking (IBN) for closed loop for E2E Network Slicing
+- New functionality in the Configuration Persistence Service (CPS) that allows
+  more granular control of configuration-heavy network services like RAN
+- Simplification of control loop automation architecture, enabling easy
+  deployment of new control modules
 - New Network Function lifecycle management features based on real-life use
   cases
-- New functionality for complex network configuration management
-- Flexibility in resource onboarding with choice of modeling including SDC AID,
-  ETSI SOL001
-- Software quality and security improvements based on deployment experience
+- Modeling: Solidified the data model for CNFs using the novel Application
+  Service Descriptor (ASD) approach, while continuing alignment with data
+  models produced by SDOs such as ETSI
+- An overhaul of the policy framework allowing easy composition of control
+  loop policies and better observability
+- Continued 5G Super Blueprint integrations, including EMCO, Magma 1.6, Anuket
+  and KubeRef RI2
 
 Functional Requirements
 -----------------------
 
 Increased Cloud Native Functionality
 ....................................
-Information about created CNF resources in k8s cluster are now available. This
-information can be utilized later on i.e. in closed-loop context. CNF
-Healthcheck Workflow in SO will let to monitor the status of CNF deployed into
-k8s cluster and whether it is healthy or not. Further changes in k8splugin
-related to Helm specification support allow for the better and more reliable
-deployment of complex CNFs defined as a Helm package. ONAP now supports
-Helm 3.5 package specification.
+
+- Improved synchronization of k8s resources after the creation of the CNF.
+  When some change occurs for the CNF in the k8s cluster, k8splugin sends
+  a notification to the cnf-adapter which performs an update of the changes
+  into A&AI.
+- CDS integration with k8splugin
+
+  - The creation of the profile allows the specification of labels and
+    additional k8sresource types to be returned by the status API
+  - Better Configuration API support including rollback, improved deletion
+    of the configuration with or without removal of the configuration
+    resources in the cluster
+  - Creation of the configuration template without a dedicated helm chart
+    which allows for easy update of the override values by configuration API
+    without a need to duplicate configuration template helm chart from the
+    main Helm chart. The configuration template (Helm chart) is taken from
+    the main definition.
+
+- New model for CNF modeling: Application Service Descriptor (ASD) model
 
 E2E Network Slicing
 ...................
 
-- Support for NSMF (Network Slice Management Function) based TN
-  (Transport Network) slices in which NSMF is responsible for TN-FH (FrontHaul)
-  and TN-MH (MidHaul) allocation
-- RAN NSSMF (Network Slice Subnet Management Function) integration with CPS
-  (Configuration Persistence Service) and handled closed loop impacts
-- POC on A1-interface for closed loop updates
-- KPI Monitoring enhancements
-
-Intent-based networking
-.......................
-The Intent Based Networking (IBN) use case includes the development of an
-intent framework that contains intent modeling, intent translation, intent
-execution and intent decision making. The intent UI is implemented in UUI
-and the components of the intent framework interact with many components of
-ONAP including SO, A&AI, Policy, DCAE, and CDS.
+- CPS Integration with SDN-R for RAN Slice allocate and reconfigure scenarios
+- E2E network Slicing with CPS is completed for allocation and re-use scenarios
+- E2E Closed loop with CPS is functional
+- IBN based closed loop with ML MS (POC) and Config DB is functional
+- Optimization of cm-handle registration with CPS-DMI Plugin to upload yang
+  model
+- CPS Integration Stabilization for RAN Slice activate/deactivate  scenarios
+- Addition of call to OOF for allocateNSSI to enable TN NSSI reuse in TN NSSMF
+- Addition of call to OOF for terminateNxi API to deallocate NSSI
+  (without terminating TN NSSI even when NSI is terminated) in TN NSSMF
+- Closed-loop enhancement in CCVPN to support Transport Slicing’s closed-loop
 
 Control Loop evolutions
 .......................
 
-- CLAMP functionality is merged into Policy Framework project
-- Control Loops can be defined and described in Metadata using TOSCA. Control
-  loops can run on the fly on any component that implements  a *participant*
-  API. Control Loops can be commissioned into Policy/CLAMP, they can be
-  parameterized, initiated on arbitrary participants, activated and monitored
-- Policy Handling Improvements: Support delta policies in PDPs
-- CLAMP Client Policy and TOSCA Handling
-- Policy Handling Improvements
+- Control Loop in TOSCA LCM Improvement: abstract Automation Composition
+  Management (ACM) logic with a generic Automation Composition definition,
+  isolating Composition logic from ONAP component logic. It elaborates APIs
+  that allow integrate with other design systems as well as 3PP component
+  integration.
+- The current PMSH and TCS control loops are migrated to use an Automation
+  Composition approach. Support for Automation Compositions in SDC is also
+  introduced.
+- A Metadata set allows a global set of metadata containing rules or global
+  parameters that all instances of a certain policy type can use. Metadata
+  sets are introduced in the Policy Framework in the Jakarta release. This
+  means that different rule set implementations can be associated with a
+  policy type, which can be used in appropriate situations.
+- Introduction of Prometheus for monitoring Policy components so that
+  necessary alerts can be easily triggered and possible outages can be
+  avoided in production systems.
+
+  - Expose application level metrics in policy components. An end user can
+    plug in a Prometheus instance and start listening to the metrics exposed
+    by Policy components and either raise alerts or show them on a Grafana
+    dashboard for operations team to keep monitoring the health of the system.
+  - Improve the policy/api and policy/pap readiness probes to handle database
+    failures so that the policy/api and policy/pap kubernetes pods are marked
+    ready only if the Policy database pod is ready.
+  - Provide sample Grafana dashboards for policy metrics
+
+- Migration of Policy Framework components to Springboot to support easier
+  handling, configuration and maintenance.
+- Policy Framework Database Configurability. The Policy Framework can be
+  configured to use any JDBC-compliant RDBMS and configuration files are
+  supplied for the Postgres RDBMS. MariaDB remains the default RDBMS for the
+  Policy Framework in ONAP
 - System Attribute Improvements
+
+  - Transaction boundaries on REST calls are implemented per REST call
+  - JDBC backend uses Spring and Hibernate rather than Eclipselink
+  - All GUIs are now included in the policy/gui microservice
+  - Documentation is rationalized and cleaned up, testing documentation is
+    now complete
+  - Scripts are added to make release of the Policy Framework easier
 
 Fault management
 ................
 
-- Updates in fault management reporting and fault handling to be in line with
-  VES 7.2, 3GPP and smoother future alignment with O1 for OOF-SON
-- Performance Management data collection control provides 5G network operators
-  with a dynamic and more efficient way to configure performance measurement
-  collection on a selected subset of PNFs/VNFs in the network and complements
-  the existing PM data collection and processing capabilities in ONAP/DCAE
-- Simplified deployment for DCAE services via Helm
-- Reduction on ONAP/DCAE footprint under transformation initiative by
-  deprecating Cloudify based platform components and Consul
-- VES 7.2.1 integration for HV_VES enables ONAP, 3GPP, ORAN alignment
-- Enhancements for Network Slicing, Bulk PM, OOF-SON usecases
+- DCAE Helm Transformation finalized
+- Topic alignment for DCAE microservices:  use standard topics for PM-Mapper,
+  Slice-Analysis and KPI-MS
 
 Extended O-RAN Integration
 ..........................
 
-- Improvements for managing A1 Policies and terminating the A1 interface for
-  A1 Policies
-- A1 Adapter and A1 Policy Managements Enhancements
+- The O-RAN A1 interface (from the CCSDK project) provides a flexible way for
+  RAN operators to manage wide area RAN network optimization
+- Enhanced A1 interface controller and A1 Policy capabilities are now usable
+  by any service provider deploying and using ONAP. This functionality is used
+  downstream in the O-RAN-SC Non-RealTime RIC project
+- The OOF SON project has updated the SDN-R to use O-RAN aligned O1 YANG models
+  and the RAN-Sim to use O-RAN aligned O1 YANG models
+- Convergence on VES message formats for Performance Management,
+  Fault Management, Configuration Management
+
 
 Controllers
 ...........
 
-- SDN-C is based on OpenDaylight major release upgrade (Silicon)
+- SDN-C is upgraded to OpenDaylight Phosphorus release
 - Enhancements to CCVPN, Network Slicing, and ONAP A1 Interface
 
 Service Design
 ..............
 
-- SDC can be used for onboarding resources and designing services with models
-  other than SDC AID
+- Improved support for TOSCA features
+- Automation Composition Management model
+- Support for large CSAR via S3 storage
 
 Inventory
 .........
 
-- Model updates as part of CCVPN Transport Slicing Feature
-- Model updates as part of Smart Intent Guarantee based on IBN Feature
-- Model updates as part of CNF Orchestration Feature
+- Schema updated for CCVPN use case mainly enhancing and bug fixes of the Cloud
+  Leased Line (CLL) service
 
 ONAP Operations Manager
 .......................
 
-- IPv4 / IPv6 dual stack support in ONAP: support for Kubernetes 1.20+
-  DualStack networking properties in ONAP K8S Service spec properties.
-  Upgraded EJBCA CMP v2 server to version 7.x
-- CMPv2 enhancements: certificate update implemented using Key Update Request
-  (KUR) and Certificate Request (CR) CMPv2 messages
+- Introduction of Strimzi Kafka Operator
+- Migration of all Kafka native clients to use Strimzi Apache Kafka.
+- Disable VID, Portal
 
 Non-Functional Requirements
 ---------------------------
 
 The following 'non-functional' requirements are followed in the
-Istanbul Release:
+Jakarta Release:
 
 Best Practice
 .............
@@ -212,23 +226,31 @@ Security
 - All containers must run as non-root user
 - Continue hardcoded passwords removal
 - Flow management must be activated for ONAP
-- Each project will update the vulnerable direct dependencies in their code
-  base
+- Each project updates the vulnerable direct dependencies in their code base
+- Pilot for automating the creation of a Software Bill of Materials (SBOM).
+  Tools for automated SBOM creation are now rolled into the CI chain of ONAP
 
 Documentation
 .............
 
-- Interactive architecture map including short description and link to detailed
-  documentation for every architecture building block
-- Changes in the Sphinx configuration for all contributing projects
-- Guide to set up a documentation development environment with preview function
+- Documentation cleaned up. Chapters which include unmaintained projects were
+  removed to avoid misunderstandings at the readership
+- Projects (repositories) which do not create a stable release branch are no
+  longer included in the release documentation. This should help to improve the
+  release management process
+- Beginning with this release we are providing example configuration files for
+  setting up a proper process of documentation creation
+- The Interactive Architecture Overview is updated
+- The guide to set up a development system for documentation is updated
 
-Tests
-.....
+Tests & Integration
+...................
 
-- New E2E tests: basic_cnf
-- New tests: CPS healthcheck
-- Stability tests: basic_vm and basic_onboard
+- Create Java and Python base images
+- Adapt robot tests to DCAE project changes: Cloudify to Helm migration
+- New test: basic_cnf_macro
+- Release ONAP data provider tool
+- Automate repositories INFO.yaml updates
 
 .. important::
    Some non-functional requirements are not fully finalized. Please, check details
@@ -237,7 +259,7 @@ Tests
 Project Specific Release Notes
 ==============================
 ONAP releases are specified by a list of project artifact versions in the
-project repositories and docker container image versions listed in the OOM
+project repositories and Docker container image versions listed in the OOM
 Helm charts.
 
 Each project provides detailed :ref:`release notes<doc-releaserepos>`
@@ -246,7 +268,7 @@ are compatible with a major release are made available.
 
 Documentation
 =============
-ONAP Istanbul Release provides a set selection of documents,
+ONAP Jakarta Release provides a set selection of documents,
 see :ref:`ONAP Documentation<master_index>`.
 
 The `developer wiki <http://wiki.onap.org>`_ remains a good source of
@@ -261,7 +283,7 @@ ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.cor
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
-In the Istanbul release,
+In the Jakarta release,
 
 - 100% projects passed 90% of the CII badge
 - 85% projects passed the CII badge
@@ -274,10 +296,10 @@ each project.
 
 ONAP Maturity Testing Notes
 ===========================
-For the Istanbul release, ONAP continues to improve in multiple areas of
+For the Jakarta release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
-In Istanbul the Integration team focussed in
+In Jakarta the Integration team focussed in
 
 - Automating ONAP Testing to improve the overall quality
 - Adding security and E2E tests
