@@ -56,6 +56,7 @@ INT - Integration
 MODELING - Modeling
 -------------------
 - :ref:`modeling/etsicatalog <onap-modeling-etsicatalog:release_notes>`
+- :ref:`modeling/modelspec <onap-modeling-modelspec:release_notes>`
 
 MSB - Microservices Bus
 -----------------------
@@ -67,12 +68,15 @@ MULTICLOUD - Multi Cloud
 
 OOF - Optimization Framework
 ----------------------------
-- :ref:`optf/osdf <onap-optf-osdf:release_notes>`
 - :ref:`optf/has <onap-optf-has:release_notes>`
+- :ref:`optf/osdf <onap-optf-osdf:release_notes>`
 
 OOM - ONAP Operations Manager
 -----------------------------
 - :ref:`oom <onap-oom:release_notes>`
+- :ref:`oom/platform/cert-service <onap-oom-platform-cert-service:release_notes>`
+
+.. - :ref:`oom/offline-installer <onap-oom-offline-installer:release_notes>` ### changelog file needs at least the anchor / combine CL & RL?
 
 POLICY - Policy Framework
 -------------------------
@@ -97,3 +101,7 @@ UUI - Use Case User Interface
 VFC - Virtual Function Controller
 ---------------------------------
 - :ref:`vfc/nfvo/lcm <onap-vfc-nfvo-lcm:release_notes>`
+
+VNFSDK - VNF Software Development Kit
+-------------------------------------
+- :ref:`vnfsdk/model <onap-vnfsdk-model:release_notes>`
