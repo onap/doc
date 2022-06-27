@@ -51,6 +51,10 @@ intersphinx_mapping['onap-usecase-ui'] = ('{}/onap-usecase-ui/en/%s'.format(doc_
 intersphinx_mapping['onap-vfc-nfvo-lcm'] = ('{}/onap-vfc-nfvo-lcm/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-vnfsdk-model'] = ('{}/onap-vnfsdk-model/en/%s'.format(doc_url) % branch, None)
 
+# One exception for osa repo for Jakarta release only! For the Kohn release they are asked to create a branch!
+branch = 'latest'
+intersphinx_mapping['onap-osa'] = ('{}/onap-osa/en/%s'.format(doc_url) % branch, None)
+
 # Linkcheck
 linkcheck_ignore = [
     'http://localhost',

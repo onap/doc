@@ -83,7 +83,9 @@ OOM - ONAP Operations Manager
 - :ref:`oom <onap-oom:release_notes>`
 - :ref:`oom/platform/cert-service <onap-oom-platform-cert-service:release_notes>`
 
+
 .. - :ref:`oom/offline-installer <onap-oom-offline-installer:release_notes>` ### changelog file needs at least the anchor / combine CL & RL?
+
 
 POLICY - Policy Framework
 -------------------------
