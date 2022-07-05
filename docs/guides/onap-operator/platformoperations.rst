@@ -38,7 +38,7 @@ functions
    :maxdepth: 2
    :titlesonly:
 
-:ref:`RobotFramework<onap-integration:docs_robot>`
+:doc:`RobotFramework<onap-integration:docs_robot>`
 
 **Interface Health can be checked via Consul:**
 
