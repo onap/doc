@@ -68,15 +68,10 @@ MULTICLOUD - Multi Cloud
 
 OOF - Optimization Framework
 ----------------------------
-<<<<<<< HEAD   (066e8b Add Jakarta Release Note)
 - :ref:`optf/osdf <onap-optf-osdf:release_notes>`
 
 .. enable later
 .. - :ref:`optf/has <onap-optf-has:release_notes>`
-=======
-- :ref:`optf/has <onap-optf-has:release_notes>`
-- :ref:`optf/osdf <onap-optf-osdf:release_notes>`
->>>>>>> CHANGE (67ce52 add missing sections to conf.py)
 
 OOM - ONAP Operations Manager
 -----------------------------
