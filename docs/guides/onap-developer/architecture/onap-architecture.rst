@@ -818,7 +818,7 @@ Use cases
 Various use cases have been tested for the Release. Use case examples are
 listed below. See detailed information on use cases, functional requirements,
 and automated use cases can be found here:
-:ref:`Verified Use Cases<onap-integration:docs_usecases_release>`.
+:doc:`Verified Use Cases<onap-integration:docs_usecases_release>`.
 
 - E2E Network Slicing
 - 5G OOF (ONAP Optimization Framework) SON (Self-Organized Network)
@@ -828,7 +828,7 @@ Functional requirements
 -----------------------
 Various functional requirements have been tested for the Release. Detailed
 information can be found in the
-:ref:`Verified Use Cases<onap-integration:docs_usecases_release>`.
+:doc:`Verified Use Cases<onap-integration:docs_usecases_release>`.
 
 - xNF Integration
 
