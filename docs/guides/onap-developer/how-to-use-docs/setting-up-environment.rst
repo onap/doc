@@ -156,10 +156,8 @@ Setting up CLA as an individual contributor
 
 If any further prompts appear, follow the steps described at the below links:
 
-- `If a Confirmation of Association with statement appears <https://docs.linuxfoundation.org/docs/communitybridge/easycla/contributors/contribute-to-a-gerrit-project#if-a-confirmation-of-association-with-statement-appears>`_
-- `If your company has not signed CCLA <https://docs.linuxfoundation.org/docs/communitybridge/easycla/contributors/contribute-to-a-gerrit-project#if-your-company-has-not-signed-ccla>`_
-- `If you are not added to the approved list <https://docs.linuxfoundation.org/docs/communitybridge/easycla/contributors/contribute-to-a-gerrit-project#if-you-are-not-added-to-the-approved-list>`_
-- `If Company is not in the list <https://docs.linuxfoundation.org/docs/communitybridge/easycla/contributors/contribute-to-a-gerrit-project#if-company-is-not-in-the-list>`_
+- `Individual Contributor <https://docs.linuxfoundation.org/v2/easycla/contributors/individual-contributor#gerrit>`_
+- `Corporate Contributor <https://docs.linuxfoundation.org/v2/easycla/contributors/corporate-contributor#gerrit>`_
 
 8. Complete the form and click **SEND**.
 
