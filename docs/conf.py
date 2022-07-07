@@ -25,11 +25,12 @@ extensions = [
 # Change to {releasename} after you have created the new 'doc' branch.
 #
 
-# latest|{releasename}
+branch = 'latest'
+
 intersphinx_mapping = {}
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
-branch = 'latest'
+
 intersphinx_mapping['onap-aai-aai-common'] = ('{}/onap-aai-aai-common/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-aai-sparky-be'] = ('{}/onap-aai-sparky-be/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-apps'] = ('{}/onap-ccsdk-apps/en/%s'.format(doc_url) % branch, None)

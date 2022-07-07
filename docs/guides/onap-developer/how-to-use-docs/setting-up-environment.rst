@@ -13,7 +13,7 @@ Prerequisites
 ~~~~~~~~~~~~~
 
 Before you start, you should have an LFID account (sign up
-`here <https://sso.linuxfoundation.org/>`_).
+`here <https://identity.linuxfoundation.org/>`_).
 
 Installing git
 ~~~~~~~~~~~~~~
