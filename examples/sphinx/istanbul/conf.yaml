@@ -1,7 +1,0 @@
----
-project_cfg: onap
-project: onap
-
-# Change this to {releasename} to modify the header
-default-version: istanbul
-#
