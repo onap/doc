@@ -39,10 +39,10 @@ Setup of a Documentation Development System
    #########################################################################
 
 Release Relevance
-   10.x.x (Jakarta) - 6.x.x (Frankfurt)
+   11.x.x (Kohn) - 10.x.x (Jakarta)
 
 Last Review/Update
-   31/03/2022
+   28/07/2022
 
 Initial Release
    05/12/2021
@@ -292,12 +292,8 @@ your terminal has changed. Now it starts with ``(onapdocs)``.
 .. code-block:: bash
 
    pip3 install wheel
-   pip3 install lfdocs-conf
 
    which sphinx-build
-
-.. note:: The ``lfdocs-conf`` package requires multiple, additional libraries.
-          They are loaded automatically.
 
 .. tip:: Remember the path
    ``/home/<USER>/environments/onapdocs/bin/sphinx-build``, you need it later
@@ -633,7 +629,7 @@ Python
 - `How To Install Python 3 and Set Up a Programming Environment on an Ubuntu 20.04 Server <https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server>`__
 - `Using Python environments in VS Code <https://code.visualstudio.com/docs/python/environments>`__
 - `Getting Started with Python in VS Code <https://code.visualstudio.com/docs/python/python-tutorial>`__
-- `Linux Foundation Docs Conf <https://pypi.org/project/lfdocs-conf/>`__
+- `Linux Foundation Docs Conf (obsolete) <https://pypi.org/project/lfdocs-conf/>`__
 
 ReadTheDocs
 -----------
