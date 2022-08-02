@@ -1,10 +1,18 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
-
+.. Copyright 2022 ONAP
 
 Setting Up
 ==========
+
+.. warning:: This guide describes the concept of using 'submodules' for
+   documentation. Submodules are no longer supported and have been removed.
+   This guide is partly outdated and needs an update.
+   
+   The aggregation of individual project documentation to a coherent set of
+   ONAP release documentation is now done in ReadTheDocs using the ONAP 'doc'
+   project as its root.
 
 ONAP documentation is stored in git repositories, changes are managed
 with gerrit reviews, and published documents generated when there is a
