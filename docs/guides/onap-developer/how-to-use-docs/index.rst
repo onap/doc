@@ -7,7 +7,6 @@ Creating Documentation
 .. toctree::
    :maxdepth: 2
 
-   introduction
    setting-up
    setting-up-environment
    style-guide
