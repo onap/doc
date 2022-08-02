@@ -1,12 +1,13 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
+.. Copyright 2022 ONAP
 
-Style guide
-===========
+Style Guide (Content)
+=====================
 
 This style guide is for ONAP documentation contributors, reviewers and
-committers.
+committers and covers content related topics.
 
 Writing guidelines
 ------------------
@@ -42,7 +43,6 @@ Abbreviations and acronyms
 
    +  Examples: an MSO component, a LAN, an L3-VPN
 
-
 ONAP terminology
 ^^^^^^^^^^^^^^^^
 -  AA&I vs AAI: AAI should be used.
@@ -63,7 +63,7 @@ ONAP terminology
 
 -  run time (noun). Example: "logging of events at run time".
 
-GUI elements
+GUI Elements
 ^^^^^^^^^^^^
 -  In general, write menu names as they appear in the UI.
    For example, if a menu or item name is all caps, then write
