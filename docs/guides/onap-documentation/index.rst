@@ -15,4 +15,7 @@ be reviewed, updated and migrated to the ONAP Documenation Guide.
 .. toctree::
    :maxdepth: 1
 
+   introduction.rst
    setup-of-a-doc-dev-system.rst
+   style-guide-content.rst
+   templates/index.rst
