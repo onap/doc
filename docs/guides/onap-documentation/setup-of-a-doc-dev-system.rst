@@ -617,9 +617,15 @@ Documentation
 - `Write The Docs: Documentation Guide <https://www.writethedocs.org/guide>`__
 - `Techwriter Documatt Blog <https://techwriter.documatt.com/>`__
 
+Gerrit
+------
+
+- `LF RelEng Gerrit Guide <https://docs.releng.linuxfoundation.org/en/latest/gerrit.html>`_
+
 Git
 ---
 
+- `LF RelEng Git Guide <https://docs.releng.linuxfoundation.org/en/latest/git.html>`__
 - `How To Install Git on Ubuntu 20.04 <https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04>`__
 
 Python
