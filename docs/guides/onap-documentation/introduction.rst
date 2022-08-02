@@ -1,12 +1,13 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
 .. International License. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
+.. Copyright 2022 ONAP
 
 Introduction
 ============
 This guide describes how to create documentation for the Open Network
-Automation Platform (ONAP).  ONAP projects create a variety of
-content depending on the nature of the project.  For example projects
+Automation Platform (ONAP). ONAP projects create a variety of
+content depending on the nature of the project. For example projects
 delivering a platform component may have different types of content than
 a project that creates libraries for a software development kit.
 The content from each project may be used together as a reference for
@@ -25,7 +26,7 @@ This includes all new features and changes to features that impact users.
 How do I create ONAP documentation?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ONAP documentation is written in ReStructuredText_ (an easy-to-read,
-what-you-see-is-what-you-get, plain text markup syntax).  The process for
+what-you-see-is-what-you-get, plain text markup syntax). The process for
 creating ONAP documentation and what documents are required are
 described in later sections of this Developer Documentation Guide.
 
@@ -36,7 +37,7 @@ Why reStructuredText/Sphinx?
 
 In the past, standard documentation methods included ad-hoc Word documents,
 PDFs, poorly organized Wikis, and other, often closed, tools like
-Adobe FrameMaker.  The rise of DevOps, Agile, and Continuous Integration,
+Adobe FrameMaker. The rise of DevOps, Agile, and Continuous Integration,
 however, created a paradigm shift for those who care about documentation
 because:
 
@@ -72,14 +73,29 @@ component documentation was deemed critical. Sphinx and reStructuredText
 have built-in functionality that makes collating and cross-referencing
 component documentation easier.
 
-Which docs should go where?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Which documents should go where?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A TSC Vote (2020, Feb. 19) approved the following usage policy:
 
-Frequently, developers ask where documentation should be created. Should
-they always use reStructuredText/Sphinx? Not necessarily. Is the wiki
-appropriate for anything at all? Yes.
+**DEVELOPER WIKI** is used for ONAP release, project, subcommitee and
+development related content, e.g.
 
-It's really up to the development team. Here is a simple rule:
+- project management (meetings, plans, milestones, members, ...)
+- project specific development guides
+- ongoing activities and discussions
+- ONAP community event documentation
+
+**READ THE DOCS** is used for all formal ONAP E2E and component documentation,
+e.g.
+
+- ONAP overview, architecture, API
+- ONAP developer guides (e.g. Documentation guide)
+- ONAP user guides (E2E)
+- ONAP component guides, release notes
+- ONAP administration/operations guides
+- ONAP use-case description and usage
+- ONAP tutorials
+- ONAP release notes
 
 The more tightly coupled the documentation is to a particular version
 of the code, the more likely it is that it should be stored with the
@@ -98,88 +114,6 @@ as reStructuredText as possible because:
 
 4. Wiki articles tend to grow in size and not maintained making it hard
    to find current information.
-
-Structure
----------
-A top level master document structure is used to organize all
-documents created by ONAP projects and this resides in the gerrit doc
-repository.  Complete documents or guides may reside here and
-reference parts of source for documentation from other project
-repositories.  Other ONAP projects will provide content that
-is referenced from this structure.
-
-.. code-block::
-
-   docs
-   ├── guides
-   │   ├── onap-developer
-   │   │   ├── apiref
-   │   │   ├── architecture
-   │   │   │   └── media
-   │   │   ├── developing
-   │   │   └── how-to-use-docs
-   |   |   |   ├── templates
-   │   |   |   |   ├── collections
-   │   |   |   |   └── sections
-   │   ├── onap-operator
-   │   │   ├── cloud_site
-   │   │   │   ├── aws
-   │   │   │   ├── azure
-   │   │   │   ├── k8s
-   │   │   │   ├── openstack
-   │   │   │   └── vmware
-   │   │   ├── onap-portal-admin
-   │   │   │   └── attachments
-   │   │   └── settingup
-   │   ├── onap-provider
-   │   ├── onap-user
-   │   │   ├── configure
-   │   │   │   ├── change_config
-   │   │   │   ├── pnf_connect
-   │   │   │   └── vnf_connect
-   │   │   ├── design
-   │   │   │   ├── control-loop
-   │   │   │   │   └── media
-   │   │   │   ├── media
-   │   │   │   ├── parameter_resolution
-   │   │   │   │   └── ubuntu_example
-   │   │   │   │       ├── cba-after-enrichment
-   │   │   │   │       │   ├── Definitions
-   │   │   │   │       │   ├── Templates
-   │   │   │   │       │   └── TOSCA-Metadata
-   │   │   │   │       ├── cba-before-enrichment
-   │   │   │   │       │   ├── Definitions
-   │   │   │   │       │   ├── Templates
-   │   │   │   │       │   └── TOSCA-Metadata
-   │   │   │   │       └── ubuntuCDS_heat
-   │   │   │   ├── pre-onboarding
-   │   │   │   │   └── media
-   │   │   │   ├── resource-onboarding
-   │   │   │   │   └── media
-   │   │   │   ├── service-design
-   │   │   │   │   └── media
-   │   │   │   ├── service-distribution
-   │   │   │   │   └── media
-   │   │   │   └── vfcreation
-   │   │   │       └── media
-   │   │   ├── instantiate
-   │   │   │   ├── instantiation
-   │   │   │   │   ├── nbi
-   │   │   │   │   ├── pnf_instance
-   │   │   │   │   ├── service_instance
-   │   │   │   │   ├── so1
-   │   │   │   │   ├── so2
-   │   │   │   │   ├── uui
-   │   │   │   │   ├── vid
-   │   │   │   │   ├── virtual_link_instance
-   │   │   │   │   └── vnf_instance
-   │   │   │   └── pre_instantiation
-   │   │   └── onap-portal-user
-   │   │       └── attachments
-   │   └── overview
-   │       └── media
-   └── release
-
 
 Source Files
 ------------
