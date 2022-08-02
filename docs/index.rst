@@ -1,7 +1,6 @@
 .. This work is licensed under a
    Creative Commons Attribution 4.0 International License.
 
-
 .. _master_index:
 
 Open Network Automation Platform
@@ -34,28 +33,25 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | functionalities of ONAP. Basic guidelines on license details, limitations and                 |
  |                                                                                 | security references support understanding the solution.                                       |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`ONAP Architecture <ONAP-architecture>`                                    | The ONAP Architecture and its functional elements are described in details                    |
- |                                                                                 | here. We can learn how the two main frameworks, namely the Design-time                        |
- |                                                                                 | framework and the Run-time framework cooperate and how the Microservices,                     |
- |                                                                                 | Common services and the ONAP Portal support the certain functions.                            |
+ | :ref:`ONAP Architecture <ONAP-architecture>`                                    | The ONAP Architecture and its functional elements are described in details here. You can learn|
+ |                                                                                 | how the two main frameworks, namely the Design-time framework and the Run-time framework      |
+ |                                                                                 | cooperate and how the Microservices and Common services support certain functions.            |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`ONAP Components and Functionalities <doc_onap-developer_guide_projects>`  | The ONAP Components and Functionalities are described in details here.                        |
- |                                                                                 | We can learn what functionalities ONAP provides and how the certain components in             |
- |                                                                                 | ONAP operate together.                                                                        |
+ | :ref:`ONAP Components and Functionalities <doc_onap-developer_guide_projects>`  | The ONAP Components and Functionalities are described in details here. You can learn what     |
+ |                                                                                 | functionalities ONAP provides and how the certain components in ONAP operate together.        |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`Operations and Adminstration Guides <operation_guides>`                   | ONAP Platform operation and adminstration cover the configuration and installation of ONAP,   |
- |                                                                                 | its management, monitoring and other operational tasks (integration, user management,...)     |
+ | :ref:`Operations and Adminstration Guides <operation_guides>`                   | ONAP Platform Operations and Adminstration covers the configuration and installation of ONAP, |
+ |                                                                                 | its management, monitoring and other operational tasks (integration, user management, ...)    |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`User Guides <user-guides>`                                                | The User Guides focus on tasks to administer Services using ONAP, covering Service Design,    |
  |                                                                                 | instantiation and their management using control loops                                        |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`Developer Guides <ONAP_developer_guides>`                                 | Developers contributing to the ONAP development can find crucial information                  |
- |                                                                                 | in the Developer Guides. The reader can search among the developers’ topics                   |
- |                                                                                 | in alphabetical order.                                                                        |
+ | :ref:`Developer Guides <ONAP_developer_guides>`                                 | Developers contributing to the ONAP development can find crucial information in the Developer |
+ |                                                                                 | Guides. You can search among the developers’ topics in alphabetical order.                    |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`Documentation Guides <ONAP_documentation_guides>`                         | People interested in the creation of ONAP documentation can find crucial information          |
- |                                                                                 | in the ONAP Documentation Guide. Currently some content resides also in the Developer Guide.  |
- |                                                                                 | This is subject to be reviewed, updated and migrated to the ONAP Documenation Guide.          |
+ | :ref:`Documentation Guides <ONAP_documentation_guides>`                         | People interested in the creation of ONAP documentation can find crucial information in the   |
+ |                                                                                 | ONAP Documentation Guide. Currently some content resides also in the Developer Guide. This is |
+ |                                                                                 | subject to be reviewed, updated and migrated to the ONAP Documentation Guide.                 |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Security <onap-security>`                                            | The current state of ONAP Security is described here. We can learn about discovered and fixed |
  |                                                                                 | vulnerabilities.                                                                              |
