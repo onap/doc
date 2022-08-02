@@ -14,7 +14,6 @@ understand or contribute to the ONAP open source.
 
    how-to-use-docs/index
    apiref/index
-   how-to-use-docs/templates/index
 
 .. toctree::
   :maxdepth: 1
