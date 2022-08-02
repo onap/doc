@@ -1,7 +1,6 @@
 .. This work is licensed under a
    Creative Commons Attribution 4.0 International License.
 
-
 .. _master_index:
 
 Open Network Automation Platform
@@ -35,12 +34,12 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | security references support understanding the solution.                                       |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Architecture <ONAP-architecture>`                                    | The ONAP Architecture and its functional elements are described in details                    |
- |                                                                                 | here. We can learn how the two main frameworks, namely the Design-time                        |
- |                                                                                 | framework and the Run-time framework cooperate and how the Microservices,                     |
- |                                                                                 | Common services and the ONAP Portal support the certain functions.                            |
+ |                                                                                 | here. You can learn how the two main frameworks, namely the Design-time                       |
+ |                                                                                 | framework and the Run-time framework cooperate and how the Microservices and                  |
+ |                                                                                 | Common services support the certain functions.                                                |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Components and Functionalities <doc_onap-developer_guide_projects>`  | The ONAP Components and Functionalities are described in details here.                        |
- |                                                                                 | We can learn what functionalities ONAP provides and how the certain components in             |
+ |                                                                                 | You can learn what functionalities ONAP provides and how the certain components in            |
  |                                                                                 | ONAP operate together.                                                                        |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`Operations and Adminstration Guides <operation_guides>`                   | ONAP Platform operation and adminstration cover the configuration and installation of ONAP,   |
