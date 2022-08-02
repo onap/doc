@@ -4,7 +4,7 @@
 
 .. _api-swagger-guide:
 
-API documentation
+API Documentation
 =================
 
 Swagger
@@ -22,7 +22,7 @@ As a result, you should get one JSON file per API. For example the project
 - myAPI1.json
 - myAPI2.json
 
-Global API table
+Global API Table
 ----------------
 It is recommended to list the following API available with an access to the
 Swagger JSON files to help the developers/users to play with JSON.
