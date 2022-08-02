@@ -31,14 +31,14 @@ below.
      PR [label = "Other Project\nGerrit Repo",          color=pink ];
      PA [label = "Other Project\nAuthor/Committer", color=lightblue];
 
-     PA  ->   DR [label = "Add project repo as\ngit submodule" ];
-     DR  ->   DA [label = "Review & Plan to\nIntegrate Content with\nTocTree Structure" ];
-     DR  <--  DA [label = "Vote +2/Merge" ];
+     PA  ->   DR [label = "add project repo" ];
+     DR  ->   DA [label = "review & plan to\nintegrate content with\nTocTree structure" ];
+     DR  <--  DA [label = "vote +2/merge" ];
      PA  <--  DR [label = "Merge Notification" ];
-     PA  ->   PR [label = "Create in project repo\ntop level directory and index.rst" ];
-     PR  ->   DA [label = "Add as Reviewer" ];
-     PR  <--  DA [label = "Approve and Integrate" ];
-     PA  <--  PR [label = "Merge" ];
+     PA  ->   PR [label = "create in project repo\ntop level directory\n and index.rst" ];
+     PR  ->   DA [label = "cdd as reviewer" ];
+     PR  <--  DA [label = "approve and integrate" ];
+     PA  <--  PR [label = "merge" ];
      }
 
 Setup project repositories
