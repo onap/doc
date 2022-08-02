@@ -7,14 +7,5 @@ Creating Documentation
 .. toctree::
    :maxdepth: 2
 
-   introduction
-   setting-up
    setting-up-environment
-   style-guide
-   api-swagger-guide
-   converting-to-rst
-
-.. toctree::
-   :hidden:
-
-   update-review.rst
+   apiref/index
