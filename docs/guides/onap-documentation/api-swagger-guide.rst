@@ -4,7 +4,7 @@
 
 .. _api-swagger-guide:
 
-API documentation
+API Documentation
 =================
 
 Swagger
@@ -22,7 +22,7 @@ As a result, you should get one JSON file per API. For example the project
 - myAPI1.json
 - myAPI2.json
 
-Global API table
+Global API Table
 ----------------
 It is recommended to list the following API available with an access to the
 Swagger JSON files to help the developers/users to play with JSON.
@@ -33,8 +33,8 @@ We propose the following table:
    :header: "API name", "Swagger JSON"
    :widths: 10,5
 
-   "myAPI1", ":download:`link <myAPI1.json>`"
-   "myAPI12", ":download:`link <myAPI2.json>`"
+   "myAPI1", ":download:`link <media/myAPI1.json>`"
+   "myAPI12", ":download:`link <media/myAPI2.json>`"
 
 .. note::
    During documentation merge/publish at RTD, any file referenced in an RST file with
@@ -66,7 +66,7 @@ For each API, the ``swaggerv2doc`` directive must be used as follows:
 
 .. note::
    swaggerv2doc directive may generate errors when Swagger file contains specific
-   information. In such case, do not use this direcive.
+   information. In such case, do not use this directive.
 
 .. code:: rst
 
@@ -82,8 +82,8 @@ It will produce the following output:
 
 myAPI1
 ......
-.. swaggerv2doc:: myAPI1.json
+.. swaggerv2doc:: media/myAPI1.json
 
 myAPI2
 ......
-.. swaggerv2doc:: myAPI2.json
+.. swaggerv2doc:: media/myAPI2.json
