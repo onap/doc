@@ -4,10 +4,10 @@
 
 .. _onap-release-notes:
 
-Jakarta Release Notes
-^^^^^^^^^^^^^^^^^^^^^
+ONAP 'Jakarta' Release Notes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This page provides the release notes for the ONAP Jakarta release. This
+This page provides the release notes for the ONAP 'Jakarta' release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
@@ -256,22 +256,13 @@ Tests & Integration
    Some non-functional requirements are not fully finalized. Please, check details
    on the :doc:`Integration<usecases/release_non_functional_requirements>`
 
-Project Specific Release Notes
-==============================
-ONAP releases are specified by a list of project artifact versions in the
-project repositories and Docker container image versions listed in the OOM
-Helm charts.
+Documentation Sources
+---------------------
 
-Each project provides detailed :ref:`release notes<doc-releaserepos>`
-and prepends to these if/when any updated versions the project team believes
-are compatible with a major release are made available.
+The formal ONAP 'Jakarta' Release Documentation is available
+in :ref:`ReadTheDocs<master_index>`.
 
-Documentation
-=============
-ONAP Jakarta Release provides a set selection of documents,
-see :ref:`ONAP Documentation<master_index>`.
-
-The `developer wiki <http://wiki.onap.org>`_ remains a good source of
+The `Developer Wiki <http://wiki.onap.org>`_ remains a good source of
 information on meeting plans and notes from committees, project teams and
 community events.
 
