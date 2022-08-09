@@ -8,12 +8,13 @@
 :orphan:
 
 Project Specific Release Notes
-++++++++++++++++++++++++++++++
+==============================
 
-.. toctree::
-   :maxdepth: 1
-
--------------------------------------------------------------------------------
+ONAP releases are specified by a list of project artifact versions in the
+project repositories and Docker container image versions listed in the OOM
+Helm charts. Each project provides detailed release notes and prepends to these
+if/when any updated versions the project team believes are compatible with a
+major release are made available.
 
 AAI - Active and Available Inventory
 ------------------------------------
