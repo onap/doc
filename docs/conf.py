@@ -2,9 +2,9 @@ project = "onap"
 release = "master"
 version = "master"
 
-author: "Open Network Automation Platform"
+author = "Open Network Automation Platform"
 # yamllint disable-line rule:line-length
-copyright: "ONAP. Licensed under Creative Commons Attribution 4.0 International License."
+copyright = "ONAP. Licensed under Creative Commons Attribution 4.0 International License."
 
 pygments_style = "sphinx"
 html_theme = "sphinx_rtd_theme"
