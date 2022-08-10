@@ -6,6 +6,9 @@
 #
 version: 2
 
+author: "Open Network Automation Platform"
+copyright: "© Copyright ONAP. Licensed under Creative Commons Attribution 4.0 International License."
+
 build:
    image: latest
 
