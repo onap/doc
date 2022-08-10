@@ -37,7 +37,8 @@ Jakarta Major Release 10.0.0
 +--------------------------------------+--------------------------------------+
 
 Features
-^^^^^^^^
+--------
+
 ONAP Jakarta focusses on:
 
 - Security enhancements in the A&AI, CCSDK, MSB, and MultiCloud projects,
@@ -63,10 +64,10 @@ ONAP Jakarta focusses on:
   and KubeRef RI2
 
 Functional Requirements
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 Increased Cloud Native Functionality
-""""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Improved synchronization of k8s resources after the creation of the CNF.
   When some change occurs for the CNF in the k8s cluster, k8splugin sends
@@ -88,7 +89,7 @@ Increased Cloud Native Functionality
 - New model for CNF modeling: Application Service Descriptor (ASD) model
 
 E2E Network Slicing
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 - CPS Integration with SDN-R for RAN Slice allocate and reconfigure scenarios
 - E2E network Slicing with CPS is completed for allocation and re-use scenarios
@@ -103,7 +104,7 @@ E2E Network Slicing
 - Closed-loop enhancement in CCVPN to support Transport Slicing’s closed-loop
 
 Control Loop evolutions
-"""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^
 
 - Control Loop in TOSCA LCM Improvement: abstract Automation Composition
   Management (ACM) logic with a generic Automation Composition definition,
@@ -147,14 +148,14 @@ Control Loop evolutions
   - Scripts are added to make release of the Policy Framework easier
 
 Fault management
-""""""""""""""""
+^^^^^^^^^^^^^^^^
 
 - DCAE Helm Transformation finalized
 - Topic alignment for DCAE microservices:  use standard topics for PM-Mapper,
   Slice-Analysis and KPI-MS
 
 Extended O-RAN Integration
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - The O-RAN A1 interface (from the CCSDK project) provides a flexible way for
   RAN operators to manage wide area RAN network optimization
@@ -166,41 +167,40 @@ Extended O-RAN Integration
 - Convergence on VES message formats for Performance Management,
   Fault Management, Configuration Management
 
-
 Controllers
-"""""""""""
+^^^^^^^^^^^
 
 - SDN-C is upgraded to OpenDaylight Phosphorus release
 - Enhancements to CCVPN, Network Slicing, and ONAP A1 Interface
 
 Service Design
-""""""""""""""
+^^^^^^^^^^^^^^
 
 - Improved support for TOSCA features
 - Automation Composition Management model
 - Support for large CSAR via S3 storage
 
 Inventory
-"""""""""
+^^^^^^^^^
 
 - Schema updated for CCVPN use case mainly enhancing and bug fixes of the Cloud
   Leased Line (CLL) service
 
 ONAP Operations Manager
-"""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^
 
 - Introduction of Strimzi Kafka Operator
 - Migration of all Kafka native clients to use Strimzi Apache Kafka.
 - Disable VID, Portal
 
 Non-Functional Requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 The following 'non-functional' requirements are followed in the
 Jakarta Release:
 
 Best Practice
-"""""""""""""
+^^^^^^^^^^^^^
 
 - ONAP shall use STDOUT for logs collection
 - IPv4/IPv6 dual stack support in ONAP
@@ -211,7 +211,7 @@ Best Practice
 - No root (superuser) access to database from application container
 
 Code Quality
-""""""""""""
+^^^^^^^^^^^^
 
 - Each ONAP project shall improve its CII Badging score by improving input
   validation and documenting it in their CII Badging site
@@ -219,7 +219,7 @@ Code Quality
   least 55% code coverage
 
 Security
-""""""""
+^^^^^^^^
 
 - Python language 3.8
 - Java language v11
@@ -231,7 +231,7 @@ Security
   Tools for automated SBOM creation are now rolled into the CI chain of ONAP
 
 Documentation
-"""""""""""""
+^^^^^^^^^^^^^
 
 - Documentation cleaned up. Chapters which include unmaintained projects were
   removed to avoid misunderstandings at the readership
@@ -244,7 +244,7 @@ Documentation
 - The guide to set up a development system for documentation is updated
 
 Tests & Integration
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 - Create Java and Python base images
 - Adapt robot tests to DCAE project changes: Cloudify to Helm migration
@@ -257,7 +257,7 @@ Tests & Integration
    on the :doc:`Integration<usecases/release_non_functional_requirements>`
 
 Documentation Sources
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 The formal ONAP 'Jakarta' Release Documentation is available
 in :ref:`ReadTheDocs<master_index>`.
@@ -267,7 +267,7 @@ information on meeting plans and notes from committees, project teams and
 community events.
 
 CII Best Practice
-^^^^^^^^^^^^^^^^^
+-----------------
 
 ONAP has adopted the `CII Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
 
@@ -286,7 +286,7 @@ each project.
 .. index:: maturity
 
 ONAP Maturity Testing Notes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 For the Jakarta release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
@@ -298,6 +298,6 @@ In Jakarta the Integration team focussed in
 More details in :ref:`ONAP Integration Project<onap-integration:master_index>`
 
 Known Issues and Limitations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
 Known Issues and limitations are documented in each
 :ref:`project Release Notes <doc-releaserepos>`.
