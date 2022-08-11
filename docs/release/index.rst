@@ -280,8 +280,8 @@ In the Jakarta release,
 - 85% projects passed the CII badge
 - 11% projects passed the CII Silver badge
 
-Project specific details are in the :ref:`release notes<doc-releaserepos>` for
-each project.
+Project specific details are in the :ref:`release notes<component-release-notes>`
+for each component.
 
 .. index:: maturity
 
