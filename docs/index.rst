@@ -63,11 +63,29 @@ Please find some guidance here on the content of ONAP documentation:
    :hidden:
 
    Home <self>
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:  
+   :caption: RELEASE
+
    release/index
    release/releaserepos
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:  
+   :caption: PLATFORM
+
    guides/overview/index
    guides/onap-developer/architecture/index
-   guides/onap-developer/developing/index
+   guides/onap-developer/components/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:  
+   :caption: GUIDES
+
    guides/onap-operator/index
    guides/onap-user/index
    guides/onap-developer/index
