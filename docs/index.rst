@@ -53,7 +53,7 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | ONAP Documentation Guide. Currently some content resides also in the Developer Guide. This is |
  |                                                                                 | subject to be reviewed, updated and migrated to the ONAP Documentation Guide.                 |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
- | :ref:`ONAP Security <onap-security>`                                            | The current state of ONAP Security is described here. You can learn about discovered and fixed|
+ | :ref:`ONAP Security <onap-security-index>`                                      | The current state of ONAP Security is described here. You can learn about discovered and fixed|
  |                                                                                 | vulnerabilities.                                                                              |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
@@ -63,12 +63,39 @@ Please find some guidance here on the content of ONAP documentation:
    :hidden:
 
    Home <self>
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:  
+   :caption: RELEASE
+
    release/index
-   release/releaserepos
-   guides/overview/index
-   guides/onap-developer/architecture/index
-   guides/onap-developer/developing/index
+   release/component-release-notes
+   release/history
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:  
+   :caption: PLATFORM
+
+   platform/overview/index
+   platform/architecture/index
+   platform/components/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:  
+   :caption: GUIDES
+
    guides/onap-operator/index
    guides/onap-user/index
    guides/onap-developer/index
    guides/onap-documentation/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:  
+   :caption: SECURITY
+
+   security/index
+   
