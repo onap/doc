@@ -3,12 +3,12 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. Copyright 2017 AT&T Intellectual Property.  All rights reserved.
 
-.. _doc-releaserepos:
+.. _component-release-notes:
 
 :orphan:
 
-Project Specific Release Notes
-==============================
+Component Release Notes
+=======================
 
 ONAP releases are specified by a list of project artifact versions in the
 project repositories and Docker container image versions listed in the OOM
