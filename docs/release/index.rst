@@ -280,8 +280,8 @@ In the Jakarta release,
 - 85% projects passed the CII badge
 - 11% projects passed the CII Silver badge
 
-Project specific details are in the :ref:`release notes<doc-releaserepos>` for
-each project.
+Project specific details are in the :ref:`release notes<component-release-notes>`
+for each component.
 
 .. index:: maturity
 
@@ -300,4 +300,4 @@ More details in :ref:`ONAP Integration Project<onap-integration:master_index>`
 Known Issues and Limitations
 ----------------------------
 Known Issues and limitations are documented in each
-:ref:`project Release Notes <doc-releaserepos>`.
+:ref:`project Release Notes <component-release-notes>`.
