@@ -4,8 +4,8 @@
 .. Copyright 2019 Nokia; Copyright 2017-2018 Huawei Technologies Co., Ltd.;
 .. Copyright 2017 AT&T Intellectual Property
 
-Open Network Automation Platform Overview
-=========================================
+Platform Overview
+=================
 
 The Open Network Automation Platform (ONAP) project addresses the
 rising need for a **common automation platform for telecommunication, cable,
@@ -99,7 +99,7 @@ principles:
 7. The architecture shall support elastic scaling as needs grow or shrink
 
 Functional Overview of ONAP
-===========================
+---------------------------
 
 The following guidelines show the main ONAP activities in a chronological
 order, presenting ONAP's functional structure:
@@ -137,7 +137,7 @@ These service design activities are built up of the following subtasks:
   b. Collecting and evaluating event data
 
 Benefits of ONAP
-================
+----------------
 
 Open Network Automation Platform provides the following benefits:
 
@@ -155,7 +155,7 @@ Open Network Automation Platform provides the following benefits:
   mechanisms, beside also using the same platform
 
 ONAP Release Information
-========================
+------------------------
 
 ONAP is enhanced with numerous features from release to release. Each release
 is named after a city.
@@ -185,7 +185,7 @@ is named after a city.
 +-----------------+-----------------+------------------------+
 
 ONAP Blueprints and environments
-================================
+--------------------------------
 
 ONAP is able to deploy and operate VNFs running OpenStack based Centralized
 Private Cloud Instances, as well as Mobile Edge Cloud instances.
@@ -198,7 +198,7 @@ ONAP has been tested in the following network environments:
 * Broadband Service (BBS)
 
 Licenses
-========
+--------
 
 Open Network Automation Platform (ONAP) is an open source project hosted by the
 Linux Foundation.
