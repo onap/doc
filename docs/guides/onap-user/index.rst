@@ -12,6 +12,9 @@ The following guides are provided to describe tasks that a user of
 ONAP may need to perform when integrating, deploying, testing and operating
 an instance of ONAP.
 
+.. note:: The ONAP Portal component is no longer maintained. E2E guides
+   referencing the ONAP Portal had to be removed consequently.
+
 E2E User Guides
 ---------------
 
