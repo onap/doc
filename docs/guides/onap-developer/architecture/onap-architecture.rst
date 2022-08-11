@@ -115,6 +115,9 @@ as functions for managing ONAP itself.
 .. raw:: html
    :file: media/onap-architecture-overview-interactive-path.svg
 
+.. image:: media/onap-architecture-overview-interactive-path.svg
+  :width: 800
+
 **Figure 1: Interactive high-level view of the ONAP architecture with its
 microservices-based platform components.**
 
