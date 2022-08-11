@@ -9,9 +9,6 @@ Documentation Guides
 The following guides are provided for people who want to understand or
 contribute to the ONAP documentation project.
 
-Currently some content resides also in the Developer Guide. This is subject to
-be reviewed, updated and migrated to the ONAP Documentation Guide.
-
 .. toctree::
    :maxdepth: 1
 
