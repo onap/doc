@@ -61,6 +61,7 @@ Please find some guidance here on the content of ONAP documentation:
 .. toctree::
    :maxdepth: 1
    :hidden:
+   :caption: ONAP
 
    Home <self>
    release/index
