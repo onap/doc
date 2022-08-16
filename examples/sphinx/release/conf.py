@@ -1,6 +1,6 @@
 project = "onap"
-release = "istanbul"
-version = "istanbul"
+release = "kohn"
+version = "kohn"
 
 author = "Open Network Automation Platform"
 # yamllint disable-line rule:line-length
@@ -25,7 +25,7 @@ extensions = [
 # Change to {releasename} after you have created the new 'doc' branch.
 #
 
-branch = 'istanbul'
+branch = 'kohn'
 
 intersphinx_mapping = {}
 doc_url = 'https://docs.onap.org/projects'

@@ -6,9 +6,9 @@ in your project. **Important:** The files relate on each other. Change them care
 
 We provide two directories:
 - **master**: Contains configuration files used in the **development branch**.
-- **istanbul**: Contains configuration files used in the **release branch**
-   (e.g.'istanbul'). **Important:** You need to change the 'istanbul' entries
-   in the files! Replace them with the name of the new release branch (e.g. 'jakarta').
+- **release**: Contains configuration files used in the **release branch**
+   (e.g.'kohn'). **Important:** You need to change the 'kohn' entries
+   in the files! Replace them with the name of the new release branch.
 
 The additional directories named *_static* and *images* and the file
 *index.rst* are required to make the examples buildable. In the respective
