@@ -16,6 +16,24 @@
       "revId": "5a2c1b486d14a1dd75fc56f480d949d4381646b9",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "67f6c3ba_0af5b33b",
+        "filename": "examples/sphinx/master/_static/css/ribbon.css",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2022-08-22T13:07:15Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "a761a567_a8c58bcb",
+      "revId": "5a2c1b486d14a1dd75fc56f480d949d4381646b9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
