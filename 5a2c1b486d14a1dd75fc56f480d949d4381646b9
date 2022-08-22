@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a761a567_a8c58bcb",
+        "filename": "examples/sphinx/master/_static/css/ribbon.css",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1201
+      },
+      "writtenOn": "2022-08-22T12:48:58Z",
+      "side": 1,
+      "message": "Could you remove this blank char?",
+      "revId": "5a2c1b486d14a1dd75fc56f480d949d4381646b9",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
