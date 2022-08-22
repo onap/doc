@@ -31,6 +31,11 @@ intersphinx_mapping = {}
 doc_url = 'https://docs.onap.org/projects'
 master_doc = 'index'
 
+exclude_patterns = ['.tox']
+
+spelling_word_list_filename='spelling_wordlist.txt'
+spelling_lang = "en_GB"
+
 #
 # Example:
 # intersphinx_mapping['onap-aai-aai-common'] = ('{}/onap-aai-aai-common/en/%s'.format(doc_url) % branch, None)
