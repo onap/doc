@@ -56,8 +56,8 @@
     }
 }
 
-/* fix width of the screen */
-
-.wy-nav-content {
-    max-width: none;
+ /* fix width of the screen */
+ 
+ .wy-nav-content {
+   max-width: 800px;
 }
