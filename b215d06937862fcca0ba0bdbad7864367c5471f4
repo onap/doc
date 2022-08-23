@@ -34,6 +34,24 @@
       "revId": "b215d06937862fcca0ba0bdbad7864367c5471f4",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "098cbcbd_b392bdfa",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2022-08-23T09:56:02Z",
+      "side": 1,
+      "message": "OK what about this if so ?\n\n   sudo apt install -y git \\\n       git-review \\\n       python3-sphinx \\\n       [..]\n       tox",
+      "parentUuid": "8f078715_73a3c5d9",
+      "revId": "b215d06937862fcca0ba0bdbad7864367c5471f4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
     }
   ]
 }
