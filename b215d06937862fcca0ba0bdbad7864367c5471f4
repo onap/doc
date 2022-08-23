@@ -16,6 +16,24 @@
       "revId": "b215d06937862fcca0ba0bdbad7864367c5471f4",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8f078715_73a3c5d9",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2022-08-23T08:17:11Z",
+      "side": 1,
+      "message": "can we please keep it this way because of the readability? you can easily copy/paste the command block",
+      "parentUuid": "219ad294_0a581c43",
+      "revId": "b215d06937862fcca0ba0bdbad7864367c5471f4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
