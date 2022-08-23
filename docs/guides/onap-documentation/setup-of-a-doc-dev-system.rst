@@ -42,7 +42,7 @@ Release Relevance
    11.x.x (Kohn) - 10.x.x (Jakarta)
 
 Last Review/Update
-   02/08/2022
+   23/08/2022
 
 Initial Release
    05/12/2021
@@ -241,6 +241,7 @@ Install the required packages with ...
    sudo apt install -y python3-doc8
    sudo apt install -y curl
    sudo apt install -y jq
+   sudo apt install -y tox
 
 Check the git version with ...
 
@@ -272,8 +273,8 @@ your terminal has changed. Now it starts with ``(onapdocs)``.
 
 -------------------------------------------------------------------------------
 
-Install required Sphinx packages in activated environment
-=========================================================
+Install required Sphinx packages in activated environment (I)
+=============================================================
 
 It is :strong:`important` to activate the ``onapdocs`` environment before you
 continue. If not already done, activate environment with ...
@@ -370,6 +371,20 @@ Clone repo
 
 -------------------------------------------------------------------------------
 
+Install required Sphinx packages in activated environment (II)
+==============================================================
+
+Continue with the installation of required packages. Use the file
+``requirements-docs.txt`` for it. The file resides in the downloaded ``doc``
+repository.
+
+.. code-block:: bash
+
+   cd ~/environments/onapdocs
+   sudo pip install -r doc/etc/requirements-docs.txt
+
+-------------------------------------------------------------------------------
+
 Start VSC in the correct directory
 ==================================
 
@@ -440,7 +455,9 @@ Please install ...
 
 .. warning:: Use the reStructuredText extension version 169.0.0 or lower to
    avoid problems with the preview. You need to downgrade after the initial
-   installation.
+   installation. This can be done by using 
+   :guilabel:`Uninstall` > :guilabel:`Install Another Version...` in the VSC
+   extension management.
 
 Configure reStructuredText extension
 ------------------------------------
@@ -691,6 +708,7 @@ for one of the upcoming releases.
  - consider ``pandoc`` in this guide?
  - VSC / reStructuredText Extension Settings / reStructuredText: Sphinx Build
    Path: ${workspaceRoot} , ${workspaceFolder} , any alternatives?
+ - VSC extension configuration: Difference between "Workspace" and "User"?
  - link to full ``ssh`` install/config?
  - link to full ``git`` install/config?
  - how to limit line width to improve readability? setting in conf.py?
