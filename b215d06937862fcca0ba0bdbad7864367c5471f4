@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "219ad294_0a581c43",
+        "filename": "docs/guides/onap-documentation/setup-of-a-doc-dev-system.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 3685
+      },
+      "writtenOn": "2022-08-23T08:02:30Z",
+      "side": 1,
+      "message": "I think it is  more efficient to nstall all these packages with a single line command\n\nsudo apt install -y git git-review python3-sphinx [..]  tox",
+      "revId": "b215d06937862fcca0ba0bdbad7864367c5471f4",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
