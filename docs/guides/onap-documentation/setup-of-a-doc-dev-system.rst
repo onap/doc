@@ -367,7 +367,7 @@ Clone repo
 .. code-block:: bash
 
    cd ~/environments/onapdocs
-   git clone --recurse-submodules ssh://<GIT-USER>@gerrit.onap.org:29418/doc
+   git clone ssh://<GIT-USER>@gerrit.onap.org:29418/doc
 
 -------------------------------------------------------------------------------
 
@@ -644,6 +644,12 @@ Git
 
 - `LF RelEng Git Guide <https://docs.releng.linuxfoundation.org/en/latest/git.html>`__
 - `How To Install Git on Ubuntu 20.04 <https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04>`__
+
+ONAP Documentation Procedures for Developers
+--------------------------------------------
+
+- `Procedure #1 for the ONAP Documentation Team <https://wiki.onap.org/x/-IpkBg>`__
+- `Procedure #2 for all other ONAP Project Teams <https://wiki.onap.org/x/w4IEBw>`__
 
 Python
 ------
