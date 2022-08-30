@@ -1,4 +1,4 @@
-lfdocs-conf===0.7.7
+lfdocs-conf===0.8.0
 sphinxcontrib-needs===0.7.9
 sphinxcontrib.plantuml===0.24
 sphinxcontrib.nwdiag===2.0.0
