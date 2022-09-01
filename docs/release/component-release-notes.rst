@@ -97,7 +97,10 @@ SDNC - Software Defined Network Controller
 
 SO - Service Orchestration
 --------------------------
-- :ref:`so <onap-so:release_notes>`
+
+<currently unavailable>
+
+.. - :ref:`so <onap-so:release_notes>`
 
 UUI - Use Case User Interface
 -----------------------------
