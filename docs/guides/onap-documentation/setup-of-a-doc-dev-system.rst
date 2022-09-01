@@ -42,10 +42,10 @@ Release Relevance
    11.x.x (Kohn) - 10.x.x (Jakarta)
 
 Last Review/Update
-   23/08/2022
+   2022/09/01
 
 Initial Release
-   05/12/2021
+   2021/12/05
 
 Author (Company)
    Thomas Kulik (Deutsche Telekom AG)
@@ -243,12 +243,18 @@ Install the required packages with ...
                        jq \
                        tox
 
-Check the git version with ...
+Check the git version and the path of the sphinx-build executable ...
 
 .. code-block:: bash
 
    git --version
 
+   which sphinx-build
+
+
+.. tip:: Remember the path
+   ``/usr/bin/sphinx-build``, you need it later
+   to configure a VSC extension.
 -------------------------------------------------------------------------------
 
 Create virtual environment and activate
@@ -293,12 +299,6 @@ your terminal has changed. Now it starts with ``(onapdocs)``.
 .. code-block:: bash
 
    pip3 install wheel
-
-   which sphinx-build
-
-.. tip:: Remember the path
-   ``/home/<USER>/environments/onapdocs/bin/sphinx-build``, you need it later
-   to configure a VSC extension.
 
 -------------------------------------------------------------------------------
 
@@ -477,7 +477,7 @@ all the parameters. Change the following ones:
   ``doc8``
 
  :strong:`Restructuredtext: Sphinx Build Path`
-  ``/home/<USER>/environments/onapdocs/bin/sphinx-build``
+  ``/usr/bin/sphinx-build``
 
 Replace ``<USER>`` with your user name.
 
