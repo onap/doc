@@ -42,7 +42,7 @@ Release Relevance
    11.x.x (Kohn) - 10.x.x (Jakarta)
 
 Last Review/Update
-   2022/09/01
+   2022/09/06
 
 Initial Release
    2021/12/05
@@ -77,6 +77,12 @@ processed and you find the final ONAP documentation build hosted on
 Beginning with the 'Frankfurt' release of ONAP, the documentation structure has
 changed and the support of submodules was removed. Although large parts of this
 guide are valid for earlier releases, the relevance has been limited.
+
+If you plan to contribute to the ONAP community and you want to submit changes
+to a specific project later on, please refer to the
+`Linux Foundation Release Engineering Documentation <https://docs.releng.linuxfoundation.org/>`__
+and the `ONAP Developer Wiki <https://wiki.onap.org>`__ to get information
+about all the prerequisite details.
 
 -------------------------------------------------------------------------------
 
@@ -243,7 +249,7 @@ Install the required packages with ...
                        jq \
                        tox
 
-Check the git version and the path of the sphinx-build executable ...
+Check git version and the path of the sphinx-build executable with ...
 
 .. code-block:: bash
 
@@ -255,6 +261,52 @@ Check the git version and the path of the sphinx-build executable ...
 .. tip:: Remember the path
    ``/usr/bin/sphinx-build``, you need it later
    to configure a VSC extension.
+
+-------------------------------------------------------------------------------
+
+Configure ssh
+=============
+
+If you already have a LF account and you have shared your public ssh key you
+can finalize the configuration of this development system by updating your ssh
+configuration in the ``~/.ssh`` directory by copying over ``config``,
+``id_{algorithm}`` and ``id_{algorithm}.pub``
+
+.. warning:: If your ssh key has been generated using the RSA SHA-1 hash
+   algorithm, you may experience problems when connecting to other systems.
+
+   The RSA SHA-1 hash algorithm has been quickly deprecated across operating
+   systems and SSH clients because of various security vulnerabilities,
+   with many of these technologies now outright denying the use of this
+   algorithm. You need to create new ssh keys using a more secure algorithm.
+
+   You may try to temporarily enable the insecure RSA SHA-1 hash algorithm by
+   adding the line ``PubkeyAcceptedKeyTypes +ssh-rsa`` to your ssh ``config``
+   file.
+
+.. tip:: Please refer to the
+   `Linux Foundation Release Engineering Documentation <https://docs.releng.linuxfoundation.org/>`__
+   for additional information.
+
+-------------------------------------------------------------------------------
+
+Configure git
+=============
+
+Configure ``git`` and ``git-review`` with ...
+
+.. code-block:: bash
+
+   git config --global user.email "<GIT-EMAIL>"
+   git config --global user.name "<GIT-USER>"
+   git config --global --add gitreview.username "<GIT-USER>"
+   git config --global gitreview.remote origin
+
+Replace ``<GIT-EMAIL>`` and ``<GIT-USER>`` with your account details.
+
+.. tip:: Please refer to the
+   `Linux Foundation Release Engineering Documentation <https://docs.releng.linuxfoundation.org/>`__
+   for additional information.
 
 -------------------------------------------------------------------------------
 
@@ -311,8 +363,8 @@ desktop search function :guilabel:`Show Applications` (the |ShowApp| symbol in
 the bottom left corner) to find the required applications.
 
 Open :guilabel:`Ubuntu Software` > :guilabel:`Development`, select
-:guilabel:`code` (Visual Studio Code) and press :guilabel:`Install` to install
-the integrated development environment (IDE).
+:guilabel:`vscode` (Visual Studio Code) and press :guilabel:`Install` to
+install the integrated development environment (IDE).
 
 Open :guilabel:`Ubuntu Software` > :guilabel:`Updates` to ensure that your
 installed applications are up to date.
@@ -337,30 +389,6 @@ Linux Foundation (LF) account with ...
 
 Clone example repo (LF account used)
 ====================================
-
-Prerequisite configuration
---------------------------
-
-If you plan to contribute to the ONAP community and you want to submit changes
-to a specific project later on, please refer to the
-`ONAP Developer Wiki <https://wiki.onap.org>`__ to get information about all
-the prerequisite details.
-
-If you already have a LF account and you have shared your public ssh key you
-can finalize the configuration of this development system by updating your ssh
-configuration in the ``~/.ssh`` directory by copying over ``config``,
-``id_rsa`` and ``id_rsa.pub``
-
-In addition you configure ``git`` and ``git-review`` with ...
-
-.. code-block:: bash
-
-   git config --global user.email "<GIT-EMAIL>"
-   git config --global user.name "<GIT-USER>"
-   git config --global --add gitreview.username "<GIT-USER>"
-   git config --global gitreview.remote origin
-
-Replace ``<GIT-EMAIL>`` and ``<GIT-USER>`` with your account details.
 
 Clone repo
 ----------
@@ -640,11 +668,18 @@ Gerrit
 
 - `LF RelEng Gerrit Guide <https://docs.releng.linuxfoundation.org/en/latest/gerrit.html>`_
 
-Git
----
+Git/GitHub
+----------
 
-- `LF RelEng Git Guide <https://docs.releng.linuxfoundation.org/en/latest/git.html>`__
+- `GitHub Authentication <https://docs.github.com/en/authentication>`__
 - `How To Install Git on Ubuntu 20.04 <https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04>`__
+- `LF RelEng Git Guide <https://docs.releng.linuxfoundation.org/en/latest/git.html>`__
+
+Linux Foundation Release Engineering
+------------------------------------
+
+- `LF RelEng Documentation (recommended reading) <https://docs.releng.linuxfoundation.org>`__
+
 
 ONAP Documentation Procedures for Developers
 --------------------------------------------
@@ -670,7 +705,7 @@ ReadTheDocs
 ReadTheDocs Sphinx Theme
 ------------------------
 
-- `ReadTheDocs Sphinx Theme (Recommended Reading!) <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`__
+- `ReadTheDocs Sphinx Theme (recommended reading) <https://sphinx-rtd-theme.readthedocs.io/en/stable/>`__
 - `ReadTheDocs Sphinx Theme Configuration <https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html>`__
 
 reStructuredText
