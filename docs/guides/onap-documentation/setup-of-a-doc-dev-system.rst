@@ -96,7 +96,7 @@ Ubuntu Image
 ------------
 
 +--------------------------------------+
-| ubuntu-20.04.3-desktop-amd64.iso     |
+| ubuntu-22.04.1-desktop-amd64.iso     |
 +--------------------------------------+
 
 Please check what image must be used for your type of hardware.
@@ -140,8 +140,21 @@ start also a :guilabel:`Terminal` window from here.
 Software Updates
 ----------------
 
-Open :guilabel:`Software Updater` and update already installed Ubuntu packages.
+Open :guilabel:`Software Updater` and update installed Ubuntu packages.
 You may need to restart the system afterwards.
+
+Screen Lock
+-----------
+
+Open :guilabel:`Settings`. Navigate to :guilabel:`Privacy` >
+:guilabel:`Screen Lock` and change settings for :guilabel:`Blank Screen Delay`
+and :guilabel:`Automatic Screen Lock` to values of your choice. Close the
+window.
+
+-------------------------------------------------------------------------------
+
+An older version of Ubuntu LTS (e.g. 20.4.) may need additional configuration
+steps for proper localization:
 
 Language Support
 ----------------
@@ -170,14 +183,6 @@ To change the keyboard layout used e.g. in command line windows, open
 of the list using drag and drop. Close the window. You may need to logout from
 the UI and login again to make your changes effective.
 
-Screen Lock
------------
-
-Open :guilabel:`Settings`. Navigate to :guilabel:`Privacy` >
-:guilabel:`Screen Lock` and change settings for :guilabel:`Blank Screen Delay`
-and :guilabel:`Automatic Screen Lock` to values of your choice. Close the
-window.
-
 -------------------------------------------------------------------------------
 
 Disable sudo password for your user
@@ -203,8 +208,8 @@ and add ``<USER> ALL=(ALL) NOPASSWD:ALL`` to the end of the file. Replace
 Install python3 related packages
 ================================
 
-.. important:: The main python3 package is preinstalled in Ubuntu 20.04. But
-   please ensure that you are using python version 3.8 or higher.
+.. important:: The main python3 package is preinstalled in Ubuntu. But please
+   ensure that you are using python version 3.8 or higher.
 
 Open a :guilabel:`Terminal` window and update the package management system
 with ...
@@ -246,6 +251,7 @@ Install the required packages with ...
                        git-review \
                        python3-sphinx \
                        python3-doc8 \
+                       docutils \
                        curl \
                        jq \
                        tox
@@ -257,11 +263,6 @@ Check git version and the path of the sphinx-build executable with ...
    git --version
 
    which sphinx-build
-
-
-.. tip:: Remember the path
-   ``/usr/bin/sphinx-build``, you need it later
-   to configure a VSC extension.
 
 -------------------------------------------------------------------------------
 
@@ -418,8 +419,7 @@ Start VSC (always) in the ``docs`` directory of your repository. For the
 
 .. code-block:: bash
 
-   cd doc
-   cd docs
+   cd doc/docs
    code .
 
 .. important:: Don't forget the ``.`` (dot) when you start Visual Studio Code.
@@ -450,8 +450,8 @@ search for ``telemetry``. Then uncheck
 
 -------------------------------------------------------------------------------
 
-Install VSC extensions and configure reStructuredText extension
-===============================================================
+Install VSC extensions and configure them
+=========================================
 
 Install VSC extensions
 ----------------------
@@ -464,25 +464,24 @@ Press :guilabel:`Install` if you have found the required extension.
 
 Please install ...
 
-+--------------------------------------+---------------------------------------+---------+
-| Python                               | ms-python.python                      | latest  |
-+--------------------------------------+---------------------------------------+---------+
-| reStructuredText                     | lextudio.restructuredtext             | 169.0.0 |
-+--------------------------------------+---------------------------------------+---------+
-| reStructuredText Syntax highlighting | trond-snekvik.simple-rst              | latest  |
-+--------------------------------------+---------------------------------------+---------+
-| Code Spell Checker                   | streetsidesoftware.code-spell-checker | latest  |
-+--------------------------------------+---------------------------------------+---------+
-| Prettier                             | esbenp.prettier-vscode                | latest  |
-+--------------------------------------+---------------------------------------+---------+
-| GitLens                              | eamodio.gitlens                       | latest  |
-+--------------------------------------+---------------------------------------+---------+
++---------------------------------------+--------------------------------------+-------------+
+| IDENTIFIER (search)                   | NAME                                 | TESTED      |
++=======================================+======================================+=============+
+| ms-python.python                      | Python                               | v2022.14.0  |
++---------------------------------------+--------------------------------------+-------------+
+| lextudio.restructuredtext             | reStructuredText                     | v189.1.0    |
++---------------------------------------+--------------------------------------+-------------+
+| trond-snekvik.simple-rst              | reStructuredText Syntax highlighting | v1.5.2      |
++---------------------------------------+--------------------------------------+-------------+
+| eamodio.gitlens                       | GitLens                              | v12.2.1     |
++---------------------------------------+--------------------------------------+-------------+
+| streetsidesoftware.code-spell-checker | Code Spell Checker                   | v2.7.2      |
++---------------------------------------+--------------------------------------+-------------+
 
-.. warning:: Use the reStructuredText extension version 169.0.0 or lower to
-   avoid problems with the preview. You need to downgrade after the initial
-   installation. This can be done by using 
-   :guilabel:`Uninstall` > :guilabel:`Install Another Version...` in the VSC
-   extension management.
+Close VSC and restart it using the ``code .`` command.
+
+You may experience, that VSC asks you to install additional components
+(e.g. the Esbonio Language Server). Please allow VSC to install them.
 
 Configure reStructuredText extension
 ------------------------------------
@@ -493,27 +492,78 @@ To configure ``reStructuredText`` extension, open :guilabel:`File` >
 :guilabel:`Search Extensions in Marketplace` window. After you have found the
 extension press :guilabel:`Manage` (the little |GearSymb| symbol on the right
 bottom) and select :guilabel:`Extension Settings`. A new windows in VSC shows
-all the parameters. Change the following ones:
+all the parameters.
 
- :strong:`Restructuredtext › Linter: Executable Path`
-  ``/usr/bin/doc8``
+We need to change values for ...
 
- :strong:`Restructuredtext › Linter: Name`
-  ``doc8``
+``Restructuredtext › Linter › Doc8: Executable Path``
 
- :strong:`Restructuredtext: Sphinx Build Path`
-  ``/usr/bin/sphinx-build``
+``Restructuredtext › Linter › Rst-lint: Executable Path``
 
-Replace ``<USER>`` with your user name.
+``Restructuredtext › Linter › Rstcheck: Executable Path``
 
-Only in case the preview creates an error message, try ...
+``Esbonio › Sphinx: Build Dir``
 
-  :strong:`Restructuredtext: Conf Path`
-   ``${workspaceFolder}/docs``
+``Esbonio › Sphinx: Conf Dir``
+
+``Esbonio › Sphinx: Src Dir``
+
+``Restructuredtext: Styles``
+
+
+.. important:: Ensure that you are changing parameters in :guilabel:`User`
+   Settings and :strong:`not` in :guilabel:`Workspace` Settings.
+   :guilabel:`User` Settings are applied globally - for every running instance
+   of VSC.
+
+.. tip:: If you experience problems adding the value to
+   ``restructuredtext.styles`` via editing the ``settings.json`` in VSC, please
+   use an external editor (e.g. ``vi``) to add the value.
+
+Search the following parameter in the :guilabel:`Search settings` field and add
+the listed values:
+
+.. list-table:: VSC User Settings for reStructuredText
+    :header-rows: 1
+
+    * - PARAMETER (search)
+      - VALUE
+    * - restructuredtext.linter.doc8.executablePath
+      - /usr/bin/doc8
+    * - restructuredtext.linter.rst-lint.executablePath
+      - /usr/bin/doc8
+    * - restructuredtext.linter.rstcheck.executablePath
+      - /usr/bin/doc8
+    * - restructuredtext.styles
+      - /usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css
+    * - esbonio.sphinx.buildDir
+      - ${workspaceFolder}/_build/html
+    * - esbonio.sphinx.confDir
+      - ${workspaceFolder}
+    * - esbonio.sphinx.srcDir
+      - ${workspaceFolder}
+
 
 Close the :guilabel:`Extension Settings` window.
 
-Close VSC and start it again with the ``code .`` command.
+Close VSC and restart it using the ``code .`` command.
+
+Your VSC User Settings file ``/home/<USER>/.config/Code/User/settings.json``
+should now include the following entries:
+
+.. code-block:: bash
+
+    "telemetry.telemetryLevel": "off",
+    "restructuredtext.linter.doc8.executablePath": "/usr/bin/doc8",
+    "restructuredtext.linter.rst-lint.executablePath": "/usr/bin/doc8",
+    "restructuredtext.linter.rstcheck.executablePath": "/usr/bin/doc8",
+    "restructuredtext.styles": [
+     /usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css
+    ]
+    "esbonio.sphinx.buildDir": "${workspaceFolder}/_build/html",
+    "esbonio.sphinx.confDir": "${workspaceFolder}",
+    "esbonio.sphinx.srcDir": "${workspaceFolder}"
+
 
 -------------------------------------------------------------------------------
 
@@ -540,7 +590,9 @@ underlined in various colors. For the details select :guilabel:`View` >
 :guilabel:`Problems` to open an additional window at the bottom of VSC.
 
 When you select a specific entry in the problem list, the code window is
-updated to show the related line in the code.
+updated to show the related line in the code. To show only problems for the
+:strong:`active` file in VSC, set the filter to
+:guilabel:`Show Active File Only`.
 
 Preview
 -------
@@ -565,7 +617,6 @@ The learnings are ...
      The content of ``conf.py`` affects how the documentation is presented.
    - VSC may claim that some packages require an update. This can be easily
      fixed. VSC offers automatically to install or update the package.
-   - VSC may ask you to install ``snooty``. Please install.
    - Select the correct environment in the (blue) bottom line
      ``'onapdocs':venv``. Have also a view on the other interesting
      information (e.g. the ``conf.py`` which is currently in use).
@@ -745,12 +796,6 @@ There are still some open topics or issues in this guide. They are subject
 for one of the upcoming releases.
 
  - consider ``pandoc`` in this guide?
- - VSC / reStructuredText Extension Settings / reStructuredText: Sphinx Build
-   Path: ${workspaceRoot} , ${workspaceFolder} , any alternatives?
- - VSC extension configuration: Difference between "Workspace" and "User"?
- - link to full ``ssh`` install/config?
- - link to full ``git`` install/config?
- - how to limit line width to improve readability? setting in conf.py?
  - keyboard shortcut ``[Ctrl+Shift+X]`` or :kbd:`Ctrl` + :kbd:`Shift` +
    :kbd:`X` Is this a problem in the RTD theme?
  - use ``menuselection``
@@ -762,10 +807,8 @@ for one of the upcoming releases.
  - find the reason for VSC error message
    ``Unexpected indentation``
  - find a solution to wrap lines in VSC automatically (79 chars limit)
- - evaluate ``snooty`` and describe functionality (build in? not a extension?)
  - add a table explaining the role of installed packages/extensions in every
    section
- - update instructions to enable use of latest reStructuredText VSC extension
 
 ..
    #########################################################################
