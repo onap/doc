@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "16cda95d_249fce2b",
+        "filename": "etc/upper-constraints.onap.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2022-09-06T12:43:47Z",
+      "side": 1,
+      "message": "Why it looks different from what we (doc) propose in examples/master?\n\nsphinx\u003e\u003d4.2.0  # BSD\nsphinx-rtd-theme\u003e\u003d1.0.0  # MIT\nsphinxcontrib-blockdiag  # BSD\nsphinxcontrib-seqdiag # BSD\nsphinxcontrib-swaggerdoc\nsphinxcontrib-spelling",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 14
+      },
+      "revId": "4facc3c25451d205b76e205f65522e410494583d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
