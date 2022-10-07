@@ -18,7 +18,8 @@ html_show_sphinx = False
 
 extensions = [
     'sphinx.ext.intersphinx','sphinxcontrib.blockdiag',
-    'sphinxcontrib.seqdiag', 'sphinxcontrib.swaggerdoc', 'sphinx.ext.graphviz']
+    'sphinxcontrib.seqdiag', 'sphinxcontrib.swaggerdoc', 'sphinx.ext.graphviz',
+    'sphinxcontrib.spelling']
 
 #
 # Map to 'latest' if this file is used in 'latest' (master) 'doc' branch.
