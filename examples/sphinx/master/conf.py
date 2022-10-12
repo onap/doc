@@ -17,9 +17,13 @@ html_static_path = ["_static"]
 html_show_sphinx = False
 
 extensions = [
-    'sphinx.ext.intersphinx','sphinxcontrib.blockdiag',
-    'sphinxcontrib.seqdiag', 'sphinxcontrib.swaggerdoc', 'sphinx.ext.graphviz',
-    'sphinxcontrib.spelling']
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.graphviz',
+    'sphinxcontrib.blockdiag',
+    'sphinxcontrib.seqdiag',
+    'sphinxcontrib.swaggerdoc',
+    'sphinxcontrib.plantuml'
+]
 
 #
 # Map to 'latest' if this file is used in 'latest' (master) 'doc' branch.
@@ -46,3 +50,7 @@ html_last_updated_fmt = '%d-%b-%y %H:%M'
 
 def setup(app):
     app.add_css_file("css/ribbon.css")
+
+linkcheck_ignore = [
+  r'http://localhost:\d+/'
+]
