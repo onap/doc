@@ -4,3 +4,4 @@ sphinxcontrib-blockdiag  # BSD
 sphinxcontrib-seqdiag # BSD
 sphinxcontrib-swaggerdoc
 sphinxcontrib-spelling
+sphinxcontrib-plantuml

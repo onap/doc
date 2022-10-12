@@ -3,6 +3,7 @@ sphinx-rtd-theme>=1.0.0  # MIT
 sphinxcontrib-blockdiag  # BSD
 sphinxcontrib-seqdiag # BSD
 sphinxcontrib-swaggerdoc
-autopep8
 sphinxcontrib-spelling
+sphinxcontrib-plantuml
+autopep8
 pylint
