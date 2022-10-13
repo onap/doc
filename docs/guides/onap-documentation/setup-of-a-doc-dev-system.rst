@@ -39,10 +39,10 @@ Setup of a Documentation Development System
    #########################################################################
 
 Release Relevance
-   11.x.x (Kohn) - 10.x.x (Jakarta)
+   11.x.x (Kohn)
 
 Last Review/Update
-   2022/09/06
+   2022/10/17
 
 Initial Release
    2021/12/05
@@ -229,7 +229,7 @@ Install python3 related packages with ...
                        libssl-dev \
                        libffi-dev \
                        python3-dev \
-                       python3-venv
+                       python3-virtualenv
 
 
 Check the python3 version with ...
@@ -237,6 +237,18 @@ Check the python3 version with ...
 .. code-block:: bash
 
    python3 -V
+
+
+Install additional python version 3.8 and utils with ...
+
+.. code-block:: bash
+
+   sudo apt install software-properties-common -y
+   sudo add-apt-repository ppa:deadsnakes/ppa -y
+   sudo apt update
+   sudo apt install -y python3.8
+   sudo apt install -y python3.8-distutils
+
 
 -------------------------------------------------------------------------------
 
@@ -253,8 +265,9 @@ Install the required packages with ...
                        python3-doc8 \
                        docutils \
                        curl \
-                       jq \
-                       tox
+                       tox \
+                       jq
+
 
 Check git version and the path of the sphinx-build executable with ...
 
@@ -334,14 +347,18 @@ Create virtual environment and activate
 In this guide, virtual environments are generally located in your home
 directory under ``~/environments``. For the development of ONAP documentation
 the virtual environment ``onapdocs`` is created. The full path is consequently
-``~/environments/onapdocs``.
+``~/environments/onapdocs``. 
+
+.. important:: Currently an environment with python version 3.8 is required to
+   build docs properly.
+
 
 .. code-block:: bash
 
    cd ~
    mkdir environments
    cd ~/environments
-   python3 -m venv onapdocs
+   virtualenv -p /usr/bin/python3.8 onapdocs
    cd ~/environments/onapdocs
    source bin/activate
 
@@ -407,7 +424,7 @@ repository.
 .. code-block:: bash
 
    cd ~/environments/onapdocs
-   sudo pip install -r doc/etc/requirements-docs.txt
+   pip3 install -r doc/etc/requirements-docs.txt
 
 -------------------------------------------------------------------------------
 
@@ -601,6 +618,21 @@ Now select :guilabel:`Preview To The Side` (the |Preview| symbol on the top
 right) or use keyboard shortcut ``[Ctrl+k Ctrl+r]`` to open the preview window
 on the right hand side. This may take a few seconds. The preview shows up and
 renders the ``index.rst`` as it would look like on ReadTheDocs.
+
+Build documentation locally
+---------------------------
+
+To build documentation locally use the ``tox`` command, check the output for
+error messages and check the files using your favorite browser. 
+
+.. code-block:: bash
+
+    cd ~/environments/onapdocs/doc
+    tox
+    ... (checks are executed, docs are build, check logging output) ...
+    cd docs/_build/html
+    firefox ./index.html
+
 
 Tips and Tricks
 ---------------
