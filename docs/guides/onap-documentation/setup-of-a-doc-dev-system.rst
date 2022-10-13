@@ -39,10 +39,10 @@ Setup of a Documentation Development System
    #########################################################################
 
 Release Relevance
-   11.x.x (Kohn) - 10.x.x (Jakarta)
+   11.x.x (Kohn)
 
 Last Review/Update
-   2022/09/06
+   2022/10/13
 
 Initial Release
    2021/12/05
@@ -238,6 +238,25 @@ Check the python3 version with ...
 
    python3 -V
 
+Install and check virtualenv with ...
+
+.. code-block:: bash
+
+   python -m pip install --user virtualenv
+   python -m virtualenv --help
+
+
+Install additional python version 3.8 with ...
+
+.. code-block:: bash
+
+   sudo apt install software-properties-common -y
+   sudo add-apt-repository ppa:deadsnakes/ppa -y
+   sudo apt update
+   sudo apt install python3.8
+   sudo apt install python3.8-distutils
+
+
 -------------------------------------------------------------------------------
 
 Install git and documentation related packages
@@ -255,6 +274,7 @@ Install the required packages with ...
                        curl \
                        jq \
                        tox
+
 
 Check git version and the path of the sphinx-build executable with ...
 
@@ -334,14 +354,18 @@ Create virtual environment and activate
 In this guide, virtual environments are generally located in your home
 directory under ``~/environments``. For the development of ONAP documentation
 the virtual environment ``onapdocs`` is created. The full path is consequently
-``~/environments/onapdocs``.
+``~/environments/onapdocs``. 
+
+.. important:: Currently an environment with python version 3.8 is required to
+   build docs properly.
+
 
 .. code-block:: bash
 
    cd ~
    mkdir environments
    cd ~/environments
-   python3 -m venv onapdocs
+   virtualenv -p /usr/bin/python3.8 onapdocs
    cd ~/environments/onapdocs
    source bin/activate
 
