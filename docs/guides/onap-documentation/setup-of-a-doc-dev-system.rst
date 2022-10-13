@@ -39,16 +39,21 @@ Setup of a Documentation Development System
    #########################################################################
 
 Release Relevance
-   11.x.x (Kohn) - 10.x.x (Jakarta)
+   11.x.x (Kohn)
 
 Last Review/Update
-   2022/09/06
+   2022/10/18
 
 Initial Release
    2021/12/05
 
 Author (Company)
    Thomas Kulik (Deutsche Telekom AG)
+
+-------------------------------------------------------------------------------
+
+.. warning:: There are known issues with the preview function in Vscode. We are
+             working to fix this as soon as possible.
 
 -------------------------------------------------------------------------------
 
@@ -143,6 +148,16 @@ Software Updates
 Open :guilabel:`Software Updater` and update installed Ubuntu packages.
 You may need to restart the system afterwards.
 
+Maybe you need to force a snap-store update with the following commands:
+
+.. code-block:: bash
+
+   snap-store --quit
+   sudo snap refresh
+
+Open :guilabel:`Ubuntu Software` again and check the :guilabel:`Updates` tab
+for required actions. 
+
 Screen Lock
 -----------
 
@@ -207,9 +222,11 @@ and add ``<USER> ALL=(ALL) NOPASSWD:ALL`` to the end of the file. Replace
 
 Install python3 related packages
 ================================
+..
+   .. important:: The main python3 package is preinstalled in Ubuntu. But please
+      ensure that python version 3.8 is also available on your system.
 
-.. important:: The main python3 package is preinstalled in Ubuntu. But please
-   ensure that you are using python version 3.8 or higher.
+.. important:: The main python3 package is preinstalled in Ubuntu
 
 Open a :guilabel:`Terminal` window and update the package management system
 with ...
@@ -229,7 +246,7 @@ Install python3 related packages with ...
                        libssl-dev \
                        libffi-dev \
                        python3-dev \
-                       python3-venv
+                       python3-virtualenv
 
 
 Check the python3 version with ...
@@ -237,6 +254,18 @@ Check the python3 version with ...
 .. code-block:: bash
 
    python3 -V
+
+..
+   Install additional python version 3.8 and utils with ...
+
+   .. code-block:: bash
+ 
+      sudo apt install software-properties-common -y
+      sudo add-apt-repository ppa:deadsnakes/ppa -y
+      sudo apt update
+      sudo apt install -y python3.8
+      sudo apt install -y python3.8-distutils
+
 
 -------------------------------------------------------------------------------
 
@@ -253,8 +282,9 @@ Install the required packages with ...
                        python3-doc8 \
                        docutils \
                        curl \
-                       jq \
-                       tox
+                       tox \
+                       jq
+
 
 Check git version and the path of the sphinx-build executable with ...
 
@@ -334,7 +364,21 @@ Create virtual environment and activate
 In this guide, virtual environments are generally located in your home
 directory under ``~/environments``. For the development of ONAP documentation
 the virtual environment ``onapdocs`` is created. The full path is consequently
-``~/environments/onapdocs``.
+``~/environments/onapdocs``. 
+
+.. important:: Currently an environment with python version 3.8 is required to
+   build docs properly.
+
+..
+   .. code-block:: bash
+   
+      cd ~
+      mkdir environments
+      cd ~/environments
+      virtualenv -p /usr/bin/python3.8 onapdocs
+      cd ~/environments/onapdocs
+      source bin/activate
+
 
 .. code-block:: bash
 
@@ -344,6 +388,7 @@ the virtual environment ``onapdocs`` is created. The full path is consequently
    python3 -m venv onapdocs
    cd ~/environments/onapdocs
    source bin/activate
+
 
 To indicate that you are now working in an virtual environment, the prompt of
 your terminal has changed. Now it starts with ``(onapdocs)``.
@@ -396,9 +441,18 @@ your terminal has changed. Now it starts with ``(onapdocs)``.
 .. important:: Now you are installing packages only for the 'onapdocs' virtual
    environment.
 
+..
+   .. code-block:: bash
+   
+      pip3 install wheel \
+                   sphinxcontrib-spelling \
+                   pyenchant
+   
+
 .. code-block:: bash
 
-   pip3 install wheel
+   sudo pip3 install wheel
+
 
 Continue with the installation of required packages. Use the file
 ``requirements-docs.txt`` for it. The file resides in the downloaded ``doc``
@@ -406,8 +460,7 @@ repository.
 
 .. code-block:: bash
 
-   cd ~/environments/onapdocs
-   sudo pip install -r doc/etc/requirements-docs.txt
+   sudo pip3 install -r doc/etc/requirements-docs.txt
 
 -------------------------------------------------------------------------------
 
@@ -462,6 +515,12 @@ or use the keyboard shortcut ``[Ctrl+Shift+X]``. Then enter the name of the
 extension in the :guilabel:`Search Extensions in Marketplace` window.
 Press :guilabel:`Install` if you have found the required extension.
 
+.. important:: You will experience, that VSC asks you to install additional
+   components (e.g. the Esbonio Language Server, Trond Snekvik
+   reStructuredText Syntax Highlighting). It is important to allow VSC the
+   installation!
+
+
 Please install ...
 
 +---------------------------------------+--------------------------------------+-------------+
@@ -471,17 +530,12 @@ Please install ...
 +---------------------------------------+--------------------------------------+-------------+
 | lextudio.restructuredtext             | reStructuredText                     | v189.1.0    |
 +---------------------------------------+--------------------------------------+-------------+
-| trond-snekvik.simple-rst              | reStructuredText Syntax highlighting | v1.5.2      |
-+---------------------------------------+--------------------------------------+-------------+
 | eamodio.gitlens                       | GitLens                              | v12.2.1     |
 +---------------------------------------+--------------------------------------+-------------+
 | streetsidesoftware.code-spell-checker | Code Spell Checker                   | v2.7.2      |
 +---------------------------------------+--------------------------------------+-------------+
 
 Close VSC and restart it using the ``code .`` command.
-
-You may experience, that VSC asks you to install additional components
-(e.g. the Esbonio Language Server). Please allow VSC to install them.
 
 Configure reStructuredText extension
 ------------------------------------
@@ -496,19 +550,23 @@ all the parameters.
 
 We need to change values for ...
 
-``Restructuredtext › Linter › Doc8: Executable Path``
+.. list-table::
+    :header-rows: 0
 
-``Restructuredtext › Linter › Rst-lint: Executable Path``
-
-``Restructuredtext › Linter › Rstcheck: Executable Path``
-
-``Esbonio › Sphinx: Build Dir``
-
-``Esbonio › Sphinx: Conf Dir``
-
-``Esbonio › Sphinx: Src Dir``
-
-``Restructuredtext: Styles``
+    * - Restructuredtext › Linter › Doc8: Executable Path
+      - Points to doc8 executable
+    * - Restructuredtext › Linter › Rst-lint: Executable Path
+      - Points to doc8 executable
+    * - Restructuredtext › Linter › Rstcheck: Executable Path
+      - Points to doc8 executable
+    * - Esbonio › Sphinx: Build Dir
+      - Directory to store Sphinx's build output
+    * - Esbonio › Sphinx: Conf Dir
+      - Directory containing 'conf.py' file
+    * - Esbonio › Sphinx: Src Dir
+      - Directory containing rst source files
+    * - Restructuredtext: Styles
+      - Paths to CSS style sheets for preview
 
 
 .. important:: Ensure that you are changing parameters in :guilabel:`User`
@@ -534,15 +592,14 @@ the listed values:
       - /usr/bin/doc8
     * - restructuredtext.linter.rstcheck.executablePath
       - /usr/bin/doc8
-    * - restructuredtext.styles
-      - /usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css
     * - esbonio.sphinx.buildDir
       - ${workspaceFolder}/_build/html
     * - esbonio.sphinx.confDir
       - ${workspaceFolder}
     * - esbonio.sphinx.srcDir
       - ${workspaceFolder}
-
+    * - restructuredtext.styles
+      - /usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css
 
 Close the :guilabel:`Extension Settings` window.
 
@@ -553,17 +610,18 @@ should now include the following entries:
 
 .. code-block:: bash
 
-    "telemetry.telemetryLevel": "off",
-    "restructuredtext.linter.doc8.executablePath": "/usr/bin/doc8",
-    "restructuredtext.linter.rst-lint.executablePath": "/usr/bin/doc8",
-    "restructuredtext.linter.rstcheck.executablePath": "/usr/bin/doc8",
-    "restructuredtext.styles": [
-     /usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css
-    ]
-    "esbonio.sphinx.buildDir": "${workspaceFolder}/_build/html",
-    "esbonio.sphinx.confDir": "${workspaceFolder}",
-    "esbonio.sphinx.srcDir": "${workspaceFolder}"
-
+   {
+       "telemetry.telemetryLevel": "off",
+       "restructuredtext.linter.doc8.executablePath": "/usr/bin/doc8",
+       "restructuredtext.linter.rst-lint.executablePath": "/usr/bin/doc8",
+       "restructuredtext.linter.rstcheck.executablePath": "/usr/bin/doc8",
+       "esbonio.sphinx.buildDir": "${workspaceFolder}/_build/html",
+       "esbonio.sphinx.confDir": "${workspaceFolder}",
+       "esbonio.sphinx.srcDir": "${workspaceFolder}", 
+       "restructuredtext.styles": [
+         "/usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css"
+       ]
+   }
 
 -------------------------------------------------------------------------------
 
@@ -601,6 +659,21 @@ Now select :guilabel:`Preview To The Side` (the |Preview| symbol on the top
 right) or use keyboard shortcut ``[Ctrl+k Ctrl+r]`` to open the preview window
 on the right hand side. This may take a few seconds. The preview shows up and
 renders the ``index.rst`` as it would look like on ReadTheDocs.
+
+Build documentation locally
+---------------------------
+
+To build documentation locally use the ``tox`` command, check the output for
+error messages and check the files using your favorite browser. 
+
+.. code-block:: bash
+
+    cd ~/environments/onapdocs/doc
+    tox
+    ... (checks are executed, docs are build, check logging output) ...
+    cd docs/_build/html
+    firefox ./index.html
+
 
 Tips and Tricks
 ---------------
@@ -795,6 +868,7 @@ Backlog
 There are still some open topics or issues in this guide. They are subject
 for one of the upcoming releases.
 
+ - fix issues with virtual environments using different python versions
  - consider ``pandoc`` in this guide?
  - keyboard shortcut ``[Ctrl+Shift+X]`` or :kbd:`Ctrl` + :kbd:`Shift` +
    :kbd:`X` Is this a problem in the RTD theme?
