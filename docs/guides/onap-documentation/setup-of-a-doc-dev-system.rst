@@ -42,7 +42,7 @@ Release Relevance
    11.x.x (Kohn)
 
 Last Review/Update
-   2022/10/18
+   2022/10/20
 
 Initial Release
    2021/12/05
@@ -247,7 +247,7 @@ Install python3 related packages with ...
                        libssl-dev \
                        libffi-dev \
                        python3-dev \
-                       python3-virtualenv
+                       python3-venv
 
 
 Check the python3 version with ...
@@ -372,7 +372,7 @@ the virtual environment ``onapdocs`` is created. The full path is consequently
 
 ..
    .. code-block:: bash
-   
+
       cd ~
       mkdir environments
       cd ~/environments
@@ -444,15 +444,15 @@ your terminal has changed. Now it starts with ``(onapdocs)``.
 
 ..
    .. code-block:: bash
-   
-      pip3 install wheel \
-                   sphinxcontrib-spelling \
-                   pyenchant
-   
+
+      pip install wheel \
+                  sphinxcontrib-spelling \
+                  pyenchant
+ 
 
 .. code-block:: bash
 
-   sudo pip3 install wheel
+   pip install wheel
 
 
 Continue with the installation of required packages. Use the file
@@ -461,7 +461,7 @@ repository.
 
 .. code-block:: bash
 
-   sudo pip3 install -r doc/etc/requirements-docs.txt
+   pip install -r doc/etc/requirements-docs.txt
 
 -------------------------------------------------------------------------------
 
@@ -549,25 +549,15 @@ extension press :guilabel:`Manage` (the little |GearSymb| symbol on the right
 bottom) and select :guilabel:`Extension Settings`. A new windows in VSC shows
 all the parameters.
 
-We need to change values for ...
+Values for the following parameters need to be changed:
 
-.. list-table::
-    :header-rows: 0
-
-    * - Restructuredtext › Linter › Doc8: Executable Path
-      - Points to doc8 executable
-    * - Restructuredtext › Linter › Rst-lint: Executable Path
-      - Points to doc8 executable
-    * - Restructuredtext › Linter › Rstcheck: Executable Path
-      - Points to doc8 executable
-    * - Esbonio › Sphinx: Build Dir
-      - Directory to store Sphinx's build output
-    * - Esbonio › Sphinx: Conf Dir
-      - Directory containing 'conf.py' file
-    * - Esbonio › Sphinx: Src Dir
-      - Directory containing rst source files
-    * - Restructuredtext: Styles
-      - Paths to CSS style sheets for preview
+- Restructuredtext › Linter › Doc8: Executable Path
+- Restructuredtext › Linter › Rst-lint: Executable Path
+- Restructuredtext › Linter › Rstcheck: Executable Path
+- Esbonio › Sphinx: Build Dir
+- Esbonio › Sphinx: Conf Dir
+- Esbonio › Sphinx: Src Dir
+- Restructuredtext: Styles
 
 
 .. important:: Ensure that you are changing parameters in :guilabel:`User`
@@ -769,6 +759,12 @@ Install this simple editor with ...
 .. code-block:: bash
 
    sudo apt install -y retext
+
+Ubuntu Restricted Extras
+------------------------
+
+If you experience problems during playback of some audio or video formats on
+your system, please check the ``ubuntu-restricted-extras`` package.
 
 -------------------------------------------------------------------------------
 
