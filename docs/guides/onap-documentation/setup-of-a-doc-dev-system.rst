@@ -42,19 +42,13 @@ Release Relevance
    11.x.x (Kohn)
 
 Last Review/Update
-   2022/10/20
+   2022/10/24
 
 Initial Release
    2021/12/05
 
 Author (Company)
    Thomas Kulik (Deutsche Telekom AG)
-
--------------------------------------------------------------------------------
-
-.. warning:: There are known issues with the build and preview function in
-             Vscode. This guide gets updated when a solution of the problem is
-             available. Please excuse any inconvenience.
 
 -------------------------------------------------------------------------------
 
@@ -223,11 +217,8 @@ and add ``<USER> ALL=(ALL) NOPASSWD:ALL`` to the end of the file. Replace
 
 Install python3 related packages
 ================================
-..
-   .. important:: The main python3 package is preinstalled in Ubuntu. But please
-      ensure that python version 3.8 is also available on your system.
 
-.. important:: The main python3 package is preinstalled in Ubuntu
+.. important:: The main python3 package comes preinstalled with Ubuntu
 
 Open a :guilabel:`Terminal` window and update the package management system
 with ...
@@ -255,18 +246,6 @@ Check the python3 version with ...
 .. code-block:: bash
 
    python3 -V
-
-..
-   Install additional python version 3.8 and utils with ...
-
-   .. code-block:: bash
- 
-      sudo apt install software-properties-common -y
-      sudo add-apt-repository ppa:deadsnakes/ppa -y
-      sudo apt update
-      sudo apt install -y python3.8
-      sudo apt install -y python3.8-distutils
-
 
 -------------------------------------------------------------------------------
 
@@ -359,40 +338,20 @@ Replace ``<GIT-EMAIL>`` and ``<GIT-USER>`` with your account details.
 
 -------------------------------------------------------------------------------
 
-Create virtual environment and activate
-=======================================
+Create working directory
+========================
 
-In this guide, virtual environments are generally located in your home
-directory under ``~/environments``. For the development of ONAP documentation
-the virtual environment ``onapdocs`` is created. The full path is consequently
-``~/environments/onapdocs``. 
-
-.. important:: Currently an environment with python version 3.8 is required to
-   build docs properly.
-
-..
-   .. code-block:: bash
-
-      cd ~
-      mkdir environments
-      cd ~/environments
-      virtualenv -p /usr/bin/python3.8 onapdocs
-      cd ~/environments/onapdocs
-      source bin/activate
-
+Create the working directory ``onapdocs`` in your home directory together with
+a directory ``repos`` directory to store various projects and versions. The
+full path is consequently ``~/onapdocs/repos``. 
 
 .. code-block:: bash
 
    cd ~
-   mkdir environments
-   cd ~/environments
-   python3 -m venv onapdocs
-   cd ~/environments/onapdocs
-   source bin/activate
-
-
-To indicate that you are now working in an virtual environment, the prompt of
-your terminal has changed. Now it starts with ``(onapdocs)``.
+   mkdir onapdocs
+   cd onapdocs
+   mkdir repos
+   cd repos
 
 -------------------------------------------------------------------------------
 
@@ -407,7 +366,7 @@ Linux Foundation (LF) account with ...
 
 .. code-block:: bash
 
-   cd ~/environments/onapdocs
+   cd ~/onapdocs/repos
    git clone --branch master https://git.onap.org/doc/ ./doc
 
 -------------------------------------------------------------------------------
@@ -420,40 +379,19 @@ Clone repo
 
 .. code-block:: bash
 
-   cd ~/environments/onapdocs
+   cd ~/onapdocs/repos
    git clone ssh://<GIT-USER>@gerrit.onap.org:29418/doc
 
 -------------------------------------------------------------------------------
 
-Install required Sphinx packages in activated environment
-=========================================================
+Install required Sphinx packages
+================================
 
-It is :strong:`important` to work in the ``onapdocs`` virtual environment. If
-not already done, activate environment with ...
-
-.. code-block:: bash
-
-   cd ~/environments/onapdocs
-   source bin/activate
-
-To indicate that you are now working in an virtual environment, the prompt of
-your terminal has changed. Now it starts with ``(onapdocs)``.
-
-.. important:: Now you are installing packages only for the 'onapdocs' virtual
-   environment.
-
-..
-   .. code-block:: bash
-
-      pip install wheel \
-                  sphinxcontrib-spelling \
-                  pyenchant
- 
+Install with ...
 
 .. code-block:: bash
 
-   pip install wheel
-
+   sudo pip install wheel
 
 Continue with the installation of required packages. Use the file
 ``requirements-docs.txt`` for it. The file resides in the downloaded ``doc``
@@ -461,14 +399,14 @@ repository.
 
 .. code-block:: bash
 
-   pip install -r doc/etc/requirements-docs.txt
+   sudo pip install -r doc/etc/requirements-docs.txt
 
 -------------------------------------------------------------------------------
 
 Start VSC in the correct directory
 ==================================
 
-Start VSC (always) in the ``docs`` directory of your repository. For the
+Start VSC (always) in the ``docs`` directory of your repository. For the cloned
 ``doc`` repository used in this example do this with ...
 
 .. code-block:: bash
@@ -478,7 +416,7 @@ Start VSC (always) in the ``docs`` directory of your repository. For the
 
 .. important:: Don't forget the ``.`` (dot) when you start Visual Studio Code.
 
-.. tip:: ``~/environments/onapdocs/doc/docs`` is now your
+.. tip:: ``~/onapdocs/repos/doc/docs`` is now your
    ``${workspaceFolder}`` because you have started VSC (``code .``) from here!
 
 -------------------------------------------------------------------------------
@@ -522,19 +460,35 @@ Press :guilabel:`Install` if you have found the required extension.
    installation!
 
 
-Please install ...
+Please manually install ...
+
++---------------------------------------+--------------------+------------+
+| IDENTIFIER (search)                   | NAME               | TESTED     |
++=======================================+====================+============+
+| ms-python.python                      | Python             | v2022.16.1 |
++---------------------------------------+--------------------+------------+
+| lextudio.restructuredtext             | reStructuredText   | v189.1.0   |
++---------------------------------------+--------------------+------------+
+| eamodio.gitlens                       | GitLens            | v13.0.3    |
++---------------------------------------+--------------------+------------+
+| streetsidesoftware.code-spell-checker | Code Spell Checker | v2.10.1    |
++---------------------------------------+--------------------+------------+
+| esbenp.prettier-vscode                | Prettier           | v9.9.0     |
++---------------------------------------+--------------------+------------+
+
+Together with the above extensions, the following software is automatically
+installed ...
 
 +---------------------------------------+--------------------------------------+-------------+
 | IDENTIFIER (search)                   | NAME                                 | TESTED      |
 +=======================================+======================================+=============+
-| ms-python.python                      | Python                               | v2022.14.0  |
+| ms-python.vscode-pylance              | Pylance                              | v2022.10.30 |
 +---------------------------------------+--------------------------------------+-------------+
-| lextudio.restructuredtext             | reStructuredText                     | v189.1.0    |
+| several Jupyter Extensions            | Jupyter ...                          | ...         |
 +---------------------------------------+--------------------------------------+-------------+
-| eamodio.gitlens                       | GitLens                              | v12.2.1     |
+| snekvik.simple-rst                    | reStructuredText Syntax highlighting | v1.5.2      |
 +---------------------------------------+--------------------------------------+-------------+
-| streetsidesoftware.code-spell-checker | Code Spell Checker                   | v2.7.2      |
-+---------------------------------------+--------------------------------------+-------------+
+
 
 Close VSC and restart it using the ``code .`` command.
 
@@ -555,8 +509,6 @@ Values for the following parameters need to be changed:
 - Restructuredtext › Linter › Rst-lint: Executable Path
 - Restructuredtext › Linter › Rstcheck: Executable Path
 - Esbonio › Sphinx: Build Dir
-- Esbonio › Sphinx: Conf Dir
-- Esbonio › Sphinx: Src Dir
 - Restructuredtext: Styles
 
 
@@ -584,13 +536,9 @@ the listed values:
     * - restructuredtext.linter.rstcheck.executablePath
       - /usr/bin/doc8
     * - esbonio.sphinx.buildDir
-      - ${workspaceFolder}/_build/html
-    * - esbonio.sphinx.confDir
-      - ${workspaceFolder}
-    * - esbonio.sphinx.srcDir
-      - ${workspaceFolder}
+      - ${workspaceFolder}/_build
     * - restructuredtext.styles
-      - /usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css
+      - "/usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css"
 
 Close the :guilabel:`Extension Settings` window.
 
@@ -606,9 +554,7 @@ should now include the following entries:
        "restructuredtext.linter.doc8.executablePath": "/usr/bin/doc8",
        "restructuredtext.linter.rst-lint.executablePath": "/usr/bin/doc8",
        "restructuredtext.linter.rstcheck.executablePath": "/usr/bin/doc8",
-       "esbonio.sphinx.buildDir": "${workspaceFolder}/_build/html",
-       "esbonio.sphinx.confDir": "${workspaceFolder}",
-       "esbonio.sphinx.srcDir": "${workspaceFolder}", 
+       "esbonio.sphinx.buildDir": "${workspaceFolder}/_build",
        "restructuredtext.styles": [
          "/usr/local/lib/python3.10/dist-packages/sphinx_rtd_theme/static/css/theme.css"
        ]
@@ -659,7 +605,7 @@ error messages and check the files using your favorite browser.
 
 .. code-block:: bash
 
-    cd ~/environments/onapdocs/doc
+    cd ~/onapdocs/repos/doc
     tox
     ... (checks are executed, docs are build, check logging output) ...
     cd docs/_build/html
@@ -865,7 +811,7 @@ Backlog
 There are still some open topics or issues in this guide. They are subject
 for one of the upcoming releases.
 
- - fix issues with virtual environments using different python versions
+ - fix issues with virtual environments using different python versions in VCS
  - consider ``pandoc`` in this guide?
  - keyboard shortcut ``[Ctrl+Shift+X]`` or :kbd:`Ctrl` + :kbd:`Shift` +
    :kbd:`X` Is this a problem in the RTD theme?
