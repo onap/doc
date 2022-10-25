@@ -42,7 +42,7 @@ Release Relevance
    11.x.x (Kohn)
 
 Last Review/Update
-   2022/10/24
+   2022/10/25
 
 Initial Release
    2021/12/05
@@ -92,8 +92,8 @@ VM Configuration
 .. note:: This section is for information only and should not be understood as
           a requirement.
 
-Ubuntu Image
-------------
+Ubuntu Image Used
+-----------------
 
 +--------------------------------------+
 | ubuntu-22.04.1-desktop-amd64.iso     |
@@ -258,6 +258,7 @@ Install the required packages with ...
 
    sudo apt install -y git \
                        git-review \
+                       python-wheel-common \
                        python3-sphinx \
                        python3-doc8 \
                        docutils \
@@ -392,15 +393,8 @@ Install required Sphinx packages
    and conflicting behaviour with the system package manager*". We try to avoid
    this installation method in a later version of this guide.
 
-Install required Sphinx packages with ...
-
-.. code-block:: bash
-
-   sudo pip install wheel
-
-Continue with the installation of required packages. Use the file
-``requirements-docs.txt`` for it. The file resides in the downloaded ``doc``
-repository.
+Install required Sphinx packages using the file ``requirements-docs.txt`` as an
+input. The file resides in the downloaded ``doc`` repository.
 
 .. code-block:: bash
 
