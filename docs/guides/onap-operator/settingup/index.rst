@@ -19,7 +19,6 @@ The recommended ONAP deployment can be deployed on a private set of physical
 hosts or VMs (or even a combination of the two) and is based on Kubernetes,
 Docker containers and Helm installer.
 
-
 Requirements
 ------------
 
@@ -32,8 +31,7 @@ OOM requires the following  Software components.
 
 The Software versions needed for the specific ONAP release
 as well as the minimum Hardware configuration can be found in the
-:ref:`OOM Cloud Setup Guide<onap-oom:oom_cloud_setup_guide>`
-
+:ref:`OOM Infrastructure Setup Guide<onap-oom:oom_infra_setup_guide>`
 
 Installation
 ------------
@@ -43,8 +41,6 @@ Creation of Kubernetes cluster is described here:
 .. toctree::
    :maxdepth: 2
    :titlesonly:
-
-:ref:`OOM Cloud Setup Guide<onap-oom:oom_cloud_setup_guide>`
 
 :ref:`ONAP on HA Kubernetes Cluster<onap-oom:onap-on-kubernetes-with-rancher>`
 
