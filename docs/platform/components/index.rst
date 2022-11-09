@@ -171,8 +171,8 @@ OOM - ONAP Operations Manager
      - Documentation
    * - :ref:`oom<onap-oom:master_index>`
      - ONAP Operations Manager
-   * - :ref:`oom/offline-installer<onap-oom-offline-installer:master_index>`
-     - OOM Offline Installer
+   * - :ref:`oom/platform/cert-service<onap-oom-platform-cert-service:master_index>`
+     - OOM Certification Service
 
 OOF - Optimization Framework
 ----------------------------
