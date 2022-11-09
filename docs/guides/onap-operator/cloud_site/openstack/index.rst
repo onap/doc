@@ -21,6 +21,32 @@ In this guideline the following parameters/values will be used
 * Region Name: ONAPCloudRegionName
 * Openstack Tenant Region Value: TenantRegion
 * Cloud Owner: MyCompanyName
+* Openstack Cloud User: e.g. admin
+* Openstack Password: needs to be encrypted (see instructions below)
+
+Encrypt Openstack Password for SO
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The SO Encrypted Password uses a java based encryption utility since the
+Java encryption library is not easy to integrate with openssl/python that
+Robot uses in Dublin and upper versions.
+
+.. note::
+  To generate SO encrypted password you need to have the OOM project cloned and
+  ensure `default-jdk` is installed::
+
+    apt-get update; apt-get install default-jdk
+
+  Then execute::
+
+    SO_ENCRYPTION_KEY=`cat ~/oom/kubernetes/so/resources/config/mso/encryption.key`
+    OS_PASSWORD=XXXX_OS_CLEARTESTPASSWORD_XXXX
+
+    git clone http://gerrit.onap.org/r/integration
+    cd integration/deployment/heat/onap-rke/scripts
+
+    javac Crypto.java
+    java Crypto "$OS_PASSWORD" "$SO_ENCRYPTION_KEY"
 
 
 Method 1 : without ONAP MultiCloud
@@ -96,6 +122,7 @@ Check status of https://jira.onap.org/projects/MULTICLOUD/issues/MULTICLOUD-970
   USE catalogdb
 
   # First option: Without using ORCHESTRATOR VALUE set to multicloud
+  # (use Openstack credentials - username, encrypted password)
   INSERT INTO identity_services VALUES('MC_KEYSTONE', 'http://msb-iag.onap:80/api/multicloud/v1/MyCompanyName/ONAPCloudRegionName/identity/v2.0', 'admin', '5b6f369745f5f0e1c61da7f0656f3daf93c8030a2ea94b7964c67abdcfb49bdf2fa2266344b4caaca1eba8264d277831', 'service', 'admin', 1, 'KEYSTONE', 'USERNAME_PASSWORD', 'lastUser', '2019-07-05 10:32:00', '2019-07-05 10:32:00','PROJECT_DOMAIN_NAME','USER_DOMAIN_NAME');
   INSERT INTO cloud_sites VALUES('ONAPCloudRegionName', 'TenantRegion', 'MC_KEYSTONE', 2.5, 'ONAPCloudRegionName', NULL, NULL, NULL, 'MySelf', '2019-07-05 10:32:00', '2019-07-05 10:32:00');
 
@@ -103,12 +130,6 @@ Check status of https://jira.onap.org/projects/MULTICLOUD/issues/MULTICLOUD-970
   INSERT INTO cloud_sites(ID, REGION_ID, IDENTITY_SERVICE_ID, CLOUD_VERSION, CLLI, ORCHESTRATOR) values("ONAPCloudRegionName", "ONAPCloudRegionName", "DEFAULT_KEYSTONE", "2.5", "My_Complex", "multicloud");
 
 
-**Known restriction with second option**
-
-See the following tickets:
-
-* `MULTICLOUD-846 <https://jira.onap.org/browse/MULTICLOUD-846>`_
-* `MULTICLOUD-866 <https://jira.onap.org/browse/MULTICLOUD-866>`_
 
 ONAP SO VNF Adapter Rest API endpoint version shall be set to version "v2"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
