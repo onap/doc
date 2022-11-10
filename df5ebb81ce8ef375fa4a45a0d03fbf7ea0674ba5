@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "094ba992_0f7c8c04",
+        "filename": "docs/guides/onap-operator/settingup/index.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2022-11-10T15:11:05Z",
+      "side": 1,
+      "message": "at a line at the end",
+      "range": {
+        "startLine": 50,
+        "startChar": 53,
+        "endLine": 50,
+        "endChar": 54
+      },
+      "revId": "df5ebb81ce8ef375fa4a45a0d03fbf7ea0674ba5",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
