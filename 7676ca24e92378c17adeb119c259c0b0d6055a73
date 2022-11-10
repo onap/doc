@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "33e9006c_0a04fea5",
+        "filename": "docs/guides/onap-operator/settingup/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 4405
+      },
+      "writtenOn": "2022-11-10T18:50:00Z",
+      "side": 1,
+      "message": "I think strimzi and potentially cert manager are also required.\nMight be better to keep this info in 1 place only really. Avoids potential conflicting versions etc in future.",
+      "range": {
+        "startLine": 30,
+        "startChar": 4,
+        "endLine": 30,
+        "endChar": 8
+      },
+      "revId": "7676ca24e92378c17adeb119c259c0b0d6055a73",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "16da5000_b9a0bfd4",
+        "filename": "docs/guides/onap-operator/settingup/index.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 4405
+      },
+      "writtenOn": "2022-11-10T18:50:00Z",
+      "side": 1,
+      "message": "Text is a bit off",
+      "range": {
+        "startLine": 45,
+        "startChar": 10,
+        "endLine": 45,
+        "endChar": 28
+      },
+      "revId": "7676ca24e92378c17adeb119c259c0b0d6055a73",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
