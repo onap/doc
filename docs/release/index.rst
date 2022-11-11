@@ -30,7 +30,7 @@ Kohn Major Release 11.0.0
 +-----------------------------------+-----------------------------------------+
 | **Release version**               | 11.0.0                                  |
 +-----------------------------------+-----------------------------------------+
-| **Release date**                  | not released yet                        |
+| **Release date**                  | 2022, December 1st                      |
 +-----------------------------------+-----------------------------------------+
 
 Features
@@ -243,9 +243,9 @@ ONAP has adopted the `OpenSSF Best Practice Badge Program <https://bestpractices
 
 In the Kohn release,
 
-- <TODO:Add number>% projects passed 90% of the OpenSSF badge
-- <TODO:Add number>% passed the OpenSSF badge
-- <TODO:Add number>% projects passed the OpenSSF Silver badge
+- 100% projects passed 90% of the OpenSSF badge
+- 86% passed the OpenSSF badge
+- 11% projects passed the OpenSSF Silver badge
 
 Project specific details are in the :ref:`release notes<component-release-notes>`
 for each component.

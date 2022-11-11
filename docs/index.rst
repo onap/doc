@@ -52,8 +52,7 @@ Please find some guidance here on the content of ONAP documentation:
  |                                                                                 | Guides. You can search among the developers’ topics in alphabetical order.                    |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`Documentation Guides <ONAP_documentation_guides>`                         | People interested in the creation of ONAP documentation can find crucial information in the   |
- |                                                                                 | ONAP Documentation Guide. Currently some content resides also in the Developer Guide. This is |
- |                                                                                 | subject to be reviewed, updated and migrated to the ONAP Documentation Guide.                 |
+ |                                                                                 | ONAP Documentation Guide.                                                                     |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`ONAP Security <onap-security-index>`                                      | The current state of ONAP Security is described here. You can learn about discovered and fixed|
  |                                                                                 | vulnerabilities.                                                                              |
