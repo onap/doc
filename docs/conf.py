@@ -1,6 +1,6 @@
 project = "onap"
-release = "master"
-version = "master"
+release = "kohn"
+version = "kohn"
 
 author = "Open Network Automation Platform"
 # yamllint disable-line rule:line-length
@@ -31,7 +31,7 @@ extensions = [
 # Change to {releasename} after you have created the new 'doc' branch.
 #
 
-branch = 'latest'
+branch = 'kohn'
 
 intersphinx_mapping = {}
 doc_url = 'https://docs.onap.org/projects'
@@ -42,7 +42,7 @@ intersphinx_mapping['onap-aai-sparky-be'] = ('{}/onap-aai-sparky-be/en/%s'.forma
 intersphinx_mapping['onap-ccsdk-apps'] = ('{}/onap-ccsdk-apps/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-cds'] = ('{}/onap-ccsdk-cds/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-distribution'] = ('{}/onap-ccsdk-distribution/en/%s'.format(doc_url) % branch, None)
-intersphinx_mapping['onap-ccsdk-features'] = ('{}/onap-ccsdk-features/en/%s'.format(doc_url) % branch, None)
+#intersphinx_mapping['onap-ccsdk-features'] = ('{}/onap-ccsdk-features/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-ccsdk-oran'] = ('{}/onap-ccsdk-oran/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-cli'] = ('{}/onap-cli/en/%s'.format(doc_url) % branch, None)
 intersphinx_mapping['onap-cps'] = ('{}/onap-cps/en/%s'.format(doc_url) % branch, None)
