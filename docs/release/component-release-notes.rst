@@ -61,7 +61,7 @@ INT - Integration
 MODELING - Modeling
 -------------------
 - :ref:`modeling/etsicatalog <onap-modeling-etsicatalog:release_notes>`
-- :ref:`modeling/modelspec <onap-modeling-modelspec:release_notes>`
+- : r e f :`modeling/modelspec <onap-modeling-modelspec:release_notes>`
 
 MSB - Microservices Bus
 -----------------------
