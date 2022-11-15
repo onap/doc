@@ -27,10 +27,10 @@ extensions = [
 
 #
 # Map to 'latest' if this file is used in 'latest' (master) 'doc' branch.
-# Change to {releasename} after you have created the new 'doc' branch.
+# Change to {release} after you have created the new 'doc' branch.
 #
 
-branch = 'latest'
+branch = '{release}'
 
 intersphinx_mapping = {}
 doc_url = 'https://docs.onap.org/projects'
