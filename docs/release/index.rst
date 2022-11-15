@@ -221,7 +221,7 @@ Tests & Integration
 
 .. important::
    Some non-functional requirements are not fully finalized. Please, check details
-   on the :doc:`Integration<usecases/release_non_functional_requirements>`
+   on the :ref:`Integration <release_non_functional_requirements>`
 
 Documentation Sources
 ---------------------
