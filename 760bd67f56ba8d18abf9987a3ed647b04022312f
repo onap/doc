@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "44f3e8db_7c46f1d1",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2022-11-17T09:34:14Z",
+      "side": 1,
+      "message": "please remove",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 3
+      },
+      "revId": "760bd67f56ba8d18abf9987a3ed647b04022312f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
