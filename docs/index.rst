@@ -23,7 +23,7 @@ Please find some guidance here on the content of ONAP documentation:
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | Documentation areas                                                             | Description                                                                                   |
  +=================================================================================+===============================================================================================+
- | :ref:`ONAP 'Jakarta' Release Notes <onap-release-notes>`                        | The Release Notes are providing general information about the ONAP release and recent changes,|
+ | :ref:`ONAP 'Kohn' Release Notes <onap-release-notes>`                           | The Release Notes are providing general information about the ONAP release and recent changes,|
  |                                                                                 | feature enhancements, or bug fixes.                                                           |
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
  | :ref:`Component Release Notes <component-release-notes>`                        | The Component Release Notes are providing project specific information about recent changes,  |
