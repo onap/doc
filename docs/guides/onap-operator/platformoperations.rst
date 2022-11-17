@@ -40,30 +40,6 @@ functions
 
 :doc:`RobotFramework<onap-integration:docs_robot>`
 
-**Interface Health can be checked via Consul:**
-
-   OOM provides two mechanisms to monitor the real-time health of an ONAP
-   deployment
-
-    * a Consul GUI for a human operator or downstream monitoring systems
-      and Kubernetes liveness probes that enable automatic healing of
-      failed containers, and
-    * a set of liveness probes which feed into the Kubernetes manager
-
-   Within ONAP, Consul is the monitoring system of choice and deployed
-   by OOM in two parts:
-
-    * a three-way, centralized Consul server cluster is deployed as a
-      highly available monitor of all of the ONAP components, and a number
-      of Consul agents.
-
-   The Consul server provides a user interface that allows a user to
-   graphically view the current health status of all of the ONAP components
-   for which agents have been created
-
-   The Consul GUI can be accessed via http AT
-
-   <kubernetes IP>:30270/ui/
 
 ONAP Backup and Restore
 -----------------------
