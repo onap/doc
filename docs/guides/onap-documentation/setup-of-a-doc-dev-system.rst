@@ -95,9 +95,10 @@ VM Configuration
 Ubuntu Image Used
 -----------------
 
-+--------------------------------------+
-| ubuntu-22.04.1-desktop-amd64.iso     |
-+--------------------------------------+
++---------------------------------------------------------------------------+
+| `ubuntu-22.04.1-desktop-amd64.iso                                         |
+| <https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-desktop-amd64.iso>`__ |
++---------------------------------------------------------------------------+
 
 Please check what image must be used for your type of hardware.
 
@@ -225,20 +226,16 @@ with ...
 
 .. code-block:: bash
 
-   cd ~
    sudo apt update
    sudo apt -y upgrade
 
-Install python3 related packages with ...
+Install Sphinx related packages with ...
 
 .. code-block:: bash
 
-   sudo apt install -y python3-pip \
-                       build-essential \
-                       libssl-dev \
-                       libffi-dev \
-                       python3-dev \
-                       python3-venv
+   sudo apt install -y python3-sphinx python3-sphinxcontrib.blockdiag \
+      python3-sphinxcontrib.seqdiag python3-sphinxcontrib.spelling \
+      python3-sphinxcontrib.plantuml python3-sphinx-rtd-theme
 
 
 Check the python3 version with ...
@@ -256,16 +253,7 @@ Install the required packages with ...
 
 .. code-block:: bash
 
-   sudo apt install -y git \
-                       git-review \
-                       python-wheel-common \
-                       python3-sphinx \
-                       python3-doc8 \
-                       graphviz \
-                       docutils \
-                       curl \
-                       tox \
-                       jq
+   sudo apt install -y git git-review tox pylint
 
 
 Check git version and the path of the sphinx-build executable with ...
@@ -349,11 +337,7 @@ consequently ``~/onapdocs/repos``.
 
 .. code-block:: bash
 
-   cd ~
-   mkdir onapdocs
-   cd onapdocs
-   mkdir repos
-   cd repos
+   mkdir -p ~/onapdocs/repos
 
 -------------------------------------------------------------------------------
 
@@ -369,7 +353,7 @@ Linux Foundation (LF) account with ...
 .. code-block:: bash
 
    cd ~/onapdocs/repos
-   git clone --branch master https://git.onap.org/doc/ ./doc
+   git clone https://git.onap.org/doc/
 
 -------------------------------------------------------------------------------
 
@@ -399,7 +383,7 @@ input. The file resides in the downloaded ``doc`` repository.
 
 .. code-block:: bash
 
-   sudo pip install -r doc/etc/requirements-docs.txt
+   pip install -r ~/onapdocs/repos/doc/etc/requirements-docs.txt
 
 -------------------------------------------------------------------------------
 
@@ -469,10 +453,6 @@ Please manually install ...
 | lextudio.restructuredtext             | reStructuredText   | v189.1.0   |
 +---------------------------------------+--------------------+------------+
 | eamodio.gitlens                       | GitLens            | v13.0.3    |
-+---------------------------------------+--------------------+------------+
-| streetsidesoftware.code-spell-checker | Code Spell Checker | v2.10.1    |
-+---------------------------------------+--------------------+------------+
-| esbenp.prettier-vscode                | Prettier           | v9.9.0     |
 +---------------------------------------+--------------------+------------+
 
 Together with the above extensions, the following software is automatically
