@@ -7,8 +7,8 @@
 
 .. _doc_onap-developer_guide_projects:
 
-ONAP Components and Functionalities
-===================================
+Components and Functionalities
+==============================
 Here you will find the detailed documentation of maintained projects,
 ONAP components and functionalities.
 
