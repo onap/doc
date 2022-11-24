@@ -8,8 +8,8 @@
 
 .. _ONAP-architecture:
 
-ONAP Architecture
-=================
+Architecture
+============
 ONAP is a comprehensive platform for orchestration, management, and automation
 of network and edge computing services for network operators, cloud providers,
 and enterprises. Real-time, policy-driven orchestration and automation of
