@@ -59,6 +59,85 @@ Please find some guidance here on the content of ONAP documentation:
  +---------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
 
+
+'Kohn' Release Notes
+--------------------
+
+.. figure:: _static/file.svg
+    :align: left
+    :scale: 250%
+    :figwidth: 40px
+    :target: :ref:`ONAP 'Kohn' Release Notes <onap-release-notes>`
+
+General information about the new ONAP release and recent changes, feature
+enhancements, or bug fixes.
+
+|
+
+Component Release Notes
+-----------------------
+
+.. figure:: _static/files.svg
+    :align: left
+    :scale: 250%
+    :figwidth: 40px
+    :target: www.onap.org
+
+Project specific information about recent changes, features, enhancements, or
+bug fixes.
+
+|
+
+Release History
+---------------
+
+.. figure:: _static/clock-history.svg
+    :align: left
+    :scale: 250%
+    :figwidth: 40px
+    :target: :ref:`ONAP Release History <release-history>`
+
+Names and release dates of previous ONAP releases.
+
+|
+
+Overview
+--------
+
+.. figure:: _static/eye.svg
+    :align: left
+    :scale: 250%
+    :figwidth: 40px
+    :target: :ref:`ONAP Overview <overview>`
+
+Generic and high-level guidance on the mission and main functionalities of
+ONAP. Basic guidelines on license details, limitations and security references
+support understanding the solution.
+
+
+
+Architecture
+------------
+
+.. figure:: _static/columns-gap.svg
+    :align: left
+    :scale: 250%
+    :figwidth: 40px
+    :target: :ref:`ONAP Architecture <ONAP-architecture>`
+
+The ONAP Architecture and its functional elements are described in details
+here. Learn how the two main frameworks, namely the Design-time framework and
+the Run-time framework cooperate and how the Microservices and Common Services
+support certain functions.
+
+
+
+
+
+
+
+
+
 .. toctree::
    :maxdepth: 1
    :hidden:
