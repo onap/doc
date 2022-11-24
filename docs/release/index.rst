@@ -36,7 +36,7 @@ Kohn Major Release 11.0.0
 Features
 --------
 
-ONAP Kohn focusses on:
+ONAP 'Kohn' focusses on:
 
 - Further O-RAN integration with A1 and O1 policy control for SON use cases
 - improved flows for Cloud-Native Network Functions (CNF) orchestration and
