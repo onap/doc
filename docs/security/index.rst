@@ -3,8 +3,8 @@
 
 .. _onap-security-index:
 
-ONAP Security
-=============
+Vulnerabilities and Advisories
+==============================
 
 Reporting Vulnerabilities
 -------------------------

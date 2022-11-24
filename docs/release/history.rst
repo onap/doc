@@ -4,8 +4,8 @@
 
 .. _release-history:
 
-ONAP Release History
---------------------
+Release History
+---------------
 
 ONAP is enhanced with numerous features from release to release. Each release
 is named after a city.

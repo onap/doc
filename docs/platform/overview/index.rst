@@ -4,8 +4,8 @@
 .. Copyright 2019 Nokia; Copyright 2017-2018 Huawei Technologies Co., Ltd.;
 .. Copyright 2017 AT&T Intellectual Property
 
-ONAP Overview
-=============
+Overview
+========
 
 The Open Network Automation Platform (ONAP) project addresses the
 rising need for a **common automation platform for telecommunication, cable,

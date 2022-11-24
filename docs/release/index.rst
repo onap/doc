@@ -5,8 +5,8 @@
 
 .. _onap-release-notes:
 
-ONAP 'Kohn' Release Notes
-============================
+'Kohn' Release Notes
+====================
 
 This page provides the release notes for the ONAP 'Kohn' release. This
 includes details of software versions, known limitations, and outstanding
@@ -36,7 +36,7 @@ Kohn Major Release 11.0.0
 Features
 --------
 
-ONAP Kohn focusses on:
+ONAP 'Kohn' focusses on:
 
 - Further O-RAN integration with A1 and O1 policy control for SON use cases
 - improved flows for Cloud-Native Network Functions (CNF) orchestration and
