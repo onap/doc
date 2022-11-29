@@ -20,8 +20,8 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-Kohn Major Release 11.0.0
--------------------------
+'Kohn' Major Release 11.0.0
+---------------------------
 
 +-----------------------------------+-----------------------------------------+
 | **Project**                       | Open Network Automation Platform (ONAP) |
