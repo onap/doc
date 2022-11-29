@@ -9,7 +9,11 @@
 
 <svg
    sodipodi:docname="onap-architecture-overview-interactive.svg"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
    inkscape:version="1.2.1 (0f2f062aeb, 2022-09-21, custom)"
+=======
+   inkscape:version="1.2.1 (8a69933317, 2022-10-28, custom)"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
    id="svg5"
    version="1.1"
    viewBox="0 0 324.00477 237.0196"
@@ -30,6 +34,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
      inkscape:zoom="2.0000001"
      inkscape:cx="419.49998"
      inkscape:cy="428.24998"
@@ -39,6 +44,17 @@
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer4"
+=======
+     inkscape:zoom="8.0000004"
+     inkscape:cx="838.37496"
+     inkscape:cy="489.81248"
+     inkscape:window-width="3768"
+     inkscape:window-height="2096"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6143"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
      height="190mm"
      showborder="true"
      inkscape:showpageshadow="true"
@@ -111,9 +127,17 @@
            inkscape:label="unmaintained.label"><tspan
              x="135"
              y="237.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
              id="tspan1131"><tspan
+=======
+             id="tspan1169"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0.2645835 -0.26458463"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1129">Unmaintained ONAP Component</tspan></tspan></text>
+=======
+               id="tspan1167">Unmaintained ONAP Component</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       </g>
       <g
          id="g4786-5"
@@ -137,9 +161,17 @@
            inkscape:label="onapcomponents.label"><tspan
              x="135"
              y="237.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
              id="tspan1135"><tspan
+=======
+             id="tspan1173"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458272 0 0.2645829 -0.26458272 0 0 0 0.2645835 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1133">Entirety of ONAP Components</tspan></tspan></text>
+=======
+               id="tspan1171">Entirety of ONAP Components</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       </g>
       <g
          id="g4770"
@@ -163,7 +195,11 @@
            transform="matrix(1.00026,0,0,1,-0.0728097,0)"><tspan
              x="279"
              y="237.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
              id="tspan1137">Operations</tspan></text>
+=======
+             id="tspan1175">Operations</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       </g>
       <g
          id="g4776"
@@ -187,9 +223,17 @@
            transform="matrix(1.00026,0,0,1,-0.0602911,0)"><tspan
              x="231.00195"
              y="237.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
              id="tspan1141"><tspan
+=======
+             id="tspan1179"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0.26458231 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1139">Orchestration &amp; Management</tspan></tspan></text>
+=======
+               id="tspan1177">Orchestration &amp; Management</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       </g>
       <g
          id="g4765"
@@ -212,7 +256,11 @@
            inkscape:label="design.label"><tspan
              x="183"
              y="237.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
              id="tspan1143">Design</tspan></text>
+=======
+             id="tspan1181">Design</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       </g>
       <g
          id="g4781"
@@ -235,9 +283,17 @@
            inkscape:label="colorlegend.label"><tspan
              x="7.0039062"
              y="237.86187"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
              id="tspan1147"><tspan
+=======
+             id="tspan1185"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                dx="0 0 0 0 0 0.26458338 -0.2645832"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1145">Color Legend:</tspan></tspan></text>
+=======
+               id="tspan1183">Color Legend:</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       </g>
     </g>
     <g
@@ -274,10 +330,18 @@
            inkscape:label="managedenvironment.label"><tspan
              x="82.003906"
              y="165.55381"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
              id="tspan1151"><tspan
+=======
+             id="tspan1189"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                dx="0 0 0 0 0 0 0 0.26458254 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1149">Managed Environment</tspan></tspan></text>
+=======
+               id="tspan1187">Managed Environment</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       </g>
       <g
          id="g29902"
@@ -430,10 +494,18 @@
              inkscape:label="hypervisoroslayer.label"><tspan
                x="86.003906"
                y="197.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1155"><tspan
+=======
+               id="tspan1193"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1153">Hypervisor / OS Layer</tspan></tspan></text>
+=======
+                 id="tspan1191">Hypervisor / OS Layer</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g4413"
@@ -455,7 +527,11 @@
              inkscape:label="openstack.label"><tspan
                x="135.00391"
                y="198.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1157">OpenStack</tspan></text>
+=======
+               id="tspan1195">OpenStack</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g4408"
@@ -477,9 +553,17 @@
              inkscape:label="commercialvim.label"><tspan
                x="167.00391"
                y="198.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1161"><tspan
+=======
+               id="tspan1199"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1159">Commercial VIM</tspan></tspan></text>
+=======
+                 id="tspan1197">Commercial VIM</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g4396"
@@ -501,7 +585,11 @@
              inkscape:label="kubernetes.label"><tspan
                x="199.00391"
                y="198.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1163">Kubernetes</tspan></text>
+=======
+               id="tspan1201">Kubernetes</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g4402"
@@ -523,9 +611,17 @@
              inkscape:label="publiccloud.label"><tspan
                x="231.00391"
                y="198.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1167"><tspan
+=======
+               id="tspan1205"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0.2645829 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1165">Public Cloud</tspan></tspan></text>
+=======
+                 id="tspan1203">Public Cloud</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </g>
       <g
@@ -552,10 +648,18 @@
              inkscape:label="networkfunktionlayer.label"><tspan
                x="86.003906"
                y="185.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1171"><tspan
+=======
+               id="tspan1209"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1169">Network Function Layer</tspan></tspan></text>
+=======
+                 id="tspan1207">Network Function Layer</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g2995"
@@ -586,7 +690,11 @@
              transform="translate(-0.26458332,0.26458332)"><tspan
                x="266.74023"
                y="188.7553"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1173">PNF</tspan></text>
+=======
+               id="tspan1211">PNF</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g2907"
@@ -608,7 +716,11 @@
              inkscape:label="vnf.label"><tspan
                x="199.00391"
                y="186.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1175">VNF</tspan></text>
+=======
+               id="tspan1213">VNF</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </g>
       <g
@@ -636,10 +748,18 @@
              inkscape:label="externalsystems.label"><tspan
                x="86.003906"
                y="173.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1179"><tspan
+=======
+               id="tspan1217"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1177">External Systems</tspan></tspan></text>
+=======
+                 id="tspan1215">External Systems</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g4437"
@@ -661,9 +781,17 @@
              inkscape:label="thirdpartycontrollers.label"><tspan
                x="135.00391"
                y="174.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1183"><tspan
+=======
+               id="tspan1221"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1181">3rd Party Controllers</tspan></tspan></text>
+=======
+                 id="tspan1219">3rd Party Controllers</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g4442"
@@ -685,7 +813,11 @@
              inkscape:label="svnfm.label"><tspan
                x="199.00391"
                y="174.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1185">sVNFM</tspan></text>
+=======
+               id="tspan1223">sVNFM</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
         <g
            id="g4447"
@@ -707,7 +839,11 @@
              inkscape:label="ems.label"><tspan
                x="231.00391"
                y="174.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1187">EMS</tspan></text>
+=======
+               id="tspan1225">EMS</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </g>
     </g>
@@ -716,7 +852,11 @@
        inkscape:label="onapborder.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
        xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/architecture/index.html"
+=======
+       xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
        xlink:title="The ONAP architecture consists of functions for the design-time, run-time, for managing ONAP itself and additional utilities.">
       <path
          id="rect55176"
@@ -735,7 +875,11 @@
          inkscape:label="utilities.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
          xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/architecture/onap-architecture.html#id1"
+=======
+         xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
          xlink:title="ONAP utilities provide support of the ONAP components."
          style="display:inline">
         <g
@@ -759,9 +903,17 @@
              inkscape:label="utilities.label"><tspan
                x="12.003906"
                y="161.61826"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1191"><tspan
+=======
+               id="tspan1229"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1189">Utilities</tspan></tspan></text>
+=======
+                 id="tspan1227">Utilities</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <g
@@ -773,7 +925,11 @@
            inkscape:label="onapsharedutilities.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/architecture/onap-architecture.html#id1"
+=======
+           xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
            xlink:title="ONAP shared utilities provide support of the ONAP components."
            style="display:inline">
           <g
@@ -797,10 +953,18 @@
                inkscape:label="onapsharedutilities.label"><tspan
                  x="16.003906"
                  y="173.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1195"><tspan
+=======
+                 id="tspan1233"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0.26458302 -0.26458284 0 0 0 0 0 0.26458207 -0.26458189"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1193">ONAP Shared Utilities</tspan></tspan></text>
+=======
+                   id="tspan1231">ONAP Shared Utilities</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -831,9 +995,17 @@
                inkscape:label="toscaparser.label"><tspan
                  x="17.003906"
                  y="198.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1199"><tspan
+=======
+                 id="tspan1237"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0.26458302 -0.26458368"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1197">TOSCA Parser</tspan></tspan></text>
+=======
+                   id="tspan1235">TOSCA Parser</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -864,9 +1036,17 @@
                inkscape:label="modelutilities.label"><tspan
                  x="17.003906"
                  y="190.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1203"><tspan
+=======
+                 id="tspan1241"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0.26458314 -0.26458368"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1201">Model Utilities</tspan></tspan></text>
+=======
+                   id="tspan1239">Model Utilities</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -899,9 +1079,17 @@
                inkscape:label="ccsdk.label"><tspan
                  x="15.003906"
                  y="190.80913"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1207"><tspan
+=======
+                 id="tspan1245"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0 0.26458433 -0.26458272 0 0 0.26458469 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1205">Common Controller SDK (CCSDK)</tspan></tspan></text>
+=======
+                   id="tspan1243">Common Controller SDK (CCSDK)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
       </g>
@@ -938,10 +1126,18 @@
              inkscape:label="manageonap.label"><tspan
                x="172"
                y="57.551855"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1211"><tspan
+=======
+               id="tspan1249"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0.26458302 -0.2645826"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1209">Manage ONAP</tspan></tspan></text>
+=======
+                 id="tspan1247">Manage ONAP</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <a
@@ -949,7 +1145,11 @@
          inkscape:label="oom.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
          xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/developing/index.html#oom-onap-operations-manager"
+=======
+         xlink:href="https://docs.onap.org/projects/onap-oom/en/latest/index.html"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
          xlink:title="The ONAP Operations Manager (OOM) is responsible for lifecycle management of the ONAP platform itself. OOM provides the ability to manage cloud-native installations and deployments of ONAP to Kubernetes-managed cloud environments."
          transform="translate(-3.9999979,0.06724192)">
         <g
@@ -972,9 +1172,17 @@
              inkscape:label="oom.label"><tspan
                x="267.00391"
                y="55.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1215"><tspan
+=======
+               id="tspan1253"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0.26458302 -0.26458272 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0.26458243 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1213">ONAP Operation Manager (OOM)</tspan></tspan></text>
+=======
+                 id="tspan1251">ONAP Operation Manager (OOM)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
     </g>
@@ -987,7 +1195,11 @@
          inkscape:label="designtime.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
          xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/architecture/onap-architecture.html#design-time-framework"
+=======
+         xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html#design-time-framework"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
          xlink:title="The Design-time framework is a comprehensive development environment with tools, techniques and repositories for defining/describing resources, services, and products."
          style="display:inline">
         <g
@@ -1010,9 +1222,17 @@
              inkscape:label="designtime.label"><tspan
                x="12"
                y="57.551855"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1219"><tspan
+=======
+               id="tspan1257"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1217">Design-Time</tspan></tspan></text>
+=======
+                 id="tspan1255">Design-Time</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <g
@@ -1048,16 +1268,32 @@
                inkscape:label="sdc.label"><tspan
                  x="16"
                  y="92.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1223"><tspan
+=======
+                 id="tspan1261"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0 0.26458231 -0.26458284 0 0 0 0 0 0.26458278 -0.2645838 0.26458398 -0.2645838 0 0 0 0 0 0 0 0.26458088"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1221">Service Design &amp; Creation
+=======
+                   id="tspan1259">Service Design &amp; Creation
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                  x="16"
                  y="96.711475"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1227"><tspan
+=======
+                 id="tspan1265"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1225">(SDC)</tspan></tspan></text>
+=======
+                   id="tspan1263">(SDC)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1089,7 +1325,11 @@
                inkscape:label="catalog.label"><tspan
                  x="17"
                  y="143.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1229">Catalog</tspan></text>
+=======
+                 id="tspan1267">Catalog</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1119,9 +1359,17 @@
                inkscape:label="dcaedesignstudio.label"><tspan
                  x="17"
                  y="135.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1233"><tspan
+=======
+                 id="tspan1271"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0.26458326 -0.26458272 0 0 0 0 0 0.26458278 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1231">DCAE Design Studio</tspan></tspan></text>
+=======
+                   id="tspan1269">DCAE Design Studio</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1151,9 +1399,17 @@
                inkscape:label="controllerdesignstudio.label"><tspan
                  x="17"
                  y="127.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1237"><tspan
+=======
+                 id="tspan1275"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458469 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1235">Controller Design Studio (CDS)</tspan></tspan></text>
+=======
+                   id="tspan1273">Controller Design Studio (CDS)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1183,9 +1439,17 @@
                inkscape:label="workflowdesigner.label"><tspan
                  x="17"
                  y="119.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1241"><tspan
+=======
+                 id="tspan1279"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0.092604198 -0.0926046 0 0.2645835 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1239">Workflow Designer</tspan></tspan></text>
+=======
+                   id="tspan1277">Workflow Designer</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1215,9 +1479,17 @@
                inkscape:label="xnfonboarding.label"><tspan
                  x="17"
                  y="111.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1245"><tspan
+=======
+                 id="tspan1283"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0.26458278 -0.2645832"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1243">xNF Onboarding</tspan></tspan></text>
+=======
+                   id="tspan1281">xNF Onboarding</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1250,9 +1522,17 @@
                sodipodi:insensitive="true"><tspan
                  x="17"
                  y="103.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1249"><tspan
+=======
+                 id="tspan1287"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1247">Service/xNF Design</tspan></tspan></text>
+=======
+                   id="tspan1285">Service/xNF Design</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
       </g>
@@ -1265,7 +1545,11 @@
            inkscape:label="vnfvalidation.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/en/kohn/guides/onap-provider/index.html#vnf-and-pnf-requirements-and-guidelines"
+=======
+           xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/latest/index.html"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
            xlink:title="Ensures that a network function (e.g. CNF, PNF, VNF) fits all ONAP guidelines and requirements.">
           <g
              id="g4456"
@@ -1287,10 +1571,18 @@
                inkscape:label="vnfvalidation.label"><tspan
                  x="16"
                  y="74.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1253"><tspan
+=======
+                 id="tspan1291"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0.26458326 -0.26458332"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1251">VNF Validation</tspan></tspan></text>
+=======
+                   id="tspan1289">VNF Validation</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1322,9 +1614,17 @@
                inkscape:label="vnfsdk.label"><tspan
                  x="36"
                  y="79.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1257"><tspan
+=======
+                 id="tspan1295"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0.26458326 -0.2645832"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1255">VNF SDK</tspan></tspan></text>
+=======
+                   id="tspan1293">VNF SDK</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1355,7 +1655,11 @@
                inkscape:label="vvp.label"><tspan
                  x="17"
                  y="79.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1259">VVP</tspan></text>
+=======
+                 id="tspan1297">VVP</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
       </g>
@@ -1369,7 +1673,11 @@
          inkscape:label="runtime.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
          xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/architecture/onap-architecture.html#runtime-framework"
+=======
+         xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html#runtime-framework"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
          xlink:title="The Run-time execution framework executes the rules and policies and other models distributed by the design and creation environment.">
         <g
            id="g10932"
@@ -1390,9 +1698,17 @@
              inkscape:label="runtime.label"><tspan
                x="78"
                y="57.551855"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1263"><tspan
+=======
+               id="tspan1301"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1261">Run-Time</tspan></tspan></text>
+=======
+                 id="tspan1299">Run-Time</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <g
@@ -1405,7 +1721,11 @@
            inkscape:label="sharedservices.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/architecture/onap-architecture.html#shared-services"
+=======
+           xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html#shared-services"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
            xlink:title="ONAP provides a set of operational services for all ONAP components including activity logging, reporting, common data layer, configuration, persistence, access control, secret and credential management, resiliency, and software lifecycle management."
            style="display:inline">
           <g
@@ -1428,10 +1748,18 @@
                inkscape:label="sharedservices.label"><tspan
                  x="268"
                  y="92.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1267"><tspan
+=======
+                 id="tspan1305"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0.26458302 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1265">Shared Services</tspan></tspan></text>
+=======
+                   id="tspan1303">Shared Services</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1461,9 +1789,17 @@
                inkscape:label="cps.label"><tspan
                  x="269"
                  y="143.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1271"><tspan
+=======
+                 id="tspan1309"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0.092604198 -0.092604123 0 0.2645829 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458463 0 0 0 0 0 0 0.26458541 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1269">Config. Persistence Service (CPS)</tspan></tspan></text>
+=======
+                   id="tspan1307">Config. Persistence Service (CPS)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1471,8 +1807,13 @@
            inkscape:label="music.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/developing/index.html#music-onap-multi-site-integration"
            xlink:title="Multi-Site State (MUSIC) provides a multi-site state coordination/management service (MUSIC) with a rich suite of recipes that each ONAP component can simply configure and use for their state-management needs.">
+=======
+           xlink:href=""
+           xlink:title="[UNMAINTAINED] Multi-Site State (MUSIC) provides a multi-site state coordination/management service (MUSIC) with a rich suite of recipes that each ONAP component can simply configure and use for their state-management needs.">
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           <g
              id="g1935"
              inkscape:label="music">
@@ -1493,9 +1834,17 @@
                inkscape:label="music.label"><tspan
                  x="269"
                  y="135.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1275"><tspan
+=======
+                 id="tspan1313"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0 0 0 0.2645835 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1273">Multi-Site State (MUSIC)</tspan></tspan></text>
+=======
+                   id="tspan1311">Multi-Site State (MUSIC)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1503,8 +1852,13 @@
            inkscape:label="logging.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/projects/onap-logging-analytics/en/kohn/index.html"
            xlink:title="Logging provides the capability to capture information required to operate, troubleshoot and report on the performance of the ONAP platform.">
+=======
+           xlink:href=""
+           xlink:title="[UNMAINTAINED] Logging provides the capability to capture information required to operate, troubleshoot and report on the performance of the ONAP platform.">
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           <g
              id="g1917"
              inkscape:label="logging"
@@ -1526,7 +1880,11 @@
                inkscape:label="logging.label"><tspan
                  x="269"
                  y="119.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1277">Logging</tspan></text>
+=======
+                 id="tspan1315">Logging</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1534,7 +1892,11 @@
            inkscape:label="oof.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/developing/index.html#oof-optimization-framework"
+=======
+           xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#oof-optimization-framework"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
            xlink:title="The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer."
            transform="translate(4.0004481e-8,7.9999997)">
           <g
@@ -1557,9 +1919,17 @@
                inkscape:label="oof.label"><tspan
                  x="269"
                  y="111.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1281"><tspan
+=======
+                 id="tspan1319"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1279">Optimization Framework (OOF)</tspan></tspan></text>
+=======
+                   id="tspan1317">Optimization Framework (OOF)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1567,8 +1937,13 @@
            inkscape:label="aaf.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/projects/onap-aaf-authz/en/kohn/index.html"
            xlink:title="The Application Authorization Framework (AAF) provides the services for authentication, authorization and certificate management to the ONAP components. It provides the services to the ONAP components to manage the lifecycle of authentication and authorization elements such as permissions, roles and credentials."
+=======
+           xlink:href=""
+           xlink:title="[UNMAINTAINED] The Application Authorization Framework (AAF) provides the services for authentication, authorization and certificate management to the ONAP components. It provides the services to the ONAP components to manage the lifecycle of authentication and authorization elements such as permissions, roles and credentials."
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
            transform="translate(3.998908e-8,7.9999998)">
           <g
              id="g1906"
@@ -1590,9 +1965,17 @@
                inkscape:label="aaf.label"><tspan
                  x="269"
                  y="103.74272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1285"><tspan
+=======
+                 id="tspan1323"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0.26458338 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458463 0 0 0 0 0 0 0 0 0.26458004 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1283">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
+=======
+                   id="tspan1321">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
       </g>
@@ -1625,23 +2008,51 @@
              inkscape:label="vfc.label"><tspan
                x="233"
                y="123.42522"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1293"><tspan
+=======
+               id="tspan1331"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0.26458314"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1287">Virtual </tspan><tspan
+=======
+                 id="tspan1325">Virtual </tspan><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="-0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1289">Functio</tspan><tspan
+=======
+                 id="tspan1327">Functio</tspan><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0.26458278"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1291">n
+=======
+                 id="tspan1329">n
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                x="233"
                y="126.75897"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1297"><tspan
+=======
+               id="tspan1335"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1295">Controller
+=======
+                 id="tspan1333">Controller
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                x="233"
                y="130.09272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1299">(VFC)</tspan></text>
+=======
+               id="tspan1337">(VFC)</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <a
@@ -1649,10 +2060,18 @@
          inkscape:label="appc.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
          xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/developing/index.html#appc-application-controller"
          xlink:title="The ONAP Controller Family (SDNC/APPC) configures and maintains the health of Layer 1-7 network functions (VNF, PNF, CNFs) and network services throughout their lifecycle. Both provide similar services (application level configuration using NetConf, Chef, Ansible, RestConf) and life cycle management functions (e.g. stop, resume, health check, etc.). APPC is being used mainly for Layer 4-7 network functions."
          transform="translate(-4.9952365,0.06725276)">
+=======
+         xlink:href=""
+         xlink:title="[UNMAINTAINED] The ONAP Controller Family (SDNC/APPC) configures and maintains the health of Layer 1-7 network functions (VNF, PNF, CNFs) and network services throughout their lifecycle. Both provide similar services (application level configuration using NetConf, Chef, Ansible, RestConf) and life cycle management functions (e.g. stop, resume, health check, etc.). APPC is being used mainly for Layer 4-7 network functions."
+         transform="translate(-5.2916667)">
+         transform=&quot;translate(-4.9952365,0.06725276)&quot;&gt;
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         <g
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            id="g8552"
            inkscape:label="appc">
           <rect
@@ -1675,18 +2094,58 @@
                id="tspan1303"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278"
                  id="tspan1301">Application
+=======
+   id="g8552"
+   inkscape:label="appc">
+  <rect
+     style="font-variation-settings:normal;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+     id="rect13557-0"
+     width="25.999994"
+     height="26"
+     x="206.26355"
+     y="121.03194"
+     inkscape:label="appc.form" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-0);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+     x="172.20732"
+     y="6.7860241"
+     id="text1436-447-33"
+     inkscape:label="appc.label"><tspan
+       x="206.26367"
+       y="123.52288"
+       id="tspan1341"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278"
+         id="tspan1339">Application
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                x="206"
                y="126.75897"
                id="tspan1307"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
                  id="tspan1305">Controller
+=======
+       x="206.26367"
+       y="126.85663"
+       id="tspan1345"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
+         id="tspan1343">Controller
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                x="206"
                y="130.09272"
                id="tspan1309">(APPC)</tspan></text>
         </g>
       </a>
+=======
+       x="206.26367"
+       y="130.19038"
+       id="tspan1347">(APPC)</tspan></text>
+</g>
+</a>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       <a
          id="a67340"
          xlink:href="https://docs.onap.org/projects/onap-sdnc-oam/en/kohn/index.html"
@@ -1717,18 +2176,38 @@
              inkscape:label="sdnc.label"><tspan
                x="183.24023"
                y="123.66546"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1313"><tspan
+=======
+               id="tspan1351"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0.26458326"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1311">SDN
+=======
+                 id="tspan1349">SDN
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                x="183.24023"
                y="126.99921"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1317"><tspan
+=======
+               id="tspan1355"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1315">Controller </tspan></tspan><tspan
+=======
+                 id="tspan1353">Controller </tspan></tspan><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                x="183.24023"
                y="130.33295"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1319">(SDNC)</tspan></text>
+=======
+               id="tspan1357">(SDNC)</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <a
@@ -1759,19 +2238,39 @@
              inkscape:label="cds.label"><tspan
                x="158"
                y="123.42522"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1323"><tspan
+=======
+               id="tspan1361"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1321">Controller
+=======
+                 id="tspan1359">Controller
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                x="158"
                y="126.75897"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1327"><tspan
+=======
+               id="tspan1365"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458278"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1325">Design Studio
+=======
+                 id="tspan1363">Design Studio
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                x="158"
                y="130.09272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1329">(CDS)</tspan></text>
+=======
+               id="tspan1367">(CDS)</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <a
@@ -1802,23 +2301,47 @@
              inkscape:label="infrastructureadaption.label"><tspan
                x="120"
                y="123.42522"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1333"><tspan
+=======
+               id="tspan1371"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2645835"
                  style="-inkscape-font-specification:sans-serif"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1331">Infrastructure 
+=======
+                 id="tspan1369">Infrastructure 
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                x="120"
                y="126.75897"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1337"><tspan
+=======
+               id="tspan1375"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0.26458278"
                  style="-inkscape-font-specification:sans-serif"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1335">Adaption
+=======
+                 id="tspan1373">Adaption
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                x="120"
                y="130.09272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1341"><tspan
+=======
+               id="tspan1379"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  style="-inkscape-font-specification:sans-serif"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1339">(Multi-VIM/Cloud)</tspan></tspan></text>
+=======
+                 id="tspan1377">(Multi-VIM/Cloud)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <g
@@ -1852,22 +2375,50 @@
                inkscape:label="dcae.label"><tspan
                  x="81"
                  y="123.42522"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1345"><tspan
+=======
+                 id="tspan1383"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0 0 0 0.26458386"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1343">Data Collection, 
+=======
+                   id="tspan1381">Data Collection, 
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                  x="81"
                  y="126.75897"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1349"><tspan
+=======
+                 id="tspan1387"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0.26458421"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1347">Analytics &amp; </tspan></tspan><tspan
+=======
+                   id="tspan1385">Analytics &amp; </tspan></tspan><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  x="81"
                  y="130.09272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1355"><tspan
+=======
+                 id="tspan1393"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0.26458338"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1351">Events </tspan><tspan
+=======
+                   id="tspan1389">Events </tspan><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="-0.26458368"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1353">(DCAE)</tspan></tspan></text>
+=======
+                   id="tspan1391">(DCAE)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1898,7 +2449,11 @@
                inkscape:label="analytics.label"><tspan
                  x="83"
                  y="136.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1357">Analytics</tspan></text>
+=======
+                 id="tspan1395">Analytics</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -1929,7 +2484,11 @@
                inkscape:label="collectors.label"><tspan
                  x="83"
                  y="136.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1359">Collectors</tspan></text>
+=======
+                 id="tspan1397">Collectors</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
       </g>
@@ -1938,7 +2497,11 @@
          inkscape:label="dmaap.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
          xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/developing/index.html#dmaap-data-movement-as-a-platform"
+=======
+         xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#dmaap-data-movement-as-a-platform"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
          xlink:title="Data Movement as a Platform (DMaaP) is a component that provides data movement services that transports and processes data from any source to any target.">
         <g
            id="g7029"
@@ -1961,9 +2524,17 @@
              inkscape:label="dmaap.label"><tspan
                x="171.00391"
                y="107.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1363"><tspan
+=======
+               id="tspan1401"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0.26458243 -0.26458272 0.26458159 -0.26458272 0 0 0 0 0 0 0 0.26458541 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1361">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
+=======
+                 id="tspan1399">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <a
@@ -1993,9 +2564,17 @@
              inkscape:label="msb.label"><tspan
                x="81"
                y="107.49163"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1367"><tspan
+=======
+               id="tspan1405"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0.26458243 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1365">Microservice Bus (MSB)</tspan></tspan></text>
+=======
+                 id="tspan1403">Microservice Bus (MSB)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <a
@@ -2003,7 +2582,11 @@
          inkscape:label="aai.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
          xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/developing/index.html#aai-active-and-available-inventory"
+=======
+         xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#aai-active-and-available-inventory"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
          xlink:title="The Active and Available Inventory (AAI) provides real-time views of the resources and services in managed by and their relationships.">
         <g
            id="g7008"
@@ -2025,14 +2608,30 @@
              inkscape:label="aai.label"><tspan
                x="216.00391"
                y="91.491631"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1371"><tspan
+=======
+               id="tspan1409"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1369">Active &amp; Available </tspan></tspan><tspan
+=======
+                 id="tspan1407">Active &amp; Available </tspan></tspan><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                x="216.00391"
                y="94.825379"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1375"><tspan
+=======
+               id="tspan1413"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1373">Inventory (AAI)</tspan></tspan></text>
+=======
+                 id="tspan1411">Inventory (AAI)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <a
@@ -2063,13 +2662,25 @@
              inkscape:label="so.label"><tspan
                x="171.00391"
                y="91.809131"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1379"><tspan
+=======
+               id="tspan1417"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1377">Service Orchestration
+=======
+                 id="tspan1415">Service Orchestration
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
 </tspan></tspan><tspan
                x="171.00391"
                y="95.777881"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1381">(SO)</tspan></text>
+=======
+               id="tspan1419">(SO)</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <a
@@ -2077,7 +2688,11 @@
          inkscape:label="holmes.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
          xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/developing/index.html#holmes-holmes-alarm-correlation-and-analysis"
+=======
+         xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#holmes-alarm-correlation-and-analysis"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
          xlink:title="Holmes provides the capability to analyze the relationship among different alarms (e.g. root cause, correlation)."
          transform="translate(-44.999997)">
         <g
@@ -2101,12 +2716,24 @@
              inkscape:label="holmes.label"><tspan
                x="171.00391"
                y="91.809131"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1385"><tspan
+=======
+               id="tspan1423"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                  dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.2645835"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1383">Correlation Engine </tspan></tspan><tspan
+=======
+                 id="tspan1421">Correlation Engine </tspan></tspan><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                x="171.00391"
                y="95.777881"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1387">(Holmes)</tspan></text>
+=======
+               id="tspan1425">(Holmes)</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
         </g>
       </a>
       <g
@@ -2140,11 +2767,23 @@
                inkscape:label="policyframework.label"><tspan
                  x="81"
                  y="91.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1393"><tspan
+=======
+                 id="tspan1431"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0.2645829"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1389">Policy </tspan><tspan
+=======
+                   id="tspan1427">Policy </tspan><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="-0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1391">Framework</tspan></tspan></text>
+=======
+                   id="tspan1429">Framework</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -2152,7 +2791,11 @@
            inkscape:label="clamp.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/projects/onap-policy-clamp/en/kohn/index.html"
+=======
+           xlink:href="https://docs.onap.org/projects/onap-policy-parent/en/kohn/clamp/clamp.html"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
            xlink:title="The Closed Loop Automation Platform (CLAMP) provides the capability to manage runtime control loops.">
           <g
              id="g6171"
@@ -2174,7 +2817,11 @@
                inkscape:label="clamp.label"><tspan
                  x="83.003906"
                  y="97.491631"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1395">CLAMP</tspan></text>
+=======
+                 id="tspan1433">CLAMP</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
       </g>
@@ -2188,7 +2835,11 @@
            inkscape:label="interfaces.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/en/kohn/guides/onap-developer/architecture/references.html#user-interfaces"
+=======
+           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/apiref/index.html#rest-api-reference"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
            xlink:title="Various ONAP components provide also a user interface.">
           <g
              id="g5413"
@@ -2210,9 +2861,17 @@
                inkscape:label="interfaces.label"><tspan
                  x="59"
                  y="74.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1399"><tspan
+=======
+                 id="tspan1437"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1397">Interfaces</tspan></tspan></text>
+=======
+                   id="tspan1435">Interfaces</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -2242,7 +2901,11 @@
                inkscape:label="cli.label"><tspan
                  x="219"
                  y="79.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1401">CLI</tspan></text>
+=======
+                 id="tspan1439">CLI</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -2250,8 +2913,13 @@
            inkscape:label="externalapis.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/projects/onap-externalapi-nbi/en/kohn/index.html"
            xlink:title="External API exposes ONAPs capabilities through TMF standardized interfaces. It enables ONAP to hide the internal API.">
+=======
+           xlink:href=""
+           xlink:title="[UNMAINTAINED] External API exposes ONAPs capabilities through TMF standardized interfaces. It enables ONAP to hide the internal API.">
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           <g
              id="g5402"
              inkscape:label="externalapis">
@@ -2272,9 +2940,17 @@
                inkscape:label="externalapis.label"><tspan
                  x="180"
                  y="79.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1405"><tspan
+=======
+                 id="tspan1443"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0 0 0.26458314 -0.26458368"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1403">External APIs</tspan></tspan></text>
+=======
+                   id="tspan1441">External APIs</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -2304,9 +2980,17 @@
                inkscape:label="usecaseui.label"><tspan
                  x="140"
                  y="79.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1409"><tspan
+=======
+                 id="tspan1447"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0.26458314 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1407">Use-Case UI (UUI)</tspan></tspan></text>
+=======
+                   id="tspan1445">Use-Case UI (UUI)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -2314,8 +2998,13 @@
            inkscape:label="omdashboardvid.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:href="https://docs.onap.org/projects/onap-vid/en/kohn/index.html"
            xlink:title="Virtual Infrastructure Deployment (VID) is a UI interface that allows the operations and network infrastructure engineers to orchestrate and change configurations related to the infrastructure expansion and maintenance.">
+=======
+           xlink:href=""
+           xlink:title="[UNMAINTAINED] Virtual Infrastructure Deployment (VID) is a UI interface that allows the operations and network infrastructure engineers to orchestrate and change configurations related to the infrastructure expansion and maintenance.">
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           <g
              id="g5390"
              inkscape:label="omdashboardvid">
@@ -2336,9 +3025,17 @@
                inkscape:label="omdashboardvid.label"><tspan
                  x="100"
                  y="79.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1413"><tspan
+=======
+                 id="tspan1451"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                    dx="0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458159 -0.26458272"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                    id="tspan1411">O&amp;M Dashboard (VID)</tspan></tspan></text>
+=======
+                   id="tspan1449">O&amp;M Dashboard (VID)</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
         <a
@@ -2347,7 +3044,11 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href=""
+<<<<<<< HEAD   (2f6d47 add Kohn details)
            xlink:title="Portal is a GUI platform that provides the ability to integrate different ONAP components GUIs into an centralized portal.">
+=======
+           xlink:title="[UNMAINTAINED] Portal is a GUI platform that provides the ability to integrate different ONAP components GUIs into an centralized portal.">
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           <g
              id="g5384"
              inkscape:label="portal">
@@ -2368,7 +3069,11 @@
                inkscape:label="portal.label"><tspan
                  x="60"
                  y="79.742725"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                  id="tspan1415">Portal</tspan></text>
+=======
+                 id="tspan1453">Portal</tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
           </g>
         </a>
       </g>
@@ -2378,8 +3083,13 @@
        inkscape:label="nbi.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
        xlink:href="https://docs.onap.org/projects/onap-externalapi-nbi/en/kohn/architecture/architecture.html#introduction"
        xlink:title="The Northbound Interface (NBI) provides a set of API that can be used by external systems as OSS or BSS for example. These APIs are based on TMF API.">
+=======
+       xlink:href=""
+       xlink:title="[UNMAINTAINED] The Northbound Interface (NBI) provides a set of API that can be used by external systems as OSS or BSS for example. These APIs are based on TMF API.">
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       <g
          id="g2903"
          transform="translate(0.9999988,-6.9351787)"
@@ -2402,10 +3112,18 @@
            inkscape:label="nbi.label"><tspan
              x="10"
              y="47.553809"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
              id="tspan1419"><tspan
+=======
+             id="tspan1457"><tspan
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
                dx="0 0 0 0 0 0 0 0 0 0 0.26458254 -0.2645826 0 0 0 0 0 0 0 0 0.26458493 -0.2645826 0 0 0 0 0.26457849 -0.2645826 0 0 0 0 0 0 0.26458469 -0.2645826 0 0 0 0.26458779 -0.2645826 0 0 0.26459685 -0.2645826 0 0 0.26457873 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);stop-color:#000000;stop-opacity:1"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
                id="tspan1417">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
+=======
+               id="tspan1455">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
       </g>
     </a>
     <path
@@ -2419,9 +3137,15 @@
        inkscape:label="releaseinfo.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
        xlink:href="https://docs.onap.org/en/kohn/guides/overview/overview.html#onap-release-information"
        xlink:title="ONAP Release 11 »Kohn«"
        style="display:inline"
+=======
+       xlink:href="https://docs.onap.org/en/latest/release/history.html"
+       xlink:title="ONAP Release 11 »Kohn«"
+       style="display:none"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
        transform="translate(-3.3759646,4.8850003e-4)">
       <text
          xml:space="preserve"
@@ -2441,7 +3165,11 @@
        inkscape:label="onaplogo.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
+<<<<<<< HEAD   (2f6d47 add Kohn details)
        xlink:href="https://docs.onap.org/en/kohn/guides/overview/overview.html"
+=======
+       xlink:href="https://docs.onap.org/en/latest/platform/overview/index.html"
+>>>>>>> CHANGE (82df41 fix links in interactive architecture map)
        xlink:title="The Open Network Automation Platform (ONAP) is a comprehensive platform for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. The open source project ONAP is hosted by the Linux Foundation.">
       <g
          id="g1241"

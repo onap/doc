@@ -1,10 +1,10 @@
 ONAP ARCHITECTURE OVERVIEW NOTES
 
-Version 1.1, 2021-11-10
+Version 1.2, 2022-11-28
 
 This file contains information about how the map and its interactive functions were realized and how it can be maintained.
 
-The map was designed in Inkscape 1.1 running on Ubuntu 20.04.
+The map was initially designed in Inkscape 1.1 running on Ubuntu 20.04.
 
 The following fonts, styles and spacings are used: 
 sans-serif, bold, 18 pt
@@ -15,9 +15,9 @@ spacing between baselines: 1,05 lines
 spacing between letters: -0,35 px
 spacing between words: -1,00 px
 
-Drawing: Rectangles have a stroke (width 2 or 4 mm). To avoid that the stroke rezizes in case you rezize the single rectangle, have a look at the Inkscape button "When scaling objects, scale the stroke width by the same proportion" and turn it off! But turn it on, if you like to scale the complete (grouped) map because you need it in a smaler size.
+Drawing: Rectangles have a stroke (width 2 or 4 mm). To avoid that the stroke resizes in case you resize the single rectangle, have a look at the Inkscape button "When scaling objects, scale the stroke width by the same proportion" and turn it off! But turn it on, if you like to scale the complete (grouped) map because you need it in a smaler size.
 
-Rezising: If you need to resize a grouped object (with a label) do not resize the full group because then also the label will resized and distorted. Select only the form you want to resize in the "Objects" window. Then rezize it according your needs. You do not have to ungroup label/form for this action!
+Resizing: If you need to resize a grouped object (with a label) do not resize the full group because then also the label will resized and distorted. Select only the form you want to resize in the "Objects" window. Then rezize it according your needs. You do not have to ungroup label/form for this action!
 
 Text Alignment: Do not align text in a rectangle manually! Create a rectangle which has a stroke (2 mm, 4 mm) in the same color as the box, create text, format text, select both, box and text and choose menu "Text - Flow into Frame". Thats it! The stroke acts as a border.
 
@@ -46,7 +46,7 @@ Keep the structure of map elements clear and maintainable by using groups and pr
 Example elements and structure:
 +---designtime                     group that groups all designtime elements (visible and non-visible) of the map (not visible, manually created for reasons of clarity)
     +--- ...                       other elements
-    +---designtime.link            group were values for interactivity (e.g. link, text, opacy effects) are assigned to (created by inkscape when you choose "Create Link")
+    +---designtime.link            group were values for interactivity (e.g. link, text, opacy effects) are assigned to (created by Inkscape when you choose "Create Link")
         +---designtime             group for the label and rectangle (not visible, manually created, required to have interactivity for both elements - rectangle and label)
             +---designtime.label   label on top of the rectangle (visible, manually created)
             +---designtime.form    rectangle for the architecture element (visible, manually created)
