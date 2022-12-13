@@ -100,6 +100,12 @@ Create a VF/PNF manually
 
 #. In the General section, complete all fields.
 
+#. Click *Create*.
+
+   - A message displays while creation is in progress. (This can take up to
+     10 minutes.)
+   - A message displays when creation is complete.
+
 #. Before check-in the VF/PNF, click these
    options to update VF/PNF information:
 
@@ -122,12 +128,6 @@ Create a VF/PNF manually
    - **Properties Assignment** define or update properties and input parameters
      and policies
    - **Req.& Capabilities** view and add requirements and capabilities
-
-#. Click *Create*.
-
-   - A message displays while creation is in progress. (This can take up to
-     10 minutes.)
-   - A message displays when creation is complete.
 
 #. Click *Check In* to save changes.
 
