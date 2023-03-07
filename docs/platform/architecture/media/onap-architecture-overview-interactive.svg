@@ -9,7 +9,7 @@
 
 <svg
    sodipodi:docname="onap-architecture-overview-interactive.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01, custom)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
    id="svg5"
    version="1.1"
    viewBox="0 0 324.00477 237.0196"
@@ -31,14 +31,14 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.4142136"
-     inkscape:cx="477.65061"
-     inkscape:cy="539.876"
+     inkscape:cx="923.83499"
+     inkscape:cy="468.45823"
      inkscape:window-width="3768"
      inkscape:window-height="2096"
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1257"
+     inkscape:current-layer="layer4"
      height="190mm"
      showborder="true"
      inkscape:showpageshadow="true"
@@ -60,7 +60,10 @@
        spacingy="0.99999999"
        empspacing="0"
        originx="5.0047656"
-       originy="1.9293997e-06" />
+       originy="1.9293997e-06"
+       snapvisiblegridlinesonly="false"
+       visible="true"
+       enabled="true" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -111,9 +114,9 @@
            inkscape:label="unmaintained.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan1186"><tspan
+             id="tspan1978"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0.2645835 -0.26458463"
-               id="tspan1184">Unmaintained ONAP Component</tspan></tspan></text>
+               id="tspan1976">Unmaintained ONAP Component</tspan></tspan></text>
       </g>
       <g
          id="g4786-5"
@@ -137,9 +140,9 @@
            inkscape:label="onapcomponents.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan1190"><tspan
+             id="tspan1982"><tspan
                dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458272 0 0.2645829 -0.26458272 0 0 0 0.2645835 -0.26458272"
-               id="tspan1188">Entirety of ONAP Components</tspan></tspan></text>
+               id="tspan1980">Entirety of ONAP Components</tspan></tspan></text>
       </g>
       <g
          id="g4770"
@@ -163,7 +166,7 @@
            transform="matrix(1.00026,0,0,1,-0.0728097,0)"><tspan
              x="279"
              y="237.80913"
-             id="tspan1192">Operations</tspan></text>
+             id="tspan1984">Operations</tspan></text>
       </g>
       <g
          id="g4776"
@@ -187,9 +190,9 @@
            transform="matrix(1.00026,0,0,1,-0.0602911,0)"><tspan
              x="231.00195"
              y="237.80913"
-             id="tspan1196"><tspan
+             id="tspan1988"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0.26458231 -0.26458272"
-               id="tspan1194">Orchestration &amp; Management</tspan></tspan></text>
+               id="tspan1986">Orchestration &amp; Management</tspan></tspan></text>
       </g>
       <g
          id="g4765"
@@ -212,7 +215,7 @@
            inkscape:label="design.label"><tspan
              x="183"
              y="237.80913"
-             id="tspan1198">Design</tspan></text>
+             id="tspan1990">Design</tspan></text>
       </g>
       <g
          id="g4781"
@@ -235,9 +238,9 @@
            inkscape:label="colorlegend.label"><tspan
              x="7.0039062"
              y="237.86187"
-             id="tspan1202"><tspan
+             id="tspan1994"><tspan
                dx="0 0 0 0 0 0.26458338 -0.2645832"
-               id="tspan1200">Color Legend:</tspan></tspan></text>
+               id="tspan1992">Color Legend:</tspan></tspan></text>
       </g>
     </g>
     <g
@@ -274,10 +277,10 @@
            inkscape:label="managedenvironment.label"><tspan
              x="82.003906"
              y="165.55381"
-             id="tspan1206"><tspan
+             id="tspan1998"><tspan
                dx="0 0 0 0 0 0 0 0.26458254 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-               id="tspan1204">Managed Environment</tspan></tspan></text>
+               id="tspan1996">Managed Environment</tspan></tspan></text>
       </g>
       <g
          id="g29902"
@@ -430,10 +433,10 @@
              inkscape:label="hypervisoroslayer.label"><tspan
                x="86.003906"
                y="197.80913"
-               id="tspan1210"><tspan
+               id="tspan2002"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1208">Hypervisor / OS Layer</tspan></tspan></text>
+                 id="tspan2000">Hypervisor / OS Layer</tspan></tspan></text>
         </g>
         <g
            id="g4413"
@@ -455,7 +458,7 @@
              inkscape:label="openstack.label"><tspan
                x="135.00391"
                y="198.49163"
-               id="tspan1212">OpenStack</tspan></text>
+               id="tspan2004">OpenStack</tspan></text>
         </g>
         <g
            id="g4408"
@@ -477,9 +480,9 @@
              inkscape:label="commercialvim.label"><tspan
                x="167.00391"
                y="198.49163"
-               id="tspan1216"><tspan
+               id="tspan2008"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
-                 id="tspan1214">Commercial VIM</tspan></tspan></text>
+                 id="tspan2006">Commercial VIM</tspan></tspan></text>
         </g>
         <g
            id="g4396"
@@ -501,7 +504,7 @@
              inkscape:label="kubernetes.label"><tspan
                x="199.00391"
                y="198.49163"
-               id="tspan1218">Kubernetes</tspan></text>
+               id="tspan2010">Kubernetes</tspan></text>
         </g>
         <g
            id="g4402"
@@ -523,9 +526,9 @@
              inkscape:label="publiccloud.label"><tspan
                x="231.00391"
                y="198.49163"
-               id="tspan1222"><tspan
+               id="tspan2014"><tspan
                  dx="0 0 0 0 0 0 0.2645829 -0.26458272"
-                 id="tspan1220">Public Cloud</tspan></tspan></text>
+                 id="tspan2012">Public Cloud</tspan></tspan></text>
         </g>
       </g>
       <g
@@ -552,10 +555,10 @@
              inkscape:label="networkfunktionlayer.label"><tspan
                x="86.003906"
                y="185.80913"
-               id="tspan1226"><tspan
+               id="tspan2018"><tspan
                  dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1224">Network Function Layer</tspan></tspan></text>
+                 id="tspan2016">Network Function Layer</tspan></tspan></text>
         </g>
         <g
            id="g2995"
@@ -586,7 +589,7 @@
              transform="translate(-0.26458332,0.26458332)"><tspan
                x="266.74023"
                y="188.7553"
-               id="tspan1228">PNF</tspan></text>
+               id="tspan2020">PNF</tspan></text>
         </g>
         <g
            id="g2907"
@@ -608,7 +611,7 @@
              inkscape:label="vnf.label"><tspan
                x="199.00391"
                y="186.49163"
-               id="tspan1230">VNF</tspan></text>
+               id="tspan2022">VNF</tspan></text>
         </g>
       </g>
       <g
@@ -636,10 +639,10 @@
              inkscape:label="externalsystems.label"><tspan
                x="86.003906"
                y="173.80913"
-               id="tspan1234"><tspan
+               id="tspan2026"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1232">External Systems</tspan></tspan></text>
+                 id="tspan2024">External Systems</tspan></tspan></text>
         </g>
         <g
            id="g4437"
@@ -661,9 +664,9 @@
              inkscape:label="thirdpartycontrollers.label"><tspan
                x="135.00391"
                y="174.49163"
-               id="tspan1238"><tspan
+               id="tspan2030"><tspan
                  dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
-                 id="tspan1236">3rd Party Controllers</tspan></tspan></text>
+                 id="tspan2028">3rd Party Controllers</tspan></tspan></text>
         </g>
         <g
            id="g4442"
@@ -685,7 +688,7 @@
              inkscape:label="svnfm.label"><tspan
                x="199.00391"
                y="174.49163"
-               id="tspan1240">sVNFM</tspan></text>
+               id="tspan2032">sVNFM</tspan></text>
         </g>
         <g
            id="g4447"
@@ -707,7 +710,7 @@
              inkscape:label="ems.label"><tspan
                x="231.00391"
                y="174.49163"
-               id="tspan1242">EMS</tspan></text>
+               id="tspan2034">EMS</tspan></text>
         </g>
       </g>
     </g>
@@ -759,9 +762,9 @@
              inkscape:label="utilities.label"><tspan
                x="12.003906"
                y="161.61826"
-               id="tspan1246"><tspan
+               id="tspan2038"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                 id="tspan1244">Utilities</tspan></tspan></text>
+                 id="tspan2036">Utilities</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -797,43 +800,10 @@
                inkscape:label="onapsharedutilities.label"><tspan
                  x="16.003906"
                  y="173.80913"
-                 id="tspan1250"><tspan
+                 id="tspan2042"><tspan
                    dx="0 0 0 0 0.26458302 -0.26458284 0 0 0 0 0 0.26458207 -0.26458189"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1248">ONAP Shared Utilities</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a5453"
-           inkscape:label="toscaparser.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href=""
-           xlink:title="[UNMAINTAINED] [TO BE REVISED] etsicatalog provides package management service and parser service by Micro Service. It can be used to store packages distributed by the SDC, and can be consumed by other projects or components such as UUI, VFC, etc. It also includes a TOSCA parser service.">
-          <g
-             id="g1268"
-             inkscape:label="toscaparser"
-             style="display:inline">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-8-0"
-               width="50"
-               height="3.9999995"
-               x="17.004765"
-               y="196"
-               inkscape:label="toscaparser.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-8-0);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="168.39336"
-               y="8.4962769"
-               id="text1436-44"
-               inkscape:label="toscaparser.label"><tspan
-                 x="17.003906"
-                 y="198.80913"
-                 id="tspan1254"><tspan
-                   dx="0 0 0 0 0 0.26458302 -0.26458368"
-                   id="tspan1252">TOSCA Parser</tspan></tspan></text>
+                   id="tspan2040">ONAP Shared Utilities</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -842,7 +812,8 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/projects/onap-modeling-etsicatalog/en/latest/"
-           xlink:title="[TO BE REVISED] The unified model-driven approach uses models as sources of data for generating processes/codes and following workflows (not code development as source). This way, the system can be more flexible and future proof, easy to update and use for cross-platform solutions since the “only” thing needed is a model update and manipulation through engine.">
+           xlink:title="[TO BE REVISED] The unified model-driven approach uses models as sources of data for generating processes/codes and following workflows (not code development as source). This way, the system can be more flexible and future proof, easy to update and use for cross-platform solutions since the “only” thing needed is a model update and manipulation through engine."
+           transform="translate(7.6311512e-7,7.9999989)">
           <g
              id="g1274"
              inkscape:label="modelutilities"
@@ -864,9 +835,9 @@
                inkscape:label="modelutilities.label"><tspan
                  x="17.003906"
                  y="190.80913"
-                 id="tspan1258"><tspan
+                 id="tspan2046"><tspan
                    dx="0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan1256">Model Utilities</tspan></tspan></text>
+                   id="tspan2044">Model Utilities</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -877,7 +848,7 @@
            xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/latest/index.html"
            xlink:title="The Common Controller Software Development Kit (CCSDK) provides a common set of reusable code that can be used across multiple controllers. For example, the SDN-C , APP-C, DCAE, ONAP Operations Manager and ONAP controller can reuse common pieces from this framework."
            style="display:inline"
-           transform="translate(2.0000041,-8.000001)">
+           transform="translate(2.0000049)">
           <g
              id="g1274-1"
              inkscape:label="ccsdk"
@@ -899,9 +870,9 @@
                inkscape:label="ccsdk.label"><tspan
                  x="15.003906"
                  y="190.80913"
-                 id="tspan1262"><tspan
+                 id="tspan2050"><tspan
                    dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0 0.26458433 -0.26458272 0 0 0.26458469 -0.26458272"
-                   id="tspan1260">Common Controller SDK (CCSDK)</tspan></tspan></text>
+                   id="tspan2048">Common Controller SDK (CCSDK)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -938,10 +909,10 @@
              inkscape:label="manageonap.label"><tspan
                x="172"
                y="57.551855"
-               id="tspan1266"><tspan
+               id="tspan2054"><tspan
                  dx="0 0 0 0 0 0 0.26458302 -0.2645826"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1264">Manage ONAP</tspan></tspan></text>
+                 id="tspan2052">Manage ONAP</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -972,9 +943,9 @@
              inkscape:label="oom.label"><tspan
                x="267.00391"
                y="55.742725"
-               id="tspan1270"><tspan
+               id="tspan2058"><tspan
                  dx="0 0 0 0 0.26458302 -0.26458272 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0.26458243 -0.26458272"
-                 id="tspan1268">ONAP Operation Manager (OOM)</tspan></tspan></text>
+                 id="tspan2056">ONAP Operation Manager (OOM)</tspan></tspan></text>
         </g>
       </a>
     </g>
@@ -1010,9 +981,9 @@
              inkscape:label="designtime.label"><tspan
                x="12"
                y="57.551855"
-               id="tspan1274"><tspan
+               id="tspan2062"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan1272">Design-Time</tspan></tspan></text>
+                 id="tspan2060">Design-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1048,16 +1019,16 @@
                inkscape:label="sdc.label"><tspan
                  x="16"
                  y="92.742725"
-                 id="tspan1278"><tspan
+                 id="tspan2066"><tspan
                    dx="0 0 0 0 0 0 0 0.26458231 -0.26458284 0 0 0 0 0 0.26458278 -0.2645838 0.26458398 -0.2645838 0 0 0 0 0 0 0 0.26458088"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1276">Service Design &amp; Creation
+                   id="tspan2064">Service Design &amp; Creation
 </tspan></tspan><tspan
                  x="16"
                  y="96.711475"
-                 id="tspan1282"><tspan
+                 id="tspan2070"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1280">(SDC)</tspan></tspan></text>
+                   id="tspan2068">(SDC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1089,7 +1060,7 @@
                inkscape:label="catalog.label"><tspan
                  x="17"
                  y="143.74272"
-                 id="tspan1284">Catalog</tspan></text>
+                 id="tspan2072">Catalog</tspan></text>
           </g>
         </a>
         <a
@@ -1119,41 +1090,9 @@
                inkscape:label="dcaedesignstudio.label"><tspan
                  x="17"
                  y="135.74272"
-                 id="tspan1288"><tspan
+                 id="tspan2076"><tspan
                    dx="0 0 0 0 0.26458326 -0.26458272 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan1286">DCAE Design Studio</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a5524"
-           inkscape:label="controllerdesignstudio.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-ccsdk-cds/en/latest/index.html"
-           xlink:title="The design-time part of the Controller Design Studio (CDS) – the CDS Designer UI – is a framework to automate the resolution of resources for instantiation and any config provisioning operation, such as day0, day1, or day2 configuration. A designer can define what actions are required for a given service, along with anything comprising the action. Its content is driven from a catalog of reusable data dictionary and component, delivering a reusable and simplified self-service experience. CDS modeling is mainly based on the TOSCA standard, using JSON as a representation. CDS is part of CCSDK.">
-          <g
-             id="g4049"
-             inkscape:label="controllerdesignstudio">
-            <rect
-               style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#7c8ab2;fill-opacity:1;stroke:#7c8ab2;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-7"
-               width="50"
-               height="3.9999976"
-               x="17.000002"
-               y="124.93277"
-               inkscape:label="controllerdesignstudio.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="171.58653"
-               y="9.2854605"
-               id="text1436-90"
-               inkscape:label="controllerdesignstudio.label"><tspan
-                 x="17"
-                 y="127.74272"
-                 id="tspan1292"><tspan
-                   dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458469 -0.26458272"
-                   id="tspan1290">Controller Design Studio (CDS)</tspan></tspan></text>
+                   id="tspan2074">DCAE Design Studio</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1162,7 +1101,8 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/projects/onap-sdc/en/latest/workflow.html"
-           xlink:title="Workflow Designer allows a user to design a workflow, save it, and attach it to a SDC service as an artifact. Workflow Designer also manages the definitions of activities, which can be later used as parts of the designed workflows.">
+           xlink:title="Workflow Designer allows a user to design a workflow, save it, and attach it to a SDC service as an artifact. Workflow Designer also manages the definitions of activities, which can be later used as parts of the designed workflows."
+           transform="translate(0.00476341,8.0672374)">
           <g
              id="g4043"
              inkscape:label="workflowdesigner">
@@ -1183,9 +1123,9 @@
                inkscape:label="workflowdesigner.label"><tspan
                  x="17"
                  y="119.74272"
-                 id="tspan1296"><tspan
+                 id="tspan2080"><tspan
                    dx="0 0 0 0 0 0.092604198 -0.0926046 0 0.2645835 -0.26458272"
-                   id="tspan1294">Workflow Designer</tspan></tspan></text>
+                   id="tspan2078">Workflow Designer</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1194,7 +1134,8 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/latest/Chapter7/VNF-On-boarding-and-package-management.html"
-           xlink:title="The VNF provider must provide VNF packages that include a rich set of recipes, management and functional interfaces, policies, configuration parameters, and infrastructure requirements that can be utilized by the ONAP Design module to onboard and catalog these resources.">
+           xlink:title="The VNF provider must provide VNF packages that include a rich set of recipes, management and functional interfaces, policies, configuration parameters, and infrastructure requirements that can be utilized by the ONAP Design module to onboard and catalog these resources."
+           transform="translate(0.00476341,8.0672374)">
           <g
              id="g4037"
              inkscape:label="xnfonboarding">
@@ -1215,9 +1156,9 @@
                inkscape:label="xnfonboarding.label"><tspan
                  x="17"
                  y="111.74272"
-                 id="tspan1300"><tspan
+                 id="tspan2084"><tspan
                    dx="0 0 0 0.26458278 -0.2645832"
-                   id="tspan1298">xNF Onboarding</tspan></tspan></text>
+                   id="tspan2082">xNF Onboarding</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1227,7 +1168,8 @@
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/en/latest/guides/onap-user/design/index.html"
            xlink:title="The goal of the design process is to create all artifacts (models) that are required to instantiate and manage resources, services, and products on the ONAP platform."
-           style="display:inline">
+           style="display:inline"
+           transform="translate(0.00476341,8.0672374)">
           <g
              id="g3355"
              inkscape:label="servicexnfdesign"
@@ -1250,9 +1192,9 @@
                sodipodi:insensitive="true"><tspan
                  x="17"
                  y="103.74272"
-                 id="tspan1304"><tspan
+                 id="tspan2088"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan1302">Service/xNF Design</tspan></tspan></text>
+                   id="tspan2086">Service/xNF Design</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1287,10 +1229,10 @@
                inkscape:label="vnfvalidation.label"><tspan
                  x="16"
                  y="74.742725"
-                 id="tspan1308"><tspan
+                 id="tspan2092"><tspan
                    dx="0 0 0 0.26458326 -0.26458332"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1306">VNF Validation</tspan></tspan></text>
+                   id="tspan2090">VNF Validation</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1322,9 +1264,9 @@
                inkscape:label="vnfsdk.label"><tspan
                  x="36"
                  y="79.742725"
-                 id="tspan1312"><tspan
+                 id="tspan2096"><tspan
                    dx="0 0 0 0.26458326 -0.2645832"
-                   id="tspan1310">VNF SDK</tspan></tspan></text>
+                   id="tspan2094">VNF SDK</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1355,7 +1297,7 @@
                inkscape:label="vvp.label"><tspan
                  x="17"
                  y="79.742725"
-                 id="tspan1314">VVP</tspan></text>
+                 id="tspan2098">VVP</tspan></text>
           </g>
         </a>
       </g>
@@ -1390,9 +1332,9 @@
              inkscape:label="runtime.label"><tspan
                x="78"
                y="57.551855"
-               id="tspan1318"><tspan
+               id="tspan2102"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan1316">Run-Time</tspan></tspan></text>
+                 id="tspan2100">Run-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1428,10 +1370,10 @@
                inkscape:label="sharedservices.label"><tspan
                  x="268"
                  y="92.742725"
-                 id="tspan1322"><tspan
+                 id="tspan2106"><tspan
                    dx="0 0 0 0 0 0 0.26458302 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1320">Shared Services</tspan></tspan></text>
+                   id="tspan2104">Shared Services</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1461,72 +1403,9 @@
                inkscape:label="cps.label"><tspan
                  x="269"
                  y="143.74272"
-                 id="tspan1326"><tspan
+                 id="tspan2110"><tspan
                    dx="0 0 0 0 0.092604198 -0.092604123 0 0.2645829 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458463 0 0 0 0 0 0 0.26458541 -0.26458272"
-                   id="tspan1324">Config. Persistence Service (CPS)</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a1450"
-           inkscape:label="music.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href=""
-           xlink:title="[UNMAINTAINED] Multi-Site State (MUSIC) provides a multi-site state coordination/management service (MUSIC) with a rich suite of recipes that each ONAP component can simply configure and use for their state-management needs.">
-          <g
-             id="g1935"
-             inkscape:label="music">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-7-9-3"
-               width="50"
-               height="3.9999998"
-               x="269"
-               y="132.93277"
-               inkscape:label="music.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-3);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="225.7334"
-               y="-10.376236"
-               id="text1436-447-4"
-               inkscape:label="music.label"><tspan
-                 x="269"
-                 y="135.74272"
-                 id="tspan1330"><tspan
-                   dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0 0 0 0.2645835 -0.26458272"
-                   id="tspan1328">Multi-Site State (MUSIC)</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a1464"
-           inkscape:label="logging.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href=""
-           xlink:title="[UNMAINTAINED] Logging provides the capability to capture information required to operate, troubleshoot and report on the performance of the ONAP platform.">
-          <g
-             id="g1917"
-             inkscape:label="logging"
-             transform="translate(0.0047628,8.0672375)">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-8-8"
-               width="50"
-               height="3.9999998"
-               x="269"
-               y="116.93276"
-               inkscape:label="logging.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-8-8);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="219.84161"
-               y="-1.435748"
-               id="text1436-447-9"
-               inkscape:label="logging.label"><tspan
-                 x="269"
-                 y="119.74272"
-                 id="tspan1332">Logging</tspan></text>
+                   id="tspan2108">Config. Persistence Service (CPS)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1536,7 +1415,7 @@
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#oof-optimization-framework"
            xlink:title="The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer."
-           transform="translate(4.0004481e-8,7.9999997)">
+           transform="translate(4.0004487e-8,24)">
           <g
              id="g1912"
              inkscape:label="oof">
@@ -1557,42 +1436,9 @@
                inkscape:label="oof.label"><tspan
                  x="269"
                  y="111.74272"
-                 id="tspan1336"><tspan
+                 id="tspan2114"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
-                   id="tspan1334">Optimization Framework (OOF)</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a1477"
-           inkscape:label="aaf.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href=""
-           xlink:title="[UNMAINTAINED] The Application Authorization Framework (AAF) provides the services for authentication, authorization and certificate management to the ONAP components. It provides the services to the ONAP components to manage the lifecycle of authentication and authorization elements such as permissions, roles and credentials."
-           transform="translate(3.998908e-8,7.9999998)">
-          <g
-             id="g1906"
-             inkscape:label="aaf">
-            <rect
-               style="opacity:1;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect47709-2"
-               width="50"
-               height="3.9999995"
-               x="269"
-               y="100.93276"
-               inkscape:label="aaf.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-2);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="223.53899"
-               y="-13.681214"
-               id="text1436-447-3"
-               inkscape:label="aaf.label"><tspan
-                 x="269"
-                 y="103.74272"
-                 id="tspan1340"><tspan
-                   dx="0 0 0 0 0 0.26458338 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458463 0 0 0 0 0 0 0 0 0.26458004 -0.26458272"
-                   id="tspan1338">Appl. Authoriz. Framework (AAF)</tspan></tspan></text>
+                   id="tspan2112">Optimization Framework (OOF)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1609,11 +1455,11 @@
            inkscape:label="vfc"
            style="display:inline">
           <rect
-             style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect13557-62"
-             width="25.999992"
+             width="31.999992"
              height="26"
-             x="233"
+             x="227"
              y="120.93275"
              inkscape:label="vfc.form" />
           <text
@@ -1623,71 +1469,27 @@
              y="6.8816009"
              id="text1436-447"
              inkscape:label="vfc.label"><tspan
-               x="233"
+               x="227"
                y="123.42522"
-               id="tspan1348"><tspan
+               id="tspan2122"><tspan
                  dx="0 0 0 0 0 0 0 0.26458314"
-                 id="tspan1342">Virtual </tspan><tspan
+                 id="tspan2116">Virtual </tspan><tspan
                  dx="-0.26458272"
-                 id="tspan1344">Functio</tspan><tspan
+                 id="tspan2118">Functio</tspan><tspan
                  dx="0 0.26458278"
-                 id="tspan1346">n
+                 id="tspan2120">n
 </tspan></tspan><tspan
-               x="233"
+               x="227"
                y="126.75897"
-               id="tspan1352"><tspan
+               id="tspan2126"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan1350">Controller
+                 id="tspan2124">Controller
 </tspan></tspan><tspan
-               x="233"
+               x="227"
                y="130.09272"
-               id="tspan1354">(VFC)</tspan></text>
+               id="tspan2128">(VFC)</tspan></text>
         </g>
       </a>
-      <a
-         id="a4415"
-         inkscape:label="appc.link"
-         onmouseover="style.opacity = 0.6;"
-         onmouseout="style.opacity = 1.0;"
-         xlink:href=""
-         xlink:title="[UNMAINTAINED] The ONAP Controller Family (SDNC/APPC) configures and maintains the health of Layer 1-7 network functions (VNF, PNF, CNFs) and network services throughout their lifecycle. Both provide similar services (application level configuration using NetConf, Chef, Ansible, RestConf) and life cycle management functions (e.g. stop, resume, health check, etc.). APPC is being used mainly for Layer 4-7 network functions."
-         transform="translate(-5.2916667)">
-         transform=&quot;translate(-4.9952365,0.06725276)&quot;&gt;
-        <g
-   id="g8552"
-   inkscape:label="appc">
-  <rect
-     style="font-variation-settings:normal;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-     id="rect13557-0"
-     width="25.999994"
-     height="26"
-     x="206.26355"
-     y="121.03194"
-     inkscape:label="appc.form" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-0);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-     x="172.20732"
-     y="6.7860241"
-     id="text1436-447-33"
-     inkscape:label="appc.label"><tspan
-       x="206.26367"
-       y="123.52288"
-       id="tspan1358"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278"
-         id="tspan1356">Application
-</tspan></tspan><tspan
-       x="206.26367"
-       y="126.85663"
-       id="tspan1362"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-         id="tspan1360">Controller
-</tspan></tspan><tspan
-       x="206.26367"
-       y="130.19038"
-       id="tspan1364">(APPC)</tspan></text>
-</g>
-</a>
       <a
          id="a67340"
          xlink:href="https://docs.onap.org/projects/onap-sdnc-oam/en/latest/index.html"
@@ -1695,7 +1497,8 @@
          inkscape:label="sdnc.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         style="display:inline">
+         style="display:inline"
+         transform="translate(18.000014)">
         <g
            id="g8543"
            inkscape:label="sdnc"
@@ -1704,9 +1507,9 @@
           <rect
              style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:1.9629;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect13557-6"
-             width="25.517748"
+             width="31.40645"
              height="25.517748"
-             x="183.24113"
+             x="183.24112"
              y="121.17387"
              inkscape:label="sdnc.form" />
           <text
@@ -1718,18 +1521,19 @@
              inkscape:label="sdnc.label"><tspan
                x="183.24023"
                y="123.66546"
-               id="tspan1368"><tspan
+               id="tspan2132"><tspan
                  dx="0 0 0 0.26458326"
-                 id="tspan1366">SDN
+                 id="tspan2130">SDN
 </tspan></tspan><tspan
                x="183.24023"
                y="126.99921"
-               id="tspan1372"><tspan
+               id="tspan2136"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan1370">Controller </tspan></tspan><tspan
+                 id="tspan2134">Controller
+</tspan></tspan><tspan
                x="183.24023"
                y="130.33295"
-               id="tspan1374">(SDNC)</tspan></text>
+               id="tspan2138">(SDNC)</tspan></text>
         </g>
       </a>
       <a
@@ -1739,14 +1543,14 @@
          onmouseout="style.opacity = 1.0;"
          xlink:href="https://docs.onap.org/projects/onap-ccsdk-cds/en/latest/index.html"
          xlink:title="The run-time part of the Controller Design Studio (CDS) enables operators and ISPs to implement/operate hybrid network (CNF, PNF, VNF, Whitebox, etc.). The components are able to process and execute the design-time model intent defined by the users to support the lifecycle management. Included are a Self Service API, a TOSCA Workflow Engine, a Resource &amp; Template API, a Southbound Adapter, a Python Executor and a Kotlin Executor."
-         transform="translate(-16.995236,0.06725276)">
+         transform="translate(-4.9952364,0.06725646)">
         <g
            id="g8534"
            inkscape:label="cds">
           <rect
-             style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect13557-3"
-             width="25.999992"
+             width="32"
              height="26"
              x="158"
              y="120.93275"
@@ -1760,19 +1564,19 @@
              inkscape:label="cds.label"><tspan
                x="158"
                y="123.42522"
-               id="tspan1378"><tspan
+               id="tspan2142"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan1376">Controller
+                 id="tspan2140">Controller
 </tspan></tspan><tspan
                x="158"
                y="126.75897"
-               id="tspan1382"><tspan
+               id="tspan2146"><tspan
                  dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458278"
-                 id="tspan1380">Design Studio
+                 id="tspan2144">Design Studio
 </tspan></tspan><tspan
                x="158"
                y="130.09272"
-               id="tspan1384">(CDS)</tspan></text>
+               id="tspan2148">(CDS)</tspan></text>
         </g>
       </a>
       <a
@@ -1782,14 +1586,14 @@
          onmouseout="style.opacity = 1.0;"
          xlink:href="https://docs.onap.org/projects/onap-multicloud-framework/en/latest/index.html"
          xlink:title="MultiCloud provides mediation capabilities to connect to different infrastructure providers (VM based, Container based). It has capabilities to discover and register infrastructure resource information. Also it relays FCAPS data from infrastructure to DCAE."
-         transform="translate(-8.9952356,0.06725276)">
+         transform="translate(-2.995236,0.06725646)">
         <g
            id="g8525"
            inkscape:label="infrastructureadaption">
           <rect
              style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect13557-9"
-             width="26"
+             width="32"
              height="26"
              x="120"
              y="120.93275"
@@ -1803,23 +1607,23 @@
              inkscape:label="infrastructureadaption.label"><tspan
                x="120"
                y="123.42522"
-               id="tspan1388"><tspan
+               id="tspan2152"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2645835"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan1386">Infrastructure 
+                 id="tspan2150">Infrastructure 
 </tspan></tspan><tspan
                x="120"
                y="126.75897"
-               id="tspan1392"><tspan
+               id="tspan2156"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458278"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan1390">Adaption
+                 id="tspan2154">Adaption
 </tspan></tspan><tspan
                x="120"
                y="130.09272"
-               id="tspan1396"><tspan
+               id="tspan2160"><tspan
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan1394">(Multi-VIM/Cloud)</tspan></tspan></text>
+                 id="tspan2158">(Multi-VIM/Cloud)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1839,7 +1643,7 @@
             <rect
                style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
                id="rect13557"
-               width="26"
+               width="32.004765"
                height="26"
                x="81"
                y="120.93275"
@@ -1853,22 +1657,20 @@
                inkscape:label="dcae.label"><tspan
                  x="81"
                  y="123.42522"
-                 id="tspan1400"><tspan
+                 id="tspan2164"><tspan
                    dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0 0 0 0.26458386"
-                   id="tspan1398">Data Collection, 
+                   id="tspan2162">Data Collection, 
 </tspan></tspan><tspan
                  x="81"
                  y="126.75897"
-                 id="tspan1404"><tspan
+                 id="tspan2170"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0.26458421"
-                   id="tspan1402">Analytics &amp; </tspan></tspan><tspan
+                   id="tspan2166">Analytics &amp; </tspan><tspan
+                   dx="-0.26458463 0 0 0 0 0 0.26458433"
+                   id="tspan2168">Events </tspan></tspan><tspan
                  x="81"
                  y="130.09272"
-                 id="tspan1410"><tspan
-                   dx="0 0 0 0 0 0 0.26458338"
-                   id="tspan1406">Events </tspan><tspan
-                   dx="-0.26458368"
-                   id="tspan1408">(DCAE)</tspan></tspan></text>
+                 id="tspan2172">(DCAE)</tspan></text>
           </g>
         </a>
         <a
@@ -1885,7 +1687,7 @@
             <rect
                style="font-variation-settings:normal;display:inline;opacity:0.4;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
                id="rect47709-1-7-9-0-62"
-               width="22"
+               width="28"
                height="3.9999995"
                x="83"
                y="134"
@@ -1899,7 +1701,7 @@
                inkscape:label="analytics.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan1412">Analytics</tspan></text>
+                 id="tspan2174">Analytics</tspan></text>
           </g>
         </a>
         <a
@@ -1916,7 +1718,7 @@
             <rect
                style="font-variation-settings:normal;display:inline;opacity:0.4;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
                id="rect1422"
-               width="22"
+               width="28"
                height="3.9999995"
                x="83"
                y="134"
@@ -1930,7 +1732,7 @@
                inkscape:label="collectors.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan1414">Collectors</tspan></text>
+                 id="tspan2176">Collectors</tspan></text>
           </g>
         </a>
       </g>
@@ -1962,9 +1764,13 @@
              inkscape:label="dmaap.label"><tspan
                x="171.00391"
                y="107.49163"
-               id="tspan1418"><tspan
-                 dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0.26458243 -0.26458272 0.26458159 -0.26458272 0 0 0 0 0 0 0 0.26458541 -0.26458272"
-                 id="tspan1416">Data Movement as a Platform (DMaaP)</tspan></tspan></text>
+               id="tspan2180"><tspan
+                 dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0.26458243 -0.26458272 0.26458159 -0.26458272 0 0 0 0 0 0 0 0.26458541"
+                 id="tspan2178">Data Movement as a Platform
+</tspan></tspan><tspan
+               x="171.00391"
+               y="110.82538"
+               id="tspan2182">(DMaaP)</tspan></text>
         </g>
       </a>
       <a
@@ -1994,9 +1800,13 @@
              inkscape:label="msb.label"><tspan
                x="81"
                y="107.49163"
-               id="tspan1422"><tspan
-                 dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0.26458243 -0.26458272"
-                 id="tspan1420">Microservice Bus (MSB)</tspan></tspan></text>
+               id="tspan2186"><tspan
+                 dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0.26458243"
+                 id="tspan2184">Microservice Bus
+</tspan></tspan><tspan
+               x="81"
+               y="110.82538"
+               id="tspan2188">(MSB)</tspan></text>
         </g>
       </a>
       <a
@@ -2026,14 +1836,14 @@
              inkscape:label="aai.label"><tspan
                x="216.00391"
                y="91.491631"
-               id="tspan1426"><tspan
+               id="tspan2192"><tspan
                  dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835"
-                 id="tspan1424">Active &amp; Available </tspan></tspan><tspan
+                 id="tspan2190">Active &amp; Available </tspan></tspan><tspan
                x="216.00391"
                y="94.825379"
-               id="tspan1430"><tspan
+               id="tspan2196"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458272"
-                 id="tspan1428">Inventory (AAI)</tspan></tspan></text>
+                 id="tspan2194">Inventory (AAI)</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -2064,13 +1874,13 @@
              inkscape:label="so.label"><tspan
                x="171.00391"
                y="91.809131"
-               id="tspan1434"><tspan
+               id="tspan2200"><tspan
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278"
-                 id="tspan1432">Service Orchestration
+                 id="tspan2198">Service Orchestration
 </tspan></tspan><tspan
                x="171.00391"
                y="95.777881"
-               id="tspan1436">(SO)</tspan></text>
+               id="tspan2202">(SO)</tspan></text>
         </g>
       </a>
       <a
@@ -2102,12 +1912,12 @@
              inkscape:label="holmes.label"><tspan
                x="171.00391"
                y="91.809131"
-               id="tspan1440"><tspan
+               id="tspan2206"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.2645835"
-                 id="tspan1438">Correlation Engine </tspan></tspan><tspan
+                 id="tspan2204">Correlation Engine </tspan></tspan><tspan
                x="171.00391"
                y="95.777881"
-               id="tspan1442">(Holmes)</tspan></text>
+               id="tspan2208">(Holmes)</tspan></text>
         </g>
       </a>
       <g
@@ -2141,11 +1951,11 @@
                inkscape:label="policyframework.label"><tspan
                  x="81"
                  y="91.742725"
-                 id="tspan1448"><tspan
+                 id="tspan2214"><tspan
                    dx="0 0 0 0 0 0 0.2645829"
-                   id="tspan1444">Policy </tspan><tspan
+                   id="tspan2210">Policy </tspan><tspan
                    dx="-0.26458272"
-                   id="tspan1446">Framework</tspan></tspan></text>
+                   id="tspan2212">Framework</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2175,7 +1985,7 @@
                inkscape:label="clamp.label"><tspan
                  x="83.003906"
                  y="97.491631"
-                 id="tspan1450">CLAMP</tspan></text>
+                 id="tspan2216">CLAMP</tspan></text>
           </g>
         </a>
       </g>
@@ -2211,9 +2021,9 @@
                inkscape:label="interfaces.label"><tspan
                  x="59"
                  y="74.742725"
-                 id="tspan1454"><tspan
+                 id="tspan2220"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-                   id="tspan1452">Interfaces</tspan></tspan></text>
+                   id="tspan2218">Interfaces</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2229,9 +2039,9 @@
             <rect
                style="font-variation-settings:normal;vector-effect:none;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
                id="rect47709-0-3-6-0-61"
-               width="36"
+               width="44.995235"
                height="4.000001"
-               x="219"
+               x="210.00476"
                y="76.932762"
                inkscape:label="cli.form" />
             <text
@@ -2241,9 +2051,9 @@
                y="4.4774046"
                id="text1436-9"
                inkscape:label="cli.label"><tspan
-                 x="219"
+                 x="210.00391"
                  y="79.742725"
-                 id="tspan1456">CLI</tspan></text>
+                 id="tspan2222">CLI</tspan></text>
           </g>
         </a>
         <a
@@ -2252,16 +2062,17 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href=""
-           xlink:title="[UNMAINTAINED] External API exposes ONAPs capabilities through TMF standardized interfaces. It enables ONAP to hide the internal API.">
+           xlink:title="[UNMAINTAINED] External API exposes ONAPs capabilities through TMF standardized interfaces. It enables ONAP to hide the internal API."
+           transform="translate(-9.9999969)">
           <g
              id="g5402"
              inkscape:label="externalapis">
             <rect
                style="font-variation-settings:normal;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
                id="rect47709-0-3-6-0-2"
-               width="34.999996"
+               width="45.999996"
                height="4.000001"
-               x="180"
+               x="170.00476"
                y="76.932762"
                inkscape:label="externalapis.form" />
             <text
@@ -2271,11 +2082,11 @@
                y="3.1701791"
                id="text1436-11"
                inkscape:label="externalapis.label"><tspan
-                 x="180"
+                 x="170.00391"
                  y="79.742725"
-                 id="tspan1460"><tspan
+                 id="tspan2226"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan1458">External APIs</tspan></tspan></text>
+                   id="tspan2224">External APIs</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2284,16 +2095,17 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/projects/onap-usecase-ui/en/latest/index.html"
-           xlink:title="Usecase User Interface (UUI) is an application portal which provides the ability to manage ONAP service instances. It allows customers to create, delete and update service instances, as well as to monitor the alarms and performance of these instances.">
+           xlink:title="Usecase User Interface (UUI) is an application portal which provides the ability to manage ONAP service instances. It allows customers to create, delete and update service instances, as well as to monitor the alarms and performance of these instances."
+           transform="translate(-19.999996)">
           <g
              id="g5396"
              inkscape:label="usecaseui">
             <rect
-               style="font-variation-settings:normal;vector-effect:none;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+               style="font-variation-settings:normal;vector-effect:none;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
                id="rect47709-0-3-6-0-6"
-               width="36"
+               width="45.995235"
                height="4.000001"
-               x="140"
+               x="130.00476"
                y="76.932762"
                inkscape:label="usecaseui.form" />
             <text
@@ -2303,43 +2115,11 @@
                y="-23.208643"
                id="text1436-7"
                inkscape:label="usecaseui.label"><tspan
-                 x="140"
+                 x="130.00391"
                  y="79.742725"
-                 id="tspan1464"><tspan
+                 id="tspan2230"><tspan
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0.26458314 -0.26458272"
-                   id="tspan1462">Use-Case UI (UUI)</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a4585"
-           inkscape:label="omdashboardvid.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href=""
-           xlink:title="[UNMAINTAINED] Virtual Infrastructure Deployment (VID) is a UI interface that allows the operations and network infrastructure engineers to orchestrate and change configurations related to the infrastructure expansion and maintenance.">
-          <g
-             id="g5390"
-             inkscape:label="omdashboardvid">
-            <rect
-               style="font-variation-settings:normal;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
-               id="rect47709-0-3-6-0"
-               width="36"
-               height="4.000001"
-               x="100"
-               y="76.932762"
-               inkscape:label="omdashboardvid.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="24.28731"
-               y="-18.531609"
-               id="text1436-4"
-               inkscape:label="omdashboardvid.label"><tspan
-                 x="100"
-                 y="79.742725"
-                 id="tspan1468"><tspan
-                   dx="0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458159 -0.26458272"
-                   id="tspan1466">O&amp;M Dashboard (VID)</tspan></tspan></text>
+                   id="tspan2228">Use-Case UI (UUI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2348,28 +2128,28 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href=""
-           xlink:title="[UNMAINTAINED] Portal is a GUI platform that provides the ability to integrate different ONAP components GUIs into an centralized portal.">
+           xlink:title="[TO BE COMPLETED] Portal-NG provides the ability to integrate different ONAP components GUIs into an centralized portal.">
           <g
              id="g5384"
-             inkscape:label="portal">
+             inkscape:label="portal-ng">
             <rect
-               style="fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:#009994;fill-opacity:1;stroke:#009994;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                id="rect47709-0-3-6"
-               width="36.000004"
+               width="46.004765"
                height="4.000001"
                x="60"
                y="76.932762"
-               inkscape:label="portal.form" />
+               inkscape:label="portal-ng.form" />
             <text
                xml:space="preserve"
                style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="20.613007"
                y="-13.827914"
                id="text1436-0"
-               inkscape:label="portal.label"><tspan
+               inkscape:label="portal-ng.label"><tspan
                  x="60"
                  y="79.742725"
-                 id="tspan1470">Portal</tspan></text>
+                 id="tspan2232">Portal-NG</tspan></text>
           </g>
         </a>
       </g>
@@ -2403,10 +2183,10 @@
            inkscape:label="nbi.label"><tspan
              x="10"
              y="47.553809"
-             id="tspan1474"><tspan
+             id="tspan2236"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0.26458254 -0.2645826 0 0 0 0 0 0 0 0 0.26458493 -0.2645826 0 0 0 0 0.26457849 -0.2645826 0 0 0 0 0 0 0.26458469 -0.2645826 0 0 0 0.26458779 -0.2645826 0 0 0.26459685 -0.2645826 0 0 0.26457873 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);stop-color:#000000;stop-opacity:1"
-               id="tspan1472">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
+               id="tspan2234">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
       </g>
     </a>
     <path
@@ -2422,11 +2202,11 @@
        onmouseout="style.opacity = 1.0;"
        xlink:href="https://docs.onap.org/en/latest/release/history.html"
        xlink:title="ONAP Release 11 »Kohn«"
-       style="display:none"
+       style="display:inline"
        transform="translate(-3.3759646,4.8850003e-4)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;opacity:0.8;fill:#313032;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:none;opacity:0.8;fill:#313032;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="329.96664"
          y="27.894917"
          id="text1436-10"
@@ -2435,7 +2215,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:end;text-anchor:end;fill:#313032;fill-opacity:1;stroke-width:0.264583"
            x="329.87405"
            y="27.894917"
-           id="tspan5723">RELEASE 11 »KOHN«</tspan></text>
+           id="tspan5723">RELEASE 12 »LONDON«</tspan></text>
     </a>
     <a
        id="a4602"
