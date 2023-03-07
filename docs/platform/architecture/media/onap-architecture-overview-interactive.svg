@@ -30,15 +30,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="675.28696"
-     inkscape:cy="570.2816"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="664.49998"
+     inkscape:cy="431.24999"
      inkscape:window-width="3768"
      inkscape:window-height="2096"
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4638"
+     inkscape:current-layer="g1896"
      height="190mm"
      showborder="true"
      inkscape:showpageshadow="true"
@@ -114,9 +114,9 @@
            inkscape:label="unmaintained.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan1754"><tspan
+             id="tspan2735"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0.2645835 -0.26458463"
-               id="tspan1752">Unmaintained ONAP Component</tspan></tspan></text>
+               id="tspan2733">Unmaintained ONAP Component</tspan></tspan></text>
       </g>
       <g
          id="g4786-5"
@@ -140,9 +140,9 @@
            inkscape:label="onapcomponents.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan1758"><tspan
+             id="tspan2739"><tspan
                dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458272 0 0.2645829 -0.26458272 0 0 0 0.2645835 -0.26458272"
-               id="tspan1756">Entirety of ONAP Components</tspan></tspan></text>
+               id="tspan2737">Entirety of ONAP Components</tspan></tspan></text>
       </g>
       <g
          id="g4770"
@@ -166,7 +166,7 @@
            transform="matrix(1.00026,0,0,1,-0.0728097,0)"><tspan
              x="279"
              y="237.80913"
-             id="tspan1760">Operations</tspan></text>
+             id="tspan2741">Operations</tspan></text>
       </g>
       <g
          id="g4776"
@@ -190,9 +190,9 @@
            transform="matrix(1.00026,0,0,1,-0.0602911,0)"><tspan
              x="231.00195"
              y="237.80913"
-             id="tspan1764"><tspan
+             id="tspan2745"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0.26458231 -0.26458272"
-               id="tspan1762">Orchestration &amp; Management</tspan></tspan></text>
+               id="tspan2743">Orchestration &amp; Management</tspan></tspan></text>
       </g>
       <g
          id="g4765"
@@ -215,7 +215,7 @@
            inkscape:label="design.label"><tspan
              x="183"
              y="237.80913"
-             id="tspan1766">Design</tspan></text>
+             id="tspan2747">Design</tspan></text>
       </g>
       <g
          id="g4781"
@@ -238,9 +238,9 @@
            inkscape:label="colorlegend.label"><tspan
              x="7.0039062"
              y="237.86187"
-             id="tspan1770"><tspan
+             id="tspan2751"><tspan
                dx="0 0 0 0 0 0.26458338 -0.2645832"
-               id="tspan1768">Color Legend:</tspan></tspan></text>
+               id="tspan2749">Color Legend:</tspan></tspan></text>
       </g>
     </g>
     <g
@@ -270,17 +270,17 @@
            inkscape:label="managedenvironment.form" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect88-7);opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect88-7);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
            x="-158.34993"
            y="134.38689"
            id="text24922"
            inkscape:label="managedenvironment.label"><tspan
              x="82.003906"
              y="165.55381"
-             id="tspan1774"><tspan
+             id="tspan2755"><tspan
                dx="0 0 0 0 0 0 0 0.26458254 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-               id="tspan1772">Managed Environment</tspan></tspan></text>
+               id="tspan2753">Managed Environment</tspan></tspan></text>
       </g>
       <g
          id="g29902"
@@ -433,10 +433,10 @@
              inkscape:label="hypervisoroslayer.label"><tspan
                x="86.003906"
                y="197.80913"
-               id="tspan1778"><tspan
+               id="tspan2759"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1776">Hypervisor / OS Layer</tspan></tspan></text>
+                 id="tspan2757">Hypervisor / OS Layer</tspan></tspan></text>
         </g>
         <g
            id="g4413"
@@ -451,14 +451,14 @@
              inkscape:label="openstack.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-4);fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-4);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="270.92728"
              y="176.48772"
              id="text1436-447-86-59"
              inkscape:label="openstack.label"><tspan
                x="135.00391"
                y="198.49163"
-               id="tspan1780">OpenStack</tspan></text>
+               id="tspan2761">OpenStack</tspan></text>
         </g>
         <g
            id="g4408"
@@ -473,16 +473,16 @@
              inkscape:label="commercialvim.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-1);fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-1);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="271.98145"
              y="177.67804"
              id="text1436-447-86-3"
              inkscape:label="commercialvim.label"><tspan
                x="167.00391"
                y="198.49163"
-               id="tspan1784"><tspan
+               id="tspan2765"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
-                 id="tspan1782">Commercial VIM</tspan></tspan></text>
+                 id="tspan2763">Commercial VIM</tspan></tspan></text>
         </g>
         <g
            id="g4396"
@@ -497,14 +497,14 @@
              inkscape:label="kubernetes.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4);fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="273.70224"
              y="176.48773"
              id="text1436-447-86-31"
              inkscape:label="kubernetes.label"><tspan
                x="199.00391"
                y="198.49163"
-               id="tspan1786">Kubernetes</tspan></text>
+               id="tspan2767">Kubernetes</tspan></text>
         </g>
         <g
            id="g4402"
@@ -526,9 +526,9 @@
              inkscape:label="publiccloud.label"><tspan
                x="231.00391"
                y="198.49163"
-               id="tspan1790"><tspan
+               id="tspan2771"><tspan
                  dx="0 0 0 0 0 0 0.2645829 -0.26458272"
-                 id="tspan1788">Public Cloud</tspan></tspan></text>
+                 id="tspan2769">Public Cloud</tspan></tspan></text>
         </g>
       </g>
       <g
@@ -548,17 +548,17 @@
              inkscape:label="networkfunctionlayer.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-1);opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-1);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="166.66481"
              y="10.079004"
              id="text1436-96"
              inkscape:label="networkfunktionlayer.label"><tspan
                x="86.003906"
                y="185.80913"
-               id="tspan1794"><tspan
+               id="tspan2775"><tspan
                  dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1792">Network Function Layer</tspan></tspan></text>
+                 id="tspan2773">Network Function Layer</tspan></tspan></text>
         </g>
         <g
            id="g2995"
@@ -589,7 +589,7 @@
              transform="translate(-0.26458332,0.26458332)"><tspan
                x="266.74023"
                y="188.7553"
-               id="tspan1796">PNF</tspan></text>
+               id="tspan2777">PNF</tspan></text>
         </g>
         <g
            id="g2907"
@@ -604,14 +604,14 @@
              inkscape:label="vnf.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7);fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="189.27498"
              y="23.159328"
              id="text1436-447-86-5"
              inkscape:label="vnf.label"><tspan
                x="199.00391"
                y="186.49163"
-               id="tspan1798">VNF</tspan></text>
+               id="tspan2779">VNF</tspan></text>
         </g>
       </g>
       <g
@@ -639,10 +639,10 @@
              inkscape:label="externalsystems.label"><tspan
                x="86.003906"
                y="173.80913"
-               id="tspan1802"><tspan
+               id="tspan2783"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1800">External Systems</tspan></tspan></text>
+                 id="tspan2781">External Systems</tspan></tspan></text>
         </g>
         <g
            id="g4437"
@@ -657,16 +657,16 @@
              inkscape:label="thirdpartycontrollers.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9);fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="187.97429"
              y="18.505995"
              id="text1436-447-86-17"
              inkscape:label="thirdpartycontrollers.label"><tspan
                x="135.00391"
                y="174.49163"
-               id="tspan1806"><tspan
+               id="tspan2787"><tspan
                  dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
-                 id="tspan1804">3rd Party Controllers</tspan></tspan></text>
+                 id="tspan2785">3rd Party Controllers</tspan></tspan></text>
         </g>
         <g
            id="g4442"
@@ -681,14 +681,14 @@
              inkscape:label="svnfm.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7-6);fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7-6);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="182.92662"
              y="27.262211"
              id="text1436-447-86-2"
              inkscape:label="svnfm.label"><tspan
                x="199.00391"
                y="174.49163"
-               id="tspan1808">sVNFM</tspan></text>
+               id="tspan2789">sVNFM</tspan></text>
         </g>
         <g
            id="g4447"
@@ -703,14 +703,14 @@
              inkscape:label="ems.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7-9);fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7-9);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="176.8647"
              y="21.310633"
              id="text1436-447-86-7"
              inkscape:label="ems.label"><tspan
                x="231.00391"
                y="174.49163"
-               id="tspan1810">EMS</tspan></text>
+               id="tspan2791">EMS</tspan></text>
         </g>
       </g>
     </g>
@@ -762,9 +762,9 @@
              inkscape:label="utilities.label"><tspan
                x="12.003906"
                y="161.61826"
-               id="tspan1814"><tspan
+               id="tspan2795"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                 id="tspan1812">Utilities</tspan></tspan></text>
+                 id="tspan2793">Utilities</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -800,10 +800,10 @@
                inkscape:label="onapsharedutilities.label"><tspan
                  x="16.003906"
                  y="173.80913"
-                 id="tspan1818"><tspan
+                 id="tspan2799"><tspan
                    dx="0 0 0 0 0.26458302 -0.26458284 0 0 0 0 0 0.26458207 -0.26458189"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1816">ONAP Shared Utilities</tspan></tspan></text>
+                   id="tspan2797">ONAP Shared Utilities</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -828,16 +828,16 @@
                inkscape:label="modelutilities.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-1);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-1);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="168.51738"
                y="11.404485"
                id="text1436-30"
                inkscape:label="modelutilities.label"><tspan
                  x="17.003906"
                  y="190.80913"
-                 id="tspan1822"><tspan
+                 id="tspan2803"><tspan
                    dx="0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan1820">Model Utilities</tspan></tspan></text>
+                   id="tspan2801">Model Utilities</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -863,16 +863,16 @@
                inkscape:label="ccsdk.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-1-5);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-1-5);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="168.51738"
                y="11.404485"
                id="text1436-30-9"
                inkscape:label="ccsdk.label"><tspan
                  x="15.003906"
                  y="190.80913"
-                 id="tspan1826"><tspan
+                 id="tspan2807"><tspan
                    dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0 0.26458433 -0.26458272 0 0 0.26458469 -0.26458272"
-                   id="tspan1824">Common Controller SDK (CCSDK)</tspan></tspan></text>
+                   id="tspan2805">Common Controller SDK (CCSDK)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -902,17 +902,17 @@
              inkscape:label="manageonap.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect41609);opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect41609);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="228.26944"
              y="22.61767"
              id="text1436-656-4-1"
              inkscape:label="manageonap.label"><tspan
                x="172"
                y="57.551855"
-               id="tspan1830"><tspan
+               id="tspan2811"><tspan
                  dx="0 0 0 0 0 0 0.26458302 -0.2645826"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan1828">Manage ONAP</tspan></tspan></text>
+                 id="tspan2809">Manage ONAP</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -943,9 +943,9 @@
              inkscape:label="oom.label"><tspan
                x="267.00391"
                y="55.742725"
-               id="tspan1834"><tspan
+               id="tspan2815"><tspan
                  dx="0 0 0 0 0.26458302 -0.26458272 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0.26458243 -0.26458272"
-                 id="tspan1832">ONAP Operation Manager (OOM)</tspan></tspan></text>
+                 id="tspan2813">ONAP Operation Manager (OOM)</tspan></tspan></text>
         </g>
       </a>
     </g>
@@ -981,9 +981,9 @@
              inkscape:label="designtime.label"><tspan
                x="12"
                y="57.551855"
-               id="tspan1838"><tspan
+               id="tspan2819"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan1836">Design-Time</tspan></tspan></text>
+                 id="tspan2817">Design-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1019,16 +1019,16 @@
                inkscape:label="sdc.label"><tspan
                  x="16"
                  y="92.742725"
-                 id="tspan1842"><tspan
+                 id="tspan2823"><tspan
                    dx="0 0 0 0 0 0 0 0.26458231 -0.26458284 0 0 0 0 0 0.26458278 -0.2645838 0.26458398 -0.2645838 0 0 0 0 0 0 0 0.26458088"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1840">Service Design &amp; Creation
+                   id="tspan2821">Service Design &amp; Creation
 </tspan></tspan><tspan
                  x="16"
                  y="96.711475"
-                 id="tspan1846"><tspan
+                 id="tspan2827"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1844">(SDC)</tspan></tspan></text>
+                   id="tspan2825">(SDC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1053,14 +1053,14 @@
                inkscape:label="catalog.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.261918"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.261918"
                x="167.88138"
                y="11.932061"
                id="text1436-63"
                inkscape:label="catalog.label"><tspan
                  x="17.255859"
                  y="143.74272"
-                 id="tspan1848">Catalog</tspan></text>
+                 id="tspan2829">Catalog</tspan></text>
           </g>
         </a>
         <a
@@ -1084,16 +1084,16 @@
                inkscape:label="workflowdesigner.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-8);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-8);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="179.79521"
                y="7.5675664"
                id="text1436-2"
                inkscape:label="workflowdesigner.label"><tspan
                  x="17"
                  y="119.74272"
-                 id="tspan1852"><tspan
+                 id="tspan2833"><tspan
                    dx="0 0 0 0 0 0.092604198 -0.0926046 0 0.2645835 -0.26458272"
-                   id="tspan1850">Workflow Designer</tspan></tspan></text>
+                   id="tspan2831">Workflow Designer</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1117,16 +1117,16 @@
                inkscape:label="xnfonboarding.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="167.75735"
                y="3.067914"
                id="text1436-8"
                inkscape:label="xnfonboarding.label"><tspan
                  x="17"
                  y="111.74272"
-                 id="tspan1856"><tspan
+                 id="tspan2837"><tspan
                    dx="0 0 0 0.26458278 -0.2645832"
-                   id="tspan1854">xNF Onboarding</tspan></tspan></text>
+                   id="tspan2835">xNF Onboarding</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1152,7 +1152,7 @@
                inkscape:label="servicexnfdesign.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="169.71107"
                y="4.38903"
                id="text1436-3"
@@ -1160,9 +1160,9 @@
                sodipodi:insensitive="true"><tspan
                  x="17"
                  y="103.74272"
-                 id="tspan1860"><tspan
+                 id="tspan2841"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan1858">Service/xNF Design</tspan></tspan></text>
+                   id="tspan2839">Service/xNF Design</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1197,10 +1197,10 @@
                inkscape:label="vnfvalidation.label"><tspan
                  x="16"
                  y="74.742725"
-                 id="tspan1864"><tspan
+                 id="tspan2845"><tspan
                    dx="0 0 0 0.26458326 -0.26458332"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1862">VNF Validation</tspan></tspan></text>
+                   id="tspan2843">VNF Validation</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1225,16 +1225,16 @@
                inkscape:label="vnfsdk.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-9-8-9);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-9-8-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="37.171062"
                y="-20.744442"
                id="text1436-1"
                inkscape:label="vnfsdk.label"><tspan
                  x="36"
                  y="79.742725"
-                 id="tspan1868"><tspan
+                 id="tspan2849"><tspan
                    dx="0 0 0 0.26458326 -0.2645832"
-                   id="tspan1866">VNF SDK</tspan></tspan></text>
+                   id="tspan2847">VNF SDK</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1265,7 +1265,7 @@
                inkscape:label="vvp.label"><tspan
                  x="17"
                  y="79.742725"
-                 id="tspan1870">VVP</tspan></text>
+                 id="tspan2851">VVP</tspan></text>
           </g>
         </a>
       </g>
@@ -1293,16 +1293,16 @@
              inkscape:label="runtime.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect6495);opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect6495);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="180.11223"
              y="28.465675"
              id="text1436-656-4"
              inkscape:label="runtime.label"><tspan
                x="78"
                y="57.551855"
-               id="tspan1874"><tspan
+               id="tspan2855"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan1872">Run-Time</tspan></tspan></text>
+                 id="tspan2853">Run-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1331,17 +1331,17 @@
                inkscape:label="sharedservices.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect34206-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect34206-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="264.16125"
                y="-18.357779"
                id="text1436"
                inkscape:label="sharedservices.label"><tspan
                  x="268"
                  y="92.742725"
-                 id="tspan1878"><tspan
+                 id="tspan2859"><tspan
                    dx="0 0 0 0 0 0 0.26458302 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan1876">Shared Services</tspan></tspan></text>
+                   id="tspan2857">Shared Services</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1350,7 +1350,8 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/projects/onap-cps/en/latest/index.html"
-           xlink:title="The Configuration Persistence Service (CPS) provides storage for real-time run-time configuration and operational parameters that need to be used by ONAP.">
+           xlink:title="The Configuration Persistence Service (CPS) provides storage for real-time run-time configuration and operational parameters that need to be used by ONAP."
+           transform="translate(4.0004481e-8,-8.0000081)">
           <g
              id="g1929"
              inkscape:label="cps">
@@ -1364,16 +1365,49 @@
                inkscape:label="cps.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="207.3472"
                y="-5.3533635"
                id="text1436-447-8"
                inkscape:label="cps.label"><tspan
                  x="269"
                  y="143.74272"
-                 id="tspan1882"><tspan
+                 id="tspan2863"><tspan
                    dx="0 0 0 0 0.092604198 -0.092604123 0 0.2645829 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458463 0 0 0 0 0 0 0.26458541 -0.26458272"
-                   id="tspan1880">Config. Persistence Service (CPS)</tspan></tspan></text>
+                   id="tspan2861">Config. Persistence Service (CPS)</tspan></tspan></text>
+          </g>
+        </a>
+        <a
+           id="a1443-3"
+           inkscape:label="logging-framework.link"
+           onmouseover="style.opacity = 0.6;"
+           onmouseout="style.opacity = 1.0;"
+           xlink:href=""
+           xlink:title=""
+           style="display:inline">
+          <g
+             id="g1929-6"
+             inkscape:label="logging-framework">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#66c1be;fill-opacity:1;stroke:#66c1be;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-1-7-9-0-6-7"
+               width="50"
+               height="3.9999995"
+               x="269"
+               y="140.93277"
+               inkscape:label="logging-framework.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0-6-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="207.3472"
+               y="-5.3533635"
+               id="text1436-447-8-5"
+               inkscape:label="logging-framework.label"><tspan
+                 x="269"
+                 y="143.74272"
+                 id="tspan2867"><tspan
+                   dx="0 0 0 0 0 0 0 0.26458254 -0.26458272"
+                   id="tspan2865">Logging Framework</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1383,10 +1417,11 @@
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#oof-optimization-framework"
            xlink:title="The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer."
-           transform="translate(4.0004487e-8,24)">
+           transform="translate(-4.6000472e-7,26)">
           <g
              id="g1912"
-             inkscape:label="oof">
+             inkscape:label="oof"
+             transform="translate(0,-10)">
             <rect
                style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#66c1be;fill-opacity:1;stroke:#66c1be;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
                id="rect47709-1-2"
@@ -1397,16 +1432,51 @@
                inkscape:label="oof.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-2);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-2);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="219.175"
                y="-8.9471817"
                id="text1436-447-7"
                inkscape:label="oof.label"><tspan
                  x="269"
                  y="111.74272"
-                 id="tspan1886"><tspan
+                 id="tspan2871"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
-                   id="tspan1884">Optimization Framework (OOF)</tspan></tspan></text>
+                   id="tspan2869">Optimization Framework (OOF)</tspan></tspan></text>
+          </g>
+        </a>
+        <a
+           id="a1470-3"
+           inkscape:label="security-framework.link"
+           onmouseover="style.opacity = 0.6;"
+           onmouseout="style.opacity = 1.0;"
+           xlink:href=""
+           xlink:title=""
+           transform="translate(-2.1000011e-7,18)"
+           style="display:inline">
+          <g
+             id="g1912-5"
+             inkscape:label="security-framework"
+             transform="translate(0,-10)">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#66c1be;fill-opacity:1;stroke:#66c1be;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-1-2-6"
+               width="50"
+               height="3.9999995"
+               x="269"
+               y="108.93276"
+               inkscape:label="security-framework.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-2-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="219.175"
+               y="-8.9471817"
+               id="text1436-447-7-2"
+               inkscape:label="security-framework.label"><tspan
+                 x="269"
+                 y="111.74272"
+                 id="tspan2875"><tspan
+                   dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458272"
+                   id="tspan2873">Security Framework</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1432,30 +1502,30 @@
              inkscape:label="vfc.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-62);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-62);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="179.96658"
              y="6.8816009"
              id="text1436-447"
              inkscape:label="vfc.label"><tspan
                x="227"
                y="123.42522"
-               id="tspan1894"><tspan
+               id="tspan2883"><tspan
                  dx="0 0 0 0 0 0 0 0.26458314"
-                 id="tspan1888">Virtual </tspan><tspan
+                 id="tspan2877">Virtual </tspan><tspan
                  dx="-0.26458272"
-                 id="tspan1890">Functio</tspan><tspan
+                 id="tspan2879">Functio</tspan><tspan
                  dx="0 0.26458278"
-                 id="tspan1892">n
+                 id="tspan2881">n
 </tspan></tspan><tspan
                x="227"
                y="126.75897"
-               id="tspan1898"><tspan
+               id="tspan2887"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan1896">Controller
+                 id="tspan2885">Controller
 </tspan></tspan><tspan
                x="227"
                y="130.09272"
-               id="tspan1900">(VFC)</tspan></text>
+               id="tspan2889">(VFC)</tspan></text>
         </g>
       </a>
       <a
@@ -1482,26 +1552,26 @@
              inkscape:label="sdnc.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.259675"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.259675"
              x="175.28391"
              y="10.248323"
              id="text1436-447-6"
              inkscape:label="sdnc.label"><tspan
                x="183.24023"
                y="123.66546"
-               id="tspan1904"><tspan
+               id="tspan2893"><tspan
                  dx="0 0 0 0.26458326"
-                 id="tspan1902">SDN
+                 id="tspan2891">SDN
 </tspan></tspan><tspan
                x="183.24023"
                y="126.99921"
-               id="tspan1908"><tspan
+               id="tspan2897"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan1906">Controller
+                 id="tspan2895">Controller
 </tspan></tspan><tspan
                x="183.24023"
                y="130.33295"
-               id="tspan1910">(SDNC)</tspan></text>
+               id="tspan2899">(SDNC)</tspan></text>
         </g>
       </a>
       <a
@@ -1525,26 +1595,26 @@
              inkscape:label="cds.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-3);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-3);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="175.52376"
              y="7.9113479"
              id="text1436-447-31"
              inkscape:label="cds.label"><tspan
                x="158"
                y="123.42522"
-               id="tspan1914"><tspan
+               id="tspan2903"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan1912">Controller
+                 id="tspan2901">Controller
 </tspan></tspan><tspan
                x="158"
                y="126.75897"
-               id="tspan1918"><tspan
+               id="tspan2907"><tspan
                  dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458278"
-                 id="tspan1916">Design Studio
+                 id="tspan2905">Design Studio
 </tspan></tspan><tspan
                x="158"
                y="130.09272"
-               id="tspan1920">(CDS)</tspan></text>
+               id="tspan2909">(CDS)</tspan></text>
         </g>
       </a>
       <a
@@ -1568,30 +1638,30 @@
              inkscape:label="infrastructureadaption.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-9);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="181.20889"
              y="-4.1586871"
              id="text1436-447-38"
              inkscape:label="infrastructureadaption.label"><tspan
                x="120"
                y="123.42522"
-               id="tspan1924"><tspan
+               id="tspan2913"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2645835"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan1922">Infrastructure 
+                 id="tspan2911">Infrastructure 
 </tspan></tspan><tspan
                x="120"
                y="126.75897"
-               id="tspan1928"><tspan
+               id="tspan2917"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458278"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan1926">Adaption
+                 id="tspan2915">Adaption
 </tspan></tspan><tspan
                x="120"
                y="130.09272"
-               id="tspan1932"><tspan
+               id="tspan2921"><tspan
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan1930">(Multi-VIM/Cloud)</tspan></tspan></text>
+                 id="tspan2919">(Multi-VIM/Cloud)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1625,20 +1695,20 @@
                inkscape:label="dcae.label"><tspan
                  x="81"
                  y="123.42522"
-                 id="tspan1936"><tspan
+                 id="tspan2925"><tspan
                    dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0 0 0 0.26458386"
-                   id="tspan1934">Data Collection, 
+                   id="tspan2923">Data Collection, 
 </tspan></tspan><tspan
                  x="81"
                  y="126.75897"
-                 id="tspan1942"><tspan
+                 id="tspan2931"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0.26458421"
-                   id="tspan1938">Analytics &amp; </tspan><tspan
+                   id="tspan2927">Analytics &amp; </tspan><tspan
                    dx="-0.26458463 0 0 0 0 0 0.26458433"
-                   id="tspan1940">Events </tspan></tspan><tspan
+                   id="tspan2929">Events </tspan></tspan><tspan
                  x="81"
                  y="130.09272"
-                 id="tspan1944">(DCAE)</tspan></text>
+                 id="tspan2933">(DCAE)</tspan></text>
           </g>
         </a>
         <a
@@ -1662,14 +1732,14 @@
                inkscape:label="analytics.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0-62);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0-62);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="173.04317"
                y="3.8190179"
                id="text1436-447-86-0"
                inkscape:label="analytics.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan1946">Analytics</tspan></text>
+                 id="tspan2935">Analytics</tspan></text>
           </g>
         </a>
         <a
@@ -1693,14 +1763,14 @@
                inkscape:label="collectors.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect1422);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect1422);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="173.04317"
                y="3.8190179"
                id="text1426"
                inkscape:label="collectors.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan1948">Collectors</tspan></text>
+                 id="tspan2937">Collectors</tspan></text>
           </g>
         </a>
       </g>
@@ -1725,20 +1795,20 @@
              inkscape:label="dmaap.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-5-3);fill:#fffffb;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-5-3);display:inline;fill:#fffffb;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="174.68517"
              y="13.522552"
              id="text1436-447-86-9"
              inkscape:label="dmaap.label"><tspan
                x="171.00391"
                y="107.49163"
-               id="tspan1952"><tspan
+               id="tspan2941"><tspan
                  dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0.26458243 -0.26458272 0.26458159 -0.26458272 0 0 0 0 0 0 0 0.26458541"
-                 id="tspan1950">Data Movement as a Platform
+                 id="tspan2939">Data Movement as a Platform
 </tspan></tspan><tspan
                x="171.00391"
                y="110.82538"
-               id="tspan1954">(DMaaP)</tspan></text>
+               id="tspan2943">(DMaaP)</tspan></text>
         </g>
       </a>
       <a
@@ -1761,20 +1831,20 @@
              inkscape:label="msb.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-5);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-5);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="176.3374"
              y="10.155828"
              id="text1436-447-86-1"
              inkscape:label="msb.label"><tspan
                x="81"
                y="107.49163"
-               id="tspan1958"><tspan
+               id="tspan2947"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0.26458243"
-                 id="tspan1956">Microservice Bus
+                 id="tspan2945">Microservice Bus
 </tspan></tspan><tspan
                x="81"
                y="110.82538"
-               id="tspan1960">(MSB)</tspan></text>
+               id="tspan2949">(MSB)</tspan></text>
         </g>
       </a>
       <a
@@ -1797,21 +1867,21 @@
              inkscape:label="aai.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-7);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="170.64124"
              y="9.4206228"
              id="text1436-15"
              inkscape:label="aai.label"><tspan
                x="216.00391"
                y="91.491631"
-               id="tspan1964"><tspan
+               id="tspan2953"><tspan
                  dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835"
-                 id="tspan1962">Active &amp; Available </tspan></tspan><tspan
+                 id="tspan2951">Active &amp; Available </tspan></tspan><tspan
                x="216.00391"
                y="94.825379"
-               id="tspan1968"><tspan
+               id="tspan2957"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458272"
-                 id="tspan1966">Inventory (AAI)</tspan></tspan></text>
+                 id="tspan2955">Inventory (AAI)</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -1835,20 +1905,20 @@
              inkscape:label="so.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="174.04448"
              y="18.677187"
              id="text1436-49"
              inkscape:label="so.label"><tspan
                x="171.00391"
                y="91.809131"
-               id="tspan1972"><tspan
+               id="tspan2961"><tspan
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278"
-                 id="tspan1970">Service Orchestration
+                 id="tspan2959">Service Orchestration
 </tspan></tspan><tspan
                x="171.00391"
                y="95.777881"
-               id="tspan1974">(SO)</tspan></text>
+               id="tspan2963">(SO)</tspan></text>
         </g>
       </a>
       <a
@@ -1873,19 +1943,19 @@
              inkscape:label="holmes.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect4092);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect4092);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="174.04448"
              y="18.677187"
              id="text4098"
              inkscape:label="holmes.label"><tspan
                x="171.00391"
                y="91.809131"
-               id="tspan1978"><tspan
+               id="tspan2967"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.2645835"
-                 id="tspan1976">Correlation Engine </tspan></tspan><tspan
+                 id="tspan2965">Correlation Engine </tspan></tspan><tspan
                x="171.00391"
                y="95.777881"
-               id="tspan1980">(Holmes)</tspan></text>
+               id="tspan2969">(Holmes)</tspan></text>
         </g>
       </a>
       <g
@@ -1912,18 +1982,18 @@
                inkscape:label="policyframework.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="170.91991"
                y="24.497959"
                id="text1436-5"
                inkscape:label="policyframework.label"><tspan
                  x="81"
                  y="91.742725"
-                 id="tspan1986"><tspan
+                 id="tspan2975"><tspan
                    dx="0 0 0 0 0 0 0.2645829"
-                   id="tspan1982">Policy </tspan><tspan
+                   id="tspan2971">Policy </tspan><tspan
                    dx="-0.26458272"
-                   id="tspan1984">Framework</tspan></tspan></text>
+                   id="tspan2973">Framework</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1946,14 +2016,14 @@
                inkscape:label="clamp.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-5-9-1);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-5-9-1);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="166.90547"
                y="12.189323"
                id="text1436-91"
                inkscape:label="clamp.label"><tspan
                  x="83.003906"
                  y="97.491631"
-                 id="tspan1988">CLAMP</tspan></text>
+                 id="tspan2977">CLAMP</tspan></text>
           </g>
         </a>
       </g>
@@ -1982,16 +2052,16 @@
                inkscape:label="interfaces.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="-47.995235"
                y="75"
                id="text1842"
                inkscape:label="interfaces.label"><tspan
                  x="59"
                  y="74.742725"
-                 id="tspan1992"><tspan
+                 id="tspan2981"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-                   id="tspan1990">Interfaces</tspan></tspan></text>
+                   id="tspan2979">Interfaces</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2014,14 +2084,14 @@
                inkscape:label="cli.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0-61);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0-61);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="164.039"
                y="4.4774046"
                id="text1436-9"
                inkscape:label="cli.label"><tspan
                  x="210.00391"
                  y="79.742725"
-                 id="tspan1994">CLI</tspan></text>
+                 id="tspan2983">CLI</tspan></text>
           </g>
         </a>
         <a
@@ -2045,16 +2115,16 @@
                inkscape:label="externalapis.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0-2);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0-2);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="165.2327"
                y="3.1701791"
                id="text1436-11"
                inkscape:label="externalapis.label"><tspan
                  x="170.00391"
                  y="79.742725"
-                 id="tspan1998"><tspan
+                 id="tspan2987"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan1996">External APIs</tspan></tspan></text>
+                   id="tspan2985">External APIs</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2078,16 +2148,16 @@
                inkscape:label="usecaseui.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="33.78363"
                y="-23.208643"
                id="text1436-7"
                inkscape:label="usecaseui.label"><tspan
                  x="130.00391"
                  y="79.742725"
-                 id="tspan2002"><tspan
+                 id="tspan2991"><tspan
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0.26458314 -0.26458272"
-                   id="tspan2000">Use-Case UI (UUI)</tspan></tspan></text>
+                   id="tspan2989">Use-Case UI (UUI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2110,14 +2180,14 @@
                inkscape:label="portal-ng.form" />
             <text
                xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="20.613007"
                y="-13.827914"
                id="text1436-0"
                inkscape:label="portal-ng.label"><tspan
                  x="60"
                  y="79.742725"
-                 id="tspan2004">Portal-NG</tspan></text>
+                 id="tspan2993">Portal-NG</tspan></text>
           </g>
         </a>
       </g>
@@ -2151,10 +2221,10 @@
            inkscape:label="nbi.label"><tspan
              x="10"
              y="47.553809"
-             id="tspan2008"><tspan
+             id="tspan2997"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0.26458254 -0.2645826 0 0 0 0 0 0 0 0 0.26458493 -0.2645826 0 0 0 0 0.26457849 -0.2645826 0 0 0 0 0 0 0.26458469 -0.2645826 0 0 0 0.26458779 -0.2645826 0 0 0.26459685 -0.2645826 0 0 0.26457873 -0.2645826"
                style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);stop-color:#000000;stop-opacity:1"
-               id="tspan2006">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
+               id="tspan2995">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
       </g>
     </a>
     <path
