@@ -137,19 +137,6 @@ tasks like integration or user management are covered here.
 
 |
 
-:ref:`User Guides <user-guides>`
---------------------------------
-
-.. figure:: _static/person.svg
-    :align: left
-    :scale: 300%
-    :figwidth: 50px
-
-The User Guides focus on tasks to administer services using ONAP, covering
-service design, instantiation and management using control loops.
-
-|
-
 :ref:`Developer Guides <ONAP_developer_guides>`
 -----------------------------------------------
 
@@ -207,6 +194,13 @@ vulnerabilities and how to report them.
 .. toctree::
    :maxdepth: 1
    :hidden:  
+   :caption: USE CASES
+
+   usecases/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:  
    :caption: PLATFORM
 
    platform/overview/index
@@ -219,7 +213,6 @@ vulnerabilities and how to report them.
    :caption: GUIDES
 
    guides/onap-operator/index
-   guides/onap-user/index
    guides/onap-developer/index
    guides/onap-documentation/index
 
