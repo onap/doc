@@ -2,28 +2,31 @@
 .. International License.  http://creativecommons.org/licenses/by/4.0
 .. Copyright 2023 ONAP Contributors. All rights reserved.
 
-.. _usecases:
+.. _usecases_entry:
 
-'Kohn' Use Cases and Requirements
-=================================
+Use Cases, Blueprints, Requirements
+===================================
 
+Use Cases are descriptions of how a user interacts with a software system to
+achieve a specific goal. They describe the actions that the user takes, the
+system’s responses, and any conditions or tasks that must be met for the
+interaction to occur. Use cases are used to identify and define the functional
+requirements of the software system.
 
-The section includes use cases and functional requirements which have been
-officially verified in the release.
+Requirements are statements that describe what the software system must do,
+how it should behave , and what constraints it must operate under. Requirements
+are typically divided into functional requirements, which describe what the
+software must do, and non-functional requirements, which describe how the
+software should behave or perform.
 
-For each use case or functional requirement, you can find contact names and a
-link to the associated documentation.
+Blueprint is a high-level design document that provides an overview of the
+software system’s architecture and components. The blueprint typically includes
+diagrams that illustrate the system’s structure and relationships between
+components, as well as descriptions of each component’s function and interface.
 
-This documentation deals with
+ONAP covers a wide range of use cases for Communication Service Providers (CSP)
+and the open source networking industry. See the current list of verified use
+cases and functional requirements. Upon reaching a certain level of maturity,
+use cases become ONAP Blueprints.
 
-  1. What has been implemented
-  2. Step by step instructions to deploy and execute the tests, including the
-     links to download the related assets and resources
-  3. Known issues and workarounds
-
-
-* :doc:`Release Use Cases<onap-integration:usecases/release_usecases>`
-* :doc:`Automated Use Cases<onap-integration:usecases/release_automated_usecases>`
-* :doc:`Functional Requirements<onap-integration:usecases/release_requirements>`
-* :doc:`Non Functional Requirements<onap-integration:usecases/release_non_functional_requirements>`
-* :doc:`Deprecated Use Cases and Functional Requirements<onap-integration:usecases/deprecated_usecases>`
+:doc:`Read about the latest use cases, blueprints and requirements here.<onap-integration:docs_usecases_release>`
