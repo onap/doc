@@ -82,6 +82,22 @@ Names and release dates of previous ONAP versions.
 
 -------------------------------------------------------------------------------
 
+:ref:`Use Cases, Blueprints, Requirements <usecases_entry>`
+-----------------------------------------------------------
+
+.. figure:: _static/bullseye.svg
+    :align: left
+    :scale: 300%
+    :figwidth: 50px
+
+ONAP covers a wide range of use cases for Communication Service Providers (CSP)
+and the open source networking industry. Read about the latest verified use
+cases, functional requirements and blueprints to achieve your goals.
+
+|
+
+-------------------------------------------------------------------------------
+
 :ref:`Overview <overview>`
 --------------------------
 
