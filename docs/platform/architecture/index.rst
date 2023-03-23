@@ -140,15 +140,17 @@ which highlights the role of a few key components:
    for creating and running optimization applications like Homing/Placement,
    and Change Management Scheduling Optimization. The Security Framework uses
    open-source security patterns and tools, such as Istio, Ingress Gateway,
-   oauth2-proxy, and Keycloak. This Security Framework makes ONAP secure external
-   and inter-component communications, authentication and authorization.
+   oauth2-proxy, and Keycloak. This Security Framework makes ONAP secure
+   external and inter-component communications, authentication and
+   authorization.
    Logging Framework (reference implementation PoC) supports open-source- and
    standard-based logging. It separates application log generation from log
    collection/aggregation/persistence/visualization/analysis; i.e., ONAP
    applications handle log generation only and the Logging Framework stack will
-   handle the rest. As a result, operators can leverage/extend their own logging
-   stacks.
-#. ONAP shared utilities provide utilities for the support of the ONAP components.
+   handle the rest. As a result, operators can leverage/extend their own
+   logging stacks.
+#. ONAP shared utilities provide utilities for the support of the ONAP
+   components.
 
 Information Model and framework utilities continue to evolve to harmonize
 the topology, workflow, and policy models from a number of SDOs including
@@ -224,10 +226,10 @@ client software development kit (SDK), and Swagger SDK. When integrating with
 OOM, MSB has a Kube2MSB registrar which can grasp services information from k8s
 metafile and automatically register the services for ONAP components.
 
-In London release, ONAP Security Framework components provide secure communication
-capabilities. This approach is a more Kubernetes-native approach. As a result, MSB
-functions will be replaced by the Security Framework, and MSB becomes an optional
-component.
+In London release, ONAP Security Framework components provide secure
+communication capabilities. This approach is a more Kubernetes-native approach.
+As a result, MSB functions will be replaced by the Security Framework, and MSB
+becomes an optional component.
 
 In the spirit of leveraging the microservice capabilities, further steps
 towards increased modularity have been taken. Service Orchestrator (SO) and the
@@ -237,6 +239,9 @@ Portal
 ------
 
 .. warning:: The ONAP :strong:`portal` project is :strong:`unmaintained`.
+             As of Release 12 'London' the component is no longer part of the
+             ONAP deployment. The new :strong:`Portal-NG` project is a
+             :strong:`PoC`.
 
 ONAP delivers a single, consistent user experience to both design time and
 runtime environments, based on the user’s role. Role changes are configured
@@ -403,8 +408,8 @@ Virtual Infrastructure Deployment (VID)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. warning:: The ONAP :strong:`vid` project is :strong:`unmaintained`.
-.. Warning:: The ONAP :strong:'vid' component is no longer part of the ONAP
-   deployment from the London release.
+             As of Release 12 'London' the component is no longer part of the
+             ONAP deployment.
 
 The Virtual Infrastructure Deployment (VID) application enables users to
 instantiate infrastructure services from SDC, along with their associated
@@ -446,6 +451,8 @@ provides a generic VNFM capability, and both VF-C and SO NFVO integrate with
 external VNFMs and VIMs as part of an NFV MANO stack.
 
 .. warning:: The ONAP :strong:`appc` project is :strong:`unmaintained`.
+             As of Release 12 'London' the component is no longer part of the
+             ONAP deployment.
 
 ONAP has two application level configuration and lifecycle management modules
 called SDN-C and App-C. Both provide similar services (application level
@@ -533,7 +540,7 @@ DCAE provides the capability to collect events, and host analytics applications
 Closed Control Loop Automation Management Platform in Policy (Policy - CLAMP)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. warning:: The ONAP :strong:`CLAMP` function is now :strong: part of Policy.
+.. warning:: The ONAP :strong:`CLAMP` function is now part of :strong:`Policy`.
 
 Closed loop control is provided by cooperation among a number of design-time
 and run-time elements. The Runtime loop starts with data collectors from Data
