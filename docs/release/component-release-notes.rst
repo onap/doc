@@ -22,7 +22,6 @@ AAI - Active and Available Inventory
 
 CCSDK - Common Controller Software Development Kit
 --------------------------------------------------
-- :ref:`ccsdk/cds <onap-ccsdk-cds:release_notes>`
 - :ref:`ccsdk/distribution <onap-ccsdk-distribution:release_notes>`
 - :ref:`ccsdk/oran <onap-ccsdk-oran:release_notes>`
 
