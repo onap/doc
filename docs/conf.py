@@ -6,6 +6,10 @@ author = "Open Network Automation Platform"
 # yamllint disable-line rule:line-length
 copyright = "ONAP. Licensed under Creative Commons Attribution 4.0 International License"
 
+exclude_patterns = [
+    '.tox'
+]
+
 pygments_style = "sphinx"
 html_theme = "sphinx_rtd_theme"
 html_theme_options = {
@@ -20,10 +24,12 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.graphviz',
     'sphinxcontrib.blockdiag',
-    'sphinxcontrib.seqdiag',
-    'sphinxcontrib.swaggerdoc',
     'sphinxcontrib.plantuml',
+    'sphinxcontrib.seqdiag',
+    'sphinxcontrib.spelling' ,
+    'sphinxcontrib.swaggerdoc',
     'sphinx_toolbox.collapse'
+
 ]
 
 #
