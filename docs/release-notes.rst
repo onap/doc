@@ -12,23 +12,23 @@ Release Notes
 
 This document provides the release notes for the documentation project.
 
-Kohn Releases
-=============
+London Releases
+===============
 
 The following releases are available:
-  - `Kohn Major Release 11.0.0`_
+  - `London Major Release 12.0.0`_
 
-Kohn Major Release 11.0.0
-=========================
+London Major Release 12.0.0
+===========================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Documentation Project                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | Kohn                                 |
+| **Release name**                     | London                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 11.0.0                               |
+| **Release version**                  | 12.0.0                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -49,4 +49,4 @@ New features
 All JIRA tickets for this release can be found here:
 `ONAP Documentation Jira`_
 
-.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Kohn%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
+.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22London%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
