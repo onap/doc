@@ -31,7 +31,7 @@ ONAP deployment via OOM requires the following software components.
 
 The Software versions needed for the specific ONAP release
 as well as the minimum Hardware configuration can be found in the
-:ref:`OOM Infrastructure Setup Guide<onap-oom:oom_infra_setup_guide>`
+:ref:`OOM Infrastructure Guide<onap-oom:oom_infra_guide>`
 
 Installation
 ------------
