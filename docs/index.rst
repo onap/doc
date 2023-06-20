@@ -21,6 +21,7 @@
     **The official release documentation for ONAP 'Kohn' can be found**
     `[here] <https://docs.onap.org/en/kohn/>`__
 
+
 |
 
 ..
