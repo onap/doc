@@ -21,6 +21,7 @@
     **The official release documentation for ONAP 'London' can be found**
     `[here] <https://docs.onap.org/en/london/>`__
 
+|
 
 ..
 .. please disable above in the release version
@@ -49,7 +50,7 @@ any product could on its own.
     :align: left
     :scale: 300%
     :figwidth: 50px
-    
+
 General information about the new ONAP release and recent changes, feature
 enhancements, or bug fixes.
 
@@ -200,7 +201,7 @@ vulnerabilities and how to report them.
 
 .. toctree::
    :maxdepth: 1
-   :hidden:  
+   :hidden:
    :caption: RELEASE
 
    release/index
@@ -209,14 +210,14 @@ vulnerabilities and how to report them.
 
 .. toctree::
    :maxdepth: 1
-   :hidden:  
+   :hidden:
    :caption: USE CASES
 
    usecases/index
 
 .. toctree::
    :maxdepth: 1
-   :hidden:  
+   :hidden:
    :caption: PLATFORM
 
    platform/overview/index
@@ -225,7 +226,7 @@ vulnerabilities and how to report them.
 
 .. toctree::
    :maxdepth: 1
-   :hidden:  
+   :hidden:
    :caption: GUIDES
 
    guides/onap-operator/index
