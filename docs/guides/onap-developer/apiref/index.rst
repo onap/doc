@@ -30,7 +30,6 @@ Platform Components
    :maxdepth: 1
    :titlesonly:
 
-* :ref:`DCAE - Data Collection Analytics and Events<onap-dcaegen2:offeredapis>`
 * :ref:`Holmes - Alarm Correlation<onap-holmes-rule-management:offeredapis>`
 * :ref:`Policy<onap-policy-parent:offeredapis>`
 * :ref:`SDNC - SDN Controller<onap-sdnc-oam:offeredapis>`
