@@ -35,10 +35,6 @@ CPS - Configuration Persistence Service
 - :ref:`cps/cps-temporal <onap-cps-cps-temporal:release_notes>`
 - :ref:`cps/ncmp-dmi-plugin <onap-cps-ncmp-dmi-plugin:release_notes>`
 
-DCAE Gen.2 - Data Collection, Analysis and Events
--------------------------------------------------
-- :ref:`dcaegen2 <onap-dcaegen2:release_notes>`
-
 DMAAP - Data Movement As A Platform
 -----------------------------------
 - :ref:`dmaap/buscontroller <onap-dmaap-buscontroller:release_notes>`
@@ -78,7 +74,6 @@ OOF - Optimization Framework
 OOM - ONAP Operations Manager
 -----------------------------
 - :ref:`oom <onap-oom:release_notes>`
-- :ref:`oom/platform/cert-service <onap-oom-platform-cert-service:release_notes>`
 
 POLICY - Policy Framework
 -------------------------
