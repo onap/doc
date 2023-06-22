@@ -62,6 +62,18 @@ CPS - Configuration Persistence Service
    * - :ref:`cps/ncmp/dmi-plugin<onap-cps-ncmp-dmi-plugin:master_index>`
      - CPS DMI Plugin
 
+DCAE - Data Collection, Analysis and Events
+-------------------------------------------
+
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+
+   * - Component
+     - Documentation
+   * - :ref:`dcaegen2<onap-dcaegen2:master_index>`
+     - DCAE (Gen2) Architecture and Guides
+
 DMAAP - Data Movement as a Platform
 -----------------------------------
 
