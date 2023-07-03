@@ -138,10 +138,6 @@ MSB - Microservices Bus
    * - Component
      - Documentation
    * - :ref:`msb/apigateway<onap-msb-apigateway:master_index>`
-     - Microservices Bus
-   * - :ref:`msb/discovery<onap-msb-discovery:master_index>`
-     - <to be revised>
-   * - :ref:`msb/java-sdk<onap-msb-java-sdk:master_index>`
      - <to be revised>
    * - :ref:`msb/swagger-sdk<onap-msb-swagger-sdk:master_index>`
      - Swagger Software Development Kit
