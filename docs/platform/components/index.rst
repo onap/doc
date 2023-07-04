@@ -254,3 +254,14 @@ VFC - Virtual Function Controller
    * - :ref:`vfc/nfvo/lcm<onap-vfc-nfvo-lcm:master_index>`
      - Virtual Function Controller Architecture, APIs and Guides
 
+VNFSDK - VNF Software Development Kit
+-------------------------------------
+
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+
+   * - Component
+     - Documentation
+   * - :ref:`vfc/nfvo/lcm<onap-vnfsdk-model:master_index>`
+     - VNF Software Development Kit, APIs and Guides
