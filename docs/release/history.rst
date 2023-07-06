@@ -1,6 +1,6 @@
 .. This work is licensed under a Creative Commons Attribution 4.0
    International License. http://creativecommons.org/licenses/by/4.0
-   Copyright 2022 by ONAP and contributors.
+   Copyright 2023 by ONAP and contributors.
 
 .. _release-history:
 
@@ -13,7 +13,7 @@ is named after a city.
 +-----------------+-----------------+------------------------+
 | Release Name    | Release Version | Release Date           |
 +=================+=================+========================+
-| London          | 12.0.0          | not yet release        |
+| London          | 12.0.0          | 2023, July 6th         |
 +-----------------+-----------------+------------------------+
 | Kohn            | 11.0.0          | 2022, December 1st     |
 +-----------------+-----------------+------------------------+
