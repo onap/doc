@@ -18,8 +18,8 @@
     develops as the contributing projects develop. Even if you read a specific
     release name here, the content may cover a future ONAP release.
 
-    **The official release documentation for ONAP 'Kohn' can be found**
-    `[here] <https://docs.onap.org/en/kohn/>`__
+    **The official release documentation for ONAP 'London' can be found**
+    `[here] <https://docs.onap.org/en/london/>`__
 
 
 |
