@@ -105,9 +105,7 @@ SO - Service Orchestration
 UUI - Use Case User Interface
 -----------------------------
 
-<currently unavailable>
-
-.. - :ref:`usecase-ui <onap-usecase-ui:release_notes>`
+- :ref:`usecase-ui <onap-usecase-ui:release_notes>`
 
 VFC - Virtual Function Controller
 ---------------------------------
