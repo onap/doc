@@ -35,35 +35,40 @@ maintained in the component specific release notes.
 
 Features
 --------
+
 ONAP 'London' focusses on:
 
-- ONAP takeaways to get feedback from consumers on what we need to prioritize
+- ONAP takeaways to get feedback from consumers on what we need to prioritize 
 - ONAP evolution definition and mission statement refresh
 - Modularity and module bundles for specific use cases (O-RAN SMO, Network
   slicing etc.)
 - Managing unmaintained projects
 - Formalizing ONAP as key player in open RAN @ O-RAN SC TOC Level
-- Getting first project: CPS road for gold badge
-- SBOMs delivery
+- Getting first project: CPS road for gold badge  
+- SBOMs delivery 
 - Streamlining Release Management tasks
 - Implementing Service Mesh with ISTIO
 - Improving software quality by fixing bugs and upgrading components packages
-- First implementation of Java 17
-- Functional Requirements
+- First implementation of Java 17 
 
+Functional Requirements
 -----------------------
 
 Richer Set of Cloud Native Functionality
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- to be done
+
+- Implements ASD-based CNF package onboarding and lifecycle orchestration.
+- Support 3GPP 28.582 APIs for slicing use case.
 
 E2E Network Slicing
 ^^^^^^^^^^^^^^^^^^^
+
 Added support for 3GPP 28.532 based APIs in NSSMF for network slicing, with
 focus on RAN slicing.
 
 Control Loop Evolutions
 ^^^^^^^^^^^^^^^^^^^^^^^
+
 - Improvements to CLAMP Automation Composition Management (ACM).
 - Metadata driven API Generation.
 - Improved Metrics and SLAs.
@@ -71,15 +76,18 @@ Control Loop Evolutions
 
 Extended O-RAN Integration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 - Enhancements for Configuration Management notification from O-RAN network
   functions over O1 interface.
 
 Controllers
 ^^^^^^^^^^^
+
 - A1 policy and platform enhancements from CCSDK.
 
 Service Design
 ^^^^^^^^^^^^^^
+
 - Support for constraints.
 - UI support for view/edit/import data types.
 - Increased support for TOSCA functions.
@@ -87,10 +95,12 @@ Service Design
 
 Inventory
 ^^^^^^^^^
-- Addition of Cell and Neighbour objects.
+
+- Addition of Cell and Neighbour objects. 
 
 ONAP Operations Manager
 ^^^^^^^^^^^^^^^^^^^^^^^
+
 - Introduction of "Production" ONAP setup.
 - Removal of unsupported components (AAF, Portal, Contrib,...).
 - Update of component helm charts to use common templates and practices.
@@ -99,36 +109,33 @@ ONAP Operations Manager
 
 Non-Functional Requirements
 ---------------------------
-The following 'non-functional' requirements are followed in the
-'London' Release:
 
-Best Practice
-^^^^^^^^^^^^^
-- to be done
+The following 'non-functional' requirements are followed in the 'London'
+Release:
 
 Security
 ^^^^^^^^
+
 - SBOMs generation.
 - Packages upgrades to limit number of affecting vulnerabilities.
 
 Documentation
 ^^^^^^^^^^^^^
+
 - Interactive architecture diagram updated
 - End-2-End guides removed because they have become outdated due to
   unmaintained projects.
 
 Tests & Integration
 ^^^^^^^^^^^^^^^^^^^
+
 - Minor bug fixes, package upgrades and python version fixes.
 - Migration out of Orange infra and pipelines was started.
 
-<additional section to be added?>
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- to be done
 
 .. important::
-  Some non-functional requirements are not fully finalized. Please, check details
-  on the :doc:`Integration <onap-integration:usecases/release_non_functional_requirements>`
+   Some non-functional requirements are not fully finalized. Please, check
+   details at :doc:`Integration <onap-integration:usecases/release_non_functional_requirements>`
 
 Documentation Sources
 ---------------------
@@ -142,7 +149,9 @@ community events.
 
 OpenSSF Best Practice
 ---------------------
+
 ONAP has adopted the `OpenSSF Best Practice Badge Program <https://bestpractices.coreinfrastructure.org/en>`_.
+
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
@@ -161,6 +170,7 @@ ONAP Maturity Testing Notes
 ---------------------------
 For the 'London' release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
+
 More details in :ref:`ONAP Integration Project<onap-integration:master_index>`
 
 Known Issues and Limitations
