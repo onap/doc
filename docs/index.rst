@@ -65,8 +65,8 @@ enhancements, or bug fixes.
     :scale: 300%
     :figwidth: 50px
 
-Project specific information about recent changes, features, enhancements, or
-bug fixes.
+Project specific information about recent changes, features, enhancements,
+or bug fixes.
 
 |
 
