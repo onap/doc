@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "384d870f_21af9be0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1201
+      },
+      "writtenOn": "2023-08-18T15:39:55Z",
+      "side": 1,
+      "message": "I don\u0027t see the values of multiplying CI/CD tools without no gain.",
+      "revId": "f28417b962519011a2cd0dbc35259f6b3558d750",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    }
+  ]
+}
