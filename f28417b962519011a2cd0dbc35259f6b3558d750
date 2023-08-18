@@ -16,6 +16,24 @@
       "message": "I don\u0027t see the values of multiplying CI/CD tools without no gain.",
       "revId": "f28417b962519011a2cd0dbc35259f6b3558d750",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c0a88e7_df4bc0de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2023-08-18T17:04:18Z",
+      "side": 1,
+      "message": "Thanks for your comment Cedric. The idea is to migrate to GHA. This workflow is just a \"comment-only\" workflow to make sure it works before we can actually migrate it. But the idea is to deprecate Jenkins and move to GHA. \nI wanna have the 2 running in parallel, (with only Jenkins voting for now) to assure they are reporting the same outcome.",
+      "parentUuid": "384d870f_21af9be0",
+      "revId": "f28417b962519011a2cd0dbc35259f6b3558d750",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
     }
   ]
 }
