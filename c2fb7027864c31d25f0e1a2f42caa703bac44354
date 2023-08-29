@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "c2fb7027864c31d25f0e1a2f42caa703bac44354",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a462bf2_73572640",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2023-08-29T19:45:16Z",
+      "side": 1,
+      "message": "@Thomas, can we please submit this change?\nThanks to the CPS team, I was able to confirm this workflow works. Again, this is a comment only workflow and I want it to monitor the results it reports to compare it with Jenkins.",
+      "revId": "c2fb7027864c31d25f0e1a2f42caa703bac44354",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
     }
   ]
 }
