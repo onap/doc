@@ -12,23 +12,23 @@ Release Notes
 
 This document provides the release notes for the documentation project.
 
-London Releases
-===============
+Montreal Releases
+=================
 
 The following releases are available:
-  - `London Major Release 12.0.0`_
+  - `Montreal Major Release 13.0.0`_
 
-London Major Release 12.0.0
-===========================
+Montreal Major Release 13.0.0
+=============================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Documentation Project                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | London                               |
+| **Release name**                     | Montreal                             |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 12.0.0                               |
+| **Release version**                  | 13.0.0                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -37,14 +37,10 @@ New features
 ------------
 
 - Documentation cleaned up.
-- Projects (repositories) which do not create a stable release branch are no
-  longer included in the release documentation. This should help to improve the
-  release management process.
-- Example configuration files for setting up a proper process of documentation
-  creation were updated. Please check the 'doc' repository.
-- The guide to set up a development system for documentation was updated.
-- Improved navigation structure.
-- Updated 'Guides' section.
+
+Projects (repositories) which do not create a stable release branch are no
+longer included in the release documentation. This should help to improve the
+release management process.
 
 All JIRA tickets for this release can be found here:
 `ONAP Documentation Jira`_
