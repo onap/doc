@@ -16,6 +16,46 @@
       "message": "reverify",
       "revId": "c2bd8f0867ef0f1d69ec53334d87a0cee5a7282f",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b2135d1_2e148ed6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4711
+      },
+      "writtenOn": "2023-11-22T23:35:15Z",
+      "side": 1,
+      "message": "RE IT-26214: I believe you may need to add `graphviz` to the pip requirements for this build. In truth, I\u0027m not entirely certain about that; the documentation for it is quite bad, and it\u0027s hard to tell why this is suddenly occurring now. But in addition to the one syntax error I pointed out, this is the first thing we should try when getting an error that says the job is missing some required package.",
+      "revId": "c2bd8f0867ef0f1d69ec53334d87a0cee5a7282f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d81654bd_345b93e8",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 4711
+      },
+      "writtenOn": "2023-11-22T23:35:15Z",
+      "side": 1,
+      "message": "This should be reduced to three carets.",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 40
+      },
+      "revId": "c2bd8f0867ef0f1d69ec53334d87a0cee5a7282f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
     }
   ]
 }
