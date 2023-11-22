@@ -21,7 +21,8 @@ User Interfaces
    :titlesonly:
 
 * :ref:`CLAMP - Closed Loop Automation Platform<onap-policy-parent:clamp-label>`
-* :ref:`SDC - Service Design and Creation<onap-sdc:offeredapis>`
+
+.. * :ref:`SDC - Service Design and Creation<onap-sdc:offeredapis>`
 
 Platform Components
 -------------------

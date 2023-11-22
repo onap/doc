@@ -5,10 +5,10 @@
 
 .. _onap-release-notes:
 
-'London' Release Notes
-======================
+'Montreal' Release Notes
+========================
 
-This page provides the release notes for the ONAP 'London' release. This
+This page provides the release notes for the ONAP 'Montreal' release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
@@ -20,118 +20,53 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-'London' Major Release 12.0.0
------------------------------
+'Montreal' Major Release 13.0.0
+-------------------------------
 
 +-----------------------------------+-----------------------------------------+
 | **Project**                       | Open Network Automation Platform (ONAP) |
 +-----------------------------------+-----------------------------------------+
-| **Release name**                  | London                                  |
+| **Release name**                  | Montreal                                |
 +-----------------------------------+-----------------------------------------+
-| **Release version**               | 12.0.0                                  |
+| **Release version**               | 13.0.0                                  |
 +-----------------------------------+-----------------------------------------+
-| **Release date**                  | 2023, July 6th                          |
+| **Release date**                  | not released yet                        |
 +-----------------------------------+-----------------------------------------+
 
 Features
 --------
 
-ONAP 'London' focusses on:
+ONAP 'Montreal' focusses on:
 
-- ONAP takeaways to get feedback from consumers on what we need to prioritize 
-- ONAP evolution definition and mission statement refresh
-- Modularity and module bundles for specific use cases (O-RAN SMO, Network
-  slicing etc.)
-- Managing unmaintained projects
-- Formalizing ONAP as key player in open RAN @ O-RAN SC TOC Level
-- Getting first project: CPS road for gold badge  
-- SBOMs delivery 
-- Streamlining Release Management tasks
-- Implementing Service Mesh with ISTIO
-- Improving software quality by fixing bugs and upgrading components packages
-- First implementation of Java 17 
+- to be done
 
 Functional Requirements
 -----------------------
 
-Richer Set of Cloud Native Functionality
+tbd
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Implements ASD-based CNF package onboarding and lifecycle orchestration.
-- Support 3GPP 28.582 APIs for slicing use case.
-
-E2E Network Slicing
-^^^^^^^^^^^^^^^^^^^
-
-Added support for 3GPP 28.532 based APIs in NSSMF for network slicing, with
-focus on RAN slicing.
-
-Control Loop Evolutions
-^^^^^^^^^^^^^^^^^^^^^^^
-
-- Improvements to CLAMP Automation Composition Management (ACM).
-- Metadata driven API Generation.
-- Improved Metrics and SLAs.
-- Improved Testing.
-
-Extended O-RAN Integration
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- Enhancements for Configuration Management notification from O-RAN network
-  functions over O1 interface.
-
-Controllers
-^^^^^^^^^^^
-
-- A1 policy and platform enhancements from CCSDK.
-
-Service Design
-^^^^^^^^^^^^^^
-
-- Support for constraints.
-- UI support for view/edit/import data types.
-- Increased support for TOSCA functions.
-- Removed need for USER_ID cookie and header.
-
-Inventory
-^^^^^^^^^
-
-- Addition of Cell and Neighbour objects. 
-
-ONAP Operations Manager
-^^^^^^^^^^^^^^^^^^^^^^^
-
-- Introduction of "Production" ONAP setup.
-- Removal of unsupported components (AAF, Portal, Contrib,...).
-- Update of component helm charts to use common templates and practices.
-- Introduction of Kubernetes Operators for Cassandra (k8ssandra-operator) - to
-  support latest Cassandra version (optional for London) and Keycloak.
+- tbd
 
 Non-Functional Requirements
 ---------------------------
 
-The following 'non-functional' requirements are followed in the 'London'
-Release:
+The 'non-functional' requirements of this release are:
 
 Security
 ^^^^^^^^
 
-- SBOMs generation.
-- Packages upgrades to limit number of affecting vulnerabilities.
+- tbd
 
 Documentation
 ^^^^^^^^^^^^^
 
-- Interactive architecture diagram updated
-- End-2-End guides removed because they have become outdated due to
-  unmaintained projects.
+- tbd
 
 Tests & Integration
 ^^^^^^^^^^^^^^^^^^^
 
-- Minor bug fixes, package upgrades and python version fixes.
-- Migration out of Orange infra and pipelines was started.
-
+- tbd
 
 .. important::
    Some non-functional requirements are not fully finalized. Please, check
@@ -140,7 +75,7 @@ Tests & Integration
 Documentation Sources
 ---------------------
 
-The formal ONAP 'London' Release Documentation is available
+The formal ONAP 'Montreal' Release Documentation is available
 in :ref:`ReadTheDocs<master_index>`.
 
 The `Developer Wiki <http://wiki.onap.org>`_ remains a good source of
@@ -155,11 +90,11 @@ ONAP has adopted the `OpenSSF Best Practice Badge Program <https://bestpractices
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
-In the London release,
+In the Montreal release,
 
-- 100% projects passed 90% of the OpenSSF badge
-- 86% passed the OpenSSF badge
-- 11% projects passed the OpenSSF Silver badge
+- x% projects passed 90% of the OpenSSF badge
+- x% passed the OpenSSF badge
+- x% projects passed the OpenSSF Silver badge
 
 Project specific details are in the :ref:`release notes<component-release-notes>`
 for each component.
@@ -168,7 +103,7 @@ for each component.
 
 ONAP Maturity Testing Notes
 ---------------------------
-For the 'London' release, ONAP continues to improve in multiple areas of
+For the 'Montreal' release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
 More details in :ref:`ONAP Integration Project<onap-integration:master_index>`
