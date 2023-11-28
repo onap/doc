@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "22a861ee_78ca2342",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2023-11-28T10:43:00Z",
+      "side": 1,
+      "message": "On my machine it runs fine. And there was no change in this area for a while ... i thinkk ... I remember situations where packages where missing in the environments used to verify the changes on LF side. But let me test ...\nCan you please check if \"dot\" is found the the LF environment used to verify the change. If i do a \"which dot\" i get the result \"/usr/bin/dot\". Maybe graphviz (or dot) is not installed properly?",
+      "parentUuid": "5b2135d1_2e148ed6",
+      "revId": "c2bd8f0867ef0f1d69ec53334d87a0cee5a7282f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d81654bd_345b93e8",
         "filename": "docs/release/index.rst",
         "patchSetId": 2
@@ -48,6 +66,30 @@
       "writtenOn": "2023-11-22T23:35:15Z",
       "side": 1,
       "message": "This should be reduced to three carets.",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 40
+      },
+      "revId": "c2bd8f0867ef0f1d69ec53334d87a0cee5a7282f",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e549c5b4_fff017ec",
+        "filename": "docs/release/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2023-11-28T10:43:00Z",
+      "side": 1,
+      "message": "this is work in progress ... but yes, finally it should match the lenght of the headline",
+      "parentUuid": "d81654bd_345b93e8",
       "range": {
         "startLine": 47,
         "startChar": 0,
