@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bef3b94f_7f370103",
+        "filename": ".github/workflows/gerrit-verify.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-28T19:05:01Z",
+      "side": 1,
+      "message": "This line should not be needed",
+      "revId": "d15d7e244390dbe1185349aa637ab8c4edb8a9fb",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "871824b3_d9b835bc",
+        "filename": ".github/workflows/gerrit-verify.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-11-28T19:05:01Z",
+      "side": 1,
+      "message": "Dangling whitespace",
+      "range": {
+        "startLine": 67,
+        "startChar": 98,
+        "endLine": 67,
+        "endChar": 99
+      },
+      "revId": "d15d7e244390dbe1185349aa637ab8c4edb8a9fb",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    }
+  ]
+}
