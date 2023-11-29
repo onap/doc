@@ -1,0 +1,11 @@
+Code-Review+2: Thomas Kulik <thomas.kulik@telekom.de>
+Code-Review+2: Matthew Watkins <mwatkins@linuxfoundation.org>
+Verified+1: ONAP Required GHA <releng+onap.required.gha@linuxfoundation.org>
+Code-Review+2: Andreas Geissler <andreas-geissler@telekom.de>
+Verified+1: Thomas Kulik <thomas.kulik@telekom.de>
+Code-Review+1: Andrew Grimberg <agrimberg@linuxfoundation.org>
+Submitted-by: Thomas Kulik <thomas.kulik@telekom.de>
+Submitted-at: Wed, 29 Nov 2023 13:55:38 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/doc/+/136697
+Project: doc
+Branch: refs/heads/master
