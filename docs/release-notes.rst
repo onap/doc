@@ -45,4 +45,4 @@ release management process.
 All JIRA tickets for this release can be found here:
 `ONAP Documentation Jira`_
 
-.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22London%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
+.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Montreal%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
