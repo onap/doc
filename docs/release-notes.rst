@@ -12,23 +12,23 @@ Release Notes
 
 This document provides the release notes for the documentation project.
 
-London Releases
-===============
+Montreal Releases
+=================
 
 The following releases are available:
-  - `London Major Release 12.0.0`_
+  - `Montreal Major Release 13.0.0`_
 
-London Major Release 12.0.0
-===========================
+Montreal Major Release 13.0.0
+=============================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Documentation Project                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | London                               |
+| **Release name**                     | Montreal                             |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 12.0.0                               |
+| **Release version**                  | 13.0.0                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -42,11 +42,9 @@ New features
   release management process.
 - Example configuration files for setting up a proper process of documentation
   creation were updated. Please check the 'doc' repository.
-- The guide to set up a development system for documentation was updated.
-- Improved navigation structure.
 - Updated 'Guides' section.
 
 All JIRA tickets for this release can be found here:
 `ONAP Documentation Jira`_
 
-.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22London%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
+.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Montreal%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC

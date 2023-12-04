@@ -89,7 +89,7 @@ PORTAL-NG
 <to be done>
 
 .. - :ref:`portal-ng/tobedone <onap-portal-ng:release_notes>`
- 
+
 SDC - Service Design & Creation
 -------------------------------
 - :ref:`sdc <onap-sdc:release_notes>`
