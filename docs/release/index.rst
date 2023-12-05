@@ -33,88 +33,71 @@ maintained in the component specific release notes.
 | **Release date**                  | not released yet                        |
 +-----------------------------------+-----------------------------------------+
 
-Features
+ONAP is evolving. We took efforts in streamlining processes and roles and
+Montreal release is the first one with agreed simplified software development
+life cycle governance.
+
+OpenSSF Gold Standard
+---------------------
+
+We are proud to announce that first ONAP project achieved OpenSSF Gold
+standard. It will give ONAP consumers great confidence in the quality,
+security, and reliability of CPS.
+
+Java 17
+-------
+
+First ONAP projects (CCSDK, CPS, UUI and Policy) completed their upgrades to
+Java 17. Spring boot (uplift to v3.1.2) and OpenApi 3 upgrades were also
+performed. These upgrades allow benefits of patched vulnerabilities and
+software efficiencies in the latest versions.
+
+CPS
+---
+
+ONAP CPS project continued efforts in improvement of read/write, query
+operations, and huge reduction of memory consumption allowing for improved
+query performance and improve stability.
+
+Modeling
 --------
 
-ONAP 'Montreal' focusses on:
+Modeling project added provision of YANG modules automation tools, which helps
+improve the YANG development efficiency and check the version update of the
+YANG model.
 
-- to be done 
+OOM
+---
 
-Functional Requirements
------------------------
+OOM project team added support for Gateway-API in Ingress template (13.0.1) as
+well as support for mariadb-operator (13.0.2). All ONAP MariaDB instances will
+now be created with the latest version by default using the mariaDB-operator.
+Added Galera clients (e.g. SO, SDNC) will use access to "primary" pod to avoid
+"Deadlocks". Additionally added default role creation to ServiceAccount for
+better access management.
 
-Richer Set of Cloud Native Functionality
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SDC
+---
 
-- to be done
+SDC implemented-services update capability directly in yaml was added, more
+comprehensive support for defining behavior of interface operations and
+adaptability to define CSAR structure and content to suit the requirements of
+individual models.
 
-E2E Network Slicing
-^^^^^^^^^^^^^^^^^^^
+CCSDK
+-----
 
-Added support for 3GPP 28.532 based APIs in NSSMF for network slicing, with
-focus on RAN slicing.
+CCSDK continued maintaining alignment with OpenDaylight release schedule by
+upgrading to OpenDaylight Argon version, Service Release 2. This allows latest
+ONAP user to make use of latest OpenDaylight software when they use latest
+release of ONAP.
 
-Control Loop Evolutions
-^^^^^^^^^^^^^^^^^^^^^^^
+PortalNG
+--------
 
-- Improvements to CLAMP Automation Composition Management (ACM).
-- Metadata driven API Generation.
-- Improved Metrics and SLAs.
-- Improved Testing.
-
-Extended O-RAN Integration
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- Enhancements for Configuration Management notification from O-RAN network
-  functions over O1 interface.
-
-Controllers
-^^^^^^^^^^^
-
-- A1 policy and platform enhancements from CCSDK.
-
-Service Design
-^^^^^^^^^^^^^^
-
-- Support for constraints.
-- UI support for view/edit/import data types.
-- Increased support for TOSCA functions.
-- Removed need for USER_ID cookie and header.
-
-Inventory
-^^^^^^^^^
-
-- Addition of Cell and Neighbour objects. 
-
-ONAP Operations Manager
-^^^^^^^^^^^^^^^^^^^^^^^
-
-- to be done
-
-Non-Functional Requirements
----------------------------
-
-The following 'non-functional' requirements are followed in the 'Montreal'
-Release:
-
-Security
-^^^^^^^^
-
-- to be done
-
-Documentation
-^^^^^^^^^^^^^
-
-- Minor corrections
-
-Tests & Integration
-^^^^^^^^^^^^^^^^^^^
-
-- to be done
-
-.. important::
-   Some non-functional requirements are not fully finalized. Please, check
-   details at :doc:`Integration <onap-integration:usecases/release_non_functional_requirements>`
+We introduced new PortalNG as a maintained alternative to the unmaintained
+Portal project.  Allows ONAP user to make informed decisions on software use of
+maintained and unmaintained projects.
 
 Documentation Sources
 ---------------------
@@ -136,9 +119,10 @@ ONAP has adopted the `OpenSSF Best Practice Badge Program <https://bestpractices
 
 In the Montreal release,
 
-- 100% projects passed 90% of the OpenSSF badge
-- 86% passed the OpenSSF badge
-- 11% projects passed the OpenSSF Silver badge
+- 100% projects passed 95% of the OpenSSF badge
+- 94% passed the OpenSSF badge
+- 24% projects passed the OpenSSF Silver badge
+- 1 project passed the OpenSSF Gold badge
 
 Project specific details are in the :ref:`release notes<component-release-notes>`
 for each component.
