@@ -117,6 +117,7 @@ ONAP has adopted the `OpenSSF Best Practice Badge Program <https://bestpractices
 - `Badging Requirements <https://github.com/coreinfrastructure/best-practices-badge>`_
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
+
 In the Montreal release,
 
 - 100% projects passed 95% of the OpenSSF badge
