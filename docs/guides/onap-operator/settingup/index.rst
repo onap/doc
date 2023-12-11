@@ -44,7 +44,7 @@ Additional optional setups (e.g. Prometheus) and instructions can be found in:
 
 :ref:`OOM Ingress controller setup (optional)<onap-oom:oom_base_optional_addons>`
 
-:ref:`OOM Ingress controller setup (optional)<onap-oom:oom_setup_ingress_controller>`
+.. :ref:`OOM Ingress controller setup (optional)<onap-oom:oom_setup_ingress_controller>`
 
 ONAP configuration and installation instructions are described here:
 
