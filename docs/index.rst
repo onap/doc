@@ -18,8 +18,8 @@
     develops as the contributing projects develop. Even if you read a specific
     release name here, the content may cover a future ONAP release.
 
-    **The official release documentation for ONAP 'London' can be found**
-    `[here] <https://docs.onap.org/en/london/>`__
+    **The official release documentation for ONAP 'Montreal' can be found**
+    `[here] <https://docs.onap.org/en/montreal/>`__
 
 
 |
@@ -44,7 +44,7 @@ any product could on its own.
 
 -------------------------------------------------------------------------------
 
-:ref:`'London' Release Notes <onap-release-notes>`
+:ref:`'Montreal' Release Notes <onap-release-notes>`
 --------------------------------------------------
 
 .. figure:: _static/file.svg
