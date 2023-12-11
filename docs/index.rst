@@ -7,20 +7,20 @@
 
 .. please disable below in the release version
 ..
-.. warning:: **WORK IN PROGRESS**
-
-    .. figure:: _static/exclamation-triangle.svg
-        :align: left
-        :scale: 760%
-        :figwidth: 120px
-
-    This is a development version of ONAP documentation. It continually
-    develops as the contributing projects develop. Even if you read a specific
-    release name here, the content may cover a future ONAP release.
-
-    **The official release documentation for ONAP 'Montreal' can be found**
-..    `[here] <https://docs.onap.org/en/montreal/>`__
-
+.. .. warning:: **WORK IN PROGRESS**
+.. 
+..     .. figure:: _static/exclamation-triangle.svg
+..         :align: left
+..         :scale: 760%
+..         :figwidth: 120px
+.. 
+..     This is a development version of ONAP documentation. It continually
+..     develops as the contributing projects develop. Even if you read a specific
+..     release name here, the content may cover a future ONAP release.
+.. 
+..     **The official release documentation for ONAP 'Montreal' can be found**
+.. ..    `[here] <https://docs.onap.org/en/montreal/>`__
+.. 
 ..
 .. please disable above in the release version
 
