@@ -32,7 +32,6 @@ CLI - Command Line Interface
 CPS - Configuration Persistence Service
 ---------------------------------------
 - :ref:`cps <onap-cps:release_notes>`
-- :ref:`cps/cps-temporal <onap-cps-cps-temporal:release_notes>`
 - :ref:`cps/ncmp-dmi-plugin <onap-cps-ncmp-dmi-plugin:release_notes>`
 
 DCAE Gen.2 - Data Collection, Analysis and Events
