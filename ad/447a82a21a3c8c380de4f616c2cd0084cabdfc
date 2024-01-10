@@ -1,0 +1,9 @@
+Verified+1: Thomas Kulik <thomas.kulik@telekom.de>
+Verified+1: ONAP GitHub Actions <collab-it+ecomp-jobbuilder@linuxfoundation.org>
+Code-Review+2: Thomas Kulik <thomas.kulik@telekom.de>
+Verified+1: ONAP Required GHA <releng+onap.required.gha@linuxfoundation.org>
+Submitted-by: Thomas Kulik <thomas.kulik@telekom.de>
+Submitted-at: Wed, 10 Jan 2024 18:25:55 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/doc/+/136962
+Project: doc
+Branch: refs/heads/montreal
