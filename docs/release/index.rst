@@ -30,7 +30,7 @@ maintained in the component specific release notes.
 +-----------------------------------+-----------------------------------------+
 | **Release version**               | 13.0.0                                  |
 +-----------------------------------+-----------------------------------------+
-| **Release date**                  | not released yet                        |
+| **Release date**                  | 2023, December 14th                     |
 +-----------------------------------+-----------------------------------------+
 
 ONAP is evolving. We took efforts in streamlining processes and roles and
