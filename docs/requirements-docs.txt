@@ -8,3 +8,4 @@ sphinxcontrib-plantuml
 sphinx_toolbox
 autopep8
 pylint
+six
