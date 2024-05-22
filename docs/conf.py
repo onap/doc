@@ -1,6 +1,6 @@
 project = "onap"
-release = "master"
-version = "master"
+release = "newdelhi"
+version = "newdelhi"
 
 author = "Open Network Automation Platform"
 # yamllint disable-line rule:line-length
