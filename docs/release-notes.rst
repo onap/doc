@@ -12,23 +12,23 @@ Release Notes
 
 This document provides the release notes for the documentation project.
 
-Montreal Releases
+NewDelhi Releases
 =================
 
 The following releases are available:
-  - `Montreal Major Release 13.0.0`_
+  - `NewDelhi Major Release 14.0.0`_
 
-Montreal Major Release 13.0.0
+NewDelhi Major Release 14.0.0
 =============================
 
 +--------------------------------------+--------------------------------------+
 | **Project**                          | Documentation Project                |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release name**                     | Montreal                             |
+| **Release name**                     | NewDelhi                             |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release version**                  | 13.0.0                               |
+| **Release version**                  | 14.0.0                               |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 
@@ -37,14 +37,11 @@ New features
 ------------
 
 - Documentation cleaned up.
-- Projects (repositories) which do not create a stable release branch are no
-  longer included in the release documentation. This should help to improve the
-  release management process.
 - Example configuration files for setting up a proper process of documentation
-  creation were updated. Please check the 'doc' repository.
+  creation were updated. Please check the 'doc-best-practice' repository.
 - Updated 'Guides' section.
 
 All JIRA tickets for this release can be found here:
 `ONAP Documentation Jira`_
 
-.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22Montreal%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
+.. _`ONAP Documentation Jira`: https://jira.onap.org/issues/?jql=project%20%3D%20DOC%20AND%20fixVersion%20%3D%20%22NewDelhi%20Release%22%20%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC
