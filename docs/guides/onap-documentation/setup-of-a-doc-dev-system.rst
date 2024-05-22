@@ -789,10 +789,6 @@ Sphinx
 
 - `Sphinx Documentation Generator <https://www.sphinx-doc.org/en/master/>`__
 
-Ubuntu
-------
-
-- `Virtualized Ubuntu Desktop Edition <https://linuxconfig.org/ubuntu-20-04-system-requirements>`__
 
 Visual Studio Code (VSC)
 ------------------------
