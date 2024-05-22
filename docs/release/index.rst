@@ -5,10 +5,10 @@
 
 .. _onap-release-notes:
 
-'Montreal' Release Notes
+'NewDelhi' Release Notes
 ========================
 
-This page provides the release notes for the ONAP 'Montreal' release. This
+This page provides the release notes for the ONAP 'NewDelhi' release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
@@ -20,21 +20,21 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-'Montreal' Major Release 13.0.0
+'NewDelhi' Major Release 14.0.0
 -------------------------------
 
 +-----------------------------------+-----------------------------------------+
 | **Project**                       | Open Network Automation Platform (ONAP) |
 +-----------------------------------+-----------------------------------------+
-| **Release name**                  | Montreal                                |
+| **Release name**                  | NewDelhi                                |
 +-----------------------------------+-----------------------------------------+
-| **Release version**               | 13.0.0                                  |
+| **Release version**               | 14.0.0                                  |
 +-----------------------------------+-----------------------------------------+
-| **Release date**                  | 2023, December 14th                     |
+| **Release date**                  | 2024, not released yet                  |
 +-----------------------------------+-----------------------------------------+
 
 ONAP is evolving. We took efforts in streamlining processes and roles and
-Montreal release is the first one with agreed simplified software development
+NewDelhi release is the first one with agreed simplified software development
 life cycle governance.
 
 OpenSSF Gold Standard
@@ -93,7 +93,7 @@ ONAP user to make use of latest OpenDaylight software when they use latest
 release of ONAP.
 
 PortalNG
---------
+--------s
 
 We introduced new PortalNG as a maintained alternative to the unmaintained
 Portal project.  Allows ONAP user to make informed decisions on software use of
@@ -102,7 +102,7 @@ maintained and unmaintained projects.
 Documentation Sources
 ---------------------
 
-The formal ONAP 'Montreal' Release Documentation is available
+The formal ONAP 'NewDelhi' Release Documentation is available
 in :ref:`ReadTheDocs<master_index>`.
 
 The `Developer Wiki <http://wiki.onap.org>`_ remains a good source of
@@ -118,7 +118,7 @@ ONAP has adopted the `OpenSSF Best Practice Badge Program <https://bestpractices
 - `Badging Status for all ONAP projects <https://bestpractices.coreinfrastructure.org/en/projects?q=onap>`_
 
 
-In the Montreal release,
+In the NewDelhi release,
 
 - 100% projects passed 95% of the OpenSSF badge
 - 94% passed the OpenSSF badge
@@ -132,7 +132,7 @@ for each component.
 
 ONAP Maturity Testing Notes
 ---------------------------
-For the 'Montreal' release, ONAP continues to improve in multiple areas of
+For the 'NewDelhi' release, ONAP continues to improve in multiple areas of
 Scalability, Security, Stability and Performance (S3P) metrics.
 
 More details in :ref:`ONAP Integration Project<onap-integration:master_index>`
