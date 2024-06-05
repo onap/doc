@@ -128,20 +128,6 @@ MOD - Modeling
    * - :ref:`modeling/etsicatalog<onap-modeling-etsicatalog:master_index>`
      - ETSI Runtime Catalog
 
-MSB - Microservices Bus
------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`msb/apigateway<onap-msb-apigateway:master_index>`
-     - <to be revised>
-   * - :ref:`msb/swagger-sdk<onap-msb-swagger-sdk:master_index>`
-     - Swagger Software Development Kit
-
 MULTICLOUD - MultiCloud Framework
 ---------------------------------
 
