@@ -9,7 +9,7 @@
 
 <svg
    sodipodi:docname="onap-architecture-overview-interactive-path.svg"
-   inkscape:version="1.3.1 (6036e22fae, 2023-11-19, custom)"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
    id="svg5"
    version="1.1"
    viewBox="0 0 324.00477 237.0196"
@@ -30,9 +30,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="871.15551"
-     inkscape:cy="422.14273"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="625.24997"
+     inkscape:cy="458.99998"
      inkscape:window-width="3768"
      inkscape:window-height="2096"
      inkscape:window-x="72"
@@ -533,7 +533,7 @@
        inkscape:label="onapborder.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
-       xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
+       xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html"
        xlink:title="The ONAP architecture consists of functions for the design-time, run-time, for managing ONAP itself and additional utilities.">
       <path
          id="rect55176"
@@ -552,7 +552,7 @@
          inkscape:label="utilities.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
+         xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html"
          xlink:title="ONAP utilities provide support of the ONAP components."
          style="display:inline">
         <g
@@ -581,7 +581,7 @@
            inkscape:label="onapsharedutilities.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
+           xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html"
            xlink:title="ONAP shared utilities provide support of the ONAP components."
            style="display:inline">
           <g
@@ -606,8 +606,8 @@
            inkscape:label="modelutilities.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-modeling-etsicatalog/en/latest/"
-           xlink:title="[TO BE REVISED] The unified model-driven approach uses models as sources of data for generating processes/codes and following workflows (not code development as source). This way, the system can be more flexible and future proof, easy to update and use for cross-platform solutions since the “only” thing needed is a model update and manipulation through engine."
+           xlink:href="https://docs.onap.org/projects/onap-modeling-etsicatalog/en/newdelhi/"
+           xlink:title="[UNMAINTAINED] The unified model-driven approach uses models as sources of data for generating processes/codes and following workflows (not code development as source). This way, the system can be more flexible and future proof, easy to update and use for cross-platform solutions since the “only” thing needed is a model update and manipulation through engine."
            transform="translate(7.6311512e-7,7.9999989)">
           <g
              id="g1274"
@@ -615,7 +615,7 @@
              style="display:inline">
             <path
                id="rect47709-1-1"
-               style="display:inline;opacity:1;vector-effect:none;fill:#b9b699;stroke:#b9b699;stroke-width:2;stop-color:#000000;stop-opacity:1"
+               style="display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;stroke:#aaaaaa;stroke-width:2;stop-color:#000000;stop-opacity:1"
                inkscape:label="modelutilities.form"
                d="m 17.004765,188 h 50 v 4 h -50 z" />
             <path
@@ -631,7 +631,7 @@
            inkscape:label="ccsdk.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/latest/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/newdelhi/index.html"
            xlink:title="The Common Controller Software Development Kit (CCSDK) provides a common set of reusable code that can be used across multiple controllers. For example, the SDN-C , APP-C, DCAE, ONAP Operations Manager and ONAP controller can reuse common pieces from this framework."
            style="display:inline"
            transform="translate(2.0000049)">
@@ -663,7 +663,7 @@
          inkscape:label="manageonap.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/latest/guides/onap-operator/index.html#operations-and-administration-guides"
+         xlink:href="https://docs.onap.org/en/newdelhi/guides/onap-operator/index.html#operations-and-administration-guides"
          xlink:title="Management capabilities for the Open Network Automation Platform itself.">
         <g
            id="g1266"
@@ -687,7 +687,7 @@
          inkscape:label="oom.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-oom/en/latest/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-oom/en/newdelhi/index.html"
          xlink:title="The ONAP Operations Manager (OOM) is responsible for lifecycle management of the ONAP platform itself. OOM provides the ability to manage cloud-native installations and deployments of ONAP to Kubernetes-managed cloud environments."
          transform="translate(-3.9999979,0.06724192)">
         <g
@@ -716,7 +716,7 @@
          inkscape:label="designtime.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html#design-time-framework"
+         xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html#design-time-framework"
          xlink:title="The Design-time framework is a comprehensive development environment with tools, techniques and repositories for defining/describing resources, services, and products."
          style="display:inline">
         <g
@@ -744,7 +744,7 @@
            inkscape:label="sdc.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-sdc/en/latest/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-sdc/en/newdelhi/index.html"
            xlink:title="Service Design &amp; Creation (SDC) provides a well-structured organization of visual design and testing tools, templates and catalogs to model and create resources, and services. The output of the SDC is a set of models which drives the orchestration. In addition, it provides process workflow support for talking to the VNF/PNF or other resources and services through the process steps design, test and deploy."
            style="display:inline">
           <g
@@ -777,7 +777,7 @@
            inkscape:label="catalog.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-sdc/en/latest/architecture.html"
+           xlink:href="https://docs.onap.org/projects/onap-sdc/en/newdelhi/architecture.html"
            xlink:title="The key output of SDC is a set of models containing descriptions of asset capabilities and instructions to manage them. These models are stored in the SDC Master Reference Catalog for the entire enterprise to use.">
           <g
              id="g4060"
@@ -802,7 +802,7 @@
            inkscape:label="workflowdesigner.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-sdc/en/latest/workflow.html"
+           xlink:href="https://docs.onap.org/projects/onap-sdc/en/newdelhi/workflow.html"
            xlink:title="Workflow Designer allows a user to design a workflow, save it, and attach it to a SDC service as an artifact. Workflow Designer also manages the definitions of activities, which can be later used as parts of the designed workflows."
            transform="translate(0.00476341,16.067237)">
           <g
@@ -826,7 +826,7 @@
            inkscape:label="xnfonboarding.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/latest/Chapter7/VNF-On-boarding-and-package-management.html"
+           xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/newdelhi/Chapter7/VNF-On-boarding-and-package-management.html"
            xlink:title="The VNF provider must provide VNF packages that include a rich set of recipes, management and functional interfaces, policies, configuration parameters, and infrastructure requirements that can be utilized by the ONAP Design module to onboard and catalog these resources."
            transform="translate(0.00476341,16.067237)">
           <g
@@ -850,7 +850,7 @@
            inkscape:label="servicexnfdesign.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/latest/guides/onap-user/design/index.html"
+           xlink:href="https://docs.onap.org/en/newdelhi/guides/onap-user/design/index.html"
            xlink:title="The goal of the design process is to create all artifacts (models) that are required to instantiate and manage resources, services, and products on the ONAP platform."
            style="display:inline"
            transform="translate(0.00476341,16.067237)">
@@ -881,7 +881,7 @@
            inkscape:label="vnfvalidation.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/latest/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/newdelhi/index.html"
            xlink:title="Ensures that a network function (e.g. CNF, PNF, VNF) fits all ONAP guidelines and requirements.">
           <g
              id="g4456"
@@ -904,8 +904,8 @@
            inkscape:label="vnfsdk.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vnfsdk-model/en/latest/index.html"
-           xlink:title="The Virtual Network Function Software Development Kit (VNF SDK) provides the functionality to create VNF and PNF packages, test VNF and VNF ONAP compliance, and provides market place functionality to store VNF and PNF packages.">
+           xlink:href="https://docs.onap.org/projects/onap-vnfsdk-model/en/newdelhi/index.html"
+           xlink:title="[UNMAINTAINED] The Virtual Network Function Software Development Kit (VNF SDK) provides the functionality to create VNF and PNF packages, test VNF and VNF ONAP compliance, and provides market place functionality to store VNF and PNF packages.">
           <g
              id="g4467"
              inkscape:label="vnfsdk"
@@ -913,7 +913,7 @@
              transform="matrix(1.0293981,0,0,1.0293981,-1.2935185,-2.320477)">
             <path
                id="rect47709-0-9-8-9"
-               style="display:inline;vector-effect:none;fill:#1a3d6f;stroke:#1a3d6f;stroke-width:2;stop-color:#000000"
+               style="display:inline;vector-effect:none;fill:#aaaaaa;stroke:#aaaaaa;stroke-width:2;stop-color:#000000"
                inkscape:label="vnfsdk.form"
                d="m 36,76.932762 h 16 v 4.000001 H 36 Z" />
             <path
@@ -929,15 +929,15 @@
            inkscape:label="vvp.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vvp-documentation/en/latest/index.html"
-           xlink:title="The VNF Validation Platform (VVP) provides the functionality to validate that a VNF Heat package is compliant with the ONAP VNF Heat Template Requirements from the ONAP VNF Requirements (VNFRQTS) project.">
+           xlink:href="https://docs.onap.org/projects/onap-vvp-documentation/en/newdelhi/index.html"
+           xlink:title="[UNMAINTAINED] The VNF Validation Platform (VVP) provides the functionality to validate that a VNF Heat package is compliant with the ONAP VNF Heat Template Requirements from the ONAP VNF Requirements (VNFRQTS) project.">
           <g
              id="g4461"
              inkscape:label="vvp"
              style="display:inline">
             <path
                id="rect47709-0-9-8"
-               style="fill:#1a3d6f;stroke:#1a3d6f;stroke-width:2"
+               style="fill:#aaaaaa;stroke:#aaaaaa;stroke-width:2"
                inkscape:label="vvp.form"
                d="m 17.000002,76.932762 h 15 v 4.000001 h -15 z" />
             <path
@@ -959,7 +959,7 @@
          inkscape:label="runtime.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html#runtime-framework"
+         xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html#runtime-framework"
          xlink:title="The Run-time execution framework executes the rules and policies and other models distributed by the design and creation environment.">
         <g
            id="g10932"
@@ -989,7 +989,7 @@
            inkscape:label="sharedservices.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html#shared-services"
+           xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html#shared-services"
            xlink:title="ONAP provides a set of operational services for all ONAP components including activity logging, reporting, common data layer, configuration, persistence, access control, secret and credential management, resiliency, and software lifecycle management."
            style="display:inline">
           <g
@@ -1013,7 +1013,7 @@
            inkscape:label="cps.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-cps/en/latest/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-cps/en/newdelhi/index.html"
            xlink:title="The Configuration Persistence Service (CPS) provides storage for real-time run-time configuration and operational parameters that need to be used by ONAP."
            transform="translate(4.0004481e-8,-8.0000081)">
           <g
@@ -1061,8 +1061,8 @@
            inkscape:label="oof.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#oof-optimization-framework"
-           xlink:title="The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer."
+           xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html#oof-optimization-framework"
+           xlink:title="[UNMAINTAINED] The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer."
            transform="translate(-4.6000472e-7,26)">
           <g
              id="g1912"
@@ -1070,7 +1070,7 @@
              transform="translate(0,-10)">
             <path
                id="rect47709-1-2"
-               style="display:inline;opacity:1;vector-effect:none;fill:#66c1be;stroke:#66c1be;stroke-width:2;stop-color:#000000;stop-opacity:1"
+               style="display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;stroke:#aaaaaa;stroke-width:2;stop-color:#000000;stop-opacity:1"
                inkscape:label="oof.form"
                d="m 269,108.93276 h 50 v 4 h -50 z" />
             <path
@@ -1113,8 +1113,8 @@
          inkscape:label="vfc.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-vfc-nfvo-lcm/en/latest/index.html"
-         xlink:title="The Virtual Function Controller (VFC) leverages the ETSI NFV MANO Architecture and information model as a reference and implements the full life cycle management and FCAPS of VNF and NS."
+         xlink:href="https://docs.onap.org/projects/onap-vfc-nfvo-lcm/en/newdelhi/index.html"
+         xlink:title="[UNMAINTAINED] The Virtual Function Controller (VFC) leverages the ETSI NFV MANO Architecture and information model as a reference and implements the full life cycle management and FCAPS of VNF and NS."
          transform="translate(-1.9952368,0.06725276)">
         <g
            id="g8563"
@@ -1122,9 +1122,9 @@
            style="display:inline">
           <path
              id="rect13557-62"
-             style="fill:#009893;stroke:#009893;stroke-width:2.00001;stop-color:#000000"
+             style="fill:#aaaaaa;stroke:#aaaaaa;stroke-width:2.00001;stop-color:#000000"
              inkscape:label="vfc.form"
-             d="m 227,120.93275 h 31.99999 v 26 H 227 Z" />
+             d="m 227,120.93275 h 32 v 26 h -32 z" />
           <g
              id="text1436-447"
              style="font-size:3.175px;line-height:1.05;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;fill:#ffffff;stroke-width:0.264583"
@@ -1150,7 +1150,7 @@
       </a>
       <a
          id="a67340"
-         xlink:href="https://docs.onap.org/projects/onap-sdnc-oam/en/latest/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-sdnc-oam/en/newdelhi/index.html"
          xlink:title="The ONAP Controller Family (SDNC/APPC) configures and maintains the health of Layer 1-7 network functions (VNF, PNF, CNFs) and network services throughout their lifecycle. Both provide similar services (application level configuration using NetConf, Chef, Ansible, RestConf, etc.) and life cycle management functions (e.g. stop, resume, health check). SDNC is being used mainly for Layer 1-3 network elements."
          inkscape:label="sdnc.link"
          onmouseover="style.opacity = 0.6;"
@@ -1189,7 +1189,7 @@
          inkscape:label="cds.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-ccsdk-cds/en/latest/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-ccsdk-cds/en/newdelhi/index.html"
          xlink:title="The run-time part of the Controller Design Studio (CDS) enables operators and ISPs to implement/operate hybrid network (CNF, PNF, VNF, Whitebox, etc.). The components are able to process and execute the design-time model intent defined by the users to support the lifecycle management. Included are a Self Service API, a TOSCA Workflow Engine, a Resource &amp; Template API, a Southbound Adapter, a Python Executor and a Kotlin Executor."
          transform="translate(-4.9952364,0.06725646)">
         <g
@@ -1222,7 +1222,7 @@
          inkscape:label="infrastructureadaption.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-multicloud-framework/en/latest/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-multicloud-framework/en/newdelhi/index.html"
          xlink:title="MultiCloud provides mediation capabilities to connect to different infrastructure providers (VM based, Container based). It has capabilities to discover and register infrastructure resource information. Also it relays FCAPS data from infrastructure to DCAE."
          transform="translate(-2.995236,0.06725646)">
         <g
@@ -1262,7 +1262,7 @@
            inkscape:label="dcae.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/latest/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/newdelhi/index.html"
            xlink:title="Data Collection, Analytics &amp; Events (DCAE) gathers performance, usage, and configuration data from the managed environment.">
           <g
              id="g1451"
@@ -1297,7 +1297,7 @@
            inkscape:label="analytics.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/latest/sections/services/serviceindex.html#analytics"
+           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/newdelhi/sections/services/serviceindex.html#analytics"
            xlink:title="The gathered data from multiple streams and sources is fed to analytic applications. Those applications can be real-time – for example, analytics, anomaly detection, capacity monitoring, congestion monitoring, or alarm correlation – or non-real time, such as applications that perform analytics on previously collected data or forward synthesized, aggregated or transformed data to big data stores and other applications."
            transform="translate(0.00476444,6.9999994)">
           <g
@@ -1321,7 +1321,7 @@
            inkscape:label="collectors.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/latest/sections/services/serviceindex.html#collectors"
+           xlink:href="https://docs.onap.org/projects/onap-dcaegen2/en/newdelhi/sections/services/serviceindex.html#collectors"
            xlink:title="The collection layer provides the various data collectors that are needed to collect the instrumentation that is available from the cloud infrastructure. Included are both physical and virtual elements."
            transform="translate(0.00476444,-1.0000005)">
           <g
@@ -1346,7 +1346,7 @@
          inkscape:label="dmaap.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#dmaap-data-movement-as-a-platform"
+         xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html#dmaap-data-movement-as-a-platform"
          xlink:title="Data Movement as a Platform (DMaaP) is a component that provides data movement services that transports and processes data from any source to any target.">
         <g
            id="g7029"
@@ -1376,7 +1376,7 @@
          inkscape:label="msb.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-msb-apigateway/en/latest/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-msb-apigateway/en/newdelhi/index.html"
          xlink:title="[UNMAINTAINED] The Microservice Bus (MSB) provides service registration, discovery and communication services for microservices as well as a gateway for internal and external communication for the services.">
         <g
            id="g7023"
@@ -1385,7 +1385,7 @@
              id="rect13557-2-5"
              style="fill:#aaaaaa;stroke:#aaaaaa;stroke-width:2"
              inkscape:label="msb.form"
-             d="m 81,105 h 86.00476 v 12 H 81 Z" />
+             d="m 81,105 h 86.005 v 12 H 81 Z" />
           <g
              id="text1436-447-86-1"
              style="font-size:3.175px;line-height:1.05;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;fill:#ffffff;stroke-width:0.264583"
@@ -1405,7 +1405,7 @@
          inkscape:label="aai.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#aai-active-and-available-inventory"
+         xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html#aai-active-and-available-inventory"
          xlink:title="The Active and Available Inventory (AAI) provides real-time views of the resources and services in managed by and their relationships.">
         <g
            id="g7008"
@@ -1434,7 +1434,7 @@
          inkscape:label="so.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-so/en/latest/index.html"
+         xlink:href="https://docs.onap.org/projects/onap-so/en/newdelhi/index.html"
          xlink:title="The Service Orchestration (SO) component is in charge of orchestration of network services and resources. It is based on the use of BPMN to document the Workflows.">
         <g
            id="g6985"
@@ -1464,8 +1464,8 @@
          inkscape:label="holmes.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/latest/platform/components/index.html#holmes-alarm-correlation-and-analysis"
-         xlink:title="Holmes provides the capability to analyze the relationship among different alarms (e.g. root cause, correlation)."
+         xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html#holmes-alarm-correlation-and-analysis"
+         xlink:title="[UNMAINTAINED] Holmes provides the capability to analyze the relationship among different alarms (e.g. root cause, correlation)."
          transform="translate(-44.999997)">
         <g
            id="g4100"
@@ -1473,7 +1473,7 @@
            style="display:inline">
           <path
              id="rect4092"
-             style="display:inline;fill:#009893;stroke:#009893;stroke-width:2;stop-color:#000000"
+             style="display:inline;fill:#aaaaaa;stroke:#aaaaaa;stroke-width:2;stop-color:#000000"
              inkscape:label="holmes.form"
              d="m 171.00476,89 h 41 v 12 h -41 z" />
           <g
@@ -1499,7 +1499,7 @@
            inkscape:label="policyframework.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-policy-parent/en/latest/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-policy-parent/en/newdelhi/index.html"
            xlink:title="Policy Core Functions provide a logically centralized environment for the creation and management of policies, including conditional rules (e.g. create and validate policies/rules, identify overlaps, resolve conflicts, derive additional policies as needed).">
           <g
              id="g6163"
@@ -1557,7 +1557,7 @@
            inkscape:label="interfaces.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/latest/guides/onap-developer/apiref/index.html#rest-api-reference"
+           xlink:href="https://docs.onap.org/en/newdelhi/guides/onap-developer/apiref/index.html#rest-api-reference"
            xlink:title="Various ONAP components provide also a user interface.">
           <g
              id="g5413"
@@ -1580,16 +1580,16 @@
            inkscape:label="cli.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-cli/en/latest/index.html"
-           xlink:title="The Command Line Interface (CLI) provides commands to operate ONAP during design and run-time for network service functionalities. It also provides the 'Open Command Platform' which helps to orchestrate the commands from YAML and helps in agile automation.">
+           xlink:href="https://docs.onap.org/projects/onap-cli/en/newdelhi/index.html"
+           xlink:title="[UNMAINTAINED] The Command Line Interface (CLI) provides commands to operate ONAP during design and run-time for network service functionalities. It also provides the 'Open Command Platform' which helps to orchestrate the commands from YAML and helps in agile automation.">
           <g
              id="g5407"
              inkscape:label="cli">
             <path
                id="rect47709-0-3-6-0-61"
-               style="vector-effect:none;fill:#009893;stroke:#009893;stroke-width:2;stop-color:#000000"
+               style="vector-effect:none;fill:#aaaaaa;stroke:#aaaaaa;stroke-width:2;stop-color:#000000"
                inkscape:label="cli.form"
-               d="M 210.00476,76.932762 H 255 v 4.000001 h -44.99524 z" />
+               d="m 210.00476,76.932762 h 44.995 v 4.000001 h -44.995 z" />
             <path
                d="m 212.04874,77.606421 v 0.330212 q -0.15813,-0.147278 -0.33796,-0.220141 -0.17828,-0.07286 -0.37982,-0.07286 -0.39688,0 -0.60772,0.243396 -0.21084,0.241846 -0.21084,0.700732 0,0.457337 0.21084,0.700733 0.21084,0.241845 0.60772,0.241845 0.20154,0 0.37982,-0.07286 0.17983,-0.07286 0.33796,-0.220142 v 0.327112 q -0.16433,0.111621 -0.34881,0.167432 -0.18294,0.05581 -0.38758,0.05581 -0.52555,0 -0.82785,-0.320911 -0.30231,-0.322461 -0.30231,-0.879016 0,-0.558105 0.30231,-0.879016 0.3023,-0.322461 0.82785,-0.322461 0.20774,0 0.39068,0.05581 0.18448,0.05426 0.34571,0.164331 z m 0.39109,-0.178284 h 0.31316 v 2.051038 h 1.12706 v 0.26355 h -1.44022 z m 1.67628,0 h 0.31316 v 2.314588 h -0.31316 z"
                id="text1436-9"
@@ -1627,7 +1627,7 @@
            inkscape:label="usecaseui.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-usecase-ui/en/latest/index.html"
+           xlink:href="https://docs.onap.org/projects/onap-usecase-ui/en/newdelhi/index.html"
            xlink:title="Usecase User Interface (UUI) is an application portal which provides the ability to manage ONAP service instances. It allows customers to create, delete and update service instances, as well as to monitor the alarms and performance of these instances."
            transform="translate(-19.999996)">
           <g
@@ -1707,23 +1707,23 @@
        inkscape:label="releaseinfo.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
-       xlink:href="https://docs.onap.org/en/latest/release/history.html"
-       xlink:title="ONAP Release 13 »Montreal«"
+       xlink:href="https://docs.onap.org/en/newdelhi/release/history.html"
+       xlink:title="ONAP Release 14 »New Delhi«"
        style="display:inline"
        transform="translate(-3.3759646,4.8850003e-4)">
       <path
          style="font-size:6.35px;line-height:1.05;-inkscape-font-specification:sans-serif;text-align:end;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-anchor:end;opacity:0.8;fill:#313032;stroke-width:0.264583"
-         d="m 251.50632,25.724506 q 0.20154,0.06821 0.39067,0.291455 0.19224,0.223243 0.38447,0.613916 l 0.63562,1.26504 h -0.67282 l -0.59221,-1.187525 q -0.22945,-0.465088 -0.44649,-0.617016 -0.21394,-0.151929 -0.58601,-0.151929 h -0.68213 v 1.95647 h -0.62632 v -4.629175 h 1.41387 q 0.79375,0 1.18442,0.331762 0.39068,0.331763 0.39068,1.00149 0,0.437182 -0.20464,0.725537 -0.20154,0.288354 -0.58911,0.399975 z m -1.5689,-1.944067 v 1.643311 h 0.78755 q 0.45269,0 0.68213,-0.20774 0.23254,-0.21084 0.23254,-0.617016 0,-0.406177 -0.23254,-0.610816 -0.22944,-0.207739 -0.68213,-0.207739 z m 3.69321,-0.514697 h 2.92696 v 0.527099 h -2.30064 V 25.1633 h 2.20452 v 0.5271 h -2.20452 v 1.677417 h 2.35645 v 0.5271 h -2.98277 z m 3.91956,0 h 0.62632 v 4.102075 h 2.25412 v 0.5271 h -2.88044 z m 3.44516,0 h 2.92695 v 0.527099 h -2.30063 V 25.1633 h 2.20452 v 0.5271 h -2.20452 v 1.677417 h 2.35645 v 0.5271 h -2.98277 z m 5.46675,0.617016 -0.84956,2.303736 h 1.70222 z m -0.35347,-0.617016 h 0.71003 l 1.76424,4.629175 h -0.65112 l -0.42168,-1.187525 h -2.0867 l -0.42168,1.187525 h -0.66042 z m 5.83262,0.151929 v 0.610815 q -0.35657,-0.170532 -0.67283,-0.254248 -0.31626,-0.08372 -0.61082,-0.08372 -0.51159,0 -0.79065,0.198438 -0.27595,0.198437 -0.27595,0.564306 0,0.306958 0.18294,0.465088 0.18603,0.155029 0.70073,0.251148 l 0.37827,0.07751 q 0.70073,0.133325 1.0325,0.471289 0.33486,0.334864 0.33486,0.89917 0,0.672827 -0.45269,1.020093 -0.44958,0.347266 -1.32085,0.347266 -0.32866,0 -0.70073,-0.07441 -0.36897,-0.07441 -0.76584,-0.220141 v -0.644922 q 0.38137,0.21394 0.74724,0.322461 0.36587,0.10852 0.71933,0.10852 0.5364,0 0.82786,-0.210839 0.29145,-0.21084 0.29145,-0.601514 0,-0.341065 -0.21084,-0.533301 -0.20773,-0.192236 -0.68522,-0.288354 l -0.38138,-0.07441 q -0.70073,-0.139527 -1.01389,-0.437183 -0.31316,-0.297656 -0.31316,-0.827856 0,-0.613916 0.43098,-0.967383 0.43409,-0.353467 1.19373,-0.353467 0.32556,0 0.66352,0.05891 0.33797,0.05891 0.69144,0.176734 z m 1.16313,-0.151929 h 2.92695 v 0.527099 H 273.7307 V 25.1633 h 2.20451 v 0.5271 h -2.20451 v 1.677417 h 2.35644 v 0.5271 h -2.98276 z m 5.74518,4.102075 h 1.02319 V 23.83625 l -1.11311,0.223242 v -0.570508 l 1.10691,-0.223242 h 0.62632 v 4.102075 h 1.02319 v 0.5271 h -2.6665 z m 5.7365,-1.968872 q 0.44958,0.09612 0.70073,0.399975 0.25425,0.303858 0.25425,0.750342 0,0.68523 -0.47129,1.060401 -0.47129,0.375171 -1.33946,0.375171 -0.29145,0 -0.60151,-0.05891 -0.30696,-0.05581 -0.63562,-0.170532 v -0.604614 q 0.26045,0.151929 0.57051,0.229443 0.31006,0.07751 0.64802,0.07751 0.58911,0 0.89607,-0.232544 0.31006,-0.232544 0.31006,-0.675928 0,-0.409277 -0.28836,-0.63872 -0.28525,-0.232544 -0.79685,-0.232544 h -0.5395 V 25.1633 h 0.56431 q 0.46198,0 0.70693,-0.182934 0.24495,-0.186035 0.24495,-0.533301 0,-0.356567 -0.25425,-0.545703 -0.25115,-0.192236 -0.72244,-0.192236 -0.25735,0 -0.5519,0.05581 -0.29456,0.05581 -0.64802,0.173633 v -0.558106 q 0.35656,-0.09922 0.66662,-0.148828 0.31316,-0.04961 0.58911,-0.04961 0.71314,0 1.12862,0.325561 0.41548,0.322461 0.41548,0.874366 0,0.384472 -0.22015,0.651123 -0.22014,0.26355 -0.62631,0.365869 z m 3.63057,-0.787549 1.45418,1.296045 v 0.254248 l -1.45418,1.296045 v -0.592212 l 0.93328,-0.830957 -0.93328,-0.830957 z m 1.34566,0 1.45417,1.296045 v 0.254248 l -1.45417,1.296045 v -0.592212 l 0.93328,-0.830957 -0.93328,-0.830957 z m 2.47158,-1.345654 h 0.93328 l 1.18132,3.150195 1.18752,-3.150195 h 0.93328 v 4.629175 h -0.61081 v -4.064869 l -1.19373,3.175 h -0.62942 l -1.19372,-3.175 v 4.064869 h -0.60772 z m 7.26509,0.42478 q -0.68213,0 -1.08521,0.508496 -0.39997,0.508496 -0.39997,1.385962 0,0.874365 0.39997,1.382861 0.40308,0.508496 1.08521,0.508496 0.68213,0 1.079,-0.508496 0.39998,-0.508496 0.39998,-1.382861 0,-0.877466 -0.39998,-1.385962 -0.39687,-0.508496 -1.079,-0.508496 z m 0,-0.508496 q 0.97358,0 1.55649,0.654224 0.58291,0.651123 0.58291,1.74873 0,1.094507 -0.58291,1.74873 -0.58291,0.651124 -1.55649,0.651124 -0.97669,0 -1.5627,-0.651124 -0.58291,-0.651123 -0.58291,-1.74873 0,-1.097607 0.58291,-1.74873 0.58601,-0.654224 1.5627,-0.654224 z m 3.02658,0.08372 h 0.84336 l 2.05259,3.872632 v -3.872632 h 0.60771 v 4.629175 h -0.84336 l -2.05258,-3.872632 v 3.872632 h -0.60772 z m 4.01567,0 h 3.91604 v 0.527099 h -1.64331 v 4.102076 h -0.62942 v -4.102076 h -1.64331 z m 6.62327,2.458764 q 0.20154,0.06821 0.39067,0.291455 0.19224,0.223243 0.38448,0.613916 l 0.63562,1.26504 h -0.67283 l -0.59221,-1.187525 q -0.22945,-0.465088 -0.44649,-0.617016 -0.21394,-0.151929 -0.58601,-0.151929 h -0.68213 v 1.95647 h -0.62632 v -4.629175 h 1.41387 q 0.79375,0 1.18442,0.331762 0.39068,0.331763 0.39068,1.00149 0,0.437182 -0.20464,0.725537 -0.20154,0.288354 -0.58911,0.399975 z m -1.5689,-1.944067 v 1.643311 h 0.78755 q 0.45269,0 0.68213,-0.20774 0.23254,-0.21084 0.23254,-0.617016 0,-0.406177 -0.23254,-0.610816 -0.22944,-0.207739 -0.68213,-0.207739 z m 3.69321,-0.514697 h 2.92695 v 0.527099 h -2.30063 V 25.1633 h 2.20452 v 0.5271 h -2.20452 v 1.677417 h 2.35644 v 0.5271 h -2.98276 z m 5.46675,0.617016 -0.84956,2.303736 h 1.70222 z m -0.35347,-0.617016 h 0.71004 l 1.76423,4.629175 h -0.65112 l -0.42168,-1.187525 h -2.0867 l -0.42168,1.187525 h -0.66042 z m 3.0576,0 h 0.62631 v 4.102075 h 2.25413 v 0.5271 h -2.88044 z m 6.11166,1.345654 v 0.592212 l -0.93328,0.830957 0.93328,0.830957 v 0.592212 l -1.45417,-1.296045 v -0.254248 z m -1.34565,0 v 0.592212 l -0.93328,0.830957 0.93328,0.830957 v 0.592212 l -1.45418,-1.296045 v -0.254248 z"
+         d="m 251.12867,25.724506 q 0.20153,0.06821 0.39067,0.291455 0.19224,0.223243 0.38447,0.613916 l 0.63562,1.26504 h -0.67282 l -0.59222,-1.187525 q -0.22944,-0.465088 -0.44648,-0.617016 -0.21394,-0.151929 -0.58601,-0.151929 h -0.68213 v 1.95647 h -0.62632 v -4.629175 h 1.41387 q 0.79375,0 1.18442,0.331762 0.39068,0.331763 0.39068,1.00149 0,0.437182 -0.20464,0.725537 -0.20154,0.288354 -0.58911,0.399975 z m -1.5689,-1.944067 v 1.643311 h 0.78755 q 0.45268,0 0.68213,-0.20774 0.23254,-0.21084 0.23254,-0.617016 0,-0.406177 -0.23254,-0.610816 -0.22945,-0.207739 -0.68213,-0.207739 z m 3.69321,-0.514697 h 2.92695 v 0.527099 H 253.8793 V 25.1633 h 2.20452 v 0.5271 h -2.20452 v 1.677417 h 2.35644 v 0.5271 h -2.98276 z m 3.91956,0 h 0.62631 v 4.102075 h 2.25413 v 0.5271 h -2.88044 z m 3.44516,0 h 2.92695 v 0.527099 h -2.30063 V 25.1633 h 2.20451 v 0.5271 h -2.20451 v 1.677417 h 2.35644 v 0.5271 h -2.98276 z m 5.46675,0.617016 -0.84956,2.303736 h 1.70222 z m -0.35347,-0.617016 h 0.71003 l 1.76424,4.629175 h -0.65113 l -0.42168,-1.187525 h -2.08669 l -0.42168,1.187525 h -0.66042 z m 5.83261,0.151929 v 0.610815 q -0.35656,-0.170532 -0.67282,-0.254248 -0.31626,-0.08372 -0.61082,-0.08372 -0.5116,0 -0.79065,0.198438 -0.27595,0.198437 -0.27595,0.564306 0,0.306958 0.18293,0.465088 0.18604,0.155029 0.70074,0.251148 l 0.37827,0.07751 q 0.70073,0.133325 1.03249,0.471289 0.33487,0.334864 0.33487,0.89917 0,0.672827 -0.45269,1.020093 -0.44958,0.347266 -1.32085,0.347266 -0.32866,0 -0.70073,-0.07441 -0.36897,-0.07441 -0.76585,-0.220141 v -0.644922 q 0.38138,0.21394 0.74725,0.322461 0.36586,0.10852 0.71933,0.10852 0.5364,0 0.82786,-0.210839 0.29145,-0.21084 0.29145,-0.601514 0,-0.341065 -0.21084,-0.533301 -0.20774,-0.192236 -0.68523,-0.288354 l -0.38137,-0.07441 q -0.70073,-0.139527 -1.01389,-0.437183 -0.31316,-0.297656 -0.31316,-0.827856 0,-0.613916 0.43098,-0.967383 0.43408,-0.353467 1.19373,-0.353467 0.32556,0 0.66352,0.05891 0.33797,0.05891 0.69143,0.176734 z m 1.16314,-0.151929 h 2.92695 v 0.527099 h -2.30063 V 25.1633 h 2.20451 v 0.5271 h -2.20451 v 1.677417 h 2.35644 v 0.5271 h -2.98276 z m 5.74518,4.102075 h 1.02319 V 23.83625 l -1.11311,0.223242 v -0.570508 l 1.10691,-0.223242 h 0.62632 v 4.102075 h 1.02319 v 0.5271 h -2.6665 z m 5.55976,-3.556372 -1.5813,2.471167 h 1.5813 z m -0.16433,-0.545703 h 0.78755 v 3.01687 h 0.66042 v 0.520898 h -0.66042 v 1.091407 h -0.62322 V 26.80351 h -2.08979 v -0.604614 z m 3.97164,1.345654 1.45418,1.296045 v 0.254248 l -1.45418,1.296045 v -0.592212 l 0.93328,-0.830957 -0.93328,-0.830957 z m 1.34566,0 1.45417,1.296045 v 0.254248 l -1.45417,1.296045 v -0.592212 l 0.93327,-0.830957 -0.93327,-0.830957 z m 2.47158,-1.345654 h 0.84336 l 2.05259,3.872632 v -3.872632 h 0.60771 v 4.629175 h -0.84336 l -2.05259,-3.872632 v 3.872632 h -0.60771 z m 4.65749,0 h 2.92696 v 0.527099 h -2.30064 V 25.1633 h 2.20452 v 0.5271 h -2.20452 v 1.677417 h 2.35645 v 0.5271 h -2.98277 z m 3.50718,0 h 0.63252 l 0.97358,3.912939 0.97048,-3.912939 h 0.70384 l 0.97358,3.912939 0.97048,-3.912939 h 0.63562 l -1.16272,4.629175 h -0.78754 l -0.97669,-4.01836 -0.98599,4.01836 h -0.78754 z m 8.88607,0.514697 v 3.59978 h 0.75654 q 0.95808,0 1.40147,-0.434082 0.44648,-0.434082 0.44648,-1.370459 0,-0.930175 -0.44648,-1.361157 -0.44339,-0.434082 -1.40147,-0.434082 z m -0.62632,-0.514697 h 1.28675 q 1.34565,0 1.97507,0.561206 0.62942,0.558105 0.62942,1.74873 0,1.196826 -0.63252,1.758032 -0.63252,0.561207 -1.97197,0.561207 h -1.28675 z m 4.79702,0 h 2.92695 v 0.527099 h -2.30063 V 25.1633 h 2.20452 v 0.5271 h -2.20452 v 1.677417 h 2.35645 v 0.5271 h -2.98277 z m 3.91955,0 h 0.62632 v 4.102075 h 2.25413 v 0.5271 h -2.88045 z m 3.44517,0 h 0.62632 V 25.1633 h 2.27583 v -1.897558 h 0.62632 v 4.629175 h -0.62632 V 25.6904 h -2.27583 v 2.204517 h -0.62632 z m 4.6823,0 h 0.62632 v 4.629175 h -0.62632 z m 4.44665,1.345654 v 0.592212 l -0.93327,0.830957 0.93327,0.830957 v 0.592212 l -1.45417,-1.296045 v -0.254248 z m -1.34565,0 v 0.592212 l -0.93328,0.830957 0.93328,0.830957 v 0.592212 l -1.45418,-1.296045 v -0.254248 z"
          id="text1436-10"
          inkscape:label="releaseinfo.label"
-         aria-label="RELEASE 13 »MONTREAL«" />
+         aria-label="RELEASE 14 »NEW DELHI«" />
     </a>
     <a
        id="a4602"
        inkscape:label="onaplogo.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
-       xlink:href="https://docs.onap.org/en/latest/platform/overview/index.html"
+       xlink:href="https://docs.onap.org/en/newdelhi/platform/overview/index.html"
        xlink:title="The Open Network Automation Platform (ONAP) is a comprehensive platform for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. The open source project ONAP is hosted by the Linux Foundation.">
       <g
          id="g1241"
