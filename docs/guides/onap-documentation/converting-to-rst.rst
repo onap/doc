@@ -106,5 +106,5 @@ Previewing edits
 Web-based
 ~~~~~~~~~
 
-`Online Sphinx editor <https://livesphinx.herokuapp.com/>`_ is a RST previewing
-tool.
+`Online Sphinx editor <https://www.tutorialspoint.com/online_restructure_editor.php/>`_ 
+is a RST previewing tool.
