@@ -81,10 +81,7 @@ POLICY - Policy Framework
 
 PORTAL-NG
 ---------
-
-<to be done>
-
-.. - :ref:`portal-ng/tobedone <onap-portal-ng:release_notes>`
+ - :ref:`portal-ng/ui <onap-portal-ng-ui:release_notes>`
 
 SDC - Service Design & Creation
 -------------------------------
