@@ -30,7 +30,7 @@ maintained in the component specific release notes.
 +-----------------------------------+-----------------------------------------+
 | **Release version**               | 14.0.0                                  |
 +-----------------------------------+-----------------------------------------+
-| **Release date**                  | 2024, not released yet                  |
+| **Release date**                  | 2024, June 13th                         |
 +-----------------------------------+-----------------------------------------+
 
 ONAP is evolving. We took efforts in streamlining processes and roles and
@@ -92,10 +92,10 @@ upgrading to OpenDaylight Argon version, Service Release 2. This allows latest
 ONAP user to make use of latest OpenDaylight software when they use latest
 release of ONAP.
 
-PortalNG
---------s
+Portal-NG
+---------
 
-We introduced new PortalNG as a maintained alternative to the unmaintained
+We introduced new Portal-NG as a maintained alternative to the unmaintained
 Portal project.  Allows ONAP user to make informed decisions on software use of
 maintained and unmaintained projects.
 
