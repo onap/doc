@@ -81,7 +81,7 @@ POLICY - Policy Framework
 
 PORTAL-NG
 ---------
- - :ref:`portal-ng/ui <onap-portal-ng-ui:release_notes>`
+- :ref:`portal-ng/ui <onap-portal-ng-ui:release_notes>`
 
 SDC - Service Design & Creation
 -------------------------------
