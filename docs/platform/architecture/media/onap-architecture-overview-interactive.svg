@@ -5,7 +5,7 @@
 
 <!-- License. http://creativecommons.org/licenses/by/4.0                          -->
 
-<!-- Copyright (C) 2021 Deutsche Telekom AG                                       -->
+<!-- Copyright (C) 2021 - 2024 Deutsche Telekom AG                                -->
 
 <svg
    sodipodi:docname="onap-architecture-overview-interactive.svg"
@@ -887,7 +887,7 @@
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
          xlink:href="https://docs.onap.org/en/newdelhi/guides/onap-operator/index.html#operations-and-administration-guides"
-         xlink:title="Management capabilities for the Open Network Automation Platform itself.">
+         xlink:title="Management capabilities for the ONAP itself.">
         <g
            id="g1266"
            inkscape:label="manageonap"
@@ -921,7 +921,7 @@
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
          xlink:href="https://docs.onap.org/projects/onap-oom/en/newdelhi/index.html"
-         xlink:title="The ONAP Operations Manager (OOM) is responsible for lifecycle management of the ONAP platform itself. OOM provides the ability to manage cloud-native installations and deployments of ONAP to Kubernetes-managed cloud environments."
+         xlink:title="The ONAP Operations Manager (OOM) is responsible for lifecycle management of ONAP itself. OOM provides the ability to manage cloud-native installations and deployments of ONAP to Kubernetes-managed cloud environments."
          transform="translate(-3.9999979,0.06724192)">
         <g
            id="g2643"
@@ -1135,7 +1135,7 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/en/newdelhi/guides/onap-user/design/index.html"
-           xlink:title="The goal of the design process is to create all artifacts (models) that are required to instantiate and manage resources, services, and products on the ONAP platform."
+           xlink:title="The goal of the design process is to create all artifacts (models) that are required to instantiate and manage resources, services, and products with ONAP."
            style="display:inline"
            transform="translate(0.00476341,16.067237)">
           <g
@@ -2261,7 +2261,7 @@
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
        xlink:href="https://docs.onap.org/en/newdelhi/platform/overview/index.html"
-       xlink:title="The Open Network Automation Platform (ONAP) is a comprehensive platform for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. The open source project ONAP is hosted by the Linux Foundation.">
+       xlink:title="ONAP provides comprehensive functionality for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. The open source project ONAP is hosted by the Linux Foundation.">
       <g
          id="g1241"
          transform="matrix(0.10712373,0,0,0.10712373,5.2329939,4.7423663)"
