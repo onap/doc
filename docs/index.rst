@@ -27,13 +27,12 @@
 ..
 .. please disable above in the release version
 
-Open Network Automation Platform
-================================
+ONAP
+====
 
-Open Network Automation Platform (ONAP) is an open source project hosted by
-the Linux Foundation.
+ONAP is an open source project hosted by the Linux Foundation.
 
-ONAP provides a comprehensive platform for real-time, policy-driven service
+ONAP provides comprehensive functionality for real-time, policy-driven service
 orchestration and automation. ONAP enables service providers and developers
 to rapidly automate the instantiation and configuration of physical and
 virtual network functions and to support complete life cycle management
@@ -44,8 +43,8 @@ any product could on its own.
 
 -------------------------------------------------------------------------------
 
-:ref:`'NewDelhi' Release Notes <onap-release-notes>`
-----------------------------------------------------
+:ref:`'Oslo' Release Notes <onap-release-notes>`
+------------------------------------------------
 
 .. figure:: _static/file.svg
     :align: left
