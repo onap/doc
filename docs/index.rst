@@ -30,8 +30,6 @@
 ONAP
 ====
 
-ONAP is an open source project hosted by the Linux Foundation.
-
 ONAP provides comprehensive functionality for real-time, policy-driven service
 orchestration and automation. ONAP enables service providers and developers
 to rapidly automate the instantiation and configuration of physical and
@@ -40,6 +38,8 @@ activities. By unifying the resources of open source members, ONAP enables
 the acceleration of the development of a vibrant ecosystem around a globally
 shared architecture and the implementation of network automation faster than
 any product could on its own.
+
+ONAP is an open source project hosted by the Linux Foundation.
 
 -------------------------------------------------------------------------------
 
