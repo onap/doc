@@ -218,11 +218,11 @@ vulnerabilities and how to report them.
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: PLATFORM
+   :caption: ECOSYSTEM
 
-   platform/overview/index
-   platform/architecture/index
-   platform/components/index
+   ecosystem/overview/index
+   ecosystem/architecture/index
+   ecosystem/components/index
 
 .. toctree::
    :maxdepth: 1
