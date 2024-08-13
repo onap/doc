@@ -25,10 +25,6 @@ CCSDK - Common Controller Software Development Kit
 - :ref:`ccsdk/distribution <onap-ccsdk-distribution:release_notes>`
 - :ref:`ccsdk/oran <onap-ccsdk-oran:release_notes>`
 
-CLI - Command Line Interface
-----------------------------
-- :ref:`cli <onap-cli:release_notes>`
-
 CPS - Configuration Persistence Service
 ---------------------------------------
 - :ref:`cps <onap-cps:release_notes>`
@@ -39,37 +35,17 @@ DCAE Gen.2 - Data Collection, Analysis and Events
 -------------------------------------------------
 - :ref:`dcaegen2 <onap-dcaegen2:release_notes>`
 
-DMAAP - Data Movement As A Platform
------------------------------------
-- :ref:`dmaap/buscontroller <onap-dmaap-buscontroller:release_notes>`
-- :ref:`dmaap/datarouter <onap-dmaap-datarouter:release_notes>`
-- :ref:`dmaap/messagerouter/messageservice <onap-dmaap-messagerouter-messageservice:release_notes>`
-
 DOC - Documentation
 -------------------
 - :ref:`doc <doc_release_notes>`
-
-HOLMES - Holmes
----------------
-- :ref:`holmes/rule-management <onap-holmes-rule-management:release_notes>`
 
 INT - Integration
 -----------------
 - :ref:`integration <onap-integration:release_notes>`
 
-MODELING - Modeling
--------------------
-- :ref:`modeling/etsicatalog <onap-modeling-etsicatalog:release_notes>`
-- :ref:`modeling/modelspec <onap-modeling-modelspec:release_notes>`
-
 MULTICLOUD - Multi Cloud
 ------------------------
 - :ref:`multicloud/framework <onap-multicloud-framework:release_notes>`
-
-OOF - Optimization Framework
-----------------------------
-- :ref:`optf/has <onap-optf-has:release_notes>`
-- :ref:`optf/osdf <onap-optf-osdf:release_notes>`
 
 OOM - ONAP Operations Manager
 -----------------------------
@@ -99,11 +75,3 @@ UUI - Use Case User Interface
 -----------------------------
 
 - :ref:`usecase-ui <onap-usecase-ui:release_notes>`
-
-VFC - Virtual Function Controller
----------------------------------
-- :ref:`vfc/nfvo/lcm <onap-vfc-nfvo-lcm:release_notes>`
-
-VNFSDK - VNF Software Development Kit
--------------------------------------
-- :ref:`vnfsdk/model <onap-vnfsdk-model:release_notes>`

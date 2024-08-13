@@ -74,36 +74,6 @@ DCAE - Data Collection, Analysis and Events
    * - :ref:`dcaegen2<onap-dcaegen2:master_index>`
      - DCAE (Gen2) Architecture and Guides
 
-DMAAP - Data Movement as a Platform
------------------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`dmaap/buscontroller<onap-dmaap-buscontroller:master_index>`
-     - Bus Controller
-   * - :ref:`dmaap/datarouter<onap-dmaap-datarouter:master_index>`
-     - Data Router
-   * - :ref:`dmaap/messagerouter/messageservice<onap-dmaap-messagerouter-messageservice:master_index>`
-     - Message Router
-
-HOLMES - Alarm Correlation and Analysis
-----------------------------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`holmes/rule-management<onap-holmes-rule-management:master_index>`
-     - Architecture and APIs
-   * - :ref:`holmes/engine-management<onap-holmes-engine-management:master_index>`
-     - Engine Management
-
 INT - Integration
 -----------------
 
@@ -115,18 +85,6 @@ INT - Integration
      - Documentation
    * - :ref:`integration<onap-integration:master_index>`
      - Integration Project
-
-MOD - Modeling
---------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`modeling/etsicatalog<onap-modeling-etsicatalog:master_index>`
-     - ETSI Runtime Catalog
 
 MULTICLOUD - MultiCloud Framework
 ---------------------------------
@@ -153,20 +111,6 @@ OOM - ONAP Operations Manager
      - Documentation
    * - :ref:`oom<onap-oom:master_index>`
      - ONAP Operations Manager
-
-OOF - Optimization Framework
-----------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`optf/has<onap-optf-has:master_index>`
-     - Homing and Allocation
-   * - :ref:`optf/osdf<onap-optf-osdf:master_index>`
-     - Optimization Service Design Framework
 
 POLICY - Policy Framework
 -------------------------
@@ -228,26 +172,3 @@ UUI - Usecase User Interface
    * - :ref:`usecase-ui<onap-usecase-ui:master_index>`
      - Usecase-UI Architecture, APIs and Guides
 
-VFC - Virtual Function Controller
----------------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`vfc/nfvo/lcm<onap-vfc-nfvo-lcm:master_index>`
-     - Virtual Function Controller Architecture, APIs and Guides
-
-VNFSDK - VNF Software Development Kit
--------------------------------------
-
-.. list-table::
-   :widths: auto
-   :header-rows: 1
-
-   * - Component
-     - Documentation
-   * - :ref:`vnfsdk/model<onap-vnfsdk-model:master_index>`
-     - VNF Software Development Kit, APIs and Guides

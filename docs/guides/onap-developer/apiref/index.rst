@@ -31,11 +31,9 @@ Platform Components
    :titlesonly:
 
 * :ref:`DCAE - Data Collection Analytics and Events<onap-dcaegen2:offeredapis>`
-* :ref:`Holmes - Alarm Correlation<onap-holmes-rule-management:offeredapis>`
 * :ref:`Policy<onap-policy-parent:offeredapis>`
 * :ref:`SDNC - SDN Controller<onap-sdnc-oam:offeredapis>`
 * :ref:`SO - Service Orchestration<onap-so:offeredapis>`
-* :ref:`VFC - Virtual Function Controller<onap-vfc-nfvo-lcm:master_index>`
 * :ref:`CDS - Controller Design Studio<onap-ccsdk-cds:offeredapis>`
 
 Common Services
@@ -47,8 +45,4 @@ Common Services
 
 * :ref:`AAI - Active and Available Inventory<onap-aai-aai-common:offeredapis>`
 * :ref:`CPS - Configuration Persistence Service<onap-cps:design>`
-* :ref:`DMAAP DBC - Data Management as a Platform (Data Bus Controller)<onap-dmaap-buscontroller:offeredapis>`
-* :ref:`DMAAP DR - Data Management as a Platform (Data Router)<onap-dmaap-datarouter:master_index>`
-* :ref:`DMAAP MR - Data Management as a Platform (Message Router)<onap-dmaap-messagerouter-messageservice:offeredapis>`
 * :ref:`Multi Cloud<onap-multicloud-framework:offeredapis>`
-* :ref:`OPTF - Optimization Framework<onap-optf-osdf:offeredapis>`
