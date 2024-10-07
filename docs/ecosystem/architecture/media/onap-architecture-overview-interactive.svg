@@ -12,9 +12,9 @@
    inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
    id="svg5"
    version="1.1"
-   viewBox="0 0 324.00477 237.0196"
-   height="237.01961mm"
-   width="324.00476mm"
+   viewBox="0 0 324.00025 243.99996"
+   height="243.99997mm"
+   width="324.00024mm"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -30,9 +30,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="625.24997"
-     inkscape:cy="458.99998"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="608.11182"
+     inkscape:cy="467.39757"
      inkscape:window-width="3768"
      inkscape:window-height="2096"
      inkscape:window-x="72"
@@ -59,14 +59,20 @@
        spacingx="0.99999999"
        spacingy="0.99999999"
        empspacing="0"
-       originx="5.0047656"
-       originy="1.9293997e-06"
+       originx="5.0000003"
+       originy="-21.00001"
        snapvisiblegridlinesonly="false"
        visible="true"
        enabled="true" />
   </sodipodi:namedview>
   <defs
      id="defs2">
+    <rect
+       x="-298.56464"
+       y="306.14175"
+       width="224.79491"
+       height="122.44801"
+       id="rect3" />
     <linearGradient
        id="linearGradient155150"
        inkscape:swatch="gradient">
@@ -86,21 +92,21 @@
      id="layer4"
      inkscape:label="vector.layer"
      style="display:inline"
-     transform="translate(-3.9999998,-3.9999989)"
+     transform="translate(-4.004765,-25.000011)"
      inkscape:groupmode="layer">
     <g
        id="g5663"
-       transform="translate(2.0952081e-6,-1.0520645)"
+       transform="translate(1.77464e-6,26.947943)"
        style="display:inline"
-       inkscape:label="colorlegend">
+       inkscape:label="color legend">
       <g
          id="g4786"
          inkscape:label="unmaintained"
          transform="translate(139.99106,0.06481615)">
         <rect
-           style="font-variation-settings:normal;display:inline;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:1.98629;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+           style="font-variation-settings:normal;display:inline;fill:#bebebe;fill-opacity:1;stroke:#bebebe;stroke-width:1.98629;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
            id="rect47709-1-8-8-2"
-           width="50.01371"
+           width="50.014"
            height="4.0137157"
            x="135"
            y="235"
@@ -114,9 +120,9 @@
            inkscape:label="unmaintained.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan135"><tspan
+             id="tspan2"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0.2645835 -0.26458463"
-               id="tspan134">Unmaintained ONAP Component</tspan></tspan></text>
+               id="tspan1">Unmaintained ONAP Component</tspan></tspan></text>
       </g>
       <g
          id="g4786-5"
@@ -140,9 +146,9 @@
            inkscape:label="onapcomponents.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan137"><tspan
+             id="tspan6"><tspan
                dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458272 0 0.2645829 -0.26458272 0 0 0 0.2645835 -0.26458272"
-               id="tspan136">Entirety of ONAP Components</tspan></tspan></text>
+               id="tspan3">Entirety of ONAP Components</tspan></tspan></text>
       </g>
       <g
          id="g4770"
@@ -166,7 +172,7 @@
            transform="matrix(1.00026,0,0,1,-0.0728097,0)"><tspan
              x="279"
              y="237.80913"
-             id="tspan138">Operations</tspan></text>
+             id="tspan7">Operations</tspan></text>
       </g>
       <g
          id="g4776"
@@ -190,9 +196,9 @@
            transform="matrix(1.00026,0,0,1,-0.0602911,0)"><tspan
              x="231.00195"
              y="237.80913"
-             id="tspan140"><tspan
+             id="tspan9"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0.26458231 -0.26458272"
-               id="tspan139">Orchestration &amp; Management</tspan></tspan></text>
+               id="tspan8">Orchestration &amp; Management</tspan></tspan></text>
       </g>
       <g
          id="g4765"
@@ -215,504 +221,575 @@
            inkscape:label="design.label"><tspan
              x="183"
              y="237.80913"
-             id="tspan141">Design</tspan></text>
+             id="tspan10">Design</tspan></text>
       </g>
       <g
          id="g4781"
-         inkscape:label="colorlegend"
+         inkscape:label="3rdparty"
          style="display:inline">
         <rect
-           style="font-variation-settings:normal;display:inline;fill:#e7e6e6;fill-opacity:1;stroke:#e7e6e6;stroke-width:1.98725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+           style="font-variation-settings:normal;display:inline;fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:1.98725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
            id="rect47709-1-8-8-2-3"
            width="58"
            height="4.0127535"
            x="7.0047631"
            y="235.05206"
-           inkscape:label="legend.form" />
+           inkscape:label="3rdparty.form" />
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-8-8-2-3);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
            x="219.84161"
            y="-1.435748"
            id="text1436-447-9-3-5"
-           inkscape:label="colorlegend.label"><tspan
+           inkscape:label="3rdparty.label"><tspan
              x="7.0039062"
              y="237.86187"
-             id="tspan143"><tspan
-               dx="0 0 0 0 0 0.26458338 -0.2645832"
-               id="tspan142">Color Legend:</tspan></tspan></text>
+             id="tspan12"><tspan
+               dx="0 0 0 0.26458326 -0.2645832"
+               style="fill:#f9f9f9"
+               id="tspan11">3rd Party</tspan></tspan></text>
       </g>
     </g>
     <g
-       id="g5896"
+       id="g15324"
        inkscape:label="managedenvironment"
-       style="display:inline">
+       style="display:inline"
+       transform="matrix(0.99999998,0,0,0.98486333,4.6270833e-6,30.420894)">
+      <rect
+         style="display:inline;fill:#fcf0d3;fill-opacity:1;stroke:#fcf0d3;stroke-width:4.03062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect88-7"
+         width="308"
+         height="65.999001"
+         x="12.004761"
+         y="160.00101"
+         inkscape:label="managedenvironment.form" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect88-7);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-158.34993"
+         y="134.38689"
+         id="text24922"
+         inkscape:label="managedenvironment.label"
+         transform="translate(-0.00405397,-0.18939306)"><tspan
+           x="12.003906"
+           y="165.62021"
+           id="tspan14"><tspan
+             dx="0 0 0 0 0 0 0 0.26458254"
+             style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+             id="tspan13">Managed
+</tspan></tspan><tspan
+           x="12.003906"
+           y="173.55771"
+           id="tspan116"><tspan
+             style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+             id="tspan15">Environment</tspan></tspan></text>
       <rect
          style="display:inline;fill:none;fill-opacity:1;stroke:#f6d27c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
          id="rect55176-2"
-         width="248"
-         height="75.064819"
-         x="77.004761"
-         y="154.93518"
-         inkscape:label="managedenvironmentborder.form" />
+         width="318"
+         height="74.999992"
+         x="7.0047655"
+         y="155"
+         inkscape:label="managedenvironmentborder.form"
+         transform="matrix(1,0,0,1.0153693,-4.9460986e-6,-2.4580935)" />
       <g
-         id="g15324"
-         inkscape:label="managedenvironment"
+         id="g5896"
+         inkscape:label="content"
          style="display:inline"
-         transform="matrix(0.99999999,0,0,0.98486333,4.8571664e-6,2.4208863)">
-        <rect
-           style="display:inline;fill:#fcf0d3;fill-opacity:1;stroke:#fcf0d3;stroke-width:4.03062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect88-7"
-           width="238"
-           height="66.064819"
-           x="82.004761"
-           y="159.93518"
-           inkscape:label="managedenvironment.form" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect88-7);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-           x="-158.34993"
-           y="134.38689"
-           id="text24922"
-           inkscape:label="managedenvironment.label"><tspan
-             x="82.003906"
-             y="165.55381"
-             id="tspan145"><tspan
-               dx="0 0 0 0 0 0 0 0.26458254 -0.2645826"
-               style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-               id="tspan144">Managed Environment</tspan></tspan></text>
-      </g>
-      <g
-         id="g29902"
-         transform="translate(2.0266634,-5.9402554)"
-         style="display:inline"
-         inkscape:label="clouds">
+         transform="matrix(1,0,0,1.0153693,-5.0270834e-6,-2.4580932)">
         <g
-           id="g5967"
-           inkscape:label="connection"
-           style="display:inline">
-          <path
-             style="fill:none;stroke:#f3c350;stroke-width:1.13039;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="M 115,224.47985 H 230"
-             id="path85372"
-             inkscape:label="connection.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;display:inline;opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             x="252.37064"
-             y="246.82533"
-             id="text1436-447-86-67"
-             inkscape:label="ip.label"
-             transform="translate(-45.6126,-23.8067)"><tspan
-               sodipodi:role="line"
-               id="tspan1434-6-0-5"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           id="g29902"
+           transform="translate(-2.20667,-5.9402554)"
+           style="display:inline"
+           inkscape:label="clouds">
+          <g
+             id="g5967"
+             inkscape:label="connection"
+             style="display:inline">
+            <path
+               style="fill:none;stroke:#f3c350;stroke-width:1.13039;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 115,224.47985 H 230"
+               id="path85372"
+               inkscape:label="connection.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;display:inline;opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
                x="252.37064"
-               y="246.82533">IP</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;display:inline;opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             x="231.00024"
-             y="252.46408"
-             id="text1436-447-86-35"
-             inkscape:label="mpls.label"
-             transform="translate(-97.8803,-29.5214)"><tspan
-               sodipodi:role="line"
-               id="tspan1434-6-0-6"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               y="246.82533"
+               id="text1436-447-86-67"
+               inkscape:label="ip.label"
+               transform="translate(-45.6126,-23.8067)"><tspan
+                 sodipodi:role="line"
+                 id="tspan1434-6-0-5"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+                 x="252.37064"
+                 y="246.82533">IP</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;display:inline;opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
                x="231.00024"
-               y="252.46408">MPLS</tspan></text>
-        </g>
-        <g
-           id="g5960"
-           inkscape:label="publiccloud"
-           style="display:inline">
-          <path
-             class="cls-1"
-             d="m 247.70767,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.32797,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.84799 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 4.3081111,4.3081111 0 0 0 -3.07707,-4.14009 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
-             id="path5346-0"
-             style="display:inline;opacity:1;fill:#f9e1a7;fill-opacity:1;stroke:#f3c350;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
-             inkscape:label="publiccloud.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="243.30124"
-             y="222.61729"
-             id="text1436-447-86-36-2"
-             inkscape:label="publiccloud.label"><tspan
-               sodipodi:role="line"
-               id="tspan1434-6-0-7-9"
-               style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+               y="252.46408"
+               id="text1436-447-86-35"
+               inkscape:label="mpls.label"
+               transform="translate(-97.8803,-29.5214)"><tspan
+                 sodipodi:role="line"
+                 id="tspan1434-6-0-6"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+                 x="231.00024"
+                 y="252.46408">MPLS</tspan></text>
+          </g>
+          <g
+             id="g5960"
+             inkscape:label="publiccloud"
+             style="display:inline">
+            <path
+               class="cls-1"
+               d="m 247.70767,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.32797,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.84799 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 4.3081111,4.3081111 0 0 0 -3.07707,-4.14009 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
+               id="path5346-0"
+               style="display:inline;opacity:1;fill:#f9e1a7;fill-opacity:1;stroke:#f3c350;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:label="publiccloud.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="243.30124"
-               y="222.61729">Public</tspan><tspan
-               sodipodi:role="line"
-               style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
-               x="243.25494"
-               y="225.95105"
-               id="tspan28481-1">Cloud</tspan></text>
-        </g>
-        <g
-           id="g119108"
-           style="display:inline"
-           inkscape:label="privatedccloud">
-          <path
-             class="cls-1"
-             d="m 176.9781,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.32797,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.84799 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 A 4.3081111,4.3081111 0 0 0 183.3121,220 a 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
-             id="path5346-7"
-             style="display:inline;opacity:1;fill:#f9e1a7;fill-opacity:1;stroke:#f3c350;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
-             inkscape:label="privatedccloud.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="172.63251"
-             y="222.61729"
-             id="text1436-447-86-36-5"
-             inkscape:label="privatedccloud.label"><tspan
-               sodipodi:role="line"
-               id="tspan1434-6-0-7-3"
-               style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+               y="222.61729"
+               id="text1436-447-86-36-2"
+               inkscape:label="publiccloud.label"><tspan
+                 sodipodi:role="line"
+                 id="tspan1434-6-0-7-9"
+                 style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+                 x="243.30124"
+                 y="222.61729">Public</tspan><tspan
+                 sodipodi:role="line"
+                 style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+                 x="243.25494"
+                 y="225.95105"
+                 id="tspan28481-1">Cloud</tspan></text>
+          </g>
+          <g
+             id="g119108"
+             style="display:inline"
+             inkscape:label="privatedccloud">
+            <path
+               class="cls-1"
+               d="m 176.9781,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.32797,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.84799 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 A 4.3081111,4.3081111 0 0 0 183.3121,220 a 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
+               id="path5346-7"
+               style="display:inline;opacity:1;fill:#f9e1a7;fill-opacity:1;stroke:#f3c350;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:label="privatedccloud.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="172.63251"
-               y="222.61729">Private</tspan><tspan
-               sodipodi:role="line"
-               style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
-               x="172.58621"
-               y="225.95105"
-               id="tspan28481-5">DC Cloud</tspan></text>
-        </g>
-        <g
-           id="g119102"
-           style="display:inline"
-           inkscape:label="privateedgecloud">
-          <path
-             class="cls-1"
-             d="m 106.24851,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.327968,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.847988 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 4.3081111,4.3081111 0 0 0 -3.07707,-4.14009 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
-             id="path5346"
-             style="opacity:1;fill:#f9e1a7;fill-opacity:1;stroke:#f3c350;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
-             inkscape:label="privateedgecloud.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="101.90293"
-             y="222.57185"
-             id="text1436-447-86-36"
-             inkscape:label="privateedgecloud.label"><tspan
-               sodipodi:role="line"
-               id="tspan1434-6-0-7"
-               style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+               y="222.61729"
+               id="text1436-447-86-36-5"
+               inkscape:label="privatedccloud.label"><tspan
+                 sodipodi:role="line"
+                 id="tspan1434-6-0-7-3"
+                 style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+                 x="172.63251"
+                 y="222.61729">Private</tspan><tspan
+                 sodipodi:role="line"
+                 style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+                 x="172.58621"
+                 y="225.95105"
+                 id="tspan28481-5">DC Cloud</tspan></text>
+          </g>
+          <g
+             id="g119102"
+             style="display:inline"
+             inkscape:label="privateedgecloud">
+            <path
+               class="cls-1"
+               d="m 106.24851,213.42151 c -2.31346,0 -4.4449,1.18473 -5.56608,3.08461 a 5.9128827,5.9128827 0 0 0 -1.327968,-0.15617 c -2.35655,0 -4.46213,1.38829 -5.27098,3.46911 h -1.59293 a 4.3081111,4.3081111 0 0 0 -4.32103,4.32103 4.3081111,4.3081111 0 0 0 4.32103,4.32104 h 18.847988 a 4.3081111,4.3081111 0 0 0 4.32104,-4.32104 4.3081111,4.3081111 0 0 0 -3.07707,-4.14009 5.4928419,5.4928419 0 0 0 0.0312,-0.59452 c 3e-5,-3.3054 -2.84978,-5.98397 -6.3652,-5.98397 z"
+               id="path5346"
+               style="opacity:1;fill:#f9e1a7;fill-opacity:1;stroke:#f3c350;stroke-width:1;stroke-miterlimit:3.2;stroke-dasharray:none;stroke-opacity:1"
+               inkscape:label="privateedgecloud.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
                x="101.90293"
-               y="222.57185">Private</tspan><tspan
-               sodipodi:role="line"
-               style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
-               x="101.85663"
-               y="225.90561"
-               id="tspan28481">Edge Cloud</tspan></text>
+               y="222.57185"
+               id="text1436-447-86-36"
+               inkscape:label="privateedgecloud.label"><tspan
+                 sodipodi:role="line"
+                 id="tspan1434-6-0-7"
+                 style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+                 x="101.90293"
+                 y="222.57185">Private</tspan><tspan
+                 sodipodi:role="line"
+                 style="font-size:3.175px;text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.264583"
+                 x="101.85663"
+                 y="225.90561"
+                 id="tspan28481">Edge Cloud</tspan></text>
+          </g>
         </g>
-      </g>
-      <g
-         id="g4391"
-         inkscape:label="hypervisoroslayer"
-         style="display:inline">
         <g
-           id="g4419"
+           id="g4391"
            inkscape:label="hypervisoroslayer"
-           style="display:inline">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f3c350;fill-opacity:1;stroke:#f3c350;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect13557-1-3-5-7"
-             width="174"
-             height="6"
-             x="86.004761"
-             y="195"
-             inkscape:label="hypervisorosslayer.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-7);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="169.20685"
-             y="14.447855"
-             id="text1436-17"
-             inkscape:label="hypervisoroslayer.label"><tspan
-               x="86.003906"
-               y="197.80913"
-               id="tspan147"><tspan
-                 dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
-                 style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan146">Hypervisor / OS Layer</tspan></tspan></text>
+           style="display:inline"
+           transform="translate(-3.9999952)">
+          <g
+             id="g4419"
+             inkscape:label="hypervisoroslayer"
+             style="display:inline">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f3c350;fill-opacity:1;stroke:#f3c350;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect13557-1-3-5-7"
+               width="174"
+               height="6"
+               x="86.004761"
+               y="195"
+               inkscape:label="hypervisorosslayer.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-7);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="169.20685"
+               y="14.447855"
+               id="text1436-17"
+               inkscape:label="hypervisoroslayer.label"><tspan
+                 x="86.003906"
+                 y="197.80913"
+                 id="tspan118"><tspan
+                   dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
+                   style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+                   id="tspan117">Hypervisor / OS Layer</tspan></tspan></text>
+          </g>
+          <g
+             id="g4413"
+             inkscape:label="openstack">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-0-3-6-9-4-4"
+               width="28.000004"
+               height="4.0000005"
+               x="135.00476"
+               y="196"
+               inkscape:label="openstack.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-4);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="270.92728"
+               y="176.48772"
+               id="text1436-447-86-59"
+               inkscape:label="openstack.label"><tspan
+                 x="135.00391"
+                 y="198.49163"
+                 id="tspan119">OpenStack</tspan></text>
+          </g>
+          <g
+             id="g4408"
+             inkscape:label="commercialvim">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-0-3-6-9-4-1"
+               width="28.000002"
+               height="4.0000005"
+               x="167.00476"
+               y="196"
+               inkscape:label="commercialvim.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-1);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="271.98145"
+               y="177.67804"
+               id="text1436-447-86-3"
+               inkscape:label="commercialvim.label"><tspan
+                 x="167.00391"
+                 y="198.49163"
+                 id="tspan121"><tspan
+                   dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
+                   id="tspan120">Commercial VIM</tspan></tspan></text>
+          </g>
+          <g
+             id="g4396"
+             inkscape:label="kubernetes">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-0-3-6-9-4"
+               width="28.000002"
+               height="4.0000005"
+               x="199.00476"
+               y="196"
+               inkscape:label="kubernetes.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="273.70224"
+               y="176.48773"
+               id="text1436-447-86-31"
+               inkscape:label="kubernetes.label"><tspan
+                 x="199.00391"
+                 y="198.49163"
+                 id="tspan122">Kubernetes</tspan></text>
+          </g>
+          <g
+             id="g4402"
+             inkscape:label="publiccloud">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-0-3-6-9-4-8"
+               width="28.000002"
+               height="4.0000005"
+               x="231.00476"
+               y="196"
+               inkscape:label="publiccloud.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-8);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="265.15952"
+               y="179.39594"
+               id="text1436-447-86-6"
+               inkscape:label="publiccloud.label"><tspan
+                 x="231.00391"
+                 y="198.49163"
+                 id="tspan124"><tspan
+                   dx="0 0 0 0 0 0 0.2645829 -0.26458272"
+                   id="tspan123">Public Cloud</tspan></tspan></text>
+          </g>
         </g>
         <g
-           id="g4413"
-           inkscape:label="openstack">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect47709-0-3-6-9-4-4"
-             width="28.000004"
-             height="4.0000005"
-             x="135.00476"
-             y="196"
-             inkscape:label="openstack.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-4);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="270.92728"
-             y="176.48772"
-             id="text1436-447-86-59"
-             inkscape:label="openstack.label"><tspan
-               x="135.00391"
-               y="198.49163"
-               id="tspan148">OpenStack</tspan></text>
+           id="g2902"
+           inkscape:label="networkfunctionlayer"
+           style="display:inline"
+           transform="translate(-3.9999952)">
+          <g
+             id="g4425"
+             inkscape:label="networkfunktionlayer">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f3c350;fill-opacity:1;stroke:#f3c350;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect13557-1-3-5-1"
+               width="210"
+               height="6"
+               x="86.004761"
+               y="183"
+               inkscape:label="networkfunctionlayer.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-1);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="166.66481"
+               y="10.079004"
+               id="text1436-96"
+               inkscape:label="networkfunktionlayer.label"><tspan
+                 x="86.003906"
+                 y="185.80913"
+                 id="tspan126"><tspan
+                   dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
+                   style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+                   id="tspan125">Network Function Layer</tspan></tspan></text>
+          </g>
+          <g
+             id="g2995"
+             inkscape:label="pnf">
+            <rect
+               style="display:inline;fill:#f3c350;fill-opacity:1;stroke:#fcf0d3;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect13557-1-3-5-7-3"
+               width="20"
+               height="20.000002"
+               x="262.25476"
+               y="183.25"
+               inkscape:label="pnf.form" />
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-0-3-6-9-4-8-3"
+               width="13.999999"
+               height="14.000005"
+               x="265.25476"
+               y="186.25"
+               inkscape:label="pnf.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-8-3);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="270.71011"
+               y="176.48337"
+               id="text1436-447-86-8"
+               inkscape:label="pnf.label"
+               transform="translate(-0.26458332,0.26458332)"><tspan
+                 x="265.25391"
+                 y="188.74163"
+                 id="tspan127">PNF</tspan></text>
+          </g>
+          <g
+             id="g2907"
+             inkscape:label="vnf">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-0-3-6-9-7"
+               width="28.000002"
+               height="4.000001"
+               x="199.00476"
+               y="184"
+               inkscape:label="vnf.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="189.27498"
+               y="23.159328"
+               id="text1436-447-86-5"
+               inkscape:label="vnf.label"><tspan
+                 x="199.00391"
+                 y="186.49163"
+                 id="tspan128">VNF</tspan></text>
+          </g>
         </g>
         <g
-           id="g4408"
-           inkscape:label="commercialvim">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect47709-0-3-6-9-4-1"
-             width="28.000002"
-             height="4.0000005"
-             x="167.00476"
-             y="196"
-             inkscape:label="commercialvim.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-1);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="271.98145"
-             y="177.67804"
-             id="text1436-447-86-3"
-             inkscape:label="commercialvim.label"><tspan
-               x="167.00391"
-               y="198.49163"
-               id="tspan150"><tspan
-                 dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
-                 id="tspan149">Commercial VIM</tspan></tspan></text>
-        </g>
-        <g
-           id="g4396"
-           inkscape:label="kubernetes">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect47709-0-3-6-9-4"
-             width="28.000002"
-             height="4.0000005"
-             x="199.00476"
-             y="196"
-             inkscape:label="kubernetes.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="273.70224"
-             y="176.48773"
-             id="text1436-447-86-31"
-             inkscape:label="kubernetes.label"><tspan
-               x="199.00391"
-               y="198.49163"
-               id="tspan151">Kubernetes</tspan></text>
-        </g>
-        <g
-           id="g4402"
-           inkscape:label="publiccloud">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect47709-0-3-6-9-4-8"
-             width="28.000002"
-             height="4.0000005"
-             x="231.00476"
-             y="196"
-             inkscape:label="publiccloud.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-8);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="265.15952"
-             y="179.39594"
-             id="text1436-447-86-6"
-             inkscape:label="publiccloud.label"><tspan
-               x="231.00391"
-               y="198.49163"
-               id="tspan153"><tspan
-                 dx="0 0 0 0 0 0 0.2645829 -0.26458272"
-                 id="tspan152">Public Cloud</tspan></tspan></text>
-        </g>
-      </g>
-      <g
-         id="g2902"
-         inkscape:label="networkfunctionlayer"
-         style="display:inline">
-        <g
-           id="g4425"
-           inkscape:label="networkfunktionlayer">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f3c350;fill-opacity:1;stroke:#f3c350;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect13557-1-3-5-1"
-             width="210"
-             height="6"
-             x="86.004761"
-             y="183"
-             inkscape:label="networkfunctionlayer.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5-1);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="166.66481"
-             y="10.079004"
-             id="text1436-96"
-             inkscape:label="networkfunktionlayer.label"><tspan
-               x="86.003906"
-               y="185.80913"
-               id="tspan155"><tspan
-                 dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
-                 style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan154">Network Function Layer</tspan></tspan></text>
-        </g>
-        <g
-           id="g2995"
-           inkscape:label="pnf">
-          <rect
-             style="display:inline;fill:#f3c350;fill-opacity:1;stroke:#fcf0d3;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect13557-1-3-5-7-3"
-             width="20"
-             height="20.000002"
-             x="263.74023"
-             y="183.26459"
-             inkscape:label="pnf.form" />
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect47709-0-3-6-9-4-8-3"
-             width="13.999999"
-             height="14.000005"
-             x="266.74023"
-             y="186.26459"
-             inkscape:label="pnf.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-4-8-3);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="270.71011"
-             y="176.48337"
-             id="text1436-447-86-8"
-             inkscape:label="pnf.label"
-             transform="translate(-0.26458332,0.26458332)"><tspan
-               x="266.74023"
-               y="188.7553"
-               id="tspan156">PNF</tspan></text>
-        </g>
-        <g
-           id="g2907"
-           inkscape:label="vnf">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect47709-0-3-6-9-7"
-             width="28.000002"
-             height="4.000001"
-             x="199.00476"
-             y="184"
-             inkscape:label="vnf.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="189.27498"
-             y="23.159328"
-             id="text1436-447-86-5"
-             inkscape:label="vnf.label"><tspan
-               x="199.00391"
-               y="186.49163"
-               id="tspan157">VNF</tspan></text>
-        </g>
-      </g>
-      <g
-         id="g2891"
-         inkscape:label="externalsystems"
-         style="display:inline">
-        <g
-           id="g4431"
+           id="g2891"
            inkscape:label="externalsystems"
-           style="display:inline">
-          <rect
-             style="display:inline;fill:#f3c350;fill-opacity:1;stroke:#f3c350;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect13557-1-3-5"
-             width="174"
-             height="5.9999952"
-             x="86.004761"
-             y="171"
-             inkscape:label="externalsystems.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="168.25383"
-             y="9.1546545"
-             id="text1436-631"
-             inkscape:label="externalsystems.label"><tspan
-               x="86.003906"
-               y="173.80913"
-               id="tspan159"><tspan
-                 dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
-                 style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan158">External Systems</tspan></tspan></text>
-        </g>
-        <g
-           id="g4437"
-           inkscape:label="thirdpartycontrollers">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-             id="rect47709-0-3-6-9"
-             width="31"
-             height="4.000001"
-             x="135.00476"
-             y="172.00002"
-             inkscape:label="thirdpartycontrollers.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="187.97429"
-             y="18.505995"
-             id="text1436-447-86-17"
-             inkscape:label="thirdpartycontrollers.label"><tspan
-               x="135.00391"
-               y="174.49163"
-               id="tspan161"><tspan
-                 dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
-                 id="tspan160">3rd Party Controllers</tspan></tspan></text>
-        </g>
-        <g
-           id="g4442"
-           inkscape:label="svnfm">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect47709-0-3-6-9-7-6"
-             width="28.000002"
-             height="4.000001"
-             x="199.00476"
-             y="172"
-             inkscape:label="svnfm.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7-6);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="182.92662"
-             y="27.262211"
-             id="text1436-447-86-2"
-             inkscape:label="svnfm.label"><tspan
-               x="199.00391"
-               y="174.49163"
-               id="tspan162">sVNFM</tspan></text>
-        </g>
-        <g
-           id="g4447"
-           inkscape:label="ems">
-          <rect
-             style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             id="rect47709-0-3-6-9-7-9"
-             width="28.000004"
-             height="4.000001"
-             x="231.00476"
-             y="172"
-             inkscape:label="ems.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7-9);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="176.8647"
-             y="21.310633"
-             id="text1436-447-86-7"
-             inkscape:label="ems.label"><tspan
-               x="231.00391"
-               y="174.49163"
-               id="tspan163">EMS</tspan></text>
+           style="display:inline"
+           transform="translate(-3.9999952)">
+          <g
+             id="g4431"
+             inkscape:label="externalsystems"
+             style="display:inline">
+            <rect
+               style="display:inline;fill:#f3c350;fill-opacity:1;stroke:#f3c350;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect13557-1-3-5"
+               width="174"
+               height="5.9999952"
+               x="86.004761"
+               y="171"
+               inkscape:label="externalsystems.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1-3-5);display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="168.25383"
+               y="9.1546545"
+               id="text1436-631"
+               inkscape:label="externalsystems.label"><tspan
+                 x="86.003906"
+                 y="173.80913"
+                 id="tspan130"><tspan
+                   dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
+                   style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+                   id="tspan129">External Systems</tspan></tspan></text>
+          </g>
+          <g
+             id="g4437"
+             inkscape:label="thirdpartycontrollers">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+               id="rect47709-0-3-6-9"
+               width="31"
+               height="4.000001"
+               x="135.00476"
+               y="172.00002"
+               inkscape:label="thirdpartycontrollers.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="187.97429"
+               y="18.505995"
+               id="text1436-447-86-17"
+               inkscape:label="thirdpartycontrollers.label"><tspan
+                 x="135.00391"
+                 y="174.49163"
+                 id="tspan132"><tspan
+                   dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
+                   id="tspan131">3rd Party Controllers</tspan></tspan></text>
+          </g>
+          <g
+             id="g4442"
+             inkscape:label="svnfm">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-0-3-6-9-7-6"
+               width="28.000002"
+               height="4.000001"
+               x="199.00476"
+               y="172"
+               inkscape:label="svnfm.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7-6);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="182.92662"
+               y="27.262211"
+               id="text1436-447-86-2"
+               inkscape:label="svnfm.label"><tspan
+                 x="199.00391"
+                 y="174.49163"
+                 id="tspan133">sVNFM</tspan></text>
+          </g>
+          <g
+             id="g4447"
+             inkscape:label="ems">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#f9e1a7;fill-opacity:1;stroke:#f9e1a7;stroke-width:1.93845;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-0-3-6-9-7-9"
+               width="28.000004"
+               height="4.000001"
+               x="231.00476"
+               y="172"
+               inkscape:label="ems.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-9-7-9);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="176.8647"
+               y="21.310633"
+               id="text1436-447-86-7"
+               inkscape:label="ems.label"><tspan
+                 x="231.00391"
+                 y="174.49163"
+                 id="tspan134">EMS</tspan></text>
+          </g>
         </g>
       </g>
+    </g>
+    <g
+       id="g1"
+       inkscape:label="infrastructureservice"
+       style="display:inline">
+      <a
+         id="a6"
+         xlink:title="To be done"
+         inkscape:label="servicemesh.link"
+         onmouseover="style.opacity = 0.6;"
+         onmouseout="style.opacity = 1.0;"
+         style="display:inline">
+        <g
+           id="g7029-1"
+           inkscape:label="servicemesh"
+           style="display:inline"
+           transform="translate(-0.02480324,58.751175)">
+          <rect
+             style="font-variation-settings:normal;vector-effect:none;fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+             id="rect13557-2-5-3-2"
+             width="175.97501"
+             height="12"
+             x="81.029564"
+             y="104.24883"
+             inkscape:label="servicemesh.form" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-5-3-2);display:inline;fill:#fffffb;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="174.68517"
+             y="13.522552"
+             id="text1436-447-86-9-9"
+             inkscape:label="servicemesh.label"><tspan
+               x="81.029297"
+               y="106.73968"
+               id="tspan136"><tspan
+                 dx="0 0 0 0 0 0 0 0.26458254 -0.26458272"
+                 id="tspan135">Service Mesh</tspan></tspan></text>
+        </g>
+      </a>
+      <a
+         id="a7"
+         xlink:title="To be done"
+         xlink:href="infrastructure%20service%20link"
+         inkscape:label="infrastructureservice.link"
+         style="display:inline"
+         onmouseover="style.opacity = 0.6;"
+         onmouseout="style.opacity = 1.0;">
+        <rect
+           style="display:inline;fill:none;fill-opacity:1;stroke:#8c8c8c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+           id="rect55176-2-4"
+           width="318"
+           height="19.999998"
+           x="7.0047593"
+           y="120"
+           inkscape:label="infrastructureservice.form"
+           ry="0"
+           transform="translate(-4e-7,39.000008)" />
+      </a>
     </g>
     <a
        id="a5443"
@@ -720,163 +797,17 @@
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
        xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html"
-       xlink:title="The ONAP architecture consists of functions for the design-time, run-time, for managing ONAP itself and additional utilities.">
+       xlink:title="The ONAP architecture consists of functions for the design-time, run-time, for managing ONAP itself and additional utilities."
+       style="display:inline;stroke-width:1.0712"
+       transform="matrix(1,0,0,0.87148642,0,19.918583)">
       <path
          id="rect55176"
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#007da5;stroke-width:7.55906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#007da5;stroke-width:8.09725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
          inkscape:label="onapborder.form"
-         d="m 34.033758,124.72442 1e-6,752.12598 H 298.60069 V 593.38584 H 1235.9235 V 124.72442 Z"
+         d="m 34.033758,124.72442 2e-6,468.66144 h 264.56693 l 937.32281,-2e-5 V 124.72442 Z"
          transform="matrix(0.26458333,0,0,0.26458333,-2.0000002,-2.0000011)"
-         sodipodi:nodetypes="ccccccc" />
+         sodipodi:nodetypes="cccccc" />
     </a>
-    <g
-       id="g1245"
-       inkscape:label="utilities"
-       style="display:inline">
-      <a
-         id="a5474"
-         inkscape:label="utilities.link"
-         onmouseover="style.opacity = 0.6;"
-         onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html"
-         xlink:title="ONAP utilities provide support of the ONAP components."
-         style="display:inline">
-        <g
-           id="g1251"
-           inkscape:label="utilities"
-           style="display:inline">
-          <rect
-             style="display:inline;fill:#dae3f3;fill-opacity:1;stroke:#dae3f3;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect88-3"
-             width="60"
-             height="69.000008"
-             x="12.004765"
-             y="156"
-             inkscape:label="utilities.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect88-3);shape-padding:0;shape-margin:0;inline-size:0;display:inline;opacity:0.4;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-             x="-49.995232"
-             y="96"
-             id="text9983"
-             inkscape:label="utilities.label"><tspan
-               x="12.003906"
-               y="161.61826"
-               id="tspan165"><tspan
-                 style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);vector-effect:none;stop-color:#000000;stop-opacity:1"
-                 id="tspan164">Utilities</tspan></tspan></text>
-        </g>
-      </a>
-      <g
-         id="g1257"
-         inkscape:label="onapsharedutilities"
-         style="display:inline">
-        <a
-           id="a5446"
-           inkscape:label="onapsharedutilities.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html"
-           xlink:title="ONAP shared utilities provide support of the ONAP components."
-           style="display:inline">
-          <g
-             id="g3008"
-             inkscape:label="onapsharedutilities"
-             style="display:inline">
-            <rect
-               style="display:inline;fill:#959166;fill-opacity:1;stroke:#959166;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect34206-3"
-               width="52"
-               height="29.999998"
-               x="16.004765"
-               y="171"
-               inkscape:label="onapsharedutilities.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect34206-3);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="167.85852"
-               y="13.785113"
-               id="text1436-115"
-               inkscape:label="onapsharedutilities.label"><tspan
-                 x="16.003906"
-                 y="173.80913"
-                 id="tspan167"><tspan
-                   dx="0 0 0 0 0.26458302 -0.26458284 0 0 0 0 0 0.26458207 -0.26458189"
-                   style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan166">ONAP Shared Utilities</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a5460"
-           inkscape:label="modelutilities.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-modeling-etsicatalog/en/newdelhi/"
-           xlink:title="[UNMAINTAINED] The unified model-driven approach uses models as sources of data for generating processes/codes and following workflows (not code development as source). This way, the system can be more flexible and future proof, easy to update and use for cross-platform solutions since the “only” thing needed is a model update and manipulation through engine."
-           transform="translate(7.6311512e-7,7.9999989)">
-          <g
-             id="g1274"
-             inkscape:label="modelutilities"
-             style="display:inline">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-1"
-               width="50"
-               height="3.9999995"
-               x="17.004765"
-               y="188"
-               inkscape:label="modelutilities.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-1);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="168.51738"
-               y="11.404485"
-               id="text1436-30"
-               inkscape:label="modelutilities.label"><tspan
-                 x="17.003906"
-                 y="190.80913"
-                 id="tspan169"><tspan
-                   dx="0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan168">Model Utilities</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a5460-6"
-           inkscape:label="ccsdk.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/newdelhi/index.html"
-           xlink:title="The Common Controller Software Development Kit (CCSDK) provides a common set of reusable code that can be used across multiple controllers. For example, the SDN-C , APP-C, DCAE, ONAP Operations Manager and ONAP controller can reuse common pieces from this framework."
-           style="display:inline"
-           transform="translate(2.0000049)">
-          <g
-             id="g1274-1"
-             inkscape:label="ccsdk"
-             style="display:inline">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#b9b699;fill-opacity:1;stroke:#b9b699;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-1-5"
-               width="50"
-               height="3.9999995"
-               x="15.004762"
-               y="188"
-               inkscape:label="ccsdk.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-1-5);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="168.51738"
-               y="11.404485"
-               id="text1436-30-9"
-               inkscape:label="ccsdk.label"><tspan
-                 x="15.003906"
-                 y="190.80913"
-                 id="tspan171"><tspan
-                   dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0 0.26458433 -0.26458272 0 0 0.26458469 -0.26458272"
-                   id="tspan170">Common Controller SDK (CCSDK)</tspan></tspan></text>
-          </g>
-        </a>
-      </g>
-    </g>
     <g
        id="g2637"
        inkscape:label="manageonap"
@@ -909,10 +840,10 @@
              inkscape:label="manageonap.label"><tspan
                x="172"
                y="57.551855"
-               id="tspan173"><tspan
+               id="tspan138"><tspan
                  dx="0 0 0 0 0 0 0.26458302 -0.2645826"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan172">Manage ONAP</tspan></tspan></text>
+                 id="tspan137">Manage ONAP</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -943,9 +874,9 @@
              inkscape:label="oom.label"><tspan
                x="267.00391"
                y="55.742725"
-               id="tspan175"><tspan
+               id="tspan140"><tspan
                  dx="0 0 0 0 0.26458302 -0.26458272 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0.26458243 -0.26458272"
-                 id="tspan174">ONAP Operation Manager (OOM)</tspan></tspan></text>
+                 id="tspan139">ONAP Operation Manager (OOM)</tspan></tspan></text>
         </g>
       </a>
     </g>
@@ -978,12 +909,18 @@
              x="174.50102"
              y="13.649951"
              id="text1436-656"
-             inkscape:label="designtime.label"><tspan
+             inkscape:label="designtime.label"
+             transform="translate(-1.433475e-4)"><tspan
                x="12"
                y="57.551855"
-               id="tspan177"><tspan
+               id="tspan142"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan176">Design-Time</tspan></tspan></text>
+                 id="tspan141">Design-Time</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             transform="matrix(0.26458333,0,0,0.26458333,3.9999998,3.9999989)"
+             id="text3"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#000000;fill-opacity:1;stroke:none" />
         </g>
       </a>
       <g
@@ -1019,16 +956,16 @@
                inkscape:label="sdc.label"><tspan
                  x="16"
                  y="92.742725"
-                 id="tspan179"><tspan
+                 id="tspan144"><tspan
                    dx="0 0 0 0 0 0 0 0.26458231 -0.26458284 0 0 0 0 0 0.26458278 -0.2645838 0.26458398 -0.2645838 0 0 0 0 0 0 0 0.26458088"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan178">Service Design &amp; Creation
+                   id="tspan143">Service Design &amp; Creation
 </tspan></tspan><tspan
                  x="16"
                  y="96.711475"
-                 id="tspan181"><tspan
+                 id="tspan146"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan180">(SDC)</tspan></tspan></text>
+                   id="tspan145">(SDC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1060,7 +997,7 @@
                inkscape:label="catalog.label"><tspan
                  x="17.255859"
                  y="143.74272"
-                 id="tspan182">Catalog</tspan></text>
+                 id="tspan147">Catalog</tspan></text>
           </g>
         </a>
         <a
@@ -1091,9 +1028,9 @@
                inkscape:label="workflowdesigner.label"><tspan
                  x="17"
                  y="119.74272"
-                 id="tspan184"><tspan
+                 id="tspan149"><tspan
                    dx="0 0 0 0 0 0.092604198 -0.0926046 0 0.2645835 -0.26458272"
-                   id="tspan183">Workflow Designer</tspan></tspan></text>
+                   id="tspan148">Workflow Designer</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1124,9 +1061,9 @@
                inkscape:label="xnfonboarding.label"><tspan
                  x="17"
                  y="111.74272"
-                 id="tspan186"><tspan
+                 id="tspan151"><tspan
                    dx="0 0 0 0.26458278 -0.2645832"
-                   id="tspan185">xNF Onboarding</tspan></tspan></text>
+                   id="tspan150">xNF Onboarding</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1160,112 +1097,9 @@
                sodipodi:insensitive="true"><tspan
                  x="17"
                  y="103.74272"
-                 id="tspan188"><tspan
+                 id="tspan153"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan187">Service/xNF Design</tspan></tspan></text>
-          </g>
-        </a>
-      </g>
-      <g
-         id="g4450"
-         inkscape:label="vnfvalidation"
-         style="display:inline">
-        <a
-           id="a5552"
-           inkscape:label="vnfvalidation.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vnfrqts-requirements/en/newdelhi/index.html"
-           xlink:title="Ensures that a network function (e.g. CNF, PNF, VNF) fits all ONAP guidelines and requirements.">
-          <g
-             id="g4456"
-             inkscape:label="vnfvalidation">
-            <rect
-               style="display:inline;opacity:0.4;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect13557-1"
-               width="37"
-               height="10.000002"
-               x="16"
-               y="71.932762"
-               inkscape:label="vnfvalidation.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-1);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="21.546154"
-               y="-9.7195272"
-               id="text1436-1-5"
-               inkscape:label="vnfvalidation.label"><tspan
-                 x="16"
-                 y="74.742725"
-                 id="tspan190"><tspan
-                   dx="0 0 0 0.26458326 -0.26458332"
-                   style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan189">VNF Validation</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a5559"
-           inkscape:label="vnfsdk.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vnfsdk-model/en/newdelhi/index.html"
-           xlink:title="[UNMAINTAINED] The Virtual Network Function Software Development Kit (VNF SDK) provides the functionality to create VNF and PNF packages, test VNF and VNF ONAP compliance, and provides market place functionality to store VNF and PNF packages.">
-          <g
-             id="g4467"
-             inkscape:label="vnfsdk"
-             style="display:inline"
-             transform="matrix(1.0293981,0,0,1.0293981,-1.2935185,-2.320477)">
-            <rect
-               style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
-               id="rect47709-0-9-8-9"
-               width="16"
-               height="4.000001"
-               x="36"
-               y="76.932762"
-               inkscape:label="vnfsdk.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-9-8-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="37.171062"
-               y="-20.744442"
-               id="text1436-1"
-               inkscape:label="vnfsdk.label"><tspan
-                 x="36"
-                 y="79.742725"
-                 id="tspan192"><tspan
-                   dx="0 0 0 0.26458326 -0.2645832"
-                   id="tspan191">VNF SDK</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a5566"
-           inkscape:label="vvp.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-vvp-documentation/en/newdelhi/index.html"
-           xlink:title="[UNMAINTAINED] The VNF Validation Platform (VVP) provides the functionality to validate that a VNF Heat package is compliant with the ONAP VNF Heat Template Requirements from the ONAP VNF Requirements (VNFRQTS) project.">
-          <g
-             id="g4461"
-             inkscape:label="vvp"
-             style="display:inline">
-            <rect
-               style="fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect47709-0-9-8"
-               width="15"
-               height="4.000001"
-               x="17.000002"
-               y="76.932762"
-               inkscape:label="vvp.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-9-8);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="17.142345"
-               y="-20.347672"
-               id="text1436-1-6"
-               inkscape:label="vvp.label"><tspan
-                 x="17"
-                 y="79.742725"
-                 id="tspan193">VVP</tspan></text>
+                   id="tspan152">Service/xNF Design</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1300,9 +1134,9 @@
              inkscape:label="runtime.label"><tspan
                x="78"
                y="57.551855"
-               id="tspan195"><tspan
+               id="tspan155"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan194">Run-Time</tspan></tspan></text>
+                 id="tspan154">Run-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1338,110 +1172,10 @@
                inkscape:label="sharedservices.label"><tspan
                  x="268"
                  y="92.742725"
-                 id="tspan197"><tspan
+                 id="tspan157"><tspan
                    dx="0 0 0 0 0 0 0.26458302 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan196">Shared Services</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a1443"
-           inkscape:label="cps.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-cps/en/newdelhi/index.html"
-           xlink:title="The Configuration Persistence Service (CPS) provides storage for real-time run-time configuration and operational parameters that need to be used by ONAP."
-           transform="translate(4.0004481e-8,-8.0000081)">
-          <g
-             id="g1929"
-             inkscape:label="cps">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#66c1be;fill-opacity:1;stroke:#66c1be;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-7-9-0-6"
-               width="50"
-               height="3.9999995"
-               x="269"
-               y="140.93277"
-               inkscape:label="cps.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="207.3472"
-               y="-5.3533635"
-               id="text1436-447-8"
-               inkscape:label="cps.label"><tspan
-                 x="269"
-                 y="143.74272"
-                 id="tspan199"><tspan
-                   dx="0 0 0 0 0.092604198 -0.092604123 0 0.2645829 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458463 0 0 0 0 0 0 0.26458541 -0.26458272"
-                   id="tspan198">Config. Persistence Service (CPS)</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a1443-3"
-           inkscape:label="logging-framework.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href=""
-           xlink:title="[UNMAINTAINED]"
-           style="display:inline">
-          <g
-             id="g1929-6"
-             inkscape:label="logging-framework">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-7-9-0-6-7"
-               width="50"
-               height="3.9999995"
-               x="269"
-               y="140.93277"
-               inkscape:label="logging-framework.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-7-9-0-6-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="207.3472"
-               y="-5.3533635"
-               id="text1436-447-8-5"
-               inkscape:label="logging-framework.label"><tspan
-                 x="269"
-                 y="143.74272"
-                 id="tspan201"><tspan
-                   dx="0 0 0 0 0 0 0 0.26458254 -0.26458272"
-                   id="tspan200">Logging Framework</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a1470"
-           inkscape:label="oof.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html#oof-optimization-framework"
-           xlink:title="[UNMAINTAINED] The ONAP Optimization Framework (OOF) addresses the optimization needs of ONAP. OOF is a framework that supports creating and running a suite of optimizing applications including Homing/Placement, PCI optimizer, Route optimizer, Slice selection, Change Management Scheduling Optimizer."
-           transform="translate(-4.6000472e-7,26)">
-          <g
-             id="g1912"
-             inkscape:label="oof"
-             transform="translate(0,-10)">
-            <rect
-               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-               id="rect47709-1-2"
-               width="50"
-               height="3.9999995"
-               x="269"
-               y="108.93276"
-               inkscape:label="oof.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-2);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="219.175"
-               y="-8.9471817"
-               id="text1436-447-7"
-               inkscape:label="oof.label"><tspan
-                 x="269"
-                 y="111.74272"
-                 id="tspan203"><tspan
-                   dx="0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
-                   id="tspan202">Optimization Framework (OOF)</tspan></tspan></text>
+                   id="tspan156">Shared Services</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1449,8 +1183,8 @@
            inkscape:label="security-framework.link"
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
-           xlink:href=""
-           xlink:title=""
+           xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html#shared-services"
+           xlink:title="To be done"
            transform="translate(-2.1000011e-7,18)"
            style="display:inline">
           <g
@@ -1474,58 +1208,89 @@
                inkscape:label="security-framework.label"><tspan
                  x="269"
                  y="111.74272"
-                 id="tspan205"><tspan
+                 id="tspan159"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458272"
-                   id="tspan204">Security Framework</tspan></tspan></text>
+                   id="tspan158">Security Framework</tspan></tspan></text>
+          </g>
+        </a>
+        <a
+           id="a1470-3-0"
+           inkscape:label="logging-framework.link"
+           onmouseover="style.opacity = 0.6;"
+           onmouseout="style.opacity = 1.0;"
+           xlink:href="https://docs.onap.org/en/newdelhi/platform/architecture/index.html#shared-services"
+           xlink:title="To be done"
+           transform="translate(1.9467032e-6,25.000008)"
+           style="display:inline">
+          <g
+             id="g1912-5-8"
+             inkscape:label="logging-framework"
+             transform="translate(0,-10)">
+            <rect
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#66c1be;fill-opacity:1;stroke:#66c1be;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="rect47709-1-2-6-1"
+               width="50"
+               height="3.9999995"
+               x="269"
+               y="108.93276"
+               inkscape:label="logging-framework.form" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-1-2-6-1);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+               x="219.175"
+               y="-8.9471817"
+               id="text1436-447-7-2-3"
+               inkscape:label="loggingframework.label"><tspan
+                 x="269"
+                 y="111.74272"
+                 id="tspan161"><tspan
+                   dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
+                   id="tspan160">Logging Framework (PoC)</tspan></tspan></text>
           </g>
         </a>
       </g>
       <a
          id="a4403"
-         inkscape:label="vfc.link"
+         inkscape:label="ccsdk.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-vfc-nfvo-lcm/en/newdelhi/index.html"
-         xlink:title="[UNMAINTAINED] The Virtual Function Controller (VFC) leverages the ETSI NFV MANO Architecture and information model as a reference and implements the full life cycle management and FCAPS of VNF and NS."
+         xlink:href="https://docs.onap.org/projects/onap-ccsdk-distribution/en/newdelhi/index.html"
+         xlink:title="The Common Controller Software Development Kit (CCSDK) provides a common set of reusable code that can be used across multiple controllers. For example, the SDN-C , APP-C, DCAE, ONAP Operations Manager and ONAP controller can reuse common pieces from this framework."
          transform="translate(-1.9952368,0.06725276)">
         <g
            id="g8563"
-           inkscape:label="vfc"
+           inkscape:label="ccsdk"
            style="display:inline">
           <rect
-             style="font-variation-settings:normal;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+             style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect13557-62"
              width="32"
              height="26"
              x="227"
              y="120.93275"
-             inkscape:label="vfc.form" />
+             inkscape:label="ccsdk.form" />
           <text
              xml:space="preserve"
              style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-62);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="179.96658"
              y="6.8816009"
              id="text1436-447"
-             inkscape:label="vfc.label"><tspan
+             inkscape:label="ccsdk.label"><tspan
                x="227"
                y="123.42522"
-               id="tspan209"><tspan
-                 dx="0 0 0 0 0 0 0 0.26458314"
-                 id="tspan206">Virtual </tspan><tspan
-                 dx="-0.26458272"
-                 id="tspan207">Functio</tspan><tspan
-                 dx="0 0.26458278"
-                 id="tspan208">n
+               id="tspan163"><tspan
+                 dx="0 0 0 0 0 0 0.26458278"
+                 id="tspan162">Common
 </tspan></tspan><tspan
                x="227"
                y="126.75897"
-               id="tspan211"><tspan
-                 dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan210">Controller
+               id="tspan165"><tspan
+                 dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0.26458278"
+                 id="tspan164">Controller SDK
 </tspan></tspan><tspan
                x="227"
                y="130.09272"
-               id="tspan212">(VFC)</tspan></text>
+               id="tspan166">(CCSDK)</tspan></text>
         </g>
       </a>
       <a
@@ -1545,7 +1310,7 @@
           <rect
              style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:1.9629;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect13557-6"
-             width="31.40645"
+             width="30.823473"
              height="25.517748"
              x="183.24112"
              y="121.17387"
@@ -1559,19 +1324,19 @@
              inkscape:label="sdnc.label"><tspan
                x="183.24023"
                y="123.66546"
-               id="tspan214"><tspan
+               id="tspan168"><tspan
                  dx="0 0 0 0.26458326"
-                 id="tspan213">SDN
+                 id="tspan167">SDN
 </tspan></tspan><tspan
                x="183.24023"
                y="126.99921"
-               id="tspan216"><tspan
+               id="tspan170"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan215">Controller
+                 id="tspan169">Controller
 </tspan></tspan><tspan
                x="183.24023"
                y="130.33295"
-               id="tspan217">(SDNC)</tspan></text>
+               id="tspan171">(SDNC)</tspan></text>
         </g>
       </a>
       <a
@@ -1602,19 +1367,19 @@
              inkscape:label="cds.label"><tspan
                x="158"
                y="123.42522"
-               id="tspan219"><tspan
+               id="tspan173"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan218">Controller
+                 id="tspan172">Controller
 </tspan></tspan><tspan
                x="158"
                y="126.75897"
-               id="tspan221"><tspan
+               id="tspan175"><tspan
                  dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458278"
-                 id="tspan220">Design Studio
+                 id="tspan174">Design Studio
 </tspan></tspan><tspan
                x="158"
                y="130.09272"
-               id="tspan222">(CDS)</tspan></text>
+               id="tspan176">(CDS)</tspan></text>
         </g>
       </a>
       <a
@@ -1645,23 +1410,23 @@
              inkscape:label="infrastructureadaption.label"><tspan
                x="120"
                y="123.42522"
-               id="tspan224"><tspan
+               id="tspan178"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2645835"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan223">Infrastructure 
+                 id="tspan177">Infrastructure 
 </tspan></tspan><tspan
                x="120"
                y="126.75897"
-               id="tspan226"><tspan
+               id="tspan180"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458278"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan225">Adaption
+                 id="tspan179">Adaption
 </tspan></tspan><tspan
                x="120"
                y="130.09272"
-               id="tspan228"><tspan
+               id="tspan182"><tspan
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan227">(Multi-VIM/Cloud)</tspan></tspan></text>
+                 id="tspan181">(Multi-VIM/Cloud)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1695,20 +1460,20 @@
                inkscape:label="dcae.label"><tspan
                  x="81"
                  y="123.42522"
-                 id="tspan230"><tspan
+                 id="tspan184"><tspan
                    dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0 0 0 0.26458386"
-                   id="tspan229">Data Collection, 
+                   id="tspan183">Data Collection, 
 </tspan></tspan><tspan
                  x="81"
                  y="126.75897"
-                 id="tspan233"><tspan
+                 id="tspan187"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0.26458421"
-                   id="tspan231">Analytics &amp; </tspan><tspan
+                   id="tspan185">Analytics &amp; </tspan><tspan
                    dx="-0.26458463 0 0 0 0 0 0.26458433"
-                   id="tspan232">Events </tspan></tspan><tspan
+                   id="tspan186">Events </tspan></tspan><tspan
                  x="81"
                  y="130.09272"
-                 id="tspan234">(DCAE)</tspan></text>
+                 id="tspan188">(DCAE)</tspan></text>
           </g>
         </a>
         <a
@@ -1739,7 +1504,7 @@
                inkscape:label="analytics.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan235">Analytics</tspan></text>
+                 id="tspan189">Analytics</tspan></text>
           </g>
         </a>
         <a
@@ -1770,118 +1535,119 @@
                inkscape:label="collectors.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan236">Collectors</tspan></text>
+                 id="tspan190">Collectors</tspan></text>
           </g>
         </a>
       </g>
       <a
          id="a4501"
-         inkscape:label="dmaap.link"
+         inkscape:label="strimzikafka.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html#dmaap-data-movement-as-a-platform"
-         xlink:title="Data Movement as a Platform (DMaaP) is a component that provides data movement services that transports and processes data from any source to any target.">
+         xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html"
+         xlink:title="To be done: Strimzi / Kafka">
         <g
            id="g7029"
-           inkscape:label="dmaap"
+           inkscape:label="strimzikafka"
            style="display:inline">
           <rect
-             style="font-variation-settings:normal;vector-effect:none;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+             style="font-variation-settings:normal;vector-effect:none;fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
              id="rect13557-2-5-3"
-             width="85.995239"
-             height="11.999999"
-             x="171.00476"
+             width="175.97501"
+             height="12"
+             x="81.024803"
              y="105"
-             inkscape:label="dmaap.form" />
+             inkscape:label="strimzikafka.form" />
           <text
              xml:space="preserve"
              style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-5-3);display:inline;fill:#fffffb;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="174.68517"
              y="13.522552"
              id="text1436-447-86-9"
-             inkscape:label="dmaap.label"><tspan
-               x="171.00391"
+             inkscape:label="strimzikafka.label"><tspan
+               x="81.025391"
                y="107.49163"
-               id="tspan238"><tspan
-                 dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0.26458243 -0.26458272 0.26458159 -0.26458272 0 0 0 0 0 0 0 0.26458541"
-                 id="tspan237">Data Movement as a Platform
-</tspan></tspan><tspan
-               x="171.00391"
-               y="110.82538"
-               id="tspan239">(DMaaP)</tspan></text>
+               id="tspan192"><tspan
+                 dx="0 0 0 0 0 0 0 0.26458314 -0.26458272 0.26458254 -0.26458272"
+                 id="tspan191">Strimzi / Kafka</tspan></tspan></text>
         </g>
       </a>
       <a
-         id="a4508"
-         inkscape:label="msb.link"
+         id="a4501-8"
+         inkscape:label="servicemesh.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/projects/onap-msb-apigateway/en/newdelhi/index.html"
-         xlink:title="[UNMAINTAINED] The Microservice Bus (MSB) provides service registration, discovery and communication services for microservices as well as a gateway for internal and external communication for the services.">
-        <g
-           id="g7023"
-           inkscape:label="msb">
-          <rect
-             style="fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect13557-2-5"
-             width="86.004997"
-             height="11.999999"
-             x="81"
-             y="105"
-             inkscape:label="msb.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-5);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="176.3374"
-             y="10.155828"
-             id="text1436-447-86-1"
-             inkscape:label="msb.label"><tspan
-               x="81"
-               y="107.49163"
-               id="tspan241"><tspan
-                 dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0.26458243"
-                 id="tspan240">Microservice Bus
-</tspan></tspan><tspan
-               x="81"
-               y="110.82538"
-               id="tspan242">(MSB)</tspan></text>
-        </g>
-      </a>
+         xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html"
+         xlink:title="To be done: Service Mesh"
+         style="display:inline"
+         transform="translate(-0.02480316,58.751176)" />
+      <g
+         id="g7008"
+         inkscape:label="aai"
+         transform="translate(-45.000003)"
+         style="display:inline">
+        <rect
+           style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+           id="rect13557-2-7"
+           width="41"
+           height="11.999999"
+           x="216.00476"
+           y="89"
+           inkscape:label="aai.form" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="170.64124"
+           y="9.4206228"
+           id="text1436-15"
+           inkscape:label="aai.label"><tspan
+             x="216.00391"
+             y="91.491631"
+             id="tspan194"><tspan
+               dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835"
+               id="tspan193">Active &amp; Available </tspan></tspan><tspan
+             x="216.00391"
+             y="94.825379"
+             id="tspan196"><tspan
+               dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458272"
+               id="tspan195">Inventory (AAI)</tspan></tspan></text>
+      </g>
       <a
          id="a4515"
-         inkscape:label="aai.link"
+         inkscape:label="cps.link"
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html#aai-active-and-available-inventory"
-         xlink:title="The Active and Available Inventory (AAI) provides real-time views of the resources and services in managed by and their relationships.">
+         xlink:href="https://docs.onap.org/projects/onap-cps/en/newdelhi/index.html"
+         xlink:title="The Configuration Persistence Service (CPS) provides storage for real-time run-time configuration and operational parameters that need to be used by ONAP.">
         <g
-           id="g7008"
-           inkscape:label="aai">
+           id="g7008-4"
+           inkscape:label="cps"
+           style="display:inline">
           <rect
              style="font-variation-settings:normal;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-             id="rect13557-2-7"
+             id="rect13557-2-7-7"
              width="41"
              height="11.999999"
              x="216.00476"
              y="89"
-             inkscape:label="aai.form" />
+             inkscape:label="cps.form" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect13557-2-7-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="170.64124"
              y="9.4206228"
-             id="text1436-15"
-             inkscape:label="aai.label"><tspan
+             id="text1436-15-2"
+             inkscape:label="cps.label"><tspan
                x="216.00391"
                y="91.491631"
-               id="tspan244"><tspan
-                 dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835"
-                 id="tspan243">Active &amp; Available </tspan></tspan><tspan
+               id="tspan198"><tspan
+                 dx="0 0 0 0 0.092604198 -0.092604123 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.26458541"
+                 id="tspan197">Configuration Persistence </tspan></tspan><tspan
                x="216.00391"
                y="94.825379"
-               id="tspan246"><tspan
-                 dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458272"
-                 id="tspan245">Inventory (AAI)</tspan></tspan></text>
+               id="tspan200"><tspan
+                 dx="0 0 0 0 0 0 0 0.26458254 -0.26458272"
+                 id="tspan199">Service (CPS)</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -1894,7 +1660,8 @@
         <g
            id="g6985"
            inkscape:label="so"
-           style="display:inline">
+           style="display:inline"
+           transform="translate(-45)">
           <rect
              style="font-variation-settings:normal;display:inline;fill:#009893;fill-opacity:1;stroke:#009893;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
              id="rect13557-2-6"
@@ -1912,50 +1679,13 @@
              inkscape:label="so.label"><tspan
                x="171.00391"
                y="91.809131"
-               id="tspan248"><tspan
+               id="tspan202"><tspan
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278"
-                 id="tspan247">Service Orchestration
+                 id="tspan201">Service Orchestration
 </tspan></tspan><tspan
                x="171.00391"
                y="95.777881"
-               id="tspan249">(SO)</tspan></text>
-        </g>
-      </a>
-      <a
-         id="a4102"
-         inkscape:label="holmes.link"
-         onmouseover="style.opacity = 0.6;"
-         onmouseout="style.opacity = 1.0;"
-         xlink:href="https://docs.onap.org/en/newdelhi/platform/components/index.html#holmes-alarm-correlation-and-analysis"
-         xlink:title="[UNMAINTAINED] Holmes provides the capability to analyze the relationship among different alarms (e.g. root cause, correlation)."
-         transform="translate(-44.999997)">
-        <g
-           id="g4100"
-           inkscape:label="holmes"
-           style="display:inline">
-          <rect
-             style="font-variation-settings:normal;display:inline;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-             id="rect4092"
-             width="41"
-             height="11.999998"
-             x="171.00476"
-             y="89"
-             inkscape:label="holmes.form" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect4092);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-             x="174.04448"
-             y="18.677187"
-             id="text4098"
-             inkscape:label="holmes.label"><tspan
-               x="171.00391"
-               y="91.809131"
-               id="tspan251"><tspan
-                 dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.2645835"
-                 id="tspan250">Correlation Engine </tspan></tspan><tspan
-               x="171.00391"
-               y="95.777881"
-               id="tspan252">(Holmes)</tspan></text>
+               id="tspan203">(SO)</tspan></text>
         </g>
       </a>
       <g
@@ -1989,11 +1719,11 @@
                inkscape:label="policyframework.label"><tspan
                  x="81"
                  y="91.742725"
-                 id="tspan255"><tspan
+                 id="tspan206"><tspan
                    dx="0 0 0 0 0 0 0.2645829"
-                   id="tspan253">Policy </tspan><tspan
+                   id="tspan204">Policy </tspan><tspan
                    dx="-0.26458272"
-                   id="tspan254">Framework</tspan></tspan></text>
+                   id="tspan205">Framework</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2023,7 +1753,7 @@
                inkscape:label="clamp.label"><tspan
                  x="83.003906"
                  y="97.491631"
-                 id="tspan256">CLAMP</tspan></text>
+                 id="tspan207">CLAMP</tspan></text>
           </g>
         </a>
       </g>
@@ -2059,72 +1789,9 @@
                inkscape:label="interfaces.label"><tspan
                  x="59"
                  y="74.742725"
-                 id="tspan258"><tspan
+                 id="tspan209"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-                   id="tspan257">Interfaces</tspan></tspan></text>
-          </g>
-        </a>
-        <a
-           id="a4565"
-           inkscape:label="cli.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href="https://docs.onap.org/projects/onap-cli/en/newdelhi/index.html"
-           xlink:title="[UNMAINTAINED] The Command Line Interface (CLI) provides commands to operate ONAP during design and run-time for network service functionalities. It also provides the 'Open Command Platform' which helps to orchestrate the commands from YAML and helps in agile automation.">
-          <g
-             id="g5407"
-             inkscape:label="cli">
-            <rect
-               style="font-variation-settings:normal;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
-               id="rect47709-0-3-6-0-61"
-               width="44.994999"
-               height="4.000001"
-               x="210.00476"
-               y="76.932762"
-               inkscape:label="cli.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0-61);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="164.039"
-               y="4.4774046"
-               id="text1436-9"
-               inkscape:label="cli.label"><tspan
-                 x="210.00391"
-                 y="79.742725"
-                 id="tspan259">CLI</tspan></text>
-          </g>
-        </a>
-        <a
-           id="a4571"
-           inkscape:label="externalapis.link"
-           onmouseover="style.opacity = 0.6;"
-           onmouseout="style.opacity = 1.0;"
-           xlink:href=""
-           xlink:title="[UNMAINTAINED] External API exposes ONAPs capabilities through TMF standardized interfaces. It enables ONAP to hide the internal API."
-           transform="translate(-9.9999969)">
-          <g
-             id="g5402"
-             inkscape:label="externalapis">
-            <rect
-               style="font-variation-settings:normal;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
-               id="rect47709-0-3-6-0-2"
-               width="46"
-               height="4.000001"
-               x="170.00476"
-               y="76.932762"
-               inkscape:label="externalapis.form" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;shape-inside:url(#rect47709-0-3-6-0-2);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-               x="165.2327"
-               y="3.1701791"
-               id="text1436-11"
-               inkscape:label="externalapis.label"><tspan
-                 x="170.00391"
-                 y="79.742725"
-                 id="tspan261"><tspan
-                   dx="0 0 0 0 0 0 0 0 0.26458314 -0.26458368"
-                   id="tspan260">External APIs</tspan></tspan></text>
+                   id="tspan208">Interfaces</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2155,9 +1822,9 @@
                inkscape:label="usecaseui.label"><tspan
                  x="130.00391"
                  y="79.742725"
-                 id="tspan263"><tspan
+                 id="tspan211"><tspan
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0.26458314 -0.26458272"
-                   id="tspan262">Use-Case UI (UUI)</tspan></tspan></text>
+                   id="tspan210">Use-Case UI (UUI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -2187,46 +1854,11 @@
                inkscape:label="portal-ng.label"><tspan
                  x="60"
                  y="79.742725"
-                 id="tspan264">Portal-NG</tspan></text>
+                 id="tspan212">Portal-NG</tspan></text>
           </g>
         </a>
       </g>
     </g>
-    <a
-       id="a4352"
-       inkscape:label="nbi.link"
-       onmouseover="style.opacity = 0.6;"
-       onmouseout="style.opacity = 1.0;"
-       xlink:href=""
-       xlink:title="[UNMAINTAINED] The Northbound Interface (NBI) provides a set of API that can be used by external systems as OSS or BSS for example. These APIs are based on TMF API.">
-      <g
-         id="g2903"
-         transform="translate(0.9999988,-6.9351787)"
-         style="display:inline;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         inkscape:label="nbi">
-        <rect
-           style="display:inline;fill:#aaaaaa;fill-opacity:1;stroke:#aaaaaa;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect88-7-1"
-           width="310.00476"
-           height="11.999999"
-           x="10.000001"
-           y="41.935177"
-           inkscape:label="nbi.form" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:-0.0926042px;word-spacing:-0.264583px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect88-7-1);shape-padding:0;shape-margin:0;inline-size:0;display:inline;opacity:0.4;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
-           x="-54.620338"
-           y="90.044426"
-           id="text1436-447-86-87"
-           inkscape:label="nbi.label"><tspan
-             x="10"
-             y="47.553809"
-             id="tspan266"><tspan
-               dx="0 0 0 0 0 0 0 0 0 0 0.26458254 -0.2645826 0 0 0 0 0 0 0 0 0.26458493 -0.2645826 0 0 0 0 0.26457849 -0.2645826 0 0 0 0 0 0 0.26458469 -0.2645826 0 0 0 0.26458779 -0.2645826 0 0 0.26459685 -0.2645826 0 0 0.26457873 -0.2645826"
-               style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline;shape-inside:url(#rect88);stop-color:#000000;stop-opacity:1"
-               id="tspan265">Northbound Interface (NBI) towards OSS, BSS and other</tspan></tspan></text>
-      </g>
-    </a>
     <path
        id="rect69393"
        style="display:inline;fill:#253c7e;stroke-width:0.198665"
@@ -2239,9 +1871,9 @@
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
        xlink:href="https://docs.onap.org/en/newdelhi/release/history.html"
-       xlink:title="ONAP Release 14 »New Delhi«"
+       xlink:title="ONAP Release 15 »OSLO«"
        style="display:inline"
-       transform="translate(-3.3759646,4.8850003e-4)">
+       transform="translate(-3.366566,16.01517)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.05;font-family:sans-serif;letter-spacing:-0.0926042px;word-spacing:-0.264583px;display:inline;opacity:0.8;fill:#313032;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -2251,9 +1883,9 @@
          inkscape:label="releaseinfo.label"><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:end;text-anchor:end;fill:#313032;fill-opacity:1;stroke-width:0.264583"
-           x="329.87402"
+           x="329.87405"
            y="27.894917"
-           id="tspan5723">RELEASE 14 »NEW DELHI«</tspan></text>
+           id="tspan5723">RELEASE 15 »OSLO«</tspan></text>
     </a>
     <a
        id="a4602"
@@ -2261,7 +1893,8 @@
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
        xlink:href="https://docs.onap.org/en/newdelhi/platform/overview/index.html"
-       xlink:title="ONAP provides comprehensive functionality for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. The open source project ONAP is hosted by the Linux Foundation.">
+       xlink:title="ONAP provides comprehensive functionality for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. The open source project ONAP is hosted by the Linux Foundation."
+       transform="translate(1.1858038e-6,15.995394)">
       <g
          id="g1241"
          transform="matrix(0.10712373,0,0,0.10712373,5.2329939,4.7423663)"
@@ -2269,7 +1902,8 @@
          inkscape:label="onaplogo">
         <g
            id="g1365"
-           inkscape:label="logotext">
+           inkscape:label="logotext"
+           transform="translate(-56.021839,46.718028)">
           <path
              class="st127"
              d="m 884.4,124.83 v 46.62 H 851.73 V 13.39 h 93.09 c 17.32,0 29.65,4.26 37,12.76 7.35,8.51 11.02,22.71 11.02,42.61 0,20.06 -3.67,34.41 -11.02,43.07 -7.35,8.66 -19.55,12.99 -36.61,12.99 H 884.4 Z m 0,-31.38 h 54.52 c 8,0 13.55,-1.87 16.63,-5.6 3.08,-3.73 4.63,-10.09 4.63,-19.08 0,-8.38 -1.38,-14.32 -4.13,-17.82 -3.15,-4.11 -8.86,-6.17 -17.12,-6.17 H 884.4 Z"
@@ -2297,194 +1931,98 @@
         </g>
         <g
            id="g1359"
-           inkscape:label="logografics">
+           inkscape:label="logografics"
+           transform="matrix(0.77740908,0,0,0.77740908,1.6382264,49.331245)"
+           style="stroke-width:1.28633">
           <polygon
              class="st127"
              points="7.16,217.11 114.85,217.11 7.16,149.91 "
              id="polygon1151"
-             style="display:inline" />
+             style="display:inline;stroke-width:1.28633" />
           <polygon
              class="st128"
              points="136.86,217.11 244.95,217.11 244.95,149.68 "
-             id="polygon1153" />
+             id="polygon1153"
+             style="stroke-width:1.28633" />
           <polygon
              class="st128"
              points="112.49,11.74 7.16,11.74 7.16,77.45 "
-             id="polygon1155" />
+             id="polygon1155"
+             style="stroke-width:1.28633" />
           <polygon
              class="st128"
              points="244.95,76.13 244.95,11.74 141.76,11.74 "
-             id="polygon1157" />
+             id="polygon1157"
+             style="stroke-width:1.28633" />
           <polygon
              class="st86"
-             points="127.88,142.91 177.28,112.08 129,81.95 79.61,112.78 "
-             id="polygon1159" />
+             points="177.28,112.08 129,81.95 79.61,112.78 127.88,142.91 "
+             id="polygon1159"
+             style="stroke-width:1.28633" />
           <polygon
              class="st129"
-             points="82.34,52.84 32.97,83.67 79.61,112.78 129,81.95 "
-             id="polygon1161" />
+             points="32.97,83.67 79.61,112.78 129,81.95 82.34,52.84 "
+             id="polygon1161"
+             style="stroke-width:1.28633" />
           <polygon
              class="st129"
-             points="223.92,82.97 175.64,52.84 129,81.95 177.28,112.08 "
-             id="polygon1163" />
+             points="175.64,52.84 129,81.95 177.28,112.08 223.92,82.97 "
+             id="polygon1163"
+             style="stroke-width:1.28633" />
           <polygon
              class="st130"
-             points="129,23.73 82.34,52.84 129,81.95 175.64,52.84 "
-             id="polygon1165" />
+             points="82.34,52.84 129,81.95 175.64,52.84 129,23.73 "
+             id="polygon1165"
+             style="stroke-width:1.28633" />
           <polygon
              class="st131"
-             points="32.97,141.9 81.24,172.02 127.88,142.91 79.61,112.78 "
-             id="polygon1167" />
+             points="81.24,172.02 127.88,142.91 79.61,112.78 32.97,141.9 "
+             id="polygon1167"
+             style="stroke-width:1.28633" />
           <polygon
              class="st126"
-             points="32.97,141.9 79.61,112.78 32.97,83.67 29.62,85.74 29.62,139.81 "
-             id="polygon1169" />
+             points="29.62,85.74 29.62,139.81 32.97,141.9 79.61,112.78 32.97,83.67 "
+             id="polygon1169"
+             style="stroke-width:1.28633" />
           <polygon
              class="st131"
-             points="223.92,141.2 177.28,112.08 127.88,142.91 174.21,171.83 173.7,172.56 "
-             id="polygon1171" />
+             points="174.21,171.83 173.7,172.56 223.92,141.2 177.28,112.08 127.88,142.91 "
+             id="polygon1171"
+             style="stroke-width:1.28633" />
           <polygon
              class="st126"
-             points="223.92,141.2 226.85,139.38 226.85,84.8 223.92,82.97 177.28,112.08 "
-             id="polygon1173" />
+             points="223.92,82.97 177.28,112.08 223.92,141.2 226.85,139.38 226.85,84.8 "
+             id="polygon1173"
+             style="stroke-width:1.28633" />
           <polygon
              class="st132"
-             points="173.7,172.56 174.21,171.83 127.88,142.91 81.24,172.02 127.88,201.14 "
-             id="polygon1175" />
+             points="81.24,172.02 127.88,201.14 173.7,172.56 174.21,171.83 127.88,142.91 "
+             id="polygon1175"
+             style="stroke-width:1.28633" />
           <polygon
              class="st126"
-             points="129,81.95 177.28,112.08 127.88,142.91 79.61,112.78 "
+             points="177.28,112.08 127.88,142.91 79.61,112.78 129,81.95 "
              id="polygon1177"
-             style="display:inline" />
-        </g>
-        <g
-           id="g1239"
-           style="display:inline"
-           inkscape:label="opennetworkautomationplatform">
-          <g
-             id="g1237"
-             style="display:inline"
-             inkscape:label="path">
-            <path
-               class="st128"
-               d="m 299.9,209.2 c -0.01,1.57 -0.14,2.83 -0.39,3.8 -0.25,0.97 -0.64,1.72 -1.17,2.26 -0.54,0.54 -1.24,0.91 -2.1,1.11 -0.86,0.21 -1.97,0.31 -3.33,0.31 h -8.5 c -1.32,0 -2.44,-0.13 -3.35,-0.4 -0.91,-0.26 -1.65,-0.68 -2.21,-1.26 -0.56,-0.58 -0.97,-1.34 -1.24,-2.29 -0.27,-0.95 -0.41,-2.13 -0.42,-3.54 v -6.79 c 0.01,-1.43 0.15,-2.63 0.4,-3.6 0.25,-0.97 0.65,-1.77 1.2,-2.39 0.55,-0.62 1.28,-1.07 2.19,-1.36 0.91,-0.29 2.06,-0.44 3.43,-0.44 h 8.5 c 1.65,0 2.97,0.22 3.97,0.64 1,0.43 1.75,1.21 2.25,2.34 0.5,1.13 0.76,2.73 0.78,4.81 v 6.8 z m -2.02,-6.97 c -0.02,-1.47 -0.18,-2.59 -0.47,-3.35 -0.29,-0.76 -0.79,-1.3 -1.48,-1.6 -0.7,-0.3 -1.71,-0.46 -3.05,-0.46 h -8.5 c -1.25,0 -2.24,0.16 -2.97,0.48 -0.73,0.32 -1.27,0.87 -1.63,1.66 -0.36,0.79 -0.55,1.88 -0.58,3.27 v 6.97 c 0.01,1.05 0.11,1.92 0.3,2.6 0.19,0.68 0.49,1.22 0.89,1.61 0.41,0.39 0.93,0.67 1.57,0.83 0.64,0.16 1.44,0.24 2.41,0.24 h 8.5 c 1.4,0 2.44,-0.14 3.13,-0.43 0.69,-0.29 1.17,-0.8 1.44,-1.52 0.27,-0.73 0.41,-1.83 0.43,-3.32 v -6.98 z"
-               id="path1179" />
-            <path
-               class="st128"
-               d="m 302.98,216.65 v -21.79 h 13.09 c 1.63,0 2.93,0.22 3.93,0.67 0.99,0.44 1.72,1.16 2.19,2.15 0.47,0.99 0.7,2.3 0.7,3.92 0,1.62 -0.22,2.86 -0.67,3.74 -0.45,0.87 -1.16,1.48 -2.13,1.82 -0.97,0.34 -2.3,0.51 -3.99,0.51 H 305 v 8.99 h -2.02 z m 2.01,-11.19 h 11.69 c 1.1,0 1.94,-0.1 2.53,-0.3 0.59,-0.2 1.01,-0.57 1.27,-1.11 0.26,-0.54 0.39,-1.37 0.39,-2.46 0,-1.67 -0.3,-2.84 -0.92,-3.52 -0.61,-0.68 -1.64,-1.01 -3.08,-1.01 h -11.89 v 8.4 z"
-               id="path1181" />
-            <path
-               class="st128"
-               d="m 325.68,216.68 v -21.82 h 17.2 v 2.2 H 327.7 v 7.23 h 14.79 v 2.2 H 327.7 v 7.98 h 15.18 v 2.2 h -17.2 z"
-               id="path1183" />
-            <path
-               class="st128"
-               d="m 346.26,216.68 v -21.82 h 4.48 l 14.93,19.56 v -19.56 h 2.01 v 21.82 h -2.91 l -15.38,-20.12 h -1.12 v 20.12 z"
-               id="path1185" />
-            <path
-               class="st128"
-               d="m 379.76,216.68 v -21.82 h 4.48 l 14.93,19.56 v -19.56 h 2.01 v 21.82 h -2.91 l -15.38,-20.12 h -1.12 v 20.12 z"
-               id="path1187" />
-            <path
-               class="st128"
-               d="m 404.42,216.68 v -21.82 h 17.2 v 2.2 h -15.18 v 7.23 h 14.79 v 2.2 h -14.79 v 7.98 h 15.18 v 2.2 h -17.2 z"
-               id="path1189" />
-            <path
-               class="st128"
-               d="m 423.99,194.86 h 20.92 v 2.2 h -9.48 v 19.62 h -2.01 V 197.06 H 424 v -2.2 z"
-               id="path1191" />
-            <path
-               class="st128"
-               d="m 464.37,194.86 6.77,19.5 h 0.44 l 6.88,-19.5 h 2.24 l -7.94,21.82 h -2.85 l -6.71,-19.31 -6.66,19.31 h -2.85 l -7.94,-21.82 h 2.23 l 6.88,19.5 h 0.45 l 6.77,-19.5 z"
-               id="path1193" />
-            <path
-               class="st128"
-               d="m 505.47,209.2 c -0.01,1.57 -0.14,2.83 -0.39,3.8 -0.25,0.97 -0.64,1.72 -1.17,2.26 -0.54,0.54 -1.24,0.91 -2.1,1.11 -0.86,0.21 -1.97,0.31 -3.33,0.31 h -8.5 c -1.32,0 -2.44,-0.13 -3.35,-0.4 -0.91,-0.26 -1.65,-0.68 -2.21,-1.26 -0.56,-0.58 -0.97,-1.34 -1.24,-2.29 -0.27,-0.95 -0.41,-2.13 -0.42,-3.54 v -6.79 c 0.01,-1.43 0.15,-2.63 0.4,-3.6 0.25,-0.97 0.65,-1.77 1.2,-2.39 0.55,-0.62 1.28,-1.07 2.19,-1.36 0.91,-0.29 2.06,-0.44 3.43,-0.44 h 8.5 c 1.65,0 2.97,0.22 3.97,0.64 1,0.43 1.75,1.21 2.25,2.34 0.5,1.13 0.76,2.73 0.78,4.81 v 6.8 z m -2.01,-6.97 c -0.02,-1.47 -0.18,-2.59 -0.47,-3.35 -0.29,-0.76 -0.79,-1.3 -1.48,-1.6 -0.7,-0.3 -1.71,-0.46 -3.05,-0.46 h -8.5 c -1.25,0 -2.24,0.16 -2.97,0.48 -0.73,0.32 -1.27,0.87 -1.63,1.66 -0.36,0.79 -0.55,1.88 -0.58,3.27 v 6.97 c 0.01,1.05 0.11,1.92 0.3,2.6 0.19,0.68 0.49,1.22 0.89,1.61 0.41,0.39 0.93,0.67 1.57,0.83 0.64,0.16 1.44,0.24 2.41,0.24 h 8.5 c 1.4,0 2.44,-0.14 3.13,-0.43 0.69,-0.29 1.17,-0.8 1.44,-1.52 0.27,-0.73 0.41,-1.83 0.43,-3.32 v -6.98 z"
-               id="path1195" />
-            <path
-               class="st128"
-               d="m 510.62,207.72 v 8.99 h -2.01 v -21.82 h 13.98 c 1.58,0 2.87,0.26 3.88,0.79 1.01,0.52 1.74,1.26 2.2,2.19 0.46,0.94 0.69,2.03 0.69,3.28 0,1.03 -0.13,1.88 -0.38,2.54 -0.25,0.67 -0.57,1.19 -0.94,1.57 -0.37,0.38 -0.85,0.76 -1.42,1.14 0.69,0.17 1.26,0.69 1.73,1.57 0.47,0.87 0.7,2.08 0.7,3.62 v 5.1 h -2.01 v -5.34 c 0,-1.34 -0.24,-2.27 -0.72,-2.81 -0.48,-0.54 -1.26,-0.81 -2.32,-0.81 h -13.38 z m 0,-10.63 v 8.43 h 12.58 c 1.35,0 2.37,-0.37 3.08,-1.11 0.71,-0.74 1.06,-1.96 1.06,-3.68 0,-1.06 -0.36,-1.94 -1.09,-2.62 -0.72,-0.68 -1.69,-1.02 -2.91,-1.02 z"
-               id="path1197" />
-            <path
-               class="st128"
-               d="m 532.27,216.68 v -21.82 h 2.01 v 9.34 h 3.24 l 12.27,-9.37 h 3.52 l -13.7,10.44 14.04,11.42 h -3.52 L 537.6,206.41 h -3.32 v 10.28 h -2.01 z"
-               id="path1199" />
-            <path
-               class="st128"
-               d="m 565.34,216.68 h -2.23 l 10.07,-21.82 h 3.08 l 10.07,21.82 h -2.35 l -2.49,-5.47 h -13.65 z m 3.58,-7.67 h 11.52 l -5.76,-12.58 z"
-               id="path1201" />
-            <path
-               class="st128"
-               d="m 588.22,194.86 h 2.02 v 15.22 c 0,1.02 0.15,1.84 0.45,2.48 0.3,0.63 0.83,1.11 1.58,1.42 0.75,0.31 1.81,0.48 3.16,0.5 h 8.53 c 1.18,-0.02 2.13,-0.2 2.85,-0.54 0.72,-0.34 1.24,-0.84 1.56,-1.49 0.32,-0.66 0.49,-1.49 0.49,-2.5 v -15.09 h 2.01 v 14.28 c 0,2.01 -0.25,3.55 -0.75,4.64 -0.5,1.09 -1.24,1.84 -2.22,2.25 -0.98,0.41 -2.3,0.63 -3.97,0.66 h -8.5 c -1.72,-0.03 -3.09,-0.26 -4.13,-0.7 -1.04,-0.44 -1.81,-1.2 -2.32,-2.28 -0.51,-1.08 -0.77,-2.58 -0.77,-4.5 v -14.35 z"
-               id="path1203" />
-            <path
-               class="st128"
-               d="m 612.94,194.86 h 20.92 v 2.2 h -9.48 v 19.62 h -2.01 v -19.62 h -9.42 v -2.2 z"
-               id="path1205" />
-            <path
-               class="st128"
-               d="m 658.63,209.2 c -0.01,1.57 -0.14,2.83 -0.39,3.8 -0.25,0.97 -0.64,1.72 -1.17,2.26 -0.54,0.54 -1.24,0.91 -2.1,1.11 -0.86,0.21 -1.97,0.31 -3.33,0.31 h -8.5 c -1.32,0 -2.44,-0.13 -3.35,-0.4 -0.91,-0.26 -1.65,-0.68 -2.21,-1.26 -0.56,-0.58 -0.97,-1.34 -1.24,-2.29 -0.27,-0.95 -0.41,-2.13 -0.42,-3.54 v -6.79 c 0.01,-1.43 0.15,-2.63 0.4,-3.6 0.25,-0.97 0.65,-1.77 1.2,-2.39 0.55,-0.62 1.28,-1.07 2.19,-1.36 0.91,-0.29 2.06,-0.44 3.43,-0.44 h 8.5 c 1.65,0 2.97,0.22 3.97,0.64 1,0.43 1.75,1.21 2.25,2.34 0.5,1.13 0.76,2.73 0.78,4.81 v 6.8 z m -2.01,-6.97 c -0.02,-1.47 -0.18,-2.59 -0.47,-3.35 -0.29,-0.76 -0.79,-1.3 -1.48,-1.6 -0.7,-0.3 -1.71,-0.46 -3.05,-0.46 h -8.5 c -1.25,0 -2.24,0.16 -2.97,0.48 -0.73,0.32 -1.27,0.87 -1.63,1.66 -0.36,0.79 -0.55,1.88 -0.58,3.27 v 6.97 c 0.01,1.05 0.11,1.92 0.3,2.6 0.19,0.68 0.49,1.22 0.89,1.61 0.41,0.39 0.93,0.67 1.57,0.83 0.64,0.16 1.44,0.24 2.41,0.24 h 8.5 c 1.4,0 2.44,-0.14 3.13,-0.43 0.69,-0.29 1.17,-0.8 1.44,-1.52 0.27,-0.73 0.41,-1.83 0.43,-3.32 v -6.98 z"
-               id="path1207" />
-            <path
-               class="st128"
-               d="m 689.84,216.68 h -2.01 v -20.06 h -1.12 l -10.46,20.06 h -1.04 l -10.46,-20.06 h -1.15 v 20.06 h -2.01 v -21.82 h 4.3 l 9.84,18.62 9.79,-18.62 h 4.31 v 21.82 z"
-               id="path1209" />
-            <path
-               class="st128"
-               d="m 693.96,216.68 h -2.23 l 10.07,-21.82 h 3.08 l 10.07,21.82 h -2.35 l -2.49,-5.47 h -13.65 z m 3.59,-7.67 h 11.52 l -5.76,-12.58 z"
-               id="path1211" />
-            <path
-               class="st128"
-               d="m 715.78,194.86 h 20.92 v 2.2 h -9.48 v 19.62 h -2.01 v -19.62 h -9.42 v -2.2 z"
-               id="path1213" />
-            <path
-               class="st128"
-               d="m 742.18,216.68 h -2.01 v -21.82 h 2.01 z"
-               id="path1215" />
-            <path
-               class="st128"
-               d="m 769.36,209.2 c -0.01,1.57 -0.14,2.83 -0.39,3.8 -0.25,0.97 -0.64,1.72 -1.17,2.26 -0.54,0.54 -1.24,0.91 -2.1,1.11 -0.86,0.21 -1.97,0.31 -3.33,0.31 h -8.5 c -1.32,0 -2.44,-0.13 -3.35,-0.4 -0.91,-0.26 -1.65,-0.68 -2.21,-1.26 -0.56,-0.58 -0.97,-1.34 -1.24,-2.29 -0.27,-0.95 -0.41,-2.13 -0.42,-3.54 v -6.79 c 0.01,-1.43 0.15,-2.63 0.4,-3.6 0.25,-0.97 0.65,-1.77 1.2,-2.39 0.55,-0.62 1.28,-1.07 2.19,-1.36 0.91,-0.29 2.06,-0.44 3.43,-0.44 h 8.5 c 1.65,0 2.97,0.22 3.97,0.64 1,0.43 1.75,1.21 2.25,2.34 0.5,1.13 0.76,2.73 0.78,4.81 v 6.8 z m -2.02,-6.97 c -0.02,-1.47 -0.18,-2.59 -0.47,-3.35 -0.29,-0.76 -0.79,-1.3 -1.48,-1.6 -0.7,-0.3 -1.71,-0.46 -3.05,-0.46 h -8.5 c -1.25,0 -2.24,0.16 -2.97,0.48 -0.73,0.32 -1.27,0.87 -1.63,1.66 -0.36,0.79 -0.55,1.88 -0.58,3.27 v 6.97 c 0.01,1.05 0.11,1.92 0.3,2.6 0.19,0.68 0.49,1.22 0.89,1.61 0.41,0.39 0.93,0.67 1.57,0.83 0.64,0.16 1.44,0.24 2.41,0.24 h 8.5 c 1.4,0 2.44,-0.14 3.13,-0.43 0.69,-0.29 1.17,-0.8 1.44,-1.52 0.27,-0.73 0.41,-1.83 0.43,-3.32 v -6.98 z"
-               id="path1217" />
-            <path
-               class="st128"
-               d="m 772.32,216.68 v -21.82 h 4.48 l 14.93,19.56 v -19.56 h 2.01 v 21.82 h -2.91 l -15.38,-20.12 h -1.12 v 20.12 z"
-               id="path1219" />
-            <path
-               class="st128"
-               d="m 805.93,216.65 v -21.79 h 13.09 c 1.63,0 2.93,0.22 3.93,0.67 0.99,0.44 1.72,1.16 2.19,2.15 0.47,0.99 0.7,2.3 0.7,3.92 0,1.62 -0.22,2.86 -0.67,3.74 -0.45,0.87 -1.16,1.48 -2.13,1.82 -0.97,0.34 -2.3,0.51 -3.99,0.51 h -11.1 v 8.99 h -2.02 z m 2.02,-11.19 h 11.69 c 1.1,0 1.94,-0.1 2.53,-0.3 0.59,-0.2 1.01,-0.57 1.27,-1.11 0.26,-0.54 0.39,-1.37 0.39,-2.46 0,-1.67 -0.3,-2.84 -0.92,-3.52 -0.61,-0.68 -1.64,-1.01 -3.08,-1.01 h -11.89 v 8.4 z"
-               id="path1221" />
-            <path
-               class="st128"
-               d="m 828.86,216.68 v -21.82 h 2.01 v 19.62 h 14.63 v 2.2 z"
-               id="path1223" />
-            <path
-               class="st128"
-               d="m 849.43,216.68 h -2.23 l 10.07,-21.82 h 3.08 l 10.07,21.82 h -2.35 l -2.49,-5.47 h -13.65 z m 3.59,-7.67 h 11.52 l -5.76,-12.58 z"
-               id="path1225" />
-            <path
-               class="st128"
-               d="m 871.25,194.86 h 20.92 v 2.2 h -9.48 v 19.62 h -2.01 v -19.62 h -9.42 v -2.2 z"
-               id="path1227" />
-            <path
-               class="st128"
-               d="m 894.46,216.68 v -21.82 h 17.2 v 2.2 h -15.18 v 7.23 h 14.79 v 2.2 h -14.79 v 10.19 z"
-               id="path1229" />
-            <path
-               class="st128"
-               d="m 937.58,209.2 c -0.01,1.57 -0.14,2.83 -0.39,3.8 -0.25,0.97 -0.64,1.72 -1.17,2.26 -0.54,0.54 -1.24,0.91 -2.1,1.11 -0.86,0.21 -1.97,0.31 -3.33,0.31 h -8.5 c -1.32,0 -2.44,-0.13 -3.35,-0.4 -0.91,-0.26 -1.65,-0.68 -2.21,-1.26 -0.56,-0.58 -0.97,-1.34 -1.24,-2.29 -0.27,-0.95 -0.41,-2.13 -0.42,-3.54 v -6.79 c 0.01,-1.43 0.15,-2.63 0.4,-3.6 0.25,-0.97 0.65,-1.77 1.2,-2.39 0.55,-0.62 1.28,-1.07 2.19,-1.36 0.91,-0.29 2.06,-0.44 3.43,-0.44 h 8.5 c 1.65,0 2.97,0.22 3.97,0.64 1,0.43 1.75,1.21 2.25,2.34 0.5,1.13 0.76,2.73 0.78,4.81 v 6.8 z m -2.01,-6.97 c -0.02,-1.47 -0.18,-2.59 -0.47,-3.35 -0.29,-0.76 -0.79,-1.3 -1.48,-1.6 -0.7,-0.3 -1.71,-0.46 -3.05,-0.46 h -8.5 c -1.25,0 -2.24,0.16 -2.97,0.48 -0.73,0.32 -1.27,0.87 -1.63,1.66 -0.35,0.79 -0.55,1.88 -0.58,3.27 v 6.97 c 0.01,1.05 0.11,1.92 0.3,2.6 0.19,0.68 0.49,1.22 0.89,1.61 0.41,0.39 0.93,0.67 1.57,0.83 0.64,0.16 1.44,0.24 2.41,0.24 h 8.5 c 1.4,0 2.44,-0.14 3.13,-0.43 0.69,-0.29 1.17,-0.8 1.44,-1.52 0.27,-0.73 0.41,-1.83 0.43,-3.32 v -6.98 z"
-               id="path1231" />
-            <path
-               class="st128"
-               d="m 942.73,207.72 v 8.99 h -2.01 v -21.82 h 13.98 c 1.58,0 2.87,0.26 3.88,0.79 1.01,0.52 1.74,1.26 2.2,2.19 0.46,0.94 0.69,2.03 0.69,3.28 0,1.03 -0.13,1.88 -0.38,2.54 -0.25,0.67 -0.57,1.19 -0.94,1.57 -0.37,0.38 -0.85,0.76 -1.42,1.14 0.69,0.17 1.26,0.69 1.73,1.57 0.47,0.87 0.7,2.08 0.7,3.62 v 5.1 h -2.01 v -5.34 c 0,-1.34 -0.24,-2.27 -0.72,-2.81 -0.48,-0.54 -1.26,-0.81 -2.32,-0.81 h -13.38 z m 0,-10.63 v 8.43 h 12.58 c 1.35,0 2.37,-0.37 3.08,-1.11 0.71,-0.74 1.06,-1.96 1.06,-3.68 0,-1.06 -0.36,-1.94 -1.09,-2.62 -0.72,-0.68 -1.69,-1.02 -2.91,-1.02 z"
-               id="path1233" />
-            <path
-               class="st128"
-               d="m 992.84,216.68 h -2.01 v -20.06 h -1.12 l -10.46,20.06 h -1.04 l -10.46,-20.06 h -1.15 v 20.06 h -2.01 v -21.82 h 4.3 l 9.84,18.62 9.79,-18.62 h 4.31 v 21.82 z"
-               id="path1235" />
-          </g>
+             style="display:inline;stroke-width:1.28633" />
         </g>
       </g>
     </a>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="12.126981"
+       y="167.08885"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans Bold';fill:#999999;stroke-width:0.264583"
+         x="12.126981"
+         y="167.08885">Infrastructure</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans Bold';fill:#999999;stroke-width:0.264583"
+         x="12.126981"
+         y="175.02635"
+         id="tspan5">Service</tspan></text>
   </g>
   <style
      type="text/css"
