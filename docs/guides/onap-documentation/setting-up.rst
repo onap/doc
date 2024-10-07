@@ -79,7 +79,7 @@ place.
 .. caution::
 
    If your access network restricts ssh, you will need to use equivalent
-   git commands and HTTP Passwords as described `here <http://wiki.onap.org/x/X4AP>`_.
+   git commands and HTTP Passwords. See ONAP Wiki.
 
 .. caution::
 
@@ -110,7 +110,7 @@ place.
    reference on changes and/or the verify job will fail in the step below.
 
 
-3. Create a docs directory in your repository with
+1. Create a docs directory in your repository with
 an index.rst file.  The following sequence will complete the minimum
 required over ssh.  As you have time to convert or add new content you
 can update the index and add files under the docs folder.
