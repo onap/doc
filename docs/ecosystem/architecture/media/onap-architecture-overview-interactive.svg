@@ -12,9 +12,9 @@
    inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
    id="svg5"
    version="1.1"
-   viewBox="0 0 324.00025 243.99996"
-   height="243.99997mm"
-   width="324.00024mm"
+   viewBox="0 0 324.00001 236.99998"
+   height="236.99998mm"
+   width="324mm"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -31,14 +31,14 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.4142136"
-     inkscape:cx="608.11182"
-     inkscape:cy="467.39757"
+     inkscape:cx="888.12609"
+     inkscape:cy="533.86561"
      inkscape:window-width="3768"
      inkscape:window-height="2096"
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="g15324"
      height="190mm"
      showborder="true"
      inkscape:showpageshadow="true"
@@ -59,7 +59,7 @@
        spacingx="0.99999999"
        spacingy="0.99999999"
        empspacing="0"
-       originx="5.0000003"
+       originx="5.0000007"
        originy="-21.00001"
        snapvisiblegridlinesonly="false"
        visible="true"
@@ -92,11 +92,11 @@
      id="layer4"
      inkscape:label="vector.layer"
      style="display:inline"
-     transform="translate(-4.004765,-25.000011)"
+     transform="translate(-4.0047648,-25.000011)"
      inkscape:groupmode="layer">
     <g
        id="g5663"
-       transform="translate(1.77464e-6,26.947943)"
+       transform="translate(2.0151432e-6,19.947936)"
        style="display:inline"
        inkscape:label="color legend">
       <g
@@ -120,9 +120,9 @@
            inkscape:label="unmaintained.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan2"><tspan
+             id="tspan17"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.2645835 -0.26458272 0 0 0 0.2645835 -0.26458463"
-               id="tspan1">Unmaintained ONAP Component</tspan></tspan></text>
+               id="tspan16">Unmaintained ONAP Component</tspan></tspan></text>
       </g>
       <g
          id="g4786-5"
@@ -146,9 +146,9 @@
            inkscape:label="onapcomponents.label"><tspan
              x="135"
              y="237.80913"
-             id="tspan6"><tspan
+             id="tspan19"><tspan
                dx="0 0 0 0 0 0 0 0 0.26458338 -0.26458272 0 0.2645829 -0.26458272 0 0 0 0.2645835 -0.26458272"
-               id="tspan3">Entirety of ONAP Components</tspan></tspan></text>
+               id="tspan18">Entirety of ONAP Components</tspan></tspan></text>
       </g>
       <g
          id="g4770"
@@ -172,7 +172,7 @@
            transform="matrix(1.00026,0,0,1,-0.0728097,0)"><tspan
              x="279"
              y="237.80913"
-             id="tspan7">Operations</tspan></text>
+             id="tspan20">Operations</tspan></text>
       </g>
       <g
          id="g4776"
@@ -196,9 +196,9 @@
            transform="matrix(1.00026,0,0,1,-0.0602911,0)"><tspan
              x="231.00195"
              y="237.80913"
-             id="tspan9"><tspan
+             id="tspan22"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0.26458231 -0.26458272"
-               id="tspan8">Orchestration &amp; Management</tspan></tspan></text>
+               id="tspan21">Orchestration &amp; Management</tspan></tspan></text>
       </g>
       <g
          id="g4765"
@@ -221,7 +221,7 @@
            inkscape:label="design.label"><tspan
              x="183"
              y="237.80913"
-             id="tspan10">Design</tspan></text>
+             id="tspan23">Design</tspan></text>
       </g>
       <g
          id="g4781"
@@ -244,10 +244,10 @@
            inkscape:label="3rdparty.label"><tspan
              x="7.0039062"
              y="237.86187"
-             id="tspan12"><tspan
+             id="tspan25"><tspan
                dx="0 0 0 0.26458326 -0.2645832"
                style="fill:#f9f9f9"
-               id="tspan11">3rd Party</tspan></tspan></text>
+               id="tspan24">3rd Party</tspan></tspan></text>
       </g>
     </g>
     <g
@@ -259,9 +259,9 @@
          style="display:inline;fill:#fcf0d3;fill-opacity:1;stroke:#fcf0d3;stroke-width:4.03062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect88-7"
          width="308"
-         height="65.999001"
+         height="58.891186"
          x="12.004761"
-         y="160.00101"
+         y="160.00099"
          inkscape:label="managedenvironment.form" />
       <text
          xml:space="preserve"
@@ -273,30 +273,29 @@
          transform="translate(-0.00405397,-0.18939306)"><tspan
            x="12.003906"
            y="165.62021"
-           id="tspan14"><tspan
+           id="tspan27"><tspan
              dx="0 0 0 0 0 0 0 0.26458254"
              style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-             id="tspan13">Managed
+             id="tspan26">Managed
 </tspan></tspan><tspan
            x="12.003906"
            y="173.55771"
-           id="tspan116"><tspan
+           id="tspan29"><tspan
              style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-             id="tspan15">Environment</tspan></tspan></text>
+             id="tspan28">Environment</tspan></tspan></text>
       <rect
-         style="display:inline;fill:none;fill-opacity:1;stroke:#f6d27c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#f6d27c;stroke-width:2.01531;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;stop-color:#000000"
          id="rect55176-2"
          width="318"
-         height="74.999992"
-         x="7.0047655"
-         y="155"
-         inkscape:label="managedenvironmentborder.form"
-         transform="matrix(1,0,0,1.0153693,-4.9460986e-6,-2.4580935)" />
+         height="69.045105"
+         x="7.0047612"
+         y="154.92415"
+         inkscape:label="managedenvironmentborder.form" />
       <g
          id="g5896"
          inkscape:label="content"
          style="display:inline"
-         transform="matrix(1,0,0,1.0153693,-5.0270834e-6,-2.4580932)">
+         transform="matrix(1,0,0,1.0153693,-4.7865802e-6,-9.5656855)">
         <g
            id="g29902"
            transform="translate(-2.20667,-5.9402554)"
@@ -449,10 +448,10 @@
                inkscape:label="hypervisoroslayer.label"><tspan
                  x="86.003906"
                  y="197.80913"
-                 id="tspan118"><tspan
+                 id="tspan31"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.2645835 -0.2645838 0.26458278 -0.26458189 0 0.2645835 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan117">Hypervisor / OS Layer</tspan></tspan></text>
+                   id="tspan30">Hypervisor / OS Layer</tspan></tspan></text>
           </g>
           <g
              id="g4413"
@@ -474,7 +473,7 @@
                inkscape:label="openstack.label"><tspan
                  x="135.00391"
                  y="198.49163"
-                 id="tspan119">OpenStack</tspan></text>
+                 id="tspan32">OpenStack</tspan></text>
           </g>
           <g
              id="g4408"
@@ -496,9 +495,9 @@
                inkscape:label="commercialvim.label"><tspan
                  x="167.00391"
                  y="198.49163"
-                 id="tspan121"><tspan
+                 id="tspan34"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0.26458123 -0.26458272"
-                   id="tspan120">Commercial VIM</tspan></tspan></text>
+                   id="tspan33">Commercial VIM</tspan></tspan></text>
           </g>
           <g
              id="g4396"
@@ -520,7 +519,7 @@
                inkscape:label="kubernetes.label"><tspan
                  x="199.00391"
                  y="198.49163"
-                 id="tspan122">Kubernetes</tspan></text>
+                 id="tspan35">Kubernetes</tspan></text>
           </g>
           <g
              id="g4402"
@@ -542,9 +541,9 @@
                inkscape:label="publiccloud.label"><tspan
                  x="231.00391"
                  y="198.49163"
-                 id="tspan124"><tspan
+                 id="tspan37"><tspan
                    dx="0 0 0 0 0 0 0.2645829 -0.26458272"
-                   id="tspan123">Public Cloud</tspan></tspan></text>
+                   id="tspan36">Public Cloud</tspan></tspan></text>
           </g>
         </g>
         <g
@@ -572,10 +571,10 @@
                inkscape:label="networkfunktionlayer.label"><tspan
                  x="86.003906"
                  y="185.80913"
-                 id="tspan126"><tspan
+                 id="tspan39"><tspan
                    dx="0 0 0 0 0 0 0 0.26458326 -0.26458284 0 0 0 0 0 0 0 0.26458278 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan125">Network Function Layer</tspan></tspan></text>
+                   id="tspan38">Network Function Layer</tspan></tspan></text>
           </g>
           <g
              id="g2995"
@@ -606,7 +605,7 @@
                transform="translate(-0.26458332,0.26458332)"><tspan
                  x="265.25391"
                  y="188.74163"
-                 id="tspan127">PNF</tspan></text>
+                 id="tspan40">PNF</tspan></text>
           </g>
           <g
              id="g2907"
@@ -628,7 +627,7 @@
                inkscape:label="vnf.label"><tspan
                  x="199.00391"
                  y="186.49163"
-                 id="tspan128">VNF</tspan></text>
+                 id="tspan41">VNF</tspan></text>
           </g>
         </g>
         <g
@@ -657,10 +656,10 @@
                inkscape:label="externalsystems.label"><tspan
                  x="86.003906"
                  y="173.80913"
-                 id="tspan130"><tspan
+                 id="tspan43"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458284"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan129">External Systems</tspan></tspan></text>
+                   id="tspan42">External Systems</tspan></tspan></text>
           </g>
           <g
              id="g4437"
@@ -682,9 +681,9 @@
                inkscape:label="thirdpartycontrollers.label"><tspan
                  x="135.00391"
                  y="174.49163"
-                 id="tspan132"><tspan
+                 id="tspan45"><tspan
                    dx="0 0 0 0.26458326 -0.2645832 0 0 0 0 0.26458338 -0.26458368"
-                   id="tspan131">3rd Party Controllers</tspan></tspan></text>
+                   id="tspan44">3rd Party Controllers</tspan></tspan></text>
           </g>
           <g
              id="g4442"
@@ -706,7 +705,7 @@
                inkscape:label="svnfm.label"><tspan
                  x="199.00391"
                  y="174.49163"
-                 id="tspan133">sVNFM</tspan></text>
+                 id="tspan46">sVNFM</tspan></text>
           </g>
           <g
              id="g4447"
@@ -728,7 +727,7 @@
                inkscape:label="ems.label"><tspan
                  x="231.00391"
                  y="174.49163"
-                 id="tspan134">EMS</tspan></text>
+                 id="tspan47">EMS</tspan></text>
           </g>
         </g>
       </g>
@@ -766,9 +765,9 @@
              inkscape:label="servicemesh.label"><tspan
                x="81.029297"
                y="106.73968"
-               id="tspan136"><tspan
+               id="tspan49"><tspan
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272"
-                 id="tspan135">Service Mesh</tspan></tspan></text>
+                 id="tspan48">Service Mesh</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -840,10 +839,10 @@
              inkscape:label="manageonap.label"><tspan
                x="172"
                y="57.551855"
-               id="tspan138"><tspan
+               id="tspan51"><tspan
                  dx="0 0 0 0 0 0 0.26458302 -0.2645826"
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                 id="tspan137">Manage ONAP</tspan></tspan></text>
+                 id="tspan50">Manage ONAP</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -874,9 +873,9 @@
              inkscape:label="oom.label"><tspan
                x="267.00391"
                y="55.742725"
-               id="tspan140"><tspan
+               id="tspan53"><tspan
                  dx="0 0 0 0 0.26458302 -0.26458272 0 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0.26458243 -0.26458272"
-                 id="tspan139">ONAP Operation Manager (OOM)</tspan></tspan></text>
+                 id="tspan52">ONAP Operation Manager (OOM)</tspan></tspan></text>
         </g>
       </a>
     </g>
@@ -913,9 +912,9 @@
              transform="translate(-1.433475e-4)"><tspan
                x="12"
                y="57.551855"
-               id="tspan142"><tspan
+               id="tspan55"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan141">Design-Time</tspan></tspan></text>
+                 id="tspan54">Design-Time</tspan></tspan></text>
           <text
              xml:space="preserve"
              transform="matrix(0.26458333,0,0,0.26458333,3.9999998,3.9999989)"
@@ -956,16 +955,16 @@
                inkscape:label="sdc.label"><tspan
                  x="16"
                  y="92.742725"
-                 id="tspan144"><tspan
+                 id="tspan57"><tspan
                    dx="0 0 0 0 0 0 0 0.26458231 -0.26458284 0 0 0 0 0 0.26458278 -0.2645838 0.26458398 -0.2645838 0 0 0 0 0 0 0 0.26458088"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan143">Service Design &amp; Creation
+                   id="tspan56">Service Design &amp; Creation
 </tspan></tspan><tspan
                  x="16"
                  y="96.711475"
-                 id="tspan146"><tspan
+                 id="tspan59"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan145">(SDC)</tspan></tspan></text>
+                   id="tspan58">(SDC)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -997,7 +996,7 @@
                inkscape:label="catalog.label"><tspan
                  x="17.255859"
                  y="143.74272"
-                 id="tspan147">Catalog</tspan></text>
+                 id="tspan60">Catalog</tspan></text>
           </g>
         </a>
         <a
@@ -1028,9 +1027,9 @@
                inkscape:label="workflowdesigner.label"><tspan
                  x="17"
                  y="119.74272"
-                 id="tspan149"><tspan
+                 id="tspan62"><tspan
                    dx="0 0 0 0 0 0.092604198 -0.0926046 0 0.2645835 -0.26458272"
-                   id="tspan148">Workflow Designer</tspan></tspan></text>
+                   id="tspan61">Workflow Designer</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1061,9 +1060,9 @@
                inkscape:label="xnfonboarding.label"><tspan
                  x="17"
                  y="111.74272"
-                 id="tspan151"><tspan
+                 id="tspan64"><tspan
                    dx="0 0 0 0.26458278 -0.2645832"
-                   id="tspan150">xNF Onboarding</tspan></tspan></text>
+                   id="tspan63">xNF Onboarding</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1097,9 +1096,9 @@
                sodipodi:insensitive="true"><tspan
                  x="17"
                  y="103.74272"
-                 id="tspan153"><tspan
+                 id="tspan66"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0 0 0.26458278 -0.26458272"
-                   id="tspan152">Service/xNF Design</tspan></tspan></text>
+                   id="tspan65">Service/xNF Design</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1134,9 +1133,9 @@
              inkscape:label="runtime.label"><tspan
                x="78"
                y="57.551855"
-               id="tspan155"><tspan
+               id="tspan68"><tspan
                  style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';opacity:1"
-                 id="tspan154">Run-Time</tspan></tspan></text>
+                 id="tspan67">Run-Time</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1172,10 +1171,10 @@
                inkscape:label="sharedservices.label"><tspan
                  x="268"
                  y="92.742725"
-                 id="tspan157"><tspan
+                 id="tspan70"><tspan
                    dx="0 0 0 0 0 0 0.26458302 -0.2645838"
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-                   id="tspan156">Shared Services</tspan></tspan></text>
+                   id="tspan69">Shared Services</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1208,9 +1207,9 @@
                inkscape:label="security-framework.label"><tspan
                  x="269"
                  y="111.74272"
-                 id="tspan159"><tspan
+                 id="tspan72"><tspan
                    dx="0 0 0 0 0 0 0 0 0.26458243 -0.26458272"
-                   id="tspan158">Security Framework</tspan></tspan></text>
+                   id="tspan71">Security Framework</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1243,9 +1242,9 @@
                inkscape:label="loggingframework.label"><tspan
                  x="269"
                  y="111.74272"
-                 id="tspan161"><tspan
+                 id="tspan74"><tspan
                    dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0.26458386 -0.26458272"
-                   id="tspan160">Logging Framework (PoC)</tspan></tspan></text>
+                   id="tspan73">Logging Framework (PoC)</tspan></tspan></text>
           </g>
         </a>
       </g>
@@ -1278,19 +1277,19 @@
              inkscape:label="ccsdk.label"><tspan
                x="227"
                y="123.42522"
-               id="tspan163"><tspan
+               id="tspan76"><tspan
                  dx="0 0 0 0 0 0 0.26458278"
-                 id="tspan162">Common
+                 id="tspan75">Common
 </tspan></tspan><tspan
                x="227"
                y="126.75897"
-               id="tspan165"><tspan
+               id="tspan78"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0 0 0.26458278"
-                 id="tspan164">Controller SDK
+                 id="tspan77">Controller SDK
 </tspan></tspan><tspan
                x="227"
                y="130.09272"
-               id="tspan166">(CCSDK)</tspan></text>
+               id="tspan79">(CCSDK)</tspan></text>
         </g>
       </a>
       <a
@@ -1324,19 +1323,19 @@
              inkscape:label="sdnc.label"><tspan
                x="183.24023"
                y="123.66546"
-               id="tspan168"><tspan
+               id="tspan81"><tspan
                  dx="0 0 0 0.26458326"
-                 id="tspan167">SDN
+                 id="tspan80">SDN
 </tspan></tspan><tspan
                x="183.24023"
                y="126.99921"
-               id="tspan170"><tspan
+               id="tspan83"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan169">Controller
+                 id="tspan82">Controller
 </tspan></tspan><tspan
                x="183.24023"
                y="130.33295"
-               id="tspan171">(SDNC)</tspan></text>
+               id="tspan84">(SDNC)</tspan></text>
         </g>
       </a>
       <a
@@ -1367,19 +1366,19 @@
              inkscape:label="cds.label"><tspan
                x="158"
                y="123.42522"
-               id="tspan173"><tspan
+               id="tspan86"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0.26458338"
-                 id="tspan172">Controller
+                 id="tspan85">Controller
 </tspan></tspan><tspan
                x="158"
                y="126.75897"
-               id="tspan175"><tspan
+               id="tspan88"><tspan
                  dx="0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0.26458278"
-                 id="tspan174">Design Studio
+                 id="tspan87">Design Studio
 </tspan></tspan><tspan
                x="158"
                y="130.09272"
-               id="tspan176">(CDS)</tspan></text>
+               id="tspan89">(CDS)</tspan></text>
         </g>
       </a>
       <a
@@ -1410,23 +1409,23 @@
              inkscape:label="infrastructureadaption.label"><tspan
                x="120"
                y="123.42522"
-               id="tspan178"><tspan
+               id="tspan91"><tspan
                  dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2645835"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan177">Infrastructure 
+                 id="tspan90">Infrastructure 
 </tspan></tspan><tspan
                x="120"
                y="126.75897"
-               id="tspan180"><tspan
+               id="tspan93"><tspan
                  dx="0 0 0 0 0 0 0 0 0.26458278"
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan179">Adaption
+                 id="tspan92">Adaption
 </tspan></tspan><tspan
                x="120"
                y="130.09272"
-               id="tspan182"><tspan
+               id="tspan95"><tspan
                  style="-inkscape-font-specification:sans-serif"
-                 id="tspan181">(Multi-VIM/Cloud)</tspan></tspan></text>
+                 id="tspan94">(Multi-VIM/Cloud)</tspan></tspan></text>
         </g>
       </a>
       <g
@@ -1460,20 +1459,20 @@
                inkscape:label="dcae.label"><tspan
                  x="81"
                  y="123.42522"
-                 id="tspan184"><tspan
+                 id="tspan97"><tspan
                    dx="0 0 0 0 0.26458302 -0.2645832 0 0 0 0 0 0 0 0 0 0 0.26458386"
-                   id="tspan183">Data Collection, 
+                   id="tspan96">Data Collection, 
 </tspan></tspan><tspan
                  x="81"
                  y="126.75897"
-                 id="tspan187"><tspan
+                 id="tspan100"><tspan
                    dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458368 0.26458421"
-                   id="tspan185">Analytics &amp; </tspan><tspan
+                   id="tspan98">Analytics &amp; </tspan><tspan
                    dx="-0.26458463 0 0 0 0 0 0.26458433"
-                   id="tspan186">Events </tspan></tspan><tspan
+                   id="tspan99">Events </tspan></tspan><tspan
                  x="81"
                  y="130.09272"
-                 id="tspan188">(DCAE)</tspan></text>
+                 id="tspan101">(DCAE)</tspan></text>
           </g>
         </a>
         <a
@@ -1504,7 +1503,7 @@
                inkscape:label="analytics.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan189">Analytics</tspan></text>
+                 id="tspan102">Analytics</tspan></text>
           </g>
         </a>
         <a
@@ -1535,7 +1534,7 @@
                inkscape:label="collectors.label"><tspan
                  x="83"
                  y="136.49163"
-                 id="tspan190">Collectors</tspan></text>
+                 id="tspan103">Collectors</tspan></text>
           </g>
         </a>
       </g>
@@ -1567,9 +1566,9 @@
              inkscape:label="strimzikafka.label"><tspan
                x="81.025391"
                y="107.49163"
-               id="tspan192"><tspan
+               id="tspan105"><tspan
                  dx="0 0 0 0 0 0 0 0.26458314 -0.26458272 0.26458254 -0.26458272"
-                 id="tspan191">Strimzi / Kafka</tspan></tspan></text>
+                 id="tspan104">Strimzi / Kafka</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -1603,14 +1602,14 @@
            inkscape:label="aai.label"><tspan
              x="216.00391"
              y="91.491631"
-             id="tspan194"><tspan
+             id="tspan107"><tspan
                dx="0 0 0 0 0 0 0.2645835 -0.26458368 0.26458326 -0.26458272 0 0 0 0 0 0 0 0 0.2645835"
-               id="tspan193">Active &amp; Available </tspan></tspan><tspan
+               id="tspan106">Active &amp; Available </tspan></tspan><tspan
              x="216.00391"
              y="94.825379"
-             id="tspan196"><tspan
+             id="tspan109"><tspan
                dx="0 0 0 0 0 0 0 0 0 0.26458338 -0.26458272"
-               id="tspan195">Inventory (AAI)</tspan></tspan></text>
+               id="tspan108">Inventory (AAI)</tspan></tspan></text>
       </g>
       <a
          id="a4515"
@@ -1640,14 +1639,14 @@
              inkscape:label="cps.label"><tspan
                x="216.00391"
                y="91.491631"
-               id="tspan198"><tspan
+               id="tspan111"><tspan
                  dx="0 0 0 0 0.092604198 -0.092604123 0 0 0 0 0 0 0 0.26458278 -0.26458272 0 0 0 0 0 0 0 0 0 0 0.26458541"
-                 id="tspan197">Configuration Persistence </tspan></tspan><tspan
+                 id="tspan110">Configuration Persistence </tspan></tspan><tspan
                x="216.00391"
                y="94.825379"
-               id="tspan200"><tspan
+               id="tspan113"><tspan
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272"
-                 id="tspan199">Service (CPS)</tspan></tspan></text>
+                 id="tspan112">Service (CPS)</tspan></tspan></text>
         </g>
       </a>
       <a
@@ -1679,13 +1678,13 @@
              inkscape:label="so.label"><tspan
                x="171.00391"
                y="91.809131"
-               id="tspan202"><tspan
+               id="tspan115"><tspan
                  dx="0 0 0 0 0 0 0 0.26458254 -0.26458272 0 0 0 0 0 0 0 0 0 0 0 0 0.26458278"
-                 id="tspan201">Service Orchestration
+                 id="tspan114">Service Orchestration
 </tspan></tspan><tspan
                x="171.00391"
                y="95.777881"
-               id="tspan203">(SO)</tspan></text>
+               id="tspan116">(SO)</tspan></text>
         </g>
       </a>
       <g
@@ -1719,11 +1718,11 @@
                inkscape:label="policyframework.label"><tspan
                  x="81"
                  y="91.742725"
-                 id="tspan206"><tspan
+                 id="tspan119"><tspan
                    dx="0 0 0 0 0 0 0.2645829"
-                   id="tspan204">Policy </tspan><tspan
+                   id="tspan117">Policy </tspan><tspan
                    dx="-0.26458272"
-                   id="tspan205">Framework</tspan></tspan></text>
+                   id="tspan118">Framework</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1753,7 +1752,7 @@
                inkscape:label="clamp.label"><tspan
                  x="83.003906"
                  y="97.491631"
-                 id="tspan207">CLAMP</tspan></text>
+                 id="tspan120">CLAMP</tspan></text>
           </g>
         </a>
       </g>
@@ -1789,9 +1788,9 @@
                inkscape:label="interfaces.label"><tspan
                  x="59"
                  y="74.742725"
-                 id="tspan209"><tspan
+                 id="tspan122"><tspan
                    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff"
-                   id="tspan208">Interfaces</tspan></tspan></text>
+                   id="tspan121">Interfaces</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1822,9 +1821,9 @@
                inkscape:label="usecaseui.label"><tspan
                  x="130.00391"
                  y="79.742725"
-                 id="tspan211"><tspan
+                 id="tspan124"><tspan
                    dx="0 0 0 0 0 0 0 0 0.2645835 -0.26458368 0 0.26458314 -0.26458272"
-                   id="tspan210">Use-Case UI (UUI)</tspan></tspan></text>
+                   id="tspan123">Use-Case UI (UUI)</tspan></tspan></text>
           </g>
         </a>
         <a
@@ -1854,7 +1853,7 @@
                inkscape:label="portal-ng.label"><tspan
                  x="60"
                  y="79.742725"
-                 id="tspan212">Portal-NG</tspan></text>
+                 id="tspan125">Portal-NG</tspan></text>
           </g>
         </a>
       </g>
@@ -1936,72 +1935,72 @@
            style="stroke-width:1.28633">
           <polygon
              class="st127"
-             points="7.16,217.11 114.85,217.11 7.16,149.91 "
+             points="7.16,149.91 7.16,217.11 114.85,217.11 "
              id="polygon1151"
              style="display:inline;stroke-width:1.28633" />
           <polygon
              class="st128"
-             points="136.86,217.11 244.95,217.11 244.95,149.68 "
+             points="244.95,149.68 136.86,217.11 244.95,217.11 "
              id="polygon1153"
              style="stroke-width:1.28633" />
           <polygon
              class="st128"
-             points="112.49,11.74 7.16,11.74 7.16,77.45 "
+             points="7.16,77.45 112.49,11.74 7.16,11.74 "
              id="polygon1155"
              style="stroke-width:1.28633" />
           <polygon
              class="st128"
-             points="244.95,76.13 244.95,11.74 141.76,11.74 "
+             points="141.76,11.74 244.95,76.13 244.95,11.74 "
              id="polygon1157"
              style="stroke-width:1.28633" />
           <polygon
              class="st86"
-             points="177.28,112.08 129,81.95 79.61,112.78 127.88,142.91 "
+             points="79.61,112.78 127.88,142.91 177.28,112.08 129,81.95 "
              id="polygon1159"
              style="stroke-width:1.28633" />
           <polygon
              class="st129"
-             points="32.97,83.67 79.61,112.78 129,81.95 82.34,52.84 "
+             points="129,81.95 82.34,52.84 32.97,83.67 79.61,112.78 "
              id="polygon1161"
              style="stroke-width:1.28633" />
           <polygon
              class="st129"
-             points="175.64,52.84 129,81.95 177.28,112.08 223.92,82.97 "
+             points="177.28,112.08 223.92,82.97 175.64,52.84 129,81.95 "
              id="polygon1163"
              style="stroke-width:1.28633" />
           <polygon
              class="st130"
-             points="82.34,52.84 129,81.95 175.64,52.84 129,23.73 "
+             points="175.64,52.84 129,23.73 82.34,52.84 129,81.95 "
              id="polygon1165"
              style="stroke-width:1.28633" />
           <polygon
              class="st131"
-             points="81.24,172.02 127.88,142.91 79.61,112.78 32.97,141.9 "
+             points="79.61,112.78 32.97,141.9 81.24,172.02 127.88,142.91 "
              id="polygon1167"
              style="stroke-width:1.28633" />
           <polygon
              class="st126"
-             points="29.62,85.74 29.62,139.81 32.97,141.9 79.61,112.78 32.97,83.67 "
+             points="32.97,141.9 79.61,112.78 32.97,83.67 29.62,85.74 29.62,139.81 "
              id="polygon1169"
              style="stroke-width:1.28633" />
           <polygon
              class="st131"
-             points="174.21,171.83 173.7,172.56 223.92,141.2 177.28,112.08 127.88,142.91 "
+             points="223.92,141.2 177.28,112.08 127.88,142.91 174.21,171.83 173.7,172.56 "
              id="polygon1171"
              style="stroke-width:1.28633" />
           <polygon
              class="st126"
-             points="223.92,82.97 177.28,112.08 223.92,141.2 226.85,139.38 226.85,84.8 "
+             points="223.92,141.2 226.85,139.38 226.85,84.8 223.92,82.97 177.28,112.08 "
              id="polygon1173"
              style="stroke-width:1.28633" />
           <polygon
              class="st132"
-             points="81.24,172.02 127.88,201.14 173.7,172.56 174.21,171.83 127.88,142.91 "
+             points="173.7,172.56 174.21,171.83 127.88,142.91 81.24,172.02 127.88,201.14 "
              id="polygon1175"
              style="stroke-width:1.28633" />
           <polygon
              class="st126"
-             points="177.28,112.08 127.88,142.91 79.61,112.78 129,81.95 "
+             points="79.61,112.78 129,81.95 177.28,112.08 127.88,142.91 "
              id="polygon1177"
              style="display:inline;stroke-width:1.28633" />
         </g>

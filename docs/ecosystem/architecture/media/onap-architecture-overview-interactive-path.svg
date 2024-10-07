@@ -12,9 +12,9 @@
    inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
    id="svg5"
    version="1.1"
-   viewBox="0 0 324.00025 243.99996"
-   height="243.99997mm"
-   width="324.00024mm"
+   viewBox="0 0 324.00001 236.99998"
+   height="236.99998mm"
+   width="324mm"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -31,14 +31,14 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.4142136"
-     inkscape:cx="607.75826"
-     inkscape:cy="467.39757"
+     inkscape:cx="888.12609"
+     inkscape:cy="533.86561"
      inkscape:window-width="3768"
      inkscape:window-height="2096"
      inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="g15324"
      height="190mm"
      showborder="true"
      inkscape:showpageshadow="true"
@@ -59,7 +59,7 @@
        spacingx="0.99999999"
        spacingy="0.99999999"
        empspacing="0"
-       originx="5.0000003"
+       originx="5.0000007"
        originy="-21.00001"
        snapvisiblegridlinesonly="false"
        visible="true"
@@ -92,11 +92,11 @@
      id="layer4"
      inkscape:label="vector.layer"
      style="display:inline"
-     transform="translate(-4.004765,-25.000011)"
+     transform="translate(-4.0047648,-25.000011)"
      inkscape:groupmode="layer">
     <g
        id="g5663"
-       transform="translate(1.77464e-6,26.947943)"
+       transform="translate(2.0151432e-6,19.947936)"
        style="display:inline"
        inkscape:label="color legend">
       <g
@@ -208,7 +208,7 @@
          id="rect88-7"
          style="display:inline;fill:#fcf0d3;stroke:#fcf0d3;stroke-width:4.03062"
          inkscape:label="managedenvironment.form"
-         d="M 12.004761,160.00101 H 320.00476 v 65.999 H 12.004761 Z" />
+         d="M 12.004761,160.00099 H 320.00476 v 58.89119 H 12.004761 Z" />
       <g
          id="text24922"
          style="font-size:6.35px;line-height:1.25;letter-spacing:-0.0926042px;word-spacing:-0.264583px;white-space:pre;opacity:0.4;stroke-width:0.264583"
@@ -226,15 +226,14 @@
       </g>
       <path
          id="rect55176-2"
-         style="display:inline;fill:none;stroke:#f6d27c;stroke-width:2;paint-order:stroke fill markers;stop-color:#000000"
+         style="display:inline;fill:none;stroke:#f6d27c;stroke-width:2.01531;paint-order:stroke fill markers;stop-color:#000000"
          inkscape:label="managedenvironmentborder.form"
-         transform="matrix(1,0,0,1.0153693,-4.9460986e-6,-2.4580935)"
-         d="M 7.0047655,155 H 325.00477 v 74.99999 H 7.0047655 Z" />
+         d="M 7.0047612,154.92415 H 325.00476 v 69.0451 H 7.0047612 Z" />
       <g
          id="g5896"
          inkscape:label="content"
          style="display:inline"
-         transform="matrix(1,0,0,1.0153693,-5.0270834e-6,-2.4580932)">
+         transform="matrix(1,0,0,1.0153693,-4.7865802e-6,-9.5656855)">
         <g
            id="g29902"
            transform="translate(-2.20667,-5.9402554)"
@@ -1497,72 +1496,72 @@
              id="polygon1151"
              style="display:inline;fill:#313032"
              class="st127"
-             d="M 7.16,217.11 H 114.85 L 7.16,149.91 Z" />
+             d="m 7.16,149.91 v 67.2 h 107.69 z" />
           <path
              id="polygon1153"
              style="fill:#24272a"
              class="st128"
-             d="M 136.86,217.11 H 244.95 V 149.68 Z" />
+             d="M 244.95,149.68 136.86,217.11 H 244.95 Z" />
           <path
              id="polygon1155"
              style="fill:#24272a"
              class="st128"
-             d="M 112.49,11.74 H 7.16 v 65.71 z" />
+             d="M 7.16,77.45 112.49,11.74 H 7.16 Z" />
           <path
              id="polygon1157"
              style="fill:#24272a"
              class="st128"
-             d="M 244.95,76.13 V 11.74 H 141.76 Z" />
+             d="M 141.76,11.74 244.95,76.13 V 11.74 Z" />
           <path
              id="polygon1159"
              style="fill:none"
              class="st86"
-             d="M 177.28,112.08 129,81.95 l -49.39,30.83 48.27,30.13 z" />
+             d="m 79.61,112.78 48.27,30.13 49.4,-30.83 L 129,81.95 Z" />
           <path
              id="polygon1161"
              style="fill:#00afaa"
              class="st129"
-             d="M 32.97,83.67 79.61,112.78 129,81.95 82.34,52.84 Z" />
+             d="M 129,81.95 82.34,52.84 32.97,83.67 79.61,112.78 Z" />
           <path
              id="polygon1163"
              style="fill:#00afaa"
              class="st129"
-             d="M 175.64,52.84 129,81.95 l 48.28,30.13 46.64,-29.11 z" />
+             d="M 177.28,112.08 223.92,82.97 175.64,52.84 129,81.95 Z" />
           <path
              id="polygon1165"
              style="fill:#66c9ba"
              class="st130"
-             d="M 82.34,52.84 129,81.95 175.64,52.84 129,23.73 Z" />
+             d="M 175.64,52.84 129,23.73 82.34,52.84 129,81.95 Z" />
           <path
              id="polygon1167"
              style="fill:#0069a7"
              class="st131"
-             d="M 81.24,172.02 127.88,142.91 79.61,112.78 32.97,141.9 Z" />
+             d="m 79.61,112.78 -46.64,29.12 48.27,30.12 46.64,-29.11 z" />
           <path
              id="polygon1169"
              style="fill:#007da5"
              class="st126"
-             d="m 29.62,85.74 v 54.07 l 3.35,2.09 46.64,-29.12 -46.64,-29.11 z" />
+             d="M 32.97,141.9 79.61,112.78 32.97,83.67 29.62,85.74 v 54.07 z" />
           <path
              id="polygon1171"
              style="fill:#0069a7"
              class="st131"
-             d="m 174.21,171.83 -0.51,0.73 50.22,-31.36 -46.64,-29.12 -49.4,30.83 z" />
+             d="m 223.92,141.2 -46.64,-29.12 -49.4,30.83 46.33,28.92 -0.51,0.73 z" />
           <path
              id="polygon1173"
              style="fill:#007da5"
              class="st126"
-             d="m 223.92,82.97 -46.64,29.11 46.64,29.12 2.93,-1.82 V 84.8 Z" />
+             d="m 223.92,141.2 2.93,-1.82 V 84.8 l -2.93,-1.83 -46.64,29.11 z" />
           <path
              id="polygon1175"
              style="fill:#002f87"
              class="st132"
-             d="m 81.24,172.02 46.64,29.12 45.82,-28.58 0.51,-0.73 -46.33,-28.92 z" />
+             d="m 173.7,172.56 0.51,-0.73 -46.33,-28.92 -46.64,29.11 46.64,29.12 z" />
           <path
              id="polygon1177"
              style="display:inline;fill:#007da5"
              class="st126"
-             d="M 177.28,112.08 127.88,142.91 79.61,112.78 129,81.95 Z" />
+             d="M 79.61,112.78 129,81.95 l 48.28,30.13 -49.4,30.83 z" />
         </g>
       </g>
     </a>
