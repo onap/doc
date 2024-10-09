@@ -32,7 +32,7 @@
      showgrid="true"
      inkscape:zoom="1.4142136"
      inkscape:cx="665.38746"
-     inkscape:cy="321.02647"
+     inkscape:cy="434.16355"
      inkscape:window-width="3768"
      inkscape:window-height="2096"
      inkscape:window-x="72"
@@ -736,7 +736,7 @@
     </g>
     <a
        id="a6"
-       xlink:title="Service Mesh: To be done"
+       xlink:title="Service Mesh is an infrastructure layer to handle communication between microservices in a distributed system. In ONAP, Istio Service Mesh with Envoy proxies as the sidecars manages all incoming and outgoing network/application traffic for ONAP applications with mTLS, authentication and authorization."
        inkscape:label="servicemesh.link"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
@@ -1188,7 +1188,7 @@
            onmouseover="style.opacity = 0.6;"
            onmouseout="style.opacity = 1.0;"
            xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
-           xlink:title="Logging Framework: To be done"
+           xlink:title="Logging Framework provides general-purpose logging collection/aggregation/persistence/visualization to ONAP applications, by leveraging open-source log collector, aggregator, database and visualizer (e.g., FluentBit, FluentD, ElasticSearch, Kibana)."
            transform="translate(-1.5909867e-5,42.000006)"
            style="display:inline">
           <g
@@ -1514,7 +1514,7 @@
          onmouseover="style.opacity = 0.6;"
          onmouseout="style.opacity = 1.0;"
          xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
-         xlink:title="Strimzi / Kafka: To be done">
+         xlink:title="Strimzi enables Apache Kafka on Kubernetes for a distributed streaming service designed for building real-time data pipelines and streaming applications. In ONAP, Strimzi/Kafka acts as a messaging system where producers send messages consumers read those messages asynchronously (a.k.a. pub-sub messaging exchange pattern) to broadcast messages among ONAP applications.">
         <g
            id="g7029"
            inkscape:label="strimzikafka"
@@ -1980,7 +1980,7 @@
     </a>
     <a
        id="a1"
-       xlink:title="Infrastructure Service: To be done"
+       xlink:title="Infrastructure Service supports the foundation of ONAP applications to run and includes computing, networking, storage, security and other essential resources. In ONAP, Service Mesh is placed in the Infrastructure service layer for secured ONAP application communications."
        xlink:href="https://docs.onap.org/en/latest/platform/architecture/index.html"
        onmouseover="style.opacity = 0.6;"
        onmouseout="style.opacity = 1.0;"
