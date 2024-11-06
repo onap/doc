@@ -5,10 +5,10 @@
 
 .. _onap-release-notes:
 
-'NewDelhi' Release Notes
-========================
+'Oslo' Release Notes
+====================
 
-This page provides the release notes for the ONAP 'NewDelhi' release. This
+This page provides the release notes for the ONAP 'Oslo' release. This
 includes details of software versions, known limitations, and outstanding
 trouble reports.
 
@@ -20,18 +20,20 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-'NewDelhi' Major Release 14.0.0
--------------------------------
+'Oslo' Major Release 15.0.0
+---------------------------
 
 +-----------------------------------+-----------------------------------------+
-| **Project**                       | Open Network Automation Platform (ONAP) |
+| **Project**                       | ONAP                                    |
 +-----------------------------------+-----------------------------------------+
-| **Release name**                  | NewDelhi                                |
+| **Release name**                  | Oslo                                    |
 +-----------------------------------+-----------------------------------------+
-| **Release version**               | 14.0.0                                  |
+| **Release version**               | 15.0.0                                  |
 +-----------------------------------+-----------------------------------------+
-| **Release date**                  | 2024, June 13th                         |
+| **Release date**                  | unreleased                              |
 +-----------------------------------+-----------------------------------------+
+
+=== TO BE UPDATED ===
 
 ONAP is evolving. We took efforts in streamlining processes and roles and
 NewDelhi release is the first one with agreed simplified software development
