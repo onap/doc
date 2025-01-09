@@ -57,8 +57,6 @@ CPS - Configuration Persistence Service
      - Documentation
    * - :ref:`cps<onap-cps:master_index>`
      - CPS Global
-   * - :ref:`cps/cps-temporal<onap-cps-cps-temporal:master_index>`
-     - CPS Temporal
    * - :ref:`cps/ncmp/dmi-plugin<onap-cps-ncmp-dmi-plugin:master_index>`
      - CPS DMI Plugin
 
