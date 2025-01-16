@@ -17,9 +17,9 @@ Oslo Releases
 
 The following releases are available:
 
-..  - `Oslo Major Release 14.0.0`_
+..  - `Oslo Major Release 15.0.0`_
 
-Oslo Major Release 14.0.0
+Oslo Major Release 15.0.0
 =========================
 
 +--------------------------------------+--------------------------------------+
