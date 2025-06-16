@@ -1,3 +1,4 @@
+
 .. This work is licensed under a Creative Commons Attribution
 .. 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
@@ -8,6 +9,7 @@
 .. Copyright 2022 ONAP Contributors
 .. Copyright 2023 ONAP Contributors
 .. Copyright 2024 ONAP Contributors
+.. Copyright 2025 ONAP Contributors
 .. Copyright 2025 ONAP Contributors
 
 .. _ONAP-architecture:
@@ -20,7 +22,7 @@ operators, cloud providers, and enterprises. Its real-time, policy-driven
 orchestration and automation of physical, virtual, and cloud native network
 functions enable rapid deployment of new services and comprehensive lifecycle
 management. These capabilities are critical for 5G and next-generation networks,
-enhanced by genAI/ML.
+enhanced by GenAI/ML.
 
 The ONAP projects address the growing need for common network automation
 functions among telecommunication, cable, and cloud service providers, along
@@ -108,8 +110,9 @@ interfaces, fostering industry alignment in addition to open source code.
 Architecture Overview
 ---------------------
 
-The ONAP architecture consists of design time and run time functions, as well
-as functions for managing ONAP itself.
+The ONAP architecture includes design time and run time functions, as well
+as functions (OOM) for managing ONAP itself. For updates introduced in the Paris
+release and beyond, refer to the ONAP Streamlining Evolution section.
 
    Note: Use the interactive features of the ONAP Architecture Overview below.
    Click to enlarge the figure, then hover your mouse over an element for a short
@@ -278,6 +281,88 @@ The target architecture is as following:
 
 See the Resources page on '<https://lf-onap.atlassian.net/wiki/spaces/DW/pages/16554594/ONAP+Streamlining+Evolution>'-
 
+ONAP Transformation Target
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+No longer a single platform! ONAP is a collection of network automation functions,
+that orchestrate and automate network and edge computing services.
+
+- Offers semi-standalone network automation functions within LFN
+- Supports building and deploying ONAP components using CI/CD
+- Uses standard, API-based interfaces for easier integration
+- Allows ONAP components to run independently via GitOps and CD tools
+- Moves toward intent-driven architecture aligned with key industry standards (3GPP, ETSI, TMForum, O-RAN, IETF)
+- Shifts resource-level orchestration to external tools like O-RAN SC SMO and Nephio
+- Maintains strong security support (Service Mesh, Ingress, OAuth2, IdAM)
+- Use Git-based onboarding and runtime automation to trigger ONAP functions
+
+|image3|
+
+**Figure 3. ONAP Transformation Target**
+
+Semi-Standalone ONAP Projects
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- ONAP projects are now semi-standalone, managed independently from build to runtime
+- Governance teams (TSC, ARCCOM, SECCOM) and common services (OOM, Document) continue to
+  provide guidance to projects
+  - ONAP governance keeps its own consultation and oversight cycles to ensure best practices,
+  architectural consistency, and strong security
+  - OOM team provides common services such as Istio, Keycloak, argoCD, Flux CD, secure CI/CD,
+  Helm support and testing
+  - Documentation team provides the official documentation for ONAP projects
+- Each project defines its own release schedule, no longer tied to half-year ONAP cadence
+  (ending after the Paris release)
+  - Projects must report key updates to ONAP governance to ensure interoperability
+  - Modularization allows flexible selection of ONAP sub-components at or after build time
+
+See the Resource page on '<https://lf-onap.atlassian.net/wiki/spaces/DW/pages/153059629/ONAP+Semi-Standalone+Project+Evolution>'
+
+|image4|
+
+**Figure 4. ONAP Semi-Standalone Projects**
+
+ONAP Organization Chart for Semi-Standalone Projects
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- A new ONAP organization chart is in place
+- Governance and common services teams continue to guide projects
+- ONAP functions will be exposed individually and directly to consumers
+- Each ONAP project must report key updates to ONAP governance committees
+
+|image5|
+
+**Figure 5. ONAP Organization Chart**
+
+- Project with PTLs:
+  - Projects are active, with new features continuously being added
+  - Project PTLs control the project release cycles in an agile manner
+  - Projects will have their own versions (e.g., Helm Chart versions, release versions) based on features
+  and development cycles
+  - Documentation will be updated actively
+- Projects without PTLs:
+  - Projects are not deprecated yet because other ONAP projects still use them
+  - There are no active feature enhancements, but software packages are updated to mitigate software
+  vulnerabilities
+  - DT volunteers to handle software package upgrades for SDC, AAI, DCAE and MultiCloud, for the time being
+  - Once each project decouples its dependencies from projects without PTLs, these projects could become
+  candidates for deprecation
+  - documentation will be officially managed by the Documentation team
+
+ONAP Component Value Propositions & Why
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Value Proposition
+- Comprehensive Network Automation
+- Industry Adoption
+- Evolving from Complexity to Modularity
+- Security & Compliance
+- AI and Intent-based Automation
+- Open-Source and Community-Driven
+
+Why Choose Components from ONAP and What We can Do with Them?
+- Scalability: Handles large-scale network automation and orchestration
+- Flexibility: Supports multi-vendor interoperability
+- Efficiency: Reduces operational complexity and costs
+- Security: Adheres to industry best practices and security protocols
+- Future-Ready: Supports 5G, edge computing, AI-driven automation
+
 ONAP Component Design, Build & Deployment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ONAP components are independently deployable pieces of software, built out of
@@ -304,32 +389,39 @@ will store built ONAP components into the Artifact Repository (e.g., Nexus).
 This can be changed. CD (e.g., ArgoCD, Flux, others) will be used to
 pick-and-choose ONAP components.
 
-|image3|
+|image6|
 
-**Figure 3. ONAP Streamlining Component Build and Deployment**
+**Figure 6. ONAP Streamlining Component Build and Deployment**
 
 For more details of ONAP streamlining, see the ONAP Streamlining - The Process
 page, https://wiki.onap.org/display/DW/ONAP+Streamlining+-+The+Process
 
 Component Function Summary
 --------------------------
-Note: The following components are deprecated as of the Oslo release:
+ONAP individual component functions are as follows:
 
-- Message Bus (MSB)
-- VNF SDK
-- VVP
-- External APIs
-- CLI
-- Correlation Engine (Holmes)
-- Virtual Function Controller (VFC)
-- OOF
-- Model Utilities
-- NBI
-- DMaaP
+- SDC (Service Design and Creation): Service/NS/VNF/CNF onboarding, distribution of service models
+- SO (Service Orchestrator): Executes workflows for service instantiation, scaling, and healing;
+  interacts with Multi-Cloud, SDNC and A&AI
+- SDNC (Software Defined Network Controller): Handles network-level orchestration, coordinates with
+  SO to apply configurations
+- Multi-Cloud (Infrastructure Abstraction): Supports virtual and containerized workload and deployments,
+  plugin-based support for different VIMs and K8s distributions
+- DCAE (Data Collection, Analytics, and Events): Streamlining data ingestions, hosting analytics apps,
+  supports runtime policy triggering
+- Policy Framework: Execute rules, triggers actions in SO/SDNC, supports guard policies and runtime
+  policy evaluation
+- CPS (Configuration Persistence Service): Provides a lightweight, scalable, model-driven platform to
+  store, retrieve, and manage configuration data for network functions and services
+- A&AI (Active and Available Inventory): Real-time topology awareness, source of truth for orchestration,
+  tracks lifecycle state of deployed services
+- Portal NG: Central access point for ONAP GUIs
+- UUI (User Usecase Interfaces): User-centric graphical interface for service order, monitoring, closed-loop
+  actions, and NLP & GenAI
 
-|image4|
+|image7|
 
-**Figure 4: ONAP Architecture Overall Function Descriptions**
+**Figure 7: ONAP Architecture Overall Function Descriptions**
 
 Simplified and Individual Functional Overview of the Architecture
 -----------------------------------------------------------------
@@ -367,9 +459,9 @@ The information Model and framework utilities continue to evolve to harmonize
 topology, workflow, and policy models from various SDOs, including ETSI NFV MANO,
 TM Forum SID, 3GPP, ONF Core, OASIS TOSCA, IETF, and MEF.
 
-|image5|
+|image8|
 
-**Figure 5. Simplified Functional View of the ONAP Architecture**
+**Figure 8. Simplified Functional View of the ONAP Architecture**
 
 Oslo Release Key Development
 ----------------------------
@@ -399,6 +491,25 @@ Oslo Release Key Development
   the Open Source Security Foundation (OpenSSF) Gold Badging standard, demonstrating
   ONAP's commitment to high-quality, secure, and reliable open-source software
   development.
+
+ONAP Projects Enhancements for Paris
+------------------------------------
+- ONAP Development and Manageability Improvement
+  - Individual ONAP projects use ArgoCD (or Flux CD, targeted for Quebec), for faster,
+  automated deployment and management across multi-clusters and multi-cloud environments
+  - Use cases and documentation on how to use and integrate components to lower barriers
+  to ONAP adoption
+  - ONAP project chart with its own Git repo or subfolders (plan for now)
+- Exploring Agentic Framework in ONAP
+  - Model-As-A-Service (MAAS) to manage and deliver GenAI artifacts
+  - Enhancing intelligent component operations, feedback and decision-making
+  - ONAP GenAI capabilities and use cases (potentially leveraging open-source AI framework
+  in the future)
+- Policy-OPA-PDP solution to the ONAP Policy Framework
+  - Integrating OPA (Open Policy Agent) PDP support for centralizing, automating, and
+  standardizing decision-making
+  - Enabling decoupling from code, fine-grained control, dynamic decision and cloud-native
+  ready
 
 Microservices Support
 ---------------------
@@ -474,56 +585,15 @@ secure component communications, by leveraging Istio.
 As the result, unmaintained AAF functionalities have become obsolete and have been
 replaced by Istio-based Service Mesh and Ingress starting with the Montreal release.
 
-|image6|
+Security Framework including Service Mesh has also replaced the deprecated MSB functions.
+Consequently, MSB becomes an obsolete ONAP component.
 
-**Figure 6. Security Framework component architecture**
+|image9|
+
+**Figure 9. Security Framework component architecture**
 
 For OOM enhancements for ONAP Streamlining evolution, see the ONAP Streamlining
 evolution section.
-
-Microservices Bus (MSB)
-^^^^^^^^^^^^^^^^^^^^^^^
-.. warning:: The ONAP :strong:`MSB` project is :strong:`deprecated`.
-             As of Release 13 'Montreal' the component is no longer part of the
-             ONAP deployment.
-
-The Microservices Bus (MSB) previously provided fundamental microservices support,
-including service registration/ discovery, external API gateway, internal API
-gateway, client software development kit (SDK), and Swagger SDK. When integrated
-with OOM, MSB featured a Kube2MSB registrar, which extracted services information
-from Kubernetes metafile and automatically registered services for ONAP components.
-
-Since the London release, ONAP Security Framework components have provided secure
-communication capabilities, offering a more Kubernetes-native. Consequently, MSB
-had been replaced by the Security Framework, making MSB becomes an obsolete ONAP
-component.
-
-In alignment with the global of leveraging microservice capabilities, further steps
-have been taken to increase modularity. The Service Orchestrator (SO) and controllers
-have enhanced their level of modularity to better align with the microservices
-architecture.
-
-Portal-NG
----------
-ONAP had a portal project but this project was terminated and archived.
-Portal-NG is a GUI platform function that enables the integration of various ONAP
-GUIs into a centralized portal. It offers the following features:
-
-- The ability for ONAP components to run within their own infrastructure while
-  providing centralized management services and capabilities
-- Common functionalities such as application onboarding and management,
-  centralized access management, hosting application widgets, context-aware
-  UI controls, and a visualization and reporting engine
-- SDK capabilities for accessing portal functionalities
-- Multi-language support
-
-Portal-NG supports administrative roles for managing the Portal-NG itself and
-the on-boarded applications. From the ONAP Portal-NG, administration can:
-
-- Access all functionalities available to regular users
-- Manage users and application administrators
-- Onboard applications and widgets
-- Edit the functional menu
 
 Design Time Components
 ----------------------
@@ -588,19 +658,27 @@ altering the technical behaviors of the components using those policies without
 requiring software code rewrites. This abstraction simplifies the management
 and control of complex systems.
 
-VNF SDK
-^^^^^^^
-.. warning:: The ONAP :strong: 'VNF SDK' project is :strong:'deprecated'.
+Portal-NG
+^^^^^^^^^
+ONAP had a portal project but this project was terminated and archived.
+Portal-NG is a GUI platform function that enables the integration of various ONAP
+GUIs into a centralized portal. It offers the following features:
 
-The VNF SDK previously provided functionality for creating VNF/PNF packages,
-testing VNF packages for ONAP compliance, storing VNF/PNF packages, and
-uploading or downloading to or from a marketplace.
+- The ability for ONAP components to run within their own infrastructure while
+  providing centralized management services and capabilities
+- Common functionalities such as application onboarding and management,
+  centralized access management, hosting application widgets, context-aware
+  UI controls, and a visualization and reporting engine
+- SDK capabilities for accessing portal functionalities
+- Multi-language support
 
-VVP
-^^^
-.. warning:: The ONAP :strong: 'VVP' project is :strong:'deprecated'.
+Portal-NG supports administrative roles for managing the Portal-NG itself and
+the on-boarded applications. From the ONAP Portal-NG, administration can:
 
-The VVP previously provided validation for VNF Heat packages.
+- Access all functionalities available to regular users
+- Manage users and application administrators
+- Onboard applications and widgets
+- Edit the functional menu
 
 Runtime Components
 ------------------
@@ -665,45 +743,9 @@ or NSSMF components. For ONAP-based network slice management, different
 implementation options are available. Currently, ONAP orchestration supports
 options #1 and #4.
 
-|image7|
+|image10|
 
-**Figure 7: ONAP Network Slicing Support Options**
-
-
-Virtual Infrastructure Deployment (VID) - obsolete
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. warning:: The ONAP :strong:`vid` project is :strong:`deprecated`.
-             As of Release 12 'London' the component is no longer part of the
-             ONAP deployment.
-
-The Virtual Infrastructure Deployment (VID) application previously allowed
-users to instantiate infrastructure services from SDC, along with their
-associated components, and perform change management operations, such as
-scaling and software upgrades, on existing VNF instances.
-
-Policy-Driven Workload Optimization
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. warning:: The ONAP :strong:'OOF' project is :strong:'deprecated'.
-
-The ONAP Optimization Framework (OOF) previously offered a policy-driven
-and model-driven framework for developing optimization applications for a wide
-range of use cases. The OOF Homing and Allocation Service (HAS) was a policy
-driven workload optimization service that enabled the optimized placement of
-services across multiple sites and clouds. This optimization was based on a
-variety of policy constraints, including capacity, location, platform
-capabilities, and other service specific constraints.
-
-ONAP Multi-VIM/Cloud (MC) and several other ONAP components, such as Policy, SO,
-A&AI, previously leveraged OOF-HAS for "Policy-driven Performance/Security-Aware
-Adaptive Workload Placement/Scheduling" across cloud sites. OOF-HAS utilizes
-cloud-agnostic intent capabilities and real-time capacity checks provided
-by ONAP MC to determine the optimal VIM/Cloud instances. These instances are
-selected to meet required performance SLAs for workload (e.g., VNF) placement
-and scheduling (Homing).
-
-This approach enables operators to realize the true value of virtualization
-by optimizing cloud resources at a fine-grained level while ensuring performance
-and security SLAs are met.
+**Figure 10: ONAP Network Slicing Support Options**
 
 Controllers
 ^^^^^^^^^^^
@@ -866,9 +908,9 @@ the context of a Control Loop, effectively serving as a Policy UI. The integrati
 of CLAMP into the Policy Framework was officially completed in the Istanbul
 release.
 
-|image8|
+|image11|
 
-**Figure 8: ONAP Closed Control Loop Automation**
+**Figure 11: ONAP Closed Control Loop Automation**
 
 Multi Cloud Adaptation
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -895,15 +937,8 @@ Key capabilities include:
 - Collecting, ingesting, transforming and storing data as needed for analysis
 - Providing a framework for the development of analytics applications
 
-Virtual Function Controller (VFC)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- .. warning:: The ONAP :strong:'VFC' project is :strong:'deprecated'.
-
-VFC previously provided NFVO capabilities to manage the lifecycle of network
-services and VNFs in compliance with the ETSI NFV specification.
-
-Data Movement as a Platform (DMaaP)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Strimzi / Kafka
+^^^^^^^^^^^^^^^
  .. warning:: The ONAP :strong:'DMaaP' project is :strong:'deprecated'.
 
 DMaaP previously provided data movement services for transporting and processing
@@ -940,9 +975,9 @@ UUI contains the following sub-components:
 
 See UUI Component Architecture,
 
-|image9|
+|image12|
 
-**Figure 9. UUI Component Architecture**
+**Figure 12. UUI Component Architecture**
 
 Configuration Persistence Service (CPS)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -953,18 +988,6 @@ utilize CPS for these purposes.
 
 Its details in
 :ref:'CPS - Configuration Persistence Service<onap-cps:architecture>'.
-
-CLI
-^^^
-.. warning:: The ONAP :strong:'CLI' project is :strong:'deprecated'.
-
-ONAP CLI previously provided a command-line interface for accessing ONAP.
-
-External APIs
-^^^^^^^^^^^^^
-.. warning:: The ONAP :strong:`externalapi` project is :strong:`unmaintained`.
-
-External APIs were previously used to expose ONAP capabilities.
 
 Shared Services
 ---------------
@@ -979,21 +1002,13 @@ lifecycle management.
 ONAP Shared Services provide shared capabilities for ONAP modules, such as
 access management, security enforcement, and logging.
 
-Optimization Framework (OOF)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. warning:: The ONAP :strong:'OOF' project is :strong:'deprecated'.
-
-The Optimization Framework (OOF) previously offered a declarative, policy-driven
-approach for creating and executing optimization applications, such as like
-Homing/Placement and Change Management Scheduling Optimization.
-
 Security Framework
 ^^^^^^^^^^^^^^^^^^
 The Security Framework utilizes open-source security patterns and tools, including
 Istio, Ingress Gateway, oauth2-proxy, and Keycloak. It ensures secure external and
 inter-component communications, as well as authentication and authorization.
 
-See the Figure 6. Security Framework component architecture for its architecture.
+See the Figure 8. Security Framework component architecture for its architecture.
 
 Logging Framework (PoC)
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -1005,30 +1020,6 @@ application log generation from log collection, aggregation, persistence,
 visualization, and analysis. In this setup, ONAP applications focus solely on
 log generation, while the Logging Framework stack manages the remaining processes.
 This approach allows operators to leverage or extend their own logging stacks.
-
-ONAP Modeling
--------------
-.. warning:: The ONAP :strong:'ONAP Modeling' project is :strong:'deprecated'.
-
-ONAP previously provided models to assist with service design, the development
-of ONAP service components, and the enhancement of standards interoperability.
-Models are a critical component of both the design time and runtime framework
-development. The ONAP modeling project leverages the expertise of member companies,
-standard organizations, and other open source projects to create models that are
-simple, extensible, and reusable.
-
-The goal is to meet the requirements of various use cases, guide the development,
-ensure consistency across ONAP components, and explore a common model to enhance
-ONAP interoperability. ONAP supports various models, as detailed in the Modeling
-documentation.
-
-Since the Kohn release, a new CNF modeling descriptor, the Application Service
-Description (ASD), has been introduced. This addition simplifies CNF modeling and
-orchestration by delegating resource modeling to Kubernetes-based resource
-descriptors, such as Helm Charts.
-
-The modeling project previously supported the ETSI catalog component, which
-offered parser functionalities and additional package management capabilities.
 
 Industry Alignment
 ------------------
@@ -1077,9 +1068,9 @@ These requirements have driven the five initiatives mentioned above and were
 developed in close collaboration with standards and open-source organizations,
 including 3GPP, TM Forum, ETSI, and O-RAN alliance.
 
-|image10|
+|image13|
 
-**Figure 10. End-to-end 5G Service**
+**Figure 13. End-to-end 5G Service**
 
 Read the `5G Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2019/07/ONAP_CaseSolution_5G_062519.pdf>`_
 to learn more.
@@ -1089,9 +1080,9 @@ multiple Linux Foundation projects collaborate to demonstrate an end-to-end
 5G network. In the short term, this blueprint will showcase three major projects:
 ONAP, Anuket (K8S NFVI), and Magma (LTE/5GC).
 
-|image11|
+|image14|
 
-**Figure 11. 5G Super Blueprint Initial Integration Activity**
+**Figure 14. 5G Super Blueprint Initial Integration Activity**
 
 In the long-term, the 5G Super Blueprint will also integrate O-RAN-SC and LF Edge
 projects.
@@ -1112,9 +1103,9 @@ of services to the subscriber at a much lower cost of the operator.
 This blueprint leverages ONAP to support the complex orchestration and management
 of open-source VNFs, as well as both virtual and underlay connectivity.
 
-|image12|
+|image15|
 
-**Figure 12. ONAP vCPE Architecture**
+**Figure 15. ONAP vCPE Architecture**
 
 Read the `Residential vCPE Use Case with ONAP blueprint <https://www.onap.org/wp-content/uploads/sites/20/2018/11/ONAP_CaseSolution_vCPE_112918FNL.pdf>`_
 to learn more.
@@ -1132,9 +1123,9 @@ and service assurance of broadband services. Additionally, it demonstrates how
 ONAP can orchestrate services across different locations (e.g., Central Office,
 Core) and technology domains (e.g., Access, Edge).
 
-|image13|
+|image16|
 
-**Figure 13. ONAP BBS Architecture**
+**Figure 16. ONAP BBS Architecture**
 
 Read the `Residential Connectivity Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2019/07/ONAP_CaseSolution_BBS_062519.pdf>`_
 to learn more.
@@ -1157,9 +1148,9 @@ management.
 This blueprint also demonstrates advanced functionalities such as scaling and
 change management.
 
-|image14|
+|image17|
 
-**Figure 14. ONAP VoLTE Architecture Open Network Automation**
+**Figure 17. ONAP VoLTE Architecture Open Network Automation**
 
 Read the `VoLTE Blueprint <https://www.onap.org/wp-content/uploads/sites/20/2018/11/ONAP_CaseSolution_VoLTE_112918FNL.pdf>`_
 to learn more.
@@ -1176,9 +1167,9 @@ flat, high-speed OTN (Optical Transport Networks) across carrier networks.
 They also aim to offer high-speed, flexible and intelligent services for high-value
 customers, as well as instant and adaptable VPN services for SMB companies.
 
-|image15|
+|image18|
 
-**Figure 15. ONAP CCVPN Architecture**
+**Figure 18. ONAP CCVPN Architecture**
 
 The CCVPN (Cross Domain and Cross Layer VPN) blueprint combines SOTN (Super
 high-speed Optical Transport Network) with ONAP, leveraging ONAP's orchestration
@@ -1218,9 +1209,9 @@ The MDONS blueprint, developed by AT&T, Orange, and Fujitsu, addresses this
 challenge. When used together, MDONS and CCVPN provide a comprehensive solution
 to the OTN automation problem.
 
-|image16|
+|image19|
 
-**Figure 16. ONAP MDONS Architecture**
+**Figure 19. ONAP MDONS Architecture**
 
 Intent Based Network (IBN) Use Case
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1230,9 +1221,9 @@ operations. This use case provides a valuable business function by reducing
 management operating expenses (OPEX) through a paradigm shift from complex
 procedural operations to declarative intent-driven operations.
 
-|image17|
+|image20|
 
-**Figure 17. ONAP Intent-Based Networking Use Case**
+**Figure 20. ONAP Intent-Based Networking Use Case**
 
 3GPP 28.812, Intent driven Management Service (Intent driven MnS), defines
 key concepts utilized in this initiative. The Intent-Based Networking (IBN)
@@ -1305,6 +1296,116 @@ and automated use cases can be found here: doc:'Verified Use Cases<onap-integrat
 
 Future Considerations
 ---------------------
+
+Near-Term / Mid-Term Plans
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+Lightweight ONAP Components and Use Cases
+
+- As part of the semi-standalone evolution, ONAP is building lightweight, flexible, extensible
+  and configurable individual ONAP components to support tailoring the desired features
+- Enhancement to OOM and project build scripts promote the use of separate Helm repositories
+  for each project
+- Lightweight ONAP reference solutions and use cases on what and how to select and assemble
+  relevant core components
+- These use cases are not scheduled yet for the Paris release for resource and timing constraints,
+  but they can be reconsidered for inclusion in the Quebec release (Q3-Q4 2025) or in a future
+  release beyond that
+
+Generic Repository-Based Component Build & Deployment
+
+- Multi-tenancy, multi-workload, multi-namespace environment support
+- ONAP components can be deployed alongside other vendor/operator components through Git and CDs
+  (ArgoCD, Flux CD)
+
+|image21|
+
+**Figure 21. ONAP Generic Repository-Based Component Build & Deployment**
+
+Generic Repository-Based Packages/Intents & CD-based Orchestration
+
+- Packages & intents onboarding through Git triggers ONAP function operations via CDs (ArgoCD / Flux)
+  - Corresponding operators trigger individual ONAP functions based on intent targets
+- Applications, packages and intents operate within a multi-tenancy, multi-workload cluster and
+  multi-namespace runtime
+
+|image22|
+
+**Figure 22. ONAP GitOps and CD-based Runtime Orchestration**
+
+Long-Term Plans - Beyond 2025
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Strategic initiatives beyond 2025
+
+- Move to GitOps and CD for consistent onboarding and runtime orchestration across LFN projects
+  like O-RAN SC and Nephio
+- Use AI to optimize network performance, security, and enable closed-loop automation based on
+  real-time conditions
+- Adopt post-quantum safe encryption and remove outdated cryptographic methods
+- AI-enabled ONAP functional enhancements, with open-source AI framework
+  - Managing and orchestrating AI services for telecom networks, deployed as Services, NSs and
+  CNFs
+  - Initiating Telecom-Domain LLMs, e.g., by enhancing UUI Domain LLMs supports
+
+Integration with other LF projects or external communities
+
+- External exposure of lightweight and modular ONAP components to foster broader ecosystem adoption
+- Improve compatibility with O-RAN SC and Nephio using GitOps and operational alignment
+- Position ONAP as an end-to-end service orchestrator with AI/GenAI support
+
+Generated by ChatGpt
+
+|image23|
+
+**Figure 23. ONAP AI-enabled Functional Enhancements**
+
+Long-Term Plans - Choreography Use Case
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- ONAP CI/CD and Repository mechanisms can be replaced or extended by vendor/operator solutions
+- The repository stores artifacts, intents, and models, and supports multiple LLMs via an
+  abstraction layer
+- Intents can be submitted directly from ONAP or vendor/operator components, or from OSS clients
+  via the Intent Manager or UUI
+- Intent handling is divided as follows: user-level intents are translated in the UUI; system-level
+  intents are processed by the Intent Manager
+- The CD system monitors the repository and reconciles events, delivering intents to ONAP components
+  via operators
+- Operators act as facades that trigger ONAP component functions, depending on the specific
+  use cases
+- ONAP components make business decisions and perform actuations. These actuations may result in
+  further actions or generate additional intents, which are stored back in the repository
+- CI pipelines store Helm Charts and other artifacts for ONAP components to consume as needed
+- ONAP supports a hybrid API model that leverages both declarative and imperative APIs
+
+|image24|
+
+**Figure 24. ONAP Choreography Use Case**
+
+Component Interface Abstraction
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- ONAP component interfaces should be designed/used for/by not only ONAP but also non-ONAP
+- ONAP component functions can be substituted and/or extended by vendors/operators
+- Component dependencies and couplings to other ONAP components should be removed
+- Those dependencies and couplings could be both syntactic and semantic
+- Intra-ONAP component interfaces and communications should not be ONAP-specific
+- Aligning with standards where possible (e.g., ETSI NFV MANO, ASD, 3GPP SA5...) should be
+  global requirements
+- If there must be a deviation, that can be done in an extensible way that enables the standard-
+  based approach
+- The exposed service interfaces should be for both ONAP and non-ONAP; promote ONAP component
+  interfaces as LFN de facto standards
+- If exposed service interfaces conform to industry standards (e.g., ETSI SOL005, ETSI SOL003,
+  3GPP SA5), the interactions between the service provider and consumer would be simplified
+- For now, the service consumers can use adapters which choose a desired service interface
+- Action points:
+- Promote ONAP component API models and interfaces as open-source de facto APIs
+- Event Handler / operator facade can be used trigger ONAP components as the previous slide
+
+|image25|
+
+**Figure 25. ONAP Component Interface Abstraction**
+
+Future Considerations Summary
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The ONAP components offer a comprehensive solution for real-time, policy-
 driven orchestration and automation of physical, virtual and cloud-native
 network functions. It enables software, network, IT, and cloud providers,
@@ -1318,7 +1419,7 @@ Key future considerations for ONAP are as follows:
   - Argo-CD is a DT choice, but ONAP can allow other CDs, e.g., Flux
   - DT plans to productize some of the selected ONAP core components in their TNAP production environment
 - Declarative and Intent-based component operations by the Repository-based
-  Network Automation : see the ideas from ONAP Architecture Evolution - Ideas (November 2023)
+  Network Automation : see the ideas from ONAP Architecture Evolution - Ideas (November 2023), https://lf-onap.atlassian.net/wiki/download/attachments/88244262/ONAP%20Architecture%20Evolution%20-%20Final.pdf?version=1&modificationDate=1735824625567&cacheVersion=1&api=v2
 - Make ONAP core components more autonomous and ready for use by both ONAP,
   LF and other external users
   - During New Delhi and Oslo releases, CPS and Policy achieved the OpenSSF
@@ -1363,33 +1464,49 @@ See the Resources page on `ONAP.org <https://www.onap.org/resources>`_
 
 .. |image2| image:: media/ONAP-Streamlining-Transformation.png
    :width: 800px
-.. |image3| image:: media/ONAP-Streamlining-Build-Deployment.png
+.. |image3| image:: media/ONAP-Streamlining-Target.png
    :width: 800px
-.. |image4| image:: media/ONAP-architecture-functions.png
+.. |image4| image:: media/ONAP-semi-standalone-projects.png
    :width: 800px
-.. |image5| image:: media/ONAP-fncview.png
+.. |image5| image:: media/ONAP-org-chart.png
    :width: 800px
-.. |image6| image:: media/ONAP-securityFramework.png
+.. |image6| image:: media/ONAP-Streamlining-Build-Deployment.png
    :width: 800px
-.. |image7| image:: media/ONAP-NetworkSlicingOptions.png
+.. |image7| image:: media/ONAP-architecture-functions.png
    :width: 800px
-.. |image8| image:: media/ONAP-closedloop.png
+.. |image8| image:: media/ONAP-fncview.png
    :width: 800px
-.. |image9| image:: media/UUI-Component-Architecture.png
+.. |image9| image:: media/ONAP-securityFramework.png
    :width: 800px
-.. |image10| image:: media/ONAP-5G.png
+.. |image10| image:: media/ONAP-NetworkSlicingOptions.png
    :width: 800px
-.. |image11| image:: media/ONAP-5GSuperBP-Integration.png
+.. |image11| image:: media/ONAP-closedloop.png
    :width: 800px
-.. |image12| image:: media/ONAP-vcpe.png
+.. |image12| image:: media/UUI-Component-Architecture.png
    :width: 800px
-.. |image13| image:: media/ONAP-bbs.png
+.. |image13| image:: media/ONAP-5G.png
    :width: 800px
-.. |image14| image:: media/ONAP-volte.png
+.. |image14| image:: media/ONAP-5GSuperBP-Integration.png
    :width: 800px
-.. |image15| image:: media/ONAP-ccvpn.png
+.. |image15| image:: media/ONAP-vcpe.png
    :width: 800px
-.. |image16| image:: media/ONAP-mdons.png
+.. |image16| image:: media/ONAP-bbs.png
    :width: 800px
-.. |image17| image:: media/ONAP-IntentBasedNetworking.png
+.. |image17| image:: media/ONAP-volte.png
+   :width: 800px
+.. |image18| image:: media/ONAP-ccvpn.png
+   :width: 800px
+.. |image19| image:: media/ONAP-mdons.png
+   :width: 800px
+.. |image20| image:: media/ONAP-IntentBasedNetworking.png
+   :width: 800px
+.. |image21| image:: media/ONAP-repo-based-build-deployment.png
+   :width: 800px
+.. |image22| image:: media/ONAP-GitOps-CD-based-orchestration.png
+   :width: 800px
+.. |image23| image:: media/ONAP-AI-enabled-func-enhancement.png
+   :width: 800px
+.. |image24| image:: media/ONAP-choreo-intent-use-case.png
+   :width: 800px
+.. |image25| image:: media/ONAP-project-interface-abstraction.png
    :width: 800px
