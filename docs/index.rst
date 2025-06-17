@@ -18,8 +18,8 @@
     develops as the contributing projects develop. Even if you read a specific
     release name here, the content may cover a future ONAP release.
 
-    **The official release documentation for ONAP 'NewDelhi' can be found**
-    `[here] <https://docs.onap.org/en/newdelhi/>`__
+    **The official release documentation for ONAP 'Oslo' can be found**
+    `[here] <https://docs.onap.org/en/Oslo/>`__
 
 
 |
