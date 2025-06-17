@@ -5,8 +5,8 @@
 
 .. _onap-release-notes:
 
-'Oslo' Release Notes
-====================
+'Paris' Release Notes
+=====================
 
 This page provides the release notes for the latest ONAP release. This
 includes details of software versions, known limitations, and outstanding
@@ -26,23 +26,23 @@ maintained in the component specific release notes.
 +-----------------------------------+-----------------------------------------+
 | **Project**                       | ONAP                                    |
 +-----------------------------------+-----------------------------------------+
-| **Release name**                  | Oslo                                    |
+| **Release name**                  | Paris                                   |
 +-----------------------------------+-----------------------------------------+
-| **Release version**               | 15.0.0                                  |
+| **Release version**               | 16.0.0                                  |
 +-----------------------------------+-----------------------------------------+
-| **Release date**                  | 2025, January 16th                      |
+| **Release date**                  | not released yet                        |
 +-----------------------------------+-----------------------------------------+
 
 ONAP is a comprehensive collection of Network Automation functions, including
 orchestration, management, and automation of network and edge computing
 services for network operators, cloud providers, and enterprises.
 
-The ONAP Oslo release continues the ONAP Streamlining evolution, advancing
+The ONAP Paris release continues the ONAP Streamlining evolution, advancing
 individual ONAP components and clusters, enhancing security, modernizing
 environments, and supporting intent-based declarative solutions and GenAI
 capabilities.
 
-The Oslo key features as follows:
+The Paris key features as follows [TO BE UPDATED]:
 
 - **Security Enhancements**: ONAP projects have addressed critical security
   concerns by converting ports to HTTPS, removing hard-coded passwords,
