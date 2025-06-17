@@ -1,7 +1,7 @@
 .. This work is licensed under a Creative Commons Attribution
 .. 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
-.. Copyright 2023, ONAP Contributors.  All rights reserved.
+.. Copyright 2025, ONAP Contributors.  All rights reserved.
 
 .. _component-release-notes:
 
@@ -38,9 +38,9 @@ DOC - Documentation
 -------------------
 - :ref:`doc <doc_release_notes>`
 
-INT - Integration
------------------
-- :ref:`integration <onap-integration:release_notes>`
+.. INT - Integration
+.. -----------------
+.. - :ref:`integration <onap-integration:release_notes>`
 
 MULTICLOUD - Multi Cloud
 ------------------------
@@ -72,5 +72,4 @@ SO - Service Orchestration
 
 UUI - Use Case User Interface
 -----------------------------
-
 - :ref:`usecase-ui <onap-usecase-ui:release_notes>`
