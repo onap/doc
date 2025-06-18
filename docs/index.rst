@@ -14,15 +14,14 @@
         :scale: 760%
         :figwidth: 120px
 
-    This is a development version of ONAP documentation. It continually
-    develops as the contributing projects develop. Even if you read a specific
-    release name here, the content may cover a future ONAP release.
-
+    This is version of ONAP documentation reflects the latest state of
+    development.
+    
     **The official release documentation for ONAP 'Oslo' can be found**
     `[here] <https://docs.onap.org/en/Oslo/>`__
 
 
-|
+
 
 ..
 .. please disable above in the release version
