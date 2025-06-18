@@ -14,7 +14,7 @@
         :scale: 760%
         :figwidth: 120px
 
-    This is version of ONAP documentation reflects the latest state of
+    This version of ONAP documentation reflects the latest state of
     development.
     
     **The official release documentation for ONAP 'Paris' can be found**
