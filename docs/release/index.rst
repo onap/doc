@@ -20,8 +20,8 @@ release notes and links to those release notes are provided below.
 Details on the specific items delivered in each release by each component is
 maintained in the component specific release notes.
 
-'Oslo' Major Release 15.0.0
----------------------------
+'Paris' Major Release 15.0.0
+----------------------------
 
 +-----------------------------------+-----------------------------------------+
 | **Project**                       | ONAP                                    |

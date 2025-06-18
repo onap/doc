@@ -5,26 +5,26 @@
 
 
 
-.. please disable below in the release version
-..
-.. warning:: **WORK IN PROGRESS**
-
-    .. figure:: _static/exclamation-triangle.svg
-        :align: left
-        :scale: 760%
-        :figwidth: 120px
-
-    This is version of ONAP documentation reflects the latest state of
-    development.
-    
-    **The official release documentation for ONAP 'Oslo' can be found**
-    `[here] <https://docs.onap.org/en/Oslo/>`__
-
-
-
-
-..
-.. please disable above in the release version
+.. .. please disable below in the release version
+.. ..
+.. .. warning:: **WORK IN PROGRESS**
+.. 
+..     .. figure:: _static/exclamation-triangle.svg
+..         :align: left
+..         :scale: 760%
+..         :figwidth: 120px
+.. 
+..     This is version of ONAP documentation reflects the latest state of
+..     development.
+..     
+..     **The official release documentation for ONAP 'Paris' can be found**
+..     `[here] <https://docs.onap.org/en/paris/>`__
+.. 
+.. 
+.. 
+.. 
+.. ..
+.. .. please disable above in the release version
 
 ONAP
 ====
@@ -42,8 +42,8 @@ ONAP is an open source project hosted by the Linux Foundation.
 
 -------------------------------------------------------------------------------
 
-:ref:`'Oslo' Release Notes <onap-release-notes>`
-------------------------------------------------
+:ref:`'Paris' Release Notes <onap-release-notes>`
+-------------------------------------------------
 
 .. figure:: _static/file.svg
     :align: left

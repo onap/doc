@@ -38,9 +38,9 @@ DOC - Documentation
 -------------------
 - :ref:`doc <doc_release_notes>`
 
-.. INT - Integration
-.. -----------------
-.. - :ref:`integration <onap-integration:release_notes>`
+INT - Integration
+-----------------
+- :ref:`integration <onap-integration:release_notes>`
 
 MULTICLOUD - Multi Cloud
 ------------------------
