@@ -11,13 +11,12 @@
 
     .. figure:: _static/exclamation-triangle.svg
         :align: left
-        :scale: 760%
+        :scale: 660%
         :figwidth: 120px
 
     This version of ONAP documentation reflects the latest state of
     development.
-    
-    
+
     **The official release documentation for ONAP 'Paris' can be found**
     `[here] <https://docs.onap.org/en/paris/>`__
 
