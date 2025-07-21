@@ -30,7 +30,7 @@ maintained in the component specific release notes.
 +-----------------------------------+-----------------------------------------+
 | **Release version**               | 16.0.0                                  |
 +-----------------------------------+-----------------------------------------+
-| **Release date**                  | not released yet                        |
+| **Release date**                  | 2025, July 10th                         |
 +-----------------------------------+-----------------------------------------+
 
 ONAP is a comprehensive collection of Network Automation functions, including
