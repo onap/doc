@@ -43,7 +43,7 @@ ONAP is an open source project hosted by the Linux Foundation.
 
 -------------------------------------------------------------------------------
 
-:ref:`'Oslo' Release Notes <onap-release-notes>`
+:ref:`'Paris' Release Notes <onap-release-notes>`
 ------------------------------------------------
 
 .. figure:: _static/file.svg
