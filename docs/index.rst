@@ -174,8 +174,8 @@ Developers contributing to the ONAP development can find information here.
     :scale: 300%
     :figwidth: 50px
 
-A guide to set up a documentation development environment, documentation style
-guides, tips and templates are provided here.
+A guide to set up a documentation development environment, documentation
+style guides, tips and templates are provided here.
 
 |
 
