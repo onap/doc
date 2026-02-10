@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48176fc6_572b97b3",
+        "filename": "docs/requirements-docs.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 8049
+      },
+      "writtenOn": "2026-02-10T11:42:44Z",
+      "side": 1,
+      "message": "Looks like this needs updating:\nhange `Pillow\u003e\u003d9.0.0,\u003c10.0.0` to `Pillow\u003e\u003d10.1.0`\n\nThis should resolve the verify job failure.",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 13
+      },
+      "revId": "41eec4338c42e263120d299f26123ae5a599ed3e",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    }
+  ]
+}
