@@ -1,10 +1,23 @@
-lfdocs-conf===0.8.0
-sphinxcontrib-needs===0.7.9
-sphinxcontrib.plantuml===0.24
-sphinx_toolbox==3.2.0
-sphinxcontrib.nwdiag===2.0.0
-sphinx-rtd-theme===1.0.0
-autopep8==1.7.0
-gitlint-core==0.17.0
-pyenchant==3.2.2
-pylint==2.15.0
+# Compatibility
+setuptools===69.0.3
+Pillow===9.5.0  # NEU: Fix für seqdiag
+
+# Core Sphinx
+sphinx===7.2.6
+sphinx-rtd-theme===2.0.0
+
+# Diagram extensions
+sphinxcontrib-blockdiag===3.0.0
+sphinxcontrib-seqdiag===3.0.0
+sphinxcontrib-plantuml===0.29
+
+# API documentation
+sphinxcontrib-openapi===0.8.4
+
+# Quality & tooling
+sphinxcontrib-spelling===8.0.0
+sphinx-toolbox===3.5.0
+
+# Code quality tools
+autopep8===2.3.1
+pylint===3.0.3
