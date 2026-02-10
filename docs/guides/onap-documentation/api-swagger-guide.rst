@@ -7,6 +7,29 @@
 API Documentation
 =================
 
+
+.. note::
+   **API Documentation Update**
+
+   The API documentation has been migrated from Swagger 2.0 to OpenAPI 3.x specification.
+   
+   **What changed:**
+   
+   - The ``sphinxcontrib-swaggerdoc`` extension has been replaced with ``sphinxcontrib-openapi``
+   - All ``.. swaggerv2doc::`` directives have been updated to ``.. openapi::``
+   - OpenAPI 3.x provides better support for modern API features and is actively maintained
+   
+   **For readers:** The API documentation content and functionality remain the same. OpenAPI is 
+   the successor to Swagger and offers the same capabilities with improved specification support.
+   
+   **For contributors:** When adding new API documentation, use the ``.. openapi::`` directive 
+   instead of the deprecated ``.. swaggerv2doc::`` directive.
+
+.. seealso::
+   - `OpenAPI Specification <https://spec.openapis.org/oas/latest.html>`_
+   - `Swagger vs OpenAPI <https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/>`_
+
+
 Swagger
 -------
 
@@ -72,18 +95,18 @@ For each API, the ``swaggerv2doc`` directive must be used as follows:
 
    myAPI1
    ......
-   .. swaggerv2doc:: myAPI1.json
+   .. openapi:: myAPI1.json
 
    myAPI2
    ......
-   .. swaggerv2doc:: myAPI2.json
+   .. openapi:: myAPI2.json
 
 It will produce the following output:
 
 myAPI1
 ......
-.. swaggerv2doc:: media/myAPI1.json
+.. openapi:: media/myAPI1.json
 
 myAPI2
 ......
-.. swaggerv2doc:: media/myAPI2.json
+.. openapi:: media/myAPI2.json

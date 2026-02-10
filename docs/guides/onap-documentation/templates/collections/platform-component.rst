@@ -13,7 +13,6 @@ Platform Component
    ../sections/architecture.rst
    ../sections/offeredapis.rst
    ../sections/consumedapis.rst
-   ../sections/delivery.rst
    ../sections/design.rst
    ../sections/logging.rst
    ../sections/installation.rst

@@ -43,7 +43,7 @@ extensions = [
     'sphinxcontrib.plantuml',
     'sphinxcontrib.seqdiag',
     'sphinxcontrib.spelling' ,
-    'sphinxcontrib.swaggerdoc',
+    'sphinxcontrib.openapi',
     'sphinx_toolbox.collapse'
 ]
 

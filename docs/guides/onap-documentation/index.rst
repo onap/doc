@@ -13,7 +13,6 @@ contribute to the ONAP documentation project.
    :maxdepth: 1
 
    introduction
-   setting-up
    setup-of-a-doc-dev-system
    style-guide-content
    creating-rst
