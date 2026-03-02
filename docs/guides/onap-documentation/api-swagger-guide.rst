@@ -79,17 +79,17 @@ The code is available here:
    The syntax of <myAPI1.json> is to be taken literally. Keep '<' and '>'.
 
 
-API Swagger
------------
-For each API, the ``swaggerv2doc`` directive must be used as follows:
+API Documentation Rendering
+----------------------------
+For each API, the ``openapi`` directive must be used as follows:
 
 .. note::
-   Note the “v” in  swaggerv2doc!
+   The ``openapi`` directive replaces the deprecated ``swaggerv2doc`` directive.
    If your JSON file has multiple endpoints, this directive does not preserve the order.
 
 .. note::
-   swaggerv2doc directive may generate errors when Swagger file contains specific
-   information. In such case, do not use this directive.
+   The ``openapi`` directive may generate errors when the specification file contains
+   unsupported or malformed content. In such cases, do not use this directive.
 
 .. code:: rst
 
