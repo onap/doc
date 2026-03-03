@@ -28,6 +28,8 @@ API Documentation
 .. seealso::
    - `OpenAPI Specification <https://spec.openapis.org/oas/latest.html>`_
    - `Swagger vs OpenAPI <https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/>`_
+   - :ref:`api-swagger-json-pointer-fix` — Advisory on JSON Pointer errors
+     caused by ``/`` characters in Swagger definition key names
 
 
 Swagger

@@ -19,4 +19,5 @@ contribute to the ONAP documentation project.
    converting-to-rst
    updates-and-review
    api-swagger-guide
+   api-swagger-json-pointer-fix
    templates/index
