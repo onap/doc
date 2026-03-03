@@ -18,6 +18,7 @@ contribute to the ONAP documentation project.
    creating-rst
    converting-to-rst
    updates-and-review
+   diagrams-blockdiag-to-mermaid
    api-swagger-guide
    api-swagger-json-pointer-fix
    templates/index
