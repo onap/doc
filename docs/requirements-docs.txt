@@ -1,5 +1,5 @@
 # Compatibility
-setuptools>=65.0.0
+setuptools>=65.0.0,<82
 Pillow>=10.1.0
 
 # Core Sphinx
