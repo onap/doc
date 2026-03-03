@@ -658,3 +658,122 @@ Further reading
 - `Mermaid syntax for flowcharts <https://mermaid.js.org/syntax/flowchart.html>`_
 - `Mermaid syntax for sequence diagrams
   <https://mermaid.js.org/syntax/sequenceDiagram.html>`_
+
+.. _diagrams-blockdiag-audit:
+
+Appendix --- Gerrit repository audit
+-------------------------------------
+
+A recursive audit of all ONAP project repositories in Gerrit was performed
+to determine the **blast radius** of the blockdiag/seqdiag deprecation. The
+results below identify every repository that contains *live* ``.. blockdiag::``
+or ``.. seqdiag::`` directives --- i.e.\ actual diagrams rendered in
+documentation content. Repositories that merely list the packages in
+``conf.py``, ``requirements-docs.txt``, ``tox.ini``, or constraint files
+(without using any directives) are **not** included; those files need only a
+configuration cleanup, not a content migration.
+
+Repositories with live ``blockdiag`` directives
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :header-rows: 1
+   :widths: 5 25 40 10 20
+
+   * - #
+     - Repository
+     - File
+     - Directives
+     - Description
+   * - 1
+     - ``dmaap/buscontroller``
+     - ``docs/architecture.rst``
+     - 1
+     - Box-and-arrow diagram showing Bus Controller API connections to
+       MR, DR and AAF
+   * - 2
+     - ``dmaap/datarouter``
+     - ``docs/delivery.rst``
+     - 1
+     - Container-connectivity diagram for DR-PROV, DR-NODE and MariaDB
+   * - 3
+     - ``sdc``
+     - ``docs/delivery.rst``
+     - 2
+     - Deployment dependency map (init jobs → apps → Cassandra) and
+       docker-container connectivity diagram
+   * - 4
+     - ``sdnc/oam``
+     - ``docs/delivery.rst``
+     - 1
+     - Example block diagram with grouped layers
+
+Repositories with live ``seqdiag`` directives
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+   :header-rows: 1
+   :widths: 5 25 40 10 20
+
+   * - #
+     - Repository
+     - File
+     - Directives
+     - Description
+   * - 1
+     - ``vnfrqts/requirements``
+     - ``docs/Chapter8/ves7_1spec.rst``
+     - 2
+     - VES v7.1 call-flow diagrams for ``publishAnyEvent`` and
+       ``publishEventBatch``
+   * - 2
+     - ``vnfrqts/requirements``
+     - ``docs/Chapter8/ves_7_2/ves_event_listener_7_2.rst``
+     - 2
+     - VES v7.2 call-flow diagrams for ``publishAnyEvent`` and
+       ``publishEventBatch``
+
+Audit summary
+^^^^^^^^^^^^^
+
+.. list-table::
+   :header-rows: 1
+   :widths: 60 15
+
+   * - Metric
+     - Count
+   * - Repositories with live ``.. blockdiag::`` directives
+     - 4
+   * - Repositories with live ``.. seqdiag::`` directives
+     - 1
+   * - Total ``.. blockdiag::`` directives to rewrite
+     - 5
+   * - Total ``.. seqdiag::`` directives to rewrite
+     - 4
+   * - **Total diagrams requiring migration**
+     - **9**
+
+Migration priority
+^^^^^^^^^^^^^^^^^^
+
+All nine diagrams must be rewritten to ``.. mermaid::`` directives before the
+affected repositories can build successfully on Python 3.12+. The recommended
+order is:
+
+1. **``sdc``** --- two block diagrams, highest visibility project.
+2. **``dmaap/buscontroller``** and **``dmaap/datarouter``** --- one block
+   diagram each; both DMaaP repos can be migrated together.
+3. **``sdnc/oam``** --- one example block diagram in the delivery page.
+4. **``vnfrqts/requirements``** --- four sequence diagrams across two VES
+   specification files (v7.1 and v7.2); the diagrams are structurally
+   identical so a single pattern covers all four.
+
+.. note::
+
+   In addition to the five repositories above, **32 further repositories**
+   load ``sphinxcontrib.blockdiag`` and ``sphinxcontrib.seqdiag`` in their
+   ``docs/conf.py`` and declare them in ``docs/requirements-docs.txt`` without
+   ever using a directive. Those repositories require only the configuration
+   cleanup described in the :ref:`downstream repository checklist
+   <diagrams-blockdiag-to-mermaid>` (steps 1--3) and do **not** need any RST
+   content changes.
