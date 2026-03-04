@@ -1,14 +1,12 @@
 # Compatibility
 setuptools===69.0.3
-Pillow===10.4.0
 
 # Core Sphinx
 sphinx===7.1.2
 sphinx-rtd-theme===2.0.0
 
 # Diagram extensions
-sphinxcontrib-blockdiag===3.0.0
-sphinxcontrib-seqdiag===3.0.0
+sphinxcontrib-mermaid===2.0.0
 sphinxcontrib-plantuml===0.29
 
 # API documentation
