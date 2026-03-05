@@ -19,6 +19,7 @@ contribute to the ONAP documentation project.
    converting-to-rst
    updates-and-review
    diagrams-blockdiag-to-mermaid
+   tsc-blockdiag-mermaid-migration-report
    api-swagger-guide
    api-swagger-json-pointer-fix
    templates/index
