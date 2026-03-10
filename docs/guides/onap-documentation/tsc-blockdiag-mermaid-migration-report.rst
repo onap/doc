@@ -198,19 +198,19 @@ dmaap/buscontroller --- Bus Controller Architecture
        DBC_API --> DR["DR"]
        DBC_API --> AAF["AAF"]
 
-       subgraph "Bus Controller Container"
+       subgraph sg_bcc ["Bus Controller Container"]
            DBC_API
        end
 
-       subgraph "MR"
+       subgraph sg_mr ["MR"]
            MR
        end
 
-       subgraph "DR"
+       subgraph sg_dr ["DR"]
            DR
        end
 
-       subgraph "AAF"
+       subgraph sg_aaf ["AAF"]
            AAF
        end
 
@@ -343,6 +343,21 @@ label to work around this::
 The internal identifier uses underscores, while the displayed label
 preserves the original hyphenated name.
 
+Subgraph title / node ID collisions
+------------------------------------
+
+When a subgraph title matches a node ID, Mermaid treats the title as the
+subgraph's internal identifier and attempts to make the node a child of
+itself, producing a cycle error such as::
+
+    Error: Setting AAF as parent of AAF would create a cycle
+
+Assign an explicit subgraph ID that differs from any node ID::
+
+    subgraph sg_aaf ["AAF"]
+        AAF
+    end
+
 Reserved ``classDef`` names
 ---------------------------
 
@@ -387,69 +402,3 @@ seqdiag.
    blockdiag/seqdiag extensions without using any directives needs only
    the configuration changes from steps 2--4.
 
-Build verification
-==================
-
-All 5 repositories were built with ``tox -e docs`` using Python 3.13 and
-``sphinxcontrib-mermaid``:
-
-.. list-table::
-   :header-rows: 1
-   :widths: 25 15 15 45
-
-   * - Repository
-     - Python
-     - Build result
-     - Notes
-   * - ``dmaap/buscontroller``
-     - 3.13
-     - ✅ OK
-     - ``sphinx-build -W`` (warnings-as-errors) passes
-   * - ``dmaap/datarouter``
-     - 3.13
-     - ✅ OK
-     - ``sphinx-build -W`` passes
-   * - ``sdc``
-     - 3.13
-     - ✅ OK
-     - ``sphinx-build -W`` passes (requires ``graphviz`` binary)
-   * - ``sdnc/oam``
-     - 3.13
-     - ✅ OK
-     - Full build including OpenAPI spec rendering
-   * - ``vnfrqts/requirements``
-     - 3.13
-     - ✅ OK
-     - All 4 Mermaid ``sequenceDiagram`` blocks render correctly
-
-Remaining work
-==============
-
-Config-only cleanup (32 repositories)
---------------------------------------
-
-In addition to the 5 repositories above, **32 further repositories** load
-``sphinxcontrib.blockdiag`` and ``sphinxcontrib.seqdiag`` in their
-``docs/conf.py`` and declare them in ``docs/requirements-docs.txt`` without
-ever using a directive.  Those repositories require only:
-
-1. Remove ``sphinxcontrib-blockdiag`` and ``sphinxcontrib-seqdiag`` from
-   ``docs/requirements-docs.txt``
-2. Remove ``'sphinxcontrib.blockdiag'`` and ``'sphinxcontrib.seqdiag'``
-   from the ``extensions`` list in ``docs/conf.py``
-3. Optionally add ``sphinxcontrib-mermaid`` if future diagrams are planned
-4. Remove any ``Pillow<10`` workaround from ``tox.ini``
-
-These are mechanical changes that carry no risk of content regression and
-can be batched into a single bulk-update topic.
-
-Update central doc repository constraints
-------------------------------------------
-
-Once all downstream repositories have been cleaned up, the central
-``doc`` repository should:
-
-1. Remove ``sphinxcontrib-blockdiag`` and ``sphinxcontrib-seqdiag`` from
-   ``docs/requirements-docs.txt``
-2. Remove them from ``etc/upper-constraints.onap.txt``
-3. Add ``sphinxcontrib-mermaid`` to both files (if not already present)
