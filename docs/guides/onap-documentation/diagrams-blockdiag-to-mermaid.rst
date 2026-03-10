@@ -659,6 +659,12 @@ Further reading
 - `Mermaid syntax for sequence diagrams
   <https://mermaid.js.org/syntax/sequenceDiagram.html>`_
 
+.. seealso::
+
+   The ``sphinxcontrib-needs`` package has the same ``pkg_resources``
+   dependency issue.  See :ref:`needs-sphinxcontrib-to-sphinx-needs` for
+   the migration guide to its maintained successor ``sphinx-needs``.
+
 .. _diagrams-blockdiag-audit:
 
 Appendix --- Gerrit repository audit

@@ -12,6 +12,9 @@ sphinxcontrib-plantuml==0.29
 # API documentation
 sphinxcontrib-openapi==0.8.4
 
+# Requirements tracking
+sphinx-needs==7.0.0
+
 # Quality & tooling
 sphinxcontrib-spelling==8.0.0
 sphinx-toolbox==3.5.0
