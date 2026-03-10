@@ -5,34 +5,34 @@
 .. _tsc-blockdiag-mermaid-migration-report:
 
 =======================================================================
-TSC Report: blockdiag/seqdiag to Mermaid Diagram Migration
+blockdiag/seqdiag to Mermaid Diagram Migration
 =======================================================================
 
-:Date: 2026-03-05
 :Author: Matthew Watkins (Linux Foundation Release Engineering)
-:Status: For TSC Review
 :References: :ref:`diagrams-blockdiag-to-mermaid`
 
 .. contents:: Table of Contents
    :depth: 3
    :local:
 
-Executive summary
-=================
+Overview
+========
 
 All ONAP documentation repositories that contained live ``.. blockdiag::``
 or ``.. seqdiag::`` diagram directives have been identified, and their
 diagrams converted to ``.. mermaid::`` syntax.  **9 diagrams** across
-**5 repositories** were in scope.  **8 of 9** are now merged; the
-remaining **1 Gerrit change** (covering 4 diagrams) is posted as WIP for
-manual review.
+**5 repositories** were migrated.
 
-This migration eliminates the dependency on the abandoned
+This migration removed the dependency on the abandoned
 ``sphinxcontrib-blockdiag`` and ``sphinxcontrib-seqdiag`` Python packages,
 which are incompatible with both **Pillow >= 10** and **Python >= 3.12**.
-With this work complete, all ONAP documentation can build cleanly on
+With this work complete, all ONAP documentation builds cleanly on
 Python 3.13 without the ``Pillow<10`` workaround that was previously
 required.
+
+The approach described here is applicable to any Sphinx-based documentation
+project that still depends on blockdiag or seqdiag and needs to move to a
+modern, actively maintained diagramming solution.
 
 Background
 ==========
@@ -50,15 +50,10 @@ from two critical compatibility failures:
 
 2. **Pillow 10+ incompatibility** --- ``blockdiag 3.0.0`` calls
    ``ImageDraw.textsize()``, which was deprecated in Pillow 9.2.0 and
-   **removed in Pillow 10.0**.  The ONAP upper-constraints file pins
-   ``Pillow===10.4.0``, so diagram rendering fails with::
+   **removed in Pillow 10.0**.  Documentation builds that pin a modern
+   Pillow version will fail with::
 
        AttributeError: 'ImageDraw' object has no attribute 'textsize'
-
-These issues were previously masked by the OpenStack Yoga constraint
-conflict, which prevented packages from installing at all.  Once the Yoga
-constraints were removed (merged March 2026), the Pillow/blockdiag
-incompatibility surfaced.
 
 Why Mermaid?
 ------------
@@ -74,8 +69,8 @@ reasons:
      - sphinxcontrib-mermaid
      - sphinxcontrib-plantuml
      - sphinx.ext.graphviz
-     - blockdiag (current)
-     - seqdiag (current)
+     - blockdiag
+     - seqdiag
    * - Actively maintained
      - ✅ Yes
      - ✅ Yes
@@ -125,62 +120,40 @@ reasons:
      - ❌ No
      - ❌ No
 
-Audit results
-=============
+Migration scope
+===============
 
-A full audit of all ONAP Gerrit repositories was performed.  The results
-are summarised below.
-
-Repositories with live diagrams
--------------------------------
+The table below summarises every repository that required a content or
+configuration change as part of this migration.
 
 .. list-table::
    :header-rows: 1
-   :widths: 5 20 30 8 8 29
+   :widths: 25 15 10 50
 
-   * - #
-     - Repository
-     - File
-     - Type
+   * - Repository
+     - Diagram type
      - Count
      - Description
-   * - 1
-     - ``dmaap/buscontroller``
-     - ``docs/architecture.rst``
+   * - ``dmaap/buscontroller``
      - blockdiag
      - 1
      - Bus Controller API connections to MR, DR, AAF
-   * - 2
-     - ``dmaap/datarouter``
-     - ``docs/delivery.rst``
+   * - ``dmaap/datarouter``
      - blockdiag
      - 1
      - DR-PROV, DR-NODE, MariaDB container connectivity
-   * - 3
-     - ``sdc``
-     - ``docs/delivery.rst``
+   * - ``sdc``
      - graphviz
      - 2
-     - Deployment dependency map and docker-container connectivity
-       (already migrated to graphviz; config-only change needed)
-   * - 4
-     - ``sdnc/oam``
-     - *(none --- config only)*
-     - N/A
+     - Already used graphviz; config-only cleanup required
+   * - ``sdnc/oam``
+     - N/A (config only)
      - 0
-     - blockdiag/seqdiag loaded in ``conf.py`` but no live
-       directives in any RST files; config cleanup only
-   * - 5
-     - ``vnfrqts/requirements``
-     - | ``docs/Chapter8/ves7_1spec.rst``
-       | ``docs/Chapter8/ves_7_2/ves_event_listener_7_2.rst``
+     - blockdiag/seqdiag loaded in ``conf.py`` but no live directives
+   * - ``vnfrqts/requirements``
      - seqdiag
      - 4
-     - VES v7.1 and v7.2 call-flow diagrams for
-       ``publishAnyEvent`` and ``publishEventBatch``
-
-Totals
-------
+     - VES v7.1 and v7.2 call-flow diagrams
 
 .. list-table::
    :header-rows: 1
@@ -192,104 +165,38 @@ Totals
      - 3
    * - Repositories requiring config-only cleanup
      - 2
-   * - Total ``.. blockdiag::`` directives rewritten
+   * - ``.. blockdiag::`` directives rewritten
      - 2
-   * - Total ``.. seqdiag::`` directives rewritten
+   * - ``.. seqdiag::`` directives rewritten
      - 4
-   * - SDC ``.. graphviz::`` diagrams (already migrated, no change)
+   * - ``.. graphviz::`` diagrams (already migrated, verified)
      - 2
-   * - sdnc/oam config-only (no live directives)
-     - 0
    * - **Total diagrams migrated or verified**
      - **9**
-
-Gerrit changes
-==============
-
-All changes are listed below with their current status.
-
-.. list-table::
-   :header-rows: 1
-   :widths: 10 20 35 15 20
-
-   * - Gerrit #
-     - Repository
-     - Subject
-     - Status
-     - Notes
-   * - `143468 <https://gerrit.onap.org/r/c/dmaap/buscontroller/+/143468>`_
-     - ``dmaap/buscontroller``
-     - Docs: Migrate blockdiag to Mermaid
-     - ✅ **MERGED**
-     - 1 blockdiag → mermaid ``graph TD``
-   * - `143469 <https://gerrit.onap.org/r/c/dmaap/datarouter/+/143469>`_
-     - ``dmaap/datarouter``
-     - Docs: Migrate blockdiag to Mermaid
-     - ✅ **MERGED**
-     - 1 blockdiag → mermaid ``graph TD``
-   * - `143480 <https://gerrit.onap.org/r/c/sdc/+/143480>`_
-     - ``sdc``
-     - Docs: Modernise docs build for Python 3.13
-     - ✅ **MERGED**
-     - Config only (diagrams already use graphviz)
-   * - `143483 <https://gerrit.onap.org/r/c/sdnc/oam/+/143483>`_
-     - ``sdnc/oam``
-     - Docs: Add sphinxcontrib-mermaid for diagram migration
-     - ✅ **MERGED**
-     - Config prep (mermaid extension added)
-   * - `143515 <https://gerrit.onap.org/r/c/sdnc/oam/+/143515>`_
-     - ``sdnc/oam``
-     - Fix RTD build and remove unmaintained extensions
-     - ✅ **MERGED**
-     - Removed blockdiag/seqdiag/swaggerdoc from conf.py
-   * - `143518 <https://gerrit.onap.org/r/c/vnfrqts/requirements/+/143518>`_
-     - ``vnfrqts/requirements``
-     - Docs: Migrate seqdiag diagrams to Mermaid
-     - ⏳ **WIP**
-     - 4 seqdiag → mermaid ``sequenceDiagram``;
-       awaiting manual review from vnfrqts committers
-
-.. note::
-
-   Gerrit 143518 is the only change still requiring review.  All other
-   changes have been reviewed, verified, and merged.
 
 Before / after diagrams
 ========================
 
-This section shows the original blockdiag/seqdiag source alongside the
-replacement Mermaid source for each migrated diagram.
+This section shows the original blockdiag/seqdiag rendering alongside the
+replacement Mermaid diagram for each migration performed.
 
 dmaap/buscontroller --- Bus Controller Architecture
 ----------------------------------------------------
 
 **Before** (blockdiag):
 
-.. code-block:: rst
+.. image:: media/buscontroller.png
+   :alt: Bus Controller Architecture (original blockdiag rendering)
 
-   .. blockdiag::
-
-      blockdiag layers {
-        orientation = portrait
-        DBC_CLIENT -> DBC_API;
-        DBC_API -> MR;
-        DBC_API -> DR;
-        DBC_API -> AAF;
-        group l1 { color = blue;   label = "Bus Controller Container"; DBC_API; }
-        group l2 { color = yellow; label = "MR"; MR; }
-        group l3 { color = orange; label = "DR"; DR; }
-        group l4 { color = green;  label = "AAF"; AAF; }
-      }
-
-**After** (mermaid --- now live on master):
+**After** (Mermaid):
 
 .. mermaid::
 
    graph TD
-       DBC_CLIENT --> DBC_API
-       DBC_API --> MR
-       DBC_API --> DR
-       DBC_API --> AAF
+       DBC_CLIENT["DBC_CLIENT"] --> DBC_API["DBC_API"]
+       DBC_API --> MR["MR"]
+       DBC_API --> DR["DR"]
+       DBC_API --> AAF["AAF"]
 
        subgraph "Bus Controller Container"
            DBC_API
@@ -307,61 +214,51 @@ dmaap/buscontroller --- Bus Controller Architecture
            AAF
        end
 
-       classDef blue fill:#33f,stroke:#333,color:#fff
-       classDef yellow fill:#ff0,stroke:#333,color:#000
-       classDef orange fill:#f90,stroke:#333,color:#000
-       classDef green fill:#0c0,stroke:#333,color:#000
+       classDef blueStyle fill:#33f,stroke:#333,color:#fff
+       classDef yellowStyle fill:#ff0,stroke:#333,color:#000
+       classDef orangeStyle fill:#f90,stroke:#333,color:#000
+       classDef greenStyle fill:#0c0,stroke:#333,color:#000
 
-       class DBC_API blue
-       class MR yellow
-       class DR orange
-       class AAF green
+       class DBC_API blueStyle
+       class MR yellowStyle
+       class DR orangeStyle
+       class AAF greenStyle
 
 dmaap/datarouter --- Data Router Delivery
 ------------------------------------------
 
 **Before** (blockdiag):
 
-.. code-block:: rst
+.. image:: media/datarouter.png
+   :alt: Data Router Delivery (original blockdiag rendering)
 
-   .. blockdiag::
-
-      blockdiag layers {
-        orientation = portrait
-        MARIADB -> DR-PROV;
-        DR-PROV -> DR-NODE;
-        group l1 { color = blue;   label = "dr-prov Container"; DR-PROV; }
-        group l2 { color = yellow; label = "dr-node Container"; DR-NODE; }
-        group l3 { color = orange; label = "MariaDb Container"; MARIADB; }
-      }
-
-**After** (mermaid --- now live on master):
+**After** (Mermaid):
 
 .. mermaid::
 
    graph TD
-       MARIADB --> DR-PROV
-       DR-PROV --> DR-NODE
+       MARIADB["MARIADB"] --> DR_PROV["DR-PROV"]
+       DR_PROV --> DR_NODE["DR-NODE"]
 
        subgraph "dr-prov Container"
-           DR-PROV
+           DR_PROV
        end
 
        subgraph "dr-node Container"
-           DR-NODE
+           DR_NODE
        end
 
        subgraph "MariaDb Container"
            MARIADB
        end
 
-       classDef blue fill:#33f,stroke:#333,color:#fff
-       classDef yellow fill:#ff0,stroke:#333,color:#000
-       classDef orange fill:#f90,stroke:#333,color:#000
+       classDef blueStyle fill:#33f,stroke:#333,color:#fff
+       classDef yellowStyle fill:#ff0,stroke:#333,color:#000
+       classDef orangeStyle fill:#f90,stroke:#333,color:#000
 
-       class DR-PROV blue
-       class DR-NODE yellow
-       class MARIADB orange
+       class DR_PROV blueStyle
+       class DR_NODE yellowStyle
+       class MARIADB orangeStyle
 
 vnfrqts/requirements --- VES publishAnyEvent Call Flow
 ------------------------------------------------------
@@ -371,21 +268,10 @@ This pattern is identical in VES 7.1 (``ves7_1spec.rst``) and VES 7.2
 
 **Before** (seqdiag):
 
-.. code-block:: rst
+.. image:: media/publishAnyEvent.png
+   :alt: publishAnyEvent Call Flow (original seqdiag rendering)
 
-   .. seqdiag::
-       :caption: ``publishAnyEvent`` Call Flow
-
-       seqdiag {
-         edge_length = 250;
-         client  -> listener [label = "POST /eventlistener/v7"];
-         client <- listener [label = "HTTP 202 Accepted", note = "sync response"];
-         === Error Scenario ===
-         client  -> listener [label = "POST /eventlistener/v7"];
-         client <- listener [label = "HTTP 4XX/5XX", note = "sync response"];
-       }
-
-**After** (mermaid --- Gerrit 143518, WIP):
+**After** (Mermaid):
 
 .. mermaid::
    :caption: ``publishAnyEvent`` Call Flow
@@ -413,21 +299,10 @@ This pattern is identical in VES 7.1 (``ves7_1spec.rst``) and VES 7.2
 
 **Before** (seqdiag):
 
-.. code-block:: rst
+.. image:: media/publishEventBatch.png
+   :alt: publishEventBatch Call Flow (original seqdiag rendering)
 
-   .. seqdiag::
-       :caption: ``publishEventBatch`` Call Flow
-
-       seqdiag {
-         edge_length = 250;
-         client  -> listener [label = "POST /eventlistener/v7/eventBatch"];
-         client <- listener [label = "HTTP 202 Accepted", note = "sync response"];
-         === Error Scenario ===
-         client  -> listener [label = "POST /eventlistener/v7/eventBatch"];
-         client <- listener [label = "HTTP 4XX/5XX", note = "sync response"];
-       }
-
-**After** (mermaid --- Gerrit 143518, WIP):
+**After** (Mermaid):
 
 .. mermaid::
    :caption: ``publishEventBatch`` Call Flow
@@ -450,11 +325,73 @@ This pattern is identical in VES 7.1 (``ves7_1spec.rst``) and VES 7.2
        Note right of listener: sync response
        end
 
+Mermaid syntax pitfalls
+=======================
+
+Several issues were encountered during the conversion that are worth
+noting for anyone performing a similar migration:
+
+Node identifiers with hyphens
+-----------------------------
+
+Mermaid interprets bare hyphens in node identifiers as minus operators.
+A node written as ``DR-PROV`` will cause a parse error.  Use an explicit
+label to work around this::
+
+    DR_PROV["DR-PROV"]
+
+The internal identifier uses underscores, while the displayed label
+preserves the original hyphenated name.
+
+Reserved ``classDef`` names
+---------------------------
+
+Mermaid reserves certain colour keywords.  Defining a class called
+``blue``, ``green``, or ``orange`` can conflict with the parser in some
+Mermaid versions.  Use descriptive suffixed names instead::
+
+    classDef blueStyle fill:#33f,stroke:#333,color:#fff
+    class MY_NODE blueStyle
+
+Applying the migration to other projects
+=========================================
+
+The steps below summarise the process used for ONAP and can be followed
+by any Sphinx-based documentation project that depends on blockdiag or
+seqdiag.
+
+1. **Audit repositories** --- search for live ``.. blockdiag::`` and
+   ``.. seqdiag::`` directives across all documentation sources.
+
+2. **Update** ``docs/conf.py`` --- remove ``sphinxcontrib.blockdiag`` and
+   ``sphinxcontrib.seqdiag`` from the ``extensions`` list; add
+   ``sphinxcontrib.mermaid``.
+
+3. **Update** ``requirements-docs.txt`` --- remove the blockdiag/seqdiag
+   packages and add ``sphinxcontrib-mermaid``.
+
+4. **Remove Pillow workarounds** --- delete any ``Pillow<10`` pins from
+   ``tox.ini`` or constraint files that were added solely to keep
+   blockdiag functioning.
+
+5. **Convert each diagram** --- rewrite every ``.. blockdiag::`` directive
+   as a ``.. mermaid:: graph`` and every ``.. seqdiag::`` directive as a
+   ``.. mermaid:: sequenceDiagram``.  See :ref:`diagrams-blockdiag-to-mermaid`
+   for a full syntax-mapping guide with worked examples.
+
+6. **Verify the build** --- run ``tox -e docs`` with the target Python
+   version (3.13 or later) and confirm that ``sphinx-build -W``
+   (warnings-as-errors) passes and all diagrams render correctly.
+
+7. **Clean up config-only repositories** --- any repository that loads the
+   blockdiag/seqdiag extensions without using any directives needs only
+   the configuration changes from steps 2--4.
+
 Build verification
 ==================
 
-All 5 repositories have been built locally with ``tox -e docs`` using
-Python 3.13 and ``sphinxcontrib-mermaid``.  Results:
+All 5 repositories were built with ``tox -e docs`` using Python 3.13 and
+``sphinxcontrib-mermaid``:
 
 .. list-table::
    :header-rows: 1
@@ -483,8 +420,7 @@ Python 3.13 and ``sphinxcontrib-mermaid``.  Results:
    * - ``vnfrqts/requirements``
      - 3.13
      - ✅ OK
-     - 157 pre-existing ``needs.link_ref`` warnings (unrelated);
-       all 4 mermaid ``sequenceDiagram`` blocks render correctly
+     - All 4 Mermaid ``sequenceDiagram`` blocks render correctly
 
 Remaining work
 ==============
@@ -505,7 +441,7 @@ ever using a directive.  Those repositories require only:
 4. Remove any ``Pillow<10`` workaround from ``tox.ini``
 
 These are mechanical changes that carry no risk of content regression and
-can be batched into a single bulk-update Gerrit topic.
+can be batched into a single bulk-update topic.
 
 Update central doc repository constraints
 ------------------------------------------
@@ -517,51 +453,3 @@ Once all downstream repositories have been cleaned up, the central
    ``docs/requirements-docs.txt``
 2. Remove them from ``etc/upper-constraints.onap.txt``
 3. Add ``sphinxcontrib-mermaid`` to both files (if not already present)
-
-Ask of the TSC
-==============
-
-1. **Review and approve** `Gerrit 143518
-   <https://gerrit.onap.org/r/c/vnfrqts/requirements/+/143518>`_
-   (``vnfrqts/requirements`` --- 4 seqdiag → mermaid conversions).
-   This is the last content-migration change.  A committer from the
-   VNF Requirements project is needed for Code-Review +2.
-
-2. **Acknowledge** that the 4 already-merged changes (buscontroller,
-   datarouter, sdc, sdnc/oam) are complete.
-
-3. **Approve the plan** to batch-clean the remaining 32 config-only
-   repositories as a follow-up Gerrit topic.
-
-Timeline
-========
-
-.. list-table::
-   :header-rows: 1
-   :widths: 20 60 20
-
-   * - Date
-     - Milestone
-     - Status
-   * - 2026-03-02
-     - Root cause analysis of Pillow/blockdiag incompatibility
-     - ✅ Done
-   * - 2026-03-03
-     - Audit of all ONAP repos for live blockdiag/seqdiag directives
-     - ✅ Done
-   * - 2026-03-03
-     - Migration guide published in ``onap/doc``
-     - ✅ Done
-   * - 2026-03-04
-     - Gerrit changes for dmaap/buscontroller, dmaap/datarouter,
-       sdc, sdnc/oam
-     - ✅ Merged
-   * - 2026-03-05
-     - Gerrit change for vnfrqts/requirements (4 seqdiag diagrams)
-     - ⏳ WIP
-   * - TBD
-     - Bulk config-only cleanup of 32 repositories
-     - 📋 Planned
-   * - TBD
-     - Update central doc repo constraints
-     - 📋 Planned
