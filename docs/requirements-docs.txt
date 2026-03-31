@@ -14,7 +14,6 @@ sphinxcontrib-openapi>=0.8.4
 
 # Quality & tooling
 sphinxcontrib-spelling>=8.0.0
-sphinx-toolbox>=3.5.0
 
 # Code quality tools
 autopep8>=2.0.0

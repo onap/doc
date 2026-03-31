@@ -21,6 +21,7 @@ contribute to the ONAP documentation project.
    diagrams-blockdiag-to-mermaid
    tsc-blockdiag-mermaid-migration-report
    needs-sphinxcontrib-to-sphinx-needs
+   sphinx-toolbox-collapse-removal
    api-swagger-guide
    api-swagger-json-pointer-fix
    templates/index

@@ -17,7 +17,6 @@ sphinx-needs==7.0.0
 
 # Quality & tooling
 sphinxcontrib-spelling==8.0.0
-sphinx-toolbox==3.5.0
 
 # Code quality tools
 autopep8==2.3.1
