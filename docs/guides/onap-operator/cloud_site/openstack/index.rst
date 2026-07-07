@@ -280,7 +280,7 @@ parameter "complex-name" relate to the Complex you previously declared.
 
 parameter "cloud-type" take the value "openstack"
 
-parameter "cloud-region-version" is refering to your Openstack version
+parameter "cloud-region-version" is referring to your Openstack version
 
 parameter "cloud-extra-info" will contain the Openstack "region".
 Here, the region ID of the deployed Openstack cloud site will be set.
@@ -406,7 +406,7 @@ check registration:
   -H 'X-FromAppId: jimmy-postman' \
   -H 'X-TransactionId: 9999' -k
 
-The registration is successfull if at least, the field `identity-url` is
+The registration is successful if at least, the field `identity-url` is
 updated with the multicloud http url. In addition, all the cloud information
 are loaded in AAI (Flavors, images, etc) but only
 

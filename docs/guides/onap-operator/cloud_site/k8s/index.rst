@@ -219,7 +219,7 @@ The k8s site (K8S_Cloud_Region_Name) associated to the cloud owner
   -H 'Content-Type: application/json' -k
 
 
-The registration is successfull if the answer is : 202 Accepted.
+The registration is successful if the answer is : 202 Accepted.
 
 Looking at the log of windriver multicloud pod, some errors are raised due to
 the fact that the pod attempts to contact the dummy openstack tenant.
